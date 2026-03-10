@@ -2,7 +2,7 @@
 {
     internal const string GetById = """
         SELECT
-            id            AS Id,
+            id            AS id,
             name          AS name
         FROM ingredients
         WHERE id = @id
@@ -10,7 +10,7 @@
     """;
 
     internal const string GetAll = """
-        SELECT id as Id, name as name from ingredients
+        SELECT id as id, name as name from ingredients
         ORDER BY id DESC;
         """;
 

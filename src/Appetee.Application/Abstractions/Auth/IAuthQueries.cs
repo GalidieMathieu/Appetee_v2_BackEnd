@@ -1,11 +1,9 @@
-﻿using Appetee.Application.Dtos;
-using Appetee.Application.Models;
-using Appetee.Application.Models.Auth;
+﻿using Appetee.Application.Models.Auth;
+using Appetee.Application.Requests.Auth;
 
 namespace Appetee.Application.Abstractions.Auth;
-/*
+
 public interface IAuthQueries
 {
-    Task<AuthUserRow?> GetUserForLoginAsync(string identifier, CancellationToken ct);
-    Task<int?> GetUserIdBySessionTokenAsync(string sessionToken, CancellationToken ct);
-}*/
+   Task<AuthResult> LoginAsync(LoginRequest user, CancellationToken ct);
+}

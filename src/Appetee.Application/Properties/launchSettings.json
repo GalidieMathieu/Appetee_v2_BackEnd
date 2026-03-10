@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "Appetee.Application": {
+      "commandName": "Project"
+    },
+    "Profile 1": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\galid\\Documents\\Appetee\\Backend\\src\\Appetee.Api\\Program.cs"
+    }
+  }
+}

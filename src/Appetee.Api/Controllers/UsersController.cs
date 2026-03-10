@@ -1,7 +1,13 @@
 using Appetee.Application.Dtos;
+using Appetee.Application.Models.Auth;
 using Appetee.Application.Requests;
+using Appetee.Application.Services.Auth;
 using Appetee.Application.Services.Users;
+using Appetee.Application.utils;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
+using static System.Collections.Specialized.BitVector32;
 
 namespace Appetee.Api.Controllers;
 
@@ -10,8 +16,12 @@ namespace Appetee.Api.Controllers;
 public sealed class UsersController : ControllerBase
 {
     private readonly IUserService _users;
+    private readonly IAuthService _authService;
 
-    public UsersController(IUserService users) => _users = users;
+    public UsersController(IUserService users, IAuthService authService) {
+        _users = users;
+        _authService = authService;
+    }
 
     [HttpGet("{id:int}")]
     public async Task<ActionResult<UserDto>> GetById(int id, CancellationToken ct)
@@ -29,9 +39,35 @@ public sealed class UsersController : ControllerBase
         if (!System.Net.Mail.MailAddress.TryCreate(email, out _)) return BadRequest("Email must be valid.");
 
 
-        var exists = await _users.ExistsByEmailAsync(email, ct);  
+        var exists = await _users.ExistsByEmailAsync(email, ct);
         return Ok(new { exists }); ;
     }
+
+    [Authorize]
+    [HttpGet("me")]
+    public async Task<ActionResult<UserDto>> getMe(CancellationToken ct)
+    {
+        //We will handle cookie and auth in GetMe
+        UserSessionDto? session = _authService.GetSession(HttpContext);
+        if (session is null)
+        {
+            throw new UnauthorizedException("Missing or invalid authentication cookie.");
+        }
+        int userId = session.userId;
+        if (userId <= 0)
+        {
+            throw new UnauthorizedException("Missing or invalid authentication cookie.");
+        }
+
+        var User = await _users.GetByIdAsync(userId, ct);
+
+        // Treat as invalid session/cookie
+        if (User is null)
+            throw new UnauthorizedException("Session is no longer valid.");
+
+        return User is null ? NotFound() : Ok(User);
+    }
+
 
     // GET /api/users?skip=0&take=20
     [HttpGet]

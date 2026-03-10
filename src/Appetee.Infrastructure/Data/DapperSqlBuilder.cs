@@ -27,7 +27,7 @@ namespace Appetee.Infrastructure.Data
             }
 
             var sql = $"""
-                INSERT INTO user_ingredients (user_id, ingredient_id)
+                INSERT INTO user_ingredient_restrictions (user_id, ingredient_id)
                 VALUES {string.Join(", ", values)};
                 """;
 

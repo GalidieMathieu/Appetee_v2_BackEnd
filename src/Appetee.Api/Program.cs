@@ -2,7 +2,6 @@ using Appetee.Application.Abstractions.Auth;
 using Appetee.Application.Abstractions.Diets;
 using Appetee.Application.Abstractions.Ingredients;
 using Appetee.Application.Abstractions.Users;
-using Appetee.Application.Options;
 using Appetee.Application.Services.Auth;
 using Appetee.Application.Services.Diets;
 using Appetee.Application.Services.Ingredients;
@@ -16,13 +15,27 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Services.AddControllers();
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AngularFront", p =>
+        p.WithOrigins("https://localhost:4200")
+         .AllowAnyHeader()
+         .AllowAnyMethod()
+    .AllowCredentials()); //for cookie, later
+
+});
+
+
 //cookie
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
         options.Cookie.Name = "__Host-appetee";
+        options.Cookie.Path = "/";
         options.Cookie.HttpOnly = true;
-        options.Cookie.SameSite = SameSiteMode.Lax; // or None if cross-site
+        options.Cookie.SameSite = SameSiteMode.None; // or None if cross-site
         options.Cookie.SecurePolicy = CookieSecurePolicy.Always; // use HTTPS
         options.ExpireTimeSpan = TimeSpan.FromDays(14); //two weeks before cookie expire TODO change to 30 minutes until user check "keep being looged in"
         options.SlidingExpiration = true;
@@ -38,19 +51,8 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         };
     });
 
-builder.Services.AddControllers();
+builder.Services.AddAuthorization();
 
-// CORS is not required for Postman.
-// When you start calling this API from Angular (browser), uncomment and set your frontend origin.
- builder.Services.AddCors(options =>
- {
-     options.AddPolicy("AngularFront", p =>
-         p.WithOrigins("http://localhost:4200")
-          .AllowAnyHeader()
-          .AllowAnyMethod()
-     .AllowCredentials()); //for cookie, later
-
- });
 
 // Infrastructure
 builder.Services.AddScoped<IDbConnectionFactory>(_ =>
@@ -64,6 +66,7 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 //Auth
 builder.Services.AddScoped<IAuthRepository, AuthRepository>();
+builder.Services.AddScoped<IAuthQueries, AuthQueries>();
 builder.Services.AddSingleton<IPasswordHasher, AspNetIdentityPasswordHasher>();
 builder.Services.AddSingleton<IAuthCookieService, AuthCookieService>();
 
@@ -83,40 +86,29 @@ builder.Services.AddScoped<IDietService, DietService>();
 //Ingredients
 builder.Services.AddScoped<IIngredientService, IngredientService>();
 
-//##################### Options #####################
-// Options binding
-builder.Services.Configure<AuthSessionOptions>(
-    builder.Configuration.GetSection("AuthSession"));
-
-builder.Services.Configure<AuthCookieOptions>(
-    builder.Configuration.GetSection("AuthCookie"));
 
 
 var app = builder.Build();
+app.UseExceptionHandler("/error");
 
-if (!app.Environment.IsDevelopment())
-{
-    app.UseHttpsRedirection();
-    app.UseHsts();
-}
+app.UseHttpsRedirection();
+if (!app.Environment.IsDevelopment()) app.UseHsts();
 
-// Security headers (API-safe baseline)
+// Security headers
 app.Use(async (ctx, next) =>
 {
     ctx.Response.Headers.TryAdd("X-Content-Type-Options", "nosniff");
     ctx.Response.Headers.TryAdd("X-Frame-Options", "DENY");
     ctx.Response.Headers.TryAdd("Referrer-Policy", "no-referrer");
-    // Optional for pure API:
-    // ctx.Response.Headers.TryAdd("Content-Security-Policy", "default-src 'none'; frame-ancestors 'none';");
     await next();
 });
 app.UseRouting();
 
 app.UseCors("AngularFront");
 
-app.MapControllers();
 app.UseAuthentication();
 app.UseAuthorization();
-app.UseExceptionHandler("/error");
+app.MapControllers();
+
 
 app.Run();

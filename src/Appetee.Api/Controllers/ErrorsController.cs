@@ -1,4 +1,4 @@
-﻿using Appetee.Infrastructure.Data;
+﻿using Appetee.Application.utils;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.WebUtilities;

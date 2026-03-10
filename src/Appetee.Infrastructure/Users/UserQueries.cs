@@ -2,6 +2,7 @@ using Appetee.Application.Dtos;
 using Appetee.Infrastructure.Data;
 using Appetee.Application.Abstractions.Users;
 using Dapper;
+using Appetee.Application.RowData;
 
 namespace Appetee.Infrastructure.Users;
 
@@ -15,10 +16,26 @@ public sealed class UserQueries : IUserQueries
     {
         using var conn = await _db.CreateOpenConnectionAsync(ct);
 
-        return await conn.QuerySingleOrDefaultAsync<UserDto>(
-            new CommandDefinition(UserSql.GetById, new { id }, cancellationToken: ct)
+        using var grid = await conn.QueryMultipleAsync(
+       new CommandDefinition(UserSql.GetUserWithPreferencesById, new { id }, cancellationToken: ct)
         );
+
+        // 1) user row
+        var userBase = await grid.ReadSingleOrDefaultAsync<UserBaseRow>();
+        if (userBase is null) return null;
+
+        var dietIds = (await grid.ReadAsync<int>()).AsList();
+        var ingredientIds = (await grid.ReadAsync<int>()).AsList();
+
+        return new UserDto(
+           id: userBase.Id,
+           username: userBase.Username,
+           email: userBase.Email,
+           dietIds: dietIds.Count == 0 ? null : dietIds,
+           ingredientRestrictionIds: ingredientIds.Count == 0 ? null : ingredientIds
+       );
     }
+
 
     public async Task<bool> checkExistByEmailAsync(string email, CancellationToken ct)
     {

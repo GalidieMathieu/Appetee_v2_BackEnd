@@ -2,7 +2,7 @@ internal static class DietSql
 {
     internal const string GetById = """
         SELECT
-            id            AS Id,
+            id            AS id,
             name          AS name
         FROM diets
         WHERE id = @id
@@ -10,7 +10,9 @@ internal static class DietSql
     """;
 
     internal const string GetAll = """
-        SELECT * from diets
+        SELECT id            AS id,
+                name          AS name
+                FROM diets
         ORDER BY id DESC;
         """;
     internal const string GetSomeByIds ="""

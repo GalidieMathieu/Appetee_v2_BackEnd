@@ -6,13 +6,20 @@ internal static class UserSql
         SELECT
             id            AS Id,
             username      AS Username,
-            display_name  AS DisplayName,
-            email         AS Email,
-            image_url     AS ImageUrl
+            email         AS Email
         FROM users
         WHERE id = @id
         LIMIT 1;
     """;
+
+    internal const string GetIngredientUserByID = """
+        SELECT *  FROM user_ingredient_restrictions
+        WHERE user_id = @id
+        """;
+    internal const string GetDietFromUserById = """
+        SELECT *  FROM user_diets
+        WHERE user_id = @id
+        """;
 
     internal const string CheckExistByEmail = """
     SELECT EXISTS(
@@ -22,6 +29,28 @@ internal static class UserSql
         LIMIT 1
     );
     """;
+
+    internal const string GetUserWithPreferencesById = """
+        SELECT
+            id       AS Id,
+            username AS Username,
+            email    AS Email
+        FROM users
+        WHERE id = @id
+        LIMIT 1;
+
+        SELECT diet_id
+        FROM user_diets
+        WHERE user_id = @id
+        ORDER BY diet_id;
+
+        SELECT ingredient_id
+        FROM user_ingredient_restrictions
+        WHERE user_id = @id
+        ORDER BY ingredient_id;
+        """;
+
+
 
     internal const string List = """
         SELECT
@@ -37,11 +66,14 @@ internal static class UserSql
         LIMIT @take OFFSET @skip;
     """;
 
-    internal const string Create = """
-        INSERT INTO users (username, display_name, email, password_hash, image_url)
-        VALUES (@username, @displayName, @email, @passwordHash, @imageUrl);
-        SELECT LAST_INSERT_ID();
-    """;
+    internal const string DeleteIngredientUserByID = """
+        DELETE FROM user_ingredient_restrictions
+        WHERE user_id = @id
+        """;
+    internal const string DeleteDietFromUserById = """
+        DELETE FROM user_diets
+        WHERE user_id = @id
+        """;
 
     internal const string UpdateProfile = """
         UPDATE users

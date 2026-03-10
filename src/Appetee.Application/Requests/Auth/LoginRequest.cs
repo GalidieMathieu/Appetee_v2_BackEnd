@@ -1,6 +1,12 @@
 ﻿namespace Appetee.Application.Requests.Auth;
 
 public sealed record LoginRequest(
-    string Identifier, // username OR email
+    string Email,
     string Password
+);
+
+public sealed record LoginRow(
+    int Id, 
+    string Username,
+    string PasswordHash
 );

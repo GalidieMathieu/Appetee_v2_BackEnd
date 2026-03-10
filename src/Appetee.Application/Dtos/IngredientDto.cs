@@ -1,7 +1,7 @@
 ﻿namespace Appetee.Application.Dtos
 {
     public sealed record IngredientDto(
-        int Id,
-        string Name
+        int id,
+        string name
     );
 }

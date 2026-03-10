@@ -3,6 +3,7 @@ using Appetee.Application.Models.Auth;
 using Appetee.Application.Requests;
 using Appetee.Application.Requests.Auth;
 using Appetee.Application.Services.Auth;
+using Appetee.Application.utils;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Appetee.Api.Controllers
@@ -18,10 +19,34 @@ namespace Appetee.Api.Controllers
         [HttpPost("sign-up")]
         public async Task<ActionResult<AuthResult>> SignUp([FromBody] SignUpRequest request, CancellationToken ct)
         {
+            Console.WriteLine(request);
             var authResult = await _authService.SignUpAsync(HttpContext, request, ct);
             return Ok(authResult);
         }
 
+        [HttpPost("login")]
+        public async Task<ActionResult<AuthResult>> login([FromBody] LoginRequest request, CancellationToken ct)
+        {
+            Console.WriteLine(request);
+            var authResult = await _authService.LogInAsync(HttpContext, request, ct);
+            return Ok(authResult);
+        }
+
+        [HttpGet("session")]
+        public async Task<ActionResult<UserSessionDto>> session(CancellationToken ct)
+        {
+            var session = _authService.GetSession(HttpContext);
+            if (session is null)
+            {
+                throw new UnauthorizedException("Missing or invalid authentication cookie.");
+            }
+            int userId = session.userId;
+            if (userId <= 0)
+            {
+                throw new UnauthorizedException("Missing or invalid authentication cookie.");
+            }
+            return Ok(session);
+        }
         /*
         // GET /api/users?skip=0&take=20
         [HttpGet]

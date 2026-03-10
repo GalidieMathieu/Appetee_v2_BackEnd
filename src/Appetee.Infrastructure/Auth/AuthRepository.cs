@@ -1,11 +1,10 @@
 ﻿using Appetee.Application.Abstractions.Auth;
 using Appetee.Infrastructure.Data;
+using Appetee.Infrastructure.Users;
 using Dapper;
 using MySqlConnector;
-using System;
-using System.Collections.Generic;
 using System.Data.Common;
-using System.Text;
+using Appetee.Application.utils;
 
 namespace Appetee.Infrastructure.Auth
 {
@@ -107,8 +106,8 @@ namespace Appetee.Infrastructure.Auth
 
                 //3.3 Cleaning diets : 
                 await conn.ExecuteAsync(new CommandDefinition(
-                    DietSql.DeleteById,
-                    new { UserId = userId },
+                    UserSql.DeleteDietFromUserById,
+                    new { id = userId },
                     transaction: tx,
                     cancellationToken: ct
                 ));
@@ -125,7 +124,7 @@ namespace Appetee.Infrastructure.Auth
                 }
 
                 // 5 cleaning ingredients : 
-                await conn.ExecuteAsync(new CommandDefinition(IngredientSql.deleteAll,
+                await conn.ExecuteAsync(new CommandDefinition(UserSql.DeleteIngredientUserByID,
                     new { id = userId },
                     transaction: tx,
                     cancellationToken: ct));
