@@ -19,4 +19,58 @@
         """;
 
     internal const string deleteAll = """DELETE FROM ingredients WHERE id = @id""";
+
+    internal const string CreateIngredient = """
+        INSERT INTO ingredients (name)
+        VALUES (@Name);
+        SELECT LAST_INSERT_ID();
+    """;
+
+    internal const string CreateIngredientDetails = """
+        INSERT INTO ingredient_nutrition (
+            ingredient_id,
+            basis,
+            calories_kcal,
+            protein_g,
+            fat_g,
+            carbs_g,
+            sugar_g,
+            fiber_g,
+            sodium_mg,
+            vitamin_c_mg,
+            iron_mg
+        ) VALUES (
+            @IngredientId,
+            @Basis,
+            @CaloriesKcal,
+            @ProteinG,
+            @FatG,
+            @CarbsG,
+            @SugarG,
+            @FiberG,
+            @SodiumMg,
+            @VitaminCMg,
+            @IronMg
+        );
+    """;
+
+    internal const string GetWithDetailsById = """
+        SELECT
+            i.id            AS Id,
+            i.name          AS Name,
+            d.basis         AS Basis,
+            d.calories_kcal AS CaloriesKcal,
+            d.protein_g     AS ProteinG,
+            d.fat_g         AS FatG,
+            d.carbs_g       AS CarbsG,
+            d.sugar_g       AS SugarG,
+            d.fiber_g       AS FiberG,
+            d.sodium_mg     AS SodiumMg,
+            d.vitamin_c_mg  AS VitaminCMg,
+            d.iron_mg       AS IronMg
+        FROM ingredients i
+        LEFT JOIN ingredient_nutrition d ON d.ingredient_id = i.id
+        WHERE i.id = @id
+        LIMIT 1;
+    """;
 }

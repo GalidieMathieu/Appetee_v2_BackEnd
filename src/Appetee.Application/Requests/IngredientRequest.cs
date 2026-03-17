@@ -1,14 +1,10 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-namespace Appetee.Application.Dtos
+namespace Appetee.Application.Requests
 {
-    public sealed record IngredientDto(
-        int id,
-        string name
-    );
-
-    public sealed record IngredientAdminDetailDto(
-     int Id,
+    public sealed record IngredientAdminDetailRequest(
      string Name,
      decimal Basis,
      decimal CaloriesKcal,
@@ -22,5 +18,3 @@ namespace Appetee.Application.Dtos
      decimal? IronMg
     );
 }
-
-
