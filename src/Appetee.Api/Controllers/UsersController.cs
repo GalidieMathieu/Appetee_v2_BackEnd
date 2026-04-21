@@ -6,8 +6,6 @@ using Appetee.Application.Services.Users;
 using Appetee.Application.utils;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Security.Claims;
-using static System.Collections.Specialized.BitVector32;
 
 namespace Appetee.Api.Controllers;
 

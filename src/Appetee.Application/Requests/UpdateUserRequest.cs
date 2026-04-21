@@ -4,6 +4,6 @@ namespace Appetee.Application.Requests;
 /// Profile update request. Null values mean "do not change".
 /// </summary>
 public sealed record UpdateUserRequest(
-    string? DisplayName,
+    string? Username,
     string? ImageUrl
 );

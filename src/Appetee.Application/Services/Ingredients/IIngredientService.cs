@@ -10,7 +10,7 @@ namespace Appetee.Application.Services.Ingredients
 
         Task<IngredientAdminDetailDto?> GetIngredientWithDetailsByIdAsync(int id, CancellationToken ct);
 
-        Task<ActionResult<IngredientAdminDetailDto>> CreateIngredientWithDetailsAsync(
+        Task<IngredientAdminDetailDto?> CreateIngredientWithDetailsAsync(
             IngredientAdminDetailRequest request, 
             CancellationToken ct);
     }

@@ -1,44 +1,98 @@
 using Appetee.Application.Abstractions.Auth;
 using Appetee.Application.Abstractions.Diets;
 using Appetee.Application.Abstractions.Ingredients;
+using Appetee.Application.Abstractions.Recipes;
 using Appetee.Application.Abstractions.Users;
 using Appetee.Application.Services.Auth;
 using Appetee.Application.Services.Diets;
 using Appetee.Application.Services.Ingredients;
+using Appetee.Application.Services.Recipes;
 using Appetee.Application.Services.Users;
 using Appetee.Infrastructure.Auth;
 using Appetee.Infrastructure.Data;
 using Appetee.Infrastructure.Diets;
 using Appetee.Infrastructure.Ingredients;
+using Appetee.Infrastructure.Recipes;
 using Appetee.Infrastructure.Users;
+using Azure.Identity;
+using Azure.Storage.Blobs;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Appetee.Application.utils;
+using Microsoft.OpenApi.Models;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// --------------------------------------------------
+// Configuration values (from appsettings.json / environment)
+// --------------------------------------------------
+
+var allowedOrigins = builder.Configuration
+    .GetSection("Cors:AllowedOrigins")
+    .Get<string[]>() ?? Array.Empty<string>();
+
+var cookieName = builder.Configuration["Authentication:CookieName"] ?? "__Host-appetee";
+var cookieExpireDays = builder.Configuration.GetValue<int>("Authentication:ExpireDays", 14);
+var slidingExpiration = builder.Configuration.GetValue<bool>("Authentication:SlidingExpiration", true);
+
+var storageAccountUrl = builder.Configuration["AzureStorage:AccountUrl"]
+    ?? throw new InvalidOperationException("Missing configuration: AzureStorage:AccountUrl");
+
+// --------------------------------------------------
+// Core services
+// --------------------------------------------------
+
 builder.Services.AddControllers();
 
+// Swagger/OpenAPI
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new OpenApiInfo { Title = "Appetee API", Version = "v1" });
+
+    // Include XML comments if project emits them
+    var xmlFile = $"{Assembly.GetEntryAssembly()?.GetName().Name}.xml";
+    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+    if (File.Exists(xmlPath))
+    {
+        options.IncludeXmlComments(xmlPath);
+    }
+});
+
+// Read config-driven CORS origins
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AngularFront", p =>
-        p.WithOrigins("https://localhost:4200")
-         .AllowAnyHeader()
-         .AllowAnyMethod()
-    .AllowCredentials()); //for cookie, later
-
+    {
+        if (allowedOrigins.Length == 0)
+        {
+            // If no origins configured, allow any origin (no credentials).
+            p.AllowAnyOrigin()
+             .AllowAnyHeader()
+             .AllowAnyMethod();
+        }
+        else
+        {
+            // If origins are configured, use them and allow credentials for cookies.
+            p.WithOrigins(allowedOrigins)
+             .AllowAnyHeader()
+             .AllowAnyMethod()
+             .AllowCredentials();
+        }
+    });
 });
 
-
-//cookie
+// Cookie authentication
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
-        options.Cookie.Name = "__Host-appetee";
+        options.Cookie.Name = cookieName;
         options.Cookie.Path = "/";
         options.Cookie.HttpOnly = true;
-        options.Cookie.SameSite = SameSiteMode.None; // or None if cross-site
-        options.Cookie.SecurePolicy = CookieSecurePolicy.Always; // use HTTPS
-        options.ExpireTimeSpan = TimeSpan.FromDays(14); //two weeks before cookie expire TODO change to 30 minutes until user check "keep being looged in"
-        options.SlidingExpiration = true;
+        options.Cookie.SameSite = SameSiteMode.None; // required for cross-site cookie usage with credentials
+        options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+        options.ExpireTimeSpan = TimeSpan.FromDays(cookieExpireDays);
+        options.SlidingExpiration = slidingExpiration;
         options.Events.OnRedirectToLogin = ctx =>
         {
             ctx.Response.StatusCode = StatusCodes.Status401Unauthorized;
@@ -51,13 +105,28 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
         };
     });
 
+// BlobServiceClient from configured account URL
+builder.Services.AddSingleton(sp =>
+{
+    // Use storageAccountUrl read above
+    var accountUri = new Uri(storageAccountUrl);
+    if (!string.IsNullOrEmpty(accountUri.AbsolutePath.Trim('/')))
+    {
+        accountUri = new UriBuilder(accountUri) { Path = "" }.Uri;
+    }
+
+    return new BlobServiceClient(accountUri, new DefaultAzureCredential());
+});
+
+builder.Services.AddScoped<IBlobStorageService, BlobStorageService>();
 builder.Services.AddAuthorization();
 
+// Connection string: prefer "AppeteeDb" (development), fall back to "Default"
+var connectionString = builder.Configuration.GetConnectionString("AppeteeDb")
+    ?? builder.Configuration.GetConnectionString("Default")
+    ?? throw new InternalServerException("Missing connection string: AppeteeDb or Default");
 
-// Infrastructure
-builder.Services.AddScoped<IDbConnectionFactory>(_ =>
-    new DbConnectionFactory(builder.Configuration.GetConnectionString("AppeteeDb")
-        ?? throw new InvalidOperationException("Missing connection string: AppeteeDb")));
+builder.Services.AddScoped<IDbConnectionFactory>(_ => new DbConnectionFactory(connectionString));
 
 //##################### Infra implementation #####################
 //Users
@@ -75,6 +144,8 @@ builder.Services.AddScoped<IDietQueries, DietQueries>();
 
 //Ingredients
 builder.Services.AddScoped<IIngredientQueries, IngredientQueries>();
+//Recipes
+builder.Services.AddScoped<IRecipeQueries, RecipeQueries>();
 
 //##################### Application implementation #####################
 // Users
@@ -85,14 +156,25 @@ builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IDietService, DietService>();
 //Ingredients
 builder.Services.AddScoped<IIngredientService, IngredientService>();
-
-
+//Recipes
+builder.Services.AddScoped<IRecipeService, RecipeService>();
 
 var app = builder.Build();
 app.UseExceptionHandler("/error");
 
 app.UseHttpsRedirection();
 if (!app.Environment.IsDevelopment()) app.UseHsts();
+
+// in the request pipeline
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Appetee API v1");
+        // c.RoutePrefix = string.Empty; // uncomment to serve UI at app root
+    });
+}
 
 // Security headers
 app.Use(async (ctx, next) =>
@@ -110,5 +192,7 @@ app.UseAuthentication();
 app.UseAuthorization();
 app.MapControllers();
 
-
 app.Run();
+
+// Expose Program for WebApplicationFactory integration tests.
+public partial class Program { }

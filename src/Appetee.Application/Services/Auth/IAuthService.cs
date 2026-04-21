@@ -10,6 +10,7 @@ namespace Appetee.Application.Services.Auth
         Task<AuthResult> SignUpAsync(HttpContext http, SignUpRequest request, CancellationToken ct);
 
         Task<AuthResult> LogInAsync(HttpContext http, LoginRequest request ,  CancellationToken ct);
+        Task LogOutAsync(HttpContext http, CancellationToken ct);
         UserSessionDto? GetSession(HttpContext context);  
 
 

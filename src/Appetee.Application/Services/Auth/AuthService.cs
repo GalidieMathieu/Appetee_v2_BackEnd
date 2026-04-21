@@ -5,6 +5,7 @@ using Appetee.Application.Models.Auth;
 using Appetee.Application.Requests.Auth;
 using Appetee.Application.utils;
 using Microsoft.AspNetCore.Http;
+using System.Net.Mail;
 
 namespace Appetee.Application.Services.Auth
 {
@@ -37,6 +38,9 @@ namespace Appetee.Application.Services.Auth
             if (string.IsNullOrWhiteSpace(request.Email))
                 throw new ValidationException("Email is required.");
 
+            if (!MailAddress.TryCreate(request.Email, out _))
+                throw new ValidationException("Email must be valid.");
+
             if (string.IsNullOrWhiteSpace(request.Password))
                 throw new ValidationException("Password is required.");
 
@@ -64,7 +68,10 @@ namespace Appetee.Application.Services.Auth
         {
             // Minimal validation (keep consistent with your existing validation approach)
             if (string.IsNullOrWhiteSpace(request.Email))
-                throw new ValidationException("Username is required.");
+                throw new ValidationException("Email is required.");
+
+            if (!MailAddress.TryCreate(request.Email, out _))
+                throw new ValidationException("Email must be valid.");
 
             if (string.IsNullOrWhiteSpace(request.Password))
                 throw new ValidationException("Password is required.");
@@ -81,6 +88,9 @@ namespace Appetee.Application.Services.Auth
 
             return userAuth;
         }
+
+        public Task LogOutAsync(HttpContext http, CancellationToken ct) =>
+            _cookieService.SignOutAsync(http);
 
         public UserSessionDto? GetSession(HttpContext context)
         {

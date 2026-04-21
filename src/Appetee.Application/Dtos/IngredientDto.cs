@@ -1,4 +1,5 @@
-﻿using static System.Runtime.InteropServices.JavaScript.JSType;
+﻿using Microsoft.AspNetCore.Http;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Appetee.Application.Dtos
 {
@@ -12,6 +13,8 @@ namespace Appetee.Application.Dtos
      string Name,
      decimal Basis,
      decimal CaloriesKcal,
+     decimal Price,
+     string? ImageUrl,
      decimal? ProteinG,
      decimal? FatG,
      decimal? CarbsG,

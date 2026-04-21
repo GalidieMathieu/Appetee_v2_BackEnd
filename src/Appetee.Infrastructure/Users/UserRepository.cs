@@ -18,7 +18,7 @@ public sealed class UserRepository : IUserRepository
         var affected = await conn.ExecuteAsync(
             new CommandDefinition(
                 UserSql.UpdateProfile,
-                new { id, displayName = request.DisplayName, imageUrl = request.ImageUrl },
+                new { id, username = request.Username, imageUrl = request.ImageUrl },
                 cancellationToken: ct
             )
         );

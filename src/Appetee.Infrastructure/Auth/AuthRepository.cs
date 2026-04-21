@@ -68,7 +68,7 @@ namespace Appetee.Infrastructure.Auth
 
                 if(userId <= 0)
                 {
-                    throw new InvalidOperationException("invalid USer, creation Failed");
+                    throw new InternalServerException("Invalid user, creation failed");
                 }
 
                 //3) Cleaning dietUSer and ingredient USer

@@ -32,6 +32,13 @@ namespace Appetee.Api.Controllers
             return Ok(authResult);
         }
 
+        [HttpPost("logout")]
+        public async Task<IActionResult> logout(CancellationToken ct)
+        {
+            await _authService.LogOutAsync(HttpContext, ct);
+            return NoContent();
+        }
+
         [HttpGet("session")]
         public async Task<ActionResult<UserSessionDto>> session(CancellationToken ct)
         {

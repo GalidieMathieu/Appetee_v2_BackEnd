@@ -16,7 +16,7 @@ namespace Appetee.Application.Services.Ingredients
 
         public Task<IReadOnlyList<IngredientDto>> GetAll(CancellationToken ct) => _queries.GetAllDiets(ct);
 
-        public Task<ActionResult<IngredientAdminDetailDto>> CreateIngredientWithDetailsAsync(
+        public Task<IngredientAdminDetailDto?> CreateIngredientWithDetailsAsync(
             IngredientAdminDetailRequest request,
             CancellationToken ct)
         {
@@ -30,6 +30,12 @@ namespace Appetee.Application.Services.Ingredients
 
             if (request.CaloriesKcal <= 0)
                 throw new ValidationException("kcal cannot be negative");
+
+            if (request.Image is null)
+            {
+                throw new ValidationException("No image for ingredient");
+            }
+
 
             return _queries.CreateIngredientWithDetailsAsync(request , ct);
         }

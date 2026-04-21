@@ -9,6 +9,7 @@ using System.Diagnostics;
 namespace Appetee.Api.Controllers
 {
     [ApiController]
+    [ApiExplorerSettings(IgnoreApi = true)]
     public sealed class ErrorsController : ControllerBase
     {
         private readonly ILogger<ErrorsController> _logger;

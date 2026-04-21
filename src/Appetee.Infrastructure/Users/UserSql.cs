@@ -54,13 +54,9 @@ internal static class UserSql
 
     internal const string List = """
         SELECT
-            id           AS Id,
-            username     AS Username,
-            display_name AS DisplayName,
-            email        AS Email,
-            image_url    AS ImageUrl,
-            created_at   AS CreatedAt,
-            updated_at   AS UpdatedAt
+            id       AS Id,
+            username AS Username,
+            email    AS Email
         FROM users
         ORDER BY id DESC
         LIMIT @take OFFSET @skip;
@@ -78,8 +74,8 @@ internal static class UserSql
     internal const string UpdateProfile = """
         UPDATE users
         SET
-            display_name = COALESCE(@displayName, display_name),
-            image_url    = COALESCE(@imageUrl, image_url)
+            username   = COALESCE(@username, username),
+            image_url  = COALESCE(@imageUrl, image_url)
         WHERE id = @id;
     """;
 

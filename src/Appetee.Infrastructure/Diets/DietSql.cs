@@ -19,6 +19,14 @@ internal static class DietSql
         SELECT id FROM diets WHERE id IN @Ids;
         """;
 
+    internal const string GetByIds = """
+        SELECT
+            id AS id,
+            name AS name
+        FROM diets
+        WHERE id IN @Ids;
+        """;
+
     internal const string Create = """
         INSERT INTO diets (name)
         VALUES (@name);

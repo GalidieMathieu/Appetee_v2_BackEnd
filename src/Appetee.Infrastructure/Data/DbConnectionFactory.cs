@@ -1,5 +1,6 @@
 using System.Data;
 using MySqlConnector;
+using Appetee.Application.utils;
 
 namespace Appetee.Infrastructure.Data;
 
@@ -10,7 +11,7 @@ public sealed class DbConnectionFactory : IDbConnectionFactory
     public DbConnectionFactory(string connectionString)
     {
         if (string.IsNullOrWhiteSpace(connectionString))
-            throw new ArgumentException("Connection string is required.", nameof(connectionString));
+            throw new ValidationException("Connection string is required.");
 
         _connectionString = connectionString;
     }

@@ -49,10 +49,12 @@ public sealed class UserQueries : IUserQueries
     {
         using var conn = await _db.CreateOpenConnectionAsync(ct);
 
-        var rows = await conn.QueryAsync<UserDto>(
+        var rows = await conn.QueryAsync<UserBaseRow>(
             new CommandDefinition(UserSql.List, new { skip, take }, cancellationToken: ct)
         );
 
-        return rows.AsList();
+        return rows
+            .Select(row => new UserDto(row.Id, row.Username, row.Email))
+            .ToList();
     }
 }

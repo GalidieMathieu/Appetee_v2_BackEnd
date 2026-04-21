@@ -18,11 +18,19 @@
         SELECT id FROM ingredients WHERE id IN @Ids;
         """;
 
+    internal const string GetByIds = """
+        SELECT
+            id AS id,
+            name AS name
+        FROM ingredients
+        WHERE id IN @Ids;
+        """;
+
     internal const string deleteAll = """DELETE FROM ingredients WHERE id = @id""";
 
     internal const string CreateIngredient = """
-        INSERT INTO ingredients (name)
-        VALUES (@Name);
+        INSERT INTO ingredients (name, image_blob_name)
+        VALUES (@Name, @ImageBlobName);
         SELECT LAST_INSERT_ID();
     """;
 
@@ -31,6 +39,7 @@
             ingredient_id,
             basis,
             calories_kcal,
+            price,
             protein_g,
             fat_g,
             carbs_g,
@@ -43,6 +52,7 @@
             @IngredientId,
             @Basis,
             @CaloriesKcal,
+            @Price,
             @ProteinG,
             @FatG,
             @CarbsG,
@@ -60,6 +70,8 @@
             i.name          AS Name,
             d.basis         AS Basis,
             d.calories_kcal AS CaloriesKcal,
+            d.price         AS Price,
+            i.image_blob_name AS ImageBlobName,
             d.protein_g     AS ProteinG,
             d.fat_g         AS FatG,
             d.carbs_g       AS CarbsG,

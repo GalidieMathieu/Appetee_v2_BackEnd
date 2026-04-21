@@ -37,4 +37,9 @@ namespace Appetee.Application.utils
         public ConflictException(string message, Exception? inner = null) : base(409, message, inner) { }
     }
 
+    public sealed class InternalServerException : ApiException
+    {
+        public InternalServerException(string message = "An internal server error occurred.", Exception? inner = null)
+            : base(StatusCodes.Status500InternalServerError, message, inner) { }
+    }
 }
