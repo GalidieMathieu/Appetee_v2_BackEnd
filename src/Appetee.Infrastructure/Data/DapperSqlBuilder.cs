@@ -37,11 +37,9 @@ namespace Appetee.Infrastructure.Data
 
         public static (string Sql, DynamicParameters Params) BuildBulkInsertUserDiets(
             int userId,
-            int[] dietIds,
-            bool hasAllergy
+            int[] dietIds
         )
         {
-            // INSERT INTO user_diets (user_id, diet_id, has_allergy) VALUES (@u, @d0, @a0), (@u, @d1, @a1), ...
             var p = new DynamicParameters();
             p.Add("u", userId, DbType.Int32);
 
@@ -49,13 +47,11 @@ namespace Appetee.Infrastructure.Data
             for (var i = 0; i < dietIds.Length; i++)
             {
                 p.Add($"d{i}", dietIds[i], DbType.Int32);
-                p.Add($"a{i}", hasAllergy ? 1 : 0, DbType.Boolean);
-
-                values.Add($"(@u, @d{i}, @a{i})");
+                values.Add($"(@u, @d{i})");
             }
 
             var sql = $"""
-                INSERT INTO user_diets (user_id, diet_id, has_allergy)
+                INSERT INTO user_diets (user_id, diet_id)
                 VALUES {string.Join(", ", values)};
                 """;
 

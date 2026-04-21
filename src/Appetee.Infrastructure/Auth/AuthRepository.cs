@@ -116,8 +116,7 @@ namespace Appetee.Infrastructure.Auth
                 // 4) Update both diet and user : 
                 if (dietIds.Length > 0)
                 {
-                    
-                    var (sql, p) = BulkInsertSql.BuildBulkInsertUserDiets(userId, dietIds, hasAllergy: false);
+                    var (sql, p) = BulkInsertSql.BuildBulkInsertUserDiets(userId, dietIds);
                     await conn.ExecuteAsync(new CommandDefinition(
                         sql, p, transaction: tx, cancellationToken: ct
                         ));

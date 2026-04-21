@@ -53,7 +53,6 @@ VALUES
 INSERT INTO users (
     id,
     username,
-    display_name,
     email,
     password_hash,
     image_url,
@@ -64,7 +63,6 @@ VALUES
     (
         1,
         'ava_seed',
-        'Ava Seed',
         'ava.seed@appetee.test',
         'seed-user-placeholder-hash',
         'https://cdn.test/users/ava.png',
@@ -74,7 +72,6 @@ VALUES
     (
         2,
         'noah_seed',
-        'Noah Seed',
         'noah.seed@appetee.test',
         'seed-user-placeholder-hash',
         'https://cdn.test/users/noah.png',
@@ -82,11 +79,11 @@ VALUES
         UTC_TIMESTAMP()
     );
 
-INSERT INTO user_diets (user_id, diet_id, has_allergy)
+INSERT INTO user_diets (user_id, diet_id)
 VALUES
-    (1, 1, 0),
-    (1, 2, 0),
-    (2, 3, 0);
+    (1, 1),
+    (1, 2),
+    (2, 3);
 
 INSERT INTO user_ingredient_restrictions (user_id, ingredient_id)
 VALUES

@@ -17,11 +17,12 @@ using Appetee.Infrastructure.Users;
 using Azure.Identity;
 using Azure.Storage.Blobs;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Appetee.Application.utils;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
 
-var builder = WebApplication.CreateBuilder(args);
+try
+{
+    var builder = WebApplication.CreateBuilder(args);
 
 // --------------------------------------------------
 // Configuration values (from appsettings.json / environment)
@@ -35,8 +36,8 @@ var cookieName = builder.Configuration["Authentication:CookieName"] ?? "__Host-a
 var cookieExpireDays = builder.Configuration.GetValue<int>("Authentication:ExpireDays", 14);
 var slidingExpiration = builder.Configuration.GetValue<bool>("Authentication:SlidingExpiration", true);
 
-var storageAccountUrl = builder.Configuration["AzureStorage:AccountUrl"]
-    ?? throw new InvalidOperationException("Missing configuration: AzureStorage:AccountUrl");
+var storageAccountUri = GetRequiredAbsoluteUri(builder.Configuration, "AzureStorage:AccountUrl");
+GetRequiredConfigurationValue(builder.Configuration, "AzureStorage:ContainerName");
 
 // --------------------------------------------------
 // Core services
@@ -106,25 +107,16 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
     });
 
 // BlobServiceClient from configured account URL
-builder.Services.AddSingleton(sp =>
+builder.Services.AddSingleton(_ =>
 {
-    // Use storageAccountUrl read above
-    var accountUri = new Uri(storageAccountUrl);
-    if (!string.IsNullOrEmpty(accountUri.AbsolutePath.Trim('/')))
-    {
-        accountUri = new UriBuilder(accountUri) { Path = "" }.Uri;
-    }
-
-    return new BlobServiceClient(accountUri, new DefaultAzureCredential());
+    return new BlobServiceClient(storageAccountUri, new DefaultAzureCredential());
 });
 
 builder.Services.AddScoped<IBlobStorageService, BlobStorageService>();
 builder.Services.AddAuthorization();
 
 // Connection string: prefer "AppeteeDb" (development), fall back to "Default"
-var connectionString = builder.Configuration.GetConnectionString("AppeteeDb")
-    ?? builder.Configuration.GetConnectionString("Default")
-    ?? throw new InternalServerException("Missing connection string: AppeteeDb or Default");
+var connectionString = GetRequiredConnectionString(builder.Configuration);
 
 builder.Services.AddScoped<IDbConnectionFactory>(_ => new DbConnectionFactory(connectionString));
 
@@ -193,6 +185,65 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+}
+catch (Exception ex)
+{
+    var environmentName = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") ?? "Production";
+    Console.Error.WriteLine(
+        $"Application startup failed in environment '{environmentName}'.");
+    Console.Error.WriteLine(ex);
+    throw;
+}
+
+static string GetRequiredConfigurationValue(IConfiguration configuration, string key)
+{
+    var value = configuration[key];
+    if (string.IsNullOrWhiteSpace(value))
+    {
+        throw new InvalidOperationException(
+            $"Missing configuration: {key}. Set it in appsettings or as environment variable '{ToEnvironmentVariableName(key)}'.");
+    }
+
+    return value;
+}
+
+static Uri GetRequiredAbsoluteUri(IConfiguration configuration, string key)
+{
+    var value = GetRequiredConfigurationValue(configuration, key);
+
+    if (!Uri.TryCreate(value, UriKind.Absolute, out var uri))
+    {
+        throw new InvalidOperationException(
+            $"Invalid configuration: {key} must be a valid absolute URI.");
+    }
+
+    if (!string.IsNullOrEmpty(uri.AbsolutePath.Trim('/')))
+    {
+        uri = new UriBuilder(uri) { Path = string.Empty }.Uri;
+    }
+
+    return uri;
+}
+
+static string GetRequiredConnectionString(IConfiguration configuration)
+{
+    var connectionString = configuration.GetConnectionString("AppeteeDb");
+    if (!string.IsNullOrWhiteSpace(connectionString))
+    {
+        return connectionString;
+    }
+
+    connectionString = configuration.GetConnectionString("Default");
+    if (!string.IsNullOrWhiteSpace(connectionString))
+    {
+        return connectionString;
+    }
+
+    throw new InvalidOperationException(
+        "Missing connection string: AppeteeDb or Default. Set 'ConnectionStrings__AppeteeDb' in App Service configuration.");
+}
+
+static string ToEnvironmentVariableName(string key) => key.Replace(":", "__");
 
 // Expose Program for WebApplicationFactory integration tests.
 public partial class Program { }

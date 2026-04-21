@@ -180,7 +180,7 @@
 		name VARCHAR(255) NOT NULL
 	) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-	-- User ↔ diet with has_allergy flag (kept from your earlier model)
+	-- User ↔ diet preferences
 	CREATE TABLE IF NOT EXISTS user_diets (
 		user_id INT NOT NULL,
 		diet_id INT NOT NULL,
@@ -306,7 +306,7 @@
 			CHECK (CHAR_LENGTH(TRIM(unit)) > 0)
 	) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-	-- User avoids ingredients (allergy or taste/dislike)
+	-- User ingredient restrictions
 	CREATE TABLE IF NOT EXISTS user_ingredient_restrictions (
 		user_id INT NOT NULL,
 		ingredient_id INT NOT NULL,
