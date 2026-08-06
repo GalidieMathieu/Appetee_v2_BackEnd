@@ -11,6 +11,7 @@ public sealed record IngredientRowdataAdmin(
     int Id,
     string Name,
     decimal Basis,
+    string BasisUnit,
     decimal CaloriesKcal,
     decimal Price,
     string? ImageBlobName,

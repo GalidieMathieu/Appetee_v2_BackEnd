@@ -38,6 +38,7 @@
         INSERT INTO ingredient_nutrition (
             ingredient_id,
             basis,
+            basis_unit,
             calories_kcal,
             price,
             protein_g,
@@ -51,6 +52,7 @@
         ) VALUES (
             @IngredientId,
             @Basis,
+            @BasisUnit,
             @CaloriesKcal,
             @Price,
             @ProteinG,
@@ -69,6 +71,7 @@
             i.id            AS Id,
             i.name          AS Name,
             d.basis         AS Basis,
+            d.basis_unit    AS BasisUnit,
             d.calories_kcal AS CaloriesKcal,
             d.price         AS Price,
             i.image_blob_name AS ImageBlobName,

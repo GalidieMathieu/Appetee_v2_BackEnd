@@ -5,6 +5,7 @@ using Appetee.Application.utils;
 using Appetee.Application.RowData;
 using Appetee.Infrastructure.Data;
 using Dapper;
+using Microsoft.Extensions.Logging;
 
 namespace Appetee.Infrastructure.Ingredients
 {
@@ -12,10 +13,16 @@ namespace Appetee.Infrastructure.Ingredients
     {
         private readonly IBlobStorageService _blobStorageService;
         private readonly IDbConnectionFactory _db;
-        public IngredientQueries(IDbConnectionFactory db, IBlobStorageService blobStorageService)
+        private readonly ILogger<IngredientQueries> _logger;
+
+        public IngredientQueries(
+            IDbConnectionFactory db,
+            IBlobStorageService blobStorageService,
+            ILogger<IngredientQueries> logger)
         {
             _db = db ?? throw new ValidationException(nameof(db));
             _blobStorageService = blobStorageService ?? throw new ValidationException(nameof(blobStorageService));
+            _logger = logger ?? throw new ValidationException(nameof(logger));
         }
 
         public async Task<IReadOnlyList<IngredientDto>> GetAllDiets(CancellationToken ct)
@@ -34,18 +41,33 @@ namespace Appetee.Infrastructure.Ingredients
             // Upload image first (if provided). Persist blob name to DB.
             string? imageUrl = null;
             string? blobName = null;
+            int? ingredientId = null;
 
             if (request.Image is not null && request.Image.Length > 0)
             {
                 blobName = $"ingredients/{Guid.NewGuid():N}.avif";
                 try
                 {
+                    _logger.LogDebug(
+                        "Beginning ingredient image upload. Blob {BlobName}; Content type {ContentType}; File length {FileLength}",
+                        blobName,
+                        request.Image.ContentType,
+                        request.Image.Length);
+
                     // Upload with cancellation support; don't hold DB transaction during network I/O.
                     using var s = request.Image.OpenReadStream();
                     await _blobStorageService.UploadImageAsAvifAsync(s, blobName, quality: 50, ct).ConfigureAwait(false);
 
                     // Resolve a public URL for immediate use in responses.
                     imageUrl = _blobStorageService.GetUri(blobName).ToString();
+
+                    _logger.LogDebug(
+                        "Ingredient image upload succeeded. Blob {BlobName}",
+                        blobName);
+                }
+                catch (ValidationException)
+                {
+                    throw;
                 }
                 catch (Exception ex)
                 {
@@ -59,7 +81,9 @@ namespace Appetee.Infrastructure.Ingredients
             using var tran = conn.BeginTransaction();
             try
             {
-                var ingredientId = await conn.ExecuteScalarAsync<int>(
+                _logger.LogDebug("Beginning ingredient database transaction. BlobName {BlobName}", blobName);
+
+                ingredientId = await conn.ExecuteScalarAsync<int>(
                     new CommandDefinition(
                         IngredientSql.CreateIngredient,
                         new { Name = request.Name, ImageBlobName = blobName },
@@ -68,6 +92,11 @@ namespace Appetee.Infrastructure.Ingredients
                     )
                 );
 
+                _logger.LogDebug(
+                    "Ingredient row inserted. IngredientId {IngredientId}; BlobName {BlobName}",
+                    ingredientId,
+                    blobName);
+
                 await conn.ExecuteAsync(
                     new CommandDefinition(
                         IngredientSql.CreateIngredientDetails,
@@ -75,6 +104,7 @@ namespace Appetee.Infrastructure.Ingredients
                         {
                             IngredientId = ingredientId,
                             Basis = request.Basis,
+                            BasisUnit = request.BasisUnit,
                             Price = request.Price,
                             CaloriesKcal = request.CaloriesKcal,
                             ProteinG = request.ProteinG,
@@ -91,12 +121,22 @@ namespace Appetee.Infrastructure.Ingredients
                     )
                 );
 
+                _logger.LogDebug(
+                    "Ingredient nutrition details inserted. IngredientId {IngredientId}",
+                    ingredientId);
+
                 tran.Commit();
 
-                var dto = new IngredientAdminDetailDto(
+                _logger.LogInformation(
+                    "Ingredient created successfully. IngredientId {IngredientId}; BlobName {BlobName}",
                     ingredientId,
+                    blobName);
+
+                var dto = new IngredientAdminDetailDto(
+                    ingredientId.Value,
                     request.Name,
                     request.Basis,
+                    request.BasisUnit,
                     request.CaloriesKcal,
                     request.Price,
                     imageUrl,
@@ -112,19 +152,45 @@ namespace Appetee.Infrastructure.Ingredients
 
                 return dto;
             }
-            catch
+            catch (Exception ex)
             {
-                try { tran.Rollback(); } catch { }
+                _logger.LogError(
+                    ex,
+                    "Ingredient creation failed. IngredientId {IngredientId}; BlobName {BlobName}",
+                    ingredientId,
+                    blobName);
+
+                try
+                {
+                    tran.Rollback();
+                    _logger.LogDebug("Ingredient database transaction rolled back. IngredientId {IngredientId}; BlobName {BlobName}", ingredientId, blobName);
+                }
+                catch (Exception rollbackEx)
+                {
+                    _logger.LogError(
+                        rollbackEx,
+                            "Ingredient database transaction rollback failed. IngredientId {IngredientId}; BlobName {BlobName}",
+                            ingredientId,
+                            blobName);
+                }
 
                 // If we uploaded an image but DB work failed, attempt to clean up the uploaded blob.
                 if (!string.IsNullOrWhiteSpace(blobName))
                 {
                     try
                     {
+                        _logger.LogDebug(
+                            "Deleting uploaded ingredient blob after database failure. BlobName {BlobName}",
+                            blobName);
+
                         await _blobStorageService.DeleteAsync(blobName, ct).ConfigureAwait(false);
                     }
-                    catch
+                    catch (Exception cleanupEx)
                     {
+                        _logger.LogWarning(
+                            cleanupEx,
+                            "Failed to delete uploaded ingredient blob after database failure. BlobName {BlobName}",
+                            blobName);
                         // Swallow deletion errors - original DB exception should be propagated.
                     }
                 }
@@ -166,6 +232,7 @@ namespace Appetee.Infrastructure.Ingredients
                 row.Id,
                 row.Name,
                 row.Basis,
+                row.BasisUnit,
                 row.CaloriesKcal,
                 row.Price,
                 imageUrl,

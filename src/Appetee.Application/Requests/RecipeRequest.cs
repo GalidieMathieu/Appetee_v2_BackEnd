@@ -17,7 +17,7 @@ namespace Appetee.Application.Requests
         public decimal CaloriesTotal { get; set; }
         public decimal ProteinTotal { get; set; }
         public decimal CarbsTotal { get; set; }
-        public string Instructions { get; set; } = string.Empty;
+        public List<string> Instructions { get; set; } = [];
         public int PrepTimeMinutes { get; set; }
         public int Servings { get; set; }
         public RecipeDifficulty? Difficulty { get; set; }

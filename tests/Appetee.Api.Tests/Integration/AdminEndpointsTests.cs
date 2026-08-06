@@ -147,7 +147,8 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
         content.Add(new StringContent("540"), "CaloriesTotal");
         content.Add(new StringContent("31"), "ProteinTotal");
         content.Add(new StringContent("20"), "CarbsTotal");
-        content.Add(new StringContent("Mix everything.\nServe."), "Instructions");
+        content.Add(new StringContent("Mix everything."), "Instructions[0]");
+        content.Add(new StringContent("Serve."), "Instructions[1]");
         content.Add(new StringContent("20"), "PrepTimeMinutes");
         content.Add(new StringContent("2"), "Servings");
         content.Add(new StringContent("Easy"), "Difficulty");

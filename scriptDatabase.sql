@@ -59,7 +59,7 @@
 		id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
 		name VARCHAR(255) NOT NULL,
 		image_blob_name VARCHAR(500) NULL,
-		instructions TEXT NOT NULL,
+		instructions JSON NOT NULL,
 		prep_time_minutes INT NOT NULL,
 		servings INT NOT NULL,
 		difficulty VARCHAR(50) NOT NULL,
@@ -76,6 +76,8 @@
 			CHECK (servings > 0),
 		CONSTRAINT chk_recipes_difficulty
 			CHECK (difficulty IN ('Easy', 'Medium', 'Hard')),
+		CONSTRAINT chk_recipes_instructions
+			CHECK (JSON_TYPE(instructions) = 'ARRAY' AND JSON_LENGTH(instructions) > 0),
 		CONSTRAINT chk_recipes_estimated_cost
 			CHECK (estimated_cost_per_serving IS NULL OR estimated_cost_per_serving >= 0),
 		CONSTRAINT chk_recipes_calories_total
@@ -239,7 +241,8 @@
 	-- Nutrition stored per ingredient and recipe totals persisted on recipes
 	CREATE TABLE IF NOT EXISTS ingredient_nutrition (
 		ingredient_id INT NOT NULL,
-		basis DECIMAL(10,2) NOT NULL,  -- this is always in g
+		basis DECIMAL(10,2) NOT NULL,
+		basis_unit VARCHAR(10) NOT NULL,
 		calories_kcal DECIMAL(10,2),
 		price DECIMAL(10,2) NOT NULL,
 		protein_g DECIMAL(10,2) NULL,
@@ -259,6 +262,8 @@
 			ON DELETE CASCADE,
 		CONSTRAINT chk_ingredient_nutrition_basis
 			CHECK (basis > 0),
+		CONSTRAINT chk_ingredient_nutrition_basis_unit
+			CHECK (basis_unit IN ('g', 'ml')),
 		CONSTRAINT chk_ingredient_nutrition_calories
 			CHECK (calories_kcal IS NULL OR calories_kcal >= 0),
 		CONSTRAINT chk_ingredient_nutrition_price

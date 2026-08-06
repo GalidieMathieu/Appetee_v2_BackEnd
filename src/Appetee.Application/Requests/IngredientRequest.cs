@@ -8,6 +8,7 @@ namespace Appetee.Application.Requests
     public sealed record IngredientAdminDetailRequest(
      string Name,
      decimal Basis,
+     string BasisUnit,
      decimal CaloriesKcal,
      IFormFile Image,
      decimal Price,

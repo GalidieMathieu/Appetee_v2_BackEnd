@@ -4,6 +4,7 @@ using Appetee.Application.Requests;
 using Appetee.Application.RowData;
 using Appetee.Application.utils;
 using Appetee.Infrastructure.Data;
+using System.Text.Json;
 
 using Dapper;
 
@@ -18,6 +19,54 @@ namespace Appetee.Infrastructure.Recipes
         {
             _db = db ?? throw new ValidationException(nameof(db));
             _blobStorageService = blobStorageService ?? throw new ValidationException(nameof(blobStorageService));
+        }
+
+        public async Task<IReadOnlyList<RecipeSummaryDto>> GetAllAsync(CancellationToken ct)
+        {
+            using var conn = await _db.CreateOpenConnectionAsync(ct);
+            using var grid = await conn.QueryMultipleAsync(
+                new CommandDefinition(RecipeSql.GetAll, cancellationToken: ct));
+
+            var recipeRows = (await grid.ReadAsync<RecipeSummaryRowData>()).AsList();
+            var dietRows = (await grid.ReadAsync<RecipeDietRowData>()).AsList();
+            var badgeRows = (await grid.ReadAsync<RecipeBadgeRowData>()).AsList();
+            var ingredientRows = (await grid.ReadAsync<RecipeIngredientRowData>()).AsList();
+
+            var dietsByRecipe = dietRows
+                .GroupBy(row => row.RecipeId)
+                .ToDictionary(
+                    group => group.Key,
+                    group => (IReadOnlyList<DietDto>)group
+                        .Select(row => new DietDto(row.Id, row.Name))
+                        .ToList());
+            var badgesByRecipe = badgeRows
+                .GroupBy(row => row.RecipeId)
+                .ToDictionary(
+                    group => group.Key,
+                    group => (IReadOnlyList<string>)group.Select(row => row.Badge).ToList());
+            var ingredientsByRecipe = ingredientRows
+                .GroupBy(row => row.RecipeId)
+                .ToDictionary(
+                    group => group.Key,
+                    group => (IReadOnlyList<IngredientDto>)group
+                        .Select(row => new IngredientDto(row.Id, row.Name))
+                        .ToList());
+
+            return recipeRows.Select(row => new RecipeSummaryDto(
+                Id: row.Id,
+                Name: row.Name,
+                ImageUrl: ResolveBlobUrl(row.ImageBlobName),
+                PrepTimeMinutes: row.PrepTimeMinutes,
+                Servings: row.Servings,
+                Difficulty: row.Difficulty,
+                Badges: badgesByRecipe.GetValueOrDefault(row.Id),
+                Diets: dietsByRecipe.GetValueOrDefault(row.Id),
+                EstimatedCostPerServing: row.EstimatedCostPerServing,
+                Ingredients: ingredientsByRecipe.GetValueOrDefault(row.Id) ?? [],
+                CaloriesTotal: row.CaloriesTotal,
+                ProteinTotal: row.ProteinTotal,
+                CarbsTotal: row.CarbsTotal
+            )).ToList();
         }
 
         public async Task<RecipeSummaryDto?> CreateRecipeWithDetailsAsync(RecipeDetailRequest request, CancellationToken ct)
@@ -38,7 +87,7 @@ namespace Appetee.Infrastructure.Recipes
                         {
                             request.Name,
                             ImageBlobName = blobName,
-                            request.Instructions,
+                            InstructionsJson = SerializeInstructions(request.Instructions),
                             request.PrepTimeMinutes,
                             request.Servings,
                             Difficulty = request.Difficulty!.Value.ToString(),
@@ -121,7 +170,7 @@ namespace Appetee.Infrastructure.Recipes
                             Id = id,
                             request.Name,
                             ImageBlobName = nextImageBlobName,
-                            request.Instructions,
+                            InstructionsJson = SerializeInstructions(request.Instructions),
                             request.PrepTimeMinutes,
                             request.Servings,
                             Difficulty = request.Difficulty!.Value.ToString(),
@@ -256,6 +305,7 @@ namespace Appetee.Infrastructure.Recipes
                         Id: row.Id,
                         Name: row.Name,
                         Basis: row.Basis,
+                        BasisUnit: row.BasisUnit,
                         CaloriesKcal: row.CaloriesKcal,
                         Price: row.Price,
                         ImageUrl: ingredientImageUrl,
@@ -271,11 +321,7 @@ namespace Appetee.Infrastructure.Recipes
                 );
             }).ToList();
 
-            var instructions = recipe.Instructions
-                .Split(new[] { "\r\n", "\n" }, StringSplitOptions.RemoveEmptyEntries)
-                .Select(step => step.Trim())
-                .Where(step => step.Length > 0)
-                .ToList();
+            var instructions = DeserializeInstructions(recipe.Instructions);
 
             return new RecipeDetailDto(
                 Id: recipe.Id,
@@ -390,6 +436,10 @@ namespace Appetee.Infrastructure.Recipes
                 await _blobStorageService.UploadImageAsAvifAsync(stream, blobName, quality: 50, ct).ConfigureAwait(false);
                 return blobName;
             }
+            catch (ValidationException)
+            {
+                throw;
+            }
             catch (Exception ex)
             {
                 throw new InternalServerException("Failed to upload recipe image.", ex);
@@ -422,6 +472,26 @@ namespace Appetee.Infrastructure.Recipes
             }
             catch
             {
+            }
+        }
+        private static string SerializeInstructions(IReadOnlyCollection<string> instructions) =>
+            JsonSerializer.Serialize(instructions);
+
+        private static List<string> DeserializeInstructions(string instructionsJson)
+        {
+            if (string.IsNullOrWhiteSpace(instructionsJson))
+                return [];
+
+            try
+            {
+                return (JsonSerializer.Deserialize<List<string>>(instructionsJson) ?? [])
+                    .Select(step => step?.Trim() ?? string.Empty)
+                    .Where(step => step.Length > 0)
+                    .ToList();
+            }
+            catch (JsonException ex)
+            {
+                throw new InternalServerException("Recipe instructions payload is invalid.", ex);
             }
         }
     }

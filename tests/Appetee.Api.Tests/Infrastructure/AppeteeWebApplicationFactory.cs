@@ -31,7 +31,7 @@ public sealed class AppeteeWebApplicationFactory : WebApplicationFactory<Program
             {
                 ["ConnectionStrings:AppeteeDb"] = Database.ConnectionString,
                 ["ConnectionStrings:Default"] = Database.ConnectionString,
-                ["AzureStorage:AccountUrl"] = "https://test.local",
+                ["AzureStorage:AccountUrl"] = "https://test.blob.core.windows.net",
                 ["AzureStorage:ContainerName"] = "test-images",
             });
         });

@@ -12,6 +12,7 @@ namespace Appetee.Application.Dtos
      int Id,
      string Name,
      decimal Basis,
+     string BasisUnit,
      decimal CaloriesKcal,
      decimal Price,
      string? ImageUrl,

@@ -5,6 +5,8 @@ namespace Appetee.Application.Abstractions.Recipes
 {
     public interface IRecipeQueries
     {
+        Task<IReadOnlyList<RecipeSummaryDto>> GetAllAsync(CancellationToken ct);
+
         Task<RecipeSummaryDto?> CreateRecipeWithDetailsAsync(
             RecipeDetailRequest request,
             CancellationToken ct);

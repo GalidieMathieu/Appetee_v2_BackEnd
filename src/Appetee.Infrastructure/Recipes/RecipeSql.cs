@@ -1,5 +1,43 @@
 internal static class RecipeSql
 {
+    internal const string GetAll = """
+        SELECT
+            r.id                         AS Id,
+            r.name                       AS Name,
+            r.image_blob_name            AS ImageBlobName,
+            r.prep_time_minutes          AS PrepTimeMinutes,
+            r.servings                   AS Servings,
+            r.difficulty                 AS Difficulty,
+            r.estimated_cost_per_serving AS EstimatedCostPerServing,
+            r.calories_total             AS CaloriesTotal,
+            r.protein_total              AS ProteinTotal,
+            r.carbs_total                AS CarbsTotal
+        FROM recipes r
+        ORDER BY r.created_at DESC, r.id DESC;
+
+        SELECT
+            dr.recipe_id AS RecipeId,
+            d.id         AS Id,
+            d.name       AS Name
+        FROM diet_recipes dr
+        INNER JOIN diets d ON d.id = dr.diet_id
+        ORDER BY dr.recipe_id, d.id;
+
+        SELECT
+            rb.recipe_id AS RecipeId,
+            rb.badge     AS Badge
+        FROM recipe_badges rb
+        ORDER BY rb.recipe_id, rb.badge;
+
+        SELECT
+            ri.recipe_id AS RecipeId,
+            i.id         AS Id,
+            i.name       AS Name
+        FROM recipe_ingredients ri
+        INNER JOIN ingredients i ON i.id = ri.ingredient_id
+        ORDER BY ri.recipe_id, i.id;
+    """;
+
     internal const string CreateRecipe = """
         INSERT INTO recipes (
             name,
@@ -16,7 +54,7 @@ internal static class RecipeSql
         VALUES (
             @Name,
             @ImageBlobName,
-            @Instructions,
+            @InstructionsJson,
             @PrepTimeMinutes,
             @Servings,
             @Difficulty,
@@ -42,7 +80,7 @@ internal static class RecipeSql
         SET
             name = @Name,
             image_blob_name = @ImageBlobName,
-            instructions = @Instructions,
+            instructions = @InstructionsJson,
             prep_time_minutes = @PrepTimeMinutes,
             servings = @Servings,
             difficulty = @Difficulty,
@@ -106,6 +144,7 @@ internal static class RecipeSql
             i.id               AS Id,
             i.name             AS Name,
             n.basis            AS Basis,
+            n.basis_unit       AS BasisUnit,
             n.calories_kcal    AS CaloriesKcal,
             n.price            AS Price,
             i.image_blob_name  AS ImageBlobName,

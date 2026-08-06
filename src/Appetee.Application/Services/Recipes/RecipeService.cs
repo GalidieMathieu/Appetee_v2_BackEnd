@@ -15,6 +15,9 @@ namespace Appetee.Application.Services.Recipes
             _queries = queries;
         }
 
+        public Task<IReadOnlyList<RecipeSummaryDto>> GetAllAsync(CancellationToken ct) =>
+            _queries.GetAllAsync(ct);
+
         public Task<RecipeSummaryDto?> CreateRecipeWithDetailsAsync(
             RecipeDetailRequest request,
             CancellationToken ct)
@@ -53,7 +56,10 @@ namespace Appetee.Application.Services.Recipes
             request with
             {
                 Name = request.Name?.Trim() ?? string.Empty,
-                Instructions = request.Instructions?.Trim() ?? string.Empty,
+                Instructions = (request.Instructions ?? [])
+                    .Select(step => step?.Trim() ?? string.Empty)
+                    .Where(step => step.Length > 0)
+                    .ToList(),
                 Badges = (request.Badges ?? [])
                     .Select(badge => badge?.Trim() ?? string.Empty)
                     .Where(badge => badge.Length > 0)
@@ -100,7 +106,7 @@ namespace Appetee.Application.Services.Recipes
             if (normalizedRequest.EstimatedCostPerServing < 0)
                 throw new ValidationException("estimated cost per serving cannot be negative.");
 
-            if (string.IsNullOrWhiteSpace(normalizedRequest.Instructions))
+            if (normalizedRequest.Instructions.Count == 0)
                 throw new ValidationException("instructions are required.");
 
             if (normalizedRequest.Ingredients.Count == 0)

@@ -10,6 +10,7 @@ internal static class MultipartContentBuilder
     public static MultipartFormDataContent CreateIngredientRequest(
         string name = "Test Ingredient",
         decimal basis = 100m,
+        string basisUnit = "g",
         decimal caloriesKcal = 210m,
         decimal price = 3.25m,
         bool includeImage = true,
@@ -26,6 +27,7 @@ internal static class MultipartContentBuilder
 
         AddString(content, "Name", name);
         AddString(content, "Basis", basis);
+        AddString(content, "BasisUnit", basisUnit);
         AddString(content, "CaloriesKcal", caloriesKcal);
         AddString(content, "Price", price);
         AddNullableString(content, "ProteinG", proteinG);
@@ -50,7 +52,7 @@ internal static class MultipartContentBuilder
         decimal caloriesTotal = 640m,
         decimal proteinTotal = 44m,
         decimal carbsTotal = 52m,
-        string instructions = "Season the chicken.\nRoast everything together.\nServe warm.",
+        IReadOnlyList<string>? instructions = null,
         int prepTimeMinutes = 35,
         int servings = 3,
         string difficulty = "Medium",
@@ -66,7 +68,6 @@ internal static class MultipartContentBuilder
         AddString(content, "CaloriesTotal", caloriesTotal);
         AddString(content, "ProteinTotal", proteinTotal);
         AddString(content, "CarbsTotal", carbsTotal);
-        AddString(content, "Instructions", instructions);
         AddString(content, "PrepTimeMinutes", prepTimeMinutes);
         AddString(content, "Servings", servings);
         AddString(content, "Difficulty", difficulty);
@@ -80,6 +81,18 @@ internal static class MultipartContentBuilder
         for (var i = 0; i < badgeValues.Count; i++)
         {
             AddString(content, $"Badges[{i}]", badgeValues[i]);
+        }
+
+        var instructionValues = instructions ?? new[]
+        {
+            "Season the chicken.",
+            "Roast everything together.",
+            "Serve warm.",
+        };
+
+        for (var i = 0; i < instructionValues.Count; i++)
+        {
+            AddString(content, $"Instructions[{i}]", instructionValues[i]);
         }
 
         var dietValues = dietIds ?? new[] { 2, 3 };

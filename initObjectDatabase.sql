@@ -33,6 +33,7 @@ VALUES
 INSERT INTO ingredient_nutrition (
     ingredient_id,
     basis,
+    basis_unit,
     calories_kcal,
     price,
     protein_g,
@@ -45,10 +46,10 @@ INSERT INTO ingredient_nutrition (
     iron_mg
 )
 VALUES
-    (1, 100.00, 165.00, 2.40, 31.00, 3.60, 0.00, 0.00, 0.00, 74.00, 0.00, 0.90),
-    (2, 100.00, 123.00, 0.65, 2.70, 1.00, 25.60, 0.40, 1.80, 4.00, 0.00, 0.40),
-    (3, 100.00, 34.00, 0.90, 2.80, 0.40, 6.60, 1.70, 2.60, 33.00, 89.20, 0.70),
-    (4, 100.00, 97.00, 1.30, 10.00, 5.00, 3.60, 3.20, 0.00, 36.00, 0.50, 0.10);
+    (1, 100.00, 'g', 165.00, 2.40, 31.00, 3.60, 0.00, 0.00, 0.00, 74.00, 0.00, 0.90),
+    (2, 100.00, 'g', 123.00, 0.65, 2.70, 1.00, 25.60, 0.40, 1.80, 4.00, 0.00, 0.40),
+    (3, 100.00, 'g', 34.00, 0.90, 2.80, 0.40, 6.60, 1.70, 2.60, 33.00, 89.20, 0.70),
+    (4, 100.00, 'g', 97.00, 1.30, 10.00, 5.00, 3.60, 3.20, 0.00, 36.00, 0.50, 0.10);
 
 INSERT INTO users (
     id,
@@ -110,9 +111,9 @@ VALUES
         1,
         'Chicken Rice Bowl',
         'recipes/chicken-rice-bowl-seed.avif',
-        CONCAT(
-            'Season and sear the chicken.', '\n',
-            'Cook the rice and steam the broccoli.', '\n',
+        JSON_ARRAY(
+            'Season and sear the chicken.',
+            'Cook the rice and steam the broccoli.',
             'Slice the chicken and serve everything together.'
         ),
         25,

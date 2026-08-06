@@ -13,8 +13,7 @@ namespace Appetee.Infrastructure.Data
         Task<string> UploadAsync(string blobName, Stream content, string contentType, CancellationToken ct = default);
 
         /// <summary>
-        /// Converts any supported image (jpg, png, avif, ...) to AVIF and uploads it.
-        /// Returns the uploaded blob URL.
+        /// Uploads an AVIF image stream and returns the blob URL.
         /// </summary>
         Task<string> UploadImageAsAvifAsync(Stream content, string? blobName = null, int quality = 50, CancellationToken ct = default);
 
