@@ -179,18 +179,20 @@ try
             // APIs should return status codes rather than HTML redirects.
             options.Events.OnRedirectToLogin = context =>
             {
-                context.Response.StatusCode =
-                    StatusCodes.Status401Unauthorized;
-
-                return Task.CompletedTask;
+                return WriteAuthenticationProblemAsync(
+                    context.HttpContext,
+                    StatusCodes.Status401Unauthorized,
+                    "Unauthorized",
+                    "Authentication is required to access this resource.");
             };
 
             options.Events.OnRedirectToAccessDenied = context =>
             {
-                context.Response.StatusCode =
-                    StatusCodes.Status403Forbidden;
-
-                return Task.CompletedTask;
+                return WriteAuthenticationProblemAsync(
+                    context.HttpContext,
+                    StatusCodes.Status403Forbidden,
+                    "Forbidden",
+                    "You are not authorized to access this resource.");
             };
         });
 
@@ -366,21 +368,15 @@ try
     // Global error handling
     // --------------------------------------------------
 
-    if (app.Environment.IsDevelopment())
+    /*
+     * API errors use the same RFC 7807 contract in every environment.
+     * ErrorsController may include additional exception detail during local
+     * development, but the response shape and status code remain stable.
+     */
+    app.UseExceptionHandler("/error");
+
+    if (!app.Environment.IsDevelopment())
     {
-        /*
-         * Provides detailed local debugging information.
-         * Never enable the developer exception page in production.
-         */
-        app.UseDeveloperExceptionPage();
-    }
-    else
-    {
-        /*
-         * Re-executes failed requests through /error.
-         * ErrorsController returns a safe ProblemDetails response.
-         */
-        app.UseExceptionHandler("/error");
         app.UseHsts();
     }
 
@@ -475,6 +471,23 @@ static string GetRequiredConfigurationValue(
     }
 
     return value;
+}
+
+static Task WriteAuthenticationProblemAsync(
+    HttpContext context,
+    int statusCode,
+    string title,
+    string detail)
+{
+    return Results.Problem(
+        statusCode: statusCode,
+        title: title,
+        detail: detail,
+        instance: context.Request.Path,
+        extensions: new Dictionary<string, object?>
+        {
+            ["traceId"] = context.TraceIdentifier
+        }).ExecuteAsync(context);
 }
 
 static Uri GetRequiredAzureStorageAccountUri(

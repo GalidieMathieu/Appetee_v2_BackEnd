@@ -10,12 +10,12 @@ namespace Appetee.Application.Services.Auth
         Task<AuthResult> SignUpAsync(HttpContext http, SignUpRequest request, CancellationToken ct);
 
         Task<AuthResult> LogInAsync(HttpContext http, LoginRequest request ,  CancellationToken ct);
+        Task<EmailExistsDto> ExistsByEmailAsync(string email, CancellationToken ct);
         Task LogOutAsync(HttpContext http, CancellationToken ct);
         UserSessionDto? GetSession(HttpContext context);  
 
 
         //Task<AuthResult> LoginAsync(LoginRequest request, CancellationToken ct);
         //Task LogoutAsync(string? sessionToken, CancellationToken ct);
-        //Task<Appetee.Application.Dtos.UserDto?> GetMeAsync(string? sessionToken, CancellationToken ct);
     }
 }

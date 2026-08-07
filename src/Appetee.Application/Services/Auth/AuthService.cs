@@ -1,5 +1,4 @@
 ﻿using Appetee.Application.Abstractions.Auth;
-using Appetee.Application.Abstractions.Users;
 using Appetee.Application.Dtos;
 using Appetee.Application.Models.Auth;
 using Appetee.Application.Requests.Auth;
@@ -20,7 +19,6 @@ namespace Appetee.Application.Services.Auth
         public AuthService(
             IAuthRepository authRepository,
             IAuthQueries authQueries,
-            IUserQueries userQueries,
             IPasswordHasher passwordHasher,
             IAuthCookieService cookieService)
         {
@@ -91,6 +89,25 @@ namespace Appetee.Application.Services.Auth
 
         public Task LogOutAsync(HttpContext http, CancellationToken ct) =>
             _cookieService.SignOutAsync(http);
+
+        public async Task<EmailExistsDto> ExistsByEmailAsync(
+            string email,
+            CancellationToken ct)
+        {
+            if (string.IsNullOrWhiteSpace(email))
+                throw new ValidationException("Email is required.");
+
+            var normalizedEmail = email.Trim();
+
+            if (!MailAddress.TryCreate(normalizedEmail, out _))
+                throw new ValidationException("Email must be valid.");
+
+            var exists = await _authQueries.ExistsByEmailAsync(
+                normalizedEmail,
+                ct);
+
+            return new EmailExistsDto(exists);
+        }
 
         public UserSessionDto? GetSession(HttpContext context)
         {
