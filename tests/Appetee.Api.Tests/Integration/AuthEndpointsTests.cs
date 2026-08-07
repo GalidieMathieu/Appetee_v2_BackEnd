@@ -31,12 +31,29 @@ public sealed class AuthEndpointsTests : IntegrationTestBase
         var authResult = await response.Content.ReadFromJsonAsync<AuthResult>();
         Assert.NotNull(authResult);
 
-        var user = await Client.GetFromJsonAsync<UserDto>($"/api/users/{authResult!.userId}");
-        Assert.NotNull(user);
-        Assert.Equal(request.Username, user!.username);
-        Assert.Equal(request.Email, user.email);
-        Assert.Equal(new[] { 1, 2 }, user.dietIds);
-        Assert.Equal(new[] { 4 }, user.ingredientRestrictionIds);
+        var profile = await Client.GetFromJsonAsync<CurrentUserProfileDto>(
+            "/api/users/me");
+        var storedUser = await Factory.Database
+            .QuerySingleOrDefaultAsync<SignUpUserRow>(
+                "SELECT username AS Username, email AS Email " +
+                "FROM users WHERE id = @id;",
+                new { id = authResult!.userId });
+        var dietCount = await Factory.Database.QuerySingleOrDefaultAsync<int>(
+            "SELECT COUNT(*) FROM user_diets WHERE user_id = @id;",
+            new { id = authResult.userId });
+        var restrictionCount = await Factory.Database
+            .QuerySingleOrDefaultAsync<int>(
+                "SELECT COUNT(*) FROM user_ingredient_restrictions " +
+                "WHERE user_id = @id;",
+                new { id = authResult.userId });
+
+        Assert.NotNull(profile);
+        Assert.Equal(request.Username, profile!.Username);
+        Assert.NotNull(storedUser);
+        Assert.Equal(request.Username, storedUser!.Username);
+        Assert.Equal(request.Email, storedUser.Email);
+        Assert.Equal(2, dietCount);
+        Assert.Equal(1, restrictionCount);
     }
 
     [Fact]
@@ -72,6 +89,50 @@ public sealed class AuthEndpointsTests : IntegrationTestBase
         Assert.Equal(HttpStatusCode.Conflict, secondResponse.StatusCode);
         Assert.NotNull(problem);
         Assert.Contains("already exists", problem!.Detail, StringComparison.OrdinalIgnoreCase);
+    }
+
+    [Fact]
+    public async Task ExistsByEmail_ReturnsTrueWithoutAuthentication_ForExistingUser()
+    {
+        using var response = await Client.GetAsync(
+            "/api/auth/exists-by-email?email=ava.seed@appetee.test");
+        var result = await response.Content
+            .ReadFromJsonAsync<EmailExistsDto>();
+
+        Assert.Equal(HttpStatusCode.OK, response.StatusCode);
+        Assert.NotNull(result);
+        Assert.True(result!.Exists);
+    }
+
+    [Fact]
+    public async Task ExistsByEmail_ReturnsFalseWithoutAuthentication_ForNewEmail()
+    {
+        using var response = await Client.GetAsync(
+            "/api/auth/exists-by-email?email=new.user@appetee.test");
+        var result = await response.Content
+            .ReadFromJsonAsync<EmailExistsDto>();
+
+        Assert.Equal(HttpStatusCode.OK, response.StatusCode);
+        Assert.NotNull(result);
+        Assert.False(result!.Exists);
+    }
+
+    [Theory]
+    [InlineData("")]
+    [InlineData("not-an-email")]
+    public async Task ExistsByEmail_ReturnsProblemDetails400_ForInvalidEmail(
+        string email)
+    {
+        using var response = await Client.GetAsync(
+            $"/api/auth/exists-by-email?email={Uri.EscapeDataString(email)}");
+        var problem = await response.ReadProblemDetailsAsync();
+
+        Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
+        Assert.Equal(
+            "application/problem+json",
+            response.Content.Headers.ContentType?.MediaType);
+        Assert.NotNull(problem);
+        Assert.Equal(StatusCodes.Status400BadRequest, problem!.Status);
     }
 
     [Fact]
@@ -167,4 +228,6 @@ public sealed class AuthEndpointsTests : IntegrationTestBase
         Assert.NotNull(problem);
         Assert.Contains("authentication cookie", problem!.Detail, StringComparison.OrdinalIgnoreCase);
     }
+
+    private sealed record SignUpUserRow(string Username, string Email);
 }

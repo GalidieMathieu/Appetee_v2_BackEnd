@@ -38,5 +38,19 @@ namespace Appetee.Infrastructure.Auth
 
             return new AuthResult(row.Id , row.Username);
         }
+
+        public async Task<bool> ExistsByEmailAsync(
+            string email,
+            CancellationToken ct)
+        {
+            using var connection = await _db.CreateOpenConnectionAsync(ct);
+
+            return await connection.QuerySingleAsync<bool>(
+                new CommandDefinition(
+                    AuthSql.EmailExists,
+                    new { email },
+                    cancellationToken: ct));
+        }
+
     }
 }
