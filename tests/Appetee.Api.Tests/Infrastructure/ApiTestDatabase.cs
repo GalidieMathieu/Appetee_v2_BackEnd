@@ -63,6 +63,43 @@ internal sealed class ApiTestDatabase
             cancellationToken: ct));
     }
 
+    public async Task ExecuteAsync(string sql, object? parameters = null, CancellationToken ct = default)
+    {
+        await using var connection = new MySqlConnection(ConnectionString);
+        await connection.OpenAsync(ct);
+
+        await connection.ExecuteAsync(new CommandDefinition(
+            sql,
+            parameters,
+            cancellationToken: ct));
+    }
+
+    public async Task ExecuteMigrationAsync(string relativePath, CancellationToken ct = default)
+    {
+        var migrationPath = Path.Combine(
+            _solutionRoot.Value,
+            relativePath.Replace('/', Path.DirectorySeparatorChar));
+        var script = await File.ReadAllTextAsync(migrationPath, ct);
+        var withoutDelimiterDirectives = Regex.Replace(
+            script,
+            @"^DELIMITER\s+.*$",
+            string.Empty,
+            RegexOptions.Multiline | RegexOptions.IgnoreCase);
+
+        await using var connection = new MySqlConnection(ConnectionString);
+        await connection.OpenAsync(ct);
+
+        foreach (var commandText in withoutDelimiterDirectives.Split(
+                     "$$",
+                     StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries))
+        {
+            await connection.ExecuteAsync(new CommandDefinition(
+                commandText,
+                cancellationToken: ct,
+                commandTimeout: 120));
+        }
+    }
+
     private string BuildConnectionString()
     {
         var apiProjectPath = Path.Combine(_solutionRoot.Value, "src", "Appetee.Api");

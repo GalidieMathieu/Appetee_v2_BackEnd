@@ -22,8 +22,7 @@ namespace Appetee.Application.Services.Recipes
             RecipeDetailRequest request,
             CancellationToken ct)
         {
-            var normalizedRequest = NormalizeRequest(request);
-            ValidateRecipeRequest(normalizedRequest, requireImage: true);
+            var normalizedRequest = PrepareRequest(request, requireImage: true);
 
             return _queries.CreateRecipeWithDetailsAsync(normalizedRequest, ct);
         }
@@ -36,8 +35,7 @@ namespace Appetee.Application.Services.Recipes
             if (id <= 0)
                 throw new ValidationException("recipe id must be greater than zero.");
 
-            var normalizedRequest = NormalizeRequest(request);
-            ValidateRecipeRequest(normalizedRequest, requireImage: false);
+            var normalizedRequest = PrepareRequest(request, requireImage: false);
 
             return _queries.UpdateRecipeWithDetailsAsync(id, normalizedRequest, ct);
         }
@@ -52,13 +50,31 @@ namespace Appetee.Application.Services.Recipes
             return _queries.GetRecipeWithDetailsByIdAsync(id, ct);
         }
 
+        private static RecipeDetailRequest PrepareRequest(RecipeDetailRequest request, bool requireImage)
+        {
+            var normalizedRequest = NormalizeRequest(request);
+            ValidateRecipeRequest(normalizedRequest, requireImage);
+
+            return normalizedRequest with
+            {
+                Instructions = normalizedRequest.Instructions
+                    .Where(step => !string.IsNullOrEmpty(step.Title) && !string.IsNullOrEmpty(step.Instruction))
+                    .ToList(),
+            };
+        }
+
         private static RecipeDetailRequest NormalizeRequest(RecipeDetailRequest request) =>
             request with
             {
                 Name = request.Name?.Trim() ?? string.Empty,
                 Instructions = (request.Instructions ?? [])
-                    .Select(step => step?.Trim() ?? string.Empty)
-                    .Where(step => step.Length > 0)
+                    .Select(step => step is null
+                        ? new RecipeInstructionStepRequest()
+                        : step with
+                        {
+                            Title = step.Title?.Trim() ?? string.Empty,
+                            Instruction = step.Instruction?.Trim() ?? string.Empty,
+                        })
                     .ToList(),
                 Badges = (request.Badges ?? [])
                     .Select(badge => badge?.Trim() ?? string.Empty)
@@ -66,14 +82,14 @@ namespace Appetee.Application.Services.Recipes
                     .Distinct(StringComparer.OrdinalIgnoreCase)
                     .ToList(),
                 DietIds = (request.DietIds ?? [])
-                    .Where(id => id > 0)
                     .Distinct()
                     .ToList(),
                 Ingredients = (request.Ingredients ?? [])
-                    .Where(ingredient => ingredient.IngredientId > 0)
                     .Select(ingredient => ingredient with
                     {
-                        Unit = string.IsNullOrWhiteSpace(ingredient.Unit) ? null : ingredient.Unit.Trim(),
+                        Unit = string.IsNullOrWhiteSpace(ingredient.Unit)
+                            ? null
+                            : ingredient.Unit.Trim().ToLowerInvariant(),
                     })
                     .ToList(),
             };
@@ -98,19 +114,34 @@ namespace Appetee.Application.Services.Recipes
             if (normalizedRequest.Difficulty is null)
                 throw new ValidationException("difficulty must be Easy, Medium, or Hard.");
 
-            if (normalizedRequest.CaloriesTotal < 0 ||
-                normalizedRequest.ProteinTotal < 0 ||
-                normalizedRequest.CarbsTotal < 0)
-                throw new ValidationException("nutrition totals cannot be negative.");
+            var completeInstructionCount = 0;
+            for (var index = 0; index < normalizedRequest.Instructions.Count; index++)
+            {
+                var step = normalizedRequest.Instructions[index];
+                var titleIsBlank = string.IsNullOrEmpty(step.Title);
+                var instructionIsBlank = string.IsNullOrEmpty(step.Instruction);
 
-            if (normalizedRequest.EstimatedCostPerServing < 0)
-                throw new ValidationException("estimated cost per serving cannot be negative.");
+                if (titleIsBlank != instructionIsBlank)
+                {
+                    throw new ValidationException(
+                        $"instruction step at index {index} requires both title and instruction.");
+                }
 
-            if (normalizedRequest.Instructions.Count == 0)
-                throw new ValidationException("instructions are required.");
+                if (!titleIsBlank)
+                    completeInstructionCount++;
+            }
+
+            if (completeInstructionCount == 0)
+                throw new ValidationException("at least one complete instruction step is required.");
 
             if (normalizedRequest.Ingredients.Count == 0)
                 throw new ValidationException("at least one ingredient is required.");
+
+            if (normalizedRequest.DietIds.Any(id => id <= 0))
+                throw new ValidationException("diet ids must be greater than zero.");
+
+            if (normalizedRequest.Ingredients.Any(ingredient => ingredient.IngredientId <= 0))
+                throw new ValidationException("ingredient ids must be greater than zero.");
 
             var invalidBadge = normalizedRequest.Badges.FirstOrDefault(badge => !RecipeBadgeValues.IsValid(badge));
             if (invalidBadge is not null)

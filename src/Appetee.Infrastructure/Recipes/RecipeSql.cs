@@ -75,6 +75,21 @@ internal static class RecipeSql
         LIMIT 1;
     """;
 
+    internal const string GetIngredientCalculationDataByIds = """
+        SELECT
+            i.id              AS Id,
+            i.name            AS Name,
+            n.basis           AS Basis,
+            n.basis_unit      AS BasisUnit,
+            n.price           AS Price,
+            n.calories_kcal   AS CaloriesKcal,
+            n.protein_g       AS ProteinG,
+            n.carbs_g         AS CarbsG
+        FROM ingredients i
+        LEFT JOIN ingredient_nutrition n ON n.ingredient_id = i.id
+        WHERE i.id IN @Ids;
+    """;
+
     internal const string UpdateRecipe = """
         UPDATE recipes
         SET

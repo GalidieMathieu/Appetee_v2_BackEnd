@@ -1,5 +1,6 @@
 using Appetee.Application.Abstractions.Recipes;
 using Appetee.Application.Dtos;
+using Appetee.Application.Models.Recipes;
 using Appetee.Application.Requests;
 using Appetee.Application.RowData;
 using Appetee.Application.utils;
@@ -12,6 +13,7 @@ namespace Appetee.Infrastructure.Recipes
 {
     public sealed class RecipeQueries : IRecipeQueries
     {
+        private static readonly JsonSerializerOptions InstructionJsonOptions = new(JsonSerializerDefaults.Web);
         private readonly IBlobStorageService _blobStorageService;
         private readonly IDbConnectionFactory _db;
 
@@ -91,10 +93,10 @@ namespace Appetee.Infrastructure.Recipes
                             request.PrepTimeMinutes,
                             request.Servings,
                             Difficulty = request.Difficulty!.Value.ToString(),
-                            request.EstimatedCostPerServing,
-                            request.CaloriesTotal,
-                            request.ProteinTotal,
-                            request.CarbsTotal
+                            recipeReferences.Totals.EstimatedCostPerServing,
+                            recipeReferences.Totals.CaloriesTotal,
+                            recipeReferences.Totals.ProteinTotal,
+                            recipeReferences.Totals.CarbsTotal
                         },
                         transaction: tran,
                         cancellationToken: ct
@@ -174,10 +176,10 @@ namespace Appetee.Infrastructure.Recipes
                             request.PrepTimeMinutes,
                             request.Servings,
                             Difficulty = request.Difficulty!.Value.ToString(),
-                            request.EstimatedCostPerServing,
-                            request.CaloriesTotal,
-                            request.ProteinTotal,
-                            request.CarbsTotal
+                            recipeReferences.Totals.EstimatedCostPerServing,
+                            recipeReferences.Totals.CaloriesTotal,
+                            recipeReferences.Totals.ProteinTotal,
+                            recipeReferences.Totals.CarbsTotal
                         },
                         transaction: tran,
                         cancellationToken: ct
@@ -341,7 +343,7 @@ namespace Appetee.Infrastructure.Recipes
             );
         }
 
-        private async Task<(int[] DietIds, RecipeIngredientRequest[] IngredientRequests, string[] BadgeValues, List<DietDto> DietDtos, List<IngredientDto> IngredientDtos)> LoadRecipeReferenceDataAsync(
+        private async Task<(int[] DietIds, RecipeIngredientRequest[] IngredientRequests, string[] BadgeValues, List<DietDto> DietDtos, List<IngredientDto> IngredientDtos, RecipeCalculatedTotals Totals)> LoadRecipeReferenceDataAsync(
             System.Data.IDbConnection conn,
             System.Data.IDbTransaction tran,
             RecipeDetailRequest request,
@@ -370,30 +372,41 @@ namespace Appetee.Infrastructure.Recipes
             }
 
             var ingredientDtos = new List<IngredientDto>();
+            RecipeCalculatedTotals totals;
             if (ingredientIds.Length > 0)
             {
-                ingredientDtos = (await conn.QueryAsync<IngredientDto>(
+                var calculationRows = (await conn.QueryAsync<RecipeIngredientCalculationData>(
                     new CommandDefinition(
-                        IngredientSql.GetByIds,
+                        RecipeSql.GetIngredientCalculationDataByIds,
                         new { Ids = ingredientIds },
                         transaction: tran,
                         cancellationToken: ct
                     ))).AsList();
 
-                var foundIngredientIds = ingredientDtos.Select(ingredient => ingredient.id).ToHashSet();
+                var foundIngredientIds = calculationRows.Select(ingredient => ingredient.Id).ToHashSet();
                 var missingIngredientIds = ingredientIds.Where(id => !foundIngredientIds.Contains(id)).ToArray();
                 if (missingIngredientIds.Length > 0)
                     throw new ValidationException($"Invalid IngredientIds: {string.Join(", ", missingIngredientIds)}");
+
+                var calculationData = calculationRows.ToDictionary(ingredient => ingredient.Id);
+                totals = RecipeCalculator.Calculate(ingredientRequests, calculationData, request.Servings);
+                ingredientDtos = calculationRows
+                    .Select(ingredient => new IngredientDto(ingredient.Id, ingredient.Name))
+                    .ToList();
+            }
+            else
+            {
+                throw new ValidationException("at least one ingredient is required.");
             }
 
-            return (dietIds, ingredientRequests, badgeValues, dietDtos, ingredientDtos);
+            return (dietIds, ingredientRequests, badgeValues, dietDtos, ingredientDtos, totals);
         }
 
         private RecipeSummaryDto BuildRecipeSummaryDto(
             int recipeId,
             RecipeDetailRequest request,
             string? imageBlobName,
-            (int[] DietIds, RecipeIngredientRequest[] IngredientRequests, string[] BadgeValues, List<DietDto> DietDtos, List<IngredientDto> IngredientDtos) recipeReferences)
+            (int[] DietIds, RecipeIngredientRequest[] IngredientRequests, string[] BadgeValues, List<DietDto> DietDtos, List<IngredientDto> IngredientDtos, RecipeCalculatedTotals Totals) recipeReferences)
         {
             var ingredientLookup = recipeReferences.IngredientDtos.ToDictionary(ingredient => ingredient.id);
             var orderedIngredients = recipeReferences.IngredientRequests
@@ -416,11 +429,11 @@ namespace Appetee.Infrastructure.Recipes
                 Difficulty: request.Difficulty!.Value.ToString(),
                 Badges: recipeReferences.BadgeValues.Length == 0 ? null : recipeReferences.BadgeValues,
                 Diets: orderedDiets,
-                EstimatedCostPerServing: request.EstimatedCostPerServing,
+                EstimatedCostPerServing: recipeReferences.Totals.EstimatedCostPerServing,
                 Ingredients: orderedIngredients,
-                CaloriesTotal: request.CaloriesTotal,
-                ProteinTotal: request.ProteinTotal,
-                CarbsTotal: request.CarbsTotal
+                CaloriesTotal: recipeReferences.Totals.CaloriesTotal,
+                ProteinTotal: recipeReferences.Totals.ProteinTotal,
+                CarbsTotal: recipeReferences.Totals.CarbsTotal
             );
         }
 
@@ -474,20 +487,33 @@ namespace Appetee.Infrastructure.Recipes
             {
             }
         }
-        private static string SerializeInstructions(IReadOnlyCollection<string> instructions) =>
-            JsonSerializer.Serialize(instructions);
+        private static string SerializeInstructions(IReadOnlyCollection<RecipeInstructionStepRequest> instructions) =>
+            JsonSerializer.Serialize(instructions, InstructionJsonOptions);
 
-        private static List<string> DeserializeInstructions(string instructionsJson)
+        private static List<RecipeInstructionStepDto> DeserializeInstructions(string instructionsJson)
         {
             if (string.IsNullOrWhiteSpace(instructionsJson))
                 return [];
 
             try
             {
-                return (JsonSerializer.Deserialize<List<string>>(instructionsJson) ?? [])
-                    .Select(step => step?.Trim() ?? string.Empty)
-                    .Where(step => step.Length > 0)
+                var steps = JsonSerializer.Deserialize<List<RecipeInstructionStepDto>>(
+                    instructionsJson,
+                    InstructionJsonOptions) ?? [];
+                var normalizedSteps = steps
+                    .Select(step => new RecipeInstructionStepDto(
+                        step.Title?.Trim() ?? string.Empty,
+                        step.Instruction?.Trim() ?? string.Empty))
+                    .Where(step => step.Title.Length > 0 || step.Instruction.Length > 0)
                     .ToList();
+
+                if (normalizedSteps.Count == 0 ||
+                    normalizedSteps.Any(step => step.Title.Length == 0 || step.Instruction.Length == 0))
+                {
+                    throw new InternalServerException("Recipe instructions payload is invalid.");
+                }
+
+                return normalizedSteps;
             }
             catch (JsonException ex)
             {

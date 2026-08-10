@@ -54,6 +54,9 @@ If a minimal out-of-phase change is required for compilation, migration, or test
 - `src/Appetee.Application` — use cases, validation, business orchestration, contracts.
 - `src/Appetee.Infrastructure` — Dapper, MySQL, Blob Storage, authentication infrastructure, external adapters.
 - `tests/Appetee.Api.Tests` — backend integration/regression tests.
+- `../appetee-docs` — a separate shared writable workspace containing cross-team specifications and documentation.
+
+Treat `appetee-docs` as shared state rather than read-only. When a task defers documentation updates until after implementation or until the user explicitly requests them, do not modify those documents early; preserve concurrent frontend or other contributor changes and update them only at the requested point.
 
 Keep controllers thin. Do not put SQL or substantial business workflows in controllers.
 

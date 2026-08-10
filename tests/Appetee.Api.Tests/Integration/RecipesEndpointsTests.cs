@@ -32,6 +32,10 @@ public sealed class RecipesEndpointsTests : IntegrationTestBase
         Assert.Equal("Chicken Rice Bowl", recipe.Name);
         Assert.Equal("Medium", recipe.Difficulty);
         Assert.Equal(3, recipe.Instructions.Count);
+        Assert.Equal("Season the chicken", recipe.Instructions[0].Title);
+        Assert.Equal("Season and sear the chicken.", recipe.Instructions[0].Instruction);
+        Assert.Equal("Cook the sides", recipe.Instructions[1].Title);
+        Assert.Equal("Assemble the bowl", recipe.Instructions[2].Title);
         Assert.Equal(3, recipe.Ingredients.Count);
         Assert.Contains(recipe.Badges!, badge => badge == "high-protein");
         Assert.Contains(recipe.Diets!, diet => diet.id == 2);

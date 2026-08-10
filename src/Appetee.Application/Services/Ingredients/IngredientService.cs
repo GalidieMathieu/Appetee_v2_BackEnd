@@ -35,10 +35,12 @@ namespace Appetee.Application.Services.Ingredients
                 throw new ValidationException("ingredient name is required.");
 
             if (request.Basis <= 0)
-                throw new ValidationException("basis cannot be negative");
+                throw new ValidationException("basis must be greater than zero.");
 
-            if (request.CaloriesKcal <= 0)
-                throw new ValidationException("kcal cannot be negative");
+            ValidateRequiredNonNegative(request.Price, "price");
+            ValidateRequiredNonNegative(request.CaloriesKcal, "calories kcal");
+            ValidateRequiredNonNegative(request.ProteinG, "protein g");
+            ValidateRequiredNonNegative(request.CarbsG, "carbs g");
 
             if (basisUnit is not ("g" or "ml"))
                 throw new ValidationException("basis unit must be either 'g' or 'ml'.");
@@ -56,6 +58,15 @@ namespace Appetee.Application.Services.Ingredients
             return _queries.CreateIngredientWithDetailsAsync(
                 request with { BasisUnit = basisUnit },
                 ct);
+        }
+
+        private static void ValidateRequiredNonNegative(decimal? value, string field)
+        {
+            if (value is null)
+                throw new ValidationException($"{field} is required.");
+
+            if (value < 0)
+                throw new ValidationException($"{field} cannot be negative.");
         }
 
         public Task<IngredientAdminDetailDto?> GetIngredientWithDetailsByIdAsync(int id, CancellationToken ct)
