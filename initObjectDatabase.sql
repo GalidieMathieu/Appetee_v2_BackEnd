@@ -112,17 +112,26 @@ VALUES
         'Chicken Rice Bowl',
         'recipes/chicken-rice-bowl-seed.avif',
         JSON_ARRAY(
-            'Season and sear the chicken.',
-            'Cook the rice and steam the broccoli.',
-            'Slice the chicken and serve everything together.'
+            JSON_OBJECT(
+                'title', 'Season the chicken',
+                'instruction', 'Season and sear the chicken.'
+            ),
+            JSON_OBJECT(
+                'title', 'Cook the sides',
+                'instruction', 'Cook the rice and steam the broccoli.'
+            ),
+            JSON_OBJECT(
+                'title', 'Assemble the bowl',
+                'instruction', 'Slice the chicken and serve everything together.'
+            )
         ),
         25,
         2,
         'Medium',
-        6.75,
-        620.00,
-        45.00,
-        58.00,
+        4.13,
+        674.70,
+        85.72,
+        54.00,
         UTC_TIMESTAMP(),
         UTC_TIMESTAMP()
     );

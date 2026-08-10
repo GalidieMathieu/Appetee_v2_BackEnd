@@ -15,6 +15,11 @@ namespace Appetee.Application.Dtos
         IngredientAdminDetailDto Ingredient
     );
 
+    public sealed record RecipeInstructionStepDto(
+        string Title,
+        string Instruction
+    );
+
     //################ Summary ###########
     public sealed record RecipeSummaryDto(
         int Id,
@@ -43,7 +48,7 @@ namespace Appetee.Application.Dtos
         IReadOnlyList<string>? Badges,
         IReadOnlyList<DietDto>? Diets,
         decimal? EstimatedCostPerServing,
-        IReadOnlyList<string> Instructions,
+        IReadOnlyList<RecipeInstructionStepDto> Instructions,
         IReadOnlyList<RecipeIngredientDetailDto> Ingredients,
         decimal CaloriesTotal,
         decimal ProteinTotal,

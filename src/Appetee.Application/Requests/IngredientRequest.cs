@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Http;
 
 namespace Appetee.Application.Requests
@@ -9,12 +10,12 @@ namespace Appetee.Application.Requests
      string Name,
      decimal Basis,
      string BasisUnit,
-     decimal CaloriesKcal,
+     [Required] decimal? CaloriesKcal,
      IFormFile Image,
-     decimal Price,
-     decimal? ProteinG,
+     [Required] decimal? Price,
+     [Required] decimal? ProteinG,
      decimal? FatG,
-     decimal? CarbsG,
+     [Required] decimal? CarbsG,
      decimal? SugarG,
      decimal? FiberG,
      decimal? SodiumMg,

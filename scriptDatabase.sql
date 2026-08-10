@@ -63,7 +63,7 @@
 		prep_time_minutes INT NOT NULL,
 		servings INT NOT NULL,
 		difficulty VARCHAR(50) NOT NULL,
-		estimated_cost_per_serving DECIMAL(10,2) NULL,
+		estimated_cost_per_serving DECIMAL(10,2) NOT NULL,
 		calories_total DECIMAL(10,2) NOT NULL,
 		protein_total DECIMAL(10,2) NOT NULL,
 		carbs_total DECIMAL(10,2) NOT NULL,
@@ -79,7 +79,7 @@
 		CONSTRAINT chk_recipes_instructions
 			CHECK (JSON_TYPE(instructions) = 'ARRAY' AND JSON_LENGTH(instructions) > 0),
 		CONSTRAINT chk_recipes_estimated_cost
-			CHECK (estimated_cost_per_serving IS NULL OR estimated_cost_per_serving >= 0),
+			CHECK (estimated_cost_per_serving >= 0),
 		CONSTRAINT chk_recipes_calories_total
 			CHECK (calories_total >= 0),
 		CONSTRAINT chk_recipes_protein_total
@@ -243,11 +243,11 @@
 		ingredient_id INT NOT NULL,
 		basis DECIMAL(10,2) NOT NULL,
 		basis_unit VARCHAR(10) NOT NULL,
-		calories_kcal DECIMAL(10,2),
+		calories_kcal DECIMAL(10,2) NOT NULL,
 		price DECIMAL(10,2) NOT NULL,
-		protein_g DECIMAL(10,2) NULL,
+		protein_g DECIMAL(10,2) NOT NULL,
 		fat_g DECIMAL(10,2) NULL,
-		carbs_g DECIMAL(10,2) NULL,
+		carbs_g DECIMAL(10,2) NOT NULL,
 		sugar_g DECIMAL(10,2) NULL,
 		fiber_g DECIMAL(10,2) NULL,
 		sodium_mg DECIMAL(10,2) NULL,
@@ -265,15 +265,15 @@
 		CONSTRAINT chk_ingredient_nutrition_basis_unit
 			CHECK (basis_unit IN ('g', 'ml')),
 		CONSTRAINT chk_ingredient_nutrition_calories
-			CHECK (calories_kcal IS NULL OR calories_kcal >= 0),
+			CHECK (calories_kcal >= 0),
 		CONSTRAINT chk_ingredient_nutrition_price
 			CHECK (price >= 0),
 		CONSTRAINT chk_ingredient_nutrition_protein
-			CHECK (protein_g IS NULL OR protein_g >= 0),
+			CHECK (protein_g >= 0),
 		CONSTRAINT chk_ingredient_nutrition_fat
 			CHECK (fat_g IS NULL OR fat_g >= 0),
 		CONSTRAINT chk_ingredient_nutrition_carbs
-			CHECK (carbs_g IS NULL OR carbs_g >= 0),
+			CHECK (carbs_g >= 0),
 		CONSTRAINT chk_ingredient_nutrition_sugar
 			CHECK (sugar_g IS NULL OR sugar_g >= 0),
 		CONSTRAINT chk_ingredient_nutrition_fiber
