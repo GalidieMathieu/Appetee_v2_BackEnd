@@ -1,0 +1,247 @@
+{
+  "seedId": "REC-0992",
+  "candidate": {
+    "sequence": 1645,
+    "seedId": "REC-CAND-1645",
+    "name": "Korean Steak with Potatoes"
+  },
+  "name": "Korean Steak with Potatoes",
+  "description": "Korean Steak with Potatoes is a practical stovetop recipe pairing steak with potatoes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.ricardocuisine.com/en/recipes/5541-pate-chinois-shepherd--s-pie-",
+    "domain": "ricardocuisine.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Canadian Pâté Chinois source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Canada",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "totalMinutes": 35
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "steak",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 4,
+      "sourceUnit": "cups",
+      "sourceDisplay": "4 cups potatoes",
+      "normalizedQuantity": 900,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0056",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g butter",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0030",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "cup",
+      "sourceDisplay": "½ cup milk",
+      "normalizedQuantity": 125,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 finely chopped onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0081",
+      "sourceQuantity": 500,
+      "sourceUnit": "ml",
+      "sourceDisplay": "500 ml creamed corn",
+      "normalizedQuantity": 500,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "paprika for the top",
+      "normalizedQuantity": 2.3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "parsley for the top",
+      "normalizedQuantity": 0.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, steak, and potatoes for korean steak with potatoes.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned steak and cook it until browned or heated through as appropriate.",
+    "Stir in the potatoes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the korean steak with potatoes, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2127.8,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2656.203,
+      "proteinG": 169.175,
+      "carbohydratesG": 278.991,
+      "fatG": 103.043,
+      "fiberG": 21.801,
+      "sugarsG": 28.704,
+      "sodiumMg": 1761.533,
+      "potassiumMg": 7158.913,
+      "calciumMg": 493.79,
+      "ironMg": 20.762,
+      "magnesiumMg": 468.706,
+      "vitaminCMg": 92.183
+    },
+    "perServing": {
+      "calories": 664.051,
+      "proteinG": 42.294,
+      "carbohydratesG": 69.748,
+      "fatG": 25.761,
+      "fiberG": 5.45,
+      "sugarsG": 7.176,
+      "sodiumMg": 440.383,
+      "potassiumMg": 1789.728,
+      "calciumMg": 123.448,
+      "ironMg": 5.191,
+      "magnesiumMg": 117.177,
+      "vitaminCMg": 23.046
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 22.1,
+    "perServingUsd": 5.53,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein"
+  ],
+  "createdAt": "2028-03-10T12:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.kraftheinz.com/en-NZ/f-whitlock-sons/recipes/269527-korean-steak-with-kimchi-fried-potatoes",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.PDzm3mFauU6-yhq48nKHhQHaF-&pid=15.1",
+    "discoveredOriginalUrl": "http://cdn.allotta.io/image/upload/v1715298240/dxp-images/brands/Recipes/global-recipes-b1-m1-new-zealand/korean-steak-with-kimchi-fried-potatoes/korean-steak-with-kimchi-fried-potatoes-269527.jpg",
+    "searchQuery": "Korean Steak with Potatoes plated recipe food",
+    "searchResultTitle": "Korean steak with kimchi fried potatoes | F. Whitlock & Sons | New ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:16:17.794Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0992",
+    "name": "Korean Steak with Potatoes",
+    "description": "Korean Steak with Potatoes is a practical stovetop recipe pairing steak with potatoes and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 664.051,
+      "proteinG": 42.294,
+      "carbohydratesG": 69.748,
+      "fatG": 25.761,
+      "fiberG": 5.45,
+      "sugarsG": 7.176,
+      "sodiumMg": 440.383,
+      "potassiumMg": 1789.728,
+      "calciumMg": 123.448,
+      "ironMg": 5.191,
+      "magnesiumMg": 117.177,
+      "vitaminCMg": 23.046
+    },
+    "estimatedCostPerServingUsd": 5.53,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "High Protein"
+    ]
+  }
+}

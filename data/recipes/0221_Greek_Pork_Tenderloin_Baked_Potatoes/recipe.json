@@ -1,0 +1,247 @@
+{
+  "seedId": "REC-0221",
+  "candidate": {
+    "sequence": 179,
+    "seedId": "REC-CAND-0179",
+    "name": "Greek Pork Tenderloin Baked Potatoes"
+  },
+  "name": "Greek Pork Tenderloin Baked Potatoes",
+  "description": "Greek Pork Tenderloin Baked Potatoes is a practical oven recipe pairing pork tenderloin with potatoes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.tastelife.tv/recipe/stir-fry-potato-with-chinese-sausage_12578.html",
+    "domain": "tastelife.tv",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Chinese Sausage with Potatoes source while retaining its closest matching dish form, cooking sequence, and applicable pork or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "China",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 60,
+    "totalMinutes": 85
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "pork tenderloin",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0069",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0050",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0071",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for greek pork tenderloin baked potatoes.",
+    "Season the pork tenderloin and vegetables evenly while the oven reaches temperature.",
+    "Arrange the pork tenderloin, potatoes, and vegetables so heat can circulate around each component.",
+    "Bake until the pork tenderloin is safely cooked and the vegetables or grain base are tender.",
+    "Rest the greek pork tenderloin baked potatoes briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1785,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1757.178,
+      "proteinG": 175.747,
+      "carbohydratesG": 143.973,
+      "fatG": 56.373,
+      "fiberG": 34.673,
+      "sugarsG": 25.309,
+      "sodiumMg": 2475.27,
+      "potassiumMg": 6891.33,
+      "calciumMg": 447.234,
+      "ironMg": 17.65,
+      "magnesiumMg": 511.302,
+      "vitaminCMg": 124.98
+    },
+    "perServing": {
+      "calories": 439.295,
+      "proteinG": 43.937,
+      "carbohydratesG": 35.993,
+      "fatG": 14.093,
+      "fiberG": 8.668,
+      "sugarsG": 6.327,
+      "sodiumMg": 618.817,
+      "potassiumMg": 1722.832,
+      "calciumMg": 111.808,
+      "ironMg": 4.412,
+      "magnesiumMg": 127.826,
+      "vitaminCMg": 31.245
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.32,
+    "perServingUsd": 2.58,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-12-07T21:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/576320083586005800/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.4jHiZO8XlSrWMCqRN_9pvgHaO0&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/c3/e1/03/c3e10319e5a495e5a8f68febc7487249.jpg",
+    "searchQuery": "Greek Pork Tenderloin Baked Potatoes plated recipe food",
+    "searchResultTitle": "Pork Tenderloin with Potatoes | Pork tenderloin recipes, Baked pork ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:35:56.411Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0221",
+    "name": "Greek Pork Tenderloin Baked Potatoes",
+    "description": "Greek Pork Tenderloin Baked Potatoes is a practical oven recipe pairing pork tenderloin with potatoes and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 85,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 439.295,
+      "proteinG": 43.937,
+      "carbohydratesG": 35.993,
+      "fatG": 14.093,
+      "fiberG": 8.668,
+      "sugarsG": 6.327,
+      "sodiumMg": 618.817,
+      "potassiumMg": 1722.832,
+      "calciumMg": 111.808,
+      "ironMg": 4.412,
+      "magnesiumMg": 127.826,
+      "vitaminCMg": 31.245
+    },
+    "estimatedCostPerServingUsd": 2.58,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

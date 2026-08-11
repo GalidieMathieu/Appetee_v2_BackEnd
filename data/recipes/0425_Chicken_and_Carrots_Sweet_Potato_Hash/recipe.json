@@ -1,0 +1,247 @@
+{
+  "seedId": "REC-0425",
+  "candidate": {
+    "sequence": 557,
+    "seedId": "REC-CAND-0557",
+    "name": "Chicken and Carrots Sweet Potato Hash"
+  },
+  "name": "Chicken and Carrots Sweet Potato Hash",
+  "description": "Chicken and Carrots Sweet Potato Hash is a practical stovetop recipe pairing chicken with sweet potato and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.jocooks.com/recipes/chicken-with-green-beans-and-sweet-potatoes/",
+    "domain": "jocooks.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Sheet-Pan Chicken, Sweet Potato, and Green Beans source while retaining its closest matching dish form, cooking sequence, and applicable chicken or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "sweet potato",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0036",
+      "sourceQuantity": 2,
+      "sourceUnit": "lb",
+      "sourceDisplay": "2 lb chicken thighs",
+      "normalizedQuantity": 907.185,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0007",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb sweet potatoes",
+      "normalizedQuantity": 680.389,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0037",
+      "sourceQuantity": 12,
+      "sourceUnit": "oz",
+      "sourceDisplay": "12 oz green beans",
+      "normalizedQuantity": 340.194,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 3,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "3 tbsp olive oil",
+      "normalizedQuantity": 45,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chicken, and sweet potato for chicken and carrots sweet potato hash.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chicken and cook it until browned or heated through as appropriate.",
+    "Stir in the sweet potato, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the chicken and carrots sweet potato hash, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 3007.413,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3142.023,
+      "proteinG": 337.766,
+      "carbohydratesG": 257.193,
+      "fatG": 90.456,
+      "fiberG": 27.16,
+      "sugarsG": 23.748,
+      "sodiumMg": 2048.583,
+      "potassiumMg": 10859.824,
+      "calciumMg": 601.383,
+      "ironMg": 17.971,
+      "magnesiumMg": 688.256,
+      "vitaminCMg": 208.663
+    },
+    "perServing": {
+      "calories": 785.506,
+      "proteinG": 84.442,
+      "carbohydratesG": 64.298,
+      "fatG": 22.614,
+      "fiberG": 6.79,
+      "sugarsG": 5.937,
+      "sodiumMg": 512.146,
+      "potassiumMg": 2714.956,
+      "calciumMg": 150.346,
+      "ironMg": 4.493,
+      "magnesiumMg": 172.064,
+      "vitaminCMg": 52.166
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 15.7,
+    "perServingUsd": 3.92,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2025-10-18T09:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://pennycooks.com/sweet-potato-and-chicken-hash-skillet/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.R4SXgVCYYUTlx209ZO9BEQHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://pennycooks.com/wp-content/uploads/2026/01/1769641673198-d9v8oz4.png",
+    "searchQuery": "Chicken and Carrots Sweet Potato Hash plated recipe food",
+    "searchResultTitle": "Sweet Potato and Chicken Hash Skillet | High Protein Healthy Meal",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:47:11.663Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0425",
+    "name": "Chicken and Carrots Sweet Potato Hash",
+    "description": "Chicken and Carrots Sweet Potato Hash is a practical stovetop recipe pairing chicken with sweet potato and title-specific vegetables and seasonings.",
+    "mealType": "Breakfast",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 785.506,
+      "proteinG": 84.442,
+      "carbohydratesG": 64.298,
+      "fatG": 22.614,
+      "fiberG": 6.79,
+      "sugarsG": 5.937,
+      "sodiumMg": 512.146,
+      "potassiumMg": 2714.956,
+      "calciumMg": 150.346,
+      "ironMg": 4.493,
+      "magnesiumMg": 172.064,
+      "vitaminCMg": 52.166
+    },
+    "estimatedCostPerServingUsd": 3.92,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

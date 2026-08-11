@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0030",
+  "name": "2% Milk",
+  "canonicalName": "2% Milk",
+  "description": "Reduced-fat 2% dairy milk.",
+  "measurementType": "liquid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value 2% Reduced Fat Milk, Half Gallon, 64 fl oz",
+    "productId": "10450119",
+    "productUrl": "https://www.walmart.com/ip/10450119",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 2.18,
+    "packageQuantity": 1892.706,
+    "packageUnit": "ml",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "ml",
+    "values": {
+      "calories": 51.5,
+      "proteinG": 3.399,
+      "carbohydratesG": 4.944,
+      "fatG": 2.039,
+      "fiberG": 0,
+      "sugarsG": 5.212,
+      "sodiumMg": 48.41,
+      "potassiumMg": 144.2,
+      "calciumMg": 123.6,
+      "ironMg": 0.021,
+      "magnesiumMg": 11.33,
+      "vitaminCMg": 0.206
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "ml",
+    "usdPerBasis": 0.1152
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 171267,
+      "dataType": "SR Legacy",
+      "description": "Milk, reduced fat, fluid, 2% milkfat, with added vitamin A and vitamin D",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171267/nutrients",
+      "searchQuery": "milk reduced fat 2% milkfat with added vitamin a and vitamin d",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": 1.03,
+    "notes": "USDA per-100-g values are converted with a 1.03 g/ml density."
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://manuelr.com/what-are-the-benefits-of-2-milk/",
+    "originalSourceUrl": "https://koala.sh/api/image/v2-13row1-wdgu9.jpg?width=1216&height=832&dream",
+    "searchQuery": "2% Milk ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0030",
+    "name": "2% Milk",
+    "description": "Reduced-fat 2% dairy milk.",
+    "measurement": {
+      "type": "liquid",
+      "basisQuantity": 100,
+      "basisUnit": "ml"
+    },
+    "nutrition": {
+      "calories": 51.5,
+      "proteinG": 3.399,
+      "carbohydratesG": 4.944,
+      "fatG": 2.039,
+      "fiberG": 0,
+      "sugarsG": 5.212,
+      "sodiumMg": 48.41,
+      "potassiumMg": 144.2,
+      "calciumMg": 123.6,
+      "ironMg": 0.021,
+      "magnesiumMg": 11.33,
+      "vitaminCMg": 0.206
+    },
+    "price": {
+      "usdPerBasis": 0.1152,
+      "basisQuantity": 100,
+      "basisUnit": "ml"
+    },
+    "image": "ingredients/0030_2_Milk/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": false,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

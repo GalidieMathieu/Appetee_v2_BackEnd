@@ -1,0 +1,229 @@
+{
+  "seedId": "REC-0383",
+  "candidate": {
+    "sequence": 483,
+    "seedId": "REC-CAND-0483",
+    "name": "Garlic Shrimp Chili"
+  },
+  "name": "Garlic Shrimp Chili",
+  "description": "Garlic Shrimp Chili is a practical stovetop recipe pairing shrimp with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.tastemade.com/recipes/spicy-shrimp-chili",
+    "domain": "tastemade.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Spicy Shrimp Chili source while retaining its closest matching dish form, cooking sequence, and applicable shrimp or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 50,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "shrimp",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0038",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0078",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, shrimp, and legumes for garlic shrimp chili.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned shrimp and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the garlic shrimp chili, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1651,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1019.52,
+      "proteinG": 112.751,
+      "carbohydratesG": 119.95,
+      "fatG": 11.148,
+      "fiberG": 32.07,
+      "sugarsG": 8.971,
+      "sodiumMg": 4581.45,
+      "potassiumMg": 3463.97,
+      "calciumMg": 677.52,
+      "ironMg": 11.881,
+      "magnesiumMg": 350.552,
+      "vitaminCMg": 32.856
+    },
+    "perServing": {
+      "calories": 254.88,
+      "proteinG": 28.188,
+      "carbohydratesG": 29.988,
+      "fatG": 2.787,
+      "fiberG": 8.018,
+      "sugarsG": 2.243,
+      "sodiumMg": 1145.362,
+      "potassiumMg": 865.992,
+      "calciumMg": 169.38,
+      "ironMg": 2.97,
+      "magnesiumMg": 87.638,
+      "vitaminCMg": 8.214
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 14.78,
+    "perServingUsd": 3.69,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "High Fiber",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2025-08-14T15:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://recipesbyaria.com/chili-garlic-shrimp/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.GZVqdcF0FbS6Nhm5sVGrdwHaJ4&pid=15.1",
+    "discoveredOriginalUrl": "https://recipesbyaria.com/wp-content/uploads/2025/08/cvky7pzwagp6ivqhkgnx.webp",
+    "searchQuery": "Garlic Shrimp Chili plated recipe food",
+    "searchResultTitle": "Irresistible Chili Garlic Shrimp: Quick, Spicy & Delicious",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:44:43.794Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0383",
+    "name": "Garlic Shrimp Chili",
+    "description": "Garlic Shrimp Chili is a practical stovetop recipe pairing shrimp with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 254.88,
+      "proteinG": 28.188,
+      "carbohydratesG": 29.988,
+      "fatG": 2.787,
+      "fiberG": 8.018,
+      "sugarsG": 2.243,
+      "sodiumMg": 1145.362,
+      "potassiumMg": 865.992,
+      "calciumMg": 169.38,
+      "ironMg": 2.97,
+      "magnesiumMg": 87.638,
+      "vitaminCMg": 8.214
+    },
+    "estimatedCostPerServingUsd": 3.69,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "High Fiber",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

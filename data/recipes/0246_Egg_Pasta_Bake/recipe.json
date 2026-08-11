@@ -1,0 +1,231 @@
+{
+  "seedId": "REC-0246",
+  "candidate": {
+    "sequence": 236,
+    "seedId": "REC-CAND-0236",
+    "name": "Egg Pasta Bake"
+  },
+  "name": "Egg Pasta Bake",
+  "description": "Egg Pasta Bake is a practical oven recipe pairing eggs with pasta and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://ifoodreal.com/cottage-cheese-egg-bake/",
+    "domain": "ifoodreal.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Cottage Cheese Spinach Egg Bake source while retaining its closest matching dish form, cooking sequence, and applicable eggs or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "pasta",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 10,
+      "sourceUnit": "large",
+      "sourceDisplay": "10 eggs",
+      "normalizedQuantity": 500,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0035",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups cottage cheese",
+      "normalizedQuantity": 452,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups frozen spinach",
+      "normalizedQuantity": 170,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 Roma tomatoes",
+      "normalizedQuantity": 186,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "medium",
+      "sourceDisplay": "½ onion",
+      "normalizedQuantity": 75,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0039",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for egg pasta bake.",
+    "Season the eggs and vegetables evenly while the oven reaches temperature.",
+    "Arrange the eggs, pasta, and vegetables so heat can circulate around each component.",
+    "Bake until the eggs is safely cooked and the vegetables or grain base are tender.",
+    "Rest the egg pasta bake briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1574.9,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2305.802,
+      "proteinG": 159.632,
+      "carbohydratesG": 220.989,
+      "fatG": 84.538,
+      "fiberG": 16.582,
+      "sugarsG": 26.699,
+      "sodiumMg": 2698.466,
+      "potassiumMg": 2839.863,
+      "calciumMg": 882.693,
+      "ironMg": 21.636,
+      "magnesiumMg": 368.26,
+      "vitaminCMg": 45.662
+    },
+    "perServing": {
+      "calories": 576.451,
+      "proteinG": 39.908,
+      "carbohydratesG": 55.247,
+      "fatG": 21.134,
+      "fiberG": 4.146,
+      "sugarsG": 6.675,
+      "sodiumMg": 674.616,
+      "potassiumMg": 709.966,
+      "calciumMg": 220.673,
+      "ironMg": 5.409,
+      "magnesiumMg": 92.065,
+      "vitaminCMg": 11.415
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.53,
+    "perServingUsd": 1.38,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2025-01-15T10:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://recipebix.com/easy-cheese-egg-pasta-bake-a-delicious-comfort-food-recipe/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.2z_zUj7PjIQZzycnk1vM5QHaE7&pid=15.1",
+    "discoveredOriginalUrl": "https://recipe.sfo3.digitaloceanspaces.com/images/easy-cheese-egg-pasta-bake-a-delicious-comfort-fo-99553-featured_1_0.jpg",
+    "searchQuery": "Egg Pasta Bake plated recipe food",
+    "searchResultTitle": "Easy Cheese Egg Pasta Bake: A Delicious Comfort Food Recipe - Recipe bix",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:37:24.032Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0246",
+    "name": "Egg Pasta Bake",
+    "description": "Egg Pasta Bake is a practical oven recipe pairing eggs with pasta and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 576.451,
+      "proteinG": 39.908,
+      "carbohydratesG": 55.247,
+      "fatG": 21.134,
+      "fiberG": 4.146,
+      "sugarsG": 6.675,
+      "sodiumMg": 674.616,
+      "potassiumMg": 709.966,
+      "calciumMg": 220.673,
+      "ironMg": 5.409,
+      "magnesiumMg": 92.065,
+      "vitaminCMg": 11.415
+    },
+    "estimatedCostPerServingUsd": 1.38,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "High Protein",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

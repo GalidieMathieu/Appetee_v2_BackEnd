@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-0102",
+  "name": "Norwegian Karbonader with Caramelized Onions",
+  "description": "Lean beef patties seasoned with nutmeg and served beneath slowly caramelized onions.",
+  "source": {
+    "url": "https://scandinaviancookbook.com/karbonader/",
+    "domain": "scandinaviancookbook.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Norway",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "totalMinutes": 40
+  },
+  "servings": 3,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "beef",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 2,
+      "sourceUnit": "medium",
+      "sourceDisplay": "2 onions",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0056",
+      "sourceQuantity": 3,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "3 tbsp butter, divided",
+      "normalizedQuantity": 42.6,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 1,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1 lb ground beef",
+      "normalizedQuantity": 453.592,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0079",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "½ tsp ground nutmeg",
+      "normalizedQuantity": 1.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0066",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "½ tbsp cornstarch",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Grate half of one onion and slice the remaining onions.",
+    "Cook the sliced onions slowly in part of the butter until deeply caramelized.",
+    "Mix the beef with grated onion, nutmeg, cornstarch, water, salt, and pepper.",
+    "Shape the mixture into six patties and score a light grid on each surface.",
+    "Brown the patties in the remaining butter, then finish them gently until cooked through.",
+    "Serve the karbonader topped with the caramelized onions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 657.894,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1415.68,
+      "proteinG": 87.295,
+      "carbohydratesG": 30.05,
+      "fatG": 103.139,
+      "fiberG": 5.965,
+      "sodiumMg": 307.593,
+      "potassiumMg": 1898.29,
+      "calciumMg": 125.367,
+      "ironMg": 10.381,
+      "magnesiumMg": 111.632,
+      "vitaminCMg": 24.633,
+      "sugarsG": 0.058
+    },
+    "perServing": {
+      "calories": 471.893,
+      "proteinG": 29.098,
+      "carbohydratesG": 10.017,
+      "fatG": 34.38,
+      "fiberG": 1.988,
+      "sodiumMg": 102.531,
+      "potassiumMg": 632.763,
+      "calciumMg": 41.789,
+      "ironMg": 3.46,
+      "magnesiumMg": 37.211,
+      "vitaminCMg": 8.211,
+      "sugarsG": 0.019
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.58,
+    "perServingUsd": 2.86,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-06-07T10:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "scandinaviancookbook.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://scandinaviancookbook.com/karbonader/",
+    "originalSourceUrl": "https://scandinaviancookbook.com/wp-content/uploads/2023/04/DSC04453.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0102",
+    "name": "Norwegian Karbonader with Caramelized Onions",
+    "description": "Lean beef patties seasoned with nutmeg and served beneath slowly caramelized onions.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 3,
+    "nutritionPerServing": {
+      "calories": 471.893,
+      "proteinG": 29.098,
+      "carbohydratesG": 10.017,
+      "fatG": 34.38,
+      "fiberG": 1.988,
+      "sodiumMg": 102.531,
+      "potassiumMg": 632.763,
+      "calciumMg": 41.789,
+      "ironMg": 3.46,
+      "magnesiumMg": 37.211,
+      "vitaminCMg": 8.211,
+      "sugarsG": 0.019
+    },
+    "estimatedCostPerServingUsd": 2.86,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

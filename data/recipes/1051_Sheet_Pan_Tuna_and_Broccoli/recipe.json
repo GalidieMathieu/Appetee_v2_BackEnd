@@ -1,0 +1,235 @@
+{
+  "seedId": "REC-1051",
+  "candidate": {
+    "sequence": 1748,
+    "seedId": "REC-CAND-1748",
+    "name": "Sheet Pan Tuna and Broccoli"
+  },
+  "name": "Sheet Pan Tuna and Broccoli",
+  "description": "Sheet Pan Tuna and Broccoli is a practical oven recipe pairing tuna with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.hungryroot.com/recipes/garlic-sheet-pan-tuna-bell-peppers-1036722838/",
+    "domain": "hungryroot.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Sheet Pan Tuna and Kale source while retaining its closest matching dish form, cooking sequence, and applicable tuna or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 50,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "tuna",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0025",
+      "sourceQuantity": 340,
+      "sourceUnit": "g",
+      "sourceDisplay": "340 g",
+      "normalizedQuantity": 340,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0097",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0013",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for sheet pan tuna and broccoli.",
+    "Season the tuna and vegetables evenly while the oven reaches temperature.",
+    "Arrange the tuna, vegetables, and vegetables so heat can circulate around each component.",
+    "Bake until the tuna is safely cooked and the vegetables or grain base are tender.",
+    "Rest the sheet pan tuna and broccoli briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1645,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1050.482,
+      "proteinG": 110.964,
+      "carbohydratesG": 82.077,
+      "fatG": 36.733,
+      "fiberG": 35.295,
+      "sugarsG": 21.27,
+      "sodiumMg": 420.296,
+      "potassiumMg": 3808.023,
+      "calciumMg": 1076.423,
+      "ironMg": 15.33,
+      "magnesiumMg": 316.35,
+      "vitaminCMg": 894.48
+    },
+    "perServing": {
+      "calories": 262.62,
+      "proteinG": 27.741,
+      "carbohydratesG": 20.519,
+      "fatG": 9.183,
+      "fiberG": 8.824,
+      "sugarsG": 5.317,
+      "sodiumMg": 105.074,
+      "potassiumMg": 952.006,
+      "calciumMg": 269.106,
+      "ironMg": 3.833,
+      "magnesiumMg": 79.088,
+      "vitaminCMg": 223.62
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.81,
+    "perServingUsd": 2.7,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-06-09T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.solin.stream/recipes/132937/10-minute-sheet-pan-lemon-herb-tuna-with-roasted-broccoli",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.v2wCEZ56EHuCSaGqAE5ZAQHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://res.cloudinary.com/solin-fitness/image/upload/c_scale,w_500,q_auto,f_auto/single-meal-images/mfmjnvczu8x7ngqp8irp",
+    "searchQuery": "Sheet Pan Tuna and Broccoli plated recipe food",
+    "searchResultTitle": "10-Minute Sheet Pan Lemon Herb Tuna with Roasted Broccoli",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:19:10.256Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1051",
+    "name": "Sheet Pan Tuna and Broccoli",
+    "description": "Sheet Pan Tuna and Broccoli is a practical oven recipe pairing tuna with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 262.62,
+      "proteinG": 27.741,
+      "carbohydratesG": 20.519,
+      "fatG": 9.183,
+      "fiberG": 8.824,
+      "sugarsG": 5.317,
+      "sodiumMg": 105.074,
+      "potassiumMg": 952.006,
+      "calciumMg": 269.106,
+      "ironMg": 3.833,
+      "magnesiumMg": 79.088,
+      "vitaminCMg": 223.62
+    },
+    "estimatedCostPerServingUsd": 2.7,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

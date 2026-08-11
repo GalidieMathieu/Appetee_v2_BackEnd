@@ -1,0 +1,201 @@
+{
+  "seedId": "REC-0017",
+  "name": "Chickpea Sweet Potato Curry",
+  "description": "Sweet potato and chickpeas simmered with tomato, coconut milk, spinach, and curry spices.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/lentil-sweet-potato-curry/",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "India",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "totalMinutes": 50
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "sweet potato",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans chickpeas",
+      "normalizedQuantity": 878.835,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0007",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb sweet potatoes",
+      "normalizedQuantity": 680.389,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 13.5,
+      "sourceUnit": "fl oz",
+      "sourceDisplay": "13½ fl oz coconut milk",
+      "normalizedQuantity": 399.243,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can diced tomatoes",
+      "normalizedQuantity": 411.068,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 8,
+      "sourceUnit": "oz",
+      "sourceDisplay": "8 oz spinach",
+      "normalizedQuantity": 226.796,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1½ tbsp curry powder",
+      "normalizedQuantity": 10.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Cut sweet potato into small cubes.",
+    "Stir curry powder into a hot soup pot until fragrant.",
+    "Add sweet potato, chickpeas, tomatoes, and coconut milk and bring to a gentle simmer.",
+    "Cover and cook until sweet potato is tender, then fold in spinach."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 2516.113,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2719.485,
+      "proteinG": 93.96,
+      "carbohydratesG": 355.718,
+      "fatG": 116.752,
+      "fiberG": 68.409,
+      "sugarsG": 37.005,
+      "sodiumMg": 2900.96,
+      "potassiumMg": 7013.836,
+      "calciumMg": 1090.078,
+      "ironMg": 33.922,
+      "magnesiumMg": 779.26,
+      "vitaminCMg": 118.116
+    },
+    "perServing": {
+      "calories": 453.248,
+      "proteinG": 15.66,
+      "carbohydratesG": 59.286,
+      "fatG": 19.459,
+      "fiberG": 11.402,
+      "sugarsG": 6.168,
+      "sodiumMg": 483.493,
+      "potassiumMg": 1168.973,
+      "calciumMg": 181.68,
+      "ironMg": 5.654,
+      "magnesiumMg": 129.877,
+      "vitaminCMg": 19.686
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.72,
+    "perServingUsd": 1.29,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-01-28T09:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "provenance": "Public source-page image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.bbcgoodfood.com/recipes/lentil-sweet-potato-curry/",
+    "originalSourceUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/lentil-curry-a348771.jpg?resize=440%2C230",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0017",
+    "name": "Chickpea Sweet Potato Curry",
+    "description": "Sweet potato and chickpeas simmered with tomato, coconut milk, spinach, and curry spices.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": {
+      "main": "recipes/0017_Chickpea_Sweet_Potato_Curry/assets/main.avif",
+      "card": "recipes/0017_Chickpea_Sweet_Potato_Curry/assets/card.avif"
+    },
+    "totalTimeMinutes": 50,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 453.248,
+      "proteinG": 15.66,
+      "carbohydratesG": 59.286,
+      "fatG": 19.459,
+      "fiberG": 11.402,
+      "sugarsG": 6.168,
+      "sodiumMg": 483.493,
+      "potassiumMg": 1168.973,
+      "calciumMg": 181.68,
+      "ironMg": 5.654,
+      "magnesiumMg": 129.877,
+      "vitaminCMg": 19.686
+    },
+    "estimatedCostPerServingUsd": 1.29,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

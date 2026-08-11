@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0018",
+  "name": "Extra-Firm Tofu",
+  "canonicalName": "Extra-Firm Tofu",
+  "description": "Refrigerated extra-firm tofu.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Nasoya Extra Firm Tofu, 14 oz",
+    "productId": "10898817",
+    "productUrl": "https://www.walmart.com/ip/10898817",
+    "brand": "Nasoya",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 2.92,
+    "packageQuantity": 396.893,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 78,
+      "proteinG": 9.04,
+      "carbohydratesG": 2.85,
+      "fatG": 4.17,
+      "fiberG": 0.9,
+      "sugarsG": 0.6,
+      "sodiumMg": 12,
+      "potassiumMg": 148,
+      "calciumMg": 201,
+      "ironMg": 1.61,
+      "magnesiumMg": 37,
+      "vitaminCMg": 0.2
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.7357
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 172448,
+      "dataType": "SR Legacy",
+      "description": "Tofu, firm, prepared with calcium sulfate and magnesium chloride (nigari)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/172448/nutrients",
+      "searchQuery": "tofu extra firm prepared with calcium",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://foodsense.is/blog/extra-firm-tofu/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.VBLquKFvp9zzDOu82ipfkgHaE8&pid=15.1",
+    "searchQuery": "Extra-Firm Tofu ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0018",
+    "name": "Extra-Firm Tofu",
+    "description": "Refrigerated extra-firm tofu.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 78,
+      "proteinG": 9.04,
+      "carbohydratesG": 2.85,
+      "fatG": 4.17,
+      "fiberG": 0.9,
+      "sugarsG": 0.6,
+      "sodiumMg": 12,
+      "potassiumMg": 148,
+      "calciumMg": 201,
+      "ironMg": 1.61,
+      "magnesiumMg": 37,
+      "vitaminCMg": 0.2
+    },
+    "price": {
+      "usdPerBasis": 0.7357,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0018_Extra_Firm_Tofu/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

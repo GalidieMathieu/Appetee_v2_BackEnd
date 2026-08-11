@@ -1,0 +1,201 @@
+{
+  "seedId": "REC-0062",
+  "name": "Pork Black Bean Tacos",
+  "description": "Whole-wheat tacos with seasoned ground pork, black beans, corn, and salsa.",
+  "source": {
+    "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/pork-tacos-with-black-beans-recipe-3361652",
+    "domain": "foodnetwork.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "totalMinutes": 35
+  },
+  "servings": 5,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "pork",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0048",
+      "sourceQuantity": 1.25,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1¼ lb ground pork",
+      "normalizedQuantity": 567,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 10,
+      "sourceUnit": "tortillas",
+      "sourceDisplay": "10 whole-wheat tortillas",
+      "normalizedQuantity": 453.6,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can black beans, drained",
+      "normalizedQuantity": 260,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup corn",
+      "normalizedQuantity": 165,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup salsa",
+      "normalizedQuantity": 260,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp chili powder",
+      "normalizedQuantity": 8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Brown the pork with chili powder until it reaches 160°F.",
+    "Add the black beans and corn and cook until hot.",
+    "Warm the tortillas in a dry skillet until flexible.",
+    "Fill the tortillas with pork mixture and spoon salsa over each taco."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1555.35,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3427.98,
+      "proteinG": 167.092,
+      "carbohydratesG": 313.027,
+      "fatG": 170.521,
+      "fiberG": 55.877,
+      "sodiumMg": 5619.882,
+      "potassiumMg": 4684.772,
+      "calciumMg": 1402.894,
+      "ironMg": 24.565,
+      "magnesiumMg": 675.43,
+      "vitaminCMg": 9.8,
+      "sugarsG": 16.709
+    },
+    "perServing": {
+      "calories": 685.596,
+      "proteinG": 33.418,
+      "carbohydratesG": 62.605,
+      "fatG": 34.104,
+      "fiberG": 11.175,
+      "sodiumMg": 1123.976,
+      "potassiumMg": 936.954,
+      "calciumMg": 280.579,
+      "ironMg": 4.913,
+      "magnesiumMg": 135.086,
+      "vitaminCMg": 1.96,
+      "sugarsG": 3.342
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 9.32,
+    "perServingUsd": 1.86,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-04-06T18:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "food.fnr.sndimg.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.foodnetwork.com/recipes/food-network-kitchen/pork-tacos-with-black-beans-recipe-3361652",
+    "originalSourceUrl": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2013/6/10/1/FNM_070113-Pork-Tacos-With-Black-Beans-Recipe_s4x3.jpg.rend.hgtvcom.616.462.suffix/1371616986066.webp",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0062",
+    "name": "Pork Black Bean Tacos",
+    "description": "Whole-wheat tacos with seasoned ground pork, black beans, corn, and salsa.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 35,
+    "servings": 5,
+    "nutritionPerServing": {
+      "calories": 685.596,
+      "proteinG": 33.418,
+      "carbohydratesG": 62.605,
+      "fatG": 34.104,
+      "fiberG": 11.175,
+      "sodiumMg": 1123.976,
+      "potassiumMg": 936.954,
+      "calciumMg": 280.579,
+      "ironMg": 4.913,
+      "magnesiumMg": 135.086,
+      "vitaminCMg": 1.96,
+      "sugarsG": 3.342
+    },
+    "estimatedCostPerServingUsd": 1.86,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

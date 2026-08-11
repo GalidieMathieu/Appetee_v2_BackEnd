@@ -1,0 +1,238 @@
+{
+  "seedId": "REC-0113",
+  "name": "Croatian Beef Goulash",
+  "description": "Beef slowly braised with onions, carrots, mustard, red wine, paprika, garlic, and bay.",
+  "source": {
+    "url": "https://www.chasingthedonkey.com/croatian-recipes-traditional-croatian-goulash/",
+    "domain": "chasingthedonkey.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source mustard marinade, wine, aromatics, and long braise are retained; top sirloin is the validated beef product and the pea-and-carrot blend represents the carrots."
+  },
+  "countryOfOrigin": "Croatia",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 75,
+    "cookMinutes": 120,
+    "totalMinutes": 195
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Braise",
+  "primaryProtein": "beef",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 500,
+      "sourceUnit": "g",
+      "sourceDisplay": "500 g beef",
+      "normalizedQuantity": 500,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 2,
+      "sourceUnit": "medium",
+      "sourceDisplay": "2 chopped onions",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0019",
+      "sourceQuantity": 200,
+      "sourceUnit": "g",
+      "sourceDisplay": "carrots represented by frozen pea-and-carrot blend",
+      "normalizedQuantity": 200,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 2,
+      "sourceUnit": "cloves",
+      "sourceDisplay": "2 garlic cloves",
+      "normalizedQuantity": 10,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0065",
+      "sourceQuantity": 2,
+      "sourceUnit": "leaves",
+      "sourceDisplay": "2 bay leaves",
+      "normalizedQuantity": 0.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0089",
+      "sourceQuantity": 200,
+      "sourceUnit": "ml",
+      "sourceDisplay": "200 ml red cooking wine",
+      "normalizedQuantity": 200,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0090",
+      "sourceQuantity": 3,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "3 tbsp Dijon mustard",
+      "normalizedQuantity": 45,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "½ tsp paprika",
+      "normalizedQuantity": 1.15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp cooking oil",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Cut the beef into chunks, coat it with mustard and spices, and refrigerate it for one hour.",
+    "Brown the marinated beef in oil and transfer it to a plate.",
+    "Cook the onions and vegetables slowly until soft and deeply colored.",
+    "Return the beef with garlic and bay leaves, add the wine, and simmer until the alcohol aroma fades.",
+    "Add water in stages, cover the pot, and braise gently until the beef is very tender."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1131.55,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1311.027,
+      "proteinG": 123.44,
+      "carbohydratesG": 60.252,
+      "fatG": 47.825,
+      "fiberG": 15.017,
+      "sugarsG": 1.86,
+      "sodiumMg": 947.04,
+      "potassiumMg": 3107.569,
+      "calciumMg": 277.533,
+      "ironMg": 13.442,
+      "magnesiumMg": 228.387,
+      "vitaminCMg": 50.451
+    },
+    "perServing": {
+      "calories": 218.505,
+      "proteinG": 20.573,
+      "carbohydratesG": 10.042,
+      "fatG": 7.971,
+      "fiberG": 2.503,
+      "sugarsG": 0.31,
+      "sodiumMg": 157.84,
+      "potassiumMg": 517.928,
+      "calciumMg": 46.256,
+      "ironMg": 2.24,
+      "magnesiumMg": 38.065,
+      "vitaminCMg": 8.409
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 19.58,
+    "perServingUsd": 3.26,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-06-24T09:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "chasingthedonkey.b-cdn.net",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.chasingthedonkey.com/croatian-recipes-traditional-croatian-goulash/",
+    "originalSourceUrl": "https://chasingthedonkey.b-cdn.net/wp-content/uploads/2020/04/Croatian-Gulas_How-To-Make-Gulas-21.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0113",
+    "name": "Croatian Beef Goulash",
+    "description": "Beef slowly braised with onions, carrots, mustard, red wine, paprika, garlic, and bay.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 195,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 218.505,
+      "proteinG": 20.573,
+      "carbohydratesG": 10.042,
+      "fatG": 7.971,
+      "fiberG": 2.503,
+      "sugarsG": 0.31,
+      "sodiumMg": 157.84,
+      "potassiumMg": 517.928,
+      "calciumMg": 46.256,
+      "ironMg": 2.24,
+      "magnesiumMg": 38.065,
+      "vitaminCMg": 8.409
+    },
+    "estimatedCostPerServingUsd": 3.26,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

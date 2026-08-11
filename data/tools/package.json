@@ -1,0 +1,20 @@
+{
+  "name": "appetee-dataset-tools",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node generation/generate.mjs",
+    "migrate:meal-category": "node generation/add-meal-category.mjs",
+    "migrate:restriction-diets": "node generation/add-restriction-diets.mjs",
+    "validate": "node validation/validate.mjs",
+    "images": "node image-processing/build-assets.mjs",
+    "images:source": "node image-processing/acquire-source-assets.mjs",
+    "images:related": "node image-processing/acquire-related-recipe-assets.mjs",
+    "images:queue": "node image-processing/sync-image-queues.mjs",
+    "checkpoint": "node generation/checkpoint.mjs",
+    "candidate:status": "node generation/candidate-progress.mjs"
+  },
+  "dependencies": {
+    "sharp": "0.35.3"
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "seedId": "REC-0012",
+  "name": "Egg and Black Bean Breakfast Tacos",
+  "description": "Fast whole-wheat breakfast tacos with scrambled eggs, beans, spinach, and salsa.",
+  "source": {
+    "url": "https://www.incredibleegg.org/recipe/easy-breakfast-tacos/",
+    "domain": "incredibleegg.org",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "totalMinutes": 20
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 6,
+      "sourceUnit": "large",
+      "sourceDisplay": "6 large eggs",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can black beans, drained",
+      "normalizedQuantity": 255,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 8,
+      "sourceUnit": "pieces",
+      "sourceDisplay": "8 whole-wheat tortillas",
+      "normalizedQuantity": 362.874,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "cup",
+      "sourceDisplay": "½ cup salsa",
+      "normalizedQuantity": 130,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 4,
+      "sourceUnit": "oz",
+      "sourceDisplay": "4 oz spinach",
+      "normalizedQuantity": 113.398,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Warm the drained beans in a skillet and mash a few for texture.",
+    "Add spinach and cook until hot, then move the mixture to a bowl.",
+    "Scramble the eggs gently in the same skillet.",
+    "Warm tortillas and fill each with beans, eggs, and salsa."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1119.932,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1917.745,
+      "proteinG": 96.825,
+      "carbohydratesG": 232.745,
+      "fatG": 68.078,
+      "fiberG": 41.19,
+      "sugarsG": 10.701,
+      "sodiumMg": 4157.547,
+      "potassiumMg": 2737.637,
+      "calciumMg": 1346.511,
+      "ironMg": 21.792,
+      "magnesiumMg": 532.126,
+      "vitaminCMg": 6.237
+    },
+    "perServing": {
+      "calories": 479.436,
+      "proteinG": 24.206,
+      "carbohydratesG": 58.186,
+      "fatG": 17.02,
+      "fiberG": 10.297,
+      "sugarsG": 2.675,
+      "sodiumMg": 1039.387,
+      "potassiumMg": 684.409,
+      "calciumMg": 336.628,
+      "ironMg": 5.448,
+      "magnesiumMg": 133.031,
+      "vitaminCMg": 1.559
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.49,
+    "perServingUsd": 1.12,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-01-20T16:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "provenance": "Public source-page image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.incredibleegg.org/recipe/easy-breakfast-tacos/",
+    "originalSourceUrl": "https://www.incredibleegg.org/wp-content/uploads/2023/07/d-EasyBreakfastTacos-2100x963-2.jpg",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0012",
+    "name": "Egg and Black Bean Breakfast Tacos",
+    "description": "Fast whole-wheat breakfast tacos with scrambled eggs, beans, spinach, and salsa.",
+    "mealType": "Breakfast",
+    "mealCategory": "Main Meal",
+    "image": {
+      "main": "recipes/0012_Egg_and_Black_Bean_Breakfast_Tacos/assets/main.avif",
+      "card": "recipes/0012_Egg_and_Black_Bean_Breakfast_Tacos/assets/card.avif"
+    },
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 479.436,
+      "proteinG": 24.206,
+      "carbohydratesG": 58.186,
+      "fatG": 17.02,
+      "fiberG": 10.297,
+      "sugarsG": 2.675,
+      "sodiumMg": 1039.387,
+      "potassiumMg": 684.409,
+      "calciumMg": 336.628,
+      "ironMg": 5.448,
+      "magnesiumMg": 133.031,
+      "vitaminCMg": 1.559
+    },
+    "estimatedCostPerServingUsd": 1.12,
+    "diets": [
+      "Vegetarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "seedId": "REC-0021",
+  "name": "Filipino Chicken Adobo with Rice",
+  "description": "Chicken thighs braised in soy sauce, cider vinegar, and garlic, served with rice.",
+  "source": {
+    "url": "https://www.kawalingpinoy.com/chicken-adobo/",
+    "domain": "kawalingpinoy.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Philippines",
+  "discovery": true,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 45,
+    "totalMinutes": 55
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Braise",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0036",
+      "sourceQuantity": 2,
+      "sourceUnit": "lb",
+      "sourceDisplay": "2 lb chicken thighs",
+      "normalizedQuantity": 907.185,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "cup",
+      "sourceDisplay": "½ cup soy sauce",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "cup",
+      "sourceDisplay": "½ cup cider vinegar",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp minced garlic",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups dry rice",
+      "normalizedQuantity": 277.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3
+    }
+  ],
+  "instructions": [
+    "Combine chicken, soy sauce, vinegar, and garlic in a covered pot.",
+    "Bring to a boil without stirring, then lower to a steady simmer.",
+    "Turn the chicken occasionally and braise until tender and at least 165°F.",
+    "Uncover and reduce the sauce until it coats the chicken.",
+    "Cook the rice separately and serve it with the adobo."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1779.889,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2138.057,
+      "proteinG": 206.047,
+      "carbohydratesG": 240.752,
+      "fatG": 37.277,
+      "fiberG": 2.157,
+      "sugarsG": 1.342,
+      "sodiumMg": 9069.731,
+      "potassiumMg": 3165.491,
+      "calciumMg": 193.671,
+      "ironMg": 8.602,
+      "magnesiumMg": 380.614,
+      "vitaminCMg": 9.36
+    },
+    "perServing": {
+      "calories": 356.343,
+      "proteinG": 34.341,
+      "carbohydratesG": 40.125,
+      "fatG": 6.213,
+      "fiberG": 0.359,
+      "sugarsG": 0.224,
+      "sodiumMg": 1511.622,
+      "potassiumMg": 527.582,
+      "calciumMg": 32.279,
+      "ironMg": 1.434,
+      "magnesiumMg": 63.436,
+      "vitaminCMg": 1.56
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.45,
+    "perServingUsd": 1.41,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-02-03T13:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "provenance": "Public source-page image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.kawalingpinoy.com/chicken-adobo/",
+    "originalSourceUrl": "https://www.kawalingpinoy.com/wp-content/uploads/2020/06/filipino-chicken-adobo-with-potatoes-1.jpg",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0021",
+    "name": "Filipino Chicken Adobo with Rice",
+    "description": "Chicken thighs braised in soy sauce, cider vinegar, and garlic, served with rice.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": {
+      "main": "recipes/0021_Filipino_Chicken_Adobo_with_Rice/assets/main.avif",
+      "card": "recipes/0021_Filipino_Chicken_Adobo_with_Rice/assets/card.avif"
+    },
+    "totalTimeMinutes": 55,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 356.343,
+      "proteinG": 34.341,
+      "carbohydratesG": 40.125,
+      "fatG": 6.213,
+      "fiberG": 0.359,
+      "sugarsG": 0.224,
+      "sodiumMg": 1511.622,
+      "potassiumMg": 527.582,
+      "calciumMg": 32.279,
+      "ironMg": 1.434,
+      "magnesiumMg": 63.436,
+      "vitaminCMg": 1.56
+    },
+    "estimatedCostPerServingUsd": 1.41,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

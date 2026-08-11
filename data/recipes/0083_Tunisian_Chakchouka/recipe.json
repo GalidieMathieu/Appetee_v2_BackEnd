@@ -1,0 +1,243 @@
+{
+  "seedId": "REC-0083",
+  "name": "Tunisian Chakchouka",
+  "description": "Eggs gently set in a cumin-spiced tomato and bell pepper skillet.",
+  "source": {
+    "url": "https://www.curiouscuisiniere.com/chakchouka/",
+    "domain": "curiouscuisiniere.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Tunisia",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "totalMinutes": 35
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 4,
+      "sourceUnit": "medium",
+      "sourceDisplay": "4 medium tomatoes",
+      "normalizedQuantity": 248,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp olive oil",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 diced onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 sliced red bell pepper",
+      "normalizedQuantity": 119,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0061",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 sliced green bell pepper",
+      "normalizedQuantity": 119,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 3,
+      "sourceUnit": "cloves",
+      "sourceDisplay": "3 crushed garlic cloves",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp ground cumin",
+      "normalizedQuantity": 2.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp paprika",
+      "normalizedQuantity": 2.3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "½ tsp chili powder",
+      "normalizedQuantity": 1.35,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 4,
+      "sourceUnit": "large",
+      "sourceDisplay": "4 large eggs",
+      "normalizedQuantity": 200,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Soften the diced onion in olive oil over medium-high heat.",
+    "Sauté both bell peppers and the garlic until fragrant and tender.",
+    "Simmer the tomatoes with cumin, paprika, and chili powder until the sauce thickens.",
+    "Make four wells, add the eggs, and cover the skillet until the whites are set."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 803.15,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 724.23,
+      "proteinG": 32.663,
+      "carbohydratesG": 44.506,
+      "fatG": 48.483,
+      "fiberG": 12.156,
+      "sugarsG": 15.648,
+      "sodiumMg": 353.163,
+      "potassiumMg": 1772.878,
+      "calciumMg": 236.226,
+      "ironMg": 8.027,
+      "magnesiumMg": 108.502,
+      "vitaminCMg": 299.144
+    },
+    "perServing": {
+      "calories": 181.058,
+      "proteinG": 8.166,
+      "carbohydratesG": 11.127,
+      "fatG": 12.121,
+      "fiberG": 3.039,
+      "sugarsG": 3.912,
+      "sodiumMg": 88.291,
+      "potassiumMg": 443.219,
+      "calciumMg": 59.056,
+      "ironMg": 2.007,
+      "magnesiumMg": 27.125,
+      "vitaminCMg": 74.786
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.36,
+    "perServingUsd": 1.09,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-05-09T03:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "www.curiouscuisiniere.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.curiouscuisiniere.com/chakchouka/",
+    "originalSourceUrl": "https://www.curiouscuisiniere.com/wp-content/uploads/2016/09/Chakchouka-Tunisian-Eggs-in-Tomato-Sauce-7507-1200.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0083",
+    "name": "Tunisian Chakchouka",
+    "description": "Eggs gently set in a cumin-spiced tomato and bell pepper skillet.",
+    "mealType": "Breakfast",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 181.058,
+      "proteinG": 8.166,
+      "carbohydratesG": 11.127,
+      "fatG": 12.121,
+      "fiberG": 3.039,
+      "sugarsG": 3.912,
+      "sodiumMg": 88.291,
+      "potassiumMg": 443.219,
+      "calciumMg": 59.056,
+      "ironMg": 2.007,
+      "magnesiumMg": 27.125,
+      "vitaminCMg": 74.786
+    },
+    "estimatedCostPerServingUsd": 1.09,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly"
+    ]
+  }
+}

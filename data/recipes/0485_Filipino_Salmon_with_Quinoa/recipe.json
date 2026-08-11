@@ -1,0 +1,235 @@
+{
+  "seedId": "REC-0485",
+  "candidate": {
+    "sequence": 678,
+    "seedId": "REC-CAND-0678",
+    "name": "Filipino Salmon with Quinoa"
+  },
+  "name": "Filipino Salmon with Quinoa",
+  "description": "Filipino Salmon with Quinoa is a practical stovetop recipe pairing salmon with quinoa and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://health.clevelandclinic.org/recipe-toasted-quinoa-and-salmon-salad",
+    "domain": "health.clevelandclinic.org",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Salmon Quinoa Spinach Salad source while retaining its closest matching dish form, cooking sequence, and applicable salmon or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 50,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "salmon",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0011",
+      "sourceQuantity": 1.25,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1¼ lb salmon",
+      "normalizedQuantity": 567,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup dry quinoa",
+      "normalizedQuantity": 170,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 3,
+      "sourceUnit": "cups",
+      "sourceDisplay": "3 cups spinach",
+      "normalizedQuantity": 255,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 4,
+      "sourceUnit": "medium",
+      "sourceDisplay": "4 Roma tomatoes",
+      "normalizedQuantity": 248,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp vinegar",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp olive oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, salmon, and quinoa for filipino salmon with quinoa.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned salmon and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the filipino salmon with quinoa, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1747.95,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1727.659,
+      "proteinG": 155.088,
+      "carbohydratesG": 160.599,
+      "fatG": 51.092,
+      "fiberG": 28.286,
+      "sugarsG": 8.451,
+      "sodiumMg": 642.188,
+      "potassiumMg": 5130.785,
+      "calciumMg": 547.747,
+      "ironMg": 16.645,
+      "magnesiumMg": 738.785,
+      "vitaminCMg": 77.281
+    },
+    "perServing": {
+      "calories": 431.915,
+      "proteinG": 38.772,
+      "carbohydratesG": 40.15,
+      "fatG": 12.773,
+      "fiberG": 7.072,
+      "sugarsG": 2.113,
+      "sodiumMg": 160.547,
+      "potassiumMg": 1282.696,
+      "calciumMg": 136.937,
+      "ironMg": 4.161,
+      "magnesiumMg": 184.696,
+      "vitaminCMg": 19.32
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 11.06,
+    "perServingUsd": 2.77,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-01-18T21:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://bellerecipe.com/recipes/pcos-salmon-quinoa/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.QHReGR-D-XfOnwB-MaCl4QHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://bellerecipe.com/thumb/768/pcos-salmon-quinoa.webp",
+    "searchQuery": "Filipino Salmon with Quinoa plated recipe food",
+    "searchResultTitle": "PCOS Friendly Recipe with Salmon and Quinoa in 30 - BelleRecipe",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:50:24.799Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0485",
+    "name": "Filipino Salmon with Quinoa",
+    "description": "Filipino Salmon with Quinoa is a practical stovetop recipe pairing salmon with quinoa and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 431.915,
+      "proteinG": 38.772,
+      "carbohydratesG": 40.15,
+      "fatG": 12.773,
+      "fiberG": 7.072,
+      "sugarsG": 2.113,
+      "sodiumMg": 160.547,
+      "potassiumMg": 1282.696,
+      "calciumMg": 136.937,
+      "ironMg": 4.161,
+      "magnesiumMg": 184.696,
+      "vitaminCMg": 19.32
+    },
+    "estimatedCostPerServingUsd": 2.77,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

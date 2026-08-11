@@ -1,0 +1,245 @@
+{
+  "seedId": "REC-0862",
+  "candidate": {
+    "sequence": 1408,
+    "seedId": "REC-CAND-1408",
+    "name": "Coconut Chicken Baked Potatoes"
+  },
+  "name": "Coconut Chicken Baked Potatoes",
+  "description": "Coconut Chicken Baked Potatoes is a practical oven recipe pairing chicken with potatoes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://apnews.com/article/4781453a1e32d0ba5fcd551f491ced6a",
+    "domain": "apnews.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Caribbean Chicken with Potatoes source while retaining its closest matching dish form, cooking sequence, and applicable chicken or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Caribbean",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 50,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0036",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 240,
+      "sourceUnit": "ml",
+      "sourceDisplay": "240 ml",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for coconut chicken baked potatoes.",
+    "Season the chicken and vegetables evenly while the oven reaches temperature.",
+    "Arrange the chicken, potatoes, and vegetables so heat can circulate around each component.",
+    "Bake until the chicken is safely cooked and the vegetables or grain base are tender.",
+    "Rest the coconut chicken baked potatoes briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 2498,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2355.85,
+      "proteinG": 271.854,
+      "carbohydratesG": 137.178,
+      "fatG": 88.439,
+      "fiberG": 19.383,
+      "sugarsG": 16.521,
+      "sodiumMg": 2156.38,
+      "potassiumMg": 7705.57,
+      "calciumMg": 502.29,
+      "ironMg": 21.601,
+      "magnesiumMg": 588.372,
+      "vitaminCMg": 71.48
+    },
+    "perServing": {
+      "calories": 588.962,
+      "proteinG": 67.963,
+      "carbohydratesG": 34.294,
+      "fatG": 22.11,
+      "fiberG": 4.846,
+      "sugarsG": 4.13,
+      "sodiumMg": 539.095,
+      "potassiumMg": 1926.392,
+      "calciumMg": 125.573,
+      "ironMg": 5.4,
+      "magnesiumMg": 147.093,
+      "vitaminCMg": 17.87
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 13.03,
+    "perServingUsd": 3.26,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-08-23T02:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://miataste.com/creamy-chicken-with-potatoes-and-coconut/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.65xJOPK2J2WCjmMIEpLkGwHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://miataste.com/wp-content/uploads/2025/12/Creamy_Chicken_with_Potatoes_and_Coconut_1-768x768.webp",
+    "searchQuery": "Coconut Chicken Baked Potatoes plated recipe food",
+    "searchResultTitle": "Creamy Chicken with Potatoes and Coconut",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:09:44.056Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0862",
+    "name": "Coconut Chicken Baked Potatoes",
+    "description": "Coconut Chicken Baked Potatoes is a practical oven recipe pairing chicken with potatoes and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 588.962,
+      "proteinG": 67.963,
+      "carbohydratesG": 34.294,
+      "fatG": 22.11,
+      "fiberG": 4.846,
+      "sugarsG": 4.13,
+      "sodiumMg": 539.095,
+      "potassiumMg": 1926.392,
+      "calciumMg": 125.573,
+      "ironMg": 5.4,
+      "magnesiumMg": 147.093,
+      "vitaminCMg": 17.87
+    },
+    "estimatedCostPerServingUsd": 3.26,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

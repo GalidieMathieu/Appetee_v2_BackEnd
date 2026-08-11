@@ -1,0 +1,241 @@
+{
+  "seedId": "REC-1122",
+  "candidate": {
+    "sequence": 1877,
+    "seedId": "REC-CAND-1877",
+    "name": "Pesto Chickpea Salad Bowl"
+  },
+  "name": "Pesto Chickpea Salad Bowl",
+  "description": "Pesto Chickpea Salad Bowl is a practical no-cook recipe pairing chickpeas with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/chickpea-salad-sandwiches-8811083",
+    "domain": "foodnetwork.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Chickpea Yogurt Salad Sandwiches source while retaining its closest matching dish form, cooking sequence, and applicable chickpeas or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans chickpeas, drained",
+      "normalizedQuantity": 500,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0051",
+      "sourceQuantity": 8,
+      "sourceUnit": "slices",
+      "sourceDisplay": "8 slices whole-wheat bread",
+      "normalizedQuantity": 226.8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 0.75,
+      "sourceUnit": "cup",
+      "sourceDisplay": "¾ cup Greek yogurt",
+      "normalizedQuantity": 183.8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup spinach",
+      "normalizedQuantity": 85,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp vinegar",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0096",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0080",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Drain, rinse, chop, and measure the ingredients for pesto chickpea salad bowl.",
+    "Whisk the dressing ingredients until they form an even, well-seasoned mixture.",
+    "Fold the chickpeas together with the vegetables and dressing without crushing the ingredients.",
+    "Arrange the legumes and dressed mixture evenly in four portions.",
+    "Serve the pesto chickpea salad bowl immediately or refrigerate it in sealed meal-prep containers."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1907.42,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 4520.249,
+      "proteinG": 237.378,
+      "carbohydratesG": 352.752,
+      "fatG": 256.419,
+      "fiberG": 91.721,
+      "sugarsG": 49.805,
+      "sodiumMg": 7798.886,
+      "potassiumMg": 5137.989,
+      "calciumMg": 4363.599,
+      "ironMg": 27.045,
+      "magnesiumMg": 1341.745,
+      "vitaminCMg": 34.815
+    },
+    "perServing": {
+      "calories": 1130.062,
+      "proteinG": 59.344,
+      "carbohydratesG": 88.188,
+      "fatG": 64.105,
+      "fiberG": 22.93,
+      "sugarsG": 12.451,
+      "sodiumMg": 1949.722,
+      "potassiumMg": 1284.497,
+      "calciumMg": 1090.9,
+      "ironMg": 6.761,
+      "magnesiumMg": 335.436,
+      "vitaminCMg": 8.704
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 16.13,
+    "perServingUsd": 4.03,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Quick Meal"
+  ],
+  "createdAt": "2028-09-26T22:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://storage.googleapis.com/dqtpgsysvkqrse/chickpea-pesto-bowl.html",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.ETFes6usCXm3BwohN_YXBQHaLG&pid=15.1",
+    "discoveredOriginalUrl": "https://www.ambitiouskitchen.com/wp-content/uploads/2016/06/PestoChickpeaSalad-4.jpg",
+    "searchQuery": "Pesto Chickpea Salad Bowl plated recipe food",
+    "searchResultTitle": "Chickpea Pesto Bowl at Peter Dumas blog",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:22:58.268Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1122",
+    "name": "Pesto Chickpea Salad Bowl",
+    "description": "Pesto Chickpea Salad Bowl is a practical no-cook recipe pairing chickpeas with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 1130.062,
+      "proteinG": 59.344,
+      "carbohydratesG": 88.188,
+      "fatG": 64.105,
+      "fiberG": 22.93,
+      "sugarsG": 12.451,
+      "sodiumMg": 1949.722,
+      "potassiumMg": 1284.497,
+      "calciumMg": 1090.9,
+      "ironMg": 6.761,
+      "magnesiumMg": 335.436,
+      "vitaminCMg": 8.704
+    },
+    "estimatedCostPerServingUsd": 4.03,
+    "diets": [
+      "Vegetarian",
+      "Vegan"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Quick Meal"
+    ]
+  }
+}

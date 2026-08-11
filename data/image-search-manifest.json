@@ -1,0 +1,515 @@
+{
+  "acquiredAt": "2026-08-10T12:00:00-06:00",
+  "scope": "Records processed in this invocation; image-source-manifest.json is the consolidated current provenance record.",
+  "policy": "Public search-result images are test-only and not production-approved.",
+  "results": [
+    {
+      "seedId": "ING-0004",
+      "name": "Frozen Corn",
+      "status": "downloaded",
+      "searchQuery": "Frozen Corn ingredient food close up photo",
+      "sourcePageUrl": "https://www.istockphoto.com/photo/close-up-of-frozen-corn-gm176029145-10023609",
+      "imageUrl": "https://media.istockphoto.com/id/176029145/photo/close-up-of-frozen-corn.jpg?s=1024x1024&w=is&k=20&c=MJcjAobWRFSgESZwX3IuHviIbwYbr6jDlqdtTntNlis=",
+      "sourceHash": "25505cd5c099d5c97965becb68f762a7bb0783af27170f7f27c24afcd1862440",
+      "bytes": 11612
+    },
+    {
+      "seedId": "ING-0007",
+      "name": "Sweet Potatoes",
+      "status": "downloaded",
+      "searchQuery": "Sweet Potatoes ingredient food close up photo",
+      "sourcePageUrl": "https://www.freepik.com/premium-photo/close-up-sweet-potatoes-nature-background-with-copy-space-healthy-vegan-vegetarian-food-concept_41763767.htm",
+      "imageUrl": "https://img.freepik.com/premium-photo/close-up-sweet-potatoes-nature-background-with-copy-space-healthy-vegan-vegetarian-food-concept_685067-4083.jpg",
+      "sourceHash": "b875d9007c13284fc66adf76aa7c0f755d75c070b0b8857f5a23fdffc7f4a034",
+      "bytes": 6412
+    },
+    {
+      "seedId": "ING-0008",
+      "name": "Canned Diced Tomatoes",
+      "status": "downloaded",
+      "searchQuery": "Canned Diced Tomatoes ingredient food close up photo",
+      "sourcePageUrl": "https://infoupdate.org/pasta-sauce-recipe-with-canned-diced-tomatoes/",
+      "imageUrl": "https://www.jessicagavin.com/wp-content/uploads/2020/08/types-of-canned-tomatoes-9.jpg",
+      "sourceHash": "79bd0ce376a1d662c61704397940fe39999489cbc3fb2b1dfdea5080d7e31a50",
+      "bytes": 17325
+    },
+    {
+      "seedId": "ING-0009",
+      "name": "Yellow Onion",
+      "status": "downloaded",
+      "searchQuery": "Yellow Onion ingredient food close up photo",
+      "sourcePageUrl": "https://www.freepik.com/premium-ai-image/raw-yellow-onion-garlic-bowl-close-up-healthy-eating_132784441.htm",
+      "imageUrl": "https://img.freepik.com/premium-photo/raw-yellow-onion-garlic-bowl-close-up-healthy-eating_221128-41852.jpg?w=996",
+      "sourceHash": "3570de79320f9da77ef0bfbf6ccfdeae7ee66c2d4990f9e5fe63b7e697727910",
+      "bytes": 13253
+    },
+    {
+      "seedId": "ING-0010",
+      "name": "Chili Powder",
+      "status": "downloaded",
+      "searchQuery": "Chili Powder ingredient food close up photo",
+      "sourcePageUrl": "https://unsplash.com/photos/close-up-of-chili-powder-9ZFOSwKx_Gs",
+      "imageUrl": "https://plus.unsplash.com/premium_photo-1723604407721-05a1ffd5de2e?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "sourceHash": "92e50b67b368cb4efa06caf2e64e12d4cc53cc116677883e1d7a236e866e97fc",
+      "bytes": 10423
+    },
+    {
+      "seedId": "ING-0011",
+      "name": "Pink Salmon Fillet",
+      "status": "downloaded",
+      "searchQuery": "Pink Salmon Fillet ingredient food close up photo",
+      "sourcePageUrl": "https://stock.adobe.com/images/close-up-of-natural-salmon-fillet-texture-highlighting-the-rich-pink-color-and-smooth-fatty-layers-of-the-meat/908392777",
+      "imageUrl": "https://as2.ftcdn.net/jpg/09/08/39/27/1000_F_908392777_aLMJ5D8vj4k4KH8zQUvsJyI3nbLqLwwm.jpg",
+      "sourceHash": "a09140e0ad6548b01865735c492029c79c5b46a6f6a8286559e2ee126bd8d25a",
+      "bytes": 11675
+    },
+    {
+      "seedId": "ING-0012",
+      "name": "White Quinoa",
+      "status": "downloaded",
+      "searchQuery": "White Quinoa ingredient food close up photo",
+      "sourcePageUrl": "https://www.freepik.com/premium-photo/white-quinoa-bowl-with-wooden-spoon-close-up_10512983.htm",
+      "imageUrl": "https://img.freepik.com/premium-photo/white-quinoa-bowl-with-wooden-spoon-close-up_202769-1904.jpg",
+      "sourceHash": "37757e7408abd1af0f7aec3aaa0075514dc16b111d1840ad3b9c5c8d585334cc",
+      "bytes": 15071
+    },
+    {
+      "seedId": "ING-0013",
+      "name": "Frozen Broccoli Florets",
+      "status": "downloaded",
+      "searchQuery": "Frozen Broccoli Florets ingredient food close up photo",
+      "sourcePageUrl": "https://www.alamy.com/frozen-broccoli-florets-close-up-vegetable-preservation-on-the-table-image393523979.html",
+      "imageUrl": "https://c8.alamy.com/comp/2DT6FRR/frozen-broccoli-florets-close-up-vegetable-preservation-on-the-table-2DT6FRR.jpg",
+      "sourceHash": "35f053bf867be1a07502a588d38dd34af6e27e2ca4d8741b80e7946b59a4f322",
+      "bytes": 18802
+    },
+    {
+      "seedId": "ING-0014",
+      "name": "Extra Virgin Olive Oil",
+      "status": "downloaded",
+      "searchQuery": "Extra Virgin Olive Oil ingredient food close up photo",
+      "sourcePageUrl": "https://www.dreamstime.com/extra-virgin-olive-oil-food-ingredients-extra-virgin-olive-oil-green-olives-food-ingredients-mediterranean-diet-old-image114707871",
+      "imageUrl": "https://ts3.mm.bing.net/th?id=OIP.cqQft_6xuY-2ZIhtDHVDsAHaFX&pid=15.1",
+      "sourceHash": "de635844d53c56840ca64fc92a868598cbea2270364beab62f408b56adefd483",
+      "bytes": 19576
+    },
+    {
+      "seedId": "ING-0015",
+      "name": "Brown Lentils",
+      "status": "downloaded",
+      "searchQuery": "Brown Lentils ingredient food close up photo",
+      "sourcePageUrl": "https://www.dreamstime.com/photos-images/brown-lentils-pile-food-grains-cooking-ingredients.html",
+      "imageUrl": "https://thumbs.dreamstime.com/b/pile-brown-lentils-light-gray-background-perfect-healthy-cooking-nutrition-concepts-culinary-food-close-up-view-362641270.jpg",
+      "sourceHash": "853511adaf9536ce2088864a753ab1f4c3ba8b13617bcafa2145506e890d3c76",
+      "bytes": 10076
+    },
+    {
+      "seedId": "ING-0016",
+      "name": "Frozen Chopped Spinach",
+      "status": "downloaded",
+      "searchQuery": "Frozen Chopped Spinach ingredient food close up photo",
+      "sourcePageUrl": "https://harvest-valley.net/product/frozen-chopped-spinach/",
+      "imageUrl": "https://harvest-valley.net/wp-content/uploads/2025/10/Frozen-Chopped-Spinach.png",
+      "sourceHash": "1b69aed313ca7358c880533d2c7c223d09f346246b22e19045e7b7e5ac3db5b5",
+      "bytes": 11275
+    },
+    {
+      "seedId": "ING-0017",
+      "name": "Curry Powder",
+      "status": "downloaded",
+      "searchQuery": "Curry Powder ingredient food close up photo",
+      "sourcePageUrl": "https://www.shutterstock.com/image-photo/powder-curry-close-image-2186505963",
+      "imageUrl": "https://image.shutterstock.com/shutterstock/photos/2186505963/display_1500/stock-photo-powder-curry-close-up-image-2186505963.jpg",
+      "sourceHash": "5e3b41214d718d276441138738b659fe63183401f2904ff0de527be64cac1701",
+      "bytes": 21466
+    },
+    {
+      "seedId": "ING-0018",
+      "name": "Extra-Firm Tofu",
+      "status": "downloaded",
+      "searchQuery": "Extra-Firm Tofu ingredient food close up photo",
+      "sourcePageUrl": "https://foodsense.is/blog/extra-firm-tofu/",
+      "imageUrl": "https://ts4.mm.bing.net/th?id=OIP.VBLquKFvp9zzDOu82ipfkgHaE8&pid=15.1",
+      "sourceHash": "f90db44fc75221d5a202e94bdcd0acc9295672f986a1c6213fbd773194f83608",
+      "bytes": 13787
+    },
+    {
+      "seedId": "ING-0019",
+      "name": "Frozen Peas and Carrots",
+      "status": "downloaded",
+      "searchQuery": "Frozen Peas and Carrots ingredient food close up photo",
+      "sourcePageUrl": "https://www.freepik.com/premium-photo/frozen-peas-carrots-vegetables-frozen-foods_26709643.htm",
+      "imageUrl": "https://img.freepik.com/premium-photo/frozen-peas-carrots-vegetables-frozen-foods_231786-7491.jpg?w=2000",
+      "sourceHash": "2f1e490942877dc2de1257c8285a98bd496b6bdce827f980f78bf1521afa49a8",
+      "bytes": 19703
+    },
+    {
+      "seedId": "ING-0020",
+      "name": "Soy Sauce",
+      "status": "downloaded",
+      "searchQuery": "Soy Sauce ingredient food close up photo",
+      "sourcePageUrl": "https://www.freepik.com/premium-photo/soy-sauce-bowl-soybeans-wooden-table-closeup_53048726.htm",
+      "imageUrl": "https://img.freepik.com/premium-photo/soy-sauce-bowl-soybeans-wooden-table-closeup_495423-63127.jpg?w=2000",
+      "sourceHash": "e92b56df878e293e47eebe7ea69e6775b1a4af0c2845b8106b41984075e43fc5",
+      "bytes": 10589
+    },
+    {
+      "seedId": "ING-0021",
+      "name": "Ground Beef 85% Lean",
+      "status": "downloaded",
+      "searchQuery": "Ground Beef 85% Lean ingredient food close up photo",
+      "sourcePageUrl": "https://www.alamy.com/close-up-of-lean-ground-beef-image214726661.html",
+      "imageUrl": "https://c8.alamy.com/comp/PD9J19/close-up-of-lean-ground-beef-PD9J19.jpg",
+      "sourceHash": "d1bfeb488ef04dce25cac736bde1055edead8ad9a87d2db90c4896795a8c5bfd",
+      "bytes": 16433
+    },
+    {
+      "seedId": "ING-0022",
+      "name": "Canned Chickpeas",
+      "status": "downloaded",
+      "searchQuery": "Canned Chickpeas ingredient food close up photo",
+      "sourcePageUrl": "https://www.freepik.com/premium-photo/canned-chickpeas-close-up-protein-containing-food_420608197.htm",
+      "imageUrl": "https://img.freepik.com/premium-photo/canned-chickpeas-close-up-protein-containing-food_143127-6936.jpg",
+      "sourceHash": "e77d66175d2e2189799bea3eec69ceac536daec6caa377a24bffd6152b0059bf",
+      "bytes": 10319
+    },
+    {
+      "seedId": "ING-0023",
+      "name": "Roma Tomatoes",
+      "status": "downloaded",
+      "searchQuery": "Roma Tomatoes ingredient food close up photo",
+      "sourcePageUrl": "https://www.dreamstime.com/fresh-roma-tomatoes-whole-halved-close-up-top-down-view-pile-ripe-clean-white-background-several-plump-showcasing-image406781427",
+      "imageUrl": "https://thumbs.dreamstime.com/b/fresh-roma-tomatoes-whole-halved-close-up-top-down-view-pile-ripe-clean-white-background-several-plump-showcasing-406781427.jpg",
+      "sourceHash": "e0375986c1d4fbae48386d5b8c2c717ebcc3e24944fb5b015a376aac4b60bfc6",
+      "bytes": 6959
+    },
+    {
+      "seedId": "ING-0024",
+      "name": "Apple Cider Vinegar",
+      "status": "downloaded",
+      "searchQuery": "Apple Cider Vinegar ingredient food close up photo",
+      "sourcePageUrl": "https://www.vecteezy.com/photo/57795596-fresh-apple-and-homemade-cider-vinegar-on-white-close-up",
+      "imageUrl": "https://static.vecteezy.com/system/resources/previews/057/795/596/non_2x/fresh-apple-and-homemade-cider-vinegar-on-white-close-up-photo.jpeg",
+      "sourceHash": "136d6ca6b806f0a1b4cb3b83e991109f20e49cd368a922ec5025cb369361911a",
+      "bytes": 10025
+    },
+    {
+      "seedId": "ING-0025",
+      "name": "Canned Chunk Light Tuna",
+      "status": "downloaded",
+      "searchQuery": "Canned Chunk Light Tuna ingredient food close up photo",
+      "sourcePageUrl": "https://www.shutterstock.com/image-photo/canned-chunk-light-tuna-set-on-1926013895",
+      "imageUrl": "https://www.shutterstock.com/shutterstock/photos/1926013895/display_1500/stock-photo-canned-chunk-light-tuna-set-on-wooden-cutting-board-on-black-background-with-herbs-and-1926013895.jpg",
+      "sourceHash": "164f0fc3b7cdc92a31dc2d8ba3f5781ddabccfd227e3d744ea2b560ee11da3a6",
+      "bytes": 19493
+    },
+    {
+      "seedId": "ING-0026",
+      "name": "Canned Cannellini Beans",
+      "status": "downloaded",
+      "searchQuery": "Canned Cannellini Beans ingredient food close up photo",
+      "sourcePageUrl": "https://foodtolive.com/shop/organic-italian-canned-cannellini-beans/",
+      "imageUrl": "https://foodtolive.com/wp-content/uploads/2024/12/Organic-Italian-Canned-Cannellini-Beans-Ingredients.jpg",
+      "sourceHash": "49fedafdf13ebd31eb985bc2d210a4e5ab1acfd446d57d71b416fb949575cd19",
+      "bytes": 8206
+    },
+    {
+      "seedId": "ING-0027",
+      "name": "Whole-Wheat Flour Tortillas",
+      "status": "downloaded",
+      "searchQuery": "Whole-Wheat Flour Tortillas ingredient food close up photo",
+      "sourcePageUrl": "https://www.dreamstime.com/whole-wheat-flour-tortillas-bran-close-up-image192600656",
+      "imageUrl": "https://thumbs.dreamstime.com/b/whole-wheat-flour-tortillas-bran-close-up-192600656.jpg",
+      "sourceHash": "a0f4cc5e4ea7edf45a4943de541aff66f46067fde5e1a4c2825d244dd6a98d2c",
+      "bytes": 12664
+    },
+    {
+      "seedId": "ING-0028",
+      "name": "Large Eggs",
+      "status": "downloaded",
+      "searchQuery": "Large Eggs ingredient food close up photo",
+      "sourcePageUrl": "https://www.freepik.com/premium-photo/closeup-carton-highlighting-large-white-eggs-essential-ingredients-nutritious-breakfast_67284032.htm",
+      "imageUrl": "https://img.freepik.com/premium-photo/closeup-carton-highlighting-large-white-eggs-essential-ingredients-nutritious-breakfast_695181-3730.jpg",
+      "sourceHash": "731c91133b323f0561edeaa1c8f2e1dc606d881fadef410d2406bf24b178ea2e",
+      "bytes": 9251
+    },
+    {
+      "seedId": "ING-0029",
+      "name": "Quick Oats",
+      "status": "downloaded",
+      "searchQuery": "Quick Oats ingredient food close up photo",
+      "sourcePageUrl": "https://www.istockphoto.com/photos/quick-oats",
+      "imageUrl": "https://media.istockphoto.com/id/1253984792/photo/oats-bg.jpg?s=612x612&w=0&k=20&c=TxU6RFUgyJ_pQVHMA9-IN2SqFakRwj7E7j20ke_nnec=",
+      "sourceHash": "78acd6347627a7c2c1b0eb33ce5b727923ed704635664108060380e85df8f1aa",
+      "bytes": 15665
+    },
+    {
+      "seedId": "ING-0030",
+      "name": "2% Milk",
+      "status": "downloaded",
+      "searchQuery": "2% Milk ingredient food close up photo",
+      "sourcePageUrl": "https://manuelr.com/what-are-the-benefits-of-2-milk/",
+      "imageUrl": "https://koala.sh/api/image/v2-13row1-wdgu9.jpg?width=1216&height=832&dream",
+      "sourceHash": "95888efcf5404c85c05a5fb958aafa86d36aa25a54e600867cc994fe076de052",
+      "bytes": 9018
+    },
+    {
+      "seedId": "ING-0031",
+      "name": "Plain Nonfat Greek Yogurt",
+      "status": "downloaded",
+      "searchQuery": "Plain Nonfat Greek Yogurt ingredient food close up photo",
+      "sourcePageUrl": "https://storage.googleapis.com/dvmuqdurhchjde/chobani-nonfat-plain-greek-yogurt-ingredients.html",
+      "imageUrl": "https://dsom-imager-prod.shipt.com/615117/2-4f50853f81ddb9ab02cc18f251a25bb6.jpeg",
+      "sourceHash": "616a82b6161bca605270d88d1d5e547ee8bbb84add6af8cf21f566631e3a219e",
+      "bytes": 5641
+    },
+    {
+      "seedId": "ING-0032",
+      "name": "Crunchy Peanut Butter",
+      "status": "downloaded",
+      "searchQuery": "Crunchy Peanut Butter ingredient food close up photo",
+      "sourcePageUrl": "https://www.freepik.com/premium-ai-image/close-up-look-silky-smooth-peanut-butter-crunchy-nuts_190501609.htm",
+      "imageUrl": "https://img.freepik.com/premium-photo/close-up-look-silky-smooth-peanut-butter-crunchy-nuts_924800-484.jpg?w=2000",
+      "sourceHash": "ecfbb0257a3cafee965cf775577c1616ea1b990036dbb75d26691527eb3312e3",
+      "bytes": 18673
+    },
+    {
+      "seedId": "ING-0033",
+      "name": "Bananas",
+      "status": "downloaded",
+      "searchQuery": "Bananas ingredient food close up photo",
+      "sourcePageUrl": "https://www.freepik.com/premium-ai-image/close-up-delicious-bananas-ready-be-served_252683709.htm",
+      "imageUrl": "https://img.freepik.com/premium-photo/close-up-delicious-bananas-ready-be-served_926199-4087723.jpg?w=996",
+      "sourceHash": "6c744e2d97634beab735b80d1b6554126fa6bc48dd9a5fc75b5b9ef75b393639",
+      "bytes": 9674
+    },
+    {
+      "seedId": "ING-0034",
+      "name": "Frozen Mixed Berries",
+      "status": "downloaded",
+      "searchQuery": "Frozen Mixed Berries ingredient food close up photo",
+      "sourcePageUrl": "https://www.freepik.com/premium-photo/close-up-frozen-mixed-berries-background_78980908.htm",
+      "imageUrl": "https://img.freepik.com/premium-photo/close-up-frozen-mixed-berries-background_93675-153986.jpg",
+      "sourceHash": "0a7d120354790a0064cdb34104693043b793b5f11644e4b1efdbee902221c505",
+      "bytes": 22446
+    },
+    {
+      "seedId": "ING-0035",
+      "name": "Low-Fat Cottage Cheese",
+      "status": "downloaded",
+      "searchQuery": "Low-Fat Cottage Cheese ingredient food close up photo",
+      "sourcePageUrl": "https://easyandcozyrecipes.com/low-fat-cottage-cheese/",
+      "imageUrl": "https://easyandcozyrecipes.com/wp-content/uploads/2025/06/Bowl-of-low-fat-cottage-cheese-on-a-wooden-board.png",
+      "sourceHash": "b384280ef03253455709fbf28dc2fee60d4f50a8eea454ea2dc910cc49437ba4",
+      "bytes": 10085
+    },
+    {
+      "seedId": "ING-0036",
+      "name": "Boneless Skinless Chicken Thighs",
+      "status": "downloaded",
+      "searchQuery": "Boneless Skinless Chicken Thighs ingredient food close up photo",
+      "sourcePageUrl": "https://www.dreamstime.com/free-range-raw-organic-boneless-skinless-chicken-thighs-ready-to-cook-image401258838",
+      "imageUrl": "https://thumbs.dreamstime.com/b/free-range-raw-organic-boneless-skinless-chicken-thighs-ready-to-cook-401258838.jpg",
+      "sourceHash": "a3fdbe95d4a48bb2300c92eb11ccd604eb83bd635ff7eeb87d492943397978ae",
+      "bytes": 14700
+    },
+    {
+      "seedId": "ING-0037",
+      "name": "Frozen Cut Green Beans",
+      "status": "downloaded",
+      "searchQuery": "Frozen Cut Green Beans ingredient food close up photo",
+      "sourcePageUrl": "https://www.alamy.com/frozen-cut-green-string-beans-close-up-as-background-organic-healthy-vegetables-retain-all-vitamins-frozen-vegetables-for-reserve-real-food-sustai-image550000685.html",
+      "imageUrl": "https://c8.alamy.com/comp/2PXPKDH/frozen-cut-green-string-beans-close-up-as-background-organic-healthy-vegetables-retain-all-vitamins-frozen-vegetables-for-reserve-real-food-sustai-2PXPKDH.jpg",
+      "sourceHash": "f9ecd4347000f5f02f5f4f923bb8049679566bfb6eb5c849b45dc92c1029ca31",
+      "bytes": 22981
+    },
+    {
+      "seedId": "ING-0038",
+      "name": "Raw Peeled Shrimp",
+      "status": "downloaded",
+      "searchQuery": "Raw Peeled Shrimp ingredient food close up photo",
+      "sourcePageUrl": "https://www.freepik.com/premium-photo/close-up-raw-peeled-shrimp-brown-butcher-paper_21608483.htm",
+      "imageUrl": "https://img.freepik.com/premium-photo/close-up-raw-peeled-shrimp-brown-butcher-paper_198639-63192.jpg",
+      "sourceHash": "7b0aec015f8dfb3592c5e32bf5759bed4a930f0bff9fe2beab8c2233427082cc",
+      "bytes": 9530
+    },
+    {
+      "seedId": "ING-0039",
+      "name": "Dry Penne Pasta",
+      "status": "downloaded",
+      "searchQuery": "Dry Penne Pasta ingredient food close up photo",
+      "sourcePageUrl": "https://www.vecteezy.com/photo/69821664-dry-yellow-penne-pasta-traditional-italian-ingredient-close-up",
+      "imageUrl": "https://static.vecteezy.com/system/resources/previews/069/821/664/large_2x/dry-yellow-penne-pasta-traditional-italian-ingredient-close-up-photo.jpg",
+      "sourceHash": "1dd493f3b0c86db954648ba2fd2e9967d82e2e6315cfa9d759c217872cfd3edf",
+      "bytes": 9082
+    },
+    {
+      "seedId": "ING-0040",
+      "name": "Canned Coconut Milk",
+      "status": "downloaded",
+      "searchQuery": "Canned Coconut Milk ingredient food close up photo",
+      "sourcePageUrl": "https://recipepes.com/canned+coconut+milk+ingredients.html",
+      "imageUrl": "http://1.bp.blogspot.com/-ujM2OXzuzro/UfTA2HissYI/AAAAAAAABEo/QpN3-q4x5Mg/s1600/IMG_4489.JPG",
+      "sourceHash": "e29366799c3eadbf1bcc19a0ac44913928d0aafa1ac2ae09c55c94ef0501d3e0",
+      "bytes": 12421
+    },
+    {
+      "seedId": "ING-0041",
+      "name": "Minced Garlic",
+      "status": "downloaded",
+      "searchQuery": "Minced Garlic ingredient food close up photo",
+      "sourcePageUrl": "https://www.freepik.com/premium-vector/close-up-minced-garlic_369002046.htm",
+      "imageUrl": "https://img.freepik.com/premium-vector/close-up-minced-garlic_967242-19125.jpg",
+      "sourceHash": "ca862168fece64f7f38def3169b976fdf52c0845fcf0701c7b70389fe7f6814d",
+      "bytes": 13548
+    },
+    {
+      "seedId": "ING-0042",
+      "name": "Red Lentils",
+      "status": "downloaded",
+      "searchQuery": "Red Lentils ingredient food close up photo",
+      "sourcePageUrl": "https://www.dreamstime.com/red-lentils-food-ingredient-close-up-white-surface-view-isolated-white-background-close-up-pile-red-lentils-image378486084",
+      "imageUrl": "https://thumbs.dreamstime.com/b/red-lentils-food-ingredient-close-up-white-surface-view-isolated-white-background-close-up-pile-red-lentils-378486084.jpg",
+      "sourceHash": "eb6e254852908ec77fed160caa2183c262670f86ba3c0f1f12c0cf6551c63afb",
+      "bytes": 17725
+    },
+    {
+      "seedId": "ING-0043",
+      "name": "Berbere Spice Blend",
+      "status": "downloaded",
+      "searchQuery": "Berbere Spice Blend ingredient food close up photo",
+      "sourcePageUrl": "https://www.daringgourmet.com/berbere-ethiopian-spice-blend/",
+      "imageUrl": "https://www.daringgourmet.com/wp-content/uploads/2025/05/Berbere-Recipe-10.jpg",
+      "sourceHash": "af9ac2be1422bddd17b371a0006ea5f68c7106495660b29f9107517dfec3a612",
+      "bytes": 18895
+    },
+    {
+      "seedId": "ING-0044",
+      "name": "Cod Fillets",
+      "status": "downloaded",
+      "searchQuery": "Cod Fillets ingredient food close up photo",
+      "sourcePageUrl": "https://www.dreamstime.com/photos-images/close-up-raw-cod-fillets-rosemary-spices-wooden-board.html",
+      "imageUrl": "https://thumbs.dreamstime.com/b/close-up-raw-cod-fillets-rosemary-spices-wooden-board-garnished-fresh-ready-seasoning-cooking-327997427.jpg",
+      "sourceHash": "daa950def6af6e7ba4ff9c1aaf196497b1898925a7c7901ac88678803dec99a5",
+      "bytes": 14863
+    },
+    {
+      "seedId": "ING-0045",
+      "name": "Russet Potatoes",
+      "status": "downloaded",
+      "searchQuery": "Russet Potatoes ingredient food close up photo",
+      "sourcePageUrl": "https://www.freepik.com/premium-ai-image/russet-potatoes-with-dirt-cracks-skin-up-close_153519171.htm",
+      "imageUrl": "https://img.freepik.com/premium-photo/russet-potatoes-with-dirt-cracks-skin-up-close_14117-89155.jpg?w=2000",
+      "sourceHash": "2a65428a90e1558cad1d24add62c3f72ce1091987b5c6e0a7982cf162340c8b9",
+      "bytes": 12369
+    },
+    {
+      "seedId": "ING-0046",
+      "name": "Ground Cumin",
+      "status": "downloaded",
+      "searchQuery": "Ground Cumin ingredient food close up photo",
+      "sourcePageUrl": "https://www.dreamstime.com/selective-focus-ground-cumin-seeds-jeera-powder-close-up-spices-sharp-clear-aromatic-ingredients-image372982832",
+      "imageUrl": "https://thumbs.dreamstime.com/b/selective-focus-ground-cumin-seeds-jeera-powder-close-up-spices-sharp-clear-aromatic-ingredients-372982832.jpg?w=992",
+      "sourceHash": "f9c8e760988163a310a62ff12f4b30f00464c03a42674a240fb7bcbe447799e1",
+      "bytes": 12736
+    },
+    {
+      "seedId": "ING-0047",
+      "name": "Ground Cinnamon",
+      "status": "downloaded",
+      "searchQuery": "Ground Cinnamon ingredient food close up photo",
+      "sourcePageUrl": "https://www.dreamstime.com/close-up-brown-ground-spice-cinnamon-sticks-natural-food-scene-image383569729",
+      "imageUrl": "https://thumbs.dreamstime.com/b/close-up-brown-ground-spice-cinnamon-sticks-natural-food-scene-383569729.jpg?w=992",
+      "sourceHash": "eedb42e4d4412473e2b5259bf6fb377301bc1c6a89ed92e62cd225520abb62e3",
+      "bytes": 17800
+    },
+    {
+      "seedId": "REC-0001",
+      "name": "Chicken Quinoa Burrito Bowls",
+      "status": "downloaded",
+      "searchQuery": "Chicken Quinoa Burrito Bowls plated recipe food photo",
+      "sourcePageUrl": "https://toppinkitchen.com/easy-grilled-chicken-quinoa-burrito-bowls-with-avocado-salsa/",
+      "imageUrl": "https://toppinkitchen.com/wp-content/uploads/2025/10/Easy-Grilled-Chicken-Quinoa-Burrito-Bowls-with-Avocado-Salsa-Finalpresentation-683x1024.png",
+      "sourceHash": "af5fd96798bbad13fd44490dff0feec0ee5a2bcbaf52f7f5414495a291fa9f14",
+      "mainBytes": 115894,
+      "cardBytes": 47102
+    },
+    {
+      "seedId": "REC-0002",
+      "name": "Turkey Sweet Potato Chili",
+      "status": "downloaded",
+      "searchQuery": "Turkey Sweet Potato Chili plated recipe food photo",
+      "sourcePageUrl": "https://cookingmadehealthy.com/sweet-potato-turkey-chili/",
+      "imageUrl": "https://cookingmadehealthy.com/wp-content/uploads/2021/08/Turkey-Sweet-Potato-Chili-8.jpg",
+      "sourceHash": "f3dcfff127cfb45de977fb75b91b7a80a05ec242e657727c31fda8ec2cc48eee",
+      "mainBytes": 103569,
+      "cardBytes": 38616
+    },
+    {
+      "seedId": "REC-0003",
+      "name": "Garlic Salmon and Broccoli",
+      "status": "downloaded",
+      "searchQuery": "Garlic Salmon and Broccoli plated recipe food photo",
+      "sourcePageUrl": "https://cookaifood.com/recipe/garlic-butter-salmon-with-broccoli",
+      "imageUrl": "https://cookaifood.com/media/cache/thumb_600/bundles/project/images/recipes/2712_1_1709804324.png",
+      "sourceHash": "85b1ef80a92a7ee4e70e7e2f1f91cad52c64db19236bc956473f3198e0829ab2",
+      "mainBytes": 78867,
+      "cardBytes": 28222
+    },
+    {
+      "seedId": "REC-0005",
+      "name": "Tofu Vegetable Stir-Fry",
+      "status": "downloaded",
+      "searchQuery": "Tofu Vegetable Stir-Fry plated recipe food photo",
+      "sourcePageUrl": "https://healthycookscape.com/home/recipe/effortless-tofu-vegetable-stir-fry/",
+      "imageUrl": "https://healthycookscape.com/wp-content/uploads/2025/03/Effortless-Tofu-Vegetable-Stir-Fry-scaled-e1742428194735.jpg",
+      "sourceHash": "ef3be229eafa5411e2043992ace64bd13b6e99dc55c610588233959ab61db418",
+      "mainBytes": 91529,
+      "cardBytes": 32718
+    },
+    {
+      "seedId": "REC-0007",
+      "name": "Chickpea Quinoa Spinach Salad",
+      "status": "downloaded",
+      "searchQuery": "Chickpea Quinoa Spinach Salad plated recipe food photo",
+      "sourcePageUrl": "https://www.foodandwine.com/quinoa-chickpea-and-spinach-salad-6423332",
+      "imageUrl": "https://www.foodandwine.com/thmb/9y1ZJDS7jEhzeK0xJP50D1KO16w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/quinoa-chickpea-and-spinach-salad-FT-RECIPE0925-ceac84cce81449c99ef340f8d4e75602.jpg",
+      "sourceHash": "6e75504c13ee05b8a57d326ae6930be52e382595e87aa6ac4beb93ac809cc6e3",
+      "mainBytes": 202208,
+      "cardBytes": 54202
+    },
+    {
+      "seedId": "REC-0010",
+      "name": "Peanut Butter Banana Overnight Oats",
+      "status": "downloaded",
+      "searchQuery": "Peanut Butter Banana Overnight Oats plated recipe food photo",
+      "sourcePageUrl": "https://www.sophiarecipe.com/peanut-butter-banana-overnight-oats/",
+      "imageUrl": "https://www.sophiarecipe.com/wp-content/uploads/2026/01/huyvoecjzt4l0zavqrsg.webp",
+      "sourceHash": "ea2a7aa8da8cd32c3e13e6f5bd0643b99876a848c1df07477594f03e636959f8",
+      "mainBytes": 51551,
+      "cardBytes": 18336
+    },
+    {
+      "seedId": "REC-0023",
+      "name": "Mediterranean Cod with Roasted Potatoes and Tomatoes",
+      "status": "downloaded",
+      "searchQuery": "Mediterranean Cod with Roasted Potatoes and Tomatoes plated recipe food photo",
+      "sourcePageUrl": "https://famillyrecipes.com/baked-cod-with-roasted-potatoes/",
+      "imageUrl": "https://famillyrecipes.com/wp-content/uploads/2025/12/Mediterranean-Baked-Cod-with-Roasted-Potatoes-and-Olives-One-Pan-Dinner-1.webp",
+      "sourceHash": "f140521af2e661e1654425d96783f3288d1f1826d35e7b93d7c370f8e73e6741",
+      "mainBytes": 130187,
+      "cardBytes": 39500
+    },
+    {
+      "seedId": "REC-0025",
+      "name": "Berry Banana Greek Yogurt Smoothie",
+      "status": "downloaded",
+      "searchQuery": "Berry Banana Greek Yogurt Smoothie plated recipe food photo",
+      "sourcePageUrl": "https://suerecipe.com/5-minute-banana-and-berry-greek-yogurt-smoothie-bowl-recipe/",
+      "imageUrl": "https://suerecipe.com/wp-content/uploads/2026/04/0_3-1775141722211.jpeg",
+      "sourceHash": "ba9b1f7417f49854c0f22f87da2b1c02d9523f5ac56c069cae8d161896bcd4b4",
+      "mainBytes": 108292,
+      "cardBytes": 35264
+    }
+  ]
+}

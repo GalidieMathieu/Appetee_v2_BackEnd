@@ -1,0 +1,179 @@
+{
+  "seedId": "REC-0011",
+  "name": "Cottage Cheese Berry Bowls",
+  "description": "Cottage cheese topped with berries, banana, and a peanut-butter swirl.",
+  "source": {
+    "url": "https://www.skinnytaste.com/berry-cottage-cheese-breakfast-bowl/",
+    "domain": "skinnytaste.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 8,
+    "cookMinutes": 0,
+    "totalMinutes": 8
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "cottage cheese",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0035",
+      "sourceQuantity": 3,
+      "sourceUnit": "cups",
+      "sourceDisplay": "3 cups cottage cheese",
+      "normalizedQuantity": 678,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0034",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups frozen berries, thawed",
+      "normalizedQuantity": 280,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0033",
+      "sourceQuantity": 2,
+      "sourceUnit": "medium",
+      "sourceDisplay": "2 bananas",
+      "normalizedQuantity": 236,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0032",
+      "sourceQuantity": 4,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "4 tbsp peanut butter",
+      "normalizedQuantity": 64,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Thaw the berries until spoonable and slice the bananas.",
+    "Divide cottage cheese among four bowls or containers.",
+    "Top each with berries and banana.",
+    "Warm the peanut butter briefly if needed and drizzle it over the fruit."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1206.4,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1173.16,
+      "proteinG": 103.272,
+      "carbohydratesG": 111.638,
+      "fatG": 39.938,
+      "fiberG": 17.136,
+      "sugarsG": 65.384,
+      "sodiumMg": 3071.68,
+      "potassiumMg": 2319.16,
+      "calciumMg": 498.98,
+      "ironMg": 4.879,
+      "magnesiumMg": 230.82,
+      "vitaminCMg": 135.892
+    },
+    "perServing": {
+      "calories": 293.29,
+      "proteinG": 25.818,
+      "carbohydratesG": 27.91,
+      "fatG": 9.985,
+      "fiberG": 4.284,
+      "sugarsG": 16.346,
+      "sodiumMg": 767.92,
+      "potassiumMg": 579.79,
+      "calciumMg": 124.745,
+      "ironMg": 1.22,
+      "magnesiumMg": 57.705,
+      "vitaminCMg": 33.973
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.98,
+    "perServingUsd": 1.24,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-01-19T03:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "provenance": "Public source-page image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.skinnytaste.com/berry-cottage-cheese-breakfast-bowl/",
+    "originalSourceUrl": "https://www.skinnytaste.com/wp-content/uploads/2022/06/Very-Berry-Cottage-Cheese-Bowl-10.jpg",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0011",
+    "name": "Cottage Cheese Berry Bowls",
+    "description": "Cottage cheese topped with berries, banana, and a peanut-butter swirl.",
+    "mealType": "Breakfast",
+    "mealCategory": "Small Meal",
+    "image": {
+      "main": "recipes/0011_Cottage_Cheese_Berry_Bowls/assets/main.avif",
+      "card": "recipes/0011_Cottage_Cheese_Berry_Bowls/assets/card.avif"
+    },
+    "totalTimeMinutes": 8,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 293.29,
+      "proteinG": 25.818,
+      "carbohydratesG": 27.91,
+      "fatG": 9.985,
+      "fiberG": 4.284,
+      "sugarsG": 16.346,
+      "sodiumMg": 767.92,
+      "potassiumMg": 579.79,
+      "calciumMg": 124.745,
+      "ironMg": 1.22,
+      "magnesiumMg": 57.705,
+      "vitaminCMg": 33.973
+    },
+    "estimatedCostPerServingUsd": 1.24,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

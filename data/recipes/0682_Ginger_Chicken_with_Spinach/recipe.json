@@ -1,0 +1,265 @@
+{
+  "seedId": "REC-0682",
+  "candidate": {
+    "sequence": 1062,
+    "seedId": "REC-CAND-1062",
+    "name": "Ginger Chicken with Spinach"
+  },
+  "name": "Ginger Chicken with Spinach",
+  "description": "Ginger Chicken with Spinach is a practical stovetop recipe pairing chicken with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/11753/nutty-chicken-curry",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Indian Peanut Chicken Curry source while retaining its closest matching dish form, cooking sequence, and applicable chicken or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "India",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "chili powder replacing 1 fresh red chili",
+      "normalizedQuantity": 1.35,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g fresh ginger",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 2,
+      "sourceUnit": "cloves",
+      "sourceDisplay": "2 garlic cloves",
+      "normalizedQuantity": 10,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 1,
+      "sourceUnit": "bunch",
+      "sourceDisplay": "1 bunch cilantro",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 4,
+      "sourceUnit": "breasts",
+      "sourceDisplay": "4 chicken breasts",
+      "normalizedQuantity": 680.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0032",
+      "sourceQuantity": 5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "5 tbsp peanut butter",
+      "normalizedQuantity": 80,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0055",
+      "sourceQuantity": 150,
+      "sourceUnit": "ml",
+      "sourceDisplay": "150 ml chicken broth",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 200,
+      "sourceUnit": "g",
+      "sourceDisplay": "200 g Greek yogurt",
+      "normalizedQuantity": 200,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chicken, and vegetables for ginger chicken with spinach.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chicken and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the ginger chicken with spinach, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1605.35,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1679.737,
+      "proteinG": 209.878,
+      "carbohydratesG": 71.189,
+      "fatG": 69.843,
+      "fiberG": 22.564,
+      "sugarsG": 16.184,
+      "sodiumMg": 1535.551,
+      "potassiumMg": 5109.511,
+      "calciumMg": 770.659,
+      "ironMg": 12.034,
+      "magnesiumMg": 600.006,
+      "vitaminCMg": 53.139
+    },
+    "perServing": {
+      "calories": 419.934,
+      "proteinG": 52.469,
+      "carbohydratesG": 17.797,
+      "fatG": 17.461,
+      "fiberG": 5.641,
+      "sugarsG": 4.046,
+      "sodiumMg": 383.888,
+      "potassiumMg": 1277.378,
+      "calciumMg": 192.665,
+      "ironMg": 3.009,
+      "magnesiumMg": 150.001,
+      "vitaminCMg": 13.285
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.46,
+    "perServingUsd": 2.12,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Low Carb",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-11-18T14:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.goodhousekeeping.com/food-recipes/a39353/gingery-chicken-spinach-stir-fry-recipe/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.Gko1AfzkJmG-TmvWPIeLOAHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://hips.hearstapps.com/hmg-prod/images/spinach-recipes-gingery-chicken-stirfry-1572278164.jpg?crop=1.00xw:0.668xh;0,0.229xh&resize=640:*",
+    "searchQuery": "Ginger Chicken with Spinach plated recipe food",
+    "searchResultTitle": "Best Gingery Chicken & Spinach Stir-Fry Recipe - GoodHousekeeping.com",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:00:28.165Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0682",
+    "name": "Ginger Chicken with Spinach",
+    "description": "Ginger Chicken with Spinach is a practical stovetop recipe pairing chicken with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 419.934,
+      "proteinG": 52.469,
+      "carbohydratesG": 17.797,
+      "fatG": 17.461,
+      "fiberG": 5.641,
+      "sugarsG": 4.046,
+      "sodiumMg": 383.888,
+      "potassiumMg": 1277.378,
+      "calciumMg": 192.665,
+      "ironMg": 3.009,
+      "magnesiumMg": 150.001,
+      "vitaminCMg": 13.285
+    },
+    "estimatedCostPerServingUsd": 2.12,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Low Carb",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

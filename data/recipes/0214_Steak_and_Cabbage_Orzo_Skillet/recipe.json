@@ -1,0 +1,241 @@
+{
+  "seedId": "REC-0214",
+  "candidate": {
+    "sequence": 162,
+    "seedId": "REC-CAND-0162",
+    "name": "Steak and Cabbage Orzo Skillet"
+  },
+  "name": "Steak and Cabbage Orzo Skillet",
+  "description": "Steak and Cabbage Orzo Skillet is a practical stovetop recipe pairing steak with orzo and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.bettycrocker.com/recipes/beef-taco-rice-skillet/0e99e785-454d-415b-a1b7-649d489f1039",
+    "domain": "bettycrocker.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Beef Taco Rice Skillet source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "steak",
+  "carbohydrateBase": "orzo",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0098",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can black beans",
+      "normalizedQuantity": 425.243,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup corn",
+      "normalizedQuantity": 165,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup salsa",
+      "normalizedQuantity": 260,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 2,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "2 tsp chili powder",
+      "normalizedQuantity": 5.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0100",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, steak, and orzo for steak and cabbage orzo skillet.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned steak and cook it until browned or heated through as appropriate.",
+    "Stir in the orzo, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the steak and cabbage orzo skillet, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2144.143,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2577.057,
+      "proteinG": 210.349,
+      "carbohydratesG": 363.726,
+      "fatG": 33.161,
+      "fiberG": 31.714,
+      "sugarsG": 21.612,
+      "sodiumMg": 3199.21,
+      "potassiumMg": 6029.765,
+      "calciumMg": 654.25,
+      "ironMg": 30.073,
+      "magnesiumMg": 563.92,
+      "vitaminCMg": 144.893
+    },
+    "perServing": {
+      "calories": 644.264,
+      "proteinG": 52.587,
+      "carbohydratesG": 90.931,
+      "fatG": 8.29,
+      "fiberG": 7.928,
+      "sugarsG": 5.403,
+      "sodiumMg": 799.803,
+      "potassiumMg": 1507.441,
+      "calciumMg": 163.563,
+      "ironMg": 7.518,
+      "magnesiumMg": 140.98,
+      "vitaminCMg": 36.223
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 23.41,
+    "perServingUsd": 5.85,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Meal Prep"
+  ],
+  "createdAt": "2024-11-27T02:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.explicit.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/skirt-steak-orzo-pasta-skillet--101401429102240527/",
+    "originalSourceUrl": "https://ts4.explicit.bing.net/th?id=OIP.MT3ly6I9yykcGB8se2zwrQHaJ4&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/a5/e4/70/a5e470e27ad8dfc67a26b729ee7e54d1.jpg",
+    "searchQuery": "Steak and Cabbage Orzo Skillet plated recipe food",
+    "searchResultTitle": "Skirt Steak Orzo Pasta Skillet | Pasta dinner recipes, Easy pasta ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:35:27.682Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0214",
+    "name": "Steak and Cabbage Orzo Skillet",
+    "description": "Steak and Cabbage Orzo Skillet is a practical stovetop recipe pairing steak with orzo and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 644.264,
+      "proteinG": 52.587,
+      "carbohydratesG": 90.931,
+      "fatG": 8.29,
+      "fiberG": 7.928,
+      "sugarsG": 5.403,
+      "sodiumMg": 799.803,
+      "potassiumMg": 1507.441,
+      "calciumMg": 163.563,
+      "ironMg": 7.518,
+      "magnesiumMg": 140.98,
+      "vitaminCMg": 36.223
+    },
+    "estimatedCostPerServingUsd": 5.85,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Meal Prep"
+    ]
+  }
+}

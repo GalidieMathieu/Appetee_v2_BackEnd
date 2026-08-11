@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-0052",
+  "name": "Cottage Cheese Egg Salad Sandwiches",
+  "description": "A mayonnaise-free egg salad made creamy with cottage cheese on whole-wheat bread.",
+  "source": {
+    "url": "https://schnucks.com/recipes/cottage-cheese-egg-salad-sandwich",
+    "domain": "schnucks.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 12,
+    "totalMinutes": 27
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "bread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 8,
+      "sourceUnit": "large",
+      "sourceDisplay": "8 eggs",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0035",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups cottage cheese",
+      "normalizedQuantity": 339,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0051",
+      "sourceQuantity": 8,
+      "sourceUnit": "slices",
+      "sourceDisplay": "8 slices whole-wheat bread",
+      "normalizedQuantity": 226.8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup spinach",
+      "normalizedQuantity": 85,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp vinegar",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Cover the eggs with water, simmer until hard-cooked, and cool them quickly.",
+    "Peel and chop the eggs, then fold them into cottage cheese and vinegar.",
+    "Layer spinach and egg salad over four bread slices.",
+    "Close the sandwiches and keep them refrigerated until serving."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 994.62,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1415.447,
+      "proteinG": 123.645,
+      "carbohydratesG": 112.664,
+      "fatG": 49.92,
+      "fiberG": 16.073,
+      "sugarsG": 21.157,
+      "sodiumMg": 3039.938,
+      "potassiumMg": 1724.772,
+      "calciumMg": 906.649,
+      "ironMg": 14.713,
+      "magnesiumMg": 299.558,
+      "vitaminCMg": 4.675
+    },
+    "perServing": {
+      "calories": 353.862,
+      "proteinG": 30.911,
+      "carbohydratesG": 28.166,
+      "fatG": 12.48,
+      "fiberG": 4.018,
+      "sugarsG": 5.289,
+      "sodiumMg": 759.985,
+      "potassiumMg": 431.193,
+      "calciumMg": 226.662,
+      "ironMg": 3.678,
+      "magnesiumMg": 74.889,
+      "vitaminCMg": 1.169
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.5,
+    "perServingUsd": 0.88,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Carb",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-03-22T08:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "cdn.sanity.io",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://schnucks.com/recipes/cottage-cheese-egg-salad-sandwich",
+    "originalSourceUrl": "https://cdn.sanity.io/images/p9r2k8tb/production/6a28c35d006373dee752c4246dff4dfe3a10fd43-1955x1040.jpg?w=1955&h=1040",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0052",
+    "name": "Cottage Cheese Egg Salad Sandwiches",
+    "description": "A mayonnaise-free egg salad made creamy with cottage cheese on whole-wheat bread.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 27,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 353.862,
+      "proteinG": 30.911,
+      "carbohydratesG": 28.166,
+      "fatG": 12.48,
+      "fiberG": 4.018,
+      "sugarsG": 5.289,
+      "sodiumMg": 759.985,
+      "potassiumMg": 431.193,
+      "calciumMg": 226.662,
+      "ironMg": 3.678,
+      "magnesiumMg": 74.889,
+      "vitaminCMg": 1.169
+    },
+    "estimatedCostPerServingUsd": 0.88,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Carb",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

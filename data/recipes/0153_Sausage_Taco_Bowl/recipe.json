@@ -1,0 +1,215 @@
+{
+  "seedId": "REC-0153",
+  "candidate": {
+    "sequence": 44,
+    "seedId": "REC-CAND-0044",
+    "name": "Sausage Taco Bowl"
+  },
+  "name": "Sausage Taco Bowl",
+  "description": "Sausage Taco Bowl combines pork with rice and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+  "source": {
+    "url": "https://www.thekitchn.com/sausage-taco-bowls-22955565",
+    "domain": "thekitchn.com",
+    "accessedAt": "2026-08-10T18:00:00-06:00",
+    "adaptation": "The source's defining pork, rice, seasoning profile, and core cooking technique are retained; quantities and supporting vegetables are normalized to the canonical Appetee market ingredients."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 20,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "pork",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0085",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and prepare every ingredient for sausage taco bowl before heating the cooking vessel.",
+    "Heat the cooking vessel and soften the aromatics before adding the pork.",
+    "Cook the rice until tender while the seasoned pork develops its intended color and texture.",
+    "Combine the cooked components with the remaining vegetables and sauce, then adjust the consistency and seasoning.",
+    "Portion the finished sausage taco bowl evenly and serve it warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1757,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3478.89,
+      "proteinG": 141.397,
+      "carbohydratesG": 381.47,
+      "fatG": 161.373,
+      "fiberG": 13.742,
+      "sugarsG": 9.454,
+      "sodiumMg": 7670.009,
+      "potassiumMg": 4775.07,
+      "calciumMg": 426.551,
+      "ironMg": 19.381,
+      "magnesiumMg": 463.155,
+      "vitaminCMg": 18.06
+    },
+    "perServing": {
+      "calories": 869.722,
+      "proteinG": 35.349,
+      "carbohydratesG": 95.368,
+      "fatG": 40.343,
+      "fiberG": 3.436,
+      "sugarsG": 2.364,
+      "sodiumMg": 1917.502,
+      "potassiumMg": 1193.767,
+      "calciumMg": 106.638,
+      "ironMg": 4.845,
+      "magnesiumMg": 115.789,
+      "vitaminCMg": 4.515
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.17,
+    "perServingUsd": 2.04,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-08-25T01:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "www.kitchenmomy.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.kitchenmomy.com/italian-sausage-bow-tie-pasta/",
+    "originalSourceUrl": "https://www.kitchenmomy.com/wp-content/uploads/2025/09/Taco-Bowl-1024x1024.jpg",
+    "discoveredOriginalUrl": "https://www.kitchenmomy.com/wp-content/uploads/2025/09/Taco-Bowl-1024x1024.jpg",
+    "searchQuery": "Sausage Taco Bowl plated recipe food",
+    "searchResultTitle": "Italian Sausage Bow Tie Pasta Recipe",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:10:01.900Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0153",
+    "name": "Sausage Taco Bowl",
+    "description": "Sausage Taco Bowl combines pork with rice and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 869.722,
+      "proteinG": 35.349,
+      "carbohydratesG": 95.368,
+      "fatG": 40.343,
+      "fiberG": 3.436,
+      "sugarsG": 2.364,
+      "sodiumMg": 1917.502,
+      "potassiumMg": 1193.767,
+      "calciumMg": 106.638,
+      "ironMg": 4.845,
+      "magnesiumMg": 115.789,
+      "vitaminCMg": 4.515
+    },
+    "estimatedCostPerServingUsd": 2.04,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "seedId": "REC-0149",
+  "candidate": {
+    "sequence": 40,
+    "seedId": "REC-CAND-0040",
+    "name": "Sheet Pan Tuna and Kale"
+  },
+  "name": "Sheet Pan Tuna and Kale",
+  "description": "Sheet Pan Tuna and Kale combines tuna with vegetables and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+  "source": {
+    "url": "https://www.hungryroot.com/recipes/garlic-sheet-pan-tuna-bell-peppers-1036722838/",
+    "domain": "hungryroot.com",
+    "accessedAt": "2026-08-10T18:00:00-06:00",
+    "adaptation": "The source's defining tuna, vegetables, seasoning profile, and core cooking technique are retained; quantities and supporting vegetables are normalized to the canonical Appetee market ingredients."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "tuna",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0025",
+      "sourceQuantity": 340,
+      "sourceUnit": "g",
+      "sourceDisplay": "340 g",
+      "normalizedQuantity": 340,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0097",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and prepare every ingredient for sheet pan tuna and kale before heating the cooking vessel.",
+    "Preheat the oven and coat the tuna and vegetables evenly with the recorded seasonings.",
+    "Cook the vegetables until tender while the seasoned tuna develops its intended color and texture.",
+    "Combine the cooked components with the remaining vegetables and sauce, then adjust the consistency and seasoning.",
+    "Portion the finished sheet pan tuna and kale evenly and serve it warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1045,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 858.482,
+      "proteinG": 100.044,
+      "carbohydratesG": 41.907,
+      "fatG": 35.713,
+      "fiberG": 20.595,
+      "sugarsG": 17.22,
+      "sodiumMg": 345.296,
+      "potassiumMg": 2626.023,
+      "calciumMg": 863.423,
+      "ironMg": 12.06,
+      "magnesiumMg": 235.35,
+      "vitaminCMg": 700.68
+    },
+    "perServing": {
+      "calories": 214.62,
+      "proteinG": 25.011,
+      "carbohydratesG": 10.477,
+      "fatG": 8.928,
+      "fiberG": 5.149,
+      "sugarsG": 4.305,
+      "sodiumMg": 86.324,
+      "potassiumMg": 656.506,
+      "calciumMg": 215.856,
+      "ironMg": 3.015,
+      "magnesiumMg": 58.837,
+      "vitaminCMg": 175.17
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 9.06,
+    "perServingUsd": 2.27,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-08-18T21:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "d219o304zcx1el.cloudfront.net",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.hungryroot.com/recipes/garlic-sheet-pan-tuna-bell-peppers-1036722838/",
+    "originalSourceUrl": "https://d219o304zcx1el.cloudfront.net/ai_gen_da3f8d95-33d8-422c-8f9c-b3597fa208f7.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0149",
+    "name": "Sheet Pan Tuna and Kale",
+    "description": "Sheet Pan Tuna and Kale combines tuna with vegetables and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 214.62,
+      "proteinG": 25.011,
+      "carbohydratesG": 10.477,
+      "fatG": 8.928,
+      "fiberG": 5.149,
+      "sugarsG": 4.305,
+      "sodiumMg": 86.324,
+      "potassiumMg": 656.506,
+      "calciumMg": 215.856,
+      "ironMg": 3.015,
+      "magnesiumMg": 58.837,
+      "vitaminCMg": 175.17
+    },
+    "estimatedCostPerServingUsd": 2.27,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

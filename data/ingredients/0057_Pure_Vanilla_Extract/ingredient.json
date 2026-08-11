@@ -1,0 +1,122 @@
+{
+  "seedId": "ING-0057",
+  "name": "Pure Vanilla Extract",
+  "canonicalName": "Pure Vanilla Extract",
+  "description": "Alcohol-based pure vanilla extract.",
+  "measurementType": "liquid",
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  },
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "McCormick Pure Vanilla Extract, 2 fl oz",
+    "productId": "10308891",
+    "productUrl": "https://www.walmart.com/ip/10308891",
+    "brand": "McCormick",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 7.18,
+    "packageQuantity": 59.147,
+    "packageUnit": "ml",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "ml",
+    "values": {
+      "calories": 253.152,
+      "proteinG": 0.053,
+      "carbohydratesG": 11.075,
+      "fatG": 0.053,
+      "fiberG": 0,
+      "sugarsG": 11.075,
+      "sodiumMg": 7.911,
+      "potassiumMg": 130.092,
+      "calciumMg": 9.669,
+      "ironMg": 0.105,
+      "magnesiumMg": 10.548,
+      "vitaminCMg": 0
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "ml",
+    "usdPerBasis": 12.1392
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 173471,
+      "dataType": "SR Legacy",
+      "description": "Vanilla extract",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/173471/nutrients",
+      "searchQuery": "vanilla extract",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": "USDA volume portions imply approximately 0.879 g/ml for vanilla extract; nutrition is converted from the USDA mass basis."
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": 0.879,
+    "notes": "USDA volume portions imply approximately 0.879 g/ml for vanilla extract; nutrition is converted from the USDA mass basis."
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "imageType": "external-real-product-photograph",
+    "aiGenerated": false,
+    "provider": "i5.walmartimages.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/10308891",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/McCormick-Non-GMO-Gluten-Free-Pure-Vanilla-Extract-2-fl-oz-Box_b1473187-1592-44aa-aab3-6e02aac984c0.260c822c47e12d4b70228c17606cf5cb.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:42:23.244Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0057",
+    "name": "Pure Vanilla Extract",
+    "description": "Alcohol-based pure vanilla extract.",
+    "measurement": {
+      "type": "liquid",
+      "basisQuantity": 100,
+      "basisUnit": "ml"
+    },
+    "nutrition": {
+      "calories": 253.152,
+      "proteinG": 0.053,
+      "carbohydratesG": 11.075,
+      "fatG": 0.053,
+      "fiberG": 0,
+      "sugarsG": 11.075,
+      "sodiumMg": 7.911,
+      "potassiumMg": 130.092,
+      "calciumMg": 9.669,
+      "ironMg": 0.105,
+      "magnesiumMg": 10.548,
+      "vitaminCMg": 0
+    },
+    "price": {
+      "usdPerBasis": 12.1392,
+      "basisQuantity": 100,
+      "basisUnit": "ml"
+    },
+    "image": null
+  }
+}

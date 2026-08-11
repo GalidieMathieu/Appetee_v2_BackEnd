@@ -1,0 +1,247 @@
+{
+  "seedId": "REC-0490",
+  "candidate": {
+    "sequence": 686,
+    "seedId": "REC-CAND-0686",
+    "name": "Herbed Black Bean Stew"
+  },
+  "name": "Herbed Black Bean Stew",
+  "description": "Herbed Black Bean Stew is a practical stovetop recipe pairing black beans with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.epicurious.com/recipes/food/views/brazilian-black-bean-stew-378921",
+    "domain": "epicurious.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Brazilian Black Bean Sweet Potato Stew source while retaining its closest matching dish form, cooking sequence, and applicable black beans or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Brazil",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "black beans",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 3,
+      "sourceUnit": "cans",
+      "sourceDisplay": "3 cans black beans",
+      "normalizedQuantity": 1275.7,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0007",
+      "sourceQuantity": 2,
+      "sourceUnit": "lb",
+      "sourceDisplay": "2 lb sweet potatoes",
+      "normalizedQuantity": 907.2,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups dry rice",
+      "normalizedQuantity": 277.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans diced tomatoes",
+      "normalizedQuantity": 822.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 2,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "2 tsp cumin",
+      "normalizedQuantity": 4.2,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, black beans, and legumes for herbed black bean stew.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned black beans and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the herbed black bean stew, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 3957.48,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3670.818,
+      "proteinG": 132.755,
+      "carbohydratesG": 680.139,
+      "fatG": 55.138,
+      "sodiumMg": 3822.705,
+      "potassiumMg": 9983.856,
+      "calciumMg": 1152.275,
+      "ironMg": 34.749,
+      "magnesiumMg": 792.523,
+      "vitaminCMg": 156.609,
+      "fiberG": 4.467,
+      "sugarsG": 0.329
+    },
+    "perServing": {
+      "calories": 917.705,
+      "proteinG": 33.189,
+      "carbohydratesG": 170.035,
+      "fatG": 13.784,
+      "sodiumMg": 955.676,
+      "potassiumMg": 2495.964,
+      "calciumMg": 288.069,
+      "ironMg": 8.687,
+      "magnesiumMg": 198.131,
+      "vitaminCMg": 39.152,
+      "fiberG": 1.117,
+      "sugarsG": 0.082
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 11.93,
+    "perServingUsd": 2.98,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-01-26T14:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://theclevermeal.com/black-bean-stew/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.V2zaujej28S6SOUZeDVtywHaJf&pid=15.1",
+    "discoveredOriginalUrl": "https://theclevermeal.com/wp-content/uploads/2024/11/black-bean-stew_6-1198x1536.jpg",
+    "searchQuery": "Herbed Black Bean Stew plated recipe food",
+    "searchResultTitle": "Black Bean Stew - The clever meal",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:50:39.760Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0490",
+    "name": "Herbed Black Bean Stew",
+    "description": "Herbed Black Bean Stew is a practical stovetop recipe pairing black beans with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 917.705,
+      "proteinG": 33.189,
+      "carbohydratesG": 170.035,
+      "fatG": 13.784,
+      "sodiumMg": 955.676,
+      "potassiumMg": 2495.964,
+      "calciumMg": 288.069,
+      "ironMg": 8.687,
+      "magnesiumMg": 198.131,
+      "vitaminCMg": 39.152,
+      "fiberG": 1.117,
+      "sugarsG": 0.082
+    },
+    "estimatedCostPerServingUsd": 2.98,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "seedId": "REC-0089",
+  "name": "Filipino Tortang Talong",
+  "description": "Charred eggplant flattened into an egg-coated omelet and pan-fried until golden.",
+  "source": {
+    "url": "https://www.sainsburysmagazine.co.uk/recipes/mains/tortang-talong",
+    "domain": "sainsburysmagazine.co.uk",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source eggplant, egg coating, and pan-frying method are retained; small eggplants are modeled at 227 g each."
+  },
+  "countryOfOrigin": "Philippines",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "totalMinutes": 35
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0064",
+      "sourceQuantity": 4,
+      "sourceUnit": "small",
+      "sourceDisplay": "4 small eggplants",
+      "normalizedQuantity": 908,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 2,
+      "sourceUnit": "large",
+      "sourceDisplay": "2 large eggs",
+      "normalizedQuantity": 100,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 4,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "4 tsp olive oil",
+      "normalizedQuantity": 20,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Grill or broil the eggplants until their skins are blackened and their flesh is soft.",
+    "Cool and peel each eggplant while keeping its stem attached.",
+    "Beat the eggs with salt and flatten each peeled eggplant with a fork.",
+    "Dip each eggplant in the egg mixture and pan-fry it in oil until golden on both sides."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 927.2,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 530.888,
+      "proteinG": 21.498,
+      "carbohydratesG": 54.11,
+      "fatG": 29.344,
+      "fiberG": 27.24,
+      "sugarsG": 32.422,
+      "sodiumMg": 160.524,
+      "potassiumMg": 2217.502,
+      "calciumMg": 137.902,
+      "ironMg": 3.94,
+      "magnesiumMg": 139.12,
+      "vitaminCMg": 19.976
+    },
+    "perServing": {
+      "calories": 132.722,
+      "proteinG": 5.375,
+      "carbohydratesG": 13.527,
+      "fatG": 7.336,
+      "fiberG": 6.81,
+      "sugarsG": 8.105,
+      "sodiumMg": 40.131,
+      "potassiumMg": 554.375,
+      "calciumMg": 34.475,
+      "ironMg": 0.985,
+      "magnesiumMg": 34.78,
+      "vitaminCMg": 4.994
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.13,
+    "perServingUsd": 1.03,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-05-18T09:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "www.sainsburysmagazine.co.uk",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.sainsburysmagazine.co.uk/recipes/mains/tortang-talong",
+    "originalSourceUrl": "https://www.sainsburysmagazine.co.uk/media/13294/download/tortang-talong.jpg?v=1",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0089",
+    "name": "Filipino Tortang Talong",
+    "description": "Charred eggplant flattened into an egg-coated omelet and pan-fried until golden.",
+    "mealType": "Breakfast",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 132.722,
+      "proteinG": 5.375,
+      "carbohydratesG": 13.527,
+      "fatG": 7.336,
+      "fiberG": 6.81,
+      "sugarsG": 8.105,
+      "sodiumMg": 40.131,
+      "potassiumMg": 554.375,
+      "calciumMg": 34.475,
+      "ironMg": 0.985,
+      "magnesiumMg": 34.78,
+      "vitaminCMg": 4.994
+    },
+    "estimatedCostPerServingUsd": 1.03,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

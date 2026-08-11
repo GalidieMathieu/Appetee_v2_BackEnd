@@ -1,0 +1,200 @@
+{
+  "seedId": "REC-0116",
+  "name": "Filipino Grilled Eggplant with Coconut Milk",
+  "description": "Smoky grilled eggplant dressed with coconut milk, lemon, chili, and green onions.",
+  "source": {
+    "url": "https://simplybakings.com/grilled-eggplant-with-coconut-milk/",
+    "domain": "simplybakings.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source grilled eggplant, coconut dressing, heat, and green onions are retained; fresh lemon juice replaces lemon powder and chili powder replaces red pepper flakes."
+  },
+  "countryOfOrigin": "Philippines",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "totalMinutes": 40
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Side",
+  "cookingMethod": "Grill",
+  "primaryProtein": "eggplant",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0064",
+      "sourceQuantity": 6,
+      "sourceUnit": "small",
+      "sourceDisplay": "6 small eggplants",
+      "normalizedQuantity": 1362,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can coconut milk",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp lemon juice",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 0.25,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "chili powder to taste",
+      "normalizedQuantity": 0.7,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0062",
+      "sourceQuantity": 4,
+      "sourceUnit": "stalks",
+      "sourceDisplay": "4 sliced green onions",
+      "normalizedQuantity": 24,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Prick the eggplants all over so steam can escape during grilling.",
+    "Grill the eggplants, turning frequently, until the skins blacken and the flesh is soft.",
+    "Cool the eggplants in water, peel away the skins, and arrange the flesh in a shallow dish.",
+    "Stir the coconut milk with lemon, chili, and salt until evenly seasoned.",
+    "Pour the dressing over the eggplant, add the green onions, and fold everything together gently."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1661.6,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1142.504,
+      "proteinG": 22.126,
+      "carbohydratesG": 94.833,
+      "fatG": 87.842,
+      "fiberG": 42.148,
+      "sugarsG": 49.063,
+      "sodiumMg": 103.47,
+      "potassiumMg": 4099.57,
+      "calciumMg": 218.07,
+      "ironMg": 16.899,
+      "magnesiumMg": 381.723,
+      "vitaminCMg": 46.431
+    },
+    "perServing": {
+      "calories": 190.417,
+      "proteinG": 3.688,
+      "carbohydratesG": 15.806,
+      "fatG": 14.64,
+      "fiberG": 7.025,
+      "sugarsG": 8.177,
+      "sodiumMg": 17.245,
+      "potassiumMg": 683.262,
+      "calciumMg": 36.345,
+      "ironMg": 2.817,
+      "magnesiumMg": 63.62,
+      "vitaminCMg": 7.738
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.4,
+    "perServingUsd": 1.4,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-06-29T00:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "simplybakings.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://simplybakings.com/grilled-eggplant-with-coconut-milk/",
+    "originalSourceUrl": "https://simplybakings.com/wp-content/uploads/2023/11/Ensaladang-Talong-24.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0116",
+    "name": "Filipino Grilled Eggplant with Coconut Milk",
+    "description": "Smoky grilled eggplant dressed with coconut milk, lemon, chili, and green onions.",
+    "mealType": "Lunch",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 190.417,
+      "proteinG": 3.688,
+      "carbohydratesG": 15.806,
+      "fatG": 14.64,
+      "fiberG": 7.025,
+      "sugarsG": 8.177,
+      "sodiumMg": 17.245,
+      "potassiumMg": 683.262,
+      "calciumMg": 36.345,
+      "ironMg": 2.817,
+      "magnesiumMg": 63.62,
+      "vitaminCMg": 7.738
+    },
+    "estimatedCostPerServingUsd": 1.4,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

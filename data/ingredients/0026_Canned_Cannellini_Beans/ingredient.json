@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0026",
+  "name": "Canned Cannellini Beans",
+  "canonicalName": "Canned Cannellini Beans",
+  "description": "Canned cannellini beans with their packing liquid unless a recipe says to drain them.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Cannellini Beans, 15.5 oz",
+    "productId": "22002645",
+    "productUrl": "https://www.walmart.com/ip/22002645",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 0.86,
+    "packageQuantity": 439.418,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 114,
+      "proteinG": 7.26,
+      "carbohydratesG": 21.2,
+      "fatG": 0.29,
+      "fiberG": 4.8,
+      "sugarsG": 0.29,
+      "sodiumMg": 340,
+      "potassiumMg": 454,
+      "calciumMg": 73,
+      "ironMg": 2.99,
+      "magnesiumMg": 51,
+      "vitaminCMg": 0
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.1957
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 175204,
+      "dataType": "SR Legacy",
+      "description": "Beans, white, mature seeds, canned",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/175204/nutrients",
+      "searchQuery": "beans white canned",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://foodtolive.com/shop/organic-italian-canned-cannellini-beans/",
+    "originalSourceUrl": "https://foodtolive.com/wp-content/uploads/2024/12/Organic-Italian-Canned-Cannellini-Beans-Ingredients.jpg",
+    "searchQuery": "Canned Cannellini Beans ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0026",
+    "name": "Canned Cannellini Beans",
+    "description": "Canned cannellini beans with their packing liquid unless a recipe says to drain them.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 114,
+      "proteinG": 7.26,
+      "carbohydratesG": 21.2,
+      "fatG": 0.29,
+      "fiberG": 4.8,
+      "sugarsG": 0.29,
+      "sodiumMg": 340,
+      "potassiumMg": 454,
+      "calciumMg": 73,
+      "ironMg": 2.99,
+      "magnesiumMg": 51,
+      "vitaminCMg": 0
+    },
+    "price": {
+      "usdPerBasis": 0.1957,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0026_Canned_Cannellini_Beans/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

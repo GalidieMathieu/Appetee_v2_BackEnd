@@ -1,0 +1,245 @@
+{
+  "seedId": "REC-0990",
+  "candidate": {
+    "sequence": 1641,
+    "seedId": "REC-CAND-1641",
+    "name": "Egg and Cucumber Salad Bowl"
+  },
+  "name": "Egg and Cucumber Salad Bowl",
+  "description": "Egg and Cucumber Salad Bowl is a practical no-cook recipe pairing eggs with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.loveandlemons.com/farro-bowl/",
+    "domain": "loveandlemons.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Roasted Egg Grain Bowl source while retaining its closest matching dish form, cooking sequence, and applicable eggs or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0007",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0101",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Drain, rinse, chop, and measure the ingredients for egg and cucumber salad bowl.",
+    "Whisk the dressing ingredients until they form an even, well-seasoned mixture.",
+    "Fold the eggs together with the vegetables and dressing without crushing the ingredients.",
+    "Arrange the vegetables and dressed mixture evenly in four portions.",
+    "Serve the egg and cucumber salad bowl immediately or refrigerate it in sealed meal-prep containers."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2085,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2181.882,
+      "proteinG": 95.454,
+      "carbohydratesG": 291.195,
+      "fatG": 74.508,
+      "fiberG": 41.415,
+      "sugarsG": 22.44,
+      "sodiumMg": 879.096,
+      "potassiumMg": 6268.623,
+      "calciumMg": 954.123,
+      "ironMg": 26.07,
+      "magnesiumMg": 896.85,
+      "vitaminCMg": 116.28
+    },
+    "perServing": {
+      "calories": 545.471,
+      "proteinG": 23.863,
+      "carbohydratesG": 72.799,
+      "fatG": 18.627,
+      "fiberG": 10.354,
+      "sugarsG": 5.61,
+      "sodiumMg": 219.774,
+      "potassiumMg": 1567.156,
+      "calciumMg": 238.531,
+      "ironMg": 6.518,
+      "magnesiumMg": 224.213,
+      "vitaminCMg": 29.07
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.97,
+    "perServingUsd": 1.74,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-03-07T10:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://worldbestrecipes.com/egg-cucumber-tomato-salad-bowl/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.HABdsNyuaH7ysaRQ8WtqWgHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://worldbestrecipes.com/wp-content/uploads/2025/11/Egg_Cucumber__Tomato_Salad_Bowl_3.webp",
+    "searchQuery": "Egg and Cucumber Salad Bowl plated recipe food",
+    "searchResultTitle": "Egg, Cucumber & Tomato Salad Bowl",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:16:15.390Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0990",
+    "name": "Egg and Cucumber Salad Bowl",
+    "description": "Egg and Cucumber Salad Bowl is a practical no-cook recipe pairing eggs with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 545.471,
+      "proteinG": 23.863,
+      "carbohydratesG": 72.799,
+      "fatG": 18.627,
+      "fiberG": 10.354,
+      "sugarsG": 5.61,
+      "sodiumMg": 219.774,
+      "potassiumMg": 1567.156,
+      "calciumMg": 238.531,
+      "ironMg": 6.518,
+      "magnesiumMg": 224.213,
+      "vitaminCMg": 29.07
+    },
+    "estimatedCostPerServingUsd": 1.74,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly"
+    ]
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-0039",
+  "name": "Turkey Sweet Potato Breakfast Hash",
+  "description": "A hearty turkey and sweet potato skillet finished with eggs.",
+  "source": {
+    "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/turkey-sweet-potato-hash-2047242",
+    "domain": "foodnetwork.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "sweet potato",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 1,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1 lb ground turkey",
+      "normalizedQuantity": 453.6,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0007",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb sweet potatoes",
+      "normalizedQuantity": 680.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 4,
+      "sourceUnit": "large",
+      "sourceDisplay": "4 eggs",
+      "normalizedQuantity": 200,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp chili powder",
+      "normalizedQuantity": 2.7,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Dice the sweet potatoes and onion into small even pieces.",
+    "Brown the turkey in a wide skillet until it reaches 165°F.",
+    "Add the vegetables and chili powder and cook until the potatoes are tender.",
+    "Make four wells, add the eggs, and cover until the eggs are set."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1270.26,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1704.61,
+      "proteinG": 114.218,
+      "carbohydratesG": 133.406,
+      "fatG": 78.733,
+      "fiberG": 3.79,
+      "sugarsG": 0.934,
+      "sodiumMg": 607.934,
+      "potassiumMg": 4824.666,
+      "calciumMg": 444.827,
+      "ironMg": 13.083,
+      "magnesiumMg": 257.663,
+      "vitaminCMg": 113.018
+    },
+    "perServing": {
+      "calories": 426.152,
+      "proteinG": 28.555,
+      "carbohydratesG": 33.352,
+      "fatG": 19.683,
+      "fiberG": 0.948,
+      "sugarsG": 0.234,
+      "sodiumMg": 151.983,
+      "potassiumMg": 1206.167,
+      "calciumMg": 111.207,
+      "ironMg": 3.271,
+      "magnesiumMg": 64.416,
+      "vitaminCMg": 28.255
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.52,
+    "perServingUsd": 1.13,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Meal Prep",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-03-02T07:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "food.fnr.sndimg.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.foodnetwork.com/recipes/food-network-kitchen/turkey-sweet-potato-hash-2047242",
+    "originalSourceUrl": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2003/1/10/13/slimmed_down_turkey_hash.jpg.rend.hgtvcom.616.616.suffix/1371583008555.webp",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0039",
+    "name": "Turkey Sweet Potato Breakfast Hash",
+    "description": "A hearty turkey and sweet potato skillet finished with eggs.",
+    "mealType": "Breakfast",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 426.152,
+      "proteinG": 28.555,
+      "carbohydratesG": 33.352,
+      "fatG": 19.683,
+      "fiberG": 0.948,
+      "sugarsG": 0.234,
+      "sodiumMg": 151.983,
+      "potassiumMg": 1206.167,
+      "calciumMg": 111.207,
+      "ironMg": 3.271,
+      "magnesiumMg": 64.416,
+      "vitaminCMg": 28.255
+    },
+    "estimatedCostPerServingUsd": 1.13,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Meal Prep",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

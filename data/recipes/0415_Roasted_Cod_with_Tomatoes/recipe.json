@@ -1,0 +1,225 @@
+{
+  "seedId": "REC-0415",
+  "candidate": {
+    "sequence": 533,
+    "seedId": "REC-CAND-0533",
+    "name": "Roasted Cod with Tomatoes"
+  },
+  "name": "Roasted Cod with Tomatoes",
+  "description": "Roasted Cod with Tomatoes is a practical oven recipe pairing cod with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.eatingwell.com/recipe/266298/mediterranean-cod-with-roasted-tomatoes/",
+    "domain": "eatingwell.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Mediterranean Cod with Roasted Potatoes and Tomatoes source while retaining its closest matching dish form, cooking sequence, and applicable cod or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Greece",
+  "discovery": true,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 50,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "cod",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0044",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb cod fillets",
+      "normalizedQuantity": 680.389,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb russet potatoes",
+      "normalizedQuantity": 680.389,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 4,
+      "sourceUnit": "medium",
+      "sourceDisplay": "4 Roma tomatoes",
+      "normalizedQuantity": 248,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 6,
+      "sourceUnit": "oz",
+      "sourceDisplay": "6 oz spinach",
+      "normalizedQuantity": 170.097,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp olive oil",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for roasted cod with tomatoes.",
+    "Season the cod and vegetables evenly while the oven reaches temperature.",
+    "Arrange the cod, vegetables, and vegetables so heat can circulate around each component.",
+    "Bake until the cod is safely cooked and the vegetables or grain base are tender.",
+    "Rest the roasted cod with tomatoes briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1842.429,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1478.626,
+      "proteinG": 130.461,
+      "carbohydratesG": 170.754,
+      "fatG": 32.324,
+      "fiberG": 22.769,
+      "sugarsG": 11.996,
+      "sodiumMg": 2239.966,
+      "potassiumMg": 6218.855,
+      "calciumMg": 459.53,
+      "ironMg": 12.072,
+      "magnesiumMg": 478.17,
+      "vitaminCMg": 111.394
+    },
+    "perServing": {
+      "calories": 369.656,
+      "proteinG": 32.615,
+      "carbohydratesG": 42.688,
+      "fatG": 8.081,
+      "fiberG": 5.692,
+      "sugarsG": 2.999,
+      "sodiumMg": 559.991,
+      "potassiumMg": 1554.714,
+      "calciumMg": 114.882,
+      "ironMg": 3.018,
+      "magnesiumMg": 119.543,
+      "vitaminCMg": 27.849
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 17.48,
+    "perServingUsd": 4.37,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Meal Prep"
+  ],
+  "createdAt": "2025-10-02T23:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.charleerecipes.com/roasted-cod-with-burst-tomatoes-and-olives/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP._J3EE_hTZKVlt0dSzRmReAHaJ4&pid=15.1",
+    "discoveredOriginalUrl": "https://www.charleerecipes.com/wp-content/uploads/2026/01/idcwm0eehfxmpucm2d4j.webp",
+    "searchQuery": "Roasted Cod with Tomatoes plated recipe food",
+    "searchResultTitle": "Roasted Cod with Burst Tomatoes and Olives: Easy One-Pan Delight ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:46:32.055Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0415",
+    "name": "Roasted Cod with Tomatoes",
+    "description": "Roasted Cod with Tomatoes is a practical oven recipe pairing cod with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 369.656,
+      "proteinG": 32.615,
+      "carbohydratesG": 42.688,
+      "fatG": 8.081,
+      "fiberG": 5.692,
+      "sugarsG": 2.999,
+      "sodiumMg": 559.991,
+      "potassiumMg": 1554.714,
+      "calciumMg": 114.882,
+      "ironMg": 3.018,
+      "magnesiumMg": 119.543,
+      "vitaminCMg": 27.849
+    },
+    "estimatedCostPerServingUsd": 4.37,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Meal Prep"
+    ]
+  }
+}

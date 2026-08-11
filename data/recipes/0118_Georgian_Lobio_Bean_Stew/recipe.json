@@ -1,0 +1,225 @@
+{
+  "seedId": "REC-0118",
+  "candidate": {
+    "sequence": 2,
+    "seedId": "REC-CAND-0002",
+    "name": "Georgian Lobio Bean Stew"
+  },
+  "name": "Georgian Lobio Bean Stew",
+  "description": "Georgian-style kidney beans mashed and simmered with onions, garlic, cilantro, parsley, and vinegar.",
+  "source": {
+    "url": "https://georgia.travel/lobio-bean-stew",
+    "domain": "georgia.travel",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The Georgian tourism source's bean, onion, garlic, herb, mashing, and final simmer technique is retained; canned kidney beans shorten the soak and boil, and apple cider vinegar supplies the documented sour finish when tkemali is unavailable."
+  },
+  "countryOfOrigin": "Georgia",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "totalMinutes": 40
+  },
+  "servings": 6,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "kidney beans",
+  "carbohydrateBase": "beans",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0078",
+      "sourceQuantity": 3,
+      "sourceUnit": "cans",
+      "sourceDisplay": "3 cans no-salt-added kidney beans with liquid",
+      "normalizedQuantity": 1318.251,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 2,
+      "sourceUnit": "large",
+      "sourceDisplay": "2 finely diced onions",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 4,
+      "sourceUnit": "cloves",
+      "sourceDisplay": "4 garlic cloves",
+      "normalizedQuantity": 20,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 1,
+      "sourceUnit": "small bunch",
+      "sourceDisplay": "1 small bunch cilantro",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp dried parsley",
+      "normalizedQuantity": 1.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp apple cider vinegar",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp olive oil",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Simmer the kidney beans with their liquid and a splash of water until very tender.",
+    "Mash about half of the beans, leaving enough whole beans for texture.",
+    "Cook the onions and garlic in olive oil until soft but not browned.",
+    "Stir the aromatics, cilantro, parsley, and vinegar into the mashed beans.",
+    "Cover and simmer the lobio gently for fifteen minutes, adjusting the thickness with water before serving."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1772.751,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1504.917,
+      "proteinG": 74.4,
+      "carbohydratesG": 238.089,
+      "fatG": 32.574,
+      "fiberG": 79.072,
+      "sugarsG": 25.001,
+      "sodiumMg": 1570.717,
+      "potassiumMg": 4433.065,
+      "calciumMg": 515.686,
+      "ironMg": 18.947,
+      "magnesiumMg": 450.513,
+      "vitaminCMg": 59.021
+    },
+    "perServing": {
+      "calories": 250.819,
+      "proteinG": 12.4,
+      "carbohydratesG": 39.681,
+      "fatG": 5.429,
+      "fiberG": 13.179,
+      "sugarsG": 4.167,
+      "sodiumMg": 261.786,
+      "potassiumMg": 738.844,
+      "calciumMg": 85.948,
+      "ironMg": 3.158,
+      "magnesiumMg": 75.085,
+      "vitaminCMg": 9.837
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.67,
+    "perServingUsd": 0.78,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-07-02T02:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "storage.georgia.travel",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://georgia.travel/lobio-bean-stew",
+    "originalSourceUrl": "https://storage.georgia.travel/images/1200x630/beans-gnta.webp",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0118",
+    "name": "Georgian Lobio Bean Stew",
+    "description": "Georgian-style kidney beans mashed and simmered with onions, garlic, cilantro, parsley, and vinegar.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 250.819,
+      "proteinG": 12.4,
+      "carbohydratesG": 39.681,
+      "fatG": 5.429,
+      "fiberG": 13.179,
+      "sugarsG": 4.167,
+      "sodiumMg": 261.786,
+      "potassiumMg": 738.844,
+      "calciumMg": 85.948,
+      "ironMg": 3.158,
+      "magnesiumMg": 75.085,
+      "vitaminCMg": 9.837
+    },
+    "estimatedCostPerServingUsd": 0.78,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

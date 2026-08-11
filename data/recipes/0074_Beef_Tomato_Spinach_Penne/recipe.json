@@ -1,0 +1,199 @@
+{
+  "seedId": "REC-0074",
+  "name": "Beef Tomato Spinach Penne",
+  "description": "Ground beef, tomato, spinach, and penne pasta in a garlic pan sauce.",
+  "source": {
+    "url": "https://www.food.com/recipe/penne-with-cheesy-meat-sauce-209065",
+    "domain": "food.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Italy",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "totalMinutes": 45
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "beef",
+  "carbohydrateBase": "pasta",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb ground beef",
+      "normalizedQuantity": 680.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0039",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb dry penne",
+      "normalizedQuantity": 680.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 2.5
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans diced tomatoes",
+      "normalizedQuantity": 822.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 3,
+      "sourceUnit": "cups",
+      "sourceDisplay": "3 cups spinach",
+      "normalizedQuantity": 255,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Boil the penne until al dente and reserve a little cooking water.",
+    "Brown the beef and onion until the beef reaches 160°F.",
+    "Add garlic and tomatoes and simmer into a thick sauce.",
+    "Fold in spinach and drained penne, loosening with reserved water if needed."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 3411.4,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 4288.422,
+      "proteinG": 233.368,
+      "carbohydratesG": 564.168,
+      "fatG": 118.048,
+      "fiberG": 32.333,
+      "sugarsG": 19.974,
+      "sodiumMg": 1710.263,
+      "potassiumMg": 6367.68,
+      "calciumMg": 870.174,
+      "ironMg": 46.854,
+      "magnesiumMg": 772.15,
+      "vitaminCMg": 31.005
+    },
+    "perServing": {
+      "calories": 714.737,
+      "proteinG": 38.895,
+      "carbohydratesG": 94.028,
+      "fatG": 19.675,
+      "fiberG": 5.389,
+      "sugarsG": 3.329,
+      "sodiumMg": 285.044,
+      "potassiumMg": 1061.28,
+      "calciumMg": 145.029,
+      "ironMg": 7.809,
+      "magnesiumMg": 128.692,
+      "vitaminCMg": 5.167
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 16.27,
+    "perServingUsd": 2.71,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-04-25T06:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "img.sndimg.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.food.com/recipe/penne-with-cheesy-meat-sauce-209065",
+    "originalSourceUrl": "https://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/20/90/65/picnn6bld.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0074",
+    "name": "Beef Tomato Spinach Penne",
+    "description": "Ground beef, tomato, spinach, and penne pasta in a garlic pan sauce.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 714.737,
+      "proteinG": 38.895,
+      "carbohydratesG": 94.028,
+      "fatG": 19.675,
+      "fiberG": 5.389,
+      "sugarsG": 3.329,
+      "sodiumMg": 285.044,
+      "potassiumMg": 1061.28,
+      "calciumMg": 145.029,
+      "ironMg": 7.809,
+      "magnesiumMg": 128.692,
+      "vitaminCMg": 5.167
+    },
+    "estimatedCostPerServingUsd": 2.71,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Budget Friendly"
+    ]
+  }
+}

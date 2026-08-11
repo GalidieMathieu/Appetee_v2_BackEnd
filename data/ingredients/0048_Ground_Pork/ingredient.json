@@ -1,0 +1,120 @@
+{
+  "seedId": "ING-0048",
+  "name": "Ground Pork",
+  "canonicalName": "Ground Pork",
+  "description": "Raw fresh ground pork.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Smithfield All Natural Fresh Ground Pork, 1.5 lb",
+    "productId": "168039751",
+    "productUrl": "https://www.walmart.com/ip/168039751",
+    "brand": "Smithfield",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 4.82,
+    "packageQuantity": 680.389,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 263,
+      "proteinG": 16.9,
+      "carbohydratesG": 0,
+      "fatG": 21.2,
+      "fiberG": 0,
+      "sodiumMg": 56,
+      "potassiumMg": 287,
+      "calciumMg": 14,
+      "ironMg": 0.88,
+      "magnesiumMg": 19,
+      "vitaminCMg": 0.7
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.7084
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 167902,
+      "dataType": "SR Legacy",
+      "description": "Pork, fresh, ground, raw",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/167902/nutrients",
+      "searchQuery": "pork fresh ground raw",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "imageType": "external-real-product-photograph",
+    "aiGenerated": false,
+    "provider": "i5.walmartimages.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/168039751",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Smithfield-All-Natural-Fresh-Ground-Pork-1-5-lb_4376222d-8702-42e0-a5b4-c4b1235c566b.63c89b0c2687bb29a92e02cb6fe46743.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:41:38.017Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0048",
+    "name": "Ground Pork",
+    "description": "Raw fresh ground pork.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 263,
+      "proteinG": 16.9,
+      "carbohydratesG": 0,
+      "fatG": 21.2,
+      "fiberG": 0,
+      "sodiumMg": 56,
+      "potassiumMg": 287,
+      "calciumMg": 14,
+      "ironMg": 0.88,
+      "magnesiumMg": 19,
+      "vitaminCMg": 0.7
+    },
+    "price": {
+      "usdPerBasis": 0.7084,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": null
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

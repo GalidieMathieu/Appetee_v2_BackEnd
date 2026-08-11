@@ -1,0 +1,195 @@
+{
+  "seedId": "REC-0034",
+  "name": "Black Bean Salsa Tortilla Cups",
+  "description": "Crisp tortilla cups filled with black beans, corn, salsa, and warm spices.",
+  "source": {
+    "url": "https://www.oldelpaso.co.uk/recipes/black-bean-and-corn-tortilla-cups",
+    "domain": "oldelpaso.co.uk",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "totalMinutes": 30
+  },
+  "servings": 8,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "Oven",
+  "primaryProtein": "black beans",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 4,
+      "sourceUnit": "tortillas",
+      "sourceDisplay": "4 whole-wheat tortillas",
+      "normalizedQuantity": 181.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can black beans, drained",
+      "normalizedQuantity": 260,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup corn",
+      "normalizedQuantity": 165,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 0.75,
+      "sourceUnit": "cup",
+      "sourceDisplay": "¾ cup salsa",
+      "normalizedQuantity": 195,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp cumin",
+      "normalizedQuantity": 2.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Heat the oven to 375°F and cut each tortilla into four wedges.",
+    "Press the wedges into muffin cups and bake until crisp.",
+    "Mix the beans, corn, salsa, and cumin until evenly combined.",
+    "Fill the crisp cups just before serving so they stay crunchy."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 787,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1059.415,
+      "proteinG": 43.06,
+      "carbohydratesG": 180.659,
+      "fatG": 22.951,
+      "fiberG": 25.468,
+      "sugarsG": 9.539,
+      "sodiumMg": 2970.416,
+      "potassiumMg": 2058.208,
+      "calciumMg": 634.297,
+      "ironMg": 12.154,
+      "magnesiumMg": 322.216,
+      "vitaminCMg": 5.937
+    },
+    "perServing": {
+      "calories": 132.427,
+      "proteinG": 5.383,
+      "carbohydratesG": 22.582,
+      "fatG": 2.869,
+      "fiberG": 3.183,
+      "sugarsG": 1.192,
+      "sodiumMg": 371.302,
+      "potassiumMg": 257.276,
+      "calciumMg": 79.287,
+      "ironMg": 1.519,
+      "magnesiumMg": 40.277,
+      "vitaminCMg": 0.742
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.28,
+    "perServingUsd": 0.41,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-02-23T14:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "www.oldelpaso.co.uk",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.oldelpaso.co.uk/recipes/black-bean-and-corn-tortilla-cups",
+    "originalSourceUrl": "https://www.oldelpaso.co.uk/-/media/project/gmi/oldelpaso/oldelpaso-uk/oepp/recipes/black-bean-corn-tortilla-cups-hero.jpg?rev=3a433daf76164af095419bff520bc28e",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0034",
+    "name": "Black Bean Salsa Tortilla Cups",
+    "description": "Crisp tortilla cups filled with black beans, corn, salsa, and warm spices.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 8,
+    "nutritionPerServing": {
+      "calories": 132.427,
+      "proteinG": 5.383,
+      "carbohydratesG": 22.582,
+      "fatG": 2.869,
+      "fiberG": 3.183,
+      "sugarsG": 1.192,
+      "sodiumMg": 371.302,
+      "potassiumMg": 257.276,
+      "calciumMg": 79.287,
+      "ironMg": 1.519,
+      "magnesiumMg": 40.277,
+      "vitaminCMg": 0.742
+    },
+    "estimatedCostPerServingUsd": 0.41,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

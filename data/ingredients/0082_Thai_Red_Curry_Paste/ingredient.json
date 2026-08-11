@@ -1,0 +1,122 @@
+{
+  "seedId": "ING-0082",
+  "name": "Thai Red Curry Paste",
+  "canonicalName": "Thai Red Curry Paste",
+  "description": "Prepared Thai red curry paste with chilies, aromatics, and spices.",
+  "measurementType": "solid",
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  },
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Mae Ploy Red Curry Paste, 14 oz",
+    "productId": "10543601",
+    "productUrl": "https://www.walmart.com/ip/10543601",
+    "brand": "Mae Ploy",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 6.32,
+    "packageQuantity": 396.893,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 325,
+      "proteinG": 14.3,
+      "carbohydratesG": 55.8,
+      "fatG": 14,
+      "fiberG": 53.2,
+      "sugarsG": 2.76,
+      "sodiumMg": 52,
+      "potassiumMg": 1170,
+      "calciumMg": 525,
+      "ironMg": 19.1,
+      "magnesiumMg": 255,
+      "vitaminCMg": 0.7
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 1.5924
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 170924,
+      "dataType": "SR Legacy",
+      "description": "Spices, curry powder",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/170924/nutrients",
+      "searchQuery": "spices curry powder",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": "USDA curry powder is the closest SR Legacy nutrition proxy; the selected paste contains moisture and its calories may be modestly overstated."
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": "USDA curry powder is the closest SR Legacy nutrition proxy; the selected paste contains moisture and its calories may be modestly overstated."
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "imageType": "external-real-product-photograph",
+    "aiGenerated": false,
+    "provider": "i5.walmartimages.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/10543601",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Mae-Ploy-Paste-Red-Curry-14-OZ_c3394441-72f1-44e7-b1d9-b7b6cc92edfb.bcf173b77ec8678fbbb10e88d1fb16f3.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:42:23.244Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0082",
+    "name": "Thai Red Curry Paste",
+    "description": "Prepared Thai red curry paste with chilies, aromatics, and spices.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 325,
+      "proteinG": 14.3,
+      "carbohydratesG": 55.8,
+      "fatG": 14,
+      "fiberG": 53.2,
+      "sugarsG": 2.76,
+      "sodiumMg": 52,
+      "potassiumMg": 1170,
+      "calciumMg": 525,
+      "ironMg": 19.1,
+      "magnesiumMg": 255,
+      "vitaminCMg": 0.7
+    },
+    "price": {
+      "usdPerBasis": 1.5924,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": null
+  }
+}

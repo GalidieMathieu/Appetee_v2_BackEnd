@@ -1,0 +1,199 @@
+{
+  "seedId": "REC-0076",
+  "name": "Botswana Curried Spinach",
+  "description": "Spinach simmered with tomato, onion, and curry powder in a Botswana-style vegetable side.",
+  "source": {
+    "url": "https://kosherworldkitchen.com/morogo-curried-spinach/#recipe",
+    "domain": "kosherworldkitchen.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source technique and seasoning are retained; frozen spinach replaces a fresh bunch to use the validated canonical spinach product."
+  },
+  "countryOfOrigin": "Botswana",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Side",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "spinach",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 1,
+      "sourceUnit": "bunch",
+      "sourceDisplay": "1 bunch spinach (adapted to frozen spinach)",
+      "normalizedQuantity": 340,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 2,
+      "sourceUnit": "medium",
+      "sourceDisplay": "2 medium tomatoes",
+      "normalizedQuantity": 124,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "small",
+      "sourceDisplay": "1 small onion",
+      "normalizedQuantity": 75,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp olive oil",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 2,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "2 tsp curry powder",
+      "normalizedQuantity": 4.6,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Brown the diced onion in olive oil over medium heat.",
+    "Toast the curry powder briefly with the softened onion.",
+    "Simmer the chopped tomatoes with water until they begin to break down.",
+    "Fold in the spinach and cook until the mixture is tender and cohesive."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 519.7,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 405.702,
+      "proteinG": 14.713,
+      "carbohydratesG": 28.162,
+      "fatG": 30.168,
+      "fiberG": 15.22,
+      "sugarsG": 5.598,
+      "sodiumMg": 261.488,
+      "potassiumMg": 1660.873,
+      "calciumMg": 486.673,
+      "ironMg": 8.002,
+      "magnesiumMg": 287.12,
+      "vitaminCMg": 41.87
+    },
+    "perServing": {
+      "calories": 101.425,
+      "proteinG": 3.678,
+      "carbohydratesG": 7.04,
+      "fatG": 7.542,
+      "fiberG": 3.805,
+      "sugarsG": 1.399,
+      "sodiumMg": 65.372,
+      "potassiumMg": 415.218,
+      "calciumMg": 121.668,
+      "ironMg": 2.001,
+      "magnesiumMg": 71.78,
+      "vitaminCMg": 10.467
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.3,
+    "perServingUsd": 0.57,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-04-28T08:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "kosherworldkitchen.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://kosherworldkitchen.com/morogo-curried-spinach/#recipe",
+    "originalSourceUrl": "https://kosherworldkitchen.com/wp-content/uploads/2024/11/Botswana-morogo-spinach-UPDATED-square-1200px.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0076",
+    "name": "Botswana Curried Spinach",
+    "description": "Spinach simmered with tomato, onion, and curry powder in a Botswana-style vegetable side.",
+    "mealType": "Dinner",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 101.425,
+      "proteinG": 3.678,
+      "carbohydratesG": 7.04,
+      "fatG": 7.542,
+      "fiberG": 3.805,
+      "sugarsG": 1.399,
+      "sodiumMg": 65.372,
+      "potassiumMg": 415.218,
+      "calciumMg": 121.668,
+      "ironMg": 2.001,
+      "magnesiumMg": 71.78,
+      "vitaminCMg": 10.467
+    },
+    "estimatedCostPerServingUsd": 0.57,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

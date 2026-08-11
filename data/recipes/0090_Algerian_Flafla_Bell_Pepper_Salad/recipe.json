@@ -1,0 +1,201 @@
+{
+  "seedId": "REC-0090",
+  "name": "Algerian Flafla Bell Pepper Salad",
+  "description": "Roasted green peppers cooked briefly with tomato, onion, and garlic for a warm salad.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/153802/algerian-flafla-bell-pepper-salad/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Algeria",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 50,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Side",
+  "cookingMethod": "Oven",
+  "primaryProtein": "bell peppers",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0061",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 green bell peppers",
+      "normalizedQuantity": 357,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp olive oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp chopped onion",
+      "normalizedQuantity": 10,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "clove",
+      "sourceDisplay": "1 crushed garlic clove",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 diced Roma tomato",
+      "normalizedQuantity": 62,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Roast the whole peppers at 450°F until black-spotted and soft, turning them once.",
+    "Cool the peppers briefly, then peel, seed, and chop them.",
+    "Soften the onion in olive oil and stir in the crushed garlic.",
+    "Add the roasted peppers and tomato, then cook until the vegetables are tender and cohesive."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 406.1,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 214.476,
+      "proteinG": 4.017,
+      "carbohydratesG": 21.493,
+      "fatG": 14.411,
+      "fiberG": 7.108,
+      "sugarsG": 10.249,
+      "sodiumMg": 15.033,
+      "potassiumMg": 810.076,
+      "calciumMg": 52.587,
+      "ironMg": 1.571,
+      "magnesiumMg": 44.67,
+      "vitaminCMg": 297.902
+    },
+    "perServing": {
+      "calories": 53.619,
+      "proteinG": 1.004,
+      "carbohydratesG": 5.373,
+      "fatG": 3.603,
+      "fiberG": 1.777,
+      "sugarsG": 2.562,
+      "sodiumMg": 3.758,
+      "potassiumMg": 202.519,
+      "calciumMg": 13.147,
+      "ironMg": 0.393,
+      "magnesiumMg": 11.168,
+      "vitaminCMg": 74.475
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.86,
+    "perServingUsd": 0.71,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-05-19T22:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "justinethyme.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://justinethyme.com/recipes/air-fryer-patatas-bravas/",
+    "originalSourceUrl": "https://justinethyme.com/recipes/algerian-flafla-bell-pepper-salad/d346b51690a5a0e9e3708432da706639.jpg",
+    "discoveredOriginalUrl": "https://justinethyme.com/recipes/algerian-flafla-bell-pepper-salad/d346b51690a5a0e9e3708432da706639.jpg",
+    "searchQuery": "Algerian Flafla Bell Pepper Salad plated recipe food",
+    "searchResultTitle": "Air fryer patatas bravas",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:08:47.741Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0090",
+    "name": "Algerian Flafla Bell Pepper Salad",
+    "description": "Roasted green peppers cooked briefly with tomato, onion, and garlic for a warm salad.",
+    "mealType": "Lunch",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 53.619,
+      "proteinG": 1.004,
+      "carbohydratesG": 5.373,
+      "fatG": 3.603,
+      "fiberG": 1.777,
+      "sugarsG": 2.562,
+      "sodiumMg": 3.758,
+      "potassiumMg": 202.519,
+      "calciumMg": 13.147,
+      "ironMg": 0.393,
+      "magnesiumMg": 11.168,
+      "vitaminCMg": 74.475
+    },
+    "estimatedCostPerServingUsd": 0.71,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

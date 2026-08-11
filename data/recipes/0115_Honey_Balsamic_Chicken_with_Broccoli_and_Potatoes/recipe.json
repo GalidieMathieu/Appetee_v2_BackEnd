@@ -1,0 +1,235 @@
+{
+  "seedId": "REC-0115",
+  "name": "Honey-Balsamic Chicken with Broccoli and Potatoes",
+  "description": "Pan-seared chicken glazed with honey and balsamic beside crisp roasted potatoes and broccoli.",
+  "source": {
+    "url": "https://www.themealdb.com/meal/52993",
+    "domain": "themealdb.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source two-serving structure and complete technique are retained; quantities omitted from the source ingredient summary are taken from its step text and modeled as one tablespoon each of vinegar and honey plus prepared broth."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "totalMinutes": 45
+  },
+  "servings": 2,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven + Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 5,
+      "sourceUnit": "small",
+      "sourceDisplay": "5 small potatoes",
+      "normalizedQuantity": 750,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0013",
+      "sourceQuantity": 1,
+      "sourceUnit": "head",
+      "sourceDisplay": "1 head broccoli",
+      "normalizedQuantity": 340,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 2,
+      "sourceUnit": "cloves",
+      "sourceDisplay": "2 garlic cloves",
+      "normalizedQuantity": 10,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 2,
+      "sourceUnit": "breasts",
+      "sourceDisplay": "2 chicken breasts",
+      "normalizedQuantity": 340.2,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0093",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp balsamic vinegar",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp honey",
+      "normalizedQuantity": 21,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0055",
+      "sourceQuantity": 0.25,
+      "sourceUnit": "cup",
+      "sourceDisplay": "¼ cup prepared chicken broth",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0056",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp butter",
+      "normalizedQuantity": 14.2,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp cooking and garlic oil",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Roast the oiled potato wedges at 425°F for five minutes.",
+    "Toss the broccoli with garlic oil, add it to the tray, and roast both vegetables until crisp.",
+    "Season and pan-sear the chicken until browned and cooked to 165°F, then let it rest.",
+    "Simmer the remaining garlic with balsamic vinegar, honey, broth, and water until glossy.",
+    "Whisk butter into the glaze, return the chicken to the pan, and turn it until coated.",
+    "Serve the glazed chicken with the roasted broccoli and potatoes."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1420.35,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1481.458,
+      "proteinG": 103.862,
+      "carbohydratesG": 175.53,
+      "fatG": 47.018,
+      "fiberG": 20.202,
+      "sugarsG": 29.084,
+      "sodiumMg": 489.822,
+      "potassiumMg": 5094.301,
+      "calciumMg": 333.397,
+      "ironMg": 11.092,
+      "magnesiumMg": 328.526,
+      "vitaminCMg": 237.975
+    },
+    "perServing": {
+      "calories": 740.729,
+      "proteinG": 51.931,
+      "carbohydratesG": 87.765,
+      "fatG": 23.509,
+      "fiberG": 10.101,
+      "sugarsG": 14.542,
+      "sodiumMg": 244.911,
+      "potassiumMg": 2547.151,
+      "calciumMg": 166.698,
+      "ironMg": 5.546,
+      "magnesiumMg": 164.263,
+      "vitaminCMg": 118.987
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.43,
+    "perServingUsd": 2.71,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-06-27T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "www.themealdb.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.themealdb.com/meal/52993",
+    "originalSourceUrl": "https://www.themealdb.com/images/media/meals/kvbotn1581012881.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0115",
+    "name": "Honey-Balsamic Chicken with Broccoli and Potatoes",
+    "description": "Pan-seared chicken glazed with honey and balsamic beside crisp roasted potatoes and broccoli.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 2,
+    "nutritionPerServing": {
+      "calories": 740.729,
+      "proteinG": 51.931,
+      "carbohydratesG": 87.765,
+      "fatG": 23.509,
+      "fiberG": 10.101,
+      "sugarsG": 14.542,
+      "sodiumMg": 244.911,
+      "potassiumMg": 2547.151,
+      "calciumMg": 166.698,
+      "ironMg": 5.546,
+      "magnesiumMg": 164.263,
+      "vitaminCMg": 118.987
+    },
+    "estimatedCostPerServingUsd": 2.71,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

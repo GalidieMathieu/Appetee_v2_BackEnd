@@ -1,0 +1,249 @@
+{
+  "seedId": "REC-0593",
+  "candidate": {
+    "sequence": 880,
+    "seedId": "REC-CAND-0880",
+    "name": "Egg and Mushrooms Baked Potatoes"
+  },
+  "name": "Egg and Mushrooms Baked Potatoes",
+  "description": "Egg and Mushrooms Baked Potatoes is a practical oven recipe pairing eggs with potatoes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/spanish-tortilla",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Spanish Tortilla with Tomato Bread source while retaining its closest matching dish form, cooking sequence, and applicable eggs or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Spain",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 sliced onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 70,
+      "sourceUnit": "ml",
+      "sourceDisplay": "4 tbsp olive oil plus a drizzle for the bread",
+      "normalizedQuantity": 70,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0056",
+      "sourceQuantity": 25,
+      "sourceUnit": "g",
+      "sourceDisplay": "25 g butter",
+      "normalizedQuantity": 25,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g potatoes",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 6,
+      "sourceUnit": "cloves",
+      "sourceDisplay": "6 garlic cloves, divided",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 8,
+      "sourceUnit": "large",
+      "sourceDisplay": "8 large eggs",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "parsley for serving",
+      "normalizedQuantity": 1.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0051",
+      "sourceQuantity": 4,
+      "sourceUnit": "slices",
+      "sourceDisplay": "4 slices whole-wheat bread",
+      "normalizedQuantity": 113.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 4,
+      "sourceUnit": "medium",
+      "sourceDisplay": "4 tomatoes",
+      "normalizedQuantity": 248,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0074",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for egg and mushrooms baked potatoes.",
+    "Season the eggs and vegetables evenly while the oven reaches temperature.",
+    "Arrange the eggs, potatoes, and vegetables so heat can circulate around each component.",
+    "Bake until the eggs is safely cooked and the vegetables or grain base are tender.",
+    "Rest the egg and mushrooms baked potatoes briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1618.1,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2132.846,
+      "proteinG": 88.239,
+      "carbohydratesG": 166.748,
+      "fatG": 128.127,
+      "fiberG": 21.861,
+      "sodiumMg": 1148.774,
+      "potassiumMg": 4489.933,
+      "calciumMg": 592.911,
+      "ironMg": 17.033,
+      "magnesiumMg": 306.83,
+      "vitaminCMg": 86.611,
+      "sugarsG": 21.768
+    },
+    "perServing": {
+      "calories": 533.212,
+      "proteinG": 22.06,
+      "carbohydratesG": 41.687,
+      "fatG": 32.032,
+      "fiberG": 5.465,
+      "sodiumMg": 287.193,
+      "potassiumMg": 1122.483,
+      "calciumMg": 148.228,
+      "ironMg": 4.258,
+      "magnesiumMg": 76.707,
+      "vitaminCMg": 21.653,
+      "sugarsG": 5.442
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.87,
+    "perServingUsd": 1.72,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Quick Meal",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-07-04T09:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.deliciousmagazine.co.uk/recipes/baked-eggs-with-mushrooms-potatoes-spinach-and-gruyere/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.pHhX7r2lYnjXaTXk_23WmwHaJQ&pid=15.1",
+    "discoveredOriginalUrl": "https://www.deliciousmagazine.co.uk/wp-content/uploads/2018/09/725177-1-eng-GB_baked-eggs-with-mushrooms-spinach-etc.jpg",
+    "searchQuery": "Egg and Mushrooms Baked Potatoes plated recipe food",
+    "searchResultTitle": "Baked eggs with mushrooms, potatoes, spinach and Gruyère recipe ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:55:58.400Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0593",
+    "name": "Egg and Mushrooms Baked Potatoes",
+    "description": "Egg and Mushrooms Baked Potatoes is a practical oven recipe pairing eggs with potatoes and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 533.212,
+      "proteinG": 22.06,
+      "carbohydratesG": 41.687,
+      "fatG": 32.032,
+      "fiberG": 5.465,
+      "sodiumMg": 287.193,
+      "potassiumMg": 1122.483,
+      "calciumMg": 148.228,
+      "ironMg": 4.258,
+      "magnesiumMg": 76.707,
+      "vitaminCMg": 21.653,
+      "sugarsG": 5.442
+    },
+    "estimatedCostPerServingUsd": 1.72,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "Quick Meal",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0043",
+  "name": "Berbere Spice Blend",
+  "canonicalName": "Berbere Spice Blend",
+  "description": "Ethiopian berbere ground spice blend.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Morton & Bassett Berbere Spice, 1.3 oz",
+    "productId": "2493531788",
+    "productUrl": "https://www.walmart.com/ip/2493531788",
+    "brand": "Morton & Bassett",
+    "seller": "Marketplace listing; seller shown on product page may vary",
+    "packagePriceUsd": 6.49,
+    "packageQuantity": 36.854,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart marketplace product listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 282,
+      "proteinG": 14.1,
+      "carbohydratesG": 54,
+      "fatG": 12.9,
+      "fiberG": 34.9,
+      "sugarsG": 10.3,
+      "sodiumMg": 68,
+      "potassiumMg": 2280,
+      "calciumMg": 229,
+      "ironMg": 21.1,
+      "magnesiumMg": 178,
+      "vitaminCMg": 0.9
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 17.61
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 171329,
+      "dataType": "SR Legacy",
+      "description": "Spices, paprika",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171329/nutrients",
+      "searchQuery": "spices paprika",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": "Nutrition proxy uses USDA paprika because no generic berbere record was available; product and price are not proxied."
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": "USDA has no generic berbere entry; paprika is used only as a disclosed nutrition proxy. Product identity and price remain exact."
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.daringgourmet.com/berbere-ethiopian-spice-blend/",
+    "originalSourceUrl": "https://www.daringgourmet.com/wp-content/uploads/2025/05/Berbere-Recipe-10.jpg",
+    "searchQuery": "Berbere Spice Blend ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0043",
+    "name": "Berbere Spice Blend",
+    "description": "Ethiopian berbere ground spice blend.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 282,
+      "proteinG": 14.1,
+      "carbohydratesG": 54,
+      "fatG": 12.9,
+      "fiberG": 34.9,
+      "sugarsG": 10.3,
+      "sodiumMg": 68,
+      "potassiumMg": 2280,
+      "calciumMg": 229,
+      "ironMg": 21.1,
+      "magnesiumMg": 178,
+      "vitaminCMg": 0.9
+    },
+    "price": {
+      "usdPerBasis": 17.61,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0043_Berbere_Spice_Blend/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "seedId": "REC-0006",
+  "name": "Beef Taco Rice Skillet",
+  "description": "A one-pan beef and rice dinner with beans, corn, salsa, and chili seasoning.",
+  "source": {
+    "url": "https://www.bettycrocker.com/recipes/beef-taco-rice-skillet/0e99e785-454d-415b-a1b7-649d489f1039",
+    "domain": "bettycrocker.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "totalMinutes": 35
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "beef",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 1,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1 lb ground beef",
+      "normalizedQuantity": 453.592,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup dry rice",
+      "normalizedQuantity": 185,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can black beans",
+      "normalizedQuantity": 425.243,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup corn",
+      "normalizedQuantity": 165,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup salsa",
+      "normalizedQuantity": 260,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 2,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "2 tsp chili powder",
+      "normalizedQuantity": 5.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Brown the beef in a deep skillet and drain excess fat.",
+    "Stir in rice, beans, corn, salsa, chili powder, and enough water for the rice.",
+    "Bring to a simmer, cover, and cook until rice is tender.",
+    "Rest covered for 5 minutes, then fluff and portion."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1734.337,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2352.68,
+      "proteinG": 135.457,
+      "carbohydratesG": 284.806,
+      "fatG": 77.717,
+      "fiberG": 10.795,
+      "sugarsG": 5.454,
+      "sodiumMg": 3089.485,
+      "potassiumMg": 3726.766,
+      "calciumMg": 355.99,
+      "ironMg": 19.727,
+      "magnesiumMg": 362.642,
+      "vitaminCMg": 5.813
+    },
+    "perServing": {
+      "calories": 392.113,
+      "proteinG": 22.576,
+      "carbohydratesG": 47.468,
+      "fatG": 12.953,
+      "fiberG": 1.799,
+      "sugarsG": 0.909,
+      "sodiumMg": 514.914,
+      "potassiumMg": 621.128,
+      "calciumMg": 59.332,
+      "ironMg": 3.288,
+      "magnesiumMg": 60.44,
+      "vitaminCMg": 0.969
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.86,
+    "perServingUsd": 1.81,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-01-11T10:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "provenance": "Public source-page image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.bettycrocker.com/recipes/beef-taco-rice-skillet/0e99e785-454d-415b-a1b7-649d489f1039",
+    "originalSourceUrl": "https://mojo.generalmills.com/api/public/content/3j3ehv9EcEu3L9igyjrmdw_gmi_hi_res_jpeg.jpeg?v=6fe239c9&t=466b54bb264e48b199fc8e83ef1136b4",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0006",
+    "name": "Beef Taco Rice Skillet",
+    "description": "A one-pan beef and rice dinner with beans, corn, salsa, and chili seasoning.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": {
+      "main": "recipes/0006_Beef_Taco_Rice_Skillet/assets/main.avif",
+      "card": "recipes/0006_Beef_Taco_Rice_Skillet/assets/card.avif"
+    },
+    "totalTimeMinutes": 35,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 392.113,
+      "proteinG": 22.576,
+      "carbohydratesG": 47.468,
+      "fatG": 12.953,
+      "fiberG": 1.799,
+      "sugarsG": 0.909,
+      "sodiumMg": 514.914,
+      "potassiumMg": 621.128,
+      "calciumMg": 59.332,
+      "ironMg": 3.288,
+      "magnesiumMg": 60.44,
+      "vitaminCMg": 0.969
+    },
+    "estimatedCostPerServingUsd": 1.81,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

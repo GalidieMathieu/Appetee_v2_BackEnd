@@ -1,0 +1,200 @@
+{
+  "seedId": "REC-0007",
+  "name": "Chickpea Quinoa Spinach Salad",
+  "description": "A chilled quinoa salad with chickpeas, tomato, spinach, and a simple vinaigrette.",
+  "source": {
+    "url": "https://www.eatingwell.com/recipe/259996/quinoa-chickpea-salad-with-roasted-red-pepper-hummus-dressing/",
+    "domain": "eatingwell.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "totalMinutes": 35
+  },
+  "servings": 5,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can chickpeas, drained",
+      "normalizedQuantity": 260,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup dry quinoa",
+      "normalizedQuantity": 170,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 2,
+      "sourceUnit": "medium",
+      "sourceDisplay": "2 Roma tomatoes",
+      "normalizedQuantity": 124,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 6,
+      "sourceUnit": "oz",
+      "sourceDisplay": "6 oz spinach",
+      "normalizedQuantity": 170.097,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp olive oil",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp cider vinegar",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Rinse and cook the quinoa, then spread it out to cool.",
+    "Thaw and squeeze the spinach dry; dice the tomatoes.",
+    "Whisk olive oil and vinegar in a large bowl.",
+    "Fold in quinoa, drained chickpeas, spinach, and tomatoes; chill before serving."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1094.687,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1306.343,
+      "proteinG": 49.566,
+      "carbohydratesG": 179.906,
+      "fatG": 46.039,
+      "fiberG": 34.961,
+      "sugarsG": 14.914,
+      "sodiumMg": 782.233,
+      "potassiumMg": 2189.508,
+      "calciumMg": 431.119,
+      "ironMg": 14.314,
+      "magnesiumMg": 545.228,
+      "vitaminCMg": 26.603
+    },
+    "perServing": {
+      "calories": 261.269,
+      "proteinG": 9.913,
+      "carbohydratesG": 35.981,
+      "fatG": 9.208,
+      "fiberG": 6.992,
+      "sugarsG": 2.983,
+      "sodiumMg": 156.447,
+      "potassiumMg": 437.902,
+      "calciumMg": 86.224,
+      "ironMg": 2.863,
+      "magnesiumMg": 109.046,
+      "vitaminCMg": 5.321
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.06,
+    "perServingUsd": 0.61,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-01-12T23:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.foodandwine.com/quinoa-chickpea-and-spinach-salad-6423332",
+    "originalSourceUrl": "https://www.foodandwine.com/thmb/9y1ZJDS7jEhzeK0xJP50D1KO16w=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/quinoa-chickpea-and-spinach-salad-FT-RECIPE0925-ceac84cce81449c99ef340f8d4e75602.jpg",
+    "searchQuery": "Chickpea Quinoa Spinach Salad plated recipe food photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0007",
+    "name": "Chickpea Quinoa Spinach Salad",
+    "description": "A chilled quinoa salad with chickpeas, tomato, spinach, and a simple vinaigrette.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": {
+      "main": "recipes/0007_Chickpea_Quinoa_Spinach_Salad/assets/main.avif",
+      "card": "recipes/0007_Chickpea_Quinoa_Spinach_Salad/assets/card.avif"
+    },
+    "totalTimeMinutes": 35,
+    "servings": 5,
+    "nutritionPerServing": {
+      "calories": 261.269,
+      "proteinG": 9.913,
+      "carbohydratesG": 35.981,
+      "fatG": 9.208,
+      "fiberG": 6.992,
+      "sugarsG": 2.983,
+      "sodiumMg": 156.447,
+      "potassiumMg": 437.902,
+      "calciumMg": 86.224,
+      "ironMg": 2.863,
+      "magnesiumMg": 109.046,
+      "vitaminCMg": 5.321
+    },
+    "estimatedCostPerServingUsd": 0.61,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

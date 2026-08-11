@@ -1,0 +1,211 @@
+{
+  "seedId": "REC-0144",
+  "candidate": {
+    "sequence": 35,
+    "seedId": "REC-CAND-0035",
+    "name": "Mediterranean Salmon with Vegetables"
+  },
+  "name": "Mediterranean Salmon with Vegetables",
+  "description": "Mediterranean Salmon with Vegetables combines salmon with vegetables and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+  "source": {
+    "url": "https://www.themediterraneandish.com/sheet-pan-salmon-and-vegetables/",
+    "domain": "themediterraneandish.com",
+    "accessedAt": "2026-08-10T18:00:00-06:00",
+    "adaptation": "The source's defining salmon, vegetables, seasoning profile, and core cooking technique are retained; quantities and supporting vegetables are normalized to the canonical Appetee market ingredients."
+  },
+  "countryOfOrigin": "Mediterranean",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 50,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "salmon",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0011",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0083",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and prepare every ingredient for mediterranean salmon with vegetables before heating the cooking vessel.",
+    "Preheat the oven and coat the salmon and vegetables evenly with the recorded seasonings.",
+    "Cook the vegetables until tender while the seasoned salmon develops its intended color and texture.",
+    "Combine the cooked components with the remaining vegetables and sauce, then adjust the consistency and seasoning.",
+    "Portion the finished mediterranean salmon with vegetables evenly and serve it warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1440,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1248.732,
+      "proteinG": 132.72,
+      "carbohydratesG": 55.332,
+      "fatG": 56.16,
+      "fiberG": 16.68,
+      "sugarsG": 31.11,
+      "sodiumMg": 697.746,
+      "potassiumMg": 4733.073,
+      "calciumMg": 234.873,
+      "ironMg": 5.613,
+      "magnesiumMg": 289.8,
+      "vitaminCMg": 144.3
+    },
+    "perServing": {
+      "calories": 312.183,
+      "proteinG": 33.18,
+      "carbohydratesG": 13.833,
+      "fatG": 14.04,
+      "fiberG": 4.17,
+      "sugarsG": 7.777,
+      "sodiumMg": 174.436,
+      "potassiumMg": 1183.268,
+      "calciumMg": 58.718,
+      "ironMg": 1.403,
+      "magnesiumMg": 72.45,
+      "vitaminCMg": 36.075
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.71,
+    "perServingUsd": 2.68,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-08-11T04:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "www.themediterraneandish.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.themediterraneandish.com/sheet-pan-salmon-and-vegetables/",
+    "originalSourceUrl": "https://www.themediterraneandish.com/wp-content/uploads/2025/01/RoastedSalmonWCauli-19.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0144",
+    "name": "Mediterranean Salmon with Vegetables",
+    "description": "Mediterranean Salmon with Vegetables combines salmon with vegetables and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 312.183,
+      "proteinG": 33.18,
+      "carbohydratesG": 13.833,
+      "fatG": 14.04,
+      "fiberG": 4.17,
+      "sugarsG": 7.777,
+      "sodiumMg": 174.436,
+      "potassiumMg": 1183.268,
+      "calciumMg": 58.718,
+      "ironMg": 1.403,
+      "magnesiumMg": 72.45,
+      "vitaminCMg": 36.075
+    },
+    "estimatedCostPerServingUsd": 2.68,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly"
+    ]
+  }
+}

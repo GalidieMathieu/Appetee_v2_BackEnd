@@ -1,0 +1,122 @@
+{
+  "seedId": "ING-0076",
+  "name": "Dry Black Beans",
+  "canonicalName": "Dry Black Beans",
+  "description": "Raw dried black beans for soaking and pressure cooking.",
+  "measurementType": "solid",
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  },
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Dry Black Beans, 1 lb",
+    "productId": "11204116278",
+    "productUrl": "https://www.walmart.com/ip/11204116278",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 1.5,
+    "packageQuantity": 453.592,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 341,
+      "proteinG": 21.6,
+      "carbohydratesG": 62.4,
+      "fatG": 1.42,
+      "fiberG": 15.5,
+      "sugarsG": 2.12,
+      "sodiumMg": 5,
+      "potassiumMg": 1480,
+      "calciumMg": 123,
+      "ironMg": 5.02,
+      "magnesiumMg": 171,
+      "vitaminCMg": 0
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.3307
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 173734,
+      "dataType": "SR Legacy",
+      "description": "Beans, black, mature seeds, raw",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/173734/nutrients",
+      "searchQuery": "beans black mature seeds raw",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": "The single 1 lb option and price on the multi-option product page are used."
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": "The single 1 lb option and price on the multi-option product page are used."
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "imageType": "external-real-product-photograph",
+    "aiGenerated": false,
+    "provider": "i5.walmartimages.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/11204116278",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/8-pack-Great-Value-Black-Beans-1-lb_fe96e358-1747-4a7c-93bf-58bb1dc4c1f7.350e61e8e9c02472c03efcd11ee6e54b.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:42:23.244Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0076",
+    "name": "Dry Black Beans",
+    "description": "Raw dried black beans for soaking and pressure cooking.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 341,
+      "proteinG": 21.6,
+      "carbohydratesG": 62.4,
+      "fatG": 1.42,
+      "fiberG": 15.5,
+      "sugarsG": 2.12,
+      "sodiumMg": 5,
+      "potassiumMg": 1480,
+      "calciumMg": 123,
+      "ironMg": 5.02,
+      "magnesiumMg": 171,
+      "vitaminCMg": 0
+    },
+    "price": {
+      "usdPerBasis": 0.3307,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": null
+  }
+}

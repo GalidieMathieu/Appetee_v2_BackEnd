@@ -1,0 +1,241 @@
+{
+  "seedId": "REC-0751",
+  "candidate": {
+    "sequence": 1196,
+    "seedId": "REC-CAND-1196",
+    "name": "Teriyaki Black Bean Salad Bowl"
+  },
+  "name": "Teriyaki Black Bean Salad Bowl",
+  "description": "Teriyaki Black Bean Salad Bowl is a practical no-cook recipe pairing black beans with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://cookieandkate.com/black-bean-burrito-bowl-recipe/",
+    "domain": "cookieandkate.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Black Bean Burrito Bowl source while retaining its closest matching dish form, cooking sequence, and applicable black beans or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "black beans",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Drain, rinse, chop, and measure the ingredients for teriyaki black bean salad bowl.",
+    "Whisk the dressing ingredients until they form an even, well-seasoned mixture.",
+    "Fold the black beans together with the vegetables and dressing without crushing the ingredients.",
+    "Arrange the legumes and dressed mixture evenly in four portions.",
+    "Serve the teriyaki black bean salad bowl immediately or refrigerate it in sealed meal-prep containers."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1682,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2099.016,
+      "proteinG": 66.074,
+      "carbohydratesG": 391.3,
+      "fatG": 38.496,
+      "sodiumMg": 4858.625,
+      "potassiumMg": 3684.873,
+      "calciumMg": 396.458,
+      "ironMg": 12.673,
+      "magnesiumMg": 399.657,
+      "fiberG": 20.035,
+      "sugarsG": 9.743,
+      "vitaminCMg": 47.34
+    },
+    "perServing": {
+      "calories": 524.754,
+      "proteinG": 16.518,
+      "carbohydratesG": 97.825,
+      "fatG": 9.624,
+      "sodiumMg": 1214.656,
+      "potassiumMg": 921.218,
+      "calciumMg": 99.115,
+      "ironMg": 3.168,
+      "magnesiumMg": 99.914,
+      "fiberG": 5.009,
+      "sugarsG": 2.436,
+      "vitaminCMg": 11.835
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.03,
+    "perServingUsd": 1.51,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Quick Meal",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-03-04T23:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/teriyaki-shrimp-corn-black-bean-salad-kikkoman-home-cooks--445293481931554217/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.lCGh0xwwlpVoFgtCs1p30gHaO0&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/3c/d4/b2/3cd4b2e2b0d82f8d9ad1f031cfd5fa33.jpg",
+    "searchQuery": "Teriyaki Black Bean Salad Bowl plated recipe food",
+    "searchResultTitle": "Teriyaki Shrimp, Corn & Black Bean Salad | Recipe | Bean salad, Bean ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:04:03.364Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0751",
+    "name": "Teriyaki Black Bean Salad Bowl",
+    "description": "Teriyaki Black Bean Salad Bowl is a practical no-cook recipe pairing black beans with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 524.754,
+      "proteinG": 16.518,
+      "carbohydratesG": 97.825,
+      "fatG": 9.624,
+      "sodiumMg": 1214.656,
+      "potassiumMg": 921.218,
+      "calciumMg": 99.115,
+      "ironMg": 3.168,
+      "magnesiumMg": 99.914,
+      "fiberG": 5.009,
+      "sugarsG": 2.436,
+      "vitaminCMg": 11.835
+    },
+    "estimatedCostPerServingUsd": 1.51,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Quick Meal",
+      "Budget Friendly"
+    ]
+  }
+}

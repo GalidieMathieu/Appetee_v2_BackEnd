@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0020",
+  "name": "Soy Sauce",
+  "canonicalName": "Soy Sauce",
+  "description": "All-purpose soy sauce.",
+  "measurementType": "liquid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Soy Sauce, 15 fl oz",
+    "productId": "10315653",
+    "productUrl": "https://www.walmart.com/ip/10315653",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 1.76,
+    "packageQuantity": 443.603,
+    "packageUnit": "ml",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "ml",
+    "values": {
+      "calories": 61.48,
+      "proteinG": 9.442,
+      "carbohydratesG": 5.719,
+      "fatG": 0.661,
+      "fiberG": 0.928,
+      "sugarsG": 0.464,
+      "sodiumMg": 6368.4,
+      "potassiumMg": 504.6,
+      "calciumMg": 38.28,
+      "ironMg": 1.682,
+      "magnesiumMg": 85.84,
+      "vitaminCMg": 0
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "ml",
+    "usdPerBasis": 0.3968
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 174277,
+      "dataType": "SR Legacy",
+      "description": "Soy sauce made from soy and wheat (shoyu)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/174277/nutrients",
+      "searchQuery": "soy sauce made from soy and wheat shoyu",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": 1.16,
+    "notes": "USDA per-100-g values are converted with a 1.16 g/ml density."
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.freepik.com/premium-photo/soy-sauce-bowl-soybeans-wooden-table-closeup_53048726.htm",
+    "originalSourceUrl": "https://img.freepik.com/premium-photo/soy-sauce-bowl-soybeans-wooden-table-closeup_495423-63127.jpg?w=2000",
+    "searchQuery": "Soy Sauce ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0020",
+    "name": "Soy Sauce",
+    "description": "All-purpose soy sauce.",
+    "measurement": {
+      "type": "liquid",
+      "basisQuantity": 100,
+      "basisUnit": "ml"
+    },
+    "nutrition": {
+      "calories": 61.48,
+      "proteinG": 9.442,
+      "carbohydratesG": 5.719,
+      "fatG": 0.661,
+      "fiberG": 0.928,
+      "sugarsG": 0.464,
+      "sodiumMg": 6368.4,
+      "potassiumMg": 504.6,
+      "calciumMg": 38.28,
+      "ironMg": 1.682,
+      "magnesiumMg": 85.84,
+      "vitaminCMg": 0
+    },
+    "price": {
+      "usdPerBasis": 0.3968,
+      "basisQuantity": 100,
+      "basisUnit": "ml"
+    },
+    "image": "ingredients/0020_Soy_Sauce/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": false,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

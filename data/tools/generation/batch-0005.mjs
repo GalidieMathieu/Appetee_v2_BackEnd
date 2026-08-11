@@ -1,0 +1,162 @@
+import { canonicalMealCategory } from "../meal-categories.mjs";
+import { recipeSpecs } from "./batch-0005-recipes.mjs";
+
+const walmart = (id, name, price, quantity, unit = "g", brand = "Great Value", extra = {}) => ({
+  market: {
+    retailer: "Walmart",
+    storeName: "Walmart Supercenter #3789",
+    storeNumber: "3789",
+    address: "1959 Wall Ave, Ogden, UT 84401",
+    productName: name,
+    productId: String(id),
+    productUrl: `https://www.walmart.com/ip/${id}`,
+    brand,
+    seller: "Walmart.com",
+    packagePriceUsd: price,
+    packageQuantity: quantity,
+    packageUnit: unit,
+    availabilitySnapshot: "Listed online; local stock may vary",
+    checkedAt: "2026-08-10T12:00:00-06:00",
+    priceEvidence: "Current Walmart product-page or category listing price",
+    ...extra,
+  },
+});
+
+const ingredient = (n, name, description, query, preferredFdcId, product, dietCompatibility, extra = {}) => ({
+  seedId: `ING-${String(n).padStart(4, "0")}`,
+  name,
+  description,
+  measurementType: extra.measurementType ?? "solid",
+  nutritionBasisUnit: extra.nutritionBasisUnit ?? "g",
+  densityGPerMl: extra.densityGPerMl ?? null,
+  fdcSearchQuery: query,
+  preferredFdcId,
+  dietCompatibility,
+  conversionNotes: extra.conversionNotes ?? null,
+  ...product,
+});
+
+const unrestricted = { glutenFree: true, lactoseFree: true };
+
+export const ingredients = [
+  ingredient(70, "Fresh Ginger", "Raw fresh ginger root, peeled as needed for cooking.", "ginger root raw", 169231,
+    walmart(468313248, "Organic Fresh and Bold Ginger, 8 oz Bag", 4.52, 226.796, "g", "Healthy Harvest"), unrestricted),
+  ingredient(71, "Toasted Sesame Oil", "Toasted sesame oil used as a concentrated finishing and seasoning oil.", "oil sesame salad or cooking", 171016,
+    walmart(145525537, "Oi! Toasted Pure Sesame Oil, 250 ml", 5.48, 250, "ml", "Oi!"), unrestricted,
+    { measurementType: "liquid", nutritionBasisUnit: "ml", densityGPerMl: 0.92,
+      conversionNotes: "USDA sesame oil nutrition is converted from mass using an approximate density of 0.92 g/ml." }),
+  ingredient(72, "Sesame Seeds", "Dried hulled sesame seed kernels suitable for toasting and garnishing.", "seeds sesame seed kernels dried", 169412,
+    walmart(15942152423, "Great Value Sesame Seeds, 2.2 oz", 2.18, 62.369), unrestricted,
+    { conversionNotes: "The single-pack option and price on the multi-option product page are used." }),
+  ingredient(73, "Gochujang", "Korean fermented red chili paste used in sauces and marinades.", "sauce peppers hot chili red", 171604,
+    walmart(1569008183, "O'Food Authentic Gochujang Korean Chili Sauce, 7.5 oz", 4.38, 212.621, "g", "O'Food"),
+    { glutenFree: false, lactoseFree: true, notes: "Classified conservatively as not Gluten Free because wheat-containing formulations are common and the selected listing does not provide a certification." },
+    { conversionNotes: "USDA canned red chili sauce is the closest SR Legacy nutrition proxy for this fermented chili paste." }),
+  ingredient(74, "White Mushrooms", "Raw fresh whole white button mushrooms.", "mushrooms white raw", 169251,
+    walmart(10312229, "Fresh Whole White Mushrooms, 8 oz", 1.94, 226.796, "g", "To-Jo"), unrestricted),
+  ingredient(75, "Dried Fava Beans", "Raw dried mature fava beans, also known as broad beans.", "broadbeans fava mature seeds raw", 175205,
+    walmart(185156642, "Food to Live Organic Fava Beans, 10 lb", 56.46, 4535.924, "g", "Food to Live", { seller: "Food to Live" }), unrestricted),
+  ingredient(76, "Dry Black Beans", "Raw dried black beans for soaking and pressure cooking.", "beans black mature seeds raw", 173734,
+    walmart(11204116278, "Great Value Dry Black Beans, 1 lb", 1.50, 453.592), unrestricted,
+    { conversionNotes: "The single 1 lb option and price on the multi-option product page are used." }),
+  ingredient(77, "Garam Masala", "Ground Indian garam masala spice blend.", "spices curry powder", 170924,
+    walmart(633089689, "Aiva Garam Masala, 7 oz", 7.99, 198.447, "g", "Aiva", { availabilitySnapshot: "Listed online; currently out of stock" }), unrestricted,
+    { conversionNotes: "USDA curry powder is the closest SR Legacy nutrition proxy for a dry garam masala blend." }),
+  ingredient(78, "Canned Kidney Beans", "Low-sodium canned red kidney beans with their canning liquid.", "beans kidney red canned solids liquid low sodium", 175245,
+    walmart(32250872, "Great Value Dark Red Kidney Beans, No Salt Added, 15.5 oz", 0.86, 439.417), unrestricted),
+  ingredient(79, "Ground Nutmeg", "Finely ground nutmeg spice.", "spices nutmeg ground", 171326,
+    walmart(344742144, "Great Value Ground Nutmeg, 1.5 oz", 2.24, 42.524), unrestricted),
+  ingredient(80, "Grated Parmesan Cheese", "Shelf-stable finely grated Parmesan cheese.", "cheese parmesan grated", 171247,
+    walmart(10315402, "Great Value Grated Parmesan Cheese, 8 oz", 2.98, 226.796),
+    { glutenFree: true, lactoseFree: false }),
+  ingredient(81, "Creamed Corn", "Canned cream-style yellow sweet corn.", "corn sweet yellow canned cream style regular", 169215,
+    walmart(10448549, "Great Value Canned Cream Style Sweet Corn, 14.75 oz", 0.72, 418.447), unrestricted),
+  ingredient(82, "Thai Red Curry Paste", "Prepared Thai red curry paste with chilies, aromatics, and spices.", "spices curry powder", 170924,
+    walmart(10543601, "Mae Ploy Red Curry Paste, 14 oz", 6.32, 396.893, "g", "Mae Ploy"), unrestricted,
+    { conversionNotes: "USDA curry powder is the closest SR Legacy nutrition proxy; the selected paste contains moisture and its calories may be modestly overstated." }),
+  ingredient(83, "Zucchini", "Raw fresh green zucchini with skin.", "squash summer zucchini includes skin raw", 169291,
+    walmart(44390947, "Fresh Zucchini, Each", 0.76, 226.796, "g", "Fresh Produce", {
+      priceEvidence: "Current Walmart variable-weight listing modeled from $0.76 each at $1.52/lb",
+    }), unrestricted,
+    { conversionNotes: "The variable-weight produce listing implies a modeled 0.5 lb zucchini." }),
+  ingredient(84, "Green Olives", "Pitted green olives packed in brine.", "olives ripe canned small extra large", 169094,
+    walmart(922662949, "Mina Green Olives, 12.5 oz", 8.95, 354.369, "g", "Mina"), unrestricted,
+    { conversionNotes: "USDA canned ripe olives are the closest SR Legacy nutrition profile for brined green olives." }),
+  ingredient(85, "Pork Chorizo", "Raw seasoned pork chorizo sausage removed from its casing for cooking.", "sausage pork chorizo raw", 173859,
+    walmart(11027816, "Cacique Pork Chorizo, 9 oz", 1.50, 255.146, "g", "Cacique"), unrestricted),
+  ingredient(86, "Fresh Rosemary", "Fresh rosemary leaves and tender sprigs.", "rosemary fresh", 173473,
+    walmart(3325006363, "Fresh Rosemary, 0.5 oz Clamshell", 1.78, 14.175, "g", "Fresh Produce"), unrestricted),
+  ingredient(87, "Dried Thyme", "Dried ground thyme leaves.", "spices thyme dried", 170938,
+    walmart(829145644, "Great Value Ground Thyme, 1.4 oz", 2.78, 39.69), unrestricted),
+  ingredient(88, "Harissa Paste", "Prepared North African red pepper harissa paste.", "sauce hot chile sriracha", 171186,
+    walmart(773599552, "Mina Mild Harissa Paste, 10 oz", 8.65, 283.495, "g", "Mina"), unrestricted,
+    { conversionNotes: "USDA sriracha-style hot chile sauce is the closest SR Legacy nutrition proxy for prepared harissa." }),
+  ingredient(89, "Red Cooking Wine", "Seasoned red cooking wine used in braises and sauces.", "alcoholic beverage wine table red", 173190,
+    walmart(397904418, "Holland House Seasoned Dry Red Cooking Wine, 13 fl oz", 3.48, 384.456, "ml", "Holland House"), unrestricted,
+    { measurementType: "liquid", nutritionBasisUnit: "ml", densityGPerMl: 0.99,
+      conversionNotes: "USDA table red wine nutrition is converted using an approximate density of 0.99 g/ml; seasoned cooking wine may contain more sodium." }),
+  ingredient(90, "Dijon Mustard", "Prepared Dijon-style mustard.", "mustard prepared yellow", 172234,
+    walmart(10315545, "Great Value Dijon Mustard, 12 oz", 1.72, 340.194), unrestricted,
+    { conversionNotes: "USDA prepared yellow mustard is the closest SR Legacy nutrition profile for Dijon mustard." }),
+  ingredient(91, "Ground Turmeric", "Finely ground turmeric spice.", "spices turmeric ground", 172231,
+    walmart(446901861, "Great Value Ground Turmeric, 2 oz", 1.97, 56.699), unrestricted),
+  ingredient(92, "Honey", "Pure liquid honey measured by mass.", "honey", 169640,
+    walmart(20647992, "Great Value Honey, 12 oz", 3.12, 340.194), unrestricted),
+  ingredient(93, "Balsamic Vinegar", "Balsamic vinegar of Modena for sauces and glazes.", "vinegar balsamic", 172241,
+    walmart(128822499, "Great Value Balsamic Vinegar of Modena, 8.45 fl oz", 4.12, 249.885, "ml"), unrestricted,
+    { measurementType: "liquid", nutritionBasisUnit: "ml", densityGPerMl: 1.05,
+      conversionNotes: "USDA balsamic vinegar nutrition is converted using an approximate density of 1.05 g/ml." }),
+];
+
+const yieldFactors = new Map([
+  ["ING-0001", 0.75], ["ING-0021", 0.75], ["ING-0036", 0.75], ["ING-0048", 0.75], ["ING-0068", 0.75], ["ING-0069", 0.75], ["ING-0085", 0.75],
+  ["ING-0009", 0.9], ["ING-0016", 0.9], ["ING-0023", 0.9], ["ING-0028", 0.9], ["ING-0033", 0.9], ["ING-0045", 0.9], ["ING-0059", 0.9],
+  ["ING-0060", 0.9], ["ING-0061", 0.9], ["ING-0062", 0.9], ["ING-0063", 0.9], ["ING-0064", 0.9], ["ING-0070", 0.9], ["ING-0074", 0.9], ["ING-0083", 0.9], ["ING-0086", 0.9],
+]);
+
+const usage = ([id, quantity, unit, display, normalized, normalizedUnit = "g", method = "Source measure converted with product or USDA standard mass"]) => ({
+  ingredientSeedId: id,
+  sourceQuantity: quantity,
+  sourceUnit: unit,
+  sourceDisplay: display,
+  normalizedQuantity: normalized,
+  normalizedUnit,
+  normalizationMethod: method,
+  cookingYieldFactor: yieldFactors.get(id) ?? 1,
+});
+
+const recipe = (spec) => {
+  const seedId = `REC-${String(spec.n).padStart(4, "0")}`;
+  const uses = spec.uses.map(usage);
+  return {
+    seedId,
+    name: spec.name,
+    description: spec.description,
+    source: {
+      url: spec.sourceUrl,
+      domain: new URL(spec.sourceUrl).hostname.replace(/^www\./, ""),
+      accessedAt: "2026-08-10T12:00:00-06:00",
+      adaptation: spec.adaptation ?? "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee.",
+    },
+    countryOfOrigin: spec.country,
+    discovery: spec.discovery ?? false,
+    studentAthleteTarget: spec.athlete ?? false,
+    times: { prepMinutes: spec.prep, cookMinutes: spec.cook, totalMinutes: spec.prep + spec.cook },
+    servings: spec.servings,
+    difficulty: spec.difficulty ?? "Easy",
+    mealType: spec.mealType,
+    mealCategory: canonicalMealCategory(seedId, spec.mealCategory),
+    cookingMethod: spec.method,
+    primaryProtein: spec.protein,
+    carbohydrateBase: spec.base,
+    ingredients: uses,
+    instructions: spec.instructions,
+    sourceNutrition: null,
+    diets: spec.diets,
+    badgeJudgements: { mealPrep: spec.mealPrep ?? false, freezerFriendly: spec.freezerFriendly ?? false },
+    estimatedFinishedWeightG: Number(uses.reduce((sum, item) => sum + item.normalizedQuantity * item.cookingYieldFactor, 0).toFixed(3)),
+    finishedWeightMethod: "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  };
+};
+
+export const recipes = recipeSpecs.map(recipe);

@@ -1,0 +1,205 @@
+{
+  "seedId": "REC-0047",
+  "name": "Edamame Tuna Rice Salad",
+  "description": "Chilled rice salad with tuna, edamame, vegetables, and soy dressing.",
+  "source": {
+    "url": "https://www.foodnetwork.com/recipes/robin-miller/edamame-rice-salad-with-teriyaki-tuna-recipe-1946418",
+    "domain": "foodnetwork.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "totalMinutes": 35
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tuna",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0025",
+      "sourceQuantity": 4,
+      "sourceUnit": "cans",
+      "sourceDisplay": "4 cans tuna, drained",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0050",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups shelled edamame",
+      "normalizedQuantity": 310,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups dry rice",
+      "normalizedQuantity": 277.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0019",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups peas and carrots",
+      "normalizedQuantity": 210,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp soy sauce",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp vinegar",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Cook the rice until tender, spread it out, and cool it promptly.",
+    "Simmer the edamame and vegetables until hot, then drain.",
+    "Whisk the soy sauce and vinegar into a simple dressing.",
+    "Fold the tuna and vegetables into the rice, dress, and refrigerate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1745.5,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1931.05,
+      "proteinG": 166.229,
+      "carbohydratesG": 271.8,
+      "fatG": 21.987,
+      "fiberG": 22.712,
+      "sugarsG": 7.888,
+      "sodiumMg": 2297.06,
+      "potassiumMg": 3240.422,
+      "calciumMg": 311.621,
+      "ironMg": 15.873,
+      "magnesiumMg": 434.947,
+      "vitaminCMg": 53.59
+    },
+    "perServing": {
+      "calories": 482.762,
+      "proteinG": 41.557,
+      "carbohydratesG": 67.95,
+      "fatG": 5.497,
+      "fiberG": 5.678,
+      "sugarsG": 1.972,
+      "sodiumMg": 574.265,
+      "potassiumMg": 810.106,
+      "calciumMg": 77.905,
+      "ironMg": 3.968,
+      "magnesiumMg": 108.737,
+      "vitaminCMg": 13.398
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.11,
+    "perServingUsd": 1.53,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-03-14T15:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "food.fnr.sndimg.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.foodnetwork.com/recipes/robin-miller/edamame-rice-salad-with-teriyaki-tuna-recipe-1946418",
+    "originalSourceUrl": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2006/11/21/0/rm0403_salad1.jpg.rend.hgtvcom.616.411.suffix/1371584090573.webp",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0047",
+    "name": "Edamame Tuna Rice Salad",
+    "description": "Chilled rice salad with tuna, edamame, vegetables, and soy dressing.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 482.762,
+      "proteinG": 41.557,
+      "carbohydratesG": 67.95,
+      "fatG": 5.497,
+      "fiberG": 5.678,
+      "sugarsG": 1.972,
+      "sodiumMg": 574.265,
+      "potassiumMg": 810.106,
+      "calciumMg": 77.905,
+      "ironMg": 3.968,
+      "magnesiumMg": 108.737,
+      "vitaminCMg": 13.398
+    },
+    "estimatedCostPerServingUsd": 1.53,
+    "diets": [
+      "Pescatarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

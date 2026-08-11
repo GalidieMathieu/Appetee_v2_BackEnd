@@ -1,0 +1,232 @@
+{
+  "seedId": "REC-0108",
+  "name": "Spanish Chicken and Potato Pie",
+  "description": "Chicken, tomatoes, peppers, and olives baked beneath paprika mashed potatoes.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/spanish-chicken-pie",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source quantities and pie construction are retained; fresh red pepper is roasted during preparation and cooked chicken is normalized back to its raw canonical mass."
+  },
+  "countryOfOrigin": "Spain",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 35,
+    "totalMinutes": 55
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 1,
+      "sourceUnit": "kg",
+      "sourceDisplay": "1 kg potatoes",
+      "normalizedQuantity": 1000,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 3,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "3 tsp paprika",
+      "normalizedQuantity": 6.9,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 2,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "2 tsp olive oil",
+      "normalizedQuantity": 10,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 2,
+      "sourceUnit": "medium",
+      "sourceDisplay": "2 sliced onions",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 2,
+      "sourceUnit": "cloves",
+      "sourceDisplay": "2 minced garlic cloves",
+      "normalizedQuantity": 10,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 800,
+      "sourceUnit": "g",
+      "sourceDisplay": "800 g canned tomatoes",
+      "normalizedQuantity": 800,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g cooked chicken represented by raw chicken breast",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source cooked chicken represented by 400 g raw chicken breast using a 0.75 cooking yield",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 140,
+      "sourceUnit": "g",
+      "sourceDisplay": "140 g roasted red pepper",
+      "normalizedQuantity": 140,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0084",
+      "sourceQuantity": 1,
+      "sourceUnit": "handful",
+      "sourceDisplay": "1 handful green olives",
+      "normalizedQuantity": 50,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Boil the potatoes until tender, then mash them with most of the paprika and seasoning.",
+    "Soften the onions and garlic in olive oil and stir in the remaining paprika.",
+    "Simmer the tomatoes briefly, then combine them with the cooked chicken, peppers, and olives.",
+    "Transfer the filling to a baking dish and spoon the paprika mash over the surface.",
+    "Bake at 400°F until the mash is golden and the filling is bubbling."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2472.9,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1681.202,
+      "proteinG": 124.025,
+      "carbohydratesG": 251.888,
+      "fatG": 28.58,
+      "fiberG": 25.058,
+      "sugarsG": 12.891,
+      "sodiumMg": 1695.874,
+      "potassiumMg": 8116.911,
+      "calciumMg": 518.552,
+      "ironMg": 20.835,
+      "magnesiumMg": 473.782,
+      "vitaminCMg": 264.432
+    },
+    "perServing": {
+      "calories": 280.2,
+      "proteinG": 20.671,
+      "carbohydratesG": 41.981,
+      "fatG": 4.763,
+      "fiberG": 4.176,
+      "sugarsG": 2.148,
+      "sodiumMg": 282.646,
+      "potassiumMg": 1352.819,
+      "calciumMg": 86.425,
+      "ironMg": 3.473,
+      "magnesiumMg": 78.964,
+      "vitaminCMg": 44.072
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 9.93,
+    "perServingUsd": 1.66,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-06-16T16:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "images.immediate.co.uk",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.bbcgoodfood.com/recipes/spanish-chicken-pie",
+    "originalSourceUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-1035696_10-0d165c5.jpg?resize=440%2C230",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0108",
+    "name": "Spanish Chicken and Potato Pie",
+    "description": "Chicken, tomatoes, peppers, and olives baked beneath paprika mashed potatoes.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 280.2,
+      "proteinG": 20.671,
+      "carbohydratesG": 41.981,
+      "fatG": 4.763,
+      "fiberG": 4.176,
+      "sugarsG": 2.148,
+      "sodiumMg": 282.646,
+      "potassiumMg": 1352.819,
+      "calciumMg": 86.425,
+      "ironMg": 3.473,
+      "magnesiumMg": 78.964,
+      "vitaminCMg": 44.072
+    },
+    "estimatedCostPerServingUsd": 1.66,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Budget Friendly"
+    ]
+  }
+}

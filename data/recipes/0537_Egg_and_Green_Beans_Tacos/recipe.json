@@ -1,0 +1,229 @@
+{
+  "seedId": "REC-0537",
+  "candidate": {
+    "sequence": 777,
+    "seedId": "REC-CAND-0777",
+    "name": "Egg and Green Beans Tacos"
+  },
+  "name": "Egg and Green Beans Tacos",
+  "description": "Egg and Green Beans Tacos is a practical stovetop recipe pairing eggs with tortilla and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.incredibleegg.org/recipe/easy-breakfast-tacos/",
+    "domain": "incredibleegg.org",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Egg and Black Bean Breakfast Tacos source while retaining its closest matching dish form, cooking sequence, and applicable eggs or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 6,
+      "sourceUnit": "large",
+      "sourceDisplay": "6 large eggs",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can black beans, drained",
+      "normalizedQuantity": 255,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 8,
+      "sourceUnit": "pieces",
+      "sourceDisplay": "8 whole-wheat tortillas",
+      "normalizedQuantity": 362.874,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "cup",
+      "sourceDisplay": "½ cup salsa",
+      "normalizedQuantity": 130,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 4,
+      "sourceUnit": "oz",
+      "sourceDisplay": "4 oz spinach",
+      "normalizedQuantity": 113.398,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0037",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, eggs, and tortilla for egg and green beans tacos.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned eggs and cook it until browned or heated through as appropriate.",
+    "Stir in the tortilla, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the egg and green beans tacos, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1734.932,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2153.095,
+      "proteinG": 105.639,
+      "carbohydratesG": 286.16,
+      "fatG": 68.933,
+      "fiberG": 55.005,
+      "sugarsG": 17.481,
+      "sodiumMg": 4172.097,
+      "potassiumMg": 3901.787,
+      "calciumMg": 1544.661,
+      "ironMg": 25.437,
+      "magnesiumMg": 628.876,
+      "vitaminCMg": 74.217
+    },
+    "perServing": {
+      "calories": 538.274,
+      "proteinG": 26.41,
+      "carbohydratesG": 71.54,
+      "fatG": 17.233,
+      "fiberG": 13.751,
+      "sugarsG": 4.37,
+      "sodiumMg": 1043.024,
+      "potassiumMg": 975.447,
+      "calciumMg": 386.165,
+      "ironMg": 6.359,
+      "magnesiumMg": 157.219,
+      "vitaminCMg": 18.554
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.26,
+    "perServingUsd": 1.56,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-04-09T01:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://pinchofyum.com/egg-roll-tacos",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.lx3yTjQ2wB7Z67ptKuI0igHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://pinchofyum.com/tachyon/Beans-and-Greens-Tacos-Square.png",
+    "searchQuery": "Egg and Green Beans Tacos plated recipe food",
+    "searchResultTitle": "Brandon's Egg Roll Tacos Recipe - Pinch of Yum",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:53:07.979Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0537",
+    "name": "Egg and Green Beans Tacos",
+    "description": "Egg and Green Beans Tacos is a practical stovetop recipe pairing eggs with tortilla and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 538.274,
+      "proteinG": 26.41,
+      "carbohydratesG": 71.54,
+      "fatG": 17.233,
+      "fiberG": 13.751,
+      "sugarsG": 4.37,
+      "sodiumMg": 1043.024,
+      "potassiumMg": 975.447,
+      "calciumMg": 386.165,
+      "ironMg": 6.359,
+      "magnesiumMg": 157.219,
+      "vitaminCMg": 18.554
+    },
+    "estimatedCostPerServingUsd": 1.56,
+    "diets": [
+      "Vegetarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

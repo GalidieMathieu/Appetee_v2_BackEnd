@@ -1,0 +1,215 @@
+{
+  "seedId": "REC-0157",
+  "candidate": {
+    "sequence": 48,
+    "seedId": "REC-CAND-0048",
+    "name": "Coconut Steak Quinoa Bowl"
+  },
+  "name": "Coconut Steak Quinoa Bowl",
+  "description": "Coconut Steak Quinoa Bowl combines beef with quinoa and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+  "source": {
+    "url": "https://www.eatingwell.com/recipe/7917797/steak-quinoa-bowls/",
+    "domain": "eatingwell.com",
+    "accessedAt": "2026-08-10T18:00:00-06:00",
+    "adaptation": "The source's defining beef, quinoa, seasoning profile, and core cooking technique are retained; quantities and supporting vegetables are normalized to the canonical Appetee market ingredients."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "totalMinutes": 35
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "beef",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 240,
+      "sourceUnit": "ml",
+      "sourceDisplay": "240 ml",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and prepare every ingredient for coconut steak quinoa bowl before heating the cooking vessel.",
+    "Heat the cooking vessel and soften the aromatics before adding the beef.",
+    "Cook the quinoa until tender while the seasoned beef develops its intended color and texture.",
+    "Combine the cooked components with the remaining vegetables and sauce, then adjust the consistency and seasoning.",
+    "Portion the finished coconut steak quinoa bowl evenly and serve it warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1318,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2219.84,
+      "proteinG": 176.714,
+      "carbohydratesG": 185.534,
+      "fatG": 88.154,
+      "fiberG": 25.564,
+      "sugarsG": 14.344,
+      "sodiumMg": 405.28,
+      "potassiumMg": 4882.88,
+      "calciumMg": 343.36,
+      "ironMg": 30.694,
+      "magnesiumMg": 769.28,
+      "vitaminCMg": 425.76
+    },
+    "perServing": {
+      "calories": 554.96,
+      "proteinG": 44.178,
+      "carbohydratesG": 46.383,
+      "fatG": 22.038,
+      "fiberG": 6.391,
+      "sugarsG": 3.586,
+      "sodiumMg": 101.32,
+      "potassiumMg": 1220.72,
+      "calciumMg": 85.84,
+      "ironMg": 7.673,
+      "magnesiumMg": 192.32,
+      "vitaminCMg": 106.44
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 25.76,
+    "perServingUsd": 6.44,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Meal Prep",
+    "Freezer Friendly"
+  ],
+  "createdAt": "2024-08-31T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "www.halfbakedharvest.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://storage.googleapis.com/dzfowddwloiqse/spicy-coconut-sauce-brazilian.html",
+    "originalSourceUrl": "https://www.halfbakedharvest.com/wp-content/uploads/2015/07/Brazilian-Steak-and-Grilled-Sweet-Potato-Fry-Quinoa-Bowl-with-Spicy-Coconut-Tomato-Sauce-9.jpg",
+    "discoveredOriginalUrl": "https://www.halfbakedharvest.com/wp-content/uploads/2015/07/Brazilian-Steak-and-Grilled-Sweet-Potato-Fry-Quinoa-Bowl-with-Spicy-Coconut-Tomato-Sauce-9.jpg",
+    "searchQuery": "Coconut Steak Quinoa Bowl plated recipe food",
+    "searchResultTitle": "Spicy Coconut Sauce Brazilian at Henry Hamill blog",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:10:15.090Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0157",
+    "name": "Coconut Steak Quinoa Bowl",
+    "description": "Coconut Steak Quinoa Bowl combines beef with quinoa and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 554.96,
+      "proteinG": 44.178,
+      "carbohydratesG": 46.383,
+      "fatG": 22.038,
+      "fiberG": 6.391,
+      "sugarsG": 3.586,
+      "sodiumMg": 101.32,
+      "potassiumMg": 1220.72,
+      "calciumMg": 85.84,
+      "ironMg": 7.673,
+      "magnesiumMg": 192.32,
+      "vitaminCMg": 106.44
+    },
+    "estimatedCostPerServingUsd": 6.44,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Meal Prep",
+      "Freezer Friendly"
+    ]
+  }
+}

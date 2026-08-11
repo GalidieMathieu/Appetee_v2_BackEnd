@@ -1,0 +1,237 @@
+{
+  "seedId": "REC-0842",
+  "candidate": {
+    "sequence": 1372,
+    "seedId": "REC-CAND-1372",
+    "name": "American Egg Baked Potatoes"
+  },
+  "name": "American Egg Baked Potatoes",
+  "description": "American Egg Baked Potatoes is a practical oven recipe pairing eggs with potatoes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/spanish-tortilla",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Spanish Tortilla with Tomato Bread source while retaining its closest matching dish form, cooking sequence, and applicable eggs or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Spain",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 40,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 sliced onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 70,
+      "sourceUnit": "ml",
+      "sourceDisplay": "4 tbsp olive oil plus a drizzle for the bread",
+      "normalizedQuantity": 70,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0056",
+      "sourceQuantity": 25,
+      "sourceUnit": "g",
+      "sourceDisplay": "25 g butter",
+      "normalizedQuantity": 25,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g potatoes",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 6,
+      "sourceUnit": "cloves",
+      "sourceDisplay": "6 garlic cloves, divided",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 8,
+      "sourceUnit": "large",
+      "sourceDisplay": "8 large eggs",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "parsley for serving",
+      "normalizedQuantity": 1.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0051",
+      "sourceQuantity": 4,
+      "sourceUnit": "slices",
+      "sourceDisplay": "4 slices whole-wheat bread",
+      "normalizedQuantity": 113.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 4,
+      "sourceUnit": "medium",
+      "sourceDisplay": "4 tomatoes",
+      "normalizedQuantity": 248,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for american egg baked potatoes.",
+    "Season the eggs and vegetables evenly while the oven reaches temperature.",
+    "Arrange the eggs, potatoes, and vegetables so heat can circulate around each component.",
+    "Bake until the eggs is safely cooked and the vegetables or grain base are tender.",
+    "Rest the american egg baked potatoes briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1318.1,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2066.846,
+      "proteinG": 78.969,
+      "carbohydratesG": 156.968,
+      "fatG": 127.107,
+      "fiberG": 18.861,
+      "sodiumMg": 1133.774,
+      "potassiumMg": 3535.933,
+      "calciumMg": 583.911,
+      "ironMg": 15.533,
+      "magnesiumMg": 279.83,
+      "vitaminCMg": 80.311,
+      "sugarsG": 15.828
+    },
+    "perServing": {
+      "calories": 516.712,
+      "proteinG": 19.742,
+      "carbohydratesG": 39.242,
+      "fatG": 31.777,
+      "fiberG": 4.715,
+      "sodiumMg": 283.443,
+      "potassiumMg": 883.983,
+      "calciumMg": 145.978,
+      "ironMg": 3.883,
+      "magnesiumMg": 69.957,
+      "vitaminCMg": 20.078,
+      "sugarsG": 3.957
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.3,
+    "perServingUsd": 1.07,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-07-23T06:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/baked-eggs-with-potatoes--345510602646856656/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.fBfxwiXM-Jpx41qZI7Xi3AHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/28/23/6e/28236e451a4ef3dd8342e0db415c0c29.jpg",
+    "searchQuery": "American Egg Baked Potatoes plated recipe food",
+    "searchResultTitle": "Baked Eggs with Potatoes 😉 | Twice baked potatoes, Ways to cook eggs ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:08:43.022Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0842",
+    "name": "American Egg Baked Potatoes",
+    "description": "American Egg Baked Potatoes is a practical oven recipe pairing eggs with potatoes and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 516.712,
+      "proteinG": 19.742,
+      "carbohydratesG": 39.242,
+      "fatG": 31.777,
+      "fiberG": 4.715,
+      "sodiumMg": 283.443,
+      "potassiumMg": 883.983,
+      "calciumMg": 145.978,
+      "ironMg": 3.883,
+      "magnesiumMg": 69.957,
+      "vitaminCMg": 20.078,
+      "sugarsG": 3.957
+    },
+    "estimatedCostPerServingUsd": 1.07,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "seedId": "REC-0695",
+  "candidate": {
+    "sequence": 1084,
+    "seedId": "REC-CAND-1084",
+    "name": "Turkey and Carrots Orzo Skillet"
+  },
+  "name": "Turkey and Carrots Orzo Skillet",
+  "description": "Turkey and Carrots Orzo Skillet is a practical stovetop recipe pairing turkey with orzo and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://broccyourbody.com/one-pan-italian-orzo-skillet/",
+    "domain": "broccyourbody.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Turkey and Kale Orzo Skillet source while retaining its closest matching dish form, cooking sequence, and applicable turkey or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 60,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "orzo",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0097",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0098",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, turkey, and orzo for turkey and carrots orzo skillet.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned turkey and cook it until browned or heated through as appropriate.",
+    "Stir in the orzo, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the turkey and carrots orzo skillet, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2044,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2413.77,
+      "proteinG": 151.282,
+      "carbohydratesG": 266.65,
+      "fatG": 86.234,
+      "fiberG": 34.395,
+      "sugarsG": 23.748,
+      "sodiumMg": 1258.7,
+      "potassiumMg": 5226.57,
+      "calciumMg": 1313.25,
+      "ironMg": 25.137,
+      "magnesiumMg": 449.972,
+      "vitaminCMg": 327.18
+    },
+    "perServing": {
+      "calories": 603.442,
+      "proteinG": 37.821,
+      "carbohydratesG": 66.662,
+      "fatG": 21.558,
+      "fiberG": 8.599,
+      "sugarsG": 5.937,
+      "sodiumMg": 314.675,
+      "potassiumMg": 1306.642,
+      "calciumMg": 328.313,
+      "ironMg": 6.284,
+      "magnesiumMg": 112.493,
+      "vitaminCMg": 81.795
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.21,
+    "perServingUsd": 2.05,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-12-08T15:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://theamazingfood.com/delicious-ground-turkey-orzo-skillet-45384/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.Oveoysi-RHJEDykmUQrUBQHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://theamazingfood.com/wp-content/uploads/2026/01/image_8ee760f5e0fb4b53885765dc1ef85cd5.webp",
+    "searchQuery": "Turkey and Carrots Orzo Skillet plated recipe food",
+    "searchResultTitle": "Delicious Ground Turkey Orzo Skillet - theamazingfood",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:01:07.353Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0695",
+    "name": "Turkey and Carrots Orzo Skillet",
+    "description": "Turkey and Carrots Orzo Skillet is a practical stovetop recipe pairing turkey with orzo and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 603.442,
+      "proteinG": 37.821,
+      "carbohydratesG": 66.662,
+      "fatG": 21.558,
+      "fiberG": 8.599,
+      "sugarsG": 5.937,
+      "sodiumMg": 314.675,
+      "potassiumMg": 1306.642,
+      "calciumMg": 328.313,
+      "ironMg": 6.284,
+      "magnesiumMg": 112.493,
+      "vitaminCMg": 81.795
+    },
+    "estimatedCostPerServingUsd": 2.05,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

@@ -1,0 +1,187 @@
+{
+  "seedId": "REC-0077",
+  "name": "Catalan Tomato-Rubbed Bread",
+  "description": "Crisp bread rubbed with garlic and ripe tomato, then finished with olive oil.",
+  "source": {
+    "url": "https://www.gimmesomeoven.com/tomato-rubbed-bread-pa-amb-tomaquet-pan-con-tomate/#recipe",
+    "domain": "gimmesomeoven.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Spain",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 5,
+    "cookMinutes": 5,
+    "totalMinutes": 10
+  },
+  "servings": 2,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Meal Component",
+  "cookingMethod": "Toaster",
+  "primaryProtein": "bread",
+  "carbohydrateBase": "bread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0051",
+      "sourceQuantity": 2,
+      "sourceUnit": "slices",
+      "sourceDisplay": "2 slices whole-wheat bread",
+      "normalizedQuantity": 56.7,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 2,
+      "sourceUnit": "cloves",
+      "sourceDisplay": "2 garlic cloves",
+      "normalizedQuantity": 10,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 Roma tomatoes",
+      "normalizedQuantity": 186,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 2,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "2 tsp extra-virgin olive oil",
+      "normalizedQuantity": 10,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Toast the bread until its surface is crisp and golden.",
+    "Rub each warm slice all over with the cut garlic.",
+    "Rub the cut tomatoes over the bread until their pulp coats it.",
+    "Drizzle the slices with olive oil and serve them immediately."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 244.1,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 271.708,
+      "proteinG": 9.304,
+      "carbohydratesG": 34.756,
+      "fatG": 11.506,
+      "fiberG": 5.844,
+      "sugarsG": 7.453,
+      "sodiumMg": 269.167,
+      "potassiumMg": 625.029,
+      "calciumMg": 128.078,
+      "ironMg": 2.124,
+      "magnesiumMg": 65.485,
+      "vitaminCMg": 28.602
+    },
+    "perServing": {
+      "calories": 135.854,
+      "proteinG": 4.652,
+      "carbohydratesG": 17.378,
+      "fatG": 5.753,
+      "fiberG": 2.922,
+      "sugarsG": 3.727,
+      "sodiumMg": 134.583,
+      "potassiumMg": 312.514,
+      "calciumMg": 64.039,
+      "ironMg": 1.062,
+      "magnesiumMg": 32.742,
+      "vitaminCMg": 14.301
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 0.84,
+    "perServingUsd": 0.42,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-04-29T21:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "www.gimmesomeoven.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.gimmesomeoven.com/tomato-rubbed-bread-pa-amb-tomaquet-pan-con-tomate/#recipe",
+    "originalSourceUrl": "https://www.gimmesomeoven.com/wp-content/uploads/2017/02/Catalan-Tomato-Bread-Pan-Con-Tomate-Recipe.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0077",
+    "name": "Catalan Tomato-Rubbed Bread",
+    "description": "Crisp bread rubbed with garlic and ripe tomato, then finished with olive oil.",
+    "mealType": "Lunch",
+    "mealCategory": "Meal Component",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 2,
+    "nutritionPerServing": {
+      "calories": 135.854,
+      "proteinG": 4.652,
+      "carbohydratesG": 17.378,
+      "fatG": 5.753,
+      "fiberG": 2.922,
+      "sugarsG": 3.727,
+      "sodiumMg": 134.583,
+      "potassiumMg": 312.514,
+      "calciumMg": 64.039,
+      "ironMg": 1.062,
+      "magnesiumMg": 32.742,
+      "vitaminCMg": 14.301
+    },
+    "estimatedCostPerServingUsd": 0.42,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

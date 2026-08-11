@@ -1,0 +1,225 @@
+{
+  "seedId": "REC-0753",
+  "candidate": {
+    "sequence": 1203,
+    "seedId": "REC-CAND-1203",
+    "name": "Smoky Egg with Zucchini"
+  },
+  "name": "Smoky Egg with Zucchini",
+  "description": "Smoky Egg with Zucchini is a practical stovetop recipe pairing eggs with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.sainsburysmagazine.co.uk/recipes/mains/tortang-talong",
+    "domain": "sainsburysmagazine.co.uk",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Filipino Tortang Talong source while retaining its closest matching dish form, cooking sequence, and applicable eggs or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Philippines",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 50,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0064",
+      "sourceQuantity": 4,
+      "sourceUnit": "small",
+      "sourceDisplay": "4 small eggplants",
+      "normalizedQuantity": 908,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 2,
+      "sourceUnit": "large",
+      "sourceDisplay": "2 large eggs",
+      "normalizedQuantity": 100,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 4,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "4 tsp olive oil",
+      "normalizedQuantity": 20,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0083",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, eggs, and vegetables for smoky egg with zucchini.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned eggs and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the smoky egg with zucchini, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1535.2,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 718.448,
+      "proteinG": 28.722,
+      "carbohydratesG": 93.418,
+      "fatG": 31.542,
+      "fiberG": 38.728,
+      "sugarsG": 40.622,
+      "sodiumMg": 305.044,
+      "potassiumMg": 3715.702,
+      "calciumMg": 253.262,
+      "ironMg": 7.426,
+      "magnesiumMg": 233.2,
+      "vitaminCMg": 98.34
+    },
+    "perServing": {
+      "calories": 179.612,
+      "proteinG": 7.181,
+      "carbohydratesG": 23.355,
+      "fatG": 7.886,
+      "fiberG": 9.682,
+      "sugarsG": 10.155,
+      "sodiumMg": 76.261,
+      "potassiumMg": 928.926,
+      "calciumMg": 63.316,
+      "ironMg": 1.857,
+      "magnesiumMg": 58.3,
+      "vitaminCMg": 24.585
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.05,
+    "perServingUsd": 1.51,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-03-08T01:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://smokedeggs.com/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.Y8KpK3ryyNsoN3FzYmoLcgHaKe&pid=15.1",
+    "discoveredOriginalUrl": "https://smokedeggs.com/wp-content/uploads/2019/03/zucchinislice-768x1086.jpg",
+    "searchQuery": "Smoky Egg with Zucchini plated recipe food",
+    "searchResultTitle": "The Smoked Egg Company | Chilled Smoked Eggs | Australia",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:04:10.613Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0753",
+    "name": "Smoky Egg with Zucchini",
+    "description": "Smoky Egg with Zucchini is a practical stovetop recipe pairing eggs with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 179.612,
+      "proteinG": 7.181,
+      "carbohydratesG": 23.355,
+      "fatG": 7.886,
+      "fiberG": 9.682,
+      "sugarsG": 10.155,
+      "sodiumMg": 76.261,
+      "potassiumMg": 928.926,
+      "calciumMg": 63.316,
+      "ironMg": 1.857,
+      "magnesiumMg": 58.3,
+      "vitaminCMg": 24.585
+    },
+    "estimatedCostPerServingUsd": 1.51,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

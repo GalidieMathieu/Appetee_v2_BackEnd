@@ -1,0 +1,231 @@
+{
+  "seedId": "REC-0934",
+  "candidate": {
+    "sequence": 1528,
+    "seedId": "REC-CAND-1528",
+    "name": "Caribbean Pork Tenderloin with Vegetables"
+  },
+  "name": "Caribbean Pork Tenderloin with Vegetables",
+  "description": "Caribbean Pork Tenderloin with Vegetables is a practical stovetop recipe pairing pork tenderloin with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://food.unl.edu/recipe/ground-pork-rice-bowls/",
+    "domain": "food.unl.edu",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Ground Pork Rice Bowls source while retaining its closest matching dish form, cooking sequence, and applicable pork or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 50,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "pork tenderloin",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0069",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups dry rice",
+      "normalizedQuantity": 370,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0019",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups peas and carrots",
+      "normalizedQuantity": 280,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 0.25,
+      "sourceUnit": "cup",
+      "sourceDisplay": "¼ cup soy sauce",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, pork tenderloin, and legumes for caribbean pork tenderloin with vegetables.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned pork tenderloin and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the caribbean pork tenderloin with vegetables, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2515.5,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2599.27,
+      "proteinG": 173.317,
+      "carbohydratesG": 374.366,
+      "fatG": 46.669,
+      "fiberG": 20.243,
+      "sugarsG": 8.318,
+      "sodiumMg": 4383.045,
+      "potassiumMg": 4861.893,
+      "calciumMg": 247.493,
+      "ironMg": 12.517,
+      "magnesiumMg": 425.704,
+      "vitaminCMg": 101.74
+    },
+    "perServing": {
+      "calories": 649.817,
+      "proteinG": 43.329,
+      "carbohydratesG": 93.591,
+      "fatG": 11.667,
+      "fiberG": 5.061,
+      "sugarsG": 2.079,
+      "sodiumMg": 1095.761,
+      "potassiumMg": 1215.473,
+      "calciumMg": 61.873,
+      "ironMg": 3.129,
+      "magnesiumMg": 106.426,
+      "vitaminCMg": 25.435
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 9.74,
+    "perServingUsd": 2.44,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-12-12T02:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/caribbean-pork-tenderloin-with-vegetables-recipe--318770479858402163/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.NqjGt1AmbGEtlJ--iii7iAHaE8&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/00/06/44/0006449a2440957ad0b2de5a26eecf62.jpg",
+    "searchQuery": "Caribbean Pork Tenderloin with Vegetables plated recipe food",
+    "searchResultTitle": "Caribbean Pork Tenderloin with Vegetables Recipe",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:13:16.909Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0934",
+    "name": "Caribbean Pork Tenderloin with Vegetables",
+    "description": "Caribbean Pork Tenderloin with Vegetables is a practical stovetop recipe pairing pork tenderloin with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 649.817,
+      "proteinG": 43.329,
+      "carbohydratesG": 93.591,
+      "fatG": 11.667,
+      "fiberG": 5.061,
+      "sugarsG": 2.079,
+      "sodiumMg": 1095.761,
+      "potassiumMg": 1215.473,
+      "calciumMg": 61.873,
+      "ironMg": 3.129,
+      "magnesiumMg": 106.426,
+      "vitaminCMg": 25.435
+    },
+    "estimatedCostPerServingUsd": 2.44,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Budget Friendly"
+    ]
+  }
+}

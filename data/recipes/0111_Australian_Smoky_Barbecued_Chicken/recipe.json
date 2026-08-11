@@ -1,0 +1,235 @@
+{
+  "seedId": "REC-0111",
+  "name": "Australian Smoky Barbecued Chicken",
+  "description": "Paprika-curry chicken grilled over rosemary, thyme, and bay for a smoky herbal crust.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/spiced-smoky-barbecued-chicken",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source marinade, chicken quantity, herb-smoking technique, and grill timing are retained; boneless thighs replace bone-in thighs and dried thyme replaces fresh bunches."
+  },
+  "countryOfOrigin": "Australia",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "totalMinutes": 60
+  },
+  "servings": 8,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Grill",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 2,
+      "sourceUnit": "cloves",
+      "sourceDisplay": "2 garlic cloves",
+      "normalizedQuantity": 10,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "zest and juice of 1 lemon",
+      "normalizedQuantity": 58,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp curry powder",
+      "normalizedQuantity": 13.8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 1,
+      "sourceUnit": "pinch",
+      "sourceDisplay": "1 pinch chili powder",
+      "normalizedQuantity": 0.3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 3,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "3 tbsp olive oil",
+      "normalizedQuantity": 45,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0036",
+      "sourceQuantity": 12,
+      "sourceUnit": "thighs",
+      "sourceDisplay": "12 chicken thighs",
+      "normalizedQuantity": 2041.2,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0086",
+      "sourceQuantity": 1,
+      "sourceUnit": "bunch",
+      "sourceDisplay": "1 bunch rosemary",
+      "normalizedQuantity": 14,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0087",
+      "sourceQuantity": 2,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "dried thyme replacing fresh bunches",
+      "normalizedQuantity": 2,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0065",
+      "sourceQuantity": 2,
+      "sourceUnit": "leaves",
+      "sourceDisplay": "2 bay leaves",
+      "normalizedQuantity": 0.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Pound the garlic with salt, then mix it with lemon, curry powder, chili, oil, and pepper.",
+    "Coat the chicken thighs in the aromatic marinade while the grill heats.",
+    "Arrange the rosemary, thyme, and bay over the grill and place the chicken above the herbs.",
+    "Cook with the lid closed when possible, turning as needed, until lightly charred and 165°F inside."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Paleo",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1667.2,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2709.846,
+      "proteinG": 393.833,
+      "carbohydratesG": 21.041,
+      "fatG": 119.472,
+      "fiberG": 12.099,
+      "sugarsG": 1.987,
+      "sodiumMg": 3208.569,
+      "potassiumMg": 5176.184,
+      "calciumMg": 355.841,
+      "ironMg": 19.265,
+      "magnesiumMg": 489.049,
+      "vitaminCMg": 38.197
+    },
+    "perServing": {
+      "calories": 338.731,
+      "proteinG": 49.229,
+      "carbohydratesG": 2.63,
+      "fatG": 14.934,
+      "fiberG": 1.512,
+      "sugarsG": 0.248,
+      "sodiumMg": 401.071,
+      "potassiumMg": 647.023,
+      "calciumMg": 44.48,
+      "ironMg": 2.408,
+      "magnesiumMg": 61.131,
+      "vitaminCMg": 4.775
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 18.43,
+    "perServingUsd": 2.3,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Carb",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-06-21T07:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "images.immediate.co.uk",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.bbcgoodfood.com/recipes/spiced-smoky-barbecued-chicken",
+    "originalSourceUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-3403_11-1d8b67d.jpg?resize=440%2C230",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0111",
+    "name": "Australian Smoky Barbecued Chicken",
+    "description": "Paprika-curry chicken grilled over rosemary, thyme, and bay for a smoky herbal crust.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 8,
+    "nutritionPerServing": {
+      "calories": 338.731,
+      "proteinG": 49.229,
+      "carbohydratesG": 2.63,
+      "fatG": 14.934,
+      "fiberG": 1.512,
+      "sugarsG": 0.248,
+      "sodiumMg": 401.071,
+      "potassiumMg": 647.023,
+      "calciumMg": 44.48,
+      "ironMg": 2.408,
+      "magnesiumMg": 61.131,
+      "vitaminCMg": 4.775
+    },
+    "estimatedCostPerServingUsd": 2.3,
+    "diets": [
+      "Flexitarian",
+      "Paleo",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Carb",
+      "Budget Friendly"
+    ]
+  }
+}

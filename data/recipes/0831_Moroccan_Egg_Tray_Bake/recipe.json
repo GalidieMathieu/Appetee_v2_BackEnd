@@ -1,0 +1,225 @@
+{
+  "seedId": "REC-0831",
+  "candidate": {
+    "sequence": 1355,
+    "seedId": "REC-CAND-1355",
+    "name": "Moroccan Egg Tray Bake"
+  },
+  "name": "Moroccan Egg Tray Bake",
+  "description": "Moroccan Egg Tray Bake is a practical oven recipe pairing eggs with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://ifoodreal.com/cottage-cheese-egg-bake/",
+    "domain": "ifoodreal.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Cottage Cheese Spinach Egg Bake source while retaining its closest matching dish form, cooking sequence, and applicable eggs or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 20,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 10,
+      "sourceUnit": "large",
+      "sourceDisplay": "10 eggs",
+      "normalizedQuantity": 500,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0035",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups cottage cheese",
+      "normalizedQuantity": 452,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups frozen spinach",
+      "normalizedQuantity": 170,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 Roma tomatoes",
+      "normalizedQuantity": 186,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "medium",
+      "sourceDisplay": "½ onion",
+      "normalizedQuantity": 75,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for moroccan egg tray bake.",
+    "Season the eggs and vegetables evenly while the oven reaches temperature.",
+    "Arrange the eggs, vegetables, and vegetables so heat can circulate around each component.",
+    "Bake until the eggs is safely cooked and the vegetables or grain base are tender.",
+    "Rest the moroccan egg tray bake briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1334.9,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1415.402,
+      "proteinG": 128.432,
+      "carbohydratesG": 41.709,
+      "fatG": 80.914,
+      "fiberG": 8.902,
+      "sugarsG": 20.291,
+      "sodiumMg": 2684.066,
+      "potassiumMg": 2304.663,
+      "calciumMg": 832.293,
+      "ironMg": 13.716,
+      "magnesiumMg": 241.06,
+      "vitaminCMg": 45.662
+    },
+    "perServing": {
+      "calories": 353.851,
+      "proteinG": 32.108,
+      "carbohydratesG": 10.427,
+      "fatG": 20.229,
+      "fiberG": 2.225,
+      "sugarsG": 5.073,
+      "sodiumMg": 671.016,
+      "potassiumMg": 576.166,
+      "calciumMg": 208.073,
+      "ironMg": 3.429,
+      "magnesiumMg": 60.265,
+      "vitaminCMg": 11.415
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.87,
+    "perServingUsd": 1.22,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Low Carb",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-07-06T07:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://healthplustoday.com/resources/recipes/dinner/moroccan-egg-bake/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.qjegis5eP958CwVHB8YEKwHaH-&pid=15.1",
+    "discoveredOriginalUrl": "https://healthplustoday.com/wp-content/uploads/2021/04/IMG_7664-scaled-e1618104333379-892x960.jpg",
+    "searchQuery": "Moroccan Egg Tray Bake plated recipe food",
+    "searchResultTitle": "Moroccan Egg Bake – Health Plus",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:08:09.797Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0831",
+    "name": "Moroccan Egg Tray Bake",
+    "description": "Moroccan Egg Tray Bake is a practical oven recipe pairing eggs with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 353.851,
+      "proteinG": 32.108,
+      "carbohydratesG": 10.427,
+      "fatG": 20.229,
+      "fiberG": 2.225,
+      "sugarsG": 5.073,
+      "sodiumMg": 671.016,
+      "potassiumMg": 576.166,
+      "calciumMg": 208.073,
+      "ironMg": 3.429,
+      "magnesiumMg": 60.265,
+      "vitaminCMg": 11.415
+    },
+    "estimatedCostPerServingUsd": 1.22,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Low Carb",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

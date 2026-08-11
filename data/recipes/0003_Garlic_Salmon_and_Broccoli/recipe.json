@@ -1,0 +1,186 @@
+{
+  "seedId": "REC-0003",
+  "name": "Garlic Salmon and Broccoli",
+  "description": "Roasted salmon and broccoli with olive oil and garlic.",
+  "source": {
+    "url": "https://www.eatingwell.com/roasted-salmon-broccoli-rice-bowls-11685541",
+    "domain": "eatingwell.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 18,
+    "totalMinutes": 28
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "salmon",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0011",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb salmon fillets",
+      "normalizedQuantity": 680.389,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0013",
+      "sourceQuantity": 6,
+      "sourceUnit": "cups",
+      "sourceDisplay": "6 cups broccoli florets",
+      "normalizedQuantity": 546,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp olive oil",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Heat the oven to 425°F and spread the broccoli on a rimmed pan.",
+    "Coat broccoli with half the oil and roast for 8 minutes.",
+    "Add salmon to the pan; brush it with the remaining oil and garlic.",
+    "Roast until salmon flakes and reaches 145°F and the broccoli is browned."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Keto",
+    "Paleo",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1045.192,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1269.736,
+      "proteinG": 155.776,
+      "carbohydratesG": 31.064,
+      "fatG": 58.896,
+      "fiberG": 16.695,
+      "sugarsG": 7.521,
+      "sodiumMg": 644.428,
+      "potassiumMg": 3708.167,
+      "calciumMg": 380.81,
+      "ironMg": 7.416,
+      "magnesiumMg": 285.735,
+      "vitaminCMg": 312.624
+    },
+    "perServing": {
+      "calories": 317.434,
+      "proteinG": 38.944,
+      "carbohydratesG": 7.766,
+      "fatG": 14.724,
+      "fiberG": 4.174,
+      "sugarsG": 1.88,
+      "sodiumMg": 161.107,
+      "potassiumMg": 927.042,
+      "calciumMg": 95.203,
+      "ironMg": 1.854,
+      "magnesiumMg": 71.434,
+      "vitaminCMg": 78.156
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.79,
+    "perServingUsd": 2.7,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Carb",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-01-06T19:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://cookaifood.com/recipe/garlic-butter-salmon-with-broccoli",
+    "originalSourceUrl": "https://cookaifood.com/media/cache/thumb_600/bundles/project/images/recipes/2712_1_1709804324.png",
+    "searchQuery": "Garlic Salmon and Broccoli plated recipe food photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0003",
+    "name": "Garlic Salmon and Broccoli",
+    "description": "Roasted salmon and broccoli with olive oil and garlic.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": {
+      "main": "recipes/0003_Garlic_Salmon_and_Broccoli/assets/main.avif",
+      "card": "recipes/0003_Garlic_Salmon_and_Broccoli/assets/card.avif"
+    },
+    "totalTimeMinutes": 28,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 317.434,
+      "proteinG": 38.944,
+      "carbohydratesG": 7.766,
+      "fatG": 14.724,
+      "fiberG": 4.174,
+      "sugarsG": 1.88,
+      "sodiumMg": 161.107,
+      "potassiumMg": 927.042,
+      "calciumMg": 95.203,
+      "ironMg": 1.854,
+      "magnesiumMg": 71.434,
+      "vitaminCMg": 78.156
+    },
+    "estimatedCostPerServingUsd": 2.7,
+    "diets": [
+      "Pescatarian",
+      "Keto",
+      "Paleo",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Carb",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

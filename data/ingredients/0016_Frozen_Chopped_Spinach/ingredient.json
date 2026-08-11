@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0016",
+  "name": "Frozen Chopped Spinach",
+  "canonicalName": "Frozen Chopped Spinach",
+  "description": "Frozen chopped spinach.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Frozen Chopped Spinach, 12 oz",
+    "productId": "431513547",
+    "productUrl": "https://www.walmart.com/ip/431513547",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 1.26,
+    "packageQuantity": 340.194,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 29,
+      "proteinG": 3.63,
+      "carbohydratesG": 4.21,
+      "fatG": 0.57,
+      "fiberG": 2.9,
+      "sugarsG": 0.65,
+      "sodiumMg": 74,
+      "potassiumMg": 346,
+      "calciumMg": 129,
+      "ironMg": 1.89,
+      "magnesiumMg": 75,
+      "vitaminCMg": 5.5
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.3704
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 169287,
+      "dataType": "SR Legacy",
+      "description": "Spinach, frozen, chopped or leaf, unprepared (Includes foods for USDA's Food Distribution Program)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/169287/nutrients",
+      "searchQuery": "spinach frozen chopped unprepared",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://harvest-valley.net/product/frozen-chopped-spinach/",
+    "originalSourceUrl": "https://harvest-valley.net/wp-content/uploads/2025/10/Frozen-Chopped-Spinach.png",
+    "searchQuery": "Frozen Chopped Spinach ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0016",
+    "name": "Frozen Chopped Spinach",
+    "description": "Frozen chopped spinach.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 29,
+      "proteinG": 3.63,
+      "carbohydratesG": 4.21,
+      "fatG": 0.57,
+      "fiberG": 2.9,
+      "sugarsG": 0.65,
+      "sodiumMg": 74,
+      "potassiumMg": 346,
+      "calciumMg": 129,
+      "ironMg": 1.89,
+      "magnesiumMg": 75,
+      "vitaminCMg": 5.5
+    },
+    "price": {
+      "usdPerBasis": 0.3704,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0016_Frozen_Chopped_Spinach/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

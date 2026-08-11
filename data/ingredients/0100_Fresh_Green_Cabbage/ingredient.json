@@ -1,0 +1,122 @@
+{
+  "seedId": "ING-0100",
+  "name": "Fresh Green Cabbage",
+  "canonicalName": "Fresh Green Cabbage",
+  "description": "Raw fresh green cabbage for shredding, roasting, or braising.",
+  "measurementType": "solid",
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": "Single-ingredient vegetable classified from its exact product identity."
+  },
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Fresh Green Cabbage, Each",
+    "productId": "44391042",
+    "productUrl": "https://www.walmart.com/ip/44391042",
+    "brand": "Fresh Produce",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 2.59,
+    "packageQuantity": 1382,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T20:00:00-06:00",
+    "priceEvidence": "Current listing price and per-pound rate; package mass derived from the displayed estimated price divided by $0.85/lb."
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 25,
+      "proteinG": 1.28,
+      "carbohydratesG": 5.8,
+      "fatG": 0.1,
+      "fiberG": 2.5,
+      "sugarsG": 3.2,
+      "sodiumMg": 18,
+      "potassiumMg": 170,
+      "calciumMg": 40,
+      "ironMg": 0.47,
+      "magnesiumMg": 12,
+      "vitaminCMg": 36.6
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.1874
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 169975,
+      "dataType": "SR Legacy",
+      "description": "Cabbage, raw",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/169975/nutrients",
+      "searchQuery": "cabbage raw",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": "Estimated each-weight derived from the product page's displayed estimated price and per-pound rate."
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": "Estimated each-weight derived from the product page's displayed estimated price and per-pound rate."
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "imageType": "external-real-product-photograph",
+    "aiGenerated": false,
+    "provider": "i5.walmartimages.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/44391042",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Fresh-Green-Cabbage-Each_164666b6-9c50-4505-bc1d-29f4d316f7dc.754a17269329372872578ecaef0c9d99.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:42:23.244Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0100",
+    "name": "Fresh Green Cabbage",
+    "description": "Raw fresh green cabbage for shredding, roasting, or braising.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 25,
+      "proteinG": 1.28,
+      "carbohydratesG": 5.8,
+      "fatG": 0.1,
+      "fiberG": 2.5,
+      "sugarsG": 3.2,
+      "sodiumMg": 18,
+      "potassiumMg": 170,
+      "calciumMg": 40,
+      "ironMg": 0.47,
+      "magnesiumMg": 12,
+      "vitaminCMg": 36.6
+    },
+    "price": {
+      "usdPerBasis": 0.1874,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": null
+  }
+}

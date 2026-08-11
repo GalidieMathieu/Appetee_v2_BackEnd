@@ -1,0 +1,221 @@
+{
+  "seedId": "REC-0073",
+  "name": "Chicken Spinach Coconut Curry",
+  "description": "Chicken breast and spinach simmered with tomato, coconut milk, and curry spices over rice.",
+  "source": {
+    "url": "https://www.thekitchn.com/coconut-chicken-curry-recipe-23254792",
+    "domain": "thekitchn.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "India",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "totalMinutes": 45
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 2,
+      "sourceUnit": "lb",
+      "sourceDisplay": "2 lb chicken breast",
+      "normalizedQuantity": 907.2,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups dry rice",
+      "normalizedQuantity": 370,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can coconut milk",
+      "normalizedQuantity": 399,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can diced tomatoes",
+      "normalizedQuantity": 411.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 3,
+      "sourceUnit": "cups",
+      "sourceDisplay": "3 cups spinach",
+      "normalizedQuantity": 255,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1½ tbsp curry powder",
+      "normalizedQuantity": 10.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Cook the rice until tender and keep it covered.",
+    "Brown the chicken and onion until the chicken reaches 165°F.",
+    "Add curry powder, tomatoes, and coconut milk and simmer until thickened.",
+    "Stir in spinach until hot and serve the curry over rice."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 2975.5,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3315.035,
+      "proteinG": 253.684,
+      "carbohydratesG": 351.48,
+      "fatG": 111.361,
+      "sodiumMg": 1360.052,
+      "potassiumMg": 6268.198,
+      "calciumMg": 653.971,
+      "ironMg": 26.485,
+      "magnesiumMg": 791.089,
+      "fiberG": 16.382,
+      "vitaminCMg": 30.388,
+      "sugarsG": 1.947
+    },
+    "perServing": {
+      "calories": 552.506,
+      "proteinG": 42.281,
+      "carbohydratesG": 58.58,
+      "fatG": 18.56,
+      "sodiumMg": 226.675,
+      "potassiumMg": 1044.7,
+      "calciumMg": 108.995,
+      "ironMg": 4.414,
+      "magnesiumMg": 131.848,
+      "fiberG": 2.73,
+      "vitaminCMg": 5.065,
+      "sugarsG": 0.325
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 11.95,
+    "perServingUsd": 1.99,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-04-23T17:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "grandmarecipes.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://grandmarecipes.com/easy-chicken-spinach-coconut-curry-recipe-bursting-with-flavor/",
+    "originalSourceUrl": "https://grandmarecipes.com/wp-content/uploads/2025/12/dsuvrl9yakiivqk7fa3i.webp",
+    "discoveredOriginalUrl": "https://grandmarecipes.com/wp-content/uploads/2025/12/dsuvrl9yakiivqk7fa3i.webp",
+    "searchQuery": "Chicken Spinach Coconut Curry plated recipe food",
+    "searchResultTitle": "Easy Chicken Spinach Coconut Curry Recipe – Delicious Comfort",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:08:23.687Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0073",
+    "name": "Chicken Spinach Coconut Curry",
+    "description": "Chicken breast and spinach simmered with tomato, coconut milk, and curry spices over rice.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 552.506,
+      "proteinG": 42.281,
+      "carbohydratesG": 58.58,
+      "fatG": 18.56,
+      "sodiumMg": 226.675,
+      "potassiumMg": 1044.7,
+      "calciumMg": 108.995,
+      "ironMg": 4.414,
+      "magnesiumMg": 131.848,
+      "fiberG": 2.73,
+      "vitaminCMg": 5.065,
+      "sugarsG": 0.325
+    },
+    "estimatedCostPerServingUsd": 1.99,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

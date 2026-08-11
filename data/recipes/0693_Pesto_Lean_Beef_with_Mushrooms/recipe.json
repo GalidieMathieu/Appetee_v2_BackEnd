@@ -1,0 +1,241 @@
+{
+  "seedId": "REC-0693",
+  "candidate": {
+    "sequence": 1080,
+    "seedId": "REC-CAND-1080",
+    "name": "Pesto Lean Beef with Mushrooms"
+  },
+  "name": "Pesto Lean Beef with Mushrooms",
+  "description": "Pesto Lean Beef with Mushrooms is a practical stovetop recipe pairing lean beef with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://scandinaviancookbook.com/karbonader/",
+    "domain": "scandinaviancookbook.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Norwegian Karbonader with Caramelized Onions source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Norway",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lean beef",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 2,
+      "sourceUnit": "medium",
+      "sourceDisplay": "2 onions",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0056",
+      "sourceQuantity": 3,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "3 tbsp butter, divided",
+      "normalizedQuantity": 42.6,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 1,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1 lb ground beef",
+      "normalizedQuantity": 453.592,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0079",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "½ tsp ground nutmeg",
+      "normalizedQuantity": 1.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0066",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "½ tbsp cornstarch",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0074",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0096",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0080",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lean beef, and vegetables for pesto lean beef with mushrooms.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lean beef and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the pesto lean beef with mushrooms, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1585.894,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 4485.12,
+      "proteinG": 246.247,
+      "carbohydratesG": 147.072,
+      "fatG": 337.438,
+      "fiberG": 46.913,
+      "sodiumMg": 5726.713,
+      "potassiumMg": 5673.89,
+      "calciumMg": 3549.927,
+      "ironMg": 25.368,
+      "magnesiumMg": 1068.552,
+      "vitaminCMg": 35.973,
+      "sugarsG": 19.342
+    },
+    "perServing": {
+      "calories": 1121.28,
+      "proteinG": 61.562,
+      "carbohydratesG": 36.768,
+      "fatG": 84.359,
+      "fiberG": 11.728,
+      "sodiumMg": 1431.678,
+      "potassiumMg": 1418.473,
+      "calciumMg": 887.482,
+      "ironMg": 6.342,
+      "magnesiumMg": 267.138,
+      "vitaminCMg": 8.993,
+      "sugarsG": 4.835
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 23.73,
+    "perServingUsd": 5.93,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Quick Meal"
+  ],
+  "createdAt": "2026-12-05T13:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://sodelicious.recipes/recipe/pesto-stuffed-beef-with-creamy-mushrooms/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.Xvryrrl03DfOjqJYZO7JhwHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://sodelicious.recipes/wp-content/uploads/2017/10/684e6-26.08.2016-r2-ns-var01-pesto-filled-beef-with-veggies-and-wine-sauce.jpg",
+    "searchQuery": "Pesto Lean Beef with Mushrooms plated recipe food",
+    "searchResultTitle": "Pesto-Stuffed Beef with Creamy Mushrooms | So Delicious",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:01:12.406Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0693",
+    "name": "Pesto Lean Beef with Mushrooms",
+    "description": "Pesto Lean Beef with Mushrooms is a practical stovetop recipe pairing lean beef with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 1121.28,
+      "proteinG": 61.562,
+      "carbohydratesG": 36.768,
+      "fatG": 84.359,
+      "fiberG": 11.728,
+      "sodiumMg": 1431.678,
+      "potassiumMg": 1418.473,
+      "calciumMg": 887.482,
+      "ironMg": 6.342,
+      "magnesiumMg": 267.138,
+      "vitaminCMg": 8.993,
+      "sugarsG": 4.835
+    },
+    "estimatedCostPerServingUsd": 5.93,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Quick Meal"
+    ]
+  }
+}

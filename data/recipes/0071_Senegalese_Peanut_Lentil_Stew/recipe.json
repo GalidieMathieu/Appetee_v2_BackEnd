@@ -1,0 +1,215 @@
+{
+  "seedId": "REC-0071",
+  "name": "Senegalese Peanut Lentil Stew",
+  "description": "Senegalese-inspired lentil, sweet potato, tomato, coconut, and peanut stew.",
+  "source": {
+    "url": "https://www.vegetarian.org.nz/veg-living/recipes/senegalese-peanut-stew",
+    "domain": "vegetarian.org.nz",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Senegal",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "totalMinutes": 50
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "sweet potato",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups dry lentils",
+      "normalizedQuantity": 288,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 2.5
+    },
+    {
+      "ingredientSeedId": "ING-0007",
+      "sourceQuantity": 2,
+      "sourceUnit": "lb",
+      "sourceDisplay": "2 lb sweet potatoes",
+      "normalizedQuantity": 907.2,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0032",
+      "sourceQuantity": 0.75,
+      "sourceUnit": "cup",
+      "sourceDisplay": "¾ cup peanut butter",
+      "normalizedQuantity": 192,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans diced tomatoes",
+      "normalizedQuantity": 822.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can coconut milk",
+      "normalizedQuantity": 399,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp curry powder",
+      "normalizedQuantity": 7,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Soften the onion with curry powder in a large pot.",
+    "Add lentils, sweet potatoes, tomatoes, and enough water to cover.",
+    "Simmer until the lentils and sweet potatoes are tender.",
+    "Stir in peanut butter and coconut milk and cook until thick and smooth."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 3091.58,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3875.086,
+      "proteinG": 148.665,
+      "carbohydratesG": 436.336,
+      "fatG": 192.415,
+      "fiberG": 52.75,
+      "sugarsG": 22.187,
+      "sodiumMg": 2035.035,
+      "potassiumMg": 10649.61,
+      "calciumMg": 767.206,
+      "ironMg": 45.617,
+      "magnesiumMg": 911.291,
+      "vitaminCMg": 163.565
+    },
+    "perServing": {
+      "calories": 645.848,
+      "proteinG": 24.777,
+      "carbohydratesG": 72.723,
+      "fatG": 32.069,
+      "fiberG": 8.792,
+      "sugarsG": 3.698,
+      "sodiumMg": 339.173,
+      "potassiumMg": 1774.935,
+      "calciumMg": 127.868,
+      "ironMg": 7.603,
+      "magnesiumMg": 151.882,
+      "vitaminCMg": 27.261
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.74,
+    "perServingUsd": 1.46,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-04-20T15:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "www.vegetarian.org.nz",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.vegetarian.org.nz/veg-living/recipes/senegalese-peanut-stew",
+    "originalSourceUrl": "https://www.vegetarian.org.nz/images/assets/665/hero",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0071",
+    "name": "Senegalese Peanut Lentil Stew",
+    "description": "Senegalese-inspired lentil, sweet potato, tomato, coconut, and peanut stew.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 645.848,
+      "proteinG": 24.777,
+      "carbohydratesG": 72.723,
+      "fatG": 32.069,
+      "fiberG": 8.792,
+      "sugarsG": 3.698,
+      "sodiumMg": 339.173,
+      "potassiumMg": 1774.935,
+      "calciumMg": 127.868,
+      "ironMg": 7.603,
+      "magnesiumMg": 151.882,
+      "vitaminCMg": 27.261
+    },
+    "estimatedCostPerServingUsd": 1.46,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

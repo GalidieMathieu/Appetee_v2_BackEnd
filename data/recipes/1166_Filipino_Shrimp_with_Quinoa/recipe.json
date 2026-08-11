@@ -1,0 +1,233 @@
+{
+  "seedId": "REC-1166",
+  "candidate": {
+    "sequence": 1954,
+    "seedId": "REC-CAND-1954",
+    "name": "Filipino Shrimp with Quinoa"
+  },
+  "name": "Filipino Shrimp with Quinoa",
+  "description": "Filipino Shrimp with Quinoa is a practical stovetop recipe pairing shrimp with quinoa and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://onedishkitchen.com/shrimp-quinoa-bowl-recipe/",
+    "domain": "onedishkitchen.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Garlic Shrimp Quinoa Bowls source while retaining its closest matching dish form, cooking sequence, and applicable shrimp or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 60,
+    "totalMinutes": 80
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "shrimp",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0038",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb shrimp",
+      "normalizedQuantity": 680.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 1.25,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1¼ cups dry quinoa",
+      "normalizedQuantity": 212.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0013",
+      "sourceQuantity": 3,
+      "sourceUnit": "cups",
+      "sourceDisplay": "3 cups broccoli",
+      "normalizedQuantity": 273,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 Roma tomatoes",
+      "normalizedQuantity": 186,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups spinach",
+      "normalizedQuantity": 170,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp olive oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, shrimp, and quinoa for filipino shrimp with quinoa.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned shrimp and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the filipino shrimp with quinoa, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2042.4,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1675.86,
+      "proteinG": 141.42,
+      "carbohydratesG": 200.853,
+      "fatG": 35.778,
+      "fiberG": 36.242,
+      "sugarsG": 9.832,
+      "sodiumMg": 4068.132,
+      "potassiumMg": 4179.293,
+      "calciumMg": 930.357,
+      "ironMg": 18.238,
+      "magnesiumMg": 796.163,
+      "vitaminCMg": 218.084
+    },
+    "perServing": {
+      "calories": 418.965,
+      "proteinG": 35.355,
+      "carbohydratesG": 50.213,
+      "fatG": 8.944,
+      "fiberG": 9.06,
+      "sugarsG": 2.458,
+      "sodiumMg": 1017.033,
+      "potassiumMg": 1044.823,
+      "calciumMg": 232.589,
+      "ironMg": 4.559,
+      "magnesiumMg": 199.041,
+      "vitaminCMg": 54.521
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 18.02,
+    "perServingUsd": 4.5,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber"
+  ],
+  "createdAt": "2028-12-03T18:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://storage.googleapis.com/dungxxsknbmmme/quinoa-filipino-food.html",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.n39NiMa8RiGqrezZwh316QHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://www.allrecipes.com/thmb/AzzzyNaMQOyHFQQwPvy_Jekv9sk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/1015954-47f4d8fd461e4280b37695639b31e0f1.jpg",
+    "searchQuery": "Filipino Shrimp with Quinoa plated recipe food",
+    "searchResultTitle": "Quinoa Filipino Food at Audra Kato blog",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:25:17.098Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1166",
+    "name": "Filipino Shrimp with Quinoa",
+    "description": "Filipino Shrimp with Quinoa is a practical stovetop recipe pairing shrimp with quinoa and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 80,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 418.965,
+      "proteinG": 35.355,
+      "carbohydratesG": 50.213,
+      "fatG": 8.944,
+      "fiberG": 9.06,
+      "sugarsG": 2.458,
+      "sodiumMg": 1017.033,
+      "potassiumMg": 1044.823,
+      "calciumMg": 232.589,
+      "ironMg": 4.559,
+      "magnesiumMg": 199.041,
+      "vitaminCMg": 54.521
+    },
+    "estimatedCostPerServingUsd": 4.5,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber"
+    ]
+  }
+}

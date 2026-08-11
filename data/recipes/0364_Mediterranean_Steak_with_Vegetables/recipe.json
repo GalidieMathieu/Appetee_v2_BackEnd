@@ -1,0 +1,209 @@
+{
+  "seedId": "REC-0364",
+  "candidate": {
+    "sequence": 451,
+    "seedId": "REC-CAND-0451",
+    "name": "Mediterranean Steak with Vegetables"
+  },
+  "name": "Mediterranean Steak with Vegetables",
+  "description": "Mediterranean Steak with Vegetables is a practical stovetop recipe pairing steak with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://panlasangpinoy.com/bistek-tagalog-beefsteak-recipe/",
+    "domain": "panlasangpinoy.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Filipino Bistek source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Philippines",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 30,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "steak",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 1,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1 lb thinly sliced beef",
+      "normalizedQuantity": 453.592,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "5 tbsp soy sauce",
+      "normalizedQuantity": 75,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "juice of 1 lemon",
+      "normalizedQuantity": 58,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 3,
+      "sourceUnit": "cloves",
+      "sourceDisplay": "3 garlic cloves",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 onions, sliced",
+      "normalizedQuantity": 450,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 4,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "4 tbsp olive oil",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, steak, and vegetables for mediterranean steak with vegetables.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned steak and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the mediterranean steak with vegetables, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 947.394,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1315.006,
+      "proteinG": 113.56,
+      "carbohydratesG": 53.405,
+      "fatG": 71.627,
+      "fiberG": 11.185,
+      "sugarsG": 1.948,
+      "sodiumMg": 5039.614,
+      "potassiumMg": 2957.509,
+      "calciumMg": 238.776,
+      "ironMg": 10.733,
+      "magnesiumMg": 217.596,
+      "vitaminCMg": 72.32
+    },
+    "perServing": {
+      "calories": 328.752,
+      "proteinG": 28.39,
+      "carbohydratesG": 13.351,
+      "fatG": 17.907,
+      "fiberG": 2.796,
+      "sugarsG": 0.487,
+      "sodiumMg": 1259.903,
+      "potassiumMg": 739.377,
+      "calciumMg": 59.694,
+      "ironMg": 2.683,
+      "magnesiumMg": 54.399,
+      "vitaminCMg": 18.08
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 16.52,
+    "perServingUsd": 4.13,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Meal Prep"
+  ],
+  "createdAt": "2025-07-16T08:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://miarecipes.com/mediterranean-grilled-chuck-steak-garden-vegetables/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.vbA7IjIScplNt4SFsj3wLAHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://miarecipes.com/wp-content/uploads/2025/08/asmae8888_photo_from_reddit._taken_with_an_iphone_5._RECIPE_NAM_8af37ea4-8040-4805-8999-48c53f67f782.png",
+    "searchQuery": "Mediterranean Steak with Vegetables plated recipe food",
+    "searchResultTitle": "Mediterranean Grilled Chuck Steak with Garden Grilled Vegetables",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:43:46.023Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0364",
+    "name": "Mediterranean Steak with Vegetables",
+    "description": "Mediterranean Steak with Vegetables is a practical stovetop recipe pairing steak with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 328.752,
+      "proteinG": 28.39,
+      "carbohydratesG": 13.351,
+      "fatG": 17.907,
+      "fiberG": 2.796,
+      "sugarsG": 0.487,
+      "sodiumMg": 1259.903,
+      "potassiumMg": 739.377,
+      "calciumMg": 59.694,
+      "ironMg": 2.683,
+      "magnesiumMg": 54.399,
+      "vitaminCMg": 18.08
+    },
+    "estimatedCostPerServingUsd": 4.13,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Meal Prep"
+    ]
+  }
+}

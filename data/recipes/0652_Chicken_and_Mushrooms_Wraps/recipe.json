@@ -1,0 +1,231 @@
+{
+  "seedId": "REC-0652",
+  "candidate": {
+    "sequence": 995,
+    "seedId": "REC-CAND-0995",
+    "name": "Chicken and Mushrooms Wraps"
+  },
+  "name": "Chicken and Mushrooms Wraps",
+  "description": "Chicken and Mushrooms Wraps is a practical stovetop recipe pairing chicken with tortilla and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://apnews.com/article/9837eca3d7d2f03e0a669b64caf20e27",
+    "domain": "apnews.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Chicken Spinach Yogurt Wraps source while retaining its closest matching dish form, cooking sequence, and applicable chicken or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 20,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 1.25,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1¼ lb chicken breast",
+      "normalizedQuantity": 567,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 4,
+      "sourceUnit": "tortillas",
+      "sourceDisplay": "4 whole-wheat tortillas",
+      "normalizedQuantity": 181.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup Greek yogurt",
+      "normalizedQuantity": 245,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups spinach",
+      "normalizedQuantity": 127.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 Roma tomatoes",
+      "normalizedQuantity": 186,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp minced garlic",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0074",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chicken, and tortilla for chicken and mushrooms wraps.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chicken and cook it until browned or heated through as appropriate.",
+    "Stir in the tortilla, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the chicken and mushrooms wraps, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1738.3,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1565.815,
+      "proteinG": 188.613,
+      "carbohydratesG": 141.951,
+      "fatG": 31.897,
+      "sodiumMg": 1703.024,
+      "potassiumMg": 5093.838,
+      "calciumMg": 980.581,
+      "ironMg": 12.286,
+      "magnesiumMg": 501.029,
+      "fiberG": 32.512,
+      "sugarsG": 24.075,
+      "vitaminCMg": 64.954
+    },
+    "perServing": {
+      "calories": 391.454,
+      "proteinG": 47.153,
+      "carbohydratesG": 35.488,
+      "fatG": 7.974,
+      "sodiumMg": 425.756,
+      "potassiumMg": 1273.459,
+      "calciumMg": 245.145,
+      "ironMg": 3.071,
+      "magnesiumMg": 125.257,
+      "fiberG": 8.128,
+      "sugarsG": 6.019,
+      "vitaminCMg": 16.238
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.01,
+    "perServingUsd": 2.5,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-10-03T08:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://pitmastercentral.com/chicken-and-mushrooms/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.jyd4TeDsKWEwrUsyr9mXYwHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://pitmastercentral.com/wp-content/uploads/2024/11/Chicken-Mushroom-Spinach-Wraps-533x800.jpg",
+    "searchQuery": "Chicken and Mushrooms Wraps plated recipe food",
+    "searchResultTitle": "30 Chicken And Mushrooms Recipes That WIll Make You Feel Warm And Cozy ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:59:00.695Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0652",
+    "name": "Chicken and Mushrooms Wraps",
+    "description": "Chicken and Mushrooms Wraps is a practical stovetop recipe pairing chicken with tortilla and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 391.454,
+      "proteinG": 47.153,
+      "carbohydratesG": 35.488,
+      "fatG": 7.974,
+      "sodiumMg": 425.756,
+      "potassiumMg": 1273.459,
+      "calciumMg": 245.145,
+      "ironMg": 3.071,
+      "magnesiumMg": 125.257,
+      "fiberG": 8.128,
+      "sugarsG": 6.019,
+      "vitaminCMg": 16.238
+    },
+    "estimatedCostPerServingUsd": 2.5,
+    "diets": [
+      "Flexitarian"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

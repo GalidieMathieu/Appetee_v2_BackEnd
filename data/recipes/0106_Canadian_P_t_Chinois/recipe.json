@@ -1,0 +1,222 @@
+{
+  "seedId": "REC-0106",
+  "name": "Canadian Pâté Chinois",
+  "description": "Ground beef and creamed corn layered beneath buttery mashed potatoes and baked until golden.",
+  "source": {
+    "url": "https://www.ricardocuisine.com/en/recipes/5541-pate-chinois-shepherd--s-pie-",
+    "domain": "ricardocuisine.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Canada",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 45,
+    "totalMinutes": 70
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "beef",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 4,
+      "sourceUnit": "cups",
+      "sourceDisplay": "4 cups potatoes",
+      "normalizedQuantity": 900,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0056",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g butter",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0030",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "cup",
+      "sourceDisplay": "½ cup milk",
+      "normalizedQuantity": 125,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 450,
+      "sourceUnit": "g",
+      "sourceDisplay": "450 g ground beef",
+      "normalizedQuantity": 450,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 finely chopped onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0081",
+      "sourceQuantity": 500,
+      "sourceUnit": "ml",
+      "sourceDisplay": "500 ml creamed corn",
+      "normalizedQuantity": 500,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "paprika for the top",
+      "normalizedQuantity": 2.3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "parsley for the top",
+      "normalizedQuantity": 0.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Boil the potatoes until tender, then mash them with part of the butter and the milk.",
+    "Brown the onion in the remaining butter, then add the beef and cook it through.",
+    "Press the seasoned beef into a square baking dish and spread the creamed corn over it.",
+    "Cover the corn with mashed potatoes and sprinkle the top with paprika and parsley.",
+    "Bake at 375°F until hot and lightly browned, then rest the casserole before serving."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1970.3,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2598.021,
+      "proteinG": 118.121,
+      "carbohydratesG": 274.026,
+      "fatG": 121.928,
+      "fiberG": 21.486,
+      "sugarsG": 28.554,
+      "sodiumMg": 1719.437,
+      "potassiumMg": 6283.99,
+      "calciumMg": 401.867,
+      "ironMg": 20.099,
+      "magnesiumMg": 407.956,
+      "vitaminCMg": 87.503
+    },
+    "perServing": {
+      "calories": 433.004,
+      "proteinG": 19.687,
+      "carbohydratesG": 45.671,
+      "fatG": 20.321,
+      "fiberG": 3.581,
+      "sugarsG": 4.759,
+      "sodiumMg": 286.573,
+      "potassiumMg": 1047.332,
+      "calciumMg": 66.978,
+      "ironMg": 3.35,
+      "magnesiumMg": 67.993,
+      "vitaminCMg": 14.584
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.56,
+    "perServingUsd": 1.76,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-06-13T14:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "images.ricardocuisine.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.ricardocuisine.com/en/recipes/5541-pate-chinois-shepherd--s-pie-",
+    "originalSourceUrl": "https://images.ricardocuisine.com/services/recipes/5541.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0106",
+    "name": "Canadian Pâté Chinois",
+    "description": "Ground beef and creamed corn layered beneath buttery mashed potatoes and baked until golden.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 433.004,
+      "proteinG": 19.687,
+      "carbohydratesG": 45.671,
+      "fatG": 20.321,
+      "fiberG": 3.581,
+      "sugarsG": 4.759,
+      "sodiumMg": 286.573,
+      "potassiumMg": 1047.332,
+      "calciumMg": 66.978,
+      "ironMg": 3.35,
+      "magnesiumMg": 67.993,
+      "vitaminCMg": 14.584
+    },
+    "estimatedCostPerServingUsd": 1.76,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0032",
+  "name": "Crunchy Peanut Butter",
+  "canonicalName": "Crunchy Peanut Butter",
+  "description": "Shelf-stable crunchy peanut butter.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Crunchy Peanut Butter, 40 oz",
+    "productId": "10315478",
+    "productUrl": "https://www.walmart.com/ip/10315478",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 3.74,
+    "packageQuantity": 1133.981,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 589,
+      "proteinG": 24.1,
+      "carbohydratesG": 21.6,
+      "fatG": 49.9,
+      "fiberG": 8,
+      "sugarsG": 8.41,
+      "sodiumMg": 486,
+      "potassiumMg": 745,
+      "calciumMg": 45,
+      "ironMg": 1.9,
+      "magnesiumMg": 160,
+      "vitaminCMg": 0
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.3298
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 174265,
+      "dataType": "SR Legacy",
+      "description": "Peanut butter, chunk style, with salt",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/174265/nutrients",
+      "searchQuery": "peanut butter chunk style with salt",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.freepik.com/premium-ai-image/close-up-look-silky-smooth-peanut-butter-crunchy-nuts_190501609.htm",
+    "originalSourceUrl": "https://img.freepik.com/premium-photo/close-up-look-silky-smooth-peanut-butter-crunchy-nuts_924800-484.jpg?w=2000",
+    "searchQuery": "Crunchy Peanut Butter ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0032",
+    "name": "Crunchy Peanut Butter",
+    "description": "Shelf-stable crunchy peanut butter.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 589,
+      "proteinG": 24.1,
+      "carbohydratesG": 21.6,
+      "fatG": 49.9,
+      "fiberG": 8,
+      "sugarsG": 8.41,
+      "sodiumMg": 486,
+      "potassiumMg": 745,
+      "calciumMg": 45,
+      "ironMg": 1.9,
+      "magnesiumMg": 160,
+      "vitaminCMg": 0
+    },
+    "price": {
+      "usdPerBasis": 0.3298,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0032_Crunchy_Peanut_Butter/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

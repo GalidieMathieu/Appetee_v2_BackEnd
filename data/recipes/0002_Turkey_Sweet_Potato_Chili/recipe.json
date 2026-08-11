@@ -1,0 +1,200 @@
+{
+  "seedId": "REC-0002",
+  "name": "Turkey Sweet Potato Chili",
+  "description": "A tomato-based turkey chili with sweet potato and black beans.",
+  "source": {
+    "url": "https://www.capitalareafoodbank.org/wp-content/uploads/2026/02/Turkey-Sweet-Potato-Kidney-Bean-Chili_FAR.pdf",
+    "domain": "capitalareafoodbank.org",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "totalMinutes": 50
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "sweet potato",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 1,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1 lb ground turkey",
+      "normalizedQuantity": 453.592,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0007",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb sweet potatoes",
+      "normalizedQuantity": 680.389,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can black beans",
+      "normalizedQuantity": 425.243,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans diced tomatoes",
+      "normalizedQuantity": 822.136,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 medium onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp chili powder",
+      "normalizedQuantity": 8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Dice the sweet potato and onion into small pieces.",
+    "Brown the turkey in a large pot, breaking it into small crumbles.",
+    "Add onion and chili powder and cook until fragrant.",
+    "Stir in sweet potato, beans, and tomatoes; cover and simmer until the potato is tender."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 2342.923,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2070.547,
+      "proteinG": 126.022,
+      "carbohydratesG": 246.091,
+      "fatG": 69.981,
+      "fiberG": 5.634,
+      "sugarsG": 0.575,
+      "sodiumMg": 2430.739,
+      "potassiumMg": 7355.64,
+      "calciumMg": 781.083,
+      "ironMg": 22.372,
+      "magnesiumMg": 460.33,
+      "vitaminCMg": 113.054
+    },
+    "perServing": {
+      "calories": 345.091,
+      "proteinG": 21.004,
+      "carbohydratesG": 41.015,
+      "fatG": 11.663,
+      "fiberG": 0.939,
+      "sugarsG": 0.096,
+      "sodiumMg": 405.123,
+      "potassiumMg": 1225.94,
+      "calciumMg": 130.18,
+      "ironMg": 3.729,
+      "magnesiumMg": 76.722,
+      "vitaminCMg": 18.842
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.8,
+    "perServingUsd": 1.13,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-01-05T06:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://cookingmadehealthy.com/sweet-potato-turkey-chili/",
+    "originalSourceUrl": "https://cookingmadehealthy.com/wp-content/uploads/2021/08/Turkey-Sweet-Potato-Chili-8.jpg",
+    "searchQuery": "Turkey Sweet Potato Chili plated recipe food photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0002",
+    "name": "Turkey Sweet Potato Chili",
+    "description": "A tomato-based turkey chili with sweet potato and black beans.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": {
+      "main": "recipes/0002_Turkey_Sweet_Potato_Chili/assets/main.avif",
+      "card": "recipes/0002_Turkey_Sweet_Potato_Chili/assets/card.avif"
+    },
+    "totalTimeMinutes": 50,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 345.091,
+      "proteinG": 21.004,
+      "carbohydratesG": 41.015,
+      "fatG": 11.663,
+      "fiberG": 0.939,
+      "sugarsG": 0.096,
+      "sodiumMg": 405.123,
+      "potassiumMg": 1225.94,
+      "calciumMg": 130.18,
+      "ironMg": 3.729,
+      "magnesiumMg": 76.722,
+      "vitaminCMg": 18.842
+    },
+    "estimatedCostPerServingUsd": 1.13,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

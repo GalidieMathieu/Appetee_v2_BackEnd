@@ -1,0 +1,239 @@
+{
+  "seedId": "REC-0453",
+  "candidate": {
+    "sequence": 614,
+    "seedId": "REC-CAND-0614",
+    "name": "Roasted Steak Soup"
+  },
+  "name": "Roasted Steak Soup",
+  "description": "Roasted Steak Soup is a practical oven recipe pairing steak with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.sainsburysmagazine.co.uk/recipes/mains/oregano-roast-beef-with-crispy-kale",
+    "domain": "sainsburysmagazine.co.uk",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Roasted Lean Beef with Kale source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United Kingdom",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 60,
+    "totalMinutes": 80
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "steak",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0097",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for roasted steak soup.",
+    "Season the steak and vegetables evenly while the oven reaches temperature.",
+    "Arrange the steak, vegetables, and vegetables so heat can circulate around each component.",
+    "Bake until the steak is safely cooked and the vegetables or grain base are tender.",
+    "Rest the roasted steak soup briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1459,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1327.762,
+      "proteinG": 150.368,
+      "carbohydratesG": 63.341,
+      "fatG": 54.234,
+      "fiberG": 24.663,
+      "sugarsG": 12.801,
+      "sodiumMg": 535.376,
+      "potassiumMg": 4693.423,
+      "calciumMg": 1057.623,
+      "ironMg": 17.758,
+      "magnesiumMg": 321.55,
+      "vitaminCMg": 387.38
+    },
+    "perServing": {
+      "calories": 331.94,
+      "proteinG": 37.592,
+      "carbohydratesG": 15.835,
+      "fatG": 13.559,
+      "fiberG": 6.166,
+      "sugarsG": 3.2,
+      "sodiumMg": 133.844,
+      "potassiumMg": 1173.356,
+      "calciumMg": 264.406,
+      "ironMg": 4.439,
+      "magnesiumMg": 80.388,
+      "vitaminCMg": 96.845
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 23.4,
+    "perServingUsd": 5.85,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Low Carb",
+    "High Fiber",
+    "Meal Prep",
+    "Freezer Friendly"
+  ],
+  "createdAt": "2025-11-30T13:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/421790321363976716/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.w4VETC8QjYjWVOS94FjMPQHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/d2/42/d3/d242d3c3b281c4cf3029c41f3683d11d.jpg",
+    "searchQuery": "Roasted Steak Soup plated recipe food",
+    "searchResultTitle": "Crock Pot Steak and Potato Soup - The Roasted Root | Steak and potato ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:48:42.552Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0453",
+    "name": "Roasted Steak Soup",
+    "description": "Roasted Steak Soup is a practical oven recipe pairing steak with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 80,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 331.94,
+      "proteinG": 37.592,
+      "carbohydratesG": 15.835,
+      "fatG": 13.559,
+      "fiberG": 6.166,
+      "sugarsG": 3.2,
+      "sodiumMg": 133.844,
+      "potassiumMg": 1173.356,
+      "calciumMg": 264.406,
+      "ironMg": 4.439,
+      "magnesiumMg": 80.388,
+      "vitaminCMg": 96.845
+    },
+    "estimatedCostPerServingUsd": 5.85,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Low Carb",
+      "High Fiber",
+      "Meal Prep",
+      "Freezer Friendly"
+    ]
+  }
+}

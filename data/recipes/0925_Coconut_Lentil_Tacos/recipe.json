@@ -1,0 +1,231 @@
+{
+  "seedId": "REC-0925",
+  "candidate": {
+    "sequence": 1517,
+    "seedId": "REC-CAND-1517",
+    "name": "Coconut Lentil Tacos"
+  },
+  "name": "Coconut Lentil Tacos",
+  "description": "Coconut Lentil Tacos is a practical stovetop recipe pairing lentils with tortilla and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.pcrm.org/good-nutrition/plant-based-diets/recipes/peruvian-lentil-stew",
+    "domain": "pcrm.org",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Peruvian Lentil Tacos source while retaining its closest matching dish form, cooking sequence, and applicable lentils or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Peru",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 240,
+      "sourceUnit": "ml",
+      "sourceDisplay": "240 ml",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lentils, and tortilla for coconut lentil tacos.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lentils and cook it until browned or heated through as appropriate.",
+    "Stir in the tortilla, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the coconut lentil tacos, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1622,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2486.81,
+      "proteinG": 101.556,
+      "carbohydratesG": 348.593,
+      "fatG": 85.69,
+      "fiberG": 63.559,
+      "sugarsG": 14.086,
+      "sodiumMg": 2464.98,
+      "potassiumMg": 4642.85,
+      "calciumMg": 1097.41,
+      "ironMg": 35.887,
+      "magnesiumMg": 564.052,
+      "vitaminCMg": 81.84
+    },
+    "perServing": {
+      "calories": 621.702,
+      "proteinG": 25.389,
+      "carbohydratesG": 87.148,
+      "fatG": 21.422,
+      "fiberG": 15.89,
+      "sugarsG": 3.522,
+      "sodiumMg": 616.245,
+      "potassiumMg": 1160.713,
+      "calciumMg": 274.353,
+      "ironMg": 8.972,
+      "magnesiumMg": 141.013,
+      "vitaminCMg": 20.46
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.66,
+    "perServingUsd": 1.67,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-11-28T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://saraflavors.com/lentil-tacos-recipe/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP._QUgfGPc2C627R9X26cCvAHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://saraflavors.com/wp-content/uploads/2025/12/AQNZ_I6TUWJGPvOs_xBdakjgCHmg-wzQfESPJAaqOz0Fk_SlRcZUXTJ95ioaR7-9KkmtIFDtJJ-cnUVFblg9l3DB5ViiHC7BX_LaFWAOm91IqO0u2DvxSbVPM3TC779nWaL5CCz2wzYM5ovwyYZR1oNTog-1766696579521.jpeg",
+    "searchQuery": "Coconut Lentil Tacos plated recipe food",
+    "searchResultTitle": "Lentil Tacos: Hearty Vegan Taco Recipe for a Flavorful Meal",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:12:58.959Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0925",
+    "name": "Coconut Lentil Tacos",
+    "description": "Coconut Lentil Tacos is a practical stovetop recipe pairing lentils with tortilla and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 621.702,
+      "proteinG": 25.389,
+      "carbohydratesG": 87.148,
+      "fatG": 21.422,
+      "fiberG": 15.89,
+      "sugarsG": 3.522,
+      "sodiumMg": 616.245,
+      "potassiumMg": 1160.713,
+      "calciumMg": 274.353,
+      "ironMg": 8.972,
+      "magnesiumMg": 141.013,
+      "vitaminCMg": 20.46
+    },
+    "estimatedCostPerServingUsd": 1.67,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

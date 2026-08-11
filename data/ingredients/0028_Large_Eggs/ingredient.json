@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0028",
+  "name": "Large Eggs",
+  "canonicalName": "Large Eggs",
+  "description": "Raw large whole chicken eggs.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Large White Eggs, 18 Count",
+    "productId": "100966386",
+    "productUrl": "https://www.walmart.com/ip/100966386",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 2.17,
+    "packageQuantity": 900,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 143,
+      "proteinG": 12.6,
+      "carbohydratesG": 0.72,
+      "fatG": 9.51,
+      "fiberG": 0,
+      "sugarsG": 0.37,
+      "sodiumMg": 142,
+      "potassiumMg": 138,
+      "calciumMg": 56,
+      "ironMg": 1.75,
+      "magnesiumMg": 12,
+      "vitaminCMg": 0
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.2411
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 171287,
+      "dataType": "SR Legacy",
+      "description": "Egg, whole, raw, fresh",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171287/nutrients",
+      "searchQuery": "egg whole raw fresh",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": "USDA standard edible mass for one large egg is 50 g; package basis is 18 eggs or 900 g edible mass."
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.freepik.com/premium-photo/closeup-carton-highlighting-large-white-eggs-essential-ingredients-nutritious-breakfast_67284032.htm",
+    "originalSourceUrl": "https://img.freepik.com/premium-photo/closeup-carton-highlighting-large-white-eggs-essential-ingredients-nutritious-breakfast_695181-3730.jpg",
+    "searchQuery": "Large Eggs ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0028",
+    "name": "Large Eggs",
+    "description": "Raw large whole chicken eggs.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 143,
+      "proteinG": 12.6,
+      "carbohydratesG": 0.72,
+      "fatG": 9.51,
+      "fiberG": 0,
+      "sugarsG": 0.37,
+      "sodiumMg": 142,
+      "potassiumMg": 138,
+      "calciumMg": 56,
+      "ironMg": 1.75,
+      "magnesiumMg": 12,
+      "vitaminCMg": 0
+    },
+    "price": {
+      "usdPerBasis": 0.2411,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0028_Large_Eggs/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "seedId": "REC-0018",
+  "name": "Turkey Meatball Tomato Penne",
+  "description": "Baked turkey meatballs served with penne, tomato, spinach, and garlic.",
+  "source": {
+    "url": "https://www.budgetbytes.com/turkey-meatballs/",
+    "domain": "budgetbytes.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Italy",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "totalMinutes": 50
+  },
+  "servings": 6,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "pasta",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb ground turkey",
+      "normalizedQuantity": 680.389,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 1,
+      "sourceUnit": "large",
+      "sourceDisplay": "1 large egg",
+      "normalizedQuantity": 50,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0039",
+      "sourceQuantity": 1,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1 lb penne",
+      "normalizedQuantity": 453.592,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 2.5
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans diced tomatoes",
+      "normalizedQuantity": 822.136,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 8,
+      "sourceUnit": "oz",
+      "sourceDisplay": "8 oz spinach",
+      "normalizedQuantity": 226.796,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Heat the oven to 400°F and line a baking sheet.",
+    "Mix turkey with egg and half the garlic; shape into evenly sized meatballs.",
+    "Bake until browned and the centers reach 165°F.",
+    "Boil penne while tomatoes, spinach, and remaining garlic simmer into a sauce.",
+    "Toss pasta with sauce and top with meatballs."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 2729.024,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3215.132,
+      "proteinG": 196.345,
+      "carbohydratesG": 381.001,
+      "fatG": 102.131,
+      "fiberG": 21.407,
+      "sugarsG": 13.92,
+      "sodiumMg": 1663.675,
+      "potassiumMg": 4927.589,
+      "calciumMg": 914.14,
+      "ironMg": 34.052,
+      "magnesiumMg": 630.094,
+      "vitaminCMg": 17.154
+    },
+    "perServing": {
+      "calories": 535.855,
+      "proteinG": 32.724,
+      "carbohydratesG": 63.5,
+      "fatG": 17.022,
+      "fiberG": 3.568,
+      "sugarsG": 2.32,
+      "sodiumMg": 277.279,
+      "potassiumMg": 821.265,
+      "calciumMg": 152.357,
+      "ironMg": 5.675,
+      "magnesiumMg": 105.016,
+      "vitaminCMg": 2.859
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.11,
+    "perServingUsd": 1.18,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-01-29T22:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "provenance": "Public source-page image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.budgetbytes.com/turkey-meatballs/",
+    "originalSourceUrl": "https://www.budgetbytes.com/wp-content/uploads/2023/09/Turkey-Meatballs-Overhead.jpg",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0018",
+    "name": "Turkey Meatball Tomato Penne",
+    "description": "Baked turkey meatballs served with penne, tomato, spinach, and garlic.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": {
+      "main": "recipes/0018_Turkey_Meatball_Tomato_Penne/assets/main.avif",
+      "card": "recipes/0018_Turkey_Meatball_Tomato_Penne/assets/card.avif"
+    },
+    "totalTimeMinutes": 50,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 535.855,
+      "proteinG": 32.724,
+      "carbohydratesG": 63.5,
+      "fatG": 17.022,
+      "fiberG": 3.568,
+      "sugarsG": 2.32,
+      "sodiumMg": 277.279,
+      "potassiumMg": 821.265,
+      "calciumMg": 152.357,
+      "ironMg": 5.675,
+      "magnesiumMg": 105.016,
+      "vitaminCMg": 2.859
+    },
+    "estimatedCostPerServingUsd": 1.18,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

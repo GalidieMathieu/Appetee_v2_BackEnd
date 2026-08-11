@@ -1,0 +1,205 @@
+{
+  "seedId": "REC-0036",
+  "name": "Berry Banana Baked Oatmeal",
+  "description": "Make-ahead baked oatmeal with bananas, berries, milk, and eggs.",
+  "source": {
+    "url": "https://www.eatingwell.com/recipe/274166/baked-banana-nut-oatmeal-cups/",
+    "domain": "eatingwell.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "totalMinutes": 50
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "oats",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 3,
+      "sourceUnit": "cups",
+      "sourceDisplay": "3 cups quick oats",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0034",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups berries",
+      "normalizedQuantity": 280,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0033",
+      "sourceQuantity": 2,
+      "sourceUnit": "medium",
+      "sourceDisplay": "2 bananas",
+      "normalizedQuantity": 236,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 4,
+      "sourceUnit": "large",
+      "sourceDisplay": "4 eggs",
+      "normalizedQuantity": 200,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0030",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups milk",
+      "normalizedQuantity": 480,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0047",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp cinnamon",
+      "normalizedQuantity": 2.6,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Heat the oven to 350°F and grease a baking dish.",
+    "Mash the bananas, then whisk them with the eggs and milk.",
+    "Fold in the oats, berries, and cinnamon and spread the mixture evenly.",
+    "Bake until the center is set, then cool before cutting into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1367,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1757.262,
+      "proteinG": 77.075,
+      "carbohydratesG": 269.119,
+      "fatG": 45.574,
+      "fiberG": 37.637,
+      "sugarsG": 69.75,
+      "sodiumMg": 538.988,
+      "potassiumMg": 3107.446,
+      "calciumMg": 912.68,
+      "ironMg": 16.731,
+      "magnesiumMg": 505.664,
+      "vitaminCMg": 136.98
+    },
+    "perServing": {
+      "calories": 292.877,
+      "proteinG": 12.846,
+      "carbohydratesG": 44.853,
+      "fatG": 7.596,
+      "fiberG": 6.273,
+      "sugarsG": 11.625,
+      "sodiumMg": 89.831,
+      "potassiumMg": 517.908,
+      "calciumMg": 152.113,
+      "ironMg": 2.789,
+      "magnesiumMg": 84.277,
+      "vitaminCMg": 22.83
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.92,
+    "perServingUsd": 0.65,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-02-26T16:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "i.pinimg.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/this-baked-banana-blueberry-oatmeal-is-a-crazyeasy-healthy-breakfast-its-easy-to-whip-up-in-just-about-1-in-2025--27162403996595687/",
+    "originalSourceUrl": "https://i.pinimg.com/originals/a3/34/49/a334491835d5c247f4f96563614414f9.jpg",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/a3/34/49/a334491835d5c247f4f96563614414f9.jpg",
+    "searchQuery": "Berry Banana Baked Oatmeal plated recipe food",
+    "searchResultTitle": "This Baked Banana Blueberry Oatmeal is a crazy-easy healthy breakfast ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:07:26.193Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0036",
+    "name": "Berry Banana Baked Oatmeal",
+    "description": "Make-ahead baked oatmeal with bananas, berries, milk, and eggs.",
+    "mealType": "Breakfast",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 292.877,
+      "proteinG": 12.846,
+      "carbohydratesG": 44.853,
+      "fatG": 7.596,
+      "fiberG": 6.273,
+      "sugarsG": 11.625,
+      "sodiumMg": 89.831,
+      "potassiumMg": 517.908,
+      "calciumMg": 152.113,
+      "ironMg": 2.789,
+      "magnesiumMg": 84.277,
+      "vitaminCMg": 22.83
+    },
+    "estimatedCostPerServingUsd": 0.65,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "High Fiber",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

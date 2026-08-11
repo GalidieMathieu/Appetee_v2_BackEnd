@@ -1,0 +1,203 @@
+{
+  "seedId": "REC-0081",
+  "name": "Acadian Rappie Pie",
+  "description": "A large Acadian chicken and grated-potato casserole enriched with browned onions and broth.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/234025/rappie-pie/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source quantities, layered construction, and cooking sequence are retained; unsalted butter replaces margarine."
+  },
+  "countryOfOrigin": "Canada",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 45,
+    "cookMinutes": 120,
+    "totalMinutes": 165
+  },
+  "servings": 12,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0056",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp unsalted butter",
+      "normalizedQuantity": 28.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 2,
+      "sourceUnit": "medium",
+      "sourceDisplay": "2 onions, chopped",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0055",
+      "sourceQuantity": 4,
+      "sourceUnit": "qt",
+      "sourceDisplay": "4 qt chicken broth",
+      "normalizedQuantity": 3785.4,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "kg",
+      "sourceDisplay": "1.5 kg chicken breast",
+      "normalizedQuantity": 1500,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 4,
+      "sourceUnit": "kg",
+      "sourceDisplay": "4 kg potatoes",
+      "normalizedQuantity": 4000,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Heat the oven to 400°F and grease a deep roasting pan.",
+    "Brown the onions slowly in butter until they are very tender and dark.",
+    "Poach the chicken in broth to 165°F, then reserve both chicken and broth.",
+    "Grate and drain the potatoes, then loosen them with enough hot broth to resemble oatmeal.",
+    "Layer potatoes, chicken, and onions in the pan, then cover with the remaining potatoes.",
+    "Bake until deeply golden and serve with reheated reserved broth."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 8808.8,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 5332.606,
+      "proteinG": 477.313,
+      "carbohydratesG": 764.232,
+      "fatG": 55.332,
+      "fiberG": 57.7,
+      "sugarsG": 33.145,
+      "sodiumMg": 9937.398,
+      "potassiumMg": 25400.406,
+      "calciumMg": 933.748,
+      "ironMg": 50.398,
+      "magnesiumMg": 1378.422,
+      "vitaminCMg": 267.742
+    },
+    "perServing": {
+      "calories": 444.384,
+      "proteinG": 39.776,
+      "carbohydratesG": 63.686,
+      "fatG": 4.611,
+      "fiberG": 4.808,
+      "sugarsG": 2.762,
+      "sodiumMg": 828.116,
+      "potassiumMg": 2116.7,
+      "calciumMg": 77.812,
+      "ironMg": 4.2,
+      "magnesiumMg": 114.868,
+      "vitaminCMg": 22.312
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 22.51,
+    "perServingUsd": 1.88,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-05-06T01:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "i.ytimg.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.youtube.com/watch?v=jNVvifF1iZQ",
+    "originalSourceUrl": "https://i.ytimg.com/vi/jNVvifF1iZQ/maxresdefault.jpg",
+    "discoveredOriginalUrl": "https://i.ytimg.com/vi/jNVvifF1iZQ/maxresdefault.jpg",
+    "searchQuery": "Acadian Rappie Pie plated recipe food",
+    "searchResultTitle": "Acadian Rappie Pie - YouTube",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:08:23.368Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0081",
+    "name": "Acadian Rappie Pie",
+    "description": "A large Acadian chicken and grated-potato casserole enriched with browned onions and broth.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 165,
+    "servings": 12,
+    "nutritionPerServing": {
+      "calories": 444.384,
+      "proteinG": 39.776,
+      "carbohydratesG": 63.686,
+      "fatG": 4.611,
+      "fiberG": 4.808,
+      "sugarsG": 2.762,
+      "sodiumMg": 828.116,
+      "potassiumMg": 2116.7,
+      "calciumMg": 77.812,
+      "ironMg": 4.2,
+      "magnesiumMg": 114.868,
+      "vitaminCMg": 22.312
+    },
+    "estimatedCostPerServingUsd": 1.88,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

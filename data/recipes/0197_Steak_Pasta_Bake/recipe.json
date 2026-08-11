@@ -1,0 +1,231 @@
+{
+  "seedId": "REC-0197",
+  "candidate": {
+    "sequence": 124,
+    "seedId": "REC-CAND-0124",
+    "name": "Steak Pasta Bake"
+  },
+  "name": "Steak Pasta Bake",
+  "description": "Steak Pasta Bake is a practical oven recipe pairing steak with pasta and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/chickpea-pasta-with-moroccan-beef-ragu-7530812",
+    "domain": "foodnetwork.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Moroccan Lean Beef Pasta source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Morocco",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 60,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "steak",
+  "carbohydrateBase": "pasta",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0039",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for steak pasta bake.",
+    "Season the steak and vegetables evenly while the oven reaches temperature.",
+    "Arrange the steak, pasta, and vegetables so heat can circulate around each component.",
+    "Bake until the steak is safely cooked and the vegetables or grain base are tender.",
+    "Rest the steak pasta bake briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1482,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2135.382,
+      "proteinG": 173.408,
+      "carbohydratesG": 228.578,
+      "fatG": 55.992,
+      "fiberG": 15.511,
+      "sugarsG": 7.06,
+      "sodiumMg": 914.686,
+      "potassiumMg": 4315.643,
+      "calciumMg": 432.923,
+      "ironMg": 24.83,
+      "magnesiumMg": 360.732,
+      "vitaminCMg": 29.624
+    },
+    "perServing": {
+      "calories": 533.846,
+      "proteinG": 43.352,
+      "carbohydratesG": 57.145,
+      "fatG": 13.998,
+      "fiberG": 3.878,
+      "sugarsG": 1.765,
+      "sodiumMg": 228.672,
+      "potassiumMg": 1078.911,
+      "calciumMg": 108.231,
+      "ironMg": 6.207,
+      "magnesiumMg": 90.183,
+      "vitaminCMg": 7.406
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 21.49,
+    "perServingUsd": 5.37,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Meal Prep",
+    "Freezer Friendly"
+  ],
+  "createdAt": "2024-10-31T21:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://cookcraze.com/creamy-honey-buffalo-steak-pasta-bake/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.kew4XK08VarueZ0A25RgWwHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://cookcraze.com/wp-content/uploads/2025/04/Creamy-Honey-Buffalo-Steak-Pasta-Bake-768x1152.jpg",
+    "searchQuery": "Steak Pasta Bake plated recipe food",
+    "searchResultTitle": "Creamy Honey Buffalo Steak Pasta Bake - Cook Craze",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:34:10.388Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0197",
+    "name": "Steak Pasta Bake",
+    "description": "Steak Pasta Bake is a practical oven recipe pairing steak with pasta and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 533.846,
+      "proteinG": 43.352,
+      "carbohydratesG": 57.145,
+      "fatG": 13.998,
+      "fiberG": 3.878,
+      "sugarsG": 1.765,
+      "sodiumMg": 228.672,
+      "potassiumMg": 1078.911,
+      "calciumMg": 108.231,
+      "ironMg": 6.207,
+      "magnesiumMg": 90.183,
+      "vitaminCMg": 7.406
+    },
+    "estimatedCostPerServingUsd": 5.37,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Meal Prep",
+      "Freezer Friendly"
+    ]
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "seedId": "REC-0020",
+  "name": "Moroccan Harira-Style Lentil and Chickpea Soup",
+  "description": "A simplified harira-style tomato soup with lentils, chickpeas, cumin, cinnamon, and spinach.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/moroccan-haira",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Morocco",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 50,
+    "totalMinutes": 70
+  },
+  "servings": 6,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup dry lentils",
+      "normalizedQuantity": 192,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 2.5
+    },
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can chickpeas",
+      "normalizedQuantity": 439.417,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans diced tomatoes",
+      "normalizedQuantity": 822.136,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "large",
+      "sourceDisplay": "1 large onion",
+      "normalizedQuantity": 200,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 8,
+      "sourceUnit": "oz",
+      "sourceDisplay": "8 oz spinach",
+      "normalizedQuantity": 226.796,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 2,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "2 tsp cumin",
+      "normalizedQuantity": 4.2,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0047",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "½ tsp cinnamon",
+      "normalizedQuantity": 1.3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Soften diced onion in a large soup pot with a splash of water.",
+    "Stir in cumin and cinnamon until fragrant.",
+    "Add lentils, chickpeas, tomatoes, and enough water for a loose soup.",
+    "Simmer until lentils are tender, then stir in spinach and cook until hot."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 2131.169,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1595.346,
+      "proteinG": 95.809,
+      "carbohydratesG": 277.564,
+      "fatG": 20.663,
+      "fiberG": 60.175,
+      "sugarsG": 23.115,
+      "sodiumMg": 2297.171,
+      "potassiumMg": 4710.832,
+      "calciumMg": 886.247,
+      "ironMg": 29.631,
+      "magnesiumMg": 489.307,
+      "vitaminCMg": 38.326
+    },
+    "perServing": {
+      "calories": 265.891,
+      "proteinG": 15.968,
+      "carbohydratesG": 46.261,
+      "fatG": 3.444,
+      "fiberG": 10.029,
+      "sugarsG": 3.852,
+      "sodiumMg": 382.862,
+      "potassiumMg": 785.139,
+      "calciumMg": 147.708,
+      "ironMg": 4.939,
+      "magnesiumMg": 81.551,
+      "vitaminCMg": 6.388
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.02,
+    "perServingUsd": 0.84,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-02-02T00:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "provenance": "Public source-page image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.bbcgoodfood.com/recipes/moroccan-haira",
+    "originalSourceUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/moroccan-harira-e029bd0.jpg?resize=440%2C230",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0020",
+    "name": "Moroccan Harira-Style Lentil and Chickpea Soup",
+    "description": "A simplified harira-style tomato soup with lentils, chickpeas, cumin, cinnamon, and spinach.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": {
+      "main": "recipes/0020_Moroccan_Harira_Style_Lentil_and_Chickpea_Soup/assets/main.avif",
+      "card": "recipes/0020_Moroccan_Harira_Style_Lentil_and_Chickpea_Soup/assets/card.avif"
+    },
+    "totalTimeMinutes": 70,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 265.891,
+      "proteinG": 15.968,
+      "carbohydratesG": 46.261,
+      "fatG": 3.444,
+      "fiberG": 10.029,
+      "sugarsG": 3.852,
+      "sodiumMg": 382.862,
+      "potassiumMg": 785.139,
+      "calciumMg": 147.708,
+      "ironMg": 4.939,
+      "magnesiumMg": 81.551,
+      "vitaminCMg": 6.388
+    },
+    "estimatedCostPerServingUsd": 0.84,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

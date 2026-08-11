@@ -1,0 +1,247 @@
+{
+  "seedId": "REC-1095",
+  "candidate": {
+    "sequence": 1829,
+    "seedId": "REC-CAND-1829",
+    "name": "Italian Lean Beef with Potatoes"
+  },
+  "name": "Italian Lean Beef with Potatoes",
+  "description": "Italian Lean Beef with Potatoes is a practical stovetop recipe pairing lean beef with potatoes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.ricardocuisine.com/en/recipes/5541-pate-chinois-shepherd--s-pie-",
+    "domain": "ricardocuisine.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Canadian Pâté Chinois source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Canada",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lean beef",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 4,
+      "sourceUnit": "cups",
+      "sourceDisplay": "4 cups potatoes",
+      "normalizedQuantity": 900,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0056",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g butter",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0030",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "cup",
+      "sourceDisplay": "½ cup milk",
+      "normalizedQuantity": 125,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 450,
+      "sourceUnit": "g",
+      "sourceDisplay": "450 g ground beef",
+      "normalizedQuantity": 450,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 finely chopped onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0081",
+      "sourceQuantity": 500,
+      "sourceUnit": "ml",
+      "sourceDisplay": "500 ml creamed corn",
+      "normalizedQuantity": 500,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "paprika for the top",
+      "normalizedQuantity": 2.3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "parsley for the top",
+      "normalizedQuantity": 0.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lean beef, and potatoes for italian lean beef with potatoes.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lean beef and cook it until browned or heated through as appropriate.",
+    "Stir in the potatoes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the italian lean beef with potatoes, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2013.3,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2626.811,
+      "proteinG": 119.957,
+      "carbohydratesG": 279.733,
+      "fatG": 122.182,
+      "fiberG": 22.249,
+      "sugarsG": 28.788,
+      "sodiumMg": 1723.106,
+      "potassiumMg": 6426.74,
+      "calciumMg": 478.577,
+      "ironMg": 21.241,
+      "magnesiumMg": 429.626,
+      "vitaminCMg": 97.223
+    },
+    "perServing": {
+      "calories": 656.703,
+      "proteinG": 29.989,
+      "carbohydratesG": 69.933,
+      "fatG": 30.546,
+      "fiberG": 5.562,
+      "sugarsG": 7.197,
+      "sodiumMg": 430.776,
+      "potassiumMg": 1606.685,
+      "calciumMg": 119.644,
+      "ironMg": 5.31,
+      "magnesiumMg": 107.406,
+      "vitaminCMg": 24.306
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 14.17,
+    "perServingUsd": 3.54,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-08-16T07:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.aspicyperspective.com/italian-ground-beef-and-potatoes/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.CxAoO1YBV9jccHvOFYymqQHaK6&pid=15.1",
+    "discoveredOriginalUrl": "https://i0.wp.com/www.aspicyperspective.com/wp-content/uploads/2023/01/Italian-Ground-Beef-and-Potatoes-Recipe-7-scaled.jpg?w=1738&ssl=1",
+    "searchQuery": "Italian Lean Beef with Potatoes plated recipe food",
+    "searchResultTitle": "Italian Ground Beef and Potatoes - A Spicy Perspective",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:21:46.816Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1095",
+    "name": "Italian Lean Beef with Potatoes",
+    "description": "Italian Lean Beef with Potatoes is a practical stovetop recipe pairing lean beef with potatoes and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 656.703,
+      "proteinG": 29.989,
+      "carbohydratesG": 69.933,
+      "fatG": 30.546,
+      "fiberG": 5.562,
+      "sugarsG": 7.197,
+      "sodiumMg": 430.776,
+      "potassiumMg": 1606.685,
+      "calciumMg": 119.644,
+      "ironMg": 5.31,
+      "magnesiumMg": 107.406,
+      "vitaminCMg": 24.306
+    },
+    "estimatedCostPerServingUsd": 3.54,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "Budget Friendly"
+    ]
+  }
+}

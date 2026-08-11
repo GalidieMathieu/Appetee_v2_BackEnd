@@ -1,0 +1,215 @@
+{
+  "seedId": "REC-0150",
+  "candidate": {
+    "sequence": 41,
+    "seedId": "REC-CAND-0041",
+    "name": "Spicy Shrimp Chili"
+  },
+  "name": "Spicy Shrimp Chili",
+  "description": "Spicy Shrimp Chili combines shrimp with beans and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+  "source": {
+    "url": "https://www.tastemade.com/recipes/spicy-shrimp-chili",
+    "domain": "tastemade.com",
+    "accessedAt": "2026-08-10T18:00:00-06:00",
+    "adaptation": "The source's defining shrimp, beans, seasoning profile, and core cooking technique are retained; quantities and supporting vegetables are normalized to the canonical Appetee market ingredients."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 30,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "shrimp",
+  "carbohydrateBase": "beans",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0038",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0078",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and prepare every ingredient for spicy shrimp chili before heating the cooking vessel.",
+    "Heat the cooking vessel and soften the aromatics before adding the shrimp.",
+    "Cook the beans until tender while the seasoned shrimp develops its intended color and texture.",
+    "Combine the cooked components with the remaining vegetables and sauce, then adjust the consistency and seasoning.",
+    "Portion the finished spicy shrimp chili evenly and serve it warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1647,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1008.24,
+      "proteinG": 112.187,
+      "carbohydratesG": 117.79,
+      "fatG": 10.632,
+      "fiberG": 30.674,
+      "sugarsG": 8.559,
+      "sodiumMg": 4578.73,
+      "potassiumMg": 3372.77,
+      "calciumMg": 668.36,
+      "ironMg": 11.037,
+      "magnesiumMg": 343.432,
+      "vitaminCMg": 32.82
+    },
+    "perServing": {
+      "calories": 252.06,
+      "proteinG": 28.047,
+      "carbohydratesG": 29.448,
+      "fatG": 2.658,
+      "fiberG": 7.668,
+      "sugarsG": 2.14,
+      "sodiumMg": 1144.682,
+      "potassiumMg": 843.192,
+      "calciumMg": 167.09,
+      "ironMg": 2.759,
+      "magnesiumMg": 85.858,
+      "vitaminCMg": 8.205
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 14.72,
+    "perServingUsd": 3.68,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-08-20T10:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "seafooddishrecipes.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://seafooddishrecipes.com/chili-garlic-shrimp/",
+    "originalSourceUrl": "https://seafooddishrecipes.com/wp-content/uploads/2025/08/chili-garlic-shrimp.webp",
+    "discoveredOriginalUrl": "https://seafooddishrecipes.com/wp-content/uploads/2025/08/chili-garlic-shrimp.webp",
+    "searchQuery": "Spicy Shrimp Chili plated recipe food",
+    "searchResultTitle": "Chili Garlic Shrimp: Irresistibly Spicy Seafood Delight - Seafood Dish ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:10:01.396Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0150",
+    "name": "Spicy Shrimp Chili",
+    "description": "Spicy Shrimp Chili combines shrimp with beans and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 252.06,
+      "proteinG": 28.047,
+      "carbohydratesG": 29.448,
+      "fatG": 2.658,
+      "fiberG": 7.668,
+      "sugarsG": 2.14,
+      "sodiumMg": 1144.682,
+      "potassiumMg": 843.192,
+      "calciumMg": 167.09,
+      "ironMg": 2.759,
+      "magnesiumMg": 85.858,
+      "vitaminCMg": 8.205
+    },
+    "estimatedCostPerServingUsd": 3.68,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "seedId": "REC-0121",
+  "candidate": {
+    "sequence": 9,
+    "seedId": "REC-CAND-0009",
+    "name": "Uzbek Chicken Pilaf"
+  },
+  "name": "Uzbek Chicken Pilaf",
+  "description": "Uzbek Chicken Pilaf combines chicken with rice and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+  "source": {
+    "url": "https://apnews.com/article/8c362a61f95b906674e4f8c66faf3d97",
+    "domain": "apnews.com",
+    "accessedAt": "2026-08-10T18:00:00-06:00",
+    "adaptation": "The source's defining chicken, rice, seasoning profile, and core cooking technique are retained; quantities and supporting vegetables are normalized to the canonical Appetee market ingredients."
+  },
+  "countryOfOrigin": "Uzbekistan",
+  "discovery": true,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "totalMinutes": 35
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0036",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0095",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and prepare every ingredient for uzbek chicken pilaf before heating the cooking vessel.",
+    "Heat the cooking vessel and soften the aromatics before adding the chicken.",
+    "Cook the rice until tender while the seasoned chicken develops its intended color and texture.",
+    "Combine the cooked components with the remaining vegetables and sauce, then adjust the consistency and seasoning.",
+    "Portion the finished uzbek chicken pilaf evenly and serve it warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1609,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2692.95,
+      "proteinG": 148.342,
+      "carbohydratesG": 491.923,
+      "fatG": 27.199,
+      "fiberG": 28.693,
+      "sugarsG": 210.06,
+      "sodiumMg": 1234.379,
+      "potassiumMg": 5471.27,
+      "calciumMg": 453.094,
+      "ironMg": 13.957,
+      "magnesiumMg": 378.99,
+      "vitaminCMg": 54.188
+    },
+    "perServing": {
+      "calories": 673.237,
+      "proteinG": 37.086,
+      "carbohydratesG": 122.981,
+      "fatG": 6.8,
+      "fiberG": 7.173,
+      "sugarsG": 52.515,
+      "sodiumMg": 308.595,
+      "potassiumMg": 1367.818,
+      "calciumMg": 113.273,
+      "ironMg": 3.489,
+      "magnesiumMg": 94.748,
+      "vitaminCMg": 13.547
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 9.37,
+    "perServingUsd": 2.34,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-07-06T17:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "dims.apnews.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://apnews.com/article/8c362a61f95b906674e4f8c66faf3d97",
+    "originalSourceUrl": "https://dims.apnews.com/dims4/default/6788e8a/2147483647/strip/true/crop/4640x3092+0+310/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fb2%2Fc6%2F86477cf0b38563ad31b3d9c51a36%2Fabf1fb2b64f94860a1e3a45a6deaaa6f",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0121",
+    "name": "Uzbek Chicken Pilaf",
+    "description": "Uzbek Chicken Pilaf combines chicken with rice and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 673.237,
+      "proteinG": 37.086,
+      "carbohydratesG": 122.981,
+      "fatG": 6.8,
+      "fiberG": 7.173,
+      "sugarsG": 52.515,
+      "sodiumMg": 308.595,
+      "potassiumMg": 1367.818,
+      "calciumMg": 113.273,
+      "ironMg": 3.489,
+      "magnesiumMg": 94.748,
+      "vitaminCMg": 13.547
+    },
+    "estimatedCostPerServingUsd": 2.34,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

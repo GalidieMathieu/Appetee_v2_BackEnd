@@ -1,0 +1,122 @@
+{
+  "seedId": "ING-0059",
+  "name": "Fresh Lemons",
+  "canonicalName": "Fresh Lemons",
+  "description": "Raw fresh lemons, edible portion without peel.",
+  "measurementType": "solid",
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  },
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Fresh Lemons, 2 lb Bag",
+    "productId": "44391659",
+    "productUrl": "https://www.walmart.com/ip/44391659",
+    "brand": "Fresh Produce",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 3.92,
+    "packageQuantity": 907.185,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 29,
+      "proteinG": 1.1,
+      "carbohydratesG": 9.32,
+      "fatG": 0.3,
+      "fiberG": 2.8,
+      "sugarsG": 2.5,
+      "sodiumMg": 2,
+      "potassiumMg": 138,
+      "calciumMg": 26,
+      "ironMg": 0.6,
+      "magnesiumMg": 8,
+      "vitaminCMg": 53
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.4321
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 167746,
+      "dataType": "SR Legacy",
+      "description": "Lemons, raw, without peel",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/167746/nutrients",
+      "searchQuery": "lemons raw without peel",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": "Package weight is used for price normalization; recipe mass represents the edible juice and pulp portion."
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": "Package weight is used for price normalization; recipe mass represents the edible juice and pulp portion."
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "imageType": "external-real-product-photograph",
+    "aiGenerated": false,
+    "provider": "i5.walmartimages.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/44391659",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Fresh-Lemons-2-lb-Bag_ea02745f-85ec-4437-b558-99017aa55ba0_1.54e4ccd90fb051e0422baf290b61d661.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:42:23.244Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0059",
+    "name": "Fresh Lemons",
+    "description": "Raw fresh lemons, edible portion without peel.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 29,
+      "proteinG": 1.1,
+      "carbohydratesG": 9.32,
+      "fatG": 0.3,
+      "fiberG": 2.8,
+      "sugarsG": 2.5,
+      "sodiumMg": 2,
+      "potassiumMg": 138,
+      "calciumMg": 26,
+      "ironMg": 0.6,
+      "magnesiumMg": 8,
+      "vitaminCMg": 53
+    },
+    "price": {
+      "usdPerBasis": 0.4321,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": null
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "seedId": "REC-0100",
+  "name": "Costa Rican Pressure-Cooker Black Bean Hotpot",
+  "description": "Dry black beans pressure-cooked with bell peppers, onion, garlic, cumin, and herbs.",
+  "source": {
+    "url": "https://www.recipesfromcostarica.com/recipes",
+    "domain": "recipesfromcostarica.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source dry-bean quantity, pressure-cooker timing, peppers, aromatics, and cumin are retained; a frozen pea-and-carrot blend replaces celery and thyme replaces oregano."
+  },
+  "countryOfOrigin": "Costa Rica",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 55,
+    "totalMinutes": 70
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Pressure Cooker",
+  "primaryProtein": "black beans",
+  "carbohydrateBase": "beans",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0076",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g dry black beans",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "large",
+      "sourceDisplay": "1 large onion",
+      "normalizedQuantity": 200,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0061",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 green bell pepper",
+      "normalizedQuantity": 119,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 red bell pepper",
+      "normalizedQuantity": 119,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0019",
+      "sourceQuantity": 0.33,
+      "sourceUnit": "cup",
+      "sourceDisplay": "⅓ cup diced vegetables",
+      "normalizedQuantity": 50,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 4,
+      "sourceUnit": "cloves",
+      "sourceDisplay": "4 crushed garlic cloves",
+      "normalizedQuantity": 20,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1½ tsp cumin",
+      "normalizedQuantity": 3.15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0087",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp dried thyme",
+      "normalizedQuantity": 1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Add the dry beans, chopped vegetables, garlic, cumin, thyme, pepper, and water to the pressure cooker.",
+    "Lock the lid and cook the beans at high pressure for thirty-five minutes.",
+    "Allow the pressure to release naturally for twenty minutes before venting the remainder.",
+    "Stir the hotpot, season it to taste, and serve it once the beans are tender."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 868.35,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1565.612,
+      "proteinG": 93.885,
+      "carbohydratesG": 293.769,
+      "fatG": 7.451,
+      "fiberG": 73.143,
+      "sugarsG": 16.622,
+      "sodiumMg": 79.072,
+      "potassiumMg": 6985.065,
+      "calciumMg": 640.157,
+      "ironMg": 25.773,
+      "magnesiumMg": 755.909,
+      "vitaminCMg": 276.979
+    },
+    "perServing": {
+      "calories": 260.935,
+      "proteinG": 15.648,
+      "carbohydratesG": 48.962,
+      "fatG": 1.242,
+      "fiberG": 12.191,
+      "sugarsG": 2.77,
+      "sodiumMg": 13.179,
+      "potassiumMg": 1164.178,
+      "calciumMg": 106.693,
+      "ironMg": 4.295,
+      "magnesiumMg": 125.985,
+      "vitaminCMg": 46.163
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.57,
+    "perServingUsd": 0.76,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-06-04T08:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "www.puravidamoms.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://puravidamoms.com/costa-rican-style-slow-cooker-black-beans-recipe/",
+    "originalSourceUrl": "https://www.puravidamoms.com/wp-content/uploads/2017/02/Black-Beans-Costa-Rica-Pressure-Cooker-610x915.jpg",
+    "discoveredOriginalUrl": "https://www.puravidamoms.com/wp-content/uploads/2017/02/Black-Beans-Costa-Rica-Pressure-Cooker-610x915.jpg",
+    "searchQuery": "Costa Rican Pressure-Cooker Black Bean Hotpot plated recipe food",
+    "searchResultTitle": "THE Costa Rican Black Beans Recipe - Pura Vida Moms",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:08:59.742Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0100",
+    "name": "Costa Rican Pressure-Cooker Black Bean Hotpot",
+    "description": "Dry black beans pressure-cooked with bell peppers, onion, garlic, cumin, and herbs.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 260.935,
+      "proteinG": 15.648,
+      "carbohydratesG": 48.962,
+      "fatG": 1.242,
+      "fiberG": 12.191,
+      "sugarsG": 2.77,
+      "sodiumMg": 13.179,
+      "potassiumMg": 1164.178,
+      "calciumMg": 106.693,
+      "ironMg": 4.295,
+      "magnesiumMg": 125.985,
+      "vitaminCMg": 46.163
+    },
+    "estimatedCostPerServingUsd": 0.76,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

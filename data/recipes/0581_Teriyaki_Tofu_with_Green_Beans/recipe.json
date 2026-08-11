@@ -1,0 +1,233 @@
+{
+  "seedId": "REC-0581",
+  "candidate": {
+    "sequence": 859,
+    "seedId": "REC-CAND-0859",
+    "name": "Teriyaki Tofu with Green Beans"
+  },
+  "name": "Teriyaki Tofu with Green Beans",
+  "description": "Teriyaki Tofu with Green Beans is a practical stovetop recipe pairing tofu with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.unileverfoodsolutions.co.id/en/recipe/egg-tofu-rice-R0078842.html",
+    "domain": "unileverfoodsolutions.co.id",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Indonesian Tofu Kecap-Style Rice source while retaining its closest matching dish form, cooking sequence, and applicable tofu or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Indonesia",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 60,
+    "totalMinutes": 85
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tofu",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0018",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb tofu",
+      "normalizedQuantity": 680.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups dry rice",
+      "normalizedQuantity": 277.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0019",
+      "sourceQuantity": 3,
+      "sourceUnit": "cups",
+      "sourceDisplay": "3 cups peas and carrots",
+      "normalizedQuantity": 420,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 0.25,
+      "sourceUnit": "cup",
+      "sourceDisplay": "¼ cup soy sauce",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0032",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp peanut butter",
+      "normalizedQuantity": 32,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0037",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tofu, and legumes for teriyaki tofu with green beans.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tofu and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the teriyaki tofu with green beans, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2528.36,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2210.255,
+      "proteinG": 117.515,
+      "carbohydratesG": 353.022,
+      "fatG": 50.425,
+      "fiberG": 37.749,
+      "sugarsG": 13.832,
+      "sodiumMg": 4405.84,
+      "potassiumMg": 3755.485,
+      "calciumMg": 1728.899,
+      "ironMg": 21.183,
+      "magnesiumMg": 600.34,
+      "vitaminCMg": 116.381
+    },
+    "perServing": {
+      "calories": 552.564,
+      "proteinG": 29.379,
+      "carbohydratesG": 88.255,
+      "fatG": 12.606,
+      "fiberG": 9.437,
+      "sugarsG": 3.458,
+      "sodiumMg": 1101.46,
+      "potassiumMg": 938.871,
+      "calciumMg": 432.225,
+      "ironMg": 5.296,
+      "magnesiumMg": 150.085,
+      "vitaminCMg": 29.095
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 9.21,
+    "perServingUsd": 2.3,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-06-15T21:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://freshapron.com/teriyaki-tofu-stir-fry-with-green-beans/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.ixl4SaP_UHuT7Wg3eX8v6AHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://freshapron.com/wp-content/uploads/2022/05/Teriyaki-Tofu-Stir-Fry-with-Green-Beans-07.jpg",
+    "searchQuery": "Teriyaki Tofu with Green Beans plated recipe food",
+    "searchResultTitle": "Teriyaki Tofu Stir Fry with Green Beans - Fresh Apron",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:55:24.173Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0581",
+    "name": "Teriyaki Tofu with Green Beans",
+    "description": "Teriyaki Tofu with Green Beans is a practical stovetop recipe pairing tofu with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 85,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 552.564,
+      "proteinG": 29.379,
+      "carbohydratesG": 88.255,
+      "fatG": 12.606,
+      "fiberG": 9.437,
+      "sugarsG": 3.458,
+      "sodiumMg": 1101.46,
+      "potassiumMg": 938.871,
+      "calciumMg": 432.225,
+      "ironMg": 5.296,
+      "magnesiumMg": 150.085,
+      "vitaminCMg": 29.095
+    },
+    "estimatedCostPerServingUsd": 2.3,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

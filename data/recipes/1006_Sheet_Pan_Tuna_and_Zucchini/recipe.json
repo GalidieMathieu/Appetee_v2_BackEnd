@@ -1,0 +1,233 @@
+{
+  "seedId": "REC-1006",
+  "candidate": {
+    "sequence": 1677,
+    "seedId": "REC-CAND-1677",
+    "name": "Sheet Pan Tuna and Zucchini"
+  },
+  "name": "Sheet Pan Tuna and Zucchini",
+  "description": "Sheet Pan Tuna and Zucchini is a practical oven recipe pairing tuna with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.hungryroot.com/recipes/garlic-sheet-pan-tuna-bell-peppers-1036722838/",
+    "domain": "hungryroot.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Sheet Pan Tuna and Bell Peppers source while retaining its closest matching dish form, cooking sequence, and applicable tuna or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "tuna",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0025",
+      "sourceQuantity": 340,
+      "sourceUnit": "g",
+      "sourceDisplay": "340 g",
+      "normalizedQuantity": 340,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0061",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0083",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for sheet pan tuna and zucchini.",
+    "Season the tuna and vegetables evenly while the oven reaches temperature.",
+    "Arrange the tuna, vegetables, and vegetables so heat can circulate around each component.",
+    "Bake until the tuna is safely cooked and the vegetables or grain base are tender.",
+    "Rest the sheet pan tuna and zucchini briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1645,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 978.482,
+      "proteinG": 99.984,
+      "carbohydratesG": 77.727,
+      "fatG": 32.863,
+      "fiberG": 22.095,
+      "sugarsG": 28.95,
+      "sodiumMg": 222.296,
+      "potassiumMg": 3436.023,
+      "calciumMg": 224.423,
+      "ironMg": 10.23,
+      "magnesiumMg": 247.35,
+      "vitaminCMg": 739.98
+    },
+    "perServing": {
+      "calories": 244.62,
+      "proteinG": 24.996,
+      "carbohydratesG": 19.432,
+      "fatG": 8.216,
+      "fiberG": 5.524,
+      "sugarsG": 7.237,
+      "sodiumMg": 55.574,
+      "potassiumMg": 859.006,
+      "calciumMg": 56.106,
+      "ironMg": 2.558,
+      "magnesiumMg": 61.837,
+      "vitaminCMg": 184.995
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.63,
+    "perServingUsd": 2.66,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-04-01T02:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.kosher.com/recipe/sheet-pan-cajun-tuna-with-roasted-zucchini-16033/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.OzIiq8JDOffDbL7x3EmJRQHaJl&pid=15.1",
+    "discoveredOriginalUrl": "https://images.kosher.com/uploads/Leora-Leah.-Sheet-Pan-Cajun-Tuna-with-Roasted-Zucchini.jpg",
+    "searchQuery": "Sheet Pan Tuna and Zucchini plated recipe food",
+    "searchResultTitle": "Sheet Pan Cajun Tuna with Roasted Zucchini - Kosher.com",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:17:03.192Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1006",
+    "name": "Sheet Pan Tuna and Zucchini",
+    "description": "Sheet Pan Tuna and Zucchini is a practical oven recipe pairing tuna with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 244.62,
+      "proteinG": 24.996,
+      "carbohydratesG": 19.432,
+      "fatG": 8.216,
+      "fiberG": 5.524,
+      "sugarsG": 7.237,
+      "sodiumMg": 55.574,
+      "potassiumMg": 859.006,
+      "calciumMg": 56.106,
+      "ironMg": 2.558,
+      "magnesiumMg": 61.837,
+      "vitaminCMg": 184.995
+    },
+    "estimatedCostPerServingUsd": 2.66,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly"
+    ]
+  }
+}

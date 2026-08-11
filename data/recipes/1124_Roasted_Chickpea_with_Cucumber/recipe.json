@@ -1,0 +1,225 @@
+{
+  "seedId": "REC-1124",
+  "candidate": {
+    "sequence": 1879,
+    "seedId": "REC-CAND-1879",
+    "name": "Roasted Chickpea with Cucumber"
+  },
+  "name": "Roasted Chickpea with Cucumber",
+  "description": "Roasted Chickpea with Cucumber is a practical oven recipe pairing chickpeas with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://nutritionsource.hsph.harvard.edu/crunchy-roasted-chickpeas/",
+    "domain": "nutritionsource.hsph.harvard.edu",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Chili Cumin Roasted Chickpeas source while retaining its closest matching dish form, cooking sequence, and applicable chickpeas or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 60,
+    "totalMinutes": 85
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans chickpeas, drained",
+      "normalizedQuantity": 500,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp olive oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp chili powder",
+      "normalizedQuantity": 2.7,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp cumin",
+      "normalizedQuantity": 2.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0101",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for roasted chickpea with cucumber.",
+    "Season the chickpeas and vegetables evenly while the oven reaches temperature.",
+    "Arrange the chickpeas, legumes, and vegetables so heat can circulate around each component.",
+    "Bake until the chickpeas is safely cooked and the vegetables or grain base are tender.",
+    "Rest the roasted chickpea with cucumber briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1134.8,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1012.505,
+      "proteinG": 41.382,
+      "carbohydratesG": 156.455,
+      "fatG": 28.909,
+      "fiberG": 40.675,
+      "sugarsG": 25.451,
+      "sodiumMg": 1322.841,
+      "potassiumMg": 1767.526,
+      "calciumMg": 373.748,
+      "ironMg": 9.223,
+      "magnesiumMg": 211.459,
+      "vitaminCMg": 38.361
+    },
+    "perServing": {
+      "calories": 253.126,
+      "proteinG": 10.345,
+      "carbohydratesG": 39.114,
+      "fatG": 7.227,
+      "fiberG": 10.169,
+      "sugarsG": 6.363,
+      "sodiumMg": 330.71,
+      "potassiumMg": 441.882,
+      "calciumMg": 93.437,
+      "ironMg": 2.306,
+      "magnesiumMg": 52.865,
+      "vitaminCMg": 9.59
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.9,
+    "perServingUsd": 0.72,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-09-30T00:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://nourishingamy.com/2023/08/30/roasted-aubergine-and-chickpea-smashed-cucumbers-vegan-gf/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.z6xgRkW5JzdTotduHuhxlgHaLG&pid=15.1",
+    "discoveredOriginalUrl": "https://nourishingamy.com/wp-content/uploads/2023/08/Roasted-Aubergine-and-Chickpea-Smashed-Cucumbers-with-Whipped-Tahini-4-683x1024.jpg",
+    "searchQuery": "Roasted Chickpea with Cucumber plated recipe food",
+    "searchResultTitle": "Roasted Aubergine Chickpea Smashed Cucumbers - Nourishing Amy",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:23:11.628Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1124",
+    "name": "Roasted Chickpea with Cucumber",
+    "description": "Roasted Chickpea with Cucumber is a practical oven recipe pairing chickpeas with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 85,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 253.126,
+      "proteinG": 10.345,
+      "carbohydratesG": 39.114,
+      "fatG": 7.227,
+      "fiberG": 10.169,
+      "sugarsG": 6.363,
+      "sodiumMg": 330.71,
+      "potassiumMg": 441.882,
+      "calciumMg": 93.437,
+      "ironMg": 2.306,
+      "magnesiumMg": 52.865,
+      "vitaminCMg": 9.59
+    },
+    "estimatedCostPerServingUsd": 0.72,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

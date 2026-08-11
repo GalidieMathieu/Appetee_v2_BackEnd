@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0021",
+  "name": "Ground Beef 85% Lean",
+  "canonicalName": "Ground Beef 85% Lean",
+  "description": "Raw ground beef, 85% lean and 15% fat.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "All Natural Ground Beef, 85% Lean/15% Fat, 1 lb",
+    "productId": "44001563",
+    "productUrl": "https://www.walmart.com/ip/44001563",
+    "brand": "Freshness Guaranteed",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 7.42,
+    "packageQuantity": 453.592,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 215,
+      "proteinG": 18.6,
+      "carbohydratesG": 0,
+      "fatG": 15,
+      "fiberG": 0,
+      "sugarsG": 0,
+      "sodiumMg": 66,
+      "potassiumMg": 295,
+      "calciumMg": 15,
+      "ironMg": 2.09,
+      "magnesiumMg": 18,
+      "vitaminCMg": 0
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 1.6358
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 171796,
+      "dataType": "SR Legacy",
+      "description": "Beef, ground, 85% lean meat / 15% fat, raw (Includes foods for USDA's Food Distribution Program)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171796/nutrients",
+      "searchQuery": "ground beef 85% lean 15% fat raw",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.alamy.com/close-up-of-lean-ground-beef-image214726661.html",
+    "originalSourceUrl": "https://c8.alamy.com/comp/PD9J19/close-up-of-lean-ground-beef-PD9J19.jpg",
+    "searchQuery": "Ground Beef 85% Lean ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0021",
+    "name": "Ground Beef 85% Lean",
+    "description": "Raw ground beef, 85% lean and 15% fat.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 215,
+      "proteinG": 18.6,
+      "carbohydratesG": 0,
+      "fatG": 15,
+      "fiberG": 0,
+      "sugarsG": 0,
+      "sodiumMg": 66,
+      "potassiumMg": 295,
+      "calciumMg": 15,
+      "ironMg": 2.09,
+      "magnesiumMg": 18,
+      "vitaminCMg": 0
+    },
+    "price": {
+      "usdPerBasis": 1.6358,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0021_Ground_Beef_85_Lean/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

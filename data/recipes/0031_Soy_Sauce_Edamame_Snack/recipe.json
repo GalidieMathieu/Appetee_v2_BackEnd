@@ -1,0 +1,179 @@
+{
+  "seedId": "REC-0031",
+  "name": "Soy Sauce Edamame Snack",
+  "description": "Warm shelled edamame tossed with soy sauce and garlic.",
+  "source": {
+    "url": "https://eatsimplefood.com/tamari-ginger-edamame/",
+    "domain": "eatsimplefood.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Japan",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 5,
+    "cookMinutes": 8,
+    "totalMinutes": 13
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "edamame",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0050",
+      "sourceQuantity": 3,
+      "sourceUnit": "cups",
+      "sourceDisplay": "3 cups shelled frozen edamame",
+      "normalizedQuantity": 465,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1½ tbsp soy sauce",
+      "normalizedQuantity": 22.5,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp minced garlic",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Simmer the edamame until hot and tender, then drain well.",
+    "Warm the garlic in a skillet until fragrant.",
+    "Add the edamame and soy sauce and toss until the pan is nearly dry.",
+    "Divide into four snack portions and serve warm or chilled."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 445.5,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 528.133,
+      "proteinG": 54.522,
+      "carbohydratesG": 38.328,
+      "fatG": 22.168,
+      "fiberG": 22.634,
+      "sugarsG": 11.686,
+      "sodiumMg": 1461.64,
+      "potassiumMg": 2374.885,
+      "calciumMg": 296.663,
+      "ironMg": 10.275,
+      "magnesiumMg": 304.214,
+      "vitaminCMg": 46.665
+    },
+    "perServing": {
+      "calories": 132.033,
+      "proteinG": 13.63,
+      "carbohydratesG": 9.582,
+      "fatG": 5.542,
+      "fiberG": 5.659,
+      "sugarsG": 2.921,
+      "sodiumMg": 365.41,
+      "potassiumMg": 593.721,
+      "calciumMg": 74.166,
+      "ironMg": 2.569,
+      "magnesiumMg": 76.053,
+      "vitaminCMg": 11.666
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.75,
+    "perServingUsd": 0.69,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-02-18T23:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "eatsimplefood.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://eatsimplefood.com/tamari-ginger-edamame/",
+    "originalSourceUrl": "https://eatsimplefood.com/wp-content/uploads/2021/01/Tamari-Ginger-Edamame-Top-Bowls-1200-EatSimpleFood.com_.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0031",
+    "name": "Soy Sauce Edamame Snack",
+    "description": "Warm shelled edamame tossed with soy sauce and garlic.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 13,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 132.033,
+      "proteinG": 13.63,
+      "carbohydratesG": 9.582,
+      "fatG": 5.542,
+      "fiberG": 5.659,
+      "sugarsG": 2.921,
+      "sodiumMg": 365.41,
+      "potassiumMg": 593.721,
+      "calciumMg": 74.166,
+      "ironMg": 2.569,
+      "magnesiumMg": 76.053,
+      "vitaminCMg": 11.666
+    },
+    "estimatedCostPerServingUsd": 0.69,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

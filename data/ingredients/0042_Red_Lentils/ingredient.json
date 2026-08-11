@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0042",
+  "name": "Red Lentils",
+  "canonicalName": "Red Lentils",
+  "description": "Dry split red lentils.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Red Lentils, 1 lb",
+    "productId": "188236630",
+    "productUrl": "https://www.walmart.com/ip/188236630",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 1.88,
+    "packageQuantity": 453.592,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 352,
+      "proteinG": 24.6,
+      "carbohydratesG": 63.4,
+      "fatG": 1.06,
+      "fiberG": 10.7,
+      "sugarsG": 2.03,
+      "sodiumMg": 6,
+      "potassiumMg": 677,
+      "calciumMg": 35,
+      "ironMg": 6.51,
+      "magnesiumMg": 47,
+      "vitaminCMg": 4.5
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.4145
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 172420,
+      "dataType": "SR Legacy",
+      "description": "Lentils, raw",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/172420/nutrients",
+      "searchQuery": "lentils raw",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": "USDA SR Legacy provides a generic raw lentil profile; product color/type remains exact."
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.dreamstime.com/red-lentils-food-ingredient-close-up-white-surface-view-isolated-white-background-close-up-pile-red-lentils-image378486084",
+    "originalSourceUrl": "https://thumbs.dreamstime.com/b/red-lentils-food-ingredient-close-up-white-surface-view-isolated-white-background-close-up-pile-red-lentils-378486084.jpg",
+    "searchQuery": "Red Lentils ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0042",
+    "name": "Red Lentils",
+    "description": "Dry split red lentils.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 352,
+      "proteinG": 24.6,
+      "carbohydratesG": 63.4,
+      "fatG": 1.06,
+      "fiberG": 10.7,
+      "sugarsG": 2.03,
+      "sodiumMg": 6,
+      "potassiumMg": 677,
+      "calciumMg": 35,
+      "ironMg": 6.51,
+      "magnesiumMg": 47,
+      "vitaminCMg": 4.5
+    },
+    "price": {
+      "usdPerBasis": 0.4145,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0042_Red_Lentils/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "seedId": "REC-0760",
+  "candidate": {
+    "sequence": 1217,
+    "seedId": "REC-CAND-1217",
+    "name": "Spanish Egg Tacos"
+  },
+  "name": "Spanish Egg Tacos",
+  "description": "Spanish Egg Tacos is a practical stovetop recipe pairing eggs with tortilla and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.incredibleegg.org/recipe/easy-breakfast-tacos/",
+    "domain": "incredibleegg.org",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Egg and Black Bean Breakfast Tacos source while retaining its closest matching dish form, cooking sequence, and applicable eggs or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 6,
+      "sourceUnit": "large",
+      "sourceDisplay": "6 large eggs",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can black beans, drained",
+      "normalizedQuantity": 255,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 8,
+      "sourceUnit": "pieces",
+      "sourceDisplay": "8 whole-wheat tortillas",
+      "normalizedQuantity": 362.874,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "cup",
+      "sourceDisplay": "½ cup salsa",
+      "normalizedQuantity": 130,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 4,
+      "sourceUnit": "oz",
+      "sourceDisplay": "4 oz spinach",
+      "normalizedQuantity": 113.398,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, eggs, and tortilla for spanish egg tacos.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned eggs and cook it until browned or heated through as appropriate.",
+    "Stir in the tortilla, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the spanish egg tacos, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1464.932,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2295.427,
+      "proteinG": 100.269,
+      "carbohydratesG": 263.54,
+      "fatG": 95.603,
+      "fiberG": 47.205,
+      "sugarsG": 10.851,
+      "sodiumMg": 4163.643,
+      "potassiumMg": 3344.06,
+      "calciumMg": 1418.934,
+      "ironMg": 23.04,
+      "magnesiumMg": 562.876,
+      "vitaminCMg": 35.517
+    },
+    "perServing": {
+      "calories": 573.857,
+      "proteinG": 25.067,
+      "carbohydratesG": 65.885,
+      "fatG": 23.901,
+      "fiberG": 11.801,
+      "sugarsG": 2.713,
+      "sodiumMg": 1040.911,
+      "potassiumMg": 836.015,
+      "calciumMg": 354.733,
+      "ironMg": 5.76,
+      "magnesiumMg": 140.719,
+      "vitaminCMg": 8.879
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.76,
+    "perServingUsd": 1.44,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-03-18T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://storage.googleapis.com/dridsinxanckce/bacon-and-egg-taco-in-spanish.html",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.2X4nag__bUD_MRgGTE2oswHaJ3&pid=15.1",
+    "discoveredOriginalUrl": "https://www.spoonforkbacon.com/wordpress/wp-content/uploads/2018/06/Chorizo_breakfast_tacos-800x1066.jpg",
+    "searchQuery": "Spanish Egg Tacos plated recipe food",
+    "searchResultTitle": "Bacon And Egg Taco In Spanish at Garry Beckwith blog",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:04:29.530Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0760",
+    "name": "Spanish Egg Tacos",
+    "description": "Spanish Egg Tacos is a practical stovetop recipe pairing eggs with tortilla and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 573.857,
+      "proteinG": 25.067,
+      "carbohydratesG": 65.885,
+      "fatG": 23.901,
+      "fiberG": 11.801,
+      "sugarsG": 2.713,
+      "sodiumMg": 1040.911,
+      "potassiumMg": 836.015,
+      "calciumMg": 354.733,
+      "ironMg": 5.76,
+      "magnesiumMg": 140.719,
+      "vitaminCMg": 8.879
+    },
+    "estimatedCostPerServingUsd": 1.44,
+    "diets": [
+      "Vegetarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

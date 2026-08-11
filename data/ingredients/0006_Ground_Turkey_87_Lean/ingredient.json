@@ -1,0 +1,113 @@
+{
+  "seedId": "ING-0006",
+  "name": "Ground Turkey 87% Lean",
+  "canonicalName": "Ground Turkey 87% Lean",
+  "description": "Raw frozen ground turkey, 87% lean.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Festive Ground Turkey, 87% Lean, 1 lb Frozen Roll",
+    "productId": "22210558",
+    "productUrl": "https://www.walmart.com/ip/22210558",
+    "brand": "Festive",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 1.98,
+    "packageQuantity": 453.592,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 180,
+      "proteinG": 16.9,
+      "carbohydratesG": 0,
+      "fatG": 12.5,
+      "fiberG": 0,
+      "sugarsG": 0,
+      "sodiumMg": 54,
+      "potassiumMg": 202,
+      "calciumMg": 33,
+      "ironMg": 1.32,
+      "magnesiumMg": 19,
+      "vitaminCMg": 0
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.4365
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 174493,
+      "dataType": "SR Legacy",
+      "description": "Turkey, ground, 85% lean, 15% fat, raw",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/174493/nutrients",
+      "searchQuery": "ground turkey raw",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": "USDA's closest generic profile is 85% lean/15% fat; the Walmart product is labeled 87% lean."
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/22210558",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/FESTIVE-Ground-Turkey-Frozen-1-lb-Roll_c7b24fb6-b455-4046-8f0b-c58af8edb00f.b92bc464744cf746cd9b936d70785902.png",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0006",
+    "name": "Ground Turkey 87% Lean",
+    "description": "Raw frozen ground turkey, 87% lean.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 180,
+      "proteinG": 16.9,
+      "carbohydratesG": 0,
+      "fatG": 12.5,
+      "fiberG": 0,
+      "sugarsG": 0,
+      "sodiumMg": 54,
+      "potassiumMg": 202,
+      "calciumMg": 33,
+      "ironMg": 1.32,
+      "magnesiumMg": 19,
+      "vitaminCMg": 0
+    },
+    "price": {
+      "usdPerBasis": 0.4365,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0006_Ground_Turkey_87_Lean/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "seedId": "REC-0019",
+  "name": "Peanut Tofu Rice Bowls",
+  "description": "Browned tofu and broccoli over rice with a peanut-soy sauce.",
+  "source": {
+    "url": "https://www.budgetbytes.com/peanut-tofu-noodle-bowls/",
+    "domain": "budgetbytes.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Thailand",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tofu",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0018",
+      "sourceQuantity": 14,
+      "sourceUnit": "oz",
+      "sourceDisplay": "14 oz extra-firm tofu",
+      "normalizedQuantity": 396.893,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup dry rice",
+      "normalizedQuantity": 185,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0013",
+      "sourceQuantity": 4,
+      "sourceUnit": "cups",
+      "sourceDisplay": "4 cups broccoli",
+      "normalizedQuantity": 364,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0032",
+      "sourceQuantity": 0.33,
+      "sourceUnit": "cup",
+      "sourceDisplay": "⅓ cup peanut butter",
+      "normalizedQuantity": 85,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 3,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "3 tbsp soy sauce",
+      "normalizedQuantity": 45,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp cider vinegar",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Cook the rice according to its package directions.",
+    "Press tofu dry, cube it, and brown it in a nonstick skillet.",
+    "Steam or stir-fry broccoli until crisp-tender.",
+    "Whisk peanut butter, soy sauce, vinegar, and a little hot water into a smooth sauce.",
+    "Divide rice, tofu, and broccoli into bowls and spoon sauce over each."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1384.804,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1599.864,
+      "proteinG": 83.865,
+      "carbohydratesG": 198.34,
+      "fatG": 62.224,
+      "fiberG": 21.985,
+      "sugarsG": 14.713,
+      "sodiumMg": 3415.479,
+      "potassiumMg": 2382.716,
+      "calciumMg": 1066.382,
+      "ironMg": 12,
+      "magnesiumMg": 436.781,
+      "vitaminCMg": 206.09
+    },
+    "perServing": {
+      "calories": 399.966,
+      "proteinG": 20.966,
+      "carbohydratesG": 49.585,
+      "fatG": 15.556,
+      "fiberG": 5.496,
+      "sugarsG": 3.678,
+      "sodiumMg": 853.87,
+      "potassiumMg": 595.679,
+      "calciumMg": 266.596,
+      "ironMg": 3,
+      "magnesiumMg": 109.195,
+      "vitaminCMg": 51.523
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.16,
+    "perServingUsd": 1.29,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-01-31T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "provenance": "Public source-page image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.budgetbytes.com/peanut-tofu-noodle-bowls/",
+    "originalSourceUrl": "https://www.budgetbytes.com/wp-content/uploads/2021/04/Tofu-Peanut-Noodle-Bowl-above-1.jpg",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0019",
+    "name": "Peanut Tofu Rice Bowls",
+    "description": "Browned tofu and broccoli over rice with a peanut-soy sauce.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": {
+      "main": "recipes/0019_Peanut_Tofu_Rice_Bowls/assets/main.avif",
+      "card": "recipes/0019_Peanut_Tofu_Rice_Bowls/assets/card.avif"
+    },
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 399.966,
+      "proteinG": 20.966,
+      "carbohydratesG": 49.585,
+      "fatG": 15.556,
+      "fiberG": 5.496,
+      "sugarsG": 3.678,
+      "sodiumMg": 853.87,
+      "potassiumMg": 595.679,
+      "calciumMg": 266.596,
+      "ironMg": 3,
+      "magnesiumMg": 109.195,
+      "vitaminCMg": 51.523
+    },
+    "estimatedCostPerServingUsd": 1.29,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Budget Friendly"
+    ]
+  }
+}

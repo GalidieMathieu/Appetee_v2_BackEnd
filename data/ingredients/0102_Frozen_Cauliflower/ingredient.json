@@ -1,0 +1,122 @@
+{
+  "seedId": "ING-0102",
+  "name": "Frozen Cauliflower",
+  "canonicalName": "Frozen Cauliflower",
+  "description": "Plain frozen cauliflower florets without added sauce.",
+  "measurementType": "solid",
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": "Single-ingredient vegetable classified from its exact product identity."
+  },
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Frozen Cauliflower, 12 oz Bag",
+    "productId": "242699420",
+    "productUrl": "https://www.walmart.com/ip/242699420",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 1.16,
+    "packageQuantity": 340.194,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T20:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page listing price."
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 24,
+      "proteinG": 2.01,
+      "carbohydratesG": 4.68,
+      "fatG": 0.27,
+      "fiberG": 2.3,
+      "sugarsG": 2.22,
+      "sodiumMg": 24,
+      "potassiumMg": 193,
+      "calciumMg": 22,
+      "ironMg": 0.54,
+      "magnesiumMg": 12,
+      "vitaminCMg": 48.8
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.341
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 170398,
+      "dataType": "SR Legacy",
+      "description": "Cauliflower, frozen, unprepared",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/170398/nutrients",
+      "searchQuery": "cauliflower frozen unprepared",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "imageType": "external-real-product-photograph",
+    "aiGenerated": false,
+    "provider": "i5.walmartimages.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/242699420",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Great-Value-Cauliflower-12-oz-Bag-Frozen_cc749bb8-6687-47c8-b423-4d73e21aac64.7b28d8c1f157ff86c358accf401c941a.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:42:23.244Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0102",
+    "name": "Frozen Cauliflower",
+    "description": "Plain frozen cauliflower florets without added sauce.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 24,
+      "proteinG": 2.01,
+      "carbohydratesG": 4.68,
+      "fatG": 0.27,
+      "fiberG": 2.3,
+      "sugarsG": 2.22,
+      "sodiumMg": 24,
+      "potassiumMg": 193,
+      "calciumMg": 22,
+      "ironMg": 0.54,
+      "magnesiumMg": 12,
+      "vitaminCMg": 48.8
+    },
+    "price": {
+      "usdPerBasis": 0.341,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": null
+  }
+}

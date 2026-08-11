@@ -1,0 +1,120 @@
+{
+  "seedId": "ING-0097",
+  "name": "Fresh Green Kale",
+  "canonicalName": "Fresh Green Kale",
+  "description": "Raw fresh green kale leaves with tough stems removed.",
+  "measurementType": "solid",
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": "Single-ingredient product has no expected gluten- or lactose-bearing ingredient."
+  },
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Fresh Green Kale, 16 oz",
+    "productId": "20631705",
+    "productUrl": "https://www.walmart.com/ip/20631705",
+    "brand": "Baker Farms",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 3.48,
+    "packageQuantity": 453.592,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T18:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 35,
+      "proteinG": 2.92,
+      "carbohydratesG": 4.42,
+      "fatG": 1.49,
+      "fiberG": 4.1,
+      "sugarsG": 0.99,
+      "sodiumMg": 53,
+      "potassiumMg": 348,
+      "calciumMg": 254,
+      "ironMg": 1.6,
+      "magnesiumMg": 33,
+      "vitaminCMg": 93.4
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.7672
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 168421,
+      "dataType": "SR Legacy",
+      "description": "Kale, raw",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/168421/nutrients",
+      "searchQuery": "kale raw",
+      "accessedAt": "2026-08-10T12:00:00-06:00"
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "imageType": "external-real-product-photograph",
+    "aiGenerated": false,
+    "provider": "i5.walmartimages.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/20631705",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Fresh-Green-Kale-1-lb-Bag_f2602abd-df9f-4031-9c9d-9ed55cdd8c91.3d626acf24dbbe5df50624c8bf3549cc.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:42:23.244Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0097",
+    "name": "Fresh Green Kale",
+    "description": "Raw fresh green kale leaves with tough stems removed.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 35,
+      "proteinG": 2.92,
+      "carbohydratesG": 4.42,
+      "fatG": 1.49,
+      "fiberG": 4.1,
+      "sugarsG": 0.99,
+      "sodiumMg": 53,
+      "potassiumMg": 348,
+      "calciumMg": 254,
+      "ironMg": 1.6,
+      "magnesiumMg": 33,
+      "vitaminCMg": 93.4
+    },
+    "price": {
+      "usdPerBasis": 0.7672,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": null
+  }
+}

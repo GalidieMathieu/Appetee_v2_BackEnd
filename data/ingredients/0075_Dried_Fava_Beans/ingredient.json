@@ -1,0 +1,122 @@
+{
+  "seedId": "ING-0075",
+  "name": "Dried Fava Beans",
+  "canonicalName": "Dried Fava Beans",
+  "description": "Raw dried mature fava beans, also known as broad beans.",
+  "measurementType": "solid",
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  },
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Food to Live Organic Fava Beans, 10 lb",
+    "productId": "185156642",
+    "productUrl": "https://www.walmart.com/ip/185156642",
+    "brand": "Food to Live",
+    "seller": "Food to Live",
+    "packagePriceUsd": 56.46,
+    "packageQuantity": 4535.924,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 341,
+      "proteinG": 26.1,
+      "carbohydratesG": 58.3,
+      "fatG": 1.53,
+      "fiberG": 25,
+      "sugarsG": 5.7,
+      "sodiumMg": 13,
+      "potassiumMg": 1060,
+      "calciumMg": 103,
+      "ironMg": 6.7,
+      "magnesiumMg": 192,
+      "vitaminCMg": 1.4
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 1.2447
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 175205,
+      "dataType": "SR Legacy",
+      "description": "Broadbeans (fava beans), mature seeds, raw",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/175205/nutrients",
+      "searchQuery": "broadbeans fava mature seeds raw",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "imageType": "external-real-product-photograph",
+    "aiGenerated": false,
+    "provider": "i5.walmartimages.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/185156642",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Organic-Fava-Beans-10-Pounds-Broad-Beans-Non-GMO-Kosher-Sproutable-by-Food-to-Live_f3406918-30a3-4a74-a879-c09df2949213_1.c0df4e6c82a07d70110862442d71717d.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:42:23.244Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0075",
+    "name": "Dried Fava Beans",
+    "description": "Raw dried mature fava beans, also known as broad beans.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 341,
+      "proteinG": 26.1,
+      "carbohydratesG": 58.3,
+      "fatG": 1.53,
+      "fiberG": 25,
+      "sugarsG": 5.7,
+      "sodiumMg": 13,
+      "potassiumMg": 1060,
+      "calciumMg": 103,
+      "ironMg": 6.7,
+      "magnesiumMg": 192,
+      "vitaminCMg": 1.4
+    },
+    "price": {
+      "usdPerBasis": 1.2447,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": null
+  }
+}

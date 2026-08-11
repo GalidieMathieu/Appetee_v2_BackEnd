@@ -1,0 +1,195 @@
+{
+  "seedId": "REC-0014",
+  "name": "Shrimp Fried Rice",
+  "description": "A quick skillet of shrimp, rice, peas, carrots, egg, and soy sauce.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/prawn-fried-rice",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "China",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "totalMinutes": 25
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "shrimp",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0038",
+      "sourceQuantity": 12,
+      "sourceUnit": "oz",
+      "sourceDisplay": "12 oz shrimp",
+      "normalizedQuantity": 340.194,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups dry rice",
+      "normalizedQuantity": 277.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0019",
+      "sourceQuantity": 12,
+      "sourceUnit": "oz",
+      "sourceDisplay": "12 oz peas and carrots",
+      "normalizedQuantity": 340.194,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 3,
+      "sourceUnit": "large",
+      "sourceDisplay": "3 large eggs",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 3,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "3 tbsp soy sauce",
+      "normalizedQuantity": 45,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp olive oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Cook the rice and cool it until the grains feel dry on the surface.",
+    "Stir-fry shrimp in half the oil until opaque, then remove them.",
+    "Cook peas and carrots; push them aside and scramble the eggs in the pan.",
+    "Add rice, shrimp, and soy sauce and toss over high heat until steaming."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1588.82,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1780.898,
+      "proteinG": 100.518,
+      "carbohydratesG": 267.684,
+      "fatG": 36.106,
+      "fiberG": 12.398,
+      "sugarsG": 0.764,
+      "sodiumMg": 5274.586,
+      "potassiumMg": 1706.985,
+      "calciumMg": 389.296,
+      "ironMg": 8.269,
+      "magnesiumMg": 266.243,
+      "vitaminCMg": 38.102
+    },
+    "perServing": {
+      "calories": 445.224,
+      "proteinG": 25.13,
+      "carbohydratesG": 66.921,
+      "fatG": 9.027,
+      "fiberG": 3.099,
+      "sugarsG": 0.191,
+      "sodiumMg": 1318.647,
+      "potassiumMg": 426.746,
+      "calciumMg": 97.324,
+      "ironMg": 2.067,
+      "magnesiumMg": 66.561,
+      "vitaminCMg": 9.525
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 9.35,
+    "perServingUsd": 2.34,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Quick Meal",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-01-23T18:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "provenance": "Public source-page image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.bbcgoodfood.com/recipes/prawn-fried-rice",
+    "originalSourceUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/prawn-fried-rice-a36cef9.jpg?resize=440%2C230",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0014",
+    "name": "Shrimp Fried Rice",
+    "description": "A quick skillet of shrimp, rice, peas, carrots, egg, and soy sauce.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": {
+      "main": "recipes/0014_Shrimp_Fried_Rice/assets/main.avif",
+      "card": "recipes/0014_Shrimp_Fried_Rice/assets/card.avif"
+    },
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 445.224,
+      "proteinG": 25.13,
+      "carbohydratesG": 66.921,
+      "fatG": 9.027,
+      "fiberG": 3.099,
+      "sugarsG": 0.191,
+      "sodiumMg": 1318.647,
+      "potassiumMg": 426.746,
+      "calciumMg": 97.324,
+      "ironMg": 2.067,
+      "magnesiumMg": 66.561,
+      "vitaminCMg": 9.525
+    },
+    "estimatedCostPerServingUsd": 2.34,
+    "diets": [
+      "Pescatarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Quick Meal",
+      "Budget Friendly"
+    ]
+  }
+}

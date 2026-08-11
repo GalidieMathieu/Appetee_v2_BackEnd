@@ -1,0 +1,198 @@
+{
+  "seedId": "REC-0005",
+  "name": "Tofu Vegetable Stir-Fry",
+  "description": "Crisp tofu, broccoli, peas, and carrots in a savory soy glaze over rice.",
+  "source": {
+    "url": "https://www.canada.ca/content/dam/hc-sc/documents/services/canada-food-guide/tips-healthy-eating/meal-planning-cooking-healthy-choices/tofu-stir-fry/tofu-vegetable-stir-fry-eng.pdf",
+    "domain": "canada.ca",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "China",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "totalMinutes": 35
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tofu",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0018",
+      "sourceQuantity": 14,
+      "sourceUnit": "oz",
+      "sourceDisplay": "14 oz extra-firm tofu",
+      "normalizedQuantity": 396.893,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0019",
+      "sourceQuantity": 12,
+      "sourceUnit": "oz",
+      "sourceDisplay": "12 oz peas and carrots",
+      "normalizedQuantity": 340.194,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0013",
+      "sourceQuantity": 3,
+      "sourceUnit": "cups",
+      "sourceDisplay": "3 cups broccoli",
+      "normalizedQuantity": 273,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 3,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "3 tbsp soy sauce",
+      "normalizedQuantity": 45,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup dry rice",
+      "normalizedQuantity": 185,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp olive oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Cook the rice according to its package directions.",
+    "Press the tofu dry, cube it, and brown it in oil in a wide skillet.",
+    "Add broccoli, peas, and carrots and stir-fry until crisp-tender.",
+    "Pour in soy sauce and toss until the pan is nearly dry; serve over rice."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1524.078,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1373.341,
+      "proteinG": 72.39,
+      "carbohydratesG": 213.591,
+      "fatG": 34.794,
+      "fiberG": 24.022,
+      "sugarsG": 6.276,
+      "sodiumMg": 3248.808,
+      "potassiumMg": 2205.6,
+      "calciumMg": 1068.101,
+      "ironMg": 13.402,
+      "magnesiumMg": 344.878,
+      "vitaminCMg": 192.868
+    },
+    "perServing": {
+      "calories": 343.335,
+      "proteinG": 18.098,
+      "carbohydratesG": 53.398,
+      "fatG": 8.698,
+      "fiberG": 6.005,
+      "sugarsG": 1.569,
+      "sodiumMg": 812.202,
+      "potassiumMg": 551.4,
+      "calciumMg": 267.025,
+      "ironMg": 3.35,
+      "magnesiumMg": 86.219,
+      "vitaminCMg": 48.217
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.72,
+    "perServingUsd": 1.43,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-01-09T21:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://healthycookscape.com/home/recipe/effortless-tofu-vegetable-stir-fry/",
+    "originalSourceUrl": "https://healthycookscape.com/wp-content/uploads/2025/03/Effortless-Tofu-Vegetable-Stir-Fry-scaled-e1742428194735.jpg",
+    "searchQuery": "Tofu Vegetable Stir-Fry plated recipe food photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0005",
+    "name": "Tofu Vegetable Stir-Fry",
+    "description": "Crisp tofu, broccoli, peas, and carrots in a savory soy glaze over rice.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": {
+      "main": "recipes/0005_Tofu_Vegetable_Stir_Fry/assets/main.avif",
+      "card": "recipes/0005_Tofu_Vegetable_Stir_Fry/assets/card.avif"
+    },
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 343.335,
+      "proteinG": 18.098,
+      "carbohydratesG": 53.398,
+      "fatG": 8.698,
+      "fiberG": 6.005,
+      "sugarsG": 1.569,
+      "sodiumMg": 812.202,
+      "potassiumMg": 551.4,
+      "calciumMg": 267.025,
+      "ironMg": 3.35,
+      "magnesiumMg": 86.219,
+      "vitaminCMg": 48.217
+    },
+    "estimatedCostPerServingUsd": 1.43,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

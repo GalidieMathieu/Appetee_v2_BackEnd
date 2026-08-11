@@ -1,0 +1,191 @@
+{
+  "seedId": "REC-0088",
+  "name": "Syrian Green Beans with Olive Oil",
+  "description": "Green beans steam in olive oil before garlic and cilantro are folded through.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/56161/fasoliyyeh-bi-z-zayt-syrian-green-beans-with-olive-oil/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Syria",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 5,
+    "cookMinutes": 25,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Side",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "green beans",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0037",
+      "sourceQuantity": 16,
+      "sourceUnit": "oz",
+      "sourceDisplay": "16 oz frozen green beans",
+      "normalizedQuantity": 453.592,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 0.25,
+      "sourceUnit": "cup",
+      "sourceDisplay": "¼ cup olive oil",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "clove",
+      "sourceDisplay": "1 garlic clove",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 0.25,
+      "sourceUnit": "cup",
+      "sourceDisplay": "¼ cup chopped cilantro",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Place the frozen green beans and olive oil in a covered pot over medium-high heat.",
+    "Cook the beans in their released moisture, stirring occasionally, until very tender.",
+    "Add the garlic and cilantro when the beans begin to brown at the edges.",
+    "Cook just until the cilantro wilts, then serve the beans as a main dish or shared plate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 522.192,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 640.719,
+      "proteinG": 8.522,
+      "carbohydratesG": 36.003,
+      "fatG": 55.598,
+      "fiberG": 12.01,
+      "sugarsG": 10.109,
+      "sodiumMg": 17.39,
+      "potassiumMg": 885.117,
+      "calciumMg": 202.785,
+      "ironMg": 4.317,
+      "magnesiumMg": 102.08,
+      "vitaminCMg": 61.153
+    },
+    "perServing": {
+      "calories": 160.18,
+      "proteinG": 2.131,
+      "carbohydratesG": 9.001,
+      "fatG": 13.899,
+      "fiberG": 3.002,
+      "sugarsG": 2.527,
+      "sodiumMg": 4.348,
+      "potassiumMg": 221.279,
+      "calciumMg": 50.696,
+      "ironMg": 1.079,
+      "magnesiumMg": 25.52,
+      "vitaminCMg": 15.288
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.12,
+    "perServingUsd": 0.53,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-05-16T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "img.sndimg.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.food.com/recipe/fasoliyyeh-bi-zayt-syrian-green-beans-with-olive-oil-469918",
+    "originalSourceUrl": "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/46/99/18/picZkjU1V.jpg",
+    "discoveredOriginalUrl": "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/46/99/18/picZkjU1V.jpg",
+    "searchQuery": "Syrian Green Beans with Olive Oil plated recipe food",
+    "searchResultTitle": "Fasoliyyeh Bi Zayt (Syrian Green Beans With Olive Oil) Recipe - Food.com",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:08:47.490Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0088",
+    "name": "Syrian Green Beans with Olive Oil",
+    "description": "Green beans steam in olive oil before garlic and cilantro are folded through.",
+    "mealType": "Lunch",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 160.18,
+      "proteinG": 2.131,
+      "carbohydratesG": 9.001,
+      "fatG": 13.899,
+      "fiberG": 3.002,
+      "sugarsG": 2.527,
+      "sodiumMg": 4.348,
+      "potassiumMg": 221.279,
+      "calciumMg": 50.696,
+      "ironMg": 1.079,
+      "magnesiumMg": 25.52,
+      "vitaminCMg": 15.288
+    },
+    "estimatedCostPerServingUsd": 0.53,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

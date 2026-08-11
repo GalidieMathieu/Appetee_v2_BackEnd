@@ -1,0 +1,122 @@
+{
+  "seedId": "ING-0101",
+  "name": "Fresh Cucumber",
+  "canonicalName": "Fresh Cucumber",
+  "description": "Raw fresh cucumber with peel for salads, bowls, and wraps.",
+  "measurementType": "solid",
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": "Single-ingredient vegetable classified from its exact product identity."
+  },
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Fresh Cucumber, Each",
+    "productId": "44390954",
+    "productUrl": "https://www.walmart.com/ip/44390954",
+    "brand": "Fresh Produce",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 0.76,
+    "packageQuantity": 301,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T20:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page price; normalized with USDA medium-cucumber reference mass."
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 15,
+      "proteinG": 0.65,
+      "carbohydratesG": 3.63,
+      "fatG": 0.11,
+      "fiberG": 0.5,
+      "sugarsG": 1.67,
+      "sodiumMg": 2,
+      "potassiumMg": 147,
+      "calciumMg": 16,
+      "ironMg": 0.28,
+      "magnesiumMg": 13,
+      "vitaminCMg": 2.8
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.2525
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 168409,
+      "dataType": "SR Legacy",
+      "description": "Cucumber, with peel, raw",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/168409/nutrients",
+      "searchQuery": "cucumber with peel raw",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": "One each normalized to the USDA reference mass of a medium cucumber with peel."
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": "One each normalized to the USDA reference mass of a medium cucumber with peel."
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "imageType": "external-real-product-photograph",
+    "aiGenerated": false,
+    "provider": "i5.walmartimages.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/44390954",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Fresh-Cucumber-Each_5985ccc8-109e-411d-aca7-556ab217e1da.e3770028b0d00b3fa4e6a40c4e630ef9.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:42:23.244Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0101",
+    "name": "Fresh Cucumber",
+    "description": "Raw fresh cucumber with peel for salads, bowls, and wraps.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 15,
+      "proteinG": 0.65,
+      "carbohydratesG": 3.63,
+      "fatG": 0.11,
+      "fiberG": 0.5,
+      "sugarsG": 1.67,
+      "sodiumMg": 2,
+      "potassiumMg": 147,
+      "calciumMg": 16,
+      "ironMg": 0.28,
+      "magnesiumMg": 13,
+      "vitaminCMg": 2.8
+    },
+    "price": {
+      "usdPerBasis": 0.2525,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": null
+  }
+}

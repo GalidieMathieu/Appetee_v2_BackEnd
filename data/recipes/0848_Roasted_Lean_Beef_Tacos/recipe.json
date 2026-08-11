@@ -1,0 +1,231 @@
+{
+  "seedId": "REC-0848",
+  "candidate": {
+    "sequence": 1385,
+    "seedId": "REC-CAND-1385",
+    "name": "Roasted Lean Beef Tacos"
+  },
+  "name": "Roasted Lean Beef Tacos",
+  "description": "Roasted Lean Beef Tacos is a practical oven recipe pairing lean beef with tortilla and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.sainsburysmagazine.co.uk/recipes/mains/oregano-roast-beef-with-crispy-kale",
+    "domain": "sainsburysmagazine.co.uk",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Roasted Lean Beef with Kale source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United Kingdom",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "totalMinutes": 35
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "lean beef",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0097",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for roasted lean beef tacos.",
+    "Season the lean beef and vegetables evenly while the oven reaches temperature.",
+    "Arrange the lean beef, tortilla, and vegetables so heat can circulate around each component.",
+    "Bake until the lean beef is safely cooked and the vegetables or grain base are tender.",
+    "Rest the roasted lean beef tacos briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1459,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2731.762,
+      "proteinG": 154.808,
+      "carbohydratesG": 189.371,
+      "fatG": 151.674,
+      "fiberG": 50.463,
+      "sugarsG": 12.231,
+      "sodiumMg": 2431.376,
+      "potassiumMg": 4396.423,
+      "calciumMg": 1717.623,
+      "ironMg": 27.718,
+      "magnesiumMg": 513.55,
+      "vitaminCMg": 346.28
+    },
+    "perServing": {
+      "calories": 682.941,
+      "proteinG": 38.702,
+      "carbohydratesG": 47.343,
+      "fatG": 37.919,
+      "fiberG": 12.616,
+      "sugarsG": 3.058,
+      "sodiumMg": 607.844,
+      "potassiumMg": 1099.106,
+      "calciumMg": 429.406,
+      "ironMg": 6.929,
+      "magnesiumMg": 128.387,
+      "vitaminCMg": 86.57
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 15.85,
+    "perServingUsd": 3.96,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-08-01T12:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.crazylaura.com/low-calorie-beef-recipes/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.54JnkN-U9RYoI231d9DBrQHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://www.crazylaura.com/wp-content/uploads/2024/04/Lean-Beef-Tacos.png",
+    "searchQuery": "Roasted Lean Beef Tacos plated recipe food",
+    "searchResultTitle": "20+ Mouthwatering Low-Calorie Beef Recipes - Crazy Laura",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:09:13.305Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0848",
+    "name": "Roasted Lean Beef Tacos",
+    "description": "Roasted Lean Beef Tacos is a practical oven recipe pairing lean beef with tortilla and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 682.941,
+      "proteinG": 38.702,
+      "carbohydratesG": 47.343,
+      "fatG": 37.919,
+      "fiberG": 12.616,
+      "sugarsG": 3.058,
+      "sodiumMg": 607.844,
+      "potassiumMg": 1099.106,
+      "calciumMg": 429.406,
+      "ironMg": 6.929,
+      "magnesiumMg": 128.387,
+      "vitaminCMg": 86.57
+    },
+    "estimatedCostPerServingUsd": 3.96,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

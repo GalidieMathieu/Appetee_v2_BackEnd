@@ -1,0 +1,233 @@
+{
+  "seedId": "REC-0228",
+  "candidate": {
+    "sequence": 203,
+    "seedId": "REC-CAND-0203",
+    "name": "Caribbean Turkey with Rice"
+  },
+  "name": "Caribbean Turkey with Rice",
+  "description": "Caribbean Turkey with Rice is a practical stovetop recipe pairing turkey with rice and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://cookpad.com/eng/recipes/15457362",
+    "domain": "cookpad.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Nigerian Jollof Rice with Turkey source while retaining its closest matching dish form, cooking sequence, and applicable turkey or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Nigeria",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 50,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, turkey, and rice for caribbean turkey with rice.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned turkey and cook it until browned or heated through as appropriate.",
+    "Stir in the rice, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the caribbean turkey with rice, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1778,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2487.582,
+      "proteinG": 128.962,
+      "carbohydratesG": 258.34,
+      "fatG": 108.608,
+      "fiberG": 14.069,
+      "sugarsG": 13.162,
+      "sodiumMg": 894.675,
+      "potassiumMg": 3609.363,
+      "calciumMg": 442.987,
+      "ironMg": 14.14,
+      "magnesiumMg": 294.492,
+      "vitaminCMg": 413.316
+    },
+    "perServing": {
+      "calories": 621.895,
+      "proteinG": 32.24,
+      "carbohydratesG": 64.585,
+      "fatG": 27.152,
+      "fiberG": 3.517,
+      "sugarsG": 3.291,
+      "sodiumMg": 223.669,
+      "potassiumMg": 902.341,
+      "calciumMg": 110.747,
+      "ironMg": 3.535,
+      "magnesiumMg": 73.623,
+      "vitaminCMg": 103.329
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 9.42,
+    "perServingUsd": 2.35,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-12-18T16:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.youtube.com/shorts/zN-csQIXHmI",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.tuByAP3Ef7ZUwnpSMk5BYwAAAA&pid=15.1",
+    "discoveredOriginalUrl": "https://i.ytimg.com/vi/zN-csQIXHmI/oardefault.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLC9GNud-CTZa-i_q2MB00--_ytCiA&usqp=CCk",
+    "searchQuery": "Caribbean Turkey with Rice plated recipe food",
+    "searchResultTitle": "Stewed Turkey with Rice & Beans 🍗🍚 | Easy Caribbean Dinner Recipe 🇭🇹 # ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:36:09.580Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0228",
+    "name": "Caribbean Turkey with Rice",
+    "description": "Caribbean Turkey with Rice is a practical stovetop recipe pairing turkey with rice and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 621.895,
+      "proteinG": 32.24,
+      "carbohydratesG": 64.585,
+      "fatG": 27.152,
+      "fiberG": 3.517,
+      "sugarsG": 3.291,
+      "sodiumMg": 223.669,
+      "potassiumMg": 902.341,
+      "calciumMg": 110.747,
+      "ironMg": 3.535,
+      "magnesiumMg": 73.623,
+      "vitaminCMg": 103.329
+    },
+    "estimatedCostPerServingUsd": 2.35,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

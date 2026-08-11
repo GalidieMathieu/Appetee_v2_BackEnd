@@ -1,0 +1,207 @@
+{
+  "seedId": "REC-0136",
+  "candidate": {
+    "sequence": 26,
+    "seedId": "REC-CAND-0026",
+    "name": "Mediterranean Lean Beef with Quinoa"
+  },
+  "name": "Mediterranean Lean Beef with Quinoa",
+  "description": "Mediterranean Lean Beef with Quinoa combines beef with quinoa and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+  "source": {
+    "url": "https://www.frugalnutrition.com/mediterranean-quinoa-bowls/",
+    "domain": "frugalnutrition.com",
+    "accessedAt": "2026-08-10T18:00:00-06:00",
+    "adaptation": "The source's defining beef, quinoa, seasoning profile, and core cooking technique are retained; quantities and supporting vegetables are normalized to the canonical Appetee market ingredients."
+  },
+  "countryOfOrigin": "Mediterranean",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 50,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Grill",
+  "primaryProtein": "beef",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0083",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and prepare every ingredient for mediterranean lean beef with quinoa before heating the cooking vessel.",
+    "Heat the cooking vessel and soften the aromatics before adding the beef.",
+    "Cook the quinoa until tender while the seasoned beef develops its intended color and texture.",
+    "Combine the cooked components with the remaining vegetables and sauce, then adjust the consistency and seasoning.",
+    "Portion the finished mediterranean lean beef with quinoa evenly and serve it warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1620,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2069.532,
+      "proteinG": 176.88,
+      "carbohydratesG": 193.17,
+      "fatG": 65.568,
+      "fiberG": 29.7,
+      "sugarsG": 27.99,
+      "sodiumMg": 399.546,
+      "potassiumMg": 5620.473,
+      "calciumMg": 344.073,
+      "ironMg": 23.991,
+      "magnesiumMg": 733.8,
+      "vitaminCMg": 478.8
+    },
+    "perServing": {
+      "calories": 517.383,
+      "proteinG": 44.22,
+      "carbohydratesG": 48.292,
+      "fatG": 16.392,
+      "fiberG": 7.425,
+      "sugarsG": 6.997,
+      "sodiumMg": 99.886,
+      "potassiumMg": 1405.118,
+      "calciumMg": 86.018,
+      "ironMg": 5.998,
+      "magnesiumMg": 183.45,
+      "vitaminCMg": 119.7
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 25.94,
+    "perServingUsd": 6.49,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber"
+  ],
+  "createdAt": "2024-07-29T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "www.frugalnutrition.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.frugalnutrition.com/mediterranean-quinoa-bowls/",
+    "originalSourceUrl": "https://www.frugalnutrition.com/wp-content/uploads/2017/08/Mediterranean-Quinoa-Bowl-Frugal-Nutrition.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0136",
+    "name": "Mediterranean Lean Beef with Quinoa",
+    "description": "Mediterranean Lean Beef with Quinoa combines beef with quinoa and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 517.383,
+      "proteinG": 44.22,
+      "carbohydratesG": 48.292,
+      "fatG": 16.392,
+      "fiberG": 7.425,
+      "sugarsG": 6.997,
+      "sodiumMg": 99.886,
+      "potassiumMg": 1405.118,
+      "calciumMg": 86.018,
+      "ironMg": 5.998,
+      "magnesiumMg": 183.45,
+      "vitaminCMg": 119.7
+    },
+    "estimatedCostPerServingUsd": 6.49,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber"
+    ]
+  }
+}

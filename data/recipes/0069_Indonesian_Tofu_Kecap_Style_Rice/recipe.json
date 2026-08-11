@@ -1,0 +1,203 @@
+{
+  "seedId": "REC-0069",
+  "name": "Indonesian Tofu Kecap-Style Rice",
+  "description": "Indonesian-inspired tofu and vegetables glazed with sweetened soy-style sauce over rice.",
+  "source": {
+    "url": "https://www.unileverfoodsolutions.co.id/en/recipe/egg-tofu-rice-R0078842.html",
+    "domain": "unileverfoodsolutions.co.id",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Indonesia",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "totalMinutes": 35
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tofu",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0018",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb tofu",
+      "normalizedQuantity": 680.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups dry rice",
+      "normalizedQuantity": 277.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0019",
+      "sourceQuantity": 3,
+      "sourceUnit": "cups",
+      "sourceDisplay": "3 cups peas and carrots",
+      "normalizedQuantity": 420,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 0.25,
+      "sourceUnit": "cup",
+      "sourceDisplay": "¼ cup soy sauce",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0032",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp peanut butter",
+      "normalizedQuantity": 32,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Cook the rice until tender and keep it covered.",
+    "Cube and brown the tofu in a wide skillet.",
+    "Stir together soy sauce, peanut butter, garlic, and water into a glossy sauce.",
+    "Add vegetables and sauce to the tofu, cook until hot, and serve over rice."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1928.36,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1997.255,
+      "proteinG": 109.655,
+      "carbohydratesG": 304.572,
+      "fatG": 49.645,
+      "fiberG": 24.249,
+      "sugarsG": 7.202,
+      "sodiumMg": 4393.84,
+      "potassiumMg": 2651.485,
+      "calciumMg": 1557.899,
+      "ironMg": 17.793,
+      "magnesiumMg": 507.339,
+      "vitaminCMg": 53.081
+    },
+    "perServing": {
+      "calories": 499.314,
+      "proteinG": 27.414,
+      "carbohydratesG": 76.143,
+      "fatG": 12.411,
+      "fiberG": 6.062,
+      "sugarsG": 1.8,
+      "sodiumMg": 1098.46,
+      "potassiumMg": 662.871,
+      "calciumMg": 389.475,
+      "ironMg": 4.448,
+      "magnesiumMg": 126.835,
+      "vitaminCMg": 13.27
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.54,
+    "perServingUsd": 1.89,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-04-17T13:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "www.unileverfoodsolutions.co.id",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.unileverfoodsolutions.co.id/en/recipe/egg-tofu-rice-R0078842.html",
+    "originalSourceUrl": "https://www.unileverfoodsolutions.co.id/dam/global-ufs/mcos/SEA/calcmenu/recipes/ID-recipes/chicken-&-other-poultry-dishes/nasi-tahu-telur/main-header.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0069",
+    "name": "Indonesian Tofu Kecap-Style Rice",
+    "description": "Indonesian-inspired tofu and vegetables glazed with sweetened soy-style sauce over rice.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 499.314,
+      "proteinG": 27.414,
+      "carbohydratesG": 76.143,
+      "fatG": 12.411,
+      "fiberG": 6.062,
+      "sugarsG": 1.8,
+      "sodiumMg": 1098.46,
+      "potassiumMg": 662.871,
+      "calciumMg": 389.475,
+      "ironMg": 4.448,
+      "magnesiumMg": 126.835,
+      "vitaminCMg": 13.27
+    },
+    "estimatedCostPerServingUsd": 1.89,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

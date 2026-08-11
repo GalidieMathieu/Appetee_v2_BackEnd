@@ -1,0 +1,219 @@
+{
+  "seedId": "REC-0072",
+  "name": "French Lentil Potato Salad",
+  "description": "Warm French-style lentil and potato salad with tomato, spinach, and mustard-like vinegar dressing.",
+  "source": {
+    "url": "https://www.joeomar.com/recipes/FrenchLentilSaladNYT.pdf",
+    "domain": "joeomar.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "France",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "totalMinutes": 50
+  },
+  "servings": 5,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "potato",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups dry lentils",
+      "normalizedQuantity": 288,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 2.5
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 2,
+      "sourceUnit": "lb",
+      "sourceDisplay": "2 lb potatoes",
+      "normalizedQuantity": 907.2,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 Roma tomatoes",
+      "normalizedQuantity": 186,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups spinach",
+      "normalizedQuantity": 170,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "medium",
+      "sourceDisplay": "½ onion",
+      "normalizedQuantity": 75,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 0.25,
+      "sourceUnit": "cup",
+      "sourceDisplay": "¼ cup vinegar",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 3,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "3 tbsp olive oil",
+      "normalizedQuantity": 45,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Simmer the lentils until tender but still intact, then drain them.",
+    "Boil the potatoes until tender and cut them into bite-size pieces.",
+    "Whisk the vinegar and oil with finely chopped onion.",
+    "Toss warm lentils and potatoes with tomato, spinach, and dressing."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2029.38,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2216.452,
+      "proteinG": 98.692,
+      "carbohydratesG": 368.209,
+      "fatG": 46.107,
+      "fiberG": 51.197,
+      "sugarsG": 17.71,
+      "sodiumMg": 202.339,
+      "potassiumMg": 6942.952,
+      "calciumMg": 472.537,
+      "ironMg": 30.827,
+      "magnesiumMg": 501.756,
+      "vitaminCMg": 105.652
+    },
+    "perServing": {
+      "calories": 443.29,
+      "proteinG": 19.738,
+      "carbohydratesG": 73.642,
+      "fatG": 9.221,
+      "fiberG": 10.239,
+      "sugarsG": 3.542,
+      "sodiumMg": 40.468,
+      "potassiumMg": 1388.59,
+      "calciumMg": 94.507,
+      "ironMg": 6.165,
+      "magnesiumMg": 100.351,
+      "vitaminCMg": 21.13
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.53,
+    "perServingUsd": 0.91,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-04-22T04:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://fity.club/lists/suggestions/french-potato-salad/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.7JYq3PjwV6rDeor-CWZo1wHaK_&pid=15.1",
+    "discoveredOriginalUrl": "https://thefirstmess.com/wp-content/uploads/2017/04/18-8529-post/vegan-roasted-potato-French-lentil-spring-vegetable-salad-recipe-8.jpg",
+    "searchQuery": "French Lentil Potato Salad plated recipe food",
+    "searchResultTitle": "French Potato Salad French Potato Salad Gimme Some Oven",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:08:23.213Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0072",
+    "name": "French Lentil Potato Salad",
+    "description": "Warm French-style lentil and potato salad with tomato, spinach, and mustard-like vinegar dressing.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 5,
+    "nutritionPerServing": {
+      "calories": 443.29,
+      "proteinG": 19.738,
+      "carbohydratesG": 73.642,
+      "fatG": 9.221,
+      "fiberG": 10.239,
+      "sugarsG": 3.542,
+      "sodiumMg": 40.468,
+      "potassiumMg": 1388.59,
+      "calciumMg": 94.507,
+      "ironMg": 6.165,
+      "magnesiumMg": 100.351,
+      "vitaminCMg": 21.13
+    },
+    "estimatedCostPerServingUsd": 0.91,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

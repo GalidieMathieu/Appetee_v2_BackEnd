@@ -1,0 +1,198 @@
+{
+  "seedId": "REC-0084",
+  "name": "Filipino Bistek",
+  "description": "Thin sirloin slices simmered in a savory lemon-soy sauce with soft onions.",
+  "source": {
+    "url": "https://panlasangpinoy.com/bistek-tagalog-beefsteak-recipe/",
+    "domain": "panlasangpinoy.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Philippines",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "beef",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 1,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1 lb thinly sliced beef",
+      "normalizedQuantity": 453.592,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "5 tbsp soy sauce",
+      "normalizedQuantity": 75,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "juice of 1 lemon",
+      "normalizedQuantity": 58,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 3,
+      "sourceUnit": "cloves",
+      "sourceDisplay": "3 garlic cloves",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 onions, sliced",
+      "normalizedQuantity": 450,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 4,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "4 tbsp olive oil",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Marinate the thinly sliced beef in soy sauce, lemon juice, and black pepper.",
+    "Pan-fry half of the onions in oil until soft, then set them aside.",
+    "Sear the drained beef briefly on both sides and remove it from the pan.",
+    "Sauté the garlic and remaining onions, then simmer them with the reserved marinade and water.",
+    "Return the beef to the sauce and cook gently until tender, then top it with the reserved onions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 947.394,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1315.006,
+      "proteinG": 113.56,
+      "carbohydratesG": 53.405,
+      "fatG": 71.627,
+      "fiberG": 11.185,
+      "sugarsG": 1.948,
+      "sodiumMg": 5039.614,
+      "potassiumMg": 2957.509,
+      "calciumMg": 238.776,
+      "ironMg": 10.733,
+      "magnesiumMg": 217.596,
+      "vitaminCMg": 72.32
+    },
+    "perServing": {
+      "calories": 328.752,
+      "proteinG": 28.39,
+      "carbohydratesG": 13.351,
+      "fatG": 17.907,
+      "fiberG": 2.796,
+      "sugarsG": 0.487,
+      "sodiumMg": 1259.903,
+      "potassiumMg": 739.377,
+      "calciumMg": 59.694,
+      "ironMg": 2.683,
+      "magnesiumMg": 54.399,
+      "vitaminCMg": 18.08
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 16.52,
+    "perServingUsd": 4.13,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb"
+  ],
+  "createdAt": "2024-05-10T16:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "panlasangpinoy.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://panlasangpinoy.com/bistek-tagalog-beefsteak-recipe/",
+    "originalSourceUrl": "https://panlasangpinoy.com/wp-content/uploads/2018/11/Beef-steak.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0084",
+    "name": "Filipino Bistek",
+    "description": "Thin sirloin slices simmered in a savory lemon-soy sauce with soft onions.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 328.752,
+      "proteinG": 28.39,
+      "carbohydratesG": 13.351,
+      "fatG": 17.907,
+      "fiberG": 2.796,
+      "sugarsG": 0.487,
+      "sodiumMg": 1259.903,
+      "potassiumMg": 739.377,
+      "calciumMg": 59.694,
+      "ironMg": 2.683,
+      "magnesiumMg": 54.399,
+      "vitaminCMg": 18.08
+    },
+    "estimatedCostPerServingUsd": 4.13,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb"
+    ]
+  }
+}

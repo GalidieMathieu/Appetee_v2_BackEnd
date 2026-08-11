@@ -1,0 +1,199 @@
+{
+  "seedId": "REC-0044",
+  "name": "Spinach Egg Breakfast Wraps",
+  "description": "Freezer-friendly whole-wheat wraps with eggs, spinach, tomato, and cottage cheese.",
+  "source": {
+    "url": "https://www.thekitchn.com/recipe-spinach-feta-breakfast-wraps-recipes-from-the-kitchn-210526",
+    "domain": "thekitchn.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 4,
+      "sourceUnit": "tortillas",
+      "sourceDisplay": "4 whole-wheat tortillas",
+      "normalizedQuantity": 181.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 8,
+      "sourceUnit": "large",
+      "sourceDisplay": "8 eggs",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups spinach",
+      "normalizedQuantity": 170,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 2,
+      "sourceUnit": "medium",
+      "sourceDisplay": "2 Roma tomatoes",
+      "normalizedQuantity": 124,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0035",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup cottage cheese",
+      "normalizedQuantity": 226,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Scramble the eggs until softly set and cool them slightly.",
+    "Cook the spinach until hot and squeeze out excess moisture.",
+    "Layer eggs, spinach, tomato, and cottage cheese over the tortillas.",
+    "Roll tightly and toast for serving or cool completely before freezing."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1032,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1368.68,
+      "proteinG": 103.391,
+      "carbohydratesG": 104.27,
+      "fatG": 59.267,
+      "fiberG": 24.195,
+      "sugarsG": 16.42,
+      "sodiumMg": 2736.798,
+      "potassiumMg": 2103.708,
+      "calciumMg": 1036.176,
+      "ironMg": 15.635,
+      "magnesiumMg": 354.63,
+      "vitaminCMg": 26.338
+    },
+    "perServing": {
+      "calories": 342.17,
+      "proteinG": 25.848,
+      "carbohydratesG": 26.067,
+      "fatG": 14.817,
+      "fiberG": 6.049,
+      "sugarsG": 4.105,
+      "sodiumMg": 684.199,
+      "potassiumMg": 525.927,
+      "calciumMg": 259.044,
+      "ironMg": 3.909,
+      "magnesiumMg": 88.657,
+      "vitaminCMg": 6.585
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.96,
+    "perServingUsd": 0.99,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "High Fiber",
+    "Quick Meal",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-03-10T00:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "betterhomerecipes.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://betterhomerecipes.com/easy-spinach-egg-wraps-that-transform-your-breakfast-bliss/",
+    "originalSourceUrl": "https://betterhomerecipes.com/wp-content/uploads/2025/10/sggvf2ihfgzvjmg4xbse.webp",
+    "discoveredOriginalUrl": "https://betterhomerecipes.com/wp-content/uploads/2025/10/sggvf2ihfgzvjmg4xbse.webp",
+    "searchQuery": "Spinach Egg Breakfast Wraps plated recipe food",
+    "searchResultTitle": "Easy Spinach Egg Wraps: The Ultimate Guilt-Free Crispy Breakfast",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:07:40.097Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0044",
+    "name": "Spinach Egg Breakfast Wraps",
+    "description": "Freezer-friendly whole-wheat wraps with eggs, spinach, tomato, and cottage cheese.",
+    "mealType": "Breakfast",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 342.17,
+      "proteinG": 25.848,
+      "carbohydratesG": 26.067,
+      "fatG": 14.817,
+      "fiberG": 6.049,
+      "sugarsG": 4.105,
+      "sodiumMg": 684.199,
+      "potassiumMg": 525.927,
+      "calciumMg": 259.044,
+      "ironMg": 3.909,
+      "magnesiumMg": 88.657,
+      "vitaminCMg": 6.585
+    },
+    "estimatedCostPerServingUsd": 0.99,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "Low Carb",
+      "High Fiber",
+      "Quick Meal",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

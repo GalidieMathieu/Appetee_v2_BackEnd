@@ -1,0 +1,205 @@
+{
+  "seedId": "REC-0049",
+  "name": "Black Bean Quinoa Wraps",
+  "description": "Whole-wheat wraps filled with black beans, quinoa, corn, spinach, and salsa.",
+  "source": {
+    "url": "https://www.food.com/recipe/black-bean-avocado-quinoa-wrap-516928",
+    "domain": "food.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "totalMinutes": 35
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "black beans",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 4,
+      "sourceUnit": "tortillas",
+      "sourceDisplay": "4 whole-wheat tortillas",
+      "normalizedQuantity": 181.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can black beans, drained",
+      "normalizedQuantity": 260,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 0.75,
+      "sourceUnit": "cup",
+      "sourceDisplay": "¾ cup dry quinoa",
+      "normalizedQuantity": 127.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup corn",
+      "normalizedQuantity": 165,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup spinach",
+      "normalizedQuantity": 85,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 0.75,
+      "sourceUnit": "cup",
+      "sourceDisplay": "¾ cup salsa",
+      "normalizedQuantity": 195,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Cook the quinoa until tender and let it steam dry.",
+    "Warm the black beans and corn together.",
+    "Layer spinach, quinoa, beans, corn, and salsa over the tortillas.",
+    "Fold the sides inward and roll each wrap tightly."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1243.9,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1545.39,
+      "proteinG": 63.749,
+      "carbohydratesG": 265.164,
+      "fatG": 30.706,
+      "fiberG": 36.637,
+      "sugarsG": 10.044,
+      "sodiumMg": 3036.163,
+      "potassiumMg": 3032.543,
+      "calciumMg": 784.321,
+      "ironMg": 18.193,
+      "magnesiumMg": 629.455,
+      "vitaminCMg": 10.45
+    },
+    "perServing": {
+      "calories": 386.348,
+      "proteinG": 15.937,
+      "carbohydratesG": 66.291,
+      "fatG": 7.676,
+      "fiberG": 9.159,
+      "sugarsG": 2.511,
+      "sodiumMg": 759.041,
+      "potassiumMg": 758.136,
+      "calciumMg": 196.08,
+      "ironMg": 4.548,
+      "magnesiumMg": 157.364,
+      "vitaminCMg": 2.612
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.42,
+    "perServingUsd": 1.1,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-03-17T17:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "flavoritely.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://flavoritely.com/quinoa-black-bean-pastry-wraps/",
+    "originalSourceUrl": "https://flavoritely.com/wp-content/uploads/2025/05/Quinoa-Black-Bean-Pastry-Wraps.webp",
+    "discoveredOriginalUrl": "https://flavoritely.com/wp-content/uploads/2025/05/Quinoa-Black-Bean-Pastry-Wraps.webp",
+    "searchQuery": "Black Bean Quinoa Wraps plated recipe food",
+    "searchResultTitle": "Quinoa Black Bean Pastry Wraps - Flavoritely",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:07:39.345Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0049",
+    "name": "Black Bean Quinoa Wraps",
+    "description": "Whole-wheat wraps filled with black beans, quinoa, corn, spinach, and salsa.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 386.348,
+      "proteinG": 15.937,
+      "carbohydratesG": 66.291,
+      "fatG": 7.676,
+      "fiberG": 9.159,
+      "sugarsG": 2.511,
+      "sodiumMg": 759.041,
+      "potassiumMg": 758.136,
+      "calciumMg": 196.08,
+      "ironMg": 4.548,
+      "magnesiumMg": 157.364,
+      "vitaminCMg": 2.612
+    },
+    "estimatedCostPerServingUsd": 1.1,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

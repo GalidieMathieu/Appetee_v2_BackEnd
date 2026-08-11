@@ -1,0 +1,122 @@
+{
+  "seedId": "ING-0061",
+  "name": "Green Bell Pepper",
+  "canonicalName": "Green Bell Pepper",
+  "description": "Raw fresh green sweet bell pepper.",
+  "measurementType": "solid",
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  },
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Fresh Green Bell Pepper, Each",
+    "productId": "44390945",
+    "productUrl": "https://www.walmart.com/ip/44390945",
+    "brand": "Fresh Produce",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 0.82,
+    "packageQuantity": 119,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 20,
+      "proteinG": 0.86,
+      "carbohydratesG": 4.64,
+      "fatG": 0.17,
+      "fiberG": 1.7,
+      "sugarsG": 2.4,
+      "sodiumMg": 3,
+      "potassiumMg": 175,
+      "calciumMg": 10,
+      "ironMg": 0.34,
+      "magnesiumMg": 10,
+      "vitaminCMg": 80.4
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.6891
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 170427,
+      "dataType": "SR Legacy",
+      "description": "Peppers, sweet, green, raw",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/170427/nutrients",
+      "searchQuery": "peppers sweet green raw",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": "One medium pepper is modeled at the USDA standard edible mass of 119 g; retail price is per each."
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": "One medium pepper is modeled at the USDA standard edible mass of 119 g; retail price is per each."
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "imageType": "external-real-product-photograph",
+    "aiGenerated": false,
+    "provider": "i5.walmartimages.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/44390945",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Fresh-Green-Bell-Pepper-Each_3671a259-ff3d-425b-a9f7-5f467431b0b7.33f893b7fba8deea9c6a1f391da98f9f.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:42:23.244Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0061",
+    "name": "Green Bell Pepper",
+    "description": "Raw fresh green sweet bell pepper.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 20,
+      "proteinG": 0.86,
+      "carbohydratesG": 4.64,
+      "fatG": 0.17,
+      "fiberG": 1.7,
+      "sugarsG": 2.4,
+      "sodiumMg": 3,
+      "potassiumMg": 175,
+      "calciumMg": 10,
+      "ironMg": 0.34,
+      "magnesiumMg": 10,
+      "vitaminCMg": 80.4
+    },
+    "price": {
+      "usdPerBasis": 0.6891,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": null
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "seedId": "REC-0795",
+  "candidate": {
+    "sequence": 1287,
+    "seedId": "REC-CAND-1287",
+    "name": "Indian Tempeh Quinoa Bowl"
+  },
+  "name": "Indian Tempeh Quinoa Bowl",
+  "description": "Indian Tempeh Quinoa Bowl is a practical stovetop recipe pairing tempeh with quinoa and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.thepeskyvegan.com/recipes/jerk-tempeh/",
+    "domain": "thepeskyvegan.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Jamaican Tempeh with Quinoa source while retaining its closest matching dish form, cooking sequence, and applicable tempeh or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Jamaica",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 40,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tempeh",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0049",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tempeh, and quinoa for indian tempeh quinoa bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tempeh and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the indian tempeh quinoa bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1223,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1715.23,
+      "proteinG": 102.926,
+      "carbohydratesG": 235.697,
+      "fatG": 49.405,
+      "sodiumMg": 174.63,
+      "potassiumMg": 4033.95,
+      "calciumMg": 588.75,
+      "ironMg": 23.269,
+      "magnesiumMg": 803.51,
+      "vitaminCMg": 445.136,
+      "fiberG": 34.315,
+      "sugarsG": 14.648
+    },
+    "perServing": {
+      "calories": 428.808,
+      "proteinG": 25.732,
+      "carbohydratesG": 58.924,
+      "fatG": 12.351,
+      "sodiumMg": 43.657,
+      "potassiumMg": 1008.487,
+      "calciumMg": 147.188,
+      "ironMg": 5.817,
+      "magnesiumMg": 200.877,
+      "vitaminCMg": 111.284,
+      "fiberG": 8.579,
+      "sugarsG": 3.662
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 15.66,
+    "perServingUsd": 3.92,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-05-11T19:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://honestcooking.com/quinoa-cilantro-lime-tempeh-bowl/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.zJjVF2sUZ7KG_9Sx6PoZswHaNR&pid=15.1",
+    "discoveredOriginalUrl": "https://honestcooking.com/wp-content/uploads/2026/03/quinoa-cilantro-lime-tempeh-bowl.jpg",
+    "searchQuery": "Indian Tempeh Quinoa Bowl plated recipe food",
+    "searchResultTitle": "Quinoa and Cilantro Lime Tempeh Bowl",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:06:31.516Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0795",
+    "name": "Indian Tempeh Quinoa Bowl",
+    "description": "Indian Tempeh Quinoa Bowl is a practical stovetop recipe pairing tempeh with quinoa and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 428.808,
+      "proteinG": 25.732,
+      "carbohydratesG": 58.924,
+      "fatG": 12.351,
+      "sodiumMg": 43.657,
+      "potassiumMg": 1008.487,
+      "calciumMg": 147.188,
+      "ironMg": 5.817,
+      "magnesiumMg": 200.877,
+      "vitaminCMg": 111.284,
+      "fiberG": 8.579,
+      "sugarsG": 3.662
+    },
+    "estimatedCostPerServingUsd": 3.92,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

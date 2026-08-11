@@ -1,0 +1,221 @@
+{
+  "seedId": "REC-0098",
+  "name": "Filipino Eggplant Adobo",
+  "description": "Tender eggplant and browned pork simmered in a garlicky sweet-and-sour soy adobo sauce.",
+  "source": {
+    "url": "https://salu-salo.com/eggplant-adobo/",
+    "domain": "salu-salo.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source quantities and complete adobo technique are retained; apple cider vinegar replaces unseasoned rice vinegar."
+  },
+  "countryOfOrigin": "Philippines",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 40,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Braise",
+  "primaryProtein": "pork",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0064",
+      "sourceQuantity": 1,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1 lb eggplant",
+      "normalizedQuantity": 453.592,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0052",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp sugar",
+      "normalizedQuantity": 25,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 8,
+      "sourceUnit": "cloves",
+      "sourceDisplay": "8 thinly sliced garlic cloves",
+      "normalizedQuantity": 40,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 3,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "3 tbsp oil",
+      "normalizedQuantity": 45,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0048",
+      "sourceQuantity": 4,
+      "sourceUnit": "oz",
+      "sourceDisplay": "4 oz ground pork",
+      "normalizedQuantity": 113.398,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 3,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "3 tbsp vinegar",
+      "normalizedQuantity": 45,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp soy sauce",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0065",
+      "sourceQuantity": 2,
+      "sourceUnit": "leaves",
+      "sourceDisplay": "2 bay leaves",
+      "normalizedQuantity": 0.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Salt the cut eggplant with part of the sugar and pepper and let it release moisture.",
+    "Fry half of the garlic in oil until crisp, then reserve the garlic chips.",
+    "Brown the pork in the same pot and transfer it to a plate.",
+    "Blot and brown the eggplant in batches until lightly colored on each side.",
+    "Simmer water, vinegar, soy sauce, bay leaves, remaining garlic, pepper, and sugar into an adobo sauce.",
+    "Return the pork and eggplant and braise until tender, then top the dish with garlic chips."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 678.681,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 959.223,
+      "proteinG": 29.017,
+      "carbohydratesG": 67.349,
+      "fatG": 66.239,
+      "fiberG": 14.831,
+      "sugarsG": 41.683,
+      "sodiumMg": 1993.328,
+      "potassiumMg": 1712.162,
+      "calciumMg": 147.76,
+      "ironMg": 3.731,
+      "magnesiumMg": 123.553,
+      "vitaminCMg": 23.439
+    },
+    "perServing": {
+      "calories": 239.806,
+      "proteinG": 7.254,
+      "carbohydratesG": 16.837,
+      "fatG": 16.56,
+      "fiberG": 3.708,
+      "sugarsG": 10.421,
+      "sodiumMg": 498.332,
+      "potassiumMg": 428.041,
+      "calciumMg": 36.94,
+      "ironMg": 0.933,
+      "magnesiumMg": 30.888,
+      "vitaminCMg": 5.86
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.07,
+    "perServingUsd": 1.02,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-06-01T06:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "salu-salo.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://salu-salo.com/eggplant-adobo/",
+    "originalSourceUrl": "https://salu-salo.com/wp-content/uploads/2014/04/Eggplant-Adobo-3.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0098",
+    "name": "Filipino Eggplant Adobo",
+    "description": "Tender eggplant and browned pork simmered in a garlicky sweet-and-sour soy adobo sauce.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 239.806,
+      "proteinG": 7.254,
+      "carbohydratesG": 16.837,
+      "fatG": 16.56,
+      "fiberG": 3.708,
+      "sugarsG": 10.421,
+      "sodiumMg": 498.332,
+      "potassiumMg": 428.041,
+      "calciumMg": 36.94,
+      "ironMg": 0.933,
+      "magnesiumMg": 30.888,
+      "vitaminCMg": 5.86
+    },
+    "estimatedCostPerServingUsd": 1.02,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Budget Friendly"
+    ]
+  }
+}

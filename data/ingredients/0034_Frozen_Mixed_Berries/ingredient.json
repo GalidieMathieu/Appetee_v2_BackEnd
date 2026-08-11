@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0034",
+  "name": "Frozen Mixed Berries",
+  "canonicalName": "Frozen Mixed Berries",
+  "description": "Frozen unsweetened cherry-berry fruit blend.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Frozen Cherry Berry Fruit Blend, 48 oz",
+    "productId": "46491742",
+    "productUrl": "https://www.walmart.com/ip/46491742",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 8,
+    "packageQuantity": 1360.777,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 35,
+      "proteinG": 0.43,
+      "carbohydratesG": 9.13,
+      "fatG": 0.11,
+      "fiberG": 2.1,
+      "sugarsG": 4.56,
+      "sodiumMg": 2,
+      "potassiumMg": 148,
+      "calciumMg": 16,
+      "ironMg": 0.75,
+      "magnesiumMg": 11,
+      "vitaminCMg": 41.2
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.5879
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 168173,
+      "dataType": "SR Legacy",
+      "description": "Strawberries, frozen, unsweetened (Includes foods for USDA's Food Distribution Program)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/168173/nutrients",
+      "searchQuery": "berries mixed frozen unsweetened",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.freepik.com/premium-photo/close-up-frozen-mixed-berries-background_78980908.htm",
+    "originalSourceUrl": "https://img.freepik.com/premium-photo/close-up-frozen-mixed-berries-background_93675-153986.jpg",
+    "searchQuery": "Frozen Mixed Berries ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0034",
+    "name": "Frozen Mixed Berries",
+    "description": "Frozen unsweetened cherry-berry fruit blend.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 35,
+      "proteinG": 0.43,
+      "carbohydratesG": 9.13,
+      "fatG": 0.11,
+      "fiberG": 2.1,
+      "sugarsG": 4.56,
+      "sodiumMg": 2,
+      "potassiumMg": 148,
+      "calciumMg": 16,
+      "ironMg": 0.75,
+      "magnesiumMg": 11,
+      "vitaminCMg": 41.2
+    },
+    "price": {
+      "usdPerBasis": 0.5879,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0034_Frozen_Mixed_Berries/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

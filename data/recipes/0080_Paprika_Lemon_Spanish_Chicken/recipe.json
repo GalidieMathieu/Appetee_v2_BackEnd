@@ -1,0 +1,219 @@
+{
+  "seedId": "REC-0080",
+  "name": "Paprika-Lemon Spanish Chicken",
+  "description": "Oven-baked chicken with sweet paprika, lemon, onions, and a light broth sauce.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/spanish-chicken",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source chicken-thigh structure, seasoning, and oven method are retained; dried parsley replaces fresh parsley to use a validated shelf-stable product."
+  },
+  "countryOfOrigin": "Spain",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 45,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0036",
+      "sourceQuantity": 8,
+      "sourceUnit": "pieces",
+      "sourceDisplay": "8 boneless skinless chicken thighs",
+      "normalizedQuantity": 1360.8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 onions, thinly sliced",
+      "normalizedQuantity": 450,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 2,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "2 tsp paprika",
+      "normalizedQuantity": 4.6,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "zest and juice of 1 lemon",
+      "normalizedQuantity": 58,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 2,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "2 tsp dried parsley",
+      "normalizedQuantity": 1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0055",
+      "sourceQuantity": 150,
+      "sourceUnit": "ml",
+      "sourceDisplay": "150 ml chicken broth",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp olive oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Heat the oven to 375°F and spread the onions in a wide baking dish.",
+    "Coat the chicken with paprika, lemon, parsley, broth, and olive oil.",
+    "Bake the chicken and onions together, stirring the onions halfway through.",
+    "Confirm the chicken reaches 165°F and the onions are tender before serving."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1648.4,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1831.758,
+      "proteinG": 267.24,
+      "carbohydratesG": 47.711,
+      "fatG": 64.911,
+      "fiberG": 12.046,
+      "sugarsG": 2.326,
+      "sodiumMg": 2482.929,
+      "potassiumMg": 4342.628,
+      "calciumMg": 225.514,
+      "ironMg": 11.43,
+      "magnesiumMg": 344.596,
+      "vitaminCMg": 69.531
+    },
+    "perServing": {
+      "calories": 457.94,
+      "proteinG": 66.81,
+      "carbohydratesG": 11.928,
+      "fatG": 16.228,
+      "fiberG": 3.011,
+      "sugarsG": 0.582,
+      "sodiumMg": 620.732,
+      "potassiumMg": 1085.657,
+      "calciumMg": 56.379,
+      "ironMg": 2.857,
+      "magnesiumMg": 86.149,
+      "vitaminCMg": 17.383
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 11.91,
+    "perServingUsd": 2.98,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Low Carb",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-05-04T12:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "images.immediate.co.uk",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.bbcgoodfood.com/recipes/spanish-chicken",
+    "originalSourceUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-50580_12-a6248f4.jpg?resize=440%2C230",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0080",
+    "name": "Paprika-Lemon Spanish Chicken",
+    "description": "Oven-baked chicken with sweet paprika, lemon, onions, and a light broth sauce.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 457.94,
+      "proteinG": 66.81,
+      "carbohydratesG": 11.928,
+      "fatG": 16.228,
+      "fiberG": 3.011,
+      "sugarsG": 0.582,
+      "sodiumMg": 620.732,
+      "potassiumMg": 1085.657,
+      "calciumMg": 56.379,
+      "ironMg": 2.857,
+      "magnesiumMg": 86.149,
+      "vitaminCMg": 17.383
+    },
+    "estimatedCostPerServingUsd": 2.98,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Low Carb",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "seedId": "ING-0019",
+  "name": "Frozen Peas and Carrots",
+  "canonicalName": "Frozen Peas and Carrots",
+  "description": "Frozen green peas and diced carrots.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Frozen Peas & Carrots, 12 oz",
+    "productId": "994038828",
+    "productUrl": "https://www.walmart.com/ip/994038828",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 0.98,
+    "packageQuantity": 340.194,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 53,
+      "proteinG": 3.4,
+      "carbohydratesG": 11.2,
+      "fatG": 0.47,
+      "fiberG": 3.4,
+      "sodiumMg": 79,
+      "potassiumMg": 194,
+      "calciumMg": 27,
+      "ironMg": 1.09,
+      "magnesiumMg": 18,
+      "vitaminCMg": 11.2
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.2881
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 170425,
+      "dataType": "SR Legacy",
+      "description": "Peas and carrots, frozen, unprepared",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/170425/nutrients",
+      "searchQuery": "peas and carrots frozen unprepared",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.freepik.com/premium-photo/frozen-peas-carrots-vegetables-frozen-foods_26709643.htm",
+    "originalSourceUrl": "https://img.freepik.com/premium-photo/frozen-peas-carrots-vegetables-frozen-foods_231786-7491.jpg?w=2000",
+    "searchQuery": "Frozen Peas and Carrots ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0019",
+    "name": "Frozen Peas and Carrots",
+    "description": "Frozen green peas and diced carrots.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 53,
+      "proteinG": 3.4,
+      "carbohydratesG": 11.2,
+      "fatG": 0.47,
+      "fiberG": 3.4,
+      "sodiumMg": 79,
+      "potassiumMg": 194,
+      "calciumMg": 27,
+      "ironMg": 1.09,
+      "magnesiumMg": 18,
+      "vitaminCMg": 11.2
+    },
+    "price": {
+      "usdPerBasis": 0.2881,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0019_Frozen_Peas_and_Carrots/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "seedId": "REC-0163",
+  "candidate": {
+    "sequence": 55,
+    "seedId": "REC-CAND-0055",
+    "name": "Tuna Taco Bowl"
+  },
+  "name": "Tuna Taco Bowl",
+  "description": "Tuna Taco Bowl combines tuna with rice and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+  "source": {
+    "url": "https://b2b.chickenofthesea.com/recipes/tuna-taco-bowl/",
+    "domain": "b2b.chickenofthesea.com",
+    "accessedAt": "2026-08-10T18:00:00-06:00",
+    "adaptation": "The source's defining tuna, rice, seasoning profile, and core cooking technique are retained; quantities and supporting vegetables are normalized to the canonical Appetee market ingredients."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "tuna",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0025",
+      "sourceQuantity": 340,
+      "sourceUnit": "g",
+      "sourceDisplay": "340 g",
+      "normalizedQuantity": 340,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and prepare every ingredient for tuna taco bowl before heating the cooking vessel.",
+    "Heat the cooking vessel and soften the aromatics before adding the tuna.",
+    "Cook the rice until tender while the seasoned tuna develops its intended color and texture.",
+    "Combine the cooked components with the remaining vegetables and sauce, then adjust the consistency and seasoning.",
+    "Portion the finished tuna taco bowl evenly and serve it warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1647,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2097.29,
+      "proteinG": 146.497,
+      "carbohydratesG": 358.79,
+      "fatG": 13.561,
+      "fiberG": 13.742,
+      "sugarsG": 9.454,
+      "sodiumMg": 3112.009,
+      "potassiumMg": 3732.87,
+      "calciumMg": 349.951,
+      "ironMg": 16.123,
+      "magnesiumMg": 434.955,
+      "vitaminCMg": 18.06
+    },
+    "perServing": {
+      "calories": 524.322,
+      "proteinG": 36.624,
+      "carbohydratesG": 89.698,
+      "fatG": 3.39,
+      "fiberG": 3.436,
+      "sugarsG": 2.364,
+      "sodiumMg": 778.002,
+      "potassiumMg": 933.217,
+      "calciumMg": 87.488,
+      "ironMg": 4.031,
+      "magnesiumMg": 108.739,
+      "vitaminCMg": 4.515
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.95,
+    "perServingUsd": 1.74,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Quick Meal",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-09-09T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "b2b.chickenofthesea.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://b2b.chickenofthesea.com/recipes/tuna-taco-bowl/",
+    "originalSourceUrl": "https://b2b.chickenofthesea.com/wp-content/uploads/2022/06/tuna-taco-bowl.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0163",
+    "name": "Tuna Taco Bowl",
+    "description": "Tuna Taco Bowl combines tuna with rice and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 524.322,
+      "proteinG": 36.624,
+      "carbohydratesG": 89.698,
+      "fatG": 3.39,
+      "fiberG": 3.436,
+      "sugarsG": 2.364,
+      "sodiumMg": 778.002,
+      "potassiumMg": 933.217,
+      "calciumMg": 87.488,
+      "ironMg": 4.031,
+      "magnesiumMg": 108.739,
+      "vitaminCMg": 4.515
+    },
+    "estimatedCostPerServingUsd": 1.74,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Quick Meal",
+      "Budget Friendly"
+    ]
+  }
+}

@@ -1,0 +1,225 @@
+{
+  "seedId": "REC-0101",
+  "name": "Costa Rican Gallo Pinto",
+  "description": "Rice and black beans fried with bell pepper, onion, cilantro, cumin, and a savory sauce.",
+  "source": {
+    "url": "https://www.recipesfromcostarica.com/recipes",
+    "domain": "recipesfromcostarica.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source bean-to-rice balance, aromatics, cumin, and frying method are retained; soy sauce replaces the small quantity of Salsa Lizano."
+  },
+  "countryOfOrigin": "Costa Rica",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "totalMinutes": 25
+  },
+  "servings": 2,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "black beans",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 0.67,
+      "sourceUnit": "cup",
+      "sourceDisplay": "⅔ cup black beans",
+      "normalizedQuantity": 170,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 1.25,
+      "sourceUnit": "cups cooked",
+      "sourceDisplay": "1¼ cups cooked rice",
+      "normalizedQuantity": 78,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source cooked rice represented by approximately 78 g dry rice before cooking",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp chopped onion",
+      "normalizedQuantity": 20,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0061",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp chopped green pepper",
+      "normalizedQuantity": 20,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp chopped cilantro",
+      "normalizedQuantity": 8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "½ tsp savory sauce",
+      "normalizedQuantity": 2.5,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "½ tsp cumin",
+      "normalizedQuantity": 1.05,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp cooking oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Heat the oil and cook the onion, pepper, cilantro, garlic, cumin, salt, and pepper until softened.",
+    "Stir in the black beans and savory sauce and cook them for five minutes.",
+    "Fold in the cooked rice and continue cooking until the grains absorb the seasonings.",
+    "Serve the gallo pinto moist or continue frying briefly for a drier, lightly toasted finish."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 309.75,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 615.101,
+      "proteinG": 18.17,
+      "carbohydratesG": 99.845,
+      "fatG": 16.949,
+      "sodiumMg": 536.687,
+      "potassiumMg": 638.92,
+      "calciumMg": 98.318,
+      "ironMg": 4.064,
+      "magnesiumMg": 87.789,
+      "fiberG": 1.194,
+      "vitaminCMg": 19.961,
+      "sugarsG": 0.585
+    },
+    "perServing": {
+      "calories": 307.55,
+      "proteinG": 9.085,
+      "carbohydratesG": 49.922,
+      "fatG": 8.475,
+      "sodiumMg": 268.344,
+      "potassiumMg": 319.46,
+      "calciumMg": 49.159,
+      "ironMg": 2.032,
+      "magnesiumMg": 43.895,
+      "fiberG": 0.597,
+      "vitaminCMg": 9.98,
+      "sugarsG": 0.292
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 1.1,
+    "perServingUsd": 0.55,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Quick Meal",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-06-05T21:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "www.laylita.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.laylita.com/recipes/costa-rican-gallo-pinto-rice-and-beans/",
+    "originalSourceUrl": "https://www.laylita.com/recipes/wp-content/uploads/2025/10/Gallo-Pinto-from-Costa-Rica-768x1024.jpg",
+    "discoveredOriginalUrl": "https://www.laylita.com/recipes/wp-content/uploads/2025/10/Gallo-Pinto-from-Costa-Rica-768x1024.jpg",
+    "searchQuery": "Costa Rican Gallo Pinto plated recipe food",
+    "searchResultTitle": "Costa Rican Gallo Pinto (Rice and Beans) – Laylita's Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:09:00.309Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0101",
+    "name": "Costa Rican Gallo Pinto",
+    "description": "Rice and black beans fried with bell pepper, onion, cilantro, cumin, and a savory sauce.",
+    "mealType": "Breakfast",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 25,
+    "servings": 2,
+    "nutritionPerServing": {
+      "calories": 307.55,
+      "proteinG": 9.085,
+      "carbohydratesG": 49.922,
+      "fatG": 8.475,
+      "sodiumMg": 268.344,
+      "potassiumMg": 319.46,
+      "calciumMg": 49.159,
+      "ironMg": 2.032,
+      "magnesiumMg": 43.895,
+      "fiberG": 0.597,
+      "vitaminCMg": 9.98,
+      "sugarsG": 0.292
+    },
+    "estimatedCostPerServingUsd": 0.55,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Quick Meal",
+      "Budget Friendly"
+    ]
+  }
+}

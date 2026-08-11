@@ -1,0 +1,207 @@
+{
+  "seedId": "REC-0140",
+  "candidate": {
+    "sequence": 30,
+    "seedId": "REC-CAND-0030",
+    "name": "Chinese Sausage with Potatoes"
+  },
+  "name": "Chinese Sausage with Potatoes",
+  "description": "Chinese Sausage with Potatoes combines pork with potatoes and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+  "source": {
+    "url": "https://www.tastelife.tv/recipe/stir-fry-potato-with-chinese-sausage_12578.html",
+    "domain": "tastelife.tv",
+    "accessedAt": "2026-08-10T18:00:00-06:00",
+    "adaptation": "The source's defining pork, potatoes, seasoning profile, and core cooking technique are retained; quantities and supporting vegetables are normalized to the canonical Appetee market ingredients."
+  },
+  "countryOfOrigin": "China",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 50,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "pork",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0085",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0050",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0071",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and prepare every ingredient for chinese sausage with potatoes before heating the cooking vessel.",
+    "Heat the cooking vessel and soften the aromatics before adding the pork.",
+    "Cook the potatoes until tender while the seasoned pork develops its intended color and texture.",
+    "Combine the cooked components with the remaining vegetables and sauce, then adjust the consistency and seasoning.",
+    "Portion the finished chinese sausage with potatoes evenly and serve it warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1410,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2725.428,
+      "proteinG": 127.243,
+      "carbohydratesG": 130.266,
+      "fatG": 193.548,
+      "fiberG": 26.978,
+      "sugarsG": 23.659,
+      "sodiumMg": 6878.52,
+      "potassiumMg": 5656.38,
+      "calciumMg": 443.484,
+      "ironMg": 18.775,
+      "magnesiumMg": 433.752,
+      "vitaminCMg": 63.9
+    },
+    "perServing": {
+      "calories": 681.357,
+      "proteinG": 31.811,
+      "carbohydratesG": 32.566,
+      "fatG": 48.387,
+      "fiberG": 6.745,
+      "sugarsG": 5.915,
+      "sodiumMg": 1719.63,
+      "potassiumMg": 1414.095,
+      "calciumMg": 110.871,
+      "ironMg": 4.694,
+      "magnesiumMg": 108.438,
+      "vitaminCMg": 15.975
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.18,
+    "perServingUsd": 1.79,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-08-05T00:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "img.tastelife.tv",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.tastelife.tv/recipe/stir-fry-potato-with-chinese-sausage_12578.html",
+    "originalSourceUrl": "https://img.tastelife.tv/assets/uploads/2020/05/Stir_Fry_Potato_with_Chinese_Sausage_00878_chef_john_at_5.58.53_PM-1200x675.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0140",
+    "name": "Chinese Sausage with Potatoes",
+    "description": "Chinese Sausage with Potatoes combines pork with potatoes and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 681.357,
+      "proteinG": 31.811,
+      "carbohydratesG": 32.566,
+      "fatG": 48.387,
+      "fiberG": 6.745,
+      "sugarsG": 5.915,
+      "sodiumMg": 1719.63,
+      "potassiumMg": 1414.095,
+      "calciumMg": 110.871,
+      "ironMg": 4.694,
+      "magnesiumMg": 108.438,
+      "vitaminCMg": 15.975
+    },
+    "estimatedCostPerServingUsd": 1.79,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

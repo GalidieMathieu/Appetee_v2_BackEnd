@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0023",
+  "name": "Roma Tomatoes",
+  "canonicalName": "Roma Tomatoes",
+  "description": "Raw fresh Roma tomatoes.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Fresh Roma Tomatoes, 2 lb",
+    "productId": "44391236",
+    "productUrl": "https://www.walmart.com/ip/44391236",
+    "brand": "Fresh Produce",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 2.27,
+    "packageQuantity": 907.185,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 18,
+      "proteinG": 0.88,
+      "carbohydratesG": 3.89,
+      "fatG": 0.2,
+      "fiberG": 1.2,
+      "sugarsG": 2.63,
+      "sodiumMg": 5,
+      "potassiumMg": 237,
+      "calciumMg": 10,
+      "ironMg": 0.27,
+      "magnesiumMg": 11,
+      "vitaminCMg": 13.7
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.2502
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 170457,
+      "dataType": "SR Legacy",
+      "description": "Tomatoes, red, ripe, raw, year round average",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/170457/nutrients",
+      "searchQuery": "tomatoes red ripe raw year round average",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.dreamstime.com/fresh-roma-tomatoes-whole-halved-close-up-top-down-view-pile-ripe-clean-white-background-several-plump-showcasing-image406781427",
+    "originalSourceUrl": "https://thumbs.dreamstime.com/b/fresh-roma-tomatoes-whole-halved-close-up-top-down-view-pile-ripe-clean-white-background-several-plump-showcasing-406781427.jpg",
+    "searchQuery": "Roma Tomatoes ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0023",
+    "name": "Roma Tomatoes",
+    "description": "Raw fresh Roma tomatoes.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 18,
+      "proteinG": 0.88,
+      "carbohydratesG": 3.89,
+      "fatG": 0.2,
+      "fiberG": 1.2,
+      "sugarsG": 2.63,
+      "sodiumMg": 5,
+      "potassiumMg": 237,
+      "calciumMg": 10,
+      "ironMg": 0.27,
+      "magnesiumMg": 11,
+      "vitaminCMg": 13.7
+    },
+    "price": {
+      "usdPerBasis": 0.2502,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0023_Roma_Tomatoes/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}
