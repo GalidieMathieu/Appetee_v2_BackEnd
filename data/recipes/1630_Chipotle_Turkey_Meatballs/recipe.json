@@ -1,0 +1,209 @@
+{
+  "seedId": "REC-1630",
+  "candidate": {
+    "sequence": 2428,
+    "seedId": "REC-CAND-2428",
+    "name": "Chipotle Turkey Meatballs"
+  },
+  "name": "Chipotle Turkey Meatballs",
+  "description": "Chipotle Turkey Meatballs is a practical meal component adaptation built around turkey, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.peacehealth.org/healthy-you/recipe-peanut-butter-greek-yogurt-dip",
+    "domain": "peacehealth.org",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Peanut Butter Greek Yogurt Dip source because it provides the closest validated turkey and meatballs structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Meal Component",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for chipotle turkey meatballs.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the turkey with the vegetables and remaining ingredients in the intended meal component form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the chipotle turkey meatballs into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 790,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1463.532,
+      "proteinG": 105.27,
+      "carbohydratesG": 31.015,
+      "fatG": 103.81,
+      "fiberG": 9.185,
+      "sugarsG": 0.875,
+      "sodiumMg": 474.446,
+      "potassiumMg": 1969.773,
+      "calciumMg": 271.223,
+      "ironMg": 10.833,
+      "magnesiumMg": 157.35,
+      "vitaminCMg": 24.68
+    },
+    "perServing": {
+      "calories": 365.883,
+      "proteinG": 26.317,
+      "carbohydratesG": 7.754,
+      "fatG": 25.953,
+      "fiberG": 2.296,
+      "sugarsG": 0.219,
+      "sodiumMg": 118.612,
+      "potassiumMg": 492.443,
+      "calciumMg": 67.806,
+      "ironMg": 2.708,
+      "magnesiumMg": 39.337,
+      "vitaminCMg": 6.17
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.93,
+    "perServingUsd": 0.98,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Quick Meal",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2030-11-19T02:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.tempomeals.com/meals/chipotle-turkey-meatballs",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.sT4X54BiaGIm_gTWH6kCNQHaE8&pid=15.1",
+    "discoveredOriginalUrl": "https://asset.homechef.com/uploads/meal/plated/57965/284580Picante_Chipotle_Turkey_Meatballs_ecomm-02-25-26-155813.JPG",
+    "searchQuery": "Chipotle Turkey Meatballs plated recipe food",
+    "searchResultTitle": "🌶️ Chipotle Turkey Meatballs Recipe - Tempo",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:56:28.032Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1630",
+    "name": "Chipotle Turkey Meatballs",
+    "description": "Chipotle Turkey Meatballs is a practical meal component adaptation built around turkey, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Meal Component",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 365.883,
+      "proteinG": 26.317,
+      "carbohydratesG": 7.754,
+      "fatG": 25.953,
+      "fiberG": 2.296,
+      "sugarsG": 0.219,
+      "sodiumMg": 118.612,
+      "potassiumMg": 492.443,
+      "calciumMg": 67.806,
+      "ironMg": 2.708,
+      "magnesiumMg": 39.337,
+      "vitaminCMg": 6.17
+    },
+    "estimatedCostPerServingUsd": 0.98,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Quick Meal",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

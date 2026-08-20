@@ -1,0 +1,213 @@
+{
+  "seedId": "REC-1329",
+  "candidate": {
+    "sequence": 2123,
+    "seedId": "REC-CAND-2123",
+    "name": "Smoky Lean Beef with Spinach"
+  },
+  "name": "Smoky Lean Beef with Spinach",
+  "description": "Smoky Lean Beef with Spinach is a practical main meal adaptation built around lean beef, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://scandinaviancookbook.com/karbonader/",
+    "domain": "scandinaviancookbook.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Ginger Lean Beef with Bell Peppers source because it provides the closest validated beef and vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Norway",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 50,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lean beef",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lean beef, and vegetables for smoky lean beef with spinach.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lean beef and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the smoky lean beef with spinach, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1060,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1760.532,
+      "proteinG": 126.36,
+      "carbohydratesG": 43.645,
+      "fatG": 120.52,
+      "fiberG": 17.885,
+      "sugarsG": 2.825,
+      "sodiumMg": 768.446,
+      "potassiumMg": 3565.773,
+      "calciumMg": 550.223,
+      "ironMg": 21.123,
+      "magnesiumMg": 376.35,
+      "vitaminCMg": 41.18
+    },
+    "perServing": {
+      "calories": 440.133,
+      "proteinG": 31.59,
+      "carbohydratesG": 10.911,
+      "fatG": 30.13,
+      "fiberG": 4.471,
+      "sugarsG": 0.706,
+      "sodiumMg": 192.112,
+      "potassiumMg": 891.443,
+      "calciumMg": 137.556,
+      "ironMg": 5.281,
+      "magnesiumMg": 94.088,
+      "vitaminCMg": 10.295
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 12.23,
+    "perServingUsd": 3.06,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Carb",
+    "Budget Friendly"
+  ],
+  "createdAt": "2029-08-12T01:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://mincerecipes.info/ground-beef-mince-recipes/extra-lean-beef-spinach-skillet/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.Rlv8_rmzcHBbGycY8HRDCgHaFl&pid=15.1",
+    "discoveredOriginalUrl": "https://mincerecipes.sfo3.digitaloceanspaces.com/wp-content/uploads/2022/02/28114055/Extra-Lean-Beef-Spinach-Skillet.png",
+    "searchQuery": "Smoky Lean Beef with Spinach plated recipe food",
+    "searchResultTitle": "Extra Lean Beef Spinach Skillet",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:19:26.571Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1329",
+    "name": "Smoky Lean Beef with Spinach",
+    "description": "Smoky Lean Beef with Spinach is a practical main meal adaptation built around lean beef, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 440.133,
+      "proteinG": 31.59,
+      "carbohydratesG": 10.911,
+      "fatG": 30.13,
+      "fiberG": 4.471,
+      "sugarsG": 0.706,
+      "sodiumMg": 192.112,
+      "potassiumMg": 891.443,
+      "calciumMg": 137.556,
+      "ironMg": 5.281,
+      "magnesiumMg": 94.088,
+      "vitaminCMg": 10.295
+    },
+    "estimatedCostPerServingUsd": 3.06,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Carb",
+      "Budget Friendly"
+    ]
+  }
+}

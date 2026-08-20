@@ -1,0 +1,203 @@
+{
+  "seedId": "REC-1395",
+  "candidate": {
+    "sequence": 2189,
+    "seedId": "REC-CAND-2189",
+    "name": "Greek Yogurt Power Rice Bowl"
+  },
+  "name": "Greek Yogurt Power Rice Bowl",
+  "description": "Greek Yogurt Power Rice Bowl is a practical small meal adaptation built around Greek yogurt, rice, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.skinnytaste.com/berry-cottage-cheese-breakfast-bowl/",
+    "domain": "skinnytaste.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Cottage Cheese Berry Bowls source because it provides the closest validated dairy and bowl/rice structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Greece",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "Greek yogurt",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, Greek yogurt, and rice for greek yogurt power rice bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned Greek yogurt and cook it until browned or heated through as appropriate.",
+    "Stir in the rice, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the greek yogurt power rice bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1650,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1480.932,
+      "proteinG": 53.286,
+      "carbohydratesG": 257.31,
+      "fatG": 31.992,
+      "fiberG": 14.458,
+      "sugarsG": 17.22,
+      "sodiumMg": 118.655,
+      "potassiumMg": 1580.793,
+      "calciumMg": 463.977,
+      "ironMg": 3.339,
+      "magnesiumMg": 147.6,
+      "vitaminCMg": 183.6
+    },
+    "perServing": {
+      "calories": 370.233,
+      "proteinG": 13.322,
+      "carbohydratesG": 64.328,
+      "fatG": 7.998,
+      "fiberG": 3.615,
+      "sugarsG": 4.305,
+      "sodiumMg": 29.664,
+      "potassiumMg": 395.198,
+      "calciumMg": 115.994,
+      "ironMg": 0.835,
+      "magnesiumMg": 36.9,
+      "vitaminCMg": 45.9
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.31,
+    "perServingUsd": 1.08,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-11-21T19:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://carolinarice.com/recipes/jasmine-rice-greek-power-bowl/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.nCIb0GUx_X8yhI-PmFX4HAHaEK&pid=15.1",
+    "discoveredOriginalUrl": "https://carolinarice.com/wp-content/uploads/2020/02/Greek-Power-Bowl-019-16x9-1.jpg",
+    "searchQuery": "Greek Yogurt Power Rice Bowl plated recipe food",
+    "searchResultTitle": "Greek Power Bowl with Jasmine Rice and Quinoa | Carolina® Rice",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:52:18.947Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1395",
+    "name": "Greek Yogurt Power Rice Bowl",
+    "description": "Greek Yogurt Power Rice Bowl is a practical small meal adaptation built around Greek yogurt, rice, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 370.233,
+      "proteinG": 13.322,
+      "carbohydratesG": 64.328,
+      "fatG": 7.998,
+      "fiberG": 3.615,
+      "sugarsG": 4.305,
+      "sodiumMg": 29.664,
+      "potassiumMg": 395.198,
+      "calciumMg": 115.994,
+      "ironMg": 0.835,
+      "magnesiumMg": 36.9,
+      "vitaminCMg": 45.9
+    },
+    "estimatedCostPerServingUsd": 1.08,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

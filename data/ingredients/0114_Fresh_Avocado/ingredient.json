@@ -1,0 +1,122 @@
+{
+  "seedId": "ING-0114",
+  "name": "Fresh Avocado",
+  "canonicalName": "Fresh Avocado",
+  "description": "Fresh avocado flesh for toast, wraps, and small meals.",
+  "measurementType": "solid",
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": "The exact product is a single-ingredient food without gluten- or lactose-bearing ingredients."
+  },
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Fresh Produce Tropical Avocado, Each",
+    "productId": "37295421",
+    "productUrl": "https://www.walmart.com/ip/37295421",
+    "brand": "Fresh Produce",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 2.19,
+    "packageQuantity": 300,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-11T19:50:49.978Z",
+    "priceEvidence": "Current Walmart product-page each-price; edible recipe mass normalized to a conservative 300 g tropical-avocado estimate."
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 160,
+      "proteinG": 2,
+      "carbohydratesG": 8.53,
+      "fatG": 14.7,
+      "fiberG": 6.7,
+      "sugarsG": 0.66,
+      "sodiumMg": 7,
+      "potassiumMg": 485,
+      "calciumMg": 12,
+      "ironMg": 0.55,
+      "magnesiumMg": 29,
+      "vitaminCMg": 10
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.73
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 171705,
+      "dataType": "SR Legacy",
+      "description": "Avocados, raw, all commercial varieties",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171705/nutrients",
+      "searchQuery": "avocados raw all commercial varieties",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": "One tropical avocado normalized to 300 g for deterministic pricing."
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": "One tropical avocado normalized to 300 g for deterministic pricing."
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "imageType": "external-real-product-photograph",
+    "aiGenerated": false,
+    "provider": "i5.walmartimages.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/37295421",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Fresh-Produce-Tropical-Avocado-Each_447c8d99-28ba-428b-af97-ec514ae263e3_1.0928ed0270b508fa08c84c3d9efe4f8e.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:01:23.923Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0114",
+    "name": "Fresh Avocado",
+    "description": "Fresh avocado flesh for toast, wraps, and small meals.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 160,
+      "proteinG": 2,
+      "carbohydratesG": 8.53,
+      "fatG": 14.7,
+      "fiberG": 6.7,
+      "sugarsG": 0.66,
+      "sodiumMg": 7,
+      "potassiumMg": 485,
+      "calciumMg": 12,
+      "ironMg": 0.55,
+      "magnesiumMg": 29,
+      "vitaminCMg": 10
+    },
+    "price": {
+      "usdPerBasis": 0.73,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": null
+  }
+}

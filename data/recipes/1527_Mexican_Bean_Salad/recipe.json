@@ -1,0 +1,197 @@
+{
+  "seedId": "REC-1527",
+  "candidate": {
+    "sequence": 2325,
+    "seedId": "REC-CAND-2325",
+    "name": "Mexican Bean Salad"
+  },
+  "name": "Mexican Bean Salad",
+  "description": "Mexican Bean Salad is a practical side adaptation built around beans, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://cookieandkate.com/black-bean-burrito-bowl-recipe/",
+    "domain": "cookieandkate.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Ginger Black Bean Salad Bowl source because it provides the closest validated beans and salad structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Side",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "beans",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for mexican bean salad.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the beans with the legumes and remaining ingredients in the intended side form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the mexican bean salad into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 440,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 729.532,
+      "proteinG": 29.02,
+      "carbohydratesG": 84.385,
+      "fatG": 33.74,
+      "sodiumMg": 1019.446,
+      "potassiumMg": 1223.773,
+      "calciumMg": 201.423,
+      "ironMg": 8.833,
+      "magnesiumMg": 146.35,
+      "fiberG": 3.485,
+      "sugarsG": 0.875,
+      "vitaminCMg": 0.08
+    },
+    "perServing": {
+      "calories": 182.383,
+      "proteinG": 7.255,
+      "carbohydratesG": 21.096,
+      "fatG": 8.435,
+      "sodiumMg": 254.862,
+      "potassiumMg": 305.943,
+      "calciumMg": 50.356,
+      "ironMg": 2.208,
+      "magnesiumMg": 36.587,
+      "fiberG": 0.871,
+      "sugarsG": 0.219,
+      "vitaminCMg": 0.02
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 1.31,
+    "perServingUsd": 0.33,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-06-13T07:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://insanelygoodrecipes.com/mexican-bean-salad/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.UaGreYlHwDzAX2SfLSdFdQHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://insanelygoodrecipes.com/wp-content/uploads/2024/06/Mexican-Bean-Salad.jpg",
+    "searchQuery": "Mexican Bean Salad plated recipe food",
+    "searchResultTitle": "Mexican Bean Salad (Easy Recipe) - Insanely Good",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:55:06.095Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1527",
+    "name": "Mexican Bean Salad",
+    "description": "Mexican Bean Salad is a practical side adaptation built around beans, legumes, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 182.383,
+      "proteinG": 7.255,
+      "carbohydratesG": 21.096,
+      "fatG": 8.435,
+      "sodiumMg": 254.862,
+      "potassiumMg": 305.943,
+      "calciumMg": 50.356,
+      "ironMg": 2.208,
+      "magnesiumMg": 36.587,
+      "fiberG": 0.871,
+      "sugarsG": 0.219,
+      "vitaminCMg": 0.02
+    },
+    "estimatedCostPerServingUsd": 0.33,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

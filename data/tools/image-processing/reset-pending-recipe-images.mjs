@@ -14,6 +14,11 @@ for (const entry of await readdir(recipeRoot, { withFileTypes: true })) {
   try {
     const record = JSON.parse(await readFile(file, "utf8"));
     if (!requested.has(record.seedId)) continue;
+    const rejectedImageUrls = [...new Set([
+      ...(record.image?.rejectedImageUrls ?? []),
+      record.image?.originalSourceUrl,
+      record.image?.discoveredOriginalUrl,
+    ].filter(Boolean))];
     await rm(path.join(dir, "assets", "main.avif"), { force: true });
     await rm(path.join(dir, "assets", "card.avif"), { force: true });
     record.image = {
@@ -24,6 +29,7 @@ for (const entry of await readdir(recipeRoot, { withFileTypes: true })) {
       provenance: "Real dish photograph pending.",
       needsGeneratedImage: true,
       replacementReason: "Previous source-page metadata did not resolve to a distinct usable dish photograph.",
+      rejectedImageUrls,
     };
     await writeFile(file, `${JSON.stringify(record, null, 2)}\n`);
     reset += 1;

@@ -1,0 +1,205 @@
+{
+  "seedId": "REC-1486",
+  "candidate": {
+    "sequence": 2283,
+    "seedId": "REC-CAND-2283",
+    "name": "Banana Trail Mix"
+  },
+  "name": "Banana Trail Mix",
+  "description": "Banana Trail Mix is a practical snack adaptation built around banana, oats, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/banana-oatmeal-bites-514723",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Banana Oatmeal Bites source because it provides the closest validated fruit and mix structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "banana",
+  "carbohydrateBase": "oats",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0033",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0095",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0096",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for banana trail mix.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the banana with the oats and remaining ingredients in the intended snack form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the banana trail mix into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 840,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2412.6,
+      "proteinG": 64.53,
+      "carbohydratesG": 401.4,
+      "fatG": 76.818,
+      "fiberG": 52.56,
+      "sugarsG": 171.696,
+      "sodiumMg": 52.2,
+      "potassiumMg": 3746.4,
+      "calciumMg": 540.6,
+      "ironMg": 17.832,
+      "magnesiumMg": 780.6,
+      "vitaminCMg": 29.16
+    },
+    "perServing": {
+      "calories": 603.15,
+      "proteinG": 16.133,
+      "carbohydratesG": 100.35,
+      "fatG": 19.204,
+      "fiberG": 13.14,
+      "sugarsG": 42.924,
+      "sodiumMg": 13.05,
+      "potassiumMg": 936.6,
+      "calciumMg": 135.15,
+      "ironMg": 4.458,
+      "magnesiumMg": 195.15,
+      "vitaminCMg": 7.29
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.82,
+    "perServingUsd": 1.21,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-04-11T02:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.rezeptesuchen.com/r/bananen-mix-728",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.k1j49w7hl2Ihd1aSGdEXewHaKK&pid=15.1",
+    "discoveredOriginalUrl": "http://gettinmyhealthyon.com/wp-content/uploads/2018/08/Banana-Split-Trail-Mix-Recipe.jpg",
+    "searchQuery": "Banana Trail Mix plated recipe food",
+    "searchResultTitle": "Bananen Mix - Rezepte Suchen",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:53:48.979Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1486",
+    "name": "Banana Trail Mix",
+    "description": "Banana Trail Mix is a practical snack adaptation built around banana, oats, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 603.15,
+      "proteinG": 16.133,
+      "carbohydratesG": 100.35,
+      "fatG": 19.204,
+      "fiberG": 13.14,
+      "sugarsG": 42.924,
+      "sodiumMg": 13.05,
+      "potassiumMg": 936.6,
+      "calciumMg": 135.15,
+      "ironMg": 4.458,
+      "magnesiumMg": 195.15,
+      "vitaminCMg": 7.29
+    },
+    "estimatedCostPerServingUsd": 1.21,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "seedId": "REC-1212",
+  "candidate": {
+    "sequence": 2006,
+    "seedId": "REC-CAND-2006",
+    "name": "Brazilian Black Bean with Rice"
+  },
+  "name": "Brazilian Black Bean with Rice",
+  "description": "Brazilian Black Bean with Rice is a practical main meal adaptation built around black beans, rice, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://cookieandkate.com/black-bean-burrito-bowl-recipe/",
+    "domain": "cookieandkate.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Italian Black Bean Rice Bowl source because it provides the closest validated beans and rice structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Brazil",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "black beans",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, black beans, and rice for brazilian black bean with rice.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned black beans and cook it until browned or heated through as appropriate.",
+    "Stir in the rice, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the brazilian black bean with rice, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1450,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1676.932,
+      "proteinG": 47.026,
+      "carbohydratesG": 297.75,
+      "fatG": 35.002,
+      "sodiumMg": 876.655,
+      "potassiumMg": 1755.793,
+      "calciumMg": 229.177,
+      "ironMg": 8.089,
+      "magnesiumMg": 220.6,
+      "fiberG": 6.058,
+      "sugarsG": 0,
+      "vitaminCMg": 24.6
+    },
+    "perServing": {
+      "calories": 419.233,
+      "proteinG": 11.757,
+      "carbohydratesG": 74.438,
+      "fatG": 8.751,
+      "sodiumMg": 219.164,
+      "potassiumMg": 438.948,
+      "calciumMg": 57.294,
+      "ironMg": 2.022,
+      "magnesiumMg": 55.15,
+      "fiberG": 1.514,
+      "sugarsG": 0,
+      "vitaminCMg": 6.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.74,
+    "perServingUsd": 0.69,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-02-12T16:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/the-best-brazilian-black-beans-and-rice--165436986290889252/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.Z30itJf1z2YbTeLYsx-JXwHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/27/1c/4c/271c4c9e1262cb36786512c6bf3e4b13--black-beans-and-rice-white-rice.jpg",
+    "searchQuery": "Brazilian Black Bean with Rice plated recipe food",
+    "searchResultTitle": "The Best Brazilian Black Beans and Rice | Recipe | Black beans and rice ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:13:27.410Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1212",
+    "name": "Brazilian Black Bean with Rice",
+    "description": "Brazilian Black Bean with Rice is a practical main meal adaptation built around black beans, rice, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 419.233,
+      "proteinG": 11.757,
+      "carbohydratesG": 74.438,
+      "fatG": 8.751,
+      "sodiumMg": 219.164,
+      "potassiumMg": 438.948,
+      "calciumMg": 57.294,
+      "ironMg": 2.022,
+      "magnesiumMg": 55.15,
+      "fiberG": 1.514,
+      "sugarsG": 0,
+      "vitaminCMg": 6.15
+    },
+    "estimatedCostPerServingUsd": 0.69,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "seedId": "REC-1442",
+  "candidate": {
+    "sequence": 2239,
+    "seedId": "REC-CAND-2239",
+    "name": "Peanut Butter Protein Balls"
+  },
+  "name": "Peanut Butter Protein Balls",
+  "description": "Peanut Butter Protein Balls is a practical snack adaptation built around peanut butter, oats, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/banana-oatmeal-bites-514723",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Banana Oatmeal Bites source because it provides the closest validated nuts and oats structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "peanut butter",
+  "carbohydrateBase": "oats",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0032",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for peanut butter protein balls.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the peanut butter with the oats and remaining ingredients in the intended snack form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the peanut butter protein balls into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 720,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1975.8,
+      "proteinG": 91.38,
+      "carbohydratesG": 248.64,
+      "fatG": 76.698,
+      "fiberG": 33.96,
+      "sugarsG": 71.448,
+      "sodiumMg": 708,
+      "potassiumMg": 2217,
+      "calciumMg": 512.4,
+      "ironMg": 12.942,
+      "magnesiumMg": 557.4,
+      "vitaminCMg": 0.3
+    },
+    "perServing": {
+      "calories": 493.95,
+      "proteinG": 22.845,
+      "carbohydratesG": 62.16,
+      "fatG": 19.174,
+      "fiberG": 8.49,
+      "sugarsG": 17.862,
+      "sodiumMg": 177,
+      "potassiumMg": 554.25,
+      "calciumMg": 128.1,
+      "ironMg": 3.236,
+      "magnesiumMg": 139.35,
+      "vitaminCMg": 0.075
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.91,
+    "perServingUsd": 0.73,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-02-02T06:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse2.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://cookishlove.com/oatmeal-peanut-butter-energy-bites/",
+    "originalSourceUrl": "https://tse2.mm.bing.net/th/id/OIP.ns99Rv4DdYcbtCrjwT6RwwHaJQ?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://cookishlove.com/wp-content/uploads/2025/08/Oatmeal_Peanut_Butter_Energy_Bites_kpp3o0.webp",
+    "searchQuery": "peanut butter healthy oat energy bites dessert food photograph",
+    "searchResultTitle": "oatmeal peanut butter energy bites",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:49.991Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1442",
+    "name": "Peanut Butter Protein Balls",
+    "description": "Peanut Butter Protein Balls is a practical snack adaptation built around peanut butter, oats, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 493.95,
+      "proteinG": 22.845,
+      "carbohydratesG": 62.16,
+      "fatG": 19.174,
+      "fiberG": 8.49,
+      "sugarsG": 17.862,
+      "sodiumMg": 177,
+      "potassiumMg": 554.25,
+      "calciumMg": 128.1,
+      "ironMg": 3.236,
+      "magnesiumMg": 139.35,
+      "vitaminCMg": 0.075
+    },
+    "estimatedCostPerServingUsd": 0.73,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

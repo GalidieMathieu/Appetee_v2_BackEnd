@@ -1,0 +1,191 @@
+{
+  "seedId": "REC-1456",
+  "candidate": {
+    "sequence": 2253,
+    "seedId": "REC-CAND-2253",
+    "name": "Apple Cinnamon Mini Muffins"
+  },
+  "name": "Apple Cinnamon Mini Muffins",
+  "description": "Apple Cinnamon Mini Muffins is a practical snack adaptation built around oats, oats, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/banana-oatmeal-bites-514723",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Banana Oatmeal Bites source because it provides the closest validated muffins structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 50,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "Oven",
+  "primaryProtein": "oats",
+  "carbohydrateBase": "oats",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0104",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0047",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for apple cinnamon mini muffins and preheat the oven.",
+    "Coat the oats and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the oats and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the apple cinnamon mini muffins briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 605,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1293.35,
+      "proteinG": 32.659,
+      "carbohydratesG": 261.55,
+      "fatG": 16.25,
+      "fiberG": 33.315,
+      "sugarsG": 86.844,
+      "sodiumMg": 20.3,
+      "potassiumMg": 1248.55,
+      "calciumMg": 199.4,
+      "ironMg": 11.168,
+      "magnesiumMg": 350.4,
+      "vitaminCMg": 0.49
+    },
+    "perServing": {
+      "calories": 323.337,
+      "proteinG": 8.165,
+      "carbohydratesG": 65.388,
+      "fatG": 4.063,
+      "fiberG": 8.329,
+      "sugarsG": 21.711,
+      "sodiumMg": 5.075,
+      "potassiumMg": 312.137,
+      "calciumMg": 49.85,
+      "ironMg": 2.792,
+      "magnesiumMg": 87.6,
+      "vitaminCMg": 0.122
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.79,
+    "perServingUsd": 0.7,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-02-23T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/apple-cinnamon-muffins-mikebakesnyc--19703317106990970/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.ETPSYIlwuBToKXMqSbvGbAHaKp&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/00/26/c4/0026c4c2b617dc65b61cbe1f15339f30.jpg",
+    "searchQuery": "Apple Cinnamon Mini Muffins plated recipe food",
+    "searchResultTitle": "Apple Cinnamon Muffins – MikeBakesNYC | Recipe | Apple cinnamon mini ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:53:32.472Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1456",
+    "name": "Apple Cinnamon Mini Muffins",
+    "description": "Apple Cinnamon Mini Muffins is a practical snack adaptation built around oats, oats, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 323.337,
+      "proteinG": 8.165,
+      "carbohydratesG": 65.388,
+      "fatG": 4.063,
+      "fiberG": 8.329,
+      "sugarsG": 21.711,
+      "sodiumMg": 5.075,
+      "potassiumMg": 312.137,
+      "calciumMg": 49.85,
+      "ironMg": 2.792,
+      "magnesiumMg": 87.6,
+      "vitaminCMg": 0.122
+    },
+    "estimatedCostPerServingUsd": 0.7,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

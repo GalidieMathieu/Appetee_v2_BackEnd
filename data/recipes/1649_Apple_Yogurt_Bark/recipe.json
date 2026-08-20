@@ -1,0 +1,201 @@
+{
+  "seedId": "REC-1649",
+  "candidate": {
+    "sequence": 2448,
+    "seedId": "REC-CAND-2448",
+    "name": "Apple Yogurt Bark"
+  },
+  "name": "Apple Yogurt Bark",
+  "description": "Apple Yogurt Bark is a practical dessert adaptation built around Greek yogurt, fruit, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.eatingwell.com/recipe/259080/strawberry-chocolate-greek-yogurt-bark/",
+    "domain": "eatingwell.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Greek Yogurt Berry Bark source because it provides the closest validated dairy and fruit structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 120,
+    "totalMinutes": 130
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "Freezer",
+  "primaryProtein": "Greek yogurt",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0104",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0057",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for apple yogurt bark.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the Greek yogurt with the fruit and remaining ingredients in the intended dessert form.",
+    "Arrange the mixture in an even layer and freeze until firm.",
+    "Divide the apple yogurt bark into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1533.946,
+      "proteinG": 63.076,
+      "carbohydratesG": 271.642,
+      "fatG": 17.374,
+      "fiberG": 30.66,
+      "sugarsG": 99.778,
+      "sodiumMg": 130.173,
+      "potassiumMg": 1689.028,
+      "calciumMg": 482.301,
+      "ironMg": 10.993,
+      "magnesiumMg": 383.564,
+      "vitaminCMg": 0.3
+    },
+    "perServing": {
+      "calories": 383.486,
+      "proteinG": 15.769,
+      "carbohydratesG": 67.91,
+      "fatG": 4.343,
+      "fiberG": 7.665,
+      "sugarsG": 24.945,
+      "sodiumMg": 32.543,
+      "potassiumMg": 422.257,
+      "calciumMg": 120.575,
+      "ironMg": 2.748,
+      "magnesiumMg": 95.891,
+      "vitaminCMg": 0.075
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.34,
+    "perServingUsd": 1.83,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-12-18T09:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse3.explicit.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://in.pinterest.com/pin/recipes-kitchen-on-instagram-apple-walnut-yogurt-parfait-a-delicious-and-nutritious-parfait-layered-with-creamy-yogurt-crisp-apples-and-crunchy-walnuts-in-2025--901916262873533966/",
+    "originalSourceUrl": "https://tse3.explicit.bing.net/th/id/OIP.1iNCD93ueewTKrmOaMNtIgHaHa?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/42/07/a2/4207a26693ce5ca3a3cd6a40ac06ca89.jpg",
+    "searchQuery": "apple yogurt parfait dessert cup food photograph",
+    "searchResultTitle": "recipes kitchen on Instagram: \" Apple Walnut Yogurt Parfait A delicious and nutritious parfait ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:25:46.397Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1649",
+    "name": "Apple Yogurt Bark",
+    "description": "Apple Yogurt Bark is a practical dessert adaptation built around Greek yogurt, fruit, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 130,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 383.486,
+      "proteinG": 15.769,
+      "carbohydratesG": 67.91,
+      "fatG": 4.343,
+      "fiberG": 7.665,
+      "sugarsG": 24.945,
+      "sodiumMg": 32.543,
+      "potassiumMg": 422.257,
+      "calciumMg": 120.575,
+      "ironMg": 2.748,
+      "magnesiumMg": 95.891,
+      "vitaminCMg": 0.075
+    },
+    "estimatedCostPerServingUsd": 1.83,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "High Fiber",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

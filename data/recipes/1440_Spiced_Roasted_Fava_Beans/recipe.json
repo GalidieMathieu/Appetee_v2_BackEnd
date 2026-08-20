@@ -1,0 +1,195 @@
+{
+  "seedId": "REC-1440",
+  "candidate": {
+    "sequence": 2237,
+    "seedId": "REC-CAND-2237",
+    "name": "Spiced Roasted Fava Beans"
+  },
+  "name": "Spiced Roasted Fava Beans",
+  "description": "Spiced Roasted Fava Beans is a practical snack adaptation built around fava beans, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://nutritionsource.hsph.harvard.edu/crunchy-roasted-chickpeas/",
+    "domain": "nutritionsource.hsph.harvard.edu",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Chili Cumin Roasted Chickpeas source because it provides the closest validated beans and legumes structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "Oven",
+  "primaryProtein": "fava beans",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0075",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for spiced roasted fava beans and preheat the oven.",
+    "Coat the fava beans and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the legumes and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the spiced roasted fava beans briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 645,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1400.682,
+      "proteinG": 81.744,
+      "carbohydratesG": 205.695,
+      "fatG": 32.115,
+      "fiberG": 81.015,
+      "sugarsG": 17.25,
+      "sodiumMg": 45.096,
+      "potassiumMg": 3786.423,
+      "calciumMg": 381.423,
+      "ironMg": 21.348,
+      "magnesiumMg": 606.75,
+      "vitaminCMg": 33.48
+    },
+    "perServing": {
+      "calories": 350.171,
+      "proteinG": 20.436,
+      "carbohydratesG": 51.424,
+      "fatG": 8.029,
+      "fiberG": 20.254,
+      "sugarsG": 4.313,
+      "sodiumMg": 11.274,
+      "potassiumMg": 946.606,
+      "calciumMg": 95.356,
+      "ironMg": 5.337,
+      "magnesiumMg": 151.688,
+      "vitaminCMg": 8.37
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5,
+    "perServingUsd": 1.25,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-01-30T04:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.fearlessdining.com/roasted-fava-beans-recipe/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.Nr-1bF4_Jhgx8Po1WbQc5AHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://www.fearlessdining.com/wp-content/uploads/2022/04/roasted-fava-beans-top-1024x1536.jpg",
+    "searchQuery": "Spiced Roasted Fava Beans plated recipe food",
+    "searchResultTitle": "Easy Roasted Fava Beans Recipe - Fearless Dining",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:03:12.228Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1440",
+    "name": "Spiced Roasted Fava Beans",
+    "description": "Spiced Roasted Fava Beans is a practical snack adaptation built around fava beans, legumes, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 350.171,
+      "proteinG": 20.436,
+      "carbohydratesG": 51.424,
+      "fatG": 8.029,
+      "fiberG": 20.254,
+      "sugarsG": 4.313,
+      "sodiumMg": 11.274,
+      "potassiumMg": 946.606,
+      "calciumMg": 95.356,
+      "ironMg": 5.337,
+      "magnesiumMg": 151.688,
+      "vitaminCMg": 8.37
+    },
+    "estimatedCostPerServingUsd": 1.25,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

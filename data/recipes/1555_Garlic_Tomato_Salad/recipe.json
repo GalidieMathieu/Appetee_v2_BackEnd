@@ -1,0 +1,197 @@
+{
+  "seedId": "REC-1555",
+  "candidate": {
+    "sequence": 2353,
+    "seedId": "REC-CAND-2353",
+    "name": "Garlic Tomato Salad"
+  },
+  "name": "Garlic Tomato Salad",
+  "description": "Garlic Tomato Salad is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/153802/algerian-flafla-bell-pepper-salad/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Algerian Flafla Bell Pepper Salad source because it provides the closest validated salad structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Algeria",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Side",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for garlic tomato salad.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the vegetables with the vegetables and remaining ingredients in the intended side form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the garlic tomato salad into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 615,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 395.682,
+      "proteinG": 6.564,
+      "carbohydratesG": 34.725,
+      "fatG": 28.875,
+      "fiberG": 10.215,
+      "sugarsG": 20.64,
+      "sodiumMg": 30.096,
+      "potassiumMg": 1404.423,
+      "calciumMg": 78.423,
+      "ironMg": 2.508,
+      "magnesiumMg": 72.75,
+      "vitaminCMg": 429.78
+    },
+    "perServing": {
+      "calories": 98.921,
+      "proteinG": 1.641,
+      "carbohydratesG": 8.681,
+      "fatG": 7.219,
+      "fiberG": 2.554,
+      "sugarsG": 5.16,
+      "sodiumMg": 7.524,
+      "potassiumMg": 351.106,
+      "calciumMg": 19.606,
+      "ironMg": 0.627,
+      "magnesiumMg": 18.188,
+      "vitaminCMg": 107.445
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.95,
+    "perServingUsd": 1.24,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-07-26T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.plateofflavor.com/recipes/balsamic-tomato-garlic-salad-recipe/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.bKMObHLZIhsRhbA113uLpgHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://www.plateofflavor.com/wp-content/uploads/media/02/6681224-tomato-garlic-salad-recipe-plateofflavor-650x650.jpg",
+    "searchQuery": "Garlic Tomato Salad plated recipe food",
+    "searchResultTitle": "Recipe for Fresh Tomato Garlic Salad with Herbs - Plate of Flavor",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:55:24.750Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1555",
+    "name": "Garlic Tomato Salad",
+    "description": "Garlic Tomato Salad is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 98.921,
+      "proteinG": 1.641,
+      "carbohydratesG": 8.681,
+      "fatG": 7.219,
+      "fiberG": 2.554,
+      "sugarsG": 5.16,
+      "sodiumMg": 7.524,
+      "potassiumMg": 351.106,
+      "calciumMg": 19.606,
+      "ironMg": 0.627,
+      "magnesiumMg": 18.188,
+      "vitaminCMg": 107.445
+    },
+    "estimatedCostPerServingUsd": 1.24,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

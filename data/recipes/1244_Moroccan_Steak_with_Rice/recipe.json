@@ -1,0 +1,201 @@
+{
+  "seedId": "REC-1244",
+  "candidate": {
+    "sequence": 2038,
+    "seedId": "REC-CAND-2038",
+    "name": "Moroccan Steak with Rice"
+  },
+  "name": "Moroccan Steak with Rice",
+  "description": "Moroccan Steak with Rice is a practical main meal adaptation built around steak, rice, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://recipecenter.stopandshop.com/recipes/236647/pulled-buffalo-beef-salad-with-parmesan-croutons",
+    "domain": "recipecenter.stopandshop.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Caribbean Steak Rice Bowl source because it provides the closest validated beef and rice structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Morocco",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 50,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "steak",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0088",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, steak, and rice for moroccan steak with rice.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned steak and cook it until browned or heated through as appropriate.",
+    "Stir in the rice, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the moroccan steak with rice, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1800,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2257.932,
+      "proteinG": 158.976,
+      "carbohydratesG": 276.15,
+      "fatG": 53.952,
+      "fiberG": 12.658,
+      "sugarsG": 45.3,
+      "sodiumMg": 6700.655,
+      "potassiumMg": 3848.793,
+      "calciumMg": 241.977,
+      "ironMg": 15.909,
+      "magnesiumMg": 276.6,
+      "vitaminCMg": 105.3
+    },
+    "perServing": {
+      "calories": 564.483,
+      "proteinG": 39.744,
+      "carbohydratesG": 69.037,
+      "fatG": 13.488,
+      "fiberG": 3.164,
+      "sugarsG": 11.325,
+      "sodiumMg": 1675.164,
+      "potassiumMg": 962.198,
+      "calciumMg": 60.494,
+      "ironMg": 3.977,
+      "magnesiumMg": 69.15,
+      "vitaminCMg": 26.325
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 29.53,
+    "perServingUsd": 7.38,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-04-03T00:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://recipes.net/lamb-recipes/lamb-steaks-with-moroccan-spiced-rice/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.R0Kl1gqbGfL85f5aczLt_AHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://recipes.net/wp-content/uploads/2023/07/lamb-steaks-with-moroccan-spiced-rice_e3109a68b81542f1779e79eac7259f26-768x768.jpeg",
+    "searchQuery": "Moroccan Steak with Rice plated recipe food",
+    "searchResultTitle": "Lamb Steaks with Moroccan Spiced Rice Recipe | Recipes.net",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:15:08.773Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1244",
+    "name": "Moroccan Steak with Rice",
+    "description": "Moroccan Steak with Rice is a practical main meal adaptation built around steak, rice, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 564.483,
+      "proteinG": 39.744,
+      "carbohydratesG": 69.037,
+      "fatG": 13.488,
+      "fiberG": 3.164,
+      "sugarsG": 11.325,
+      "sodiumMg": 1675.164,
+      "potassiumMg": 962.198,
+      "calciumMg": 60.494,
+      "ironMg": 3.977,
+      "magnesiumMg": 69.15,
+      "vitaminCMg": 26.325
+    },
+    "estimatedCostPerServingUsd": 7.38,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Few Ingredients"
+    ]
+  }
+}

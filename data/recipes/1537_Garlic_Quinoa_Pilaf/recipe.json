@@ -1,0 +1,197 @@
+{
+  "seedId": "REC-1537",
+  "candidate": {
+    "sequence": 2335,
+    "seedId": "REC-CAND-2335",
+    "name": "Garlic Quinoa Pilaf"
+  },
+  "name": "Garlic Quinoa Pilaf",
+  "description": "Garlic Quinoa Pilaf is a practical side adaptation built around quinoa, quinoa, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/56161/fasoliyyeh-bi-z-zayt-syrian-green-beans-with-olive-oil/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Syrian Green Beans with Olive Oil source because it provides the closest validated pilaf structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Syria",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 20,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Side",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "quinoa",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, quinoa, and quinoa for garlic quinoa pilaf.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned quinoa and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the garlic quinoa pilaf, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1065,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1260.882,
+      "proteinG": 37.284,
+      "carbohydratesG": 184.875,
+      "fatG": 42.093,
+      "fiberG": 22.815,
+      "sodiumMg": 18.096,
+      "potassiumMg": 1957.623,
+      "calciumMg": 185.223,
+      "ironMg": 12.216,
+      "magnesiumMg": 503.55,
+      "sugarsG": 0.15,
+      "vitaminCMg": 29.28
+    },
+    "perServing": {
+      "calories": 315.221,
+      "proteinG": 9.321,
+      "carbohydratesG": 46.219,
+      "fatG": 10.523,
+      "fiberG": 5.704,
+      "sodiumMg": 4.524,
+      "potassiumMg": 489.406,
+      "calciumMg": 46.306,
+      "ironMg": 3.054,
+      "magnesiumMg": 125.888,
+      "sugarsG": 0.037,
+      "vitaminCMg": 7.32
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.91,
+    "perServingUsd": 0.73,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2030-06-28T17:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/lemon-garlic-quinoa-pilaf-recipe-flame--149885493843767767/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.P2r5ADS0dy5NIm4sowUFiAHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/aa/73/c7/aa73c730b33a4c3fda3ba27fb792f0ff.webp",
+    "searchQuery": "Garlic Quinoa Pilaf plated recipe food",
+    "searchResultTitle": "Lemon Garlic Quinoa Pilaf - Recipe Flame | Recipe | Pilaf recipes ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:55:10.578Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1537",
+    "name": "Garlic Quinoa Pilaf",
+    "description": "Garlic Quinoa Pilaf is a practical side adaptation built around quinoa, quinoa, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 315.221,
+      "proteinG": 9.321,
+      "carbohydratesG": 46.219,
+      "fatG": 10.523,
+      "fiberG": 5.704,
+      "sodiumMg": 4.524,
+      "potassiumMg": 489.406,
+      "calciumMg": 46.306,
+      "ironMg": 3.054,
+      "magnesiumMg": 125.888,
+      "sugarsG": 0.037,
+      "vitaminCMg": 7.32
+    },
+    "estimatedCostPerServingUsd": 0.73,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

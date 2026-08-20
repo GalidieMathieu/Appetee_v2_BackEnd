@@ -1,0 +1,197 @@
+{
+  "seedId": "REC-1213",
+  "candidate": {
+    "sequence": 2007,
+    "seedId": "REC-CAND-2007",
+    "name": "Greek Lentil Stir-Fry"
+  },
+  "name": "Greek Lentil Stir-Fry",
+  "description": "Greek Lentil Stir-Fry is a practical main meal adaptation built around lentils, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://feelgoodfoodie.net/recipe/mujadara/",
+    "domain": "feelgoodfoodie.net",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Lentil Stir Fry Bowl source because it provides the closest validated lentils and legumes structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Greece",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 40,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 2.5
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lentils, and legumes for greek lentil stir-fry.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lentils and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the greek lentil stir-fry, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1230,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1287.132,
+      "proteinG": 64.83,
+      "carbohydratesG": 205.95,
+      "fatG": 30.894,
+      "fiberG": 39.78,
+      "sugarsG": 12.372,
+      "sodiumMg": 23.946,
+      "potassiumMg": 2585.073,
+      "calciumMg": 207.273,
+      "ironMg": 18.417,
+      "magnesiumMg": 163.8,
+      "vitaminCMg": 194.4
+    },
+    "perServing": {
+      "calories": 321.783,
+      "proteinG": 16.207,
+      "carbohydratesG": 51.487,
+      "fatG": 7.723,
+      "fiberG": 9.945,
+      "sugarsG": 3.093,
+      "sodiumMg": 5.987,
+      "potassiumMg": 646.268,
+      "calciumMg": 51.818,
+      "ironMg": 4.604,
+      "magnesiumMg": 40.95,
+      "vitaminCMg": 48.6
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.48,
+    "perServingUsd": 0.87,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-02-14T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.catholicmom.com/articles/meatless-friday-greek-style-stir-fry-with-lentils",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.DUzI3uhzWBfbnmxZxnajHQHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://www.catholicmom.com/hs-fs/hubfs/20230922 KUllo 2.png?width=1620&height=1620&name=20230922 KUllo 2.png",
+    "searchQuery": "Greek Lentil Stir-Fry plated recipe food",
+    "searchResultTitle": "Meatless Friday: Greek Style Stir-Fry with Lentils",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:13:37.279Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1213",
+    "name": "Greek Lentil Stir-Fry",
+    "description": "Greek Lentil Stir-Fry is a practical main meal adaptation built around lentils, legumes, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 321.783,
+      "proteinG": 16.207,
+      "carbohydratesG": 51.487,
+      "fatG": 7.723,
+      "fiberG": 9.945,
+      "sugarsG": 3.093,
+      "sodiumMg": 5.987,
+      "potassiumMg": 646.268,
+      "calciumMg": 51.818,
+      "ironMg": 4.604,
+      "magnesiumMg": 40.95,
+      "vitaminCMg": 48.6
+    },
+    "estimatedCostPerServingUsd": 0.87,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

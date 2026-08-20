@@ -5,10 +5,11 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 
 const toolDir = path.dirname(fileURLToPath(import.meta.url));
 const dataDir = path.resolve(toolDir, "..", "..");
+const candidatePath = path.join(dataDir, "candidates", "recipe-names.json");
 
 export async function loadCandidates() {
-  const candidates = JSON.parse(await readFile(path.join(dataDir, "recipe_name_candidates.json"), "utf8"));
-  if (!Array.isArray(candidates) || candidates.length === 0) throw new Error("recipe_name_candidates.json must be a non-empty array");
+  const candidates = JSON.parse(await readFile(candidatePath, "utf8"));
+  if (!Array.isArray(candidates) || candidates.length === 0) throw new Error("candidates/recipe-names.json must be a non-empty array");
   for (let index = 0; index < candidates.length; index += 1) {
     const candidate = candidates[index];
     if (candidate.sequence !== index + 1 || !candidate.seedId || !candidate.name) throw new Error(`Invalid candidate at array index ${index}`);
@@ -23,8 +24,8 @@ const validEvents = (entries = []) => entries
 
 export async function deriveCandidateAcquisition(recipes, previous = {}) {
   const candidates = await loadCandidates();
-  const sourceSha256 = createHash("sha256").update(await readFile(path.join(dataDir, "recipe_name_candidates.json"))).digest("hex");
-  if (previous.sourceSha256 && previous.sourceSha256 !== sourceSha256) throw new Error("recipe_name_candidates.json changed after ordered acquisition began");
+  const sourceSha256 = createHash("sha256").update(await readFile(candidatePath)).digest("hex");
+  if (previous.sourceSha256 && previous.sourceSha256 !== sourceSha256) throw new Error("candidates/recipe-names.json changed after ordered acquisition began");
   const candidateBySequence = new Map(candidates.map((candidate) => [candidate.sequence, candidate]));
   const completed = recipes
     .filter((recipe) => Number.isInteger(recipe.candidate?.sequence ?? recipe.candidateSequence))
@@ -44,7 +45,7 @@ export async function deriveCandidateAcquisition(recipes, previous = {}) {
   const beyondGap = [...statuses.keys()].find((sequence) => sequence > lastCandidateSequenceProcessed + 1);
   if (beyondGap) throw new Error(`Candidate progress has an unprocessed gap before sequence ${beyondGap}`);
   return {
-    sourceFile: "data/recipe_name_candidates.json",
+    sourceFile: "data/candidates/recipe-names.json",
     sourceSha256,
     candidateCount: candidates.length,
     startedAtRecipeSequence: previous.startedAtRecipeSequence ?? 117,
@@ -61,7 +62,7 @@ export async function deriveCandidateAcquisition(recipes, previous = {}) {
 
 const isCli = process.argv[1] && import.meta.url === pathToFileURL(path.resolve(process.argv[1])).href;
 if (isCli) {
-  const progress = JSON.parse(await readFile(path.join(dataDir, "progress.json"), "utf8"));
+  const progress = JSON.parse(await readFile(path.join(dataDir, "workflow", "progress.json"), "utf8"));
   const recipeIndex = JSON.parse(await readFile(path.join(dataDir, "recipes", "index.json"), "utf8"));
   const state = await deriveCandidateAcquisition(recipeIndex, progress.candidateAcquisition);
   process.stdout.write(`${JSON.stringify(state, null, 2)}\n`);

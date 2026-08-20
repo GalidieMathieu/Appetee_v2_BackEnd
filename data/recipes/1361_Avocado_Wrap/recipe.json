@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-1361",
+  "candidate": {
+    "sequence": 2155,
+    "seedId": "REC-CAND-2155",
+    "name": "Avocado Wrap"
+  },
+  "name": "Avocado Wrap",
+  "description": "Avocado Wrap is a practical small meal adaptation built around vegetables, tortilla, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.skinnytaste.com/berry-cottage-cheese-breakfast-bowl/",
+    "domain": "skinnytaste.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Cottage Cheese Berry Bowls source because it provides the closest validated wrap structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0114",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for avocado wrap.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the vegetables with the tortilla and remaining ingredients in the intended small meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the avocado wrap into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1765.332,
+      "proteinG": 37.77,
+      "carbohydratesG": 189.12,
+      "fatG": 100.83,
+      "fiberG": 55.2,
+      "sugarsG": 9.3,
+      "sodiumMg": 1875.546,
+      "potassiumMg": 2787.273,
+      "calciumMg": 813.273,
+      "ironMg": 10.533,
+      "magnesiumMg": 369,
+      "vitaminCMg": 54.6
+    },
+    "perServing": {
+      "calories": 441.333,
+      "proteinG": 9.443,
+      "carbohydratesG": 47.28,
+      "fatG": 25.207,
+      "fiberG": 13.8,
+      "sugarsG": 2.325,
+      "sodiumMg": 468.887,
+      "potassiumMg": 696.818,
+      "calciumMg": 203.318,
+      "ironMg": 2.633,
+      "magnesiumMg": 92.25,
+      "vitaminCMg": 13.65
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.18,
+    "perServingUsd": 1.29,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-09-30T09:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://cheffrecipes.com/chicken-avocado-wrap-recipe/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.pa_-DzKr97QftjlNbgUEdwHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://cheffrecipes.com/wp-content/uploads/2025/01/Chicken-Avocado-Wrap-Recipe-1068x1068.jpg",
+    "searchQuery": "Avocado Wrap plated recipe food",
+    "searchResultTitle": "Chicken Avocado Wrap Recipe | Cheff Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:50:47.899Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1361",
+    "name": "Avocado Wrap",
+    "description": "Avocado Wrap is a practical small meal adaptation built around vegetables, tortilla, and title-specific supporting ingredients.",
+    "mealType": "Breakfast",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 441.333,
+      "proteinG": 9.443,
+      "carbohydratesG": 47.28,
+      "fatG": 25.207,
+      "fiberG": 13.8,
+      "sugarsG": 2.325,
+      "sodiumMg": 468.887,
+      "potassiumMg": 696.818,
+      "calciumMg": 203.318,
+      "ironMg": 2.633,
+      "magnesiumMg": 92.25,
+      "vitaminCMg": 13.65
+    },
+    "estimatedCostPerServingUsd": 1.29,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

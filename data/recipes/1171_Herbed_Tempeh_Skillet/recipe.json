@@ -1,0 +1,203 @@
+{
+  "seedId": "REC-1171",
+  "candidate": {
+    "sequence": 1965,
+    "seedId": "REC-CAND-1965",
+    "name": "Herbed Tempeh Skillet"
+  },
+  "name": "Herbed Tempeh Skillet",
+  "description": "Herbed Tempeh Skillet is a practical main meal adaptation built around tempeh, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.atkins.com/recipes/coconut-curry-tempeh",
+    "domain": "atkins.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Pesto Tempeh Curry source because it provides the closest validated soy and skillet structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "totalMinutes": 35
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tempeh",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0049",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tempeh, and vegetables for herbed tempeh skillet.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tempeh and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the herbed tempeh skillet, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 650,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 968.282,
+      "proteinG": 65.674,
+      "carbohydratesG": 56.245,
+      "fatG": 60.199,
+      "sodiumMg": 55.696,
+      "potassiumMg": 1976.423,
+      "calciumMg": 462.423,
+      "ironMg": 10.448,
+      "magnesiumMg": 293.75,
+      "vitaminCMg": 35.53,
+      "fiberG": 7.35,
+      "sugarsG": 0.513
+    },
+    "perServing": {
+      "calories": 242.071,
+      "proteinG": 16.419,
+      "carbohydratesG": 14.061,
+      "fatG": 15.05,
+      "sodiumMg": 13.924,
+      "potassiumMg": 494.106,
+      "calciumMg": 115.606,
+      "ironMg": 2.612,
+      "magnesiumMg": 73.438,
+      "vitaminCMg": 8.883,
+      "fiberG": 1.837,
+      "sugarsG": 0.128
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.67,
+    "perServingUsd": 2.67,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2028-12-11T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://teresasrecipes.com/recipe/italian-herbed-tempeh",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.-6Wso1gD-5kHNWeGgTmFTgHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://teresasrecipes.com/images/2974a0d6-f25c-4424-91be-a71200d42c7d.jpg",
+    "searchQuery": "Herbed Tempeh Skillet plated recipe food",
+    "searchResultTitle": "Italian Herbed Tempeh - Teresa's Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:11:25.032Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1171",
+    "name": "Herbed Tempeh Skillet",
+    "description": "Herbed Tempeh Skillet is a practical main meal adaptation built around tempeh, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 242.071,
+      "proteinG": 16.419,
+      "carbohydratesG": 14.061,
+      "fatG": 15.05,
+      "sodiumMg": 13.924,
+      "potassiumMg": 494.106,
+      "calciumMg": 115.606,
+      "ironMg": 2.612,
+      "magnesiumMg": 73.438,
+      "vitaminCMg": 8.883,
+      "fiberG": 1.837,
+      "sugarsG": 0.128
+    },
+    "estimatedCostPerServingUsd": 2.67,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

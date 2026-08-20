@@ -1,0 +1,122 @@
+{
+  "seedId": "ING-0106",
+  "name": "Whole-Wheat Pita Bread",
+  "canonicalName": "Whole-Wheat Pita Bread",
+  "description": "Whole-wheat pita rounds for pockets and compact meals.",
+  "measurementType": "solid",
+  "dietCompatibility": {
+    "glutenFree": false,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": "Whole-wheat pita contains gluten; the product identity has no required lactose-bearing ingredient."
+  },
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Papa Pita Greek Pita Flat Bread, 12 ct",
+    "productId": "18719012482",
+    "productUrl": "https://www.walmart.com/ip/18719012482",
+    "brand": "Papa Pita",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 17.01,
+    "packageQuantity": 720,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-11T19:50:49.978Z",
+    "priceEvidence": "Current Walmart product-page price; package mass conservatively estimated as 60 g per pita from the 12-count listing."
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 262,
+      "proteinG": 9.8,
+      "carbohydratesG": 55.9,
+      "fatG": 1.71,
+      "fiberG": 6.1,
+      "sugarsG": 2.87,
+      "sodiumMg": 421,
+      "potassiumMg": 170,
+      "calciumMg": 15,
+      "ironMg": 3.06,
+      "magnesiumMg": 69,
+      "vitaminCMg": 0
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 2.3625
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 174916,
+      "dataType": "SR Legacy",
+      "description": "Bread, pita, whole-wheat",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/174916/nutrients",
+      "searchQuery": "bread pita whole wheat",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": "Package mass estimated from 12 standard 60 g pita rounds."
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": "Package mass estimated from 12 standard 60 g pita rounds."
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "imageType": "external-real-product-photograph",
+    "aiGenerated": false,
+    "provider": "i5.walmartimages.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/46629604",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Papa-Pita-Whole-Wheat-Flat-Bread-6-Count-Shelf-Stable_e4a8629a-4bdb-410c-b70e-7d894979d407.2d57d4d657a767dd3617fcad8cd71e69.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:02:49.994Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0106",
+    "name": "Whole-Wheat Pita Bread",
+    "description": "Whole-wheat pita rounds for pockets and compact meals.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 262,
+      "proteinG": 9.8,
+      "carbohydratesG": 55.9,
+      "fatG": 1.71,
+      "fiberG": 6.1,
+      "sugarsG": 2.87,
+      "sodiumMg": 421,
+      "potassiumMg": 170,
+      "calciumMg": 15,
+      "ironMg": 3.06,
+      "magnesiumMg": 69,
+      "vitaminCMg": 0
+    },
+    "price": {
+      "usdPerBasis": 2.3625,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": null
+  }
+}

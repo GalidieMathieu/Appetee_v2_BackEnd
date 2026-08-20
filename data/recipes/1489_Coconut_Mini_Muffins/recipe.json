@@ -1,0 +1,191 @@
+{
+  "seedId": "REC-1489",
+  "candidate": {
+    "sequence": 2286,
+    "seedId": "REC-CAND-2286",
+    "name": "Coconut Mini Muffins"
+  },
+  "name": "Coconut Mini Muffins",
+  "description": "Coconut Mini Muffins is a practical snack adaptation built around oats, oats, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/banana-oatmeal-bites-514723",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Banana Oatmeal Bites source because it provides the closest validated muffins structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "Oven",
+  "primaryProtein": "oats",
+  "carbohydrateBase": "oats",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 240,
+      "sourceUnit": "ml",
+      "sourceDisplay": "240 ml",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0047",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for coconut mini muffins and preheat the oven.",
+    "Coat the oats and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the oats and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the coconut mini muffins briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 545,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1577.15,
+      "proteinG": 36.907,
+      "carbohydratesG": 222.694,
+      "fatG": 66.83,
+      "fiberG": 27.015,
+      "sugarsG": 51.744,
+      "sodiumMg": 48.5,
+      "potassiumMg": 1449.55,
+      "calciumMg": 221.6,
+      "ironMg": 18.788,
+      "magnesiumMg": 445.8,
+      "vitaminCMg": 2.89
+    },
+    "perServing": {
+      "calories": 394.288,
+      "proteinG": 9.227,
+      "carbohydratesG": 55.673,
+      "fatG": 16.707,
+      "fiberG": 6.754,
+      "sugarsG": 12.936,
+      "sodiumMg": 12.125,
+      "potassiumMg": 362.387,
+      "calciumMg": 55.4,
+      "ironMg": 4.697,
+      "magnesiumMg": 111.45,
+      "vitaminCMg": 0.723
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.95,
+    "perServingUsd": 0.74,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-04-15T17:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/coconut-mini-muffins-recipe-3-scoops-coconut-toneitupnutrition-protein-1-cup-almond-flour-1--219691288058751259/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.nWBIu6P9zbhkCeH9o1VaAgHaJQ&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/cb/9d/a0/cb9da01efbb0bbe196374314b93d79f8.jpg",
+    "searchQuery": "Coconut Mini Muffins plated recipe food",
+    "searchResultTitle": "Coconut Mini Muffins Recipe ~ 3 scoops coconut @toneitupnutrition ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:53:52.297Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1489",
+    "name": "Coconut Mini Muffins",
+    "description": "Coconut Mini Muffins is a practical snack adaptation built around oats, oats, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 394.288,
+      "proteinG": 9.227,
+      "carbohydratesG": 55.673,
+      "fatG": 16.707,
+      "fiberG": 6.754,
+      "sugarsG": 12.936,
+      "sodiumMg": 12.125,
+      "potassiumMg": 362.387,
+      "calciumMg": 55.4,
+      "ironMg": 4.697,
+      "magnesiumMg": 111.45,
+      "vitaminCMg": 0.723
+    },
+    "estimatedCostPerServingUsd": 0.74,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

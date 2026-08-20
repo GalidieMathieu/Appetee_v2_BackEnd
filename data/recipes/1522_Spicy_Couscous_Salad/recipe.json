@@ -1,0 +1,191 @@
+{
+  "seedId": "REC-1522",
+  "candidate": {
+    "sequence": 2320,
+    "seedId": "REC-CAND-2320",
+    "name": "Spicy Couscous Salad"
+  },
+  "name": "Spicy Couscous Salad",
+  "description": "Spicy Couscous Salad is a practical side adaptation built around vegetables, couscous, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/153802/algerian-flafla-bell-pepper-salad/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Algerian Flafla Bell Pepper Salad source because it provides the closest validated salad structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Algeria",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Side",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "couscous",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0110",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 2.5
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for spicy couscous salad.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the vegetables with the couscous and remaining ingredients in the intended side form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the spicy couscous salad into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 640,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1171.932,
+      "proteinG": 32.1,
+      "carbohydratesG": 190.945,
+      "fatG": 30.196,
+      "fiberG": 15.485,
+      "sodiumMg": 171.446,
+      "potassiumMg": 610.173,
+      "calciumMg": 85.823,
+      "ironMg": 4.665,
+      "magnesiumMg": 121.95,
+      "vitaminCMg": 0.08,
+      "sugarsG": 0.875
+    },
+    "perServing": {
+      "calories": 292.983,
+      "proteinG": 8.025,
+      "carbohydratesG": 47.736,
+      "fatG": 7.549,
+      "fiberG": 3.871,
+      "sodiumMg": 42.861,
+      "potassiumMg": 152.543,
+      "calciumMg": 21.456,
+      "ironMg": 1.166,
+      "magnesiumMg": 30.488,
+      "vitaminCMg": 0.02,
+      "sugarsG": 0.219
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.68,
+    "perServingUsd": 0.67,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-06-05T14:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://getrecipecart.com/recipe/spicy-couscous-salad/603e5d24c69833420148e233",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.2oK_ESEhTJS5pJznIsnuBgHaE8&pid=15.1",
+    "discoveredOriginalUrl": "https://img.taste.com.au/7RI8zv_P/taste/2016/11/spicy-couscous-salad-972-1.jpeg",
+    "searchQuery": "Spicy Couscous Salad plated recipe food",
+    "searchResultTitle": "Spicy couscous salad | Recipe Cart | Recipe Cart",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:54:59.835Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1522",
+    "name": "Spicy Couscous Salad",
+    "description": "Spicy Couscous Salad is a practical side adaptation built around vegetables, couscous, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 292.983,
+      "proteinG": 8.025,
+      "carbohydratesG": 47.736,
+      "fatG": 7.549,
+      "fiberG": 3.871,
+      "sodiumMg": 42.861,
+      "potassiumMg": 152.543,
+      "calciumMg": 21.456,
+      "ironMg": 1.166,
+      "magnesiumMg": 30.488,
+      "vitaminCMg": 0.02,
+      "sugarsG": 0.219
+    },
+    "estimatedCostPerServingUsd": 0.67,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

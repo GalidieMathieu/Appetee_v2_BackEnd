@@ -1,0 +1,197 @@
+{
+  "seedId": "REC-1363",
+  "candidate": {
+    "sequence": 2157,
+    "seedId": "REC-CAND-2157",
+    "name": "Meal Prep Turkey Sandwich"
+  },
+  "name": "Meal Prep Turkey Sandwich",
+  "description": "Meal Prep Turkey Sandwich is a practical small meal adaptation built around turkey, bread, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/peanut-butter-banana-toast",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Peanut Butter Banana Toast source because it provides the closest validated turkey and sandwich structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United Kingdom",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "bread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0051",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for meal prep turkey sandwich.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the turkey with the bread and remaining ingredients in the intended small meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the meal prep turkey sandwich into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1080,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2191.332,
+      "proteinG": 141.09,
+      "carbohydratesG": 153.93,
+      "fatG": 112.95,
+      "fiberG": 23.7,
+      "sugarsG": 13.02,
+      "sodiumMg": 1692.546,
+      "potassiumMg": 2520.273,
+      "calciumMg": 726.273,
+      "ironMg": 16.323,
+      "magnesiumMg": 366,
+      "vitaminCMg": 24.6
+    },
+    "perServing": {
+      "calories": 547.833,
+      "proteinG": 35.273,
+      "carbohydratesG": 38.483,
+      "fatG": 28.238,
+      "fiberG": 5.925,
+      "sugarsG": 3.255,
+      "sodiumMg": 423.137,
+      "potassiumMg": 630.068,
+      "calciumMg": 181.568,
+      "ironMg": 4.081,
+      "magnesiumMg": 91.5,
+      "vitaminCMg": 6.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.78,
+    "perServingUsd": 1.2,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-10-03T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://eatsclean.com/savory-veggie-and-turkey-meal-prep-breakfast-sandwiches/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.1j46zTZEHBnswREsi5SGRwHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://eatsclean.com/wp-content/uploads/2025/10/Image_3-172.png",
+    "searchQuery": "Meal Prep Turkey Sandwich plated recipe food",
+    "searchResultTitle": "Veggie and Turkey Meal Prep Breakfast Sandwiches",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:50:51.673Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1363",
+    "name": "Meal Prep Turkey Sandwich",
+    "description": "Meal Prep Turkey Sandwich is a practical small meal adaptation built around turkey, bread, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 547.833,
+      "proteinG": 35.273,
+      "carbohydratesG": 38.483,
+      "fatG": 28.238,
+      "fiberG": 5.925,
+      "sugarsG": 3.255,
+      "sodiumMg": 423.137,
+      "potassiumMg": 630.068,
+      "calciumMg": 181.568,
+      "ironMg": 4.081,
+      "magnesiumMg": 91.5,
+      "vitaminCMg": 6.15
+    },
+    "estimatedCostPerServingUsd": 1.2,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

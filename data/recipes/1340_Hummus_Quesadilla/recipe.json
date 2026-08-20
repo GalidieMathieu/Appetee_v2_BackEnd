@@ -1,0 +1,191 @@
+{
+  "seedId": "REC-1340",
+  "candidate": {
+    "sequence": 2134,
+    "seedId": "REC-CAND-2134",
+    "name": "Hummus Quesadilla"
+  },
+  "name": "Hummus Quesadilla",
+  "description": "Hummus Quesadilla is a practical small meal adaptation built around vegetables, tortilla, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://bewitchingkitchen.com/wp-content/uploads/2019/09/chickpeaszucchini.pdf",
+    "domain": "bewitchingkitchen.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Lemon Chickpea with Zucchini source because it provides the closest validated quesadilla structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Mediterranean",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 60,
+    "totalMinutes": 80
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, vegetables, and tortilla for hummus quesadilla.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned vegetables and cook it until browned or heated through as appropriate.",
+    "Stir in the tortilla, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the hummus quesadilla, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1030,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1841.332,
+      "proteinG": 59.97,
+      "carbohydratesG": 253.53,
+      "fatG": 67.81,
+      "fiberG": 60.7,
+      "sugarsG": 23.36,
+      "sodiumMg": 2838.546,
+      "potassiumMg": 1836.273,
+      "calciumMg": 957.273,
+      "ironMg": 13.163,
+      "magnesiumMg": 386,
+      "vitaminCMg": 25
+    },
+    "perServing": {
+      "calories": 460.333,
+      "proteinG": 14.992,
+      "carbohydratesG": 63.383,
+      "fatG": 16.953,
+      "fiberG": 15.175,
+      "sugarsG": 5.84,
+      "sodiumMg": 709.636,
+      "potassiumMg": 459.068,
+      "calciumMg": 239.318,
+      "ironMg": 3.291,
+      "magnesiumMg": 96.5,
+      "vitaminCMg": 6.25
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.78,
+    "perServingUsd": 0.94,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-08-29T00:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://fr.pinterest.com/pin/1337074878379999/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.sffsdRwjypCAFpwZ382JQgHaKL&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/81/96/57/819657b92ef3d1c99e0873c4a7b0f96a.jpg",
+    "searchQuery": "Hummus Quesadilla plated recipe food",
+    "searchResultTitle": "Hummus Quesadillas! | Recipe | Recipes, Vegan dinners, Vegan recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:20:00.088Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1340",
+    "name": "Hummus Quesadilla",
+    "description": "Hummus Quesadilla is a practical small meal adaptation built around vegetables, tortilla, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 80,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 460.333,
+      "proteinG": 14.992,
+      "carbohydratesG": 63.383,
+      "fatG": 16.953,
+      "fiberG": 15.175,
+      "sugarsG": 5.84,
+      "sodiumMg": 709.636,
+      "potassiumMg": 459.068,
+      "calciumMg": 239.318,
+      "ironMg": 3.291,
+      "magnesiumMg": 96.5,
+      "vitaminCMg": 6.25
+    },
+    "estimatedCostPerServingUsd": 0.94,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

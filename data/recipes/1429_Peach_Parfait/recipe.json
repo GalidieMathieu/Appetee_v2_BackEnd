@@ -1,0 +1,191 @@
+{
+  "seedId": "REC-1429",
+  "candidate": {
+    "sequence": 2226,
+    "seedId": "REC-CAND-2226",
+    "name": "Peach Parfait"
+  },
+  "name": "Peach Parfait",
+  "description": "Peach Parfait is a practical small meal adaptation built around vegetables, fruit, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.skinnytaste.com/berry-cottage-cheese-breakfast-bowl/",
+    "domain": "skinnytaste.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Cottage Cheese Berry Bowls source because it provides the closest validated parfait structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Breakfast",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0108",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for peach parfait.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the vegetables with the fruit and remaining ingredients in the intended small meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the peach parfait into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 900,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1386,
+      "proteinG": 65.19,
+      "carbohydratesG": 251.34,
+      "fatG": 17.568,
+      "fiberG": 28.86,
+      "sugarsG": 86.526,
+      "sodiumMg": 124.8,
+      "potassiumMg": 1893,
+      "calciumMg": 476.4,
+      "ironMg": 11.412,
+      "magnesiumMg": 392.4,
+      "vitaminCMg": 20.1
+    },
+    "perServing": {
+      "calories": 346.5,
+      "proteinG": 16.297,
+      "carbohydratesG": 62.835,
+      "fatG": 4.392,
+      "fiberG": 7.215,
+      "sugarsG": 21.631,
+      "sodiumMg": 31.2,
+      "potassiumMg": 473.25,
+      "calciumMg": 119.1,
+      "ironMg": 2.853,
+      "magnesiumMg": 98.1,
+      "vitaminCMg": 5.025
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.41,
+    "perServingUsd": 1.1,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-01-13T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse2.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://in.pinterest.com/pin/easy-peach-crumble-parfait-recipe--211174978544959/",
+    "originalSourceUrl": "https://tse2.mm.bing.net/th/id/OIP.Agj85ZYu-WHw-lReJnRlZAHaJ3?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/21/5a/eb/215aebb620b373fe6a4ca4aa9ec87364.jpg",
+    "searchQuery": "peach yogurt parfait dessert cup food photograph",
+    "searchResultTitle": "Easy Peach Crumble Parfait Recipe 🍑🍨🥣🍯 🥄 | Peach cobbler parfait cups, Peach yogurt parfait ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:50.010Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1429",
+    "name": "Peach Parfait",
+    "description": "Peach Parfait is a practical small meal adaptation built around vegetables, fruit, and title-specific supporting ingredients.",
+    "mealType": "Breakfast",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 346.5,
+      "proteinG": 16.297,
+      "carbohydratesG": 62.835,
+      "fatG": 4.392,
+      "fiberG": 7.215,
+      "sugarsG": 21.631,
+      "sodiumMg": 31.2,
+      "potassiumMg": 473.25,
+      "calciumMg": 119.1,
+      "ironMg": 2.853,
+      "magnesiumMg": 98.1,
+      "vitaminCMg": 5.025
+    },
+    "estimatedCostPerServingUsd": 1.1,
+    "diets": [
+      "Flexitarian"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

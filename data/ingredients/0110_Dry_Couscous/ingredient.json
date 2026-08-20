@@ -1,0 +1,120 @@
+{
+  "seedId": "ING-0110",
+  "name": "Dry Couscous",
+  "canonicalName": "Dry Couscous",
+  "description": "Dry plain couscous for salads and side dishes.",
+  "measurementType": "solid",
+  "dietCompatibility": {
+    "glutenFree": false,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": "Couscous is made from wheat semolina and contains gluten; plain dry couscous contains no lactose."
+  },
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Woodland Foods Couscous, 10 lb",
+    "productId": "358772293",
+    "productUrl": "https://www.walmart.com/ip/358772293",
+    "brand": "Woodland Foods",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 41.03,
+    "packageQuantity": 4535.92,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-11T19:50:49.978Z",
+    "priceEvidence": "Current Walmart product-page listing price and package weight."
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 376,
+      "proteinG": 12.8,
+      "carbohydratesG": 77.4,
+      "fatG": 0.64,
+      "fiberG": 5,
+      "sodiumMg": 10,
+      "potassiumMg": 166,
+      "calciumMg": 24,
+      "ironMg": 1.08,
+      "magnesiumMg": 44,
+      "vitaminCMg": 0
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.9046
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 169699,
+      "dataType": "SR Legacy",
+      "description": "Couscous, dry",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/169699/nutrients",
+      "searchQuery": "couscous dry",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "imageType": "external-real-product-photograph",
+    "aiGenerated": false,
+    "provider": "i5.walmartimages.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/358772293",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Woodland-Foods-072495-Couscous-10-Pound-Box_4b49684f-cae0-4467-b3d6-1aa0fa52cfdd.101bc22a0a4b338ba2d8ef8158baba99.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:01:23.923Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0110",
+    "name": "Dry Couscous",
+    "description": "Dry plain couscous for salads and side dishes.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 376,
+      "proteinG": 12.8,
+      "carbohydratesG": 77.4,
+      "fatG": 0.64,
+      "fiberG": 5,
+      "sodiumMg": 10,
+      "potassiumMg": 166,
+      "calciumMg": 24,
+      "ironMg": 1.08,
+      "magnesiumMg": 44,
+      "vitaminCMg": 0
+    },
+    "price": {
+      "usdPerBasis": 0.9046,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": null
+  }
+}

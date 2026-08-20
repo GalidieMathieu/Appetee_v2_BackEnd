@@ -1,4 +1,4 @@
-import { canonicalMealCategory } from "../meal-categories.mjs";
+import { canonicalMealCategory } from "../shared/meal-categories.mjs";
 
 const checkedAt = "2026-08-10T12:00:00-06:00";
 const walmart = (id, name, price, quantity, brand = "Great Value") => ({

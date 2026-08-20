@@ -1,0 +1,203 @@
+{
+  "seedId": "REC-1269",
+  "candidate": {
+    "sequence": 2063,
+    "seedId": "REC-CAND-2063",
+    "name": "Mediterranean Lentil Flatbread"
+  },
+  "name": "Mediterranean Lentil Flatbread",
+  "description": "Mediterranean Lentil Flatbread is a practical main meal adaptation built around lentils, flatbread, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/8542186/red-lentil-flatbread/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Indian Lentil Flatbread source because it provides the closest validated lentils and flatbread structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Mediterranean",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 50,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "flatbread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 2.5
+    },
+    {
+      "ingredientSeedId": "ING-0067",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lentils, and flatbread for mediterranean lentil flatbread.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lentils and cook it until browned or heated through as appropriate.",
+    "Stir in the flatbread, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the mediterranean lentil flatbread, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1530,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2379.132,
+      "proteinG": 95.73,
+      "carbohydratesG": 434.85,
+      "fatG": 33.834,
+      "fiberG": 47.88,
+      "sugarsG": 13.182,
+      "sodiumMg": 29.946,
+      "potassiumMg": 2906.073,
+      "calciumMg": 252.273,
+      "ironMg": 32.337,
+      "magnesiumMg": 229.8,
+      "vitaminCMg": 194.4
+    },
+    "perServing": {
+      "calories": 594.783,
+      "proteinG": 23.933,
+      "carbohydratesG": 108.713,
+      "fatG": 8.459,
+      "fiberG": 11.97,
+      "sugarsG": 3.296,
+      "sodiumMg": 7.487,
+      "potassiumMg": 726.518,
+      "calciumMg": 63.068,
+      "ironMg": 8.084,
+      "magnesiumMg": 57.45,
+      "vitaminCMg": 48.6
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.79,
+    "perServingUsd": 0.95,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-05-11T13:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.themediterraneandish.com/lentil-stuffed-flatbread-recipe/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.yAi8sh-mrLnhbk-XRj2qhQHaE8&pid=15.1",
+    "discoveredOriginalUrl": "https://www.themediterraneandish.com/wp-content/uploads/2025/01/TMD-Whole-Wheat-Stuffed-Flatbread-Med-Leads-03-Horizontal.jpg",
+    "searchQuery": "Mediterranean Lentil Flatbread plated recipe food",
+    "searchResultTitle": "Lentil Stuffed Flatbread Recipe | The Mediterranean Dish",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:16:28.582Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1269",
+    "name": "Mediterranean Lentil Flatbread",
+    "description": "Mediterranean Lentil Flatbread is a practical main meal adaptation built around lentils, flatbread, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 594.783,
+      "proteinG": 23.933,
+      "carbohydratesG": 108.713,
+      "fatG": 8.459,
+      "fiberG": 11.97,
+      "sugarsG": 3.296,
+      "sodiumMg": 7.487,
+      "potassiumMg": 726.518,
+      "calciumMg": 63.068,
+      "ironMg": 8.084,
+      "magnesiumMg": 57.45,
+      "vitaminCMg": 48.6
+    },
+    "estimatedCostPerServingUsd": 0.95,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

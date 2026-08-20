@@ -1,0 +1,202 @@
+{
+  "seedId": "REC-1684",
+  "candidate": {
+    "sequence": 2484,
+    "seedId": "REC-CAND-2484",
+    "name": "Berry Protein Smoothie"
+  },
+  "name": "Berry Protein Smoothie",
+  "description": "Berry Protein Smoothie is a practical drink adaptation built around berries, fruit, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.oikos.com/greek-yogurt-recipes/smoothies/recipe/berry-banana-smoothie/",
+    "domain": "oikos.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Berry Banana Greek Yogurt Smoothie source because it provides the closest validated fruit and smoothie structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Drink",
+  "cookingMethod": "Blender",
+  "primaryProtein": "berries",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0034",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0030",
+      "sourceQuantity": 240,
+      "sourceUnit": "ml",
+      "sourceDisplay": "240 ml",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and chill the ingredients for berry protein smoothie.",
+    "Add the liquid ingredients to the blender before the thicker ingredients.",
+    "Blend until the berry protein smoothie is completely smooth and evenly combined.",
+    "Adjust the thickness with a small amount of milk and serve immediately."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1140,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1497.6,
+      "proteinG": 71.908,
+      "carbohydratesG": 261.976,
+      "fatG": 22.042,
+      "fiberG": 30.66,
+      "sugarsG": 87.545,
+      "sodiumMg": 246.984,
+      "potassiumMg": 2113.08,
+      "calciumMg": 803.04,
+      "ironMg": 12.962,
+      "magnesiumMg": 425.592,
+      "vitaminCMg": 124.394
+    },
+    "perServing": {
+      "calories": 374.4,
+      "proteinG": 17.977,
+      "carbohydratesG": 65.494,
+      "fatG": 5.511,
+      "fiberG": 7.665,
+      "sugarsG": 21.886,
+      "sodiumMg": 61.746,
+      "potassiumMg": 528.27,
+      "calciumMg": 200.76,
+      "ironMg": 3.24,
+      "magnesiumMg": 106.398,
+      "vitaminCMg": 31.099
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.56,
+    "perServingUsd": 1.14,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2031-02-10T08:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse2.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.freepik.com/premium-ai-image/refreshing-berry-smoothie-glass_134221319.htm",
+    "originalSourceUrl": "https://tse2.mm.bing.net/th/id/OIP.nkKofhcbWuz5lcoZ-Kl_DAHaHa?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://img.freepik.com/premium-photo/refreshing-berry-smoothie-glass_1077802-45640.jpg",
+    "searchQuery": "berry smoothie drink in a glass food photograph",
+    "searchResultTitle": "Refreshing berry smoothie in glass | Premium AI-generated image",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:43.944Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1684",
+    "name": "Berry Protein Smoothie",
+    "description": "Berry Protein Smoothie is a practical drink adaptation built around berries, fruit, and title-specific supporting ingredients.",
+    "mealType": "Breakfast",
+    "mealCategory": "Drink",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 374.4,
+      "proteinG": 17.977,
+      "carbohydratesG": 65.494,
+      "fatG": 5.511,
+      "fiberG": 7.665,
+      "sugarsG": 21.886,
+      "sodiumMg": 61.746,
+      "potassiumMg": 528.27,
+      "calciumMg": 200.76,
+      "ironMg": 3.24,
+      "magnesiumMg": 106.398,
+      "vitaminCMg": 31.099
+    },
+    "estimatedCostPerServingUsd": 1.14,
+    "diets": [
+      "Vegetarian",
+      "Vegan"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

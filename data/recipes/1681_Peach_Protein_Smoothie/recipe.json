@@ -1,0 +1,200 @@
+{
+  "seedId": "REC-1681",
+  "candidate": {
+    "sequence": 2481,
+    "seedId": "REC-CAND-2481",
+    "name": "Peach Protein Smoothie"
+  },
+  "name": "Peach Protein Smoothie",
+  "description": "Peach Protein Smoothie is a practical drink adaptation built around vegetables, fruit, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.oikos.com/greek-yogurt-recipes/smoothies/recipe/berry-banana-smoothie/",
+    "domain": "oikos.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Berry Banana Greek Yogurt Smoothie source because it provides the closest validated smoothie structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Drink",
+  "cookingMethod": "Blender",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0108",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0030",
+      "sourceQuantity": 240,
+      "sourceUnit": "ml",
+      "sourceDisplay": "240 ml",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and chill the ingredients for peach protein smoothie.",
+    "Add the liquid ingredients to the blender before the thicker ingredients.",
+    "Blend until the peach protein smoothie is completely smooth and evenly combined.",
+    "Adjust the thickness with a small amount of milk and serve immediately."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1140,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1509.6,
+      "proteinG": 73.348,
+      "carbohydratesG": 263.206,
+      "fatG": 22.462,
+      "fiberG": 28.86,
+      "sugarsG": 99.035,
+      "sodiumMg": 240.984,
+      "potassiumMg": 2239.08,
+      "calciumMg": 773.04,
+      "ironMg": 11.462,
+      "magnesiumMg": 419.592,
+      "vitaminCMg": 20.594
+    },
+    "perServing": {
+      "calories": 377.4,
+      "proteinG": 18.337,
+      "carbohydratesG": 65.802,
+      "fatG": 5.615,
+      "fiberG": 7.215,
+      "sugarsG": 24.759,
+      "sodiumMg": 60.246,
+      "potassiumMg": 559.77,
+      "calciumMg": 193.26,
+      "ironMg": 2.865,
+      "magnesiumMg": 104.898,
+      "vitaminCMg": 5.149
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.69,
+    "perServingUsd": 1.17,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2031-02-05T17:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse1.explicit.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://mixmirth.com/peach-smoothie/",
+    "originalSourceUrl": "https://tse1.explicit.bing.net/th/id/OIP.l1Gv0WP4j3qOUh0bnF2wQwHaHa?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://www.mixmirth.com/wp-content/uploads/2025/10/peach-smoothie-2025-10-30-131836.webp",
+    "searchQuery": "peach smoothie drink in a glass food photograph",
+    "searchResultTitle": "Peach Smoothie",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:43.364Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1681",
+    "name": "Peach Protein Smoothie",
+    "description": "Peach Protein Smoothie is a practical drink adaptation built around vegetables, fruit, and title-specific supporting ingredients.",
+    "mealType": "Breakfast",
+    "mealCategory": "Drink",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 377.4,
+      "proteinG": 18.337,
+      "carbohydratesG": 65.802,
+      "fatG": 5.615,
+      "fiberG": 7.215,
+      "sugarsG": 24.759,
+      "sodiumMg": 60.246,
+      "potassiumMg": 559.77,
+      "calciumMg": 193.26,
+      "ironMg": 2.865,
+      "magnesiumMg": 104.898,
+      "vitaminCMg": 5.149
+    },
+    "estimatedCostPerServingUsd": 1.17,
+    "diets": [
+      "Flexitarian"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

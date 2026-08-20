@@ -1,0 +1,122 @@
+{
+  "seedId": "ING-0116",
+  "name": "Pure Maple Syrup",
+  "canonicalName": "Pure Maple Syrup",
+  "description": "Pure maple syrup for snack clusters, granola bites, and roasted nuts.",
+  "measurementType": "liquid",
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": "The exact product is a single-ingredient food without gluten- or lactose-bearing ingredients."
+  },
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Pure Maple Syrup, 12.5 fl oz",
+    "productId": "13925187",
+    "productUrl": "https://www.walmart.com/ip/13925187",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 7.98,
+    "packageQuantity": 369.669,
+    "packageUnit": "ml",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-11T19:50:49.978Z",
+    "priceEvidence": "Current Walmart product-page listing price and package volume."
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "ml",
+    "values": {
+      "calories": 345.8,
+      "proteinG": 0.053,
+      "carbohydratesG": 89.11,
+      "fatG": 0.08,
+      "fiberG": 0,
+      "sugarsG": 80.465,
+      "sodiumMg": 15.96,
+      "potassiumMg": 281.96,
+      "calciumMg": 135.66,
+      "ironMg": 0.146,
+      "magnesiumMg": 27.93,
+      "vitaminCMg": 0
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "ml",
+    "usdPerBasis": 2.1587
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 169661,
+      "dataType": "SR Legacy",
+      "description": "Syrups, maple",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/169661/nutrients",
+      "searchQuery": "syrups maple",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": "USDA gram-basis maple syrup nutrition converted to ml with density 1.33 g/ml."
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": 1.33,
+    "notes": "USDA gram-basis maple syrup nutrition converted to ml with density 1.33 g/ml."
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "imageType": "external-real-product-photograph",
+    "aiGenerated": false,
+    "provider": "i5.walmartimages.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/13925187",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Great-Value-Pure-Maple-Syrup-12-5-fl-oz_1313c809-deef-4320-bae7-b974ad6a3e6a_2.930e3b520f82a5eb8a628d073bf2c203.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:01:23.923Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0116",
+    "name": "Pure Maple Syrup",
+    "description": "Pure maple syrup for snack clusters, granola bites, and roasted nuts.",
+    "measurement": {
+      "type": "liquid",
+      "basisQuantity": 100,
+      "basisUnit": "ml"
+    },
+    "nutrition": {
+      "calories": 345.8,
+      "proteinG": 0.053,
+      "carbohydratesG": 89.11,
+      "fatG": 0.08,
+      "fiberG": 0,
+      "sugarsG": 80.465,
+      "sodiumMg": 15.96,
+      "potassiumMg": 281.96,
+      "calciumMg": 135.66,
+      "ironMg": 0.146,
+      "magnesiumMg": 27.93,
+      "vitaminCMg": 0
+    },
+    "price": {
+      "usdPerBasis": 2.1587,
+      "basisQuantity": 100,
+      "basisUnit": "ml"
+    },
+    "image": null
+  }
+}

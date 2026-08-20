@@ -1,0 +1,203 @@
+{
+  "seedId": "REC-1411",
+  "candidate": {
+    "sequence": 2206,
+    "seedId": "REC-CAND-2206",
+    "name": "Greek Yogurt Protein Potato Bowl"
+  },
+  "name": "Greek Yogurt Protein Potato Bowl",
+  "description": "Greek Yogurt Protein Potato Bowl is a practical small meal adaptation built around Greek yogurt, potatoes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.skinnytaste.com/berry-cottage-cheese-breakfast-bowl/",
+    "domain": "skinnytaste.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Cottage Cheese Berry Bowls source because it provides the closest validated dairy and bowl structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Greece",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "Greek yogurt",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, Greek yogurt, and potatoes for greek yogurt protein potato bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned Greek yogurt and cook it until browned or heated through as appropriate.",
+    "Stir in the potatoes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the greek yogurt protein potato bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1230,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 856.332,
+      "proteinG": 42.81,
+      "carbohydratesG": 118.89,
+      "fatG": 29.76,
+      "fiberG": 18,
+      "sugarsG": 19.08,
+      "sodiumMg": 132.546,
+      "potassiumMg": 2634.273,
+      "calciumMg": 492.273,
+      "ironMg": 5.583,
+      "magnesiumMg": 153,
+      "vitaminCMg": 200.7
+    },
+    "perServing": {
+      "calories": 214.083,
+      "proteinG": 10.703,
+      "carbohydratesG": 29.723,
+      "fatG": 7.44,
+      "fiberG": 4.5,
+      "sugarsG": 4.77,
+      "sodiumMg": 33.136,
+      "potassiumMg": 658.568,
+      "calciumMg": 123.068,
+      "ironMg": 1.396,
+      "magnesiumMg": 38.25,
+      "vitaminCMg": 50.175
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.98,
+    "perServingUsd": 0.99,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-12-16T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse2.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://lifestyleandrecipes.com/delightful-fruit-and-yogurt-parfait-cups-recipe/",
+    "originalSourceUrl": "https://tse2.mm.bing.net/th/id/OIP.kxVmAUZNQgMfRNFSx0YangHaHa?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://lifestyleandrecipes.com/wp-content/uploads/2025/08/Fruit_and_Yogurt_Parfait_Cups_1.png",
+    "searchQuery": "fruit yogurt parfait dessert cup food photograph",
+    "searchResultTitle": "Fruit and Yogurt Parfait Cups",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:47.346Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1411",
+    "name": "Greek Yogurt Protein Potato Bowl",
+    "description": "Greek Yogurt Protein Potato Bowl is a practical small meal adaptation built around Greek yogurt, potatoes, and title-specific supporting ingredients.",
+    "mealType": "Breakfast",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 214.083,
+      "proteinG": 10.703,
+      "carbohydratesG": 29.723,
+      "fatG": 7.44,
+      "fiberG": 4.5,
+      "sugarsG": 4.77,
+      "sodiumMg": 33.136,
+      "potassiumMg": 658.568,
+      "calciumMg": 123.068,
+      "ironMg": 1.396,
+      "magnesiumMg": 38.25,
+      "vitaminCMg": 50.175
+    },
+    "estimatedCostPerServingUsd": 0.99,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "seedId": "REC-1343",
+  "candidate": {
+    "sequence": 2137,
+    "seedId": "REC-CAND-2137",
+    "name": "Quick Tofu Bowl"
+  },
+  "name": "Quick Tofu Bowl",
+  "description": "Quick Tofu Bowl is a practical small meal adaptation built around tofu, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://cooktogether.com/recipe-items/rice-salad-with-edamame-and-crispy-tofu/",
+    "domain": "cooktogether.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Tomato Basil Tofu Salad Bowl source because it provides the closest validated soy and bowl structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Japan",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tofu",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0018",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tofu, and vegetables for quick tofu bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tofu and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the quick tofu bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 643.332,
+      "proteinG": 32.25,
+      "carbohydratesG": 46.05,
+      "fatG": 40.56,
+      "fiberG": 12,
+      "sugarsG": 9.69,
+      "sodiumMg": 54.546,
+      "potassiumMg": 1701.273,
+      "calciumMg": 678.273,
+      "ironMg": 6.633,
+      "magnesiumMg": 171,
+      "vitaminCMg": 66.3
+    },
+    "perServing": {
+      "calories": 160.833,
+      "proteinG": 8.063,
+      "carbohydratesG": 11.512,
+      "fatG": 10.14,
+      "fiberG": 3,
+      "sugarsG": 2.422,
+      "sodiumMg": 13.636,
+      "potassiumMg": 425.318,
+      "calciumMg": 169.568,
+      "ironMg": 1.658,
+      "magnesiumMg": 42.75,
+      "vitaminCMg": 16.575
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.13,
+    "perServingUsd": 1.03,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-09-02T15:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse2.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/crispy-peanut-tofu-bowl-plantifully-based--551831760603173851/",
+    "originalSourceUrl": "https://tse2.mm.bing.net/th/id/OIP.6WrNPtu62eulTOBa781hTAHaJQ?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/2a/d3/44/2ad3443065b4ed114bc14e40e0617b5c.jpg",
+    "searchQuery": "tofu bowl plated recipe food photograph",
+    "searchResultTitle": "Crispy Peanut Tofu Bowl - Plantifully Based | Recipe | Meals, Whole food recipes, Tofu",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:38.491Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1343",
+    "name": "Quick Tofu Bowl",
+    "description": "Quick Tofu Bowl is a practical small meal adaptation built around tofu, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 160.833,
+      "proteinG": 8.063,
+      "carbohydratesG": 11.512,
+      "fatG": 10.14,
+      "fiberG": 3,
+      "sugarsG": 2.422,
+      "sodiumMg": 13.636,
+      "potassiumMg": 425.318,
+      "calciumMg": 169.568,
+      "ironMg": 1.658,
+      "magnesiumMg": 42.75,
+      "vitaminCMg": 16.575
+    },
+    "estimatedCostPerServingUsd": 1.03,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

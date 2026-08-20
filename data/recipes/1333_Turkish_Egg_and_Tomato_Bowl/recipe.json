@@ -1,0 +1,195 @@
+{
+  "seedId": "REC-1333",
+  "candidate": {
+    "sequence": 2127,
+    "seedId": "REC-CAND-2127",
+    "name": "Turkish Egg and Tomato Bowl"
+  },
+  "name": "Turkish Egg and Tomato Bowl",
+  "description": "Turkish Egg and Tomato Bowl is a practical small meal adaptation built around eggs, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.sainsburysmagazine.co.uk/recipes/mains/tortang-talong",
+    "domain": "sainsburysmagazine.co.uk",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Filipino Tortang Talong source because it provides the closest validated eggs and bowl structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Turkey",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 40,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, eggs, and vegetables for turkish egg and tomato bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned eggs and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the turkish egg and tomato bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 838.332,
+      "proteinG": 42.93,
+      "carbohydratesG": 39.66,
+      "fatG": 56.58,
+      "fiberG": 9.3,
+      "sugarsG": 9,
+      "sodiumMg": 444.546,
+      "potassiumMg": 1671.273,
+      "calciumMg": 243.273,
+      "ironMg": 7.053,
+      "magnesiumMg": 96,
+      "vitaminCMg": 65.7
+    },
+    "perServing": {
+      "calories": 209.583,
+      "proteinG": 10.732,
+      "carbohydratesG": 9.915,
+      "fatG": 14.145,
+      "fiberG": 2.325,
+      "sugarsG": 2.25,
+      "sodiumMg": 111.136,
+      "potassiumMg": 417.818,
+      "calciumMg": 60.818,
+      "ironMg": 1.763,
+      "magnesiumMg": 24,
+      "vitaminCMg": 16.425
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.64,
+    "perServingUsd": 0.66,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-08-18T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.bonappetit.com/recipe/turkish-style-eggs-tomatoes",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.MEoc0oJuEzdRPirR2CLgNAHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://assets.bonappetit.com/photos/6863fc91ab8931c3fc8db8b3/1:1/w_2560%2Cc_limit/BA%2520Tomato%2520Week_20250529_BA_Tomato2_TurkishEggs_0290.jpg",
+    "searchQuery": "Turkish Egg and Tomato Bowl plated recipe food",
+    "searchResultTitle": "Turkish-Style Eggs and Tomatoes Recipe | Bon Appétit",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:19:40.104Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1333",
+    "name": "Turkish Egg and Tomato Bowl",
+    "description": "Turkish Egg and Tomato Bowl is a practical small meal adaptation built around eggs, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Breakfast",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 209.583,
+      "proteinG": 10.732,
+      "carbohydratesG": 9.915,
+      "fatG": 14.145,
+      "fiberG": 2.325,
+      "sugarsG": 2.25,
+      "sodiumMg": 111.136,
+      "potassiumMg": 417.818,
+      "calciumMg": 60.818,
+      "ironMg": 1.763,
+      "magnesiumMg": 24,
+      "vitaminCMg": 16.425
+    },
+    "estimatedCostPerServingUsd": 0.66,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

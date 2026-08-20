@@ -1,0 +1,195 @@
+{
+  "seedId": "REC-1542",
+  "candidate": {
+    "sequence": 2340,
+    "seedId": "REC-CAND-2340",
+    "name": "Greek Rice"
+  },
+  "name": "Greek Rice",
+  "description": "Greek Rice is a practical side adaptation built around rice, rice, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://kosherworldkitchen.com/morogo-curried-spinach/#recipe",
+    "domain": "kosherworldkitchen.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Botswana Curried Spinach source because it provides the closest validated rice structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Greece",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Side",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "rice",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, rice, and rice for greek rice.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned rice and cook it until browned or heated through as appropriate.",
+    "Stir in the rice, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the greek rice, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1350,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1303.932,
+      "proteinG": 22.686,
+      "carbohydratesG": 246.51,
+      "fatG": 30.822,
+      "fiberG": 14.458,
+      "sodiumMg": 10.655,
+      "potassiumMg": 1157.793,
+      "calciumMg": 133.977,
+      "ironMg": 3.129,
+      "magnesiumMg": 114.6,
+      "sugarsG": 7.5,
+      "vitaminCMg": 183.6
+    },
+    "perServing": {
+      "calories": 325.983,
+      "proteinG": 5.671,
+      "carbohydratesG": 61.627,
+      "fatG": 7.705,
+      "fiberG": 3.615,
+      "sodiumMg": 2.664,
+      "potassiumMg": 289.448,
+      "calciumMg": 33.494,
+      "ironMg": 0.782,
+      "magnesiumMg": 28.65,
+      "sugarsG": 1.875,
+      "vitaminCMg": 45.9
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.23,
+    "perServingUsd": 0.81,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-07-06T10:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse1.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://wall.alphacoders.com/big.php?i=382535",
+    "originalSourceUrl": "https://tse1.mm.bing.net/th/id/OIP.N_8xr-IgvXyL6h6xrM8OogHaEo?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://images7.alphacoders.com/382/thumb-1920-382535.jpg",
+    "searchQuery": "rice plated recipe food photograph",
+    "searchResultTitle": "Delicious Rice Meal - HD Wallpaper | 1920x1200 | Wallpaper Abyss",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:02.776Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1542",
+    "name": "Greek Rice",
+    "description": "Greek Rice is a practical side adaptation built around rice, rice, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 325.983,
+      "proteinG": 5.671,
+      "carbohydratesG": 61.627,
+      "fatG": 7.705,
+      "fiberG": 3.615,
+      "sodiumMg": 2.664,
+      "potassiumMg": 289.448,
+      "calciumMg": 33.494,
+      "ironMg": 0.782,
+      "magnesiumMg": 28.65,
+      "sugarsG": 1.875,
+      "vitaminCMg": 45.9
+    },
+    "estimatedCostPerServingUsd": 0.81,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

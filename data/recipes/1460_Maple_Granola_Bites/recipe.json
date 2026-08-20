@@ -1,0 +1,191 @@
+{
+  "seedId": "REC-1460",
+  "candidate": {
+    "sequence": 2257,
+    "seedId": "REC-CAND-2257",
+    "name": "Maple Granola Bites"
+  },
+  "name": "Maple Granola Bites",
+  "description": "Maple Granola Bites is a practical snack adaptation built around oats, oats, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/banana-oatmeal-bites-514723",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Banana Oatmeal Bites source because it provides the closest validated bites structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "Oven",
+  "primaryProtein": "oats",
+  "carbohydrateBase": "oats",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0116",
+      "sourceQuantity": 60,
+      "sourceUnit": "ml",
+      "sourceDisplay": "60 ml",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0034",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for maple granola bites and preheat the oven.",
+    "Coat the oats and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the oats and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the maple granola bites briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 660,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1404.48,
+      "proteinG": 33.182,
+      "carbohydratesG": 292.776,
+      "fatG": 16.026,
+      "fiberG": 30.66,
+      "sugarsG": 113.595,
+      "sodiumMg": 32.376,
+      "potassiumMg": 1513.176,
+      "calciumMg": 257.796,
+      "ironMg": 12.79,
+      "magnesiumMg": 382.158,
+      "vitaminCMg": 123.9
+    },
+    "perServing": {
+      "calories": 351.12,
+      "proteinG": 8.296,
+      "carbohydratesG": 73.194,
+      "fatG": 4.006,
+      "fiberG": 7.665,
+      "sugarsG": 28.399,
+      "sodiumMg": 8.094,
+      "potassiumMg": 378.294,
+      "calciumMg": 64.449,
+      "ironMg": 3.197,
+      "magnesiumMg": 95.54,
+      "vitaminCMg": 30.975
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.49,
+    "perServingUsd": 1.12,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-03-02T00:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.explicit.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.maxivore.com/crunchy-maple-pecan-granola-bites/",
+    "originalSourceUrl": "https://ts3.explicit.bing.net/th?id=OIP.v4N_j4dqlMmKd2KLi-aFTgHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://www.maxivore.com/wp-content/uploads/2025/12/crunchy-maple-pecan-granola-bites.png",
+    "searchQuery": "Maple Granola Bites plated recipe food",
+    "searchResultTitle": "Crunchy Maple Pecan Granola Bites: 7 Delicious Bites",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:53:35.511Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1460",
+    "name": "Maple Granola Bites",
+    "description": "Maple Granola Bites is a practical snack adaptation built around oats, oats, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 351.12,
+      "proteinG": 8.296,
+      "carbohydratesG": 73.194,
+      "fatG": 4.006,
+      "fiberG": 7.665,
+      "sugarsG": 28.399,
+      "sodiumMg": 8.094,
+      "potassiumMg": 378.294,
+      "calciumMg": 64.449,
+      "ironMg": 3.197,
+      "magnesiumMg": 95.54,
+      "vitaminCMg": 30.975
+    },
+    "estimatedCostPerServingUsd": 1.12,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

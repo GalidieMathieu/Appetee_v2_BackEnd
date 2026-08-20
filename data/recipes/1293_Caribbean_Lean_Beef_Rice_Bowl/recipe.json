@@ -1,0 +1,195 @@
+{
+  "seedId": "REC-1293",
+  "candidate": {
+    "sequence": 2087,
+    "seedId": "REC-CAND-2087",
+    "name": "Caribbean Lean Beef Rice Bowl"
+  },
+  "name": "Caribbean Lean Beef Rice Bowl",
+  "description": "Caribbean Lean Beef Rice Bowl is a practical main meal adaptation built around lean beef, rice, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://mykoreankitchen.com/korean-ground-beef-rice-bowls/",
+    "domain": "mykoreankitchen.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Lean Beef Fried Rice source because it provides the closest validated beef and bowl/rice structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Caribbean",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 40,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lean beef",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lean beef, and rice for caribbean lean beef rice bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lean beef and cook it until browned or heated through as appropriate.",
+    "Stir in the rice, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the caribbean lean beef rice bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1500,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2506.932,
+      "proteinG": 130.986,
+      "carbohydratesG": 218.55,
+      "fatG": 119.922,
+      "fiberG": 6.058,
+      "sugarsG": 0,
+      "sodiumMg": 400.655,
+      "potassiumMg": 2513.793,
+      "calciumMg": 145.977,
+      "ironMg": 13.869,
+      "magnesiumMg": 198.6,
+      "vitaminCMg": 24.6
+    },
+    "perServing": {
+      "calories": 626.733,
+      "proteinG": 32.746,
+      "carbohydratesG": 54.638,
+      "fatG": 29.98,
+      "fiberG": 1.514,
+      "sugarsG": 0,
+      "sodiumMg": 100.164,
+      "potassiumMg": 628.448,
+      "calciumMg": 36.494,
+      "ironMg": 3.467,
+      "magnesiumMg": 49.65,
+      "vitaminCMg": 6.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 11.75,
+    "perServingUsd": 2.94,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-06-17T13:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.hellofresh.co.nz/recipes/caribbean-beef-bowl-5e28d2cc56a7b839cb69c962",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.262iPJtA9t7rGzwd1JmldgHaE8&pid=15.1",
+    "discoveredOriginalUrl": "https://media.hellofresh.com/f_auto,fl_lossy,q_auto,w_1200/hellofresh_s3/image/caribbean-beef-bowl-e143da3b.jpg",
+    "searchQuery": "Caribbean Lean Beef Rice Bowl plated recipe food",
+    "searchResultTitle": "Caribbean Beef Bowl with Coconut Rice Recipe | HelloFresh",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:17:41.334Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1293",
+    "name": "Caribbean Lean Beef Rice Bowl",
+    "description": "Caribbean Lean Beef Rice Bowl is a practical main meal adaptation built around lean beef, rice, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 626.733,
+      "proteinG": 32.746,
+      "carbohydratesG": 54.638,
+      "fatG": 29.98,
+      "fiberG": 1.514,
+      "sugarsG": 0,
+      "sodiumMg": 100.164,
+      "potassiumMg": 628.448,
+      "calciumMg": 36.494,
+      "ironMg": 3.467,
+      "magnesiumMg": 49.65,
+      "vitaminCMg": 6.15
+    },
+    "estimatedCostPerServingUsd": 2.94,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

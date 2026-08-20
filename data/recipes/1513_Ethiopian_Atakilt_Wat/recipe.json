@@ -1,0 +1,195 @@
+{
+  "seedId": "REC-1513",
+  "candidate": {
+    "sequence": 2311,
+    "seedId": "REC-CAND-2311",
+    "name": "Ethiopian Atakilt Wat"
+  },
+  "name": "Ethiopian Atakilt Wat",
+  "description": "Ethiopian Atakilt Wat is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/56161/fasoliyyeh-bi-z-zayt-syrian-green-beans-with-olive-oil/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Syrian Green Beans with Olive Oil source because it provides the closest validated vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Ethiopia",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 30,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Side",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, vegetables, and vegetables for ethiopian atakilt wat.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned vegetables and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the ethiopian atakilt wat, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 900,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 487.332,
+      "proteinG": 8.1,
+      "carbohydratesG": 55.59,
+      "fatG": 28.95,
+      "fiberG": 15.6,
+      "sugarsG": 20.49,
+      "sodiumMg": 30.546,
+      "potassiumMg": 1890.273,
+      "calciumMg": 96.273,
+      "ironMg": 3.093,
+      "magnesiumMg": 96,
+      "vitaminCMg": 449.7
+    },
+    "perServing": {
+      "calories": 121.833,
+      "proteinG": 2.025,
+      "carbohydratesG": 13.898,
+      "fatG": 7.237,
+      "fiberG": 3.9,
+      "sugarsG": 5.122,
+      "sodiumMg": 7.636,
+      "potassiumMg": 472.568,
+      "calciumMg": 24.068,
+      "ironMg": 0.773,
+      "magnesiumMg": 24,
+      "vitaminCMg": 112.425
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.65,
+    "perServingUsd": 1.41,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-05-22T17:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse1.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://nummyrecipes.com/ethiopian-food-recipes/",
+    "originalSourceUrl": "https://tse1.mm.bing.net/th/id/OIP.O7Y-7cqBG5tAOBIRhj9zbQHaHa?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://nummyrecipes.com/wp-content/uploads/2025/07/704c89c4e060929ece6b73f8fb274401_compress.jpg",
+    "searchQuery": "atakilt wat plated recipe food photograph",
+    "searchResultTitle": "20 Ethiopian Food Recipes To Try - Nummy Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:59.033Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1513",
+    "name": "Ethiopian Atakilt Wat",
+    "description": "Ethiopian Atakilt Wat is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 121.833,
+      "proteinG": 2.025,
+      "carbohydratesG": 13.898,
+      "fatG": 7.237,
+      "fiberG": 3.9,
+      "sugarsG": 5.122,
+      "sodiumMg": 7.636,
+      "potassiumMg": 472.568,
+      "calciumMg": 24.068,
+      "ironMg": 0.773,
+      "magnesiumMg": 24,
+      "vitaminCMg": 112.425
+    },
+    "estimatedCostPerServingUsd": 1.41,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

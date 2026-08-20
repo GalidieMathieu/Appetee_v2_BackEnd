@@ -3,8 +3,8 @@ import { readdir, readFile, stat, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import sharp from "sharp";
-import { allowedDietNames, deriveRestrictionDiets, derivedDietNames } from "../diet-compatibility.mjs";
-import { allowedMealCategoryNames, mainMealTargetPercentage, nonMainMealTargetPercentage } from "../meal-categories.mjs";
+import { allowedDietNames, deriveRestrictionDiets, derivedDietNames } from "../shared/diet-compatibility.mjs";
+import { allowedMealCategoryNames, mainMealTargetPercentage, nonMainMealTargetPercentage } from "../shared/meal-categories.mjs";
 import { loadCandidates } from "../generation/candidate-progress.mjs";
 
 const toolDir = path.dirname(fileURLToPath(import.meta.url));
@@ -239,7 +239,7 @@ export async function runValidation({ writeReport = true } = {}) {
   if (report.diversityTargets.mainMeal.percentage < 80 || report.diversityTargets.mainMeal.percentage > 90) warning(report, "MAIN_MEAL_TARGET_DRIFT", "Main Meal share is outside the progressive 80%-90% range around the candidate plan's 85% target");
   for (const diet of allowedDiets) if (!report.distributions.diets[diet]) warning(report, "DIET_NOT_YET_REPRESENTED", diet);
   report.valid = report.errors.length === 0;
-  if (writeReport) await writeFile(path.join(dataDir, "validation-report.json"), `${JSON.stringify(report, null, 2)}\n`);
+  if (writeReport) await writeFile(path.join(dataDir, "generated", "reports", "validation.json"), `${JSON.stringify(report, null, 2)}\n`);
   return report;
 }
 

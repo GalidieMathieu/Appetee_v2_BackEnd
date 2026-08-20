@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-1201",
+  "candidate": {
+    "sequence": 1995,
+    "seedId": "REC-CAND-1995",
+    "name": "Sesame Tuna Salad Bowl"
+  },
+  "name": "Sesame Tuna Salad Bowl",
+  "description": "Sesame Tuna Salad Bowl is a practical main meal adaptation built around tuna, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.foodnetwork.com/recipes/robin-miller/edamame-rice-salad-with-teriyaki-tuna-recipe-1946418",
+    "domain": "foodnetwork.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Tuna and Spinach Salad Bowl source because it provides the closest validated fish and bowl/salad structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "tuna",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0025",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0071",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for sesame tuna salad bowl.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the tuna with the vegetables and remaining ingredients in the intended main meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the sesame tuna salad bowl into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 490,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 967.76,
+      "proteinG": 104.833,
+      "carbohydratesG": 1.716,
+      "fatG": 58.378,
+      "fiberG": 0.278,
+      "sugarsG": 0.139,
+      "sodiumMg": 2111.066,
+      "potassiumMg": 1099.653,
+      "calciumMg": 55.757,
+      "ironMg": 6.778,
+      "magnesiumMg": 133.752,
+      "vitaminCMg": 0
+    },
+    "perServing": {
+      "calories": 241.94,
+      "proteinG": 26.208,
+      "carbohydratesG": 0.429,
+      "fatG": 14.595,
+      "fiberG": 0.07,
+      "sugarsG": 0.035,
+      "sodiumMg": 527.766,
+      "potassiumMg": 274.913,
+      "calciumMg": 13.939,
+      "ironMg": 1.694,
+      "magnesiumMg": 33.438,
+      "vitaminCMg": 0
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.85,
+    "perServingUsd": 0.96,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-01-26T17:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://foolproofliving.com/sesame-crusted-seared-tuna-salad-bowl/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.TjQCtA4RvxW1WvyvY-yx1QHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://foolproofliving.com/wp-content/uploads/2020/06/Ahi-Tuna-Salad-600x600.jpg",
+    "searchQuery": "Sesame Tuna Salad Bowl plated recipe food",
+    "searchResultTitle": "Sesame Crusted Seared Tuna Salad Bowl - Foolproof Living",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:12:47.528Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1201",
+    "name": "Sesame Tuna Salad Bowl",
+    "description": "Sesame Tuna Salad Bowl is a practical main meal adaptation built around tuna, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 241.94,
+      "proteinG": 26.208,
+      "carbohydratesG": 0.429,
+      "fatG": 14.595,
+      "fiberG": 0.07,
+      "sugarsG": 0.035,
+      "sodiumMg": 527.766,
+      "potassiumMg": 274.913,
+      "calciumMg": 13.939,
+      "ironMg": 1.694,
+      "magnesiumMg": 33.438,
+      "vitaminCMg": 0
+    },
+    "estimatedCostPerServingUsd": 0.96,
+    "diets": [
+      "Pescatarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "seedId": "REC-1478",
+  "candidate": {
+    "sequence": 2275,
+    "seedId": "REC-CAND-2275",
+    "name": "Chocolate Yogurt Cup"
+  },
+  "name": "Chocolate Yogurt Cup",
+  "description": "Chocolate Yogurt Cup is a practical snack adaptation built around Greek yogurt, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://eatsimplefood.com/tamari-ginger-edamame/",
+    "domain": "eatsimplefood.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Soy Sauce Edamame Snack source because it provides the closest validated dairy and vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Japan",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 20,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "Greek yogurt",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0105",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, Greek yogurt, and vegetables for chocolate yogurt cup.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned Greek yogurt and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the chocolate yogurt cup, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 720,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1542.6,
+      "proteinG": 85.98,
+      "carbohydratesG": 292.2,
+      "fatG": 33.258,
+      "fiberG": 68.76,
+      "sugarsG": 63.456,
+      "sodiumMg": 150,
+      "potassiumMg": 3147,
+      "calciumMg": 612,
+      "ironMg": 27.342,
+      "magnesiumMg": 964.2,
+      "vitaminCMg": 0.3
+    },
+    "perServing": {
+      "calories": 385.65,
+      "proteinG": 21.495,
+      "carbohydratesG": 73.05,
+      "fatG": 8.315,
+      "fiberG": 17.19,
+      "sugarsG": 15.864,
+      "sodiumMg": 37.5,
+      "potassiumMg": 786.75,
+      "calciumMg": 153,
+      "ironMg": 6.835,
+      "magnesiumMg": 241.05,
+      "vitaminCMg": 0.075
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.1,
+    "perServingUsd": 1.27,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-03-29T18:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.epicuricloud.com/recipe/pbj-greek-yogurt-cups-with-chocolate-shell-topping/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.aU6aAn_eaA-o5GTe7W_idgHaLC&pid=15.1",
+    "discoveredOriginalUrl": "https://www.epicuricloud.com/wp-content/uploads/2024/12/PBJ-Chocolate-Shell-Topped-Yogurt-Cups-768x1144.jpeg",
+    "searchQuery": "Chocolate Yogurt Cup plated recipe food",
+    "searchResultTitle": "PB&J Greek Yogurt Cups with Chocolate Shell Topping | epicuricloud ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:53:44.588Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1478",
+    "name": "Chocolate Yogurt Cup",
+    "description": "Chocolate Yogurt Cup is a practical snack adaptation built around Greek yogurt, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 385.65,
+      "proteinG": 21.495,
+      "carbohydratesG": 73.05,
+      "fatG": 8.315,
+      "fiberG": 17.19,
+      "sugarsG": 15.864,
+      "sodiumMg": 37.5,
+      "potassiumMg": 786.75,
+      "calciumMg": 153,
+      "ironMg": 6.835,
+      "magnesiumMg": 241.05,
+      "vitaminCMg": 0.075
+    },
+    "estimatedCostPerServingUsd": 1.27,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

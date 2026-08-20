@@ -1,0 +1,195 @@
+{
+  "seedId": "REC-1497",
+  "candidate": {
+    "sequence": 2295,
+    "seedId": "REC-CAND-2295",
+    "name": "Peanut Butter Hummus Cups"
+  },
+  "name": "Peanut Butter Hummus Cups",
+  "description": "Peanut Butter Hummus Cups is a practical snack adaptation built around peanut butter, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.oldelpaso.co.uk/recipes/black-bean-and-corn-tortilla-cups",
+    "domain": "oldelpaso.co.uk",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Black Bean Salsa Tortilla Cups source because it provides the closest validated nuts and cups structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "peanut butter",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0032",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for peanut butter hummus cups.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the peanut butter with the legumes and remaining ingredients in the intended snack form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the peanut butter hummus cups into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 850,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1618.132,
+      "proteinG": 59.61,
+      "carbohydratesG": 141.75,
+      "fatG": 98.41,
+      "fiberG": 40.9,
+      "sugarsG": 26.132,
+      "sodiumMg": 1570.746,
+      "potassiumMg": 1944.273,
+      "calciumMg": 279.273,
+      "ironMg": 7.553,
+      "magnesiumMg": 323,
+      "vitaminCMg": 25
+    },
+    "perServing": {
+      "calories": 404.533,
+      "proteinG": 14.902,
+      "carbohydratesG": 35.438,
+      "fatG": 24.602,
+      "fiberG": 10.225,
+      "sugarsG": 6.533,
+      "sodiumMg": 392.687,
+      "potassiumMg": 486.068,
+      "calciumMg": 69.818,
+      "ironMg": 1.888,
+      "magnesiumMg": 80.75,
+      "vitaminCMg": 6.25
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.35,
+    "perServingUsd": 0.59,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-04-28T01:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/delicious-peanut-butter-hummus-cups-for-st-patricks-day--272256739951719788/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.BHThgOwPq6Hw2QKd1uZcBQHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/f0/12/da/f012daa9c216cd8a698f9b38c22b0daf.jpg",
+    "searchQuery": "Peanut Butter Hummus Cups plated recipe food",
+    "searchResultTitle": "Delicious Peanut Butter Hummus Cups for St. Patrick's Day",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:53:56.027Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1497",
+    "name": "Peanut Butter Hummus Cups",
+    "description": "Peanut Butter Hummus Cups is a practical snack adaptation built around peanut butter, legumes, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 404.533,
+      "proteinG": 14.902,
+      "carbohydratesG": 35.438,
+      "fatG": 24.602,
+      "fiberG": 10.225,
+      "sugarsG": 6.533,
+      "sodiumMg": 392.687,
+      "potassiumMg": 486.068,
+      "calciumMg": 69.818,
+      "ironMg": 1.888,
+      "magnesiumMg": 80.75,
+      "vitaminCMg": 6.25
+    },
+    "estimatedCostPerServingUsd": 0.59,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

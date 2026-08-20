@@ -1,0 +1,213 @@
+{
+  "seedId": "REC-1173",
+  "candidate": {
+    "sequence": 1967,
+    "seedId": "REC-CAND-1967",
+    "name": "Greek Lentil Orzo Skillet"
+  },
+  "name": "Greek Lentil Orzo Skillet",
+  "description": "Greek Lentil Orzo Skillet is a practical main meal adaptation built around lentils, orzo, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.vegetarian.org.nz/veg-living/recipes/senegalese-peanut-stew",
+    "domain": "vegetarian.org.nz",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Senegalese Peanut Lentil Stew source because it provides the closest validated lentils and skillet structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Greece",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 40,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "orzo",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 2.5
+    },
+    {
+      "ingredientSeedId": "ING-0098",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 2.5
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lentils, and orzo for greek lentil orzo skillet.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lentils and cook it until browned or heated through as appropriate.",
+    "Stir in the orzo, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the greek lentil orzo skillet, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1845,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2199.882,
+      "proteinG": 96.984,
+      "carbohydratesG": 390.195,
+      "fatG": 34.593,
+      "fiberG": 47.775,
+      "sugarsG": 18.93,
+      "sodiumMg": 40.896,
+      "potassiumMg": 3180.423,
+      "calciumMg": 284.823,
+      "ironMg": 26.592,
+      "magnesiumMg": 294.75,
+      "vitaminCMg": 199.08
+    },
+    "perServing": {
+      "calories": 549.971,
+      "proteinG": 24.246,
+      "carbohydratesG": 97.549,
+      "fatG": 8.648,
+      "fiberG": 11.944,
+      "sugarsG": 4.732,
+      "sodiumMg": 10.224,
+      "potassiumMg": 795.106,
+      "calciumMg": 71.206,
+      "ironMg": 6.648,
+      "magnesiumMg": 73.688,
+      "vitaminCMg": 49.77
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.23,
+    "perServingUsd": 1.06,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-12-14T13:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://pulses.org/us/recipe/mediterranean-lentil-orzo-with-olives-roasted-peppers-sun-dried-tomatoes/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.Zxqul63yi6F-f3zVzb1XQQHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://pulses.org/us/wp-content/uploads/2025/12/Lentil-Orzo-Skillet_289A9926-Large.jpeg",
+    "searchQuery": "Greek Lentil Orzo Skillet plated recipe food",
+    "searchResultTitle": "Mediterranean Lentil Orzo with Olives, Roasted Peppers & Sun-Dried ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:11:25.345Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1173",
+    "name": "Greek Lentil Orzo Skillet",
+    "description": "Greek Lentil Orzo Skillet is a practical main meal adaptation built around lentils, orzo, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 549.971,
+      "proteinG": 24.246,
+      "carbohydratesG": 97.549,
+      "fatG": 8.648,
+      "fiberG": 11.944,
+      "sugarsG": 4.732,
+      "sodiumMg": 10.224,
+      "potassiumMg": 795.106,
+      "calciumMg": 71.206,
+      "ironMg": 6.648,
+      "magnesiumMg": 73.688,
+      "vitaminCMg": 49.77
+    },
+    "estimatedCostPerServingUsd": 1.06,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-1408",
+  "candidate": {
+    "sequence": 2203,
+    "seedId": "REC-CAND-2203",
+    "name": "Avocado Toast"
+  },
+  "name": "Avocado Toast",
+  "description": "Avocado Toast is a practical small meal adaptation built around vegetables, bread, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/cottage-cheese-and-tomato-on-toast-203178",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Cottage Cheese Tomato Toast source because it provides the closest validated toast structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 5,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Toaster",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "bread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0051",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0114",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for avocado toast.",
+    "Toast the bread until crisp enough to support the toppings.",
+    "Combine the vegetables with the bread and remaining ingredients in the intended small meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the avocado toast into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1591.332,
+      "proteinG": 45.69,
+      "carbohydratesG": 179.52,
+      "fatG": 82.05,
+      "fiberG": 43.8,
+      "sugarsG": 15,
+      "sodiumMg": 1389.546,
+      "potassiumMg": 2763.273,
+      "calciumMg": 564.273,
+      "ironMg": 10.053,
+      "magnesiumMg": 339,
+      "vitaminCMg": 54.6
+    },
+    "perServing": {
+      "calories": 397.833,
+      "proteinG": 11.422,
+      "carbohydratesG": 44.88,
+      "fatG": 20.512,
+      "fiberG": 10.95,
+      "sugarsG": 3.75,
+      "sodiumMg": 347.387,
+      "potassiumMg": 690.818,
+      "calciumMg": 141.068,
+      "ironMg": 2.513,
+      "magnesiumMg": 84.75,
+      "vitaminCMg": 13.65
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.35,
+    "perServingUsd": 1.09,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-12-11T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse2.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://qfrecipes.com/avocado-toast-seasoning-6-easy-ways-to-make/",
+    "originalSourceUrl": "https://tse2.mm.bing.net/th/id/OIP.Ctx69vYqbsmmQKQbRaHxBAHaEK?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://qfrecipes.com/wp-content/uploads/2025/01/Perfect-Plating-Tips-avocado-toast-seasoning--1024x576.webp",
+    "searchQuery": "avocado toast plated recipe food photograph",
+    "searchResultTitle": "Avocado Toast Seasoning: 6 Easy Ways To Make It Heavenly",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:47.267Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1408",
+    "name": "Avocado Toast",
+    "description": "Avocado Toast is a practical small meal adaptation built around vegetables, bread, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 397.833,
+      "proteinG": 11.422,
+      "carbohydratesG": 44.88,
+      "fatG": 20.512,
+      "fiberG": 10.95,
+      "sugarsG": 3.75,
+      "sodiumMg": 347.387,
+      "potassiumMg": 690.818,
+      "calciumMg": 141.068,
+      "ironMg": 2.513,
+      "magnesiumMg": 84.75,
+      "vitaminCMg": 13.65
+    },
+    "estimatedCostPerServingUsd": 1.09,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

@@ -1,47 +1,55 @@
 # Appetee Development Dataset
 
-This directory contains the reproducible development-data source for Appetee.
+This directory contains Appetee's reproducible development dataset. It is coupled to the backend schema, seed generation, query development, UI realism, and performance testing.
 
-## Ownership
+## Architecture
 
-The dataset lives in `Appetee_v2_BackEnd` because it is coupled to:
+```text
+data/
+├── README.md, DATASET_SPEC.md, AGENTS.md, CHANGELOG.md, version.json
+├── candidates/                 # Immutable ordered acquisition inputs
+│   └── recipe-names.json
+├── workflow/                   # Resumable execution state and operator prompts
+├── ingredients/                # Canonical ingredient JSON records, assets, and index
+├── recipes/                    # Canonical recipe JSON records, assets, and index
+├── fixtures/                   # Small deterministic test fixtures only
+├── generated/
+│   ├── sql/                    # Ordered database reset/seed outputs
+│   ├── reports/                # Validation, distribution, and image audits
+│   ├── manifests/              # Image provenance/acquisition manifests
+│   └── snapshots/              # Versioned checkpoint ZIPs
+├── research/                   # Research caches and owner image handoff queues
+└── tools/
+    ├── generation/
+    ├── validation/
+    ├── image-processing/
+    ├── image-acquisition/      # Optional acquisition implementations
+    └── shared/                 # Shared rules imported by multiple tools
+```
 
-- the MySQL schema;
-- generated seed SQL;
-- backend data semantics;
-- SQL query development;
-- EXPLAIN/performance testing.
+## Source of truth
 
-The separate `GalidieMathieu/Appetee` repository remains the canonical product/feature/engineering documentation hub. Product behavior such as Recipe Discovery should continue to be documented there; this folder owns the operational dataset and generation contract.
+Canonical ingredient and recipe JSON is authoritative. Files under `generated/` are reproducible artifacts and must not be edited manually. Run `npm run build` from `data/tools` to regenerate SQL, indexes, reports, and image queues.
 
-## Start
+The four SQL files are intentionally ordered:
 
-Read:
+1. `generated/sql/01-schema.sql`
+2. `generated/sql/02-reference.sql`
+3. `generated/sql/03-ingredients.sql`
+4. `generated/sql/04-recipes.sql`
 
-1. `AGENTS.md`
-2. `DATASET_SPEC.md`
-3. `START_CODEX_TASK.md`
+## Start or resume
 
-For continuation after a paused Codex run, use:
+Read `AGENTS.md`, `DATASET_SPEC.md`, and `workflow/START_CODEX_TASK.md`. For continuation, use `workflow/RESUME.md`, `workflow/progress.json`, and `workflow/RESUME_PROMPT.md`. Distribution and validation state live in `generated/reports/`.
 
-- `RESUME.md`
-- `progress.json`
-- `RESUME_PROMPT.md`
+Recipe `mealType` and `mealCategory` remain separate. The canonical diets include Gluten Free and Lactose Free, derived from explicit ingredient compatibility.
 
-## Core rule
+## Images and fixtures
 
-JSON is source of truth. SQL is generated.
+Local record assets exist physically but are ignored by Git. `research/image/ingredients.json` and `research/image/recipes.json` are owner handoff queues, while `generated/reports/images.json` and `generated/manifests/` are reproducible audit/provenance outputs.
 
-Recipe JSON keeps meal timing and eating role separate: `mealType` is `Breakfast`, `Lunch`, or `Dinner`; `mealCategory` is `Main Meal`, `Small Meal`, `Snack`, `Side`, `Meal Component`, `Dessert`, or `Drink`. The ordered candidate plan targets approximately 85% Main Meal and 15% combined other roles, without forcing inaccurate classifications.
-
-The canonical diets are Vegetarian, Vegan, Pescatarian, Keto, Paleo, Flexitarian, Gluten Free, and Lactose Free. The two restriction diets are derived from explicit compatibility flags on every referenced ingredient and enforced by validation.
-
-For new recipes, try the selected source page's real dish photograph first and preserve honest private/test-use provenance. Verified reusable real photographs are the secondary option. AI images and generic ingredient photographs are prohibited. Missing real images may remain explicitly pending in the generated `research/image` queues.
-
-Run `npm run images:queue` from `data/tools` after adding or changing pending records. `npm run build` also synchronizes both files automatically.
+`fixtures/` is reserved for small, deterministic automated-test data. The full canonical corpus is not a test fixture and should not be duplicated there.
 
 ## Git
 
-Commit JSON, SQL, tools, indexes, manifests, specs, progress and reports.
-
-Do not commit AVIF asset folders. See the repository `.gitignore` snippet supplied with this package.
+Commit canonical JSON, tools, indexes, generated SQL, reports, manifests, specifications, and workflow state. Do not commit record AVIF asset folders or checkpoint ZIPs; see the repository `.gitignore`.

@@ -1,0 +1,207 @@
+{
+  "seedId": "REC-1551",
+  "candidate": {
+    "sequence": 2349,
+    "seedId": "REC-CAND-2349",
+    "name": "Herbed Quinoa Pilaf"
+  },
+  "name": "Herbed Quinoa Pilaf",
+  "description": "Herbed Quinoa Pilaf is a practical side adaptation built around quinoa, quinoa, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/56161/fasoliyyeh-bi-z-zayt-syrian-green-beans-with-olive-oil/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Syrian Green Beans with Olive Oil source because it provides the closest validated pilaf structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Syria",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Side",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "quinoa",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, quinoa, and quinoa for herbed quinoa pilaf.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned quinoa and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the herbed quinoa pilaf, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1070,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1275.482,
+      "proteinG": 38.614,
+      "carbohydratesG": 187.405,
+      "fatG": 42.367,
+      "fiberG": 24.15,
+      "sodiumMg": 40.696,
+      "potassiumMg": 2091.623,
+      "calciumMg": 242.223,
+      "ironMg": 13.316,
+      "magnesiumMg": 523.55,
+      "sugarsG": 0.513,
+      "vitaminCMg": 35.53
+    },
+    "perServing": {
+      "calories": 318.87,
+      "proteinG": 9.653,
+      "carbohydratesG": 46.851,
+      "fatG": 10.592,
+      "fiberG": 6.037,
+      "sodiumMg": 10.174,
+      "potassiumMg": 522.906,
+      "calciumMg": 60.556,
+      "ironMg": 3.329,
+      "magnesiumMg": 130.887,
+      "sugarsG": 0.128,
+      "vitaminCMg": 8.883
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.39,
+    "perServingUsd": 0.85,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2030-07-20T07:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://momknowsrecipes.com/quinoa-recipes-for-rice-cooker/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.Dks4MvNfKLydrQz_bhKwAAHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://momknowsrecipes.com/wp-content/uploads/2026/04/Savory-Herbed-Quinoa-Pilaf.jpg",
+    "searchQuery": "Herbed Quinoa Pilaf plated recipe food",
+    "searchResultTitle": "29 Invigorating Quinoa Creations Elevating Mealtime Ease - Mom Knows ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:55:22.752Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1551",
+    "name": "Herbed Quinoa Pilaf",
+    "description": "Herbed Quinoa Pilaf is a practical side adaptation built around quinoa, quinoa, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 318.87,
+      "proteinG": 9.653,
+      "carbohydratesG": 46.851,
+      "fatG": 10.592,
+      "fiberG": 6.037,
+      "sodiumMg": 10.174,
+      "potassiumMg": 522.906,
+      "calciumMg": 60.556,
+      "ironMg": 3.329,
+      "magnesiumMg": 130.887,
+      "sugarsG": 0.128,
+      "vitaminCMg": 8.883
+    },
+    "estimatedCostPerServingUsd": 0.85,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

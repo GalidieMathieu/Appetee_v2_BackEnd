@@ -1,0 +1,205 @@
+{
+  "seedId": "REC-1495",
+  "candidate": {
+    "sequence": 2292,
+    "seedId": "REC-CAND-2292",
+    "name": "Coconut Roasted Chickpeas"
+  },
+  "name": "Coconut Roasted Chickpeas",
+  "description": "Coconut Roasted Chickpeas is a practical snack adaptation built around chickpeas, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://nutritionsource.hsph.harvard.edu/crunchy-roasted-chickpeas/",
+    "domain": "nutritionsource.hsph.harvard.edu",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Chili Cumin Roasted Chickpeas source because it provides the closest validated beans and legumes structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 40,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "Oven",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 240,
+      "sourceUnit": "ml",
+      "sourceDisplay": "240 ml",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for coconut roasted chickpeas and preheat the oven.",
+    "Coat the chickpeas and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the legumes and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the coconut roasted chickpeas briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 985,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1406.482,
+      "proteinG": 36.492,
+      "carbohydratesG": 127.539,
+      "fatG": 89.725,
+      "fiberG": 31.615,
+      "sugarsG": 16.19,
+      "sodiumMg": 1021.296,
+      "potassiumMg": 1638.423,
+      "calciumMg": 295.623,
+      "ironMg": 13.448,
+      "magnesiumMg": 245.15,
+      "vitaminCMg": 32.08
+    },
+    "perServing": {
+      "calories": 351.62,
+      "proteinG": 9.123,
+      "carbohydratesG": 31.885,
+      "fatG": 22.431,
+      "fiberG": 7.904,
+      "sugarsG": 4.048,
+      "sodiumMg": 255.324,
+      "potassiumMg": 409.606,
+      "calciumMg": 73.906,
+      "ironMg": 3.362,
+      "magnesiumMg": 61.288,
+      "vitaminCMg": 8.02
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.39,
+    "perServingUsd": 0.85,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-04-24T23:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://kapnosdc.com/roasted-chickpeas",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.Z1BGW_30LX7EETQfPpD43AHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://kapnosdc.com/wp-content/uploads/2024/09/17.-Coconut-Roasted-Chickpeas.webp",
+    "searchQuery": "Coconut Roasted Chickpeas plated recipe food",
+    "searchResultTitle": "I found the Best Roasted Chickpea Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:53:55.504Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1495",
+    "name": "Coconut Roasted Chickpeas",
+    "description": "Coconut Roasted Chickpeas is a practical snack adaptation built around chickpeas, legumes, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 351.62,
+      "proteinG": 9.123,
+      "carbohydratesG": 31.885,
+      "fatG": 22.431,
+      "fiberG": 7.904,
+      "sugarsG": 4.048,
+      "sodiumMg": 255.324,
+      "potassiumMg": 409.606,
+      "calciumMg": 73.906,
+      "ironMg": 3.362,
+      "magnesiumMg": 61.288,
+      "vitaminCMg": 8.02
+    },
+    "estimatedCostPerServingUsd": 0.85,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

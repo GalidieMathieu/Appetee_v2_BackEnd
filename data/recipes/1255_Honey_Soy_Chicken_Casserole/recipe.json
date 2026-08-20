@@ -1,0 +1,207 @@
+{
+  "seedId": "REC-1255",
+  "candidate": {
+    "sequence": 2049,
+    "seedId": "REC-CAND-2049",
+    "name": "Honey Soy Chicken Casserole"
+  },
+  "name": "Honey Soy Chicken Casserole",
+  "description": "Honey Soy Chicken Casserole is a practical main meal adaptation built around chicken, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.jocooks.com/recipes/chicken-with-green-beans-and-sweet-potatoes/",
+    "domain": "jocooks.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Sheet Pan Chicken and Bell Peppers source because it provides the closest validated chicken and casserole structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for honey soy chicken casserole and preheat the oven.",
+    "Coat the chicken and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the vegetables and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the honey soy chicken casserole briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 870,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1192.176,
+      "proteinG": 140.503,
+      "carbohydratesG": 76.986,
+      "fatG": 39.228,
+      "sodiumMg": 2311.266,
+      "potassiumMg": 2708.853,
+      "calciumMg": 83.997,
+      "ironMg": 3.874,
+      "magnesiumMg": 211.152,
+      "fiberG": 6.098,
+      "sugarsG": 49.399,
+      "vitaminCMg": 24.9
+    },
+    "perServing": {
+      "calories": 298.044,
+      "proteinG": 35.126,
+      "carbohydratesG": 19.247,
+      "fatG": 9.807,
+      "sodiumMg": 577.817,
+      "potassiumMg": 677.213,
+      "calciumMg": 20.999,
+      "ironMg": 0.969,
+      "magnesiumMg": 52.788,
+      "fiberG": 1.524,
+      "sugarsG": 12.35,
+      "vitaminCMg": 6.225
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.73,
+    "perServingUsd": 1.43,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Carb",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-04-19T23:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.bestrecipes.com.au/recipes/honey-soy-chicken-casserole-recipe/552yjxma?nk=b64f9eb071cdc3459d46b275890ebf35-1615812998",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.dBTDAf5j1pTNyd-gfN5AjQHaE6&pid=15.1",
+    "discoveredOriginalUrl": "https://img.bestrecipes.com.au/Vh72Y4cK/w1200-h630-cfill/br/2017/02/honey-soy-chicken-casserole-recipe-512137-1.jpg",
+    "searchQuery": "Honey Soy Chicken Casserole plated recipe food",
+    "searchResultTitle": "Honey Soy Chicken Casserole recipe | Australia's Best Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:15:43.224Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1255",
+    "name": "Honey Soy Chicken Casserole",
+    "description": "Honey Soy Chicken Casserole is a practical main meal adaptation built around chicken, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 298.044,
+      "proteinG": 35.126,
+      "carbohydratesG": 19.247,
+      "fatG": 9.807,
+      "sodiumMg": 577.817,
+      "potassiumMg": 677.213,
+      "calciumMg": 20.999,
+      "ironMg": 0.969,
+      "magnesiumMg": 52.788,
+      "fiberG": 1.524,
+      "sugarsG": 12.35,
+      "vitaminCMg": 6.225
+    },
+    "estimatedCostPerServingUsd": 1.43,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Carb",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

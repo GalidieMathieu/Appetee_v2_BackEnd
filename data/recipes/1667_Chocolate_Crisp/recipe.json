@@ -1,0 +1,191 @@
+{
+  "seedId": "REC-1667",
+  "candidate": {
+    "sequence": 2466,
+    "seedId": "REC-CAND-2466",
+    "name": "Chocolate Crisp"
+  },
+  "name": "Chocolate Crisp",
+  "description": "Chocolate Crisp is a practical dessert adaptation built around oats, oats, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/banana-oatmeal-bites-514723",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Banana Oatmeal Bites source because it provides the closest validated crisp structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "Oven",
+  "primaryProtein": "oats",
+  "carbohydrateBase": "oats",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0105",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0047",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for chocolate crisp and preheat the oven.",
+    "Coat the oats and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the oats and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the chocolate crisp briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 425,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1377.95,
+      "proteinG": 55.579,
+      "carbohydratesG": 285.43,
+      "fatG": 32.15,
+      "fiberG": 71.415,
+      "sugarsG": 53.844,
+      "sodiumMg": 42.5,
+      "potassiumMg": 2745.55,
+      "calciumMg": 332,
+      "ironMg": 27.548,
+      "magnesiumMg": 934.2,
+      "vitaminCMg": 0.49
+    },
+    "perServing": {
+      "calories": 344.488,
+      "proteinG": 13.895,
+      "carbohydratesG": 71.358,
+      "fatG": 8.037,
+      "fiberG": 17.854,
+      "sugarsG": 13.461,
+      "sodiumMg": 10.625,
+      "potassiumMg": 686.388,
+      "calciumMg": 83,
+      "ironMg": 6.887,
+      "magnesiumMg": 233.55,
+      "vitaminCMg": 0.122
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.19,
+    "perServingUsd": 1.05,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2031-01-15T03:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "cookaifood.com",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://cookaifood.com/recipe/chocolate-oatmeal-energy-bites",
+    "originalSourceUrl": "https://cookaifood.com/media/cache/thumb_600/bundles/project/images/recipes/2791_1_1710905764.png",
+    "discoveredOriginalUrl": "https://cookaifood.com/media/cache/thumb_600/bundles/project/images/recipes/2791_1_1710905764.png",
+    "searchQuery": "chocolate healthy oat energy bites dessert food photograph",
+    "searchResultTitle": "Chocolate Oatmeal Energy Bites Recipe | cookAIfood",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:32.050Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1667",
+    "name": "Chocolate Crisp",
+    "description": "Chocolate Crisp is a practical dessert adaptation built around oats, oats, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 344.488,
+      "proteinG": 13.895,
+      "carbohydratesG": 71.358,
+      "fatG": 8.037,
+      "fiberG": 17.854,
+      "sugarsG": 13.461,
+      "sodiumMg": 10.625,
+      "potassiumMg": 686.388,
+      "calciumMg": 83,
+      "ironMg": 6.887,
+      "magnesiumMg": 233.55,
+      "vitaminCMg": 0.122
+    },
+    "estimatedCostPerServingUsd": 1.05,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

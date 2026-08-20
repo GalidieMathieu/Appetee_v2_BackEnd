@@ -1,0 +1,195 @@
+{
+  "seedId": "REC-1414",
+  "candidate": {
+    "sequence": 2211,
+    "seedId": "REC-CAND-2211",
+    "name": "Quick Tofu Wrap"
+  },
+  "name": "Quick Tofu Wrap",
+  "description": "Quick Tofu Wrap is a practical small meal adaptation built around tofu, tortilla, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.peta.org/recipes/buffalo-tofu-scramble-breakfast-tacos/",
+    "domain": "peta.org",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Spanish Tofu Wraps source because it provides the closest validated soy and wrap structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "tofu",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0018",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for quick tofu wrap.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the tofu with the tortilla and remaining ingredients in the intended small meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the quick tofu wrap into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1519.332,
+      "proteinG": 58.89,
+      "carbohydratesG": 172.08,
+      "fatG": 69.24,
+      "fiberG": 37.8,
+      "sugarsG": 9.12,
+      "sodiumMg": 1890.546,
+      "potassiumMg": 1776.273,
+      "calciumMg": 1380.273,
+      "ironMg": 13.713,
+      "magnesiumMg": 393,
+      "vitaminCMg": 25.2
+    },
+    "perServing": {
+      "calories": 379.833,
+      "proteinG": 14.723,
+      "carbohydratesG": 43.02,
+      "fatG": 17.31,
+      "fiberG": 9.45,
+      "sugarsG": 2.28,
+      "sodiumMg": 472.637,
+      "potassiumMg": 444.068,
+      "calciumMg": 345.068,
+      "ironMg": 3.428,
+      "magnesiumMg": 98.25,
+      "vitaminCMg": 6.3
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.2,
+    "perServingUsd": 1.3,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-12-21T02:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://miaspice.com/tofu-scramble-wrap/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.V6X8AwSt3UYzmx0F2GuSdAHaJQ&pid=15.1",
+    "discoveredOriginalUrl": "https://miaspice.com/wp-content/uploads/2025/07/Tofu_Scramble_Wrap_1.webp",
+    "searchQuery": "Quick Tofu Wrap plated recipe food",
+    "searchResultTitle": "Tofu Scramble Wrap: The Best Quick & Delicious Recipe",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:53:05.962Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1414",
+    "name": "Quick Tofu Wrap",
+    "description": "Quick Tofu Wrap is a practical small meal adaptation built around tofu, tortilla, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 379.833,
+      "proteinG": 14.723,
+      "carbohydratesG": 43.02,
+      "fatG": 17.31,
+      "fiberG": 9.45,
+      "sugarsG": 2.28,
+      "sodiumMg": 472.637,
+      "potassiumMg": 444.068,
+      "calciumMg": 345.068,
+      "ironMg": 3.428,
+      "magnesiumMg": 98.25,
+      "vitaminCMg": 6.3
+    },
+    "estimatedCostPerServingUsd": 1.3,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

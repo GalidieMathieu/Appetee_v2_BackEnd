@@ -1,0 +1,207 @@
+{
+  "seedId": "REC-1322",
+  "candidate": {
+    "sequence": 2116,
+    "seedId": "REC-CAND-2116",
+    "name": "Ginger Chickpea with Spinach"
+  },
+  "name": "Ginger Chickpea with Spinach",
+  "description": "Ginger Chickpea with Spinach is a practical main meal adaptation built around chickpeas, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.seriouseats.com/2014/09/one-pot-wonders-stovetop-eggplant-harissa-chickpeas-cumin.html",
+    "domain": "seriouseats.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Pesto Chickpea with Cabbage source because it provides the closest validated beans and legumes structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chickpeas, and legumes for ginger chickpea with spinach.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chickpeas and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the ginger chickpea with spinach, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1015,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1010.332,
+      "proteinG": 41.853,
+      "carbohydratesG": 131.13,
+      "fatG": 40.352,
+      "fiberG": 40.3,
+      "sugarsG": 18.245,
+      "sodiumMg": 1211.496,
+      "potassiumMg": 2150.523,
+      "calciumMg": 614.673,
+      "ironMg": 11.033,
+      "magnesiumMg": 362.45,
+      "vitaminCMg": 42.25
+    },
+    "perServing": {
+      "calories": 252.583,
+      "proteinG": 10.463,
+      "carbohydratesG": 32.782,
+      "fatG": 10.088,
+      "fiberG": 10.075,
+      "sugarsG": 4.561,
+      "sodiumMg": 302.874,
+      "potassiumMg": 537.631,
+      "calciumMg": 153.668,
+      "ironMg": 2.758,
+      "magnesiumMg": 90.612,
+      "vitaminCMg": 10.563
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.36,
+    "perServingUsd": 0.84,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-08-01T06:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://miracooking.com/vegan-chickpea-and-spinach-stew-with-ginger-recipe/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.6AAskLk1jrzzuaLfmUDNdwHaJQ&pid=15.1",
+    "discoveredOriginalUrl": "https://miracooking.com/wp-content/uploads/2026/03/0_0-1774477797219.jpeg",
+    "searchQuery": "Ginger Chickpea with Spinach plated recipe food",
+    "searchResultTitle": "Vegan Chickpea and Spinach Stew with Ginger – Cozy & Flavorful",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:19:06.870Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1322",
+    "name": "Ginger Chickpea with Spinach",
+    "description": "Ginger Chickpea with Spinach is a practical main meal adaptation built around chickpeas, legumes, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 252.583,
+      "proteinG": 10.463,
+      "carbohydratesG": 32.782,
+      "fatG": 10.088,
+      "fiberG": 10.075,
+      "sugarsG": 4.561,
+      "sodiumMg": 302.874,
+      "potassiumMg": 537.631,
+      "calciumMg": 153.668,
+      "ironMg": 2.758,
+      "magnesiumMg": 90.612,
+      "vitaminCMg": 10.563
+    },
+    "estimatedCostPerServingUsd": 0.84,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

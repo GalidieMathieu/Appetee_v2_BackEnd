@@ -2,8 +2,8 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { ingredients as ingredientInputs, recipes as recipeInputs } from "./batch-0001.mjs";
-import { applyDerivedDiets, dietCompatibilityForIngredient } from "../diet-compatibility.mjs";
-import { canonicalMealCategory } from "../meal-categories.mjs";
+import { applyDerivedDiets, dietCompatibilityForIngredient } from "../shared/diet-compatibility.mjs";
+import { canonicalMealCategory } from "../shared/meal-categories.mjs";
 
 const toolDir = path.dirname(fileURLToPath(import.meta.url));
 const dataDir = path.resolve(toolDir, "..", "..");

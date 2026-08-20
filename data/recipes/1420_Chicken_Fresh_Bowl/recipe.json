@@ -1,0 +1,197 @@
+{
+  "seedId": "REC-1420",
+  "candidate": {
+    "sequence": 2217,
+    "seedId": "REC-CAND-2217",
+    "name": "Chicken Fresh Bowl"
+  },
+  "name": "Chicken Fresh Bowl",
+  "description": "Chicken Fresh Bowl is a practical small meal adaptation built around chicken, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://usa.lkk.com/en/recipes/peruvian-style-chicken-and-rice-bowl-recipe",
+    "domain": "usa.lkk.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Spanish Chicken Salad Bowl source because it provides the closest validated chicken and bowl structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Peru",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chicken, and vegetables for chicken fresh bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chicken and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the chicken fresh bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1050,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1009.332,
+      "proteinG": 140.61,
+      "carbohydratesG": 29.76,
+      "fatG": 40.38,
+      "sodiumMg": 422.346,
+      "potassiumMg": 3324.273,
+      "calciumMg": 74.913,
+      "ironMg": 4.377,
+      "magnesiumMg": 226.2,
+      "fiberG": 9.9,
+      "sugarsG": 20.49,
+      "vitaminCMg": 425.1
+    },
+    "perServing": {
+      "calories": 252.333,
+      "proteinG": 35.153,
+      "carbohydratesG": 7.44,
+      "fatG": 10.095,
+      "sodiumMg": 105.587,
+      "potassiumMg": 831.068,
+      "calciumMg": 18.728,
+      "ironMg": 1.094,
+      "magnesiumMg": 56.55,
+      "fiberG": 2.475,
+      "sugarsG": 5.122,
+      "vitaminCMg": 106.275
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.74,
+    "perServingUsd": 2.19,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-12-30T08:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://yumandrun.com/mediterranean-chicken-bowls-fresh-flavorful-meal/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.EhR-3nKLrMKjl9eWyMUdugHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://yumandrun.com/wp-content/uploads/2025/02/u3577635729__Mediterranean_Chicken_Bowls__A_Fresh__Flavorful__c43c6686-dbd0-4e52-bfc0-1e2126718be2_1-1.png",
+    "searchQuery": "Chicken Fresh Bowl plated recipe food",
+    "searchResultTitle": "Mediterranean Chicken Bowls – A Fresh & Flavorful Meal! 🍋🍗",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:53:10.987Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1420",
+    "name": "Chicken Fresh Bowl",
+    "description": "Chicken Fresh Bowl is a practical small meal adaptation built around chicken, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Breakfast",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 252.333,
+      "proteinG": 35.153,
+      "carbohydratesG": 7.44,
+      "fatG": 10.095,
+      "sodiumMg": 105.587,
+      "potassiumMg": 831.068,
+      "calciumMg": 18.728,
+      "ironMg": 1.094,
+      "magnesiumMg": 56.55,
+      "fiberG": 2.475,
+      "sugarsG": 5.122,
+      "vitaminCMg": 106.275
+    },
+    "estimatedCostPerServingUsd": 2.19,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

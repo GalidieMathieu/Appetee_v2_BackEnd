@@ -1,4 +1,4 @@
-import { canonicalMealCategory } from "../meal-categories.mjs";
+import { canonicalMealCategory } from "../shared/meal-categories.mjs";
 
 const walmart = (id, name, price, quantity, unit = "g", brand = "Great Value", extra = {}) => ({
   market: {

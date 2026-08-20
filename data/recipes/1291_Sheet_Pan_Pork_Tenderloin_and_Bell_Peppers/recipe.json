@@ -1,0 +1,199 @@
+{
+  "seedId": "REC-1291",
+  "candidate": {
+    "sequence": 2085,
+    "seedId": "REC-CAND-2085",
+    "name": "Sheet Pan Pork Tenderloin and Bell Peppers"
+  },
+  "name": "Sheet Pan Pork Tenderloin and Bell Peppers",
+  "description": "Sheet Pan Pork Tenderloin and Bell Peppers is a practical main meal adaptation built around pork tenderloin, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.bylena.com/recipe/502/Rice-and-Meat-Stuffed-Peppers/",
+    "domain": "bylena.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Pork Tenderloin Stuffed Peppers source because it provides the closest validated pork and vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Romania",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "totalMinutes": 35
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "pork tenderloin",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0069",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for sheet pan pork tenderloin and bell peppers and preheat the oven.",
+    "Coat the pork tenderloin and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the vegetables and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the sheet pan pork tenderloin and bell peppers briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1050,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1087.332,
+      "proteinG": 131.46,
+      "carbohydratesG": 43.92,
+      "fatG": 41.37,
+      "fiberG": 12,
+      "sugarsG": 12.6,
+      "sodiumMg": 333.546,
+      "potassiumMg": 3573.273,
+      "calciumMg": 96.273,
+      "ironMg": 8.163,
+      "magnesiumMg": 225,
+      "vitaminCMg": 408.6
+    },
+    "perServing": {
+      "calories": 271.833,
+      "proteinG": 32.865,
+      "carbohydratesG": 10.98,
+      "fatG": 10.342,
+      "fiberG": 3,
+      "sugarsG": 3.15,
+      "sodiumMg": 83.386,
+      "potassiumMg": 893.318,
+      "calciumMg": 24.068,
+      "ironMg": 2.041,
+      "magnesiumMg": 56.25,
+      "vitaminCMg": 102.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.4,
+    "perServingUsd": 2.6,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-06-14T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.vons.com/meal-plans-recipes/shop/easy-sheet-pan-cajun-spiced-pork-tenderloin-bell-peppers-mixed-potatoes",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.FTVvxmANB4-uMU3o94UslwHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://cdn-uploads.mealime.com/cdn-cgi/image/width=3840/esc/RMEDIA01JS5AWWBPRSCPXDZ6NGT18HSK.jpg",
+    "searchQuery": "Sheet Pan Pork Tenderloin and Bell Peppers plated recipe food",
+    "searchResultTitle": "Easy Sheet Pan Cajun Spiced Pork Tenderloin with Bell Peppers & Mixed ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:17:35.708Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1291",
+    "name": "Sheet Pan Pork Tenderloin and Bell Peppers",
+    "description": "Sheet Pan Pork Tenderloin and Bell Peppers is a practical main meal adaptation built around pork tenderloin, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 271.833,
+      "proteinG": 32.865,
+      "carbohydratesG": 10.98,
+      "fatG": 10.342,
+      "fiberG": 3,
+      "sugarsG": 3.15,
+      "sodiumMg": 83.386,
+      "potassiumMg": 893.318,
+      "calciumMg": 24.068,
+      "ironMg": 2.041,
+      "magnesiumMg": 56.25,
+      "vitaminCMg": 102.15
+    },
+    "estimatedCostPerServingUsd": 2.6,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

@@ -1,4 +1,4 @@
-import { canonicalMealCategory } from "../meal-categories.mjs";
+import { canonicalMealCategory } from "../shared/meal-categories.mjs";
 
 const checkedAt = "2026-08-10T18:00:00-06:00";
 const market = (id, name, price, grams, brand) => ({

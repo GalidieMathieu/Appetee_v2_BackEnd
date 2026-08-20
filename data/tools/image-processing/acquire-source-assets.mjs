@@ -63,7 +63,7 @@ async function fetchPageImage(pageUrl, explicitImageUrl = null) {
 
 async function avif(source, width, height, maxBytes, startQuality) {
   for (let quality = startQuality; quality >= 25; quality -= 5) {
-    const buffer = await sharp(source).rotate().resize(width, height, { fit: "cover", position: "centre" }).avif({ quality, effort: 8, chromaSubsampling: "4:2:0" }).toBuffer();
+    const buffer = await sharp(source).rotate().resize(width, height, { fit: "cover", position: "centre" }).avif({ quality, effort: 4, chromaSubsampling: "4:2:0" }).toBuffer();
     if (buffer.length <= maxBytes) return { buffer, quality };
   }
   throw new Error(`unable to encode ${width}x${height} below ${maxBytes} bytes`);
@@ -202,21 +202,35 @@ async function main() {
   const uniqueRecipes = uniqueSourceRecords(recipeRecords, await usedSourcePages("recipes", "recipe.json"));
   const ingredientResults = [...await processPool(uniqueIngredients.selected, requestedConcurrency, new Map()), ...uniqueIngredients.deferred].sort((a, b) => a.seedId.localeCompare(b.seedId));
   const recipeResults = [...await processPool(uniqueRecipes.selected, requestedConcurrency, new Map()), ...uniqueRecipes.deferred].sort((a, b) => a.seedId.localeCompare(b.seedId));
+  let previousManifest = { ingredients: [], recipes: [] };
+  try { previousManifest = JSON.parse(await readFile(path.join(dataDir, "generated", "manifests", "source-acquisition.json"), "utf8")); } catch {}
+  const mergedIngredientsBySeedId = new Map((previousManifest.ingredients ?? []).map((item) => [item.seedId, item]));
+  const mergedRecipesBySeedId = new Map((previousManifest.recipes ?? []).map((item) => [item.seedId, item]));
+  for (const result of ingredientResults) mergedIngredientsBySeedId.set(result.seedId, result);
+  for (const result of recipeResults) mergedRecipesBySeedId.set(result.seedId, result);
+  const mergedIngredientResults = [...mergedIngredientsBySeedId.values()].sort((a, b) => a.seedId.localeCompare(b.seedId));
+  const mergedRecipeResults = [...mergedRecipesBySeedId.values()].sort((a, b) => a.seedId.localeCompare(b.seedId));
   const manifest = {
     acquiredAt: checkedAt,
     policy: "Exact source-page real photographs are private/test-only unless reuse is independently verified; every download requires visual dish review, unobtrusive photographer credit watermarks are allowed, missing images remain pending, and AI generation is prohibited.",
-    ingredients: ingredientResults,
-    recipes: recipeResults,
+    ingredients: mergedIngredientResults,
+    recipes: mergedRecipeResults,
     counts: {
+      downloadedIngredients: mergedIngredientResults.filter((item) => item.status === "downloaded").length,
+      pendingIngredients: mergedIngredientResults.filter((item) => item.status !== "downloaded").length,
+      downloadedRecipes: mergedRecipeResults.filter((item) => item.status === "downloaded").length,
+      pendingRecipes: mergedRecipeResults.filter((item) => item.status !== "downloaded").length,
+    },
+    currentRunCounts: {
       downloadedIngredients: ingredientResults.filter((item) => item.status === "downloaded").length,
       pendingIngredients: ingredientResults.filter((item) => item.status !== "downloaded").length,
       downloadedRecipes: recipeResults.filter((item) => item.status === "downloaded").length,
       pendingRecipes: recipeResults.filter((item) => item.status !== "downloaded").length,
     },
   };
-  await writeFile(path.join(dataDir, "image-source-acquisition-manifest.json"), `${JSON.stringify(manifest, null, 2)}\n`);
+  await writeFile(path.join(dataDir, "generated", "manifests", "source-acquisition.json"), `${JSON.stringify(manifest, null, 2)}\n`);
   const queueCounts = await syncImageQueues();
-  process.stdout.write(`${JSON.stringify({ ...manifest.counts, queuedIngredients: queueCounts.ingredients, queuedRecipes: queueCounts.recipes })}\n`);
+  process.stdout.write(`${JSON.stringify({ ...manifest.currentRunCounts, cumulativeCounts: manifest.counts, queuedIngredients: queueCounts.ingredients, queuedRecipes: queueCounts.recipes })}\n`);
 }
 
 main().catch((error) => { process.stderr.write(`${error.stack ?? error}\n`); process.exitCode = 1; });

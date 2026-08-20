@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-1654",
+  "candidate": {
+    "sequence": 2453,
+    "seedId": "REC-CAND-2453",
+    "name": "Cherry Frozen Bites"
+  },
+  "name": "Cherry Frozen Bites",
+  "description": "Cherry Frozen Bites is a practical dessert adaptation built around vegetables, fruit, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.visitaruba.com/aruba-recipes/banana-den-forno/",
+    "domain": "visitaruba.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Aruban Baked Cinnamon Bananas source because it provides the closest validated bites structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Aruba",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 120,
+    "totalMinutes": 135
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "Freezer",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0111",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0057",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for cherry frozen bites.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the vegetables with the fruit and remaining ingredients in the intended dessert form.",
+    "Arrange the mixture in an even layer and freeze until firm.",
+    "Divide the cherry frozen bites into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 630,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1356.946,
+      "proteinG": 35.056,
+      "carbohydratesG": 263.243,
+      "fatG": 16.264,
+      "fiberG": 30.66,
+      "sugarsG": 93.359,
+      "sodiumMg": 19.173,
+      "potassiumMg": 1605.028,
+      "calciumMg": 170.301,
+      "ironMg": 11.563,
+      "magnesiumMg": 368.564,
+      "vitaminCMg": 21.3
+    },
+    "perServing": {
+      "calories": 339.236,
+      "proteinG": 8.764,
+      "carbohydratesG": 65.811,
+      "fatG": 4.066,
+      "fiberG": 7.665,
+      "sugarsG": 23.34,
+      "sodiumMg": 4.793,
+      "potassiumMg": 401.257,
+      "calciumMg": 42.575,
+      "ironMg": 2.891,
+      "magnesiumMg": 92.141,
+      "vitaminCMg": 5.325
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.6,
+    "perServingUsd": 1.9,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-12-26T02:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse3.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://childrecipe.com/kid-friendly-frozen-cherry-oatmeal-energy-bites/",
+    "originalSourceUrl": "https://tse3.mm.bing.net/th/id/OIP.Zn4eyLt1LnHzDFbY-Rh7mQHaEJ?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://childrecipe.com/wp-content/uploads/2025/06/Kid-Friendly-Frozen-Cherry-Oatmeal-Energy-Bites.jpg",
+    "searchQuery": "cherry healthy oat energy bites dessert food photograph",
+    "searchResultTitle": "Kid-Friendly Frozen Cherry Oatmeal Energy Bites Changed Snacktime Forever - childrecipe.com",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:28.616Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1654",
+    "name": "Cherry Frozen Bites",
+    "description": "Cherry Frozen Bites is a practical dessert adaptation built around vegetables, fruit, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 135,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 339.236,
+      "proteinG": 8.764,
+      "carbohydratesG": 65.811,
+      "fatG": 4.066,
+      "fiberG": 7.665,
+      "sugarsG": 23.34,
+      "sodiumMg": 4.793,
+      "potassiumMg": 401.257,
+      "calciumMg": 42.575,
+      "ironMg": 2.891,
+      "magnesiumMg": 92.141,
+      "vitaminCMg": 5.325
+    },
+    "estimatedCostPerServingUsd": 1.9,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

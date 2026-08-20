@@ -62,7 +62,7 @@ Before each new batch:
 
 1. read the current validation/distribution report;
 2. identify the most important underrepresented areas;
-3. select the next unused names in order from `recipe_name_candidates.json`; do not reorder them to repair gaps;
+3. select the next unused names in order from `candidates/recipe-names.json`; do not reorder them to repair gaps;
 4. preserve the approved percentages progressively;
 5. reject otherwise-valid candidates when they add little useful diversity.
 
@@ -379,7 +379,7 @@ Before continuing beyond 500:
 2. regenerate all SQL/indexes;
 3. generate distribution reports;
 4. create a checkpoint ZIP;
-5. update `RESUME.md`;
+5. update `workflow/RESUME.md`;
 6. record specific coverage gaps for recipes 501-1000.
 
 At 1,000 recipes:
@@ -392,7 +392,7 @@ Become increasingly strict about repetitive candidates. Prefer recipes that add 
 
 ### Diversity reporting
 
-Extend `validation-report.json` and/or generated distribution reports with:
+Extend `generated/reports/validation.json` and/or generated distribution reports with:
 
 - recipe count;
 - student-athlete count;
@@ -473,35 +473,43 @@ data/
 ├── AGENTS.md
 ├── README.md
 ├── DATASET_SPEC.md
-├── START_CODEX_TASK.md
-├── RESUME_PROMPT.md
-├── PLAN.md
-├── RESUME.md
-├── progress.json
+├── CHANGELOG.md
 ├── version.json
-├── validation-report.json
-├── schema/
-│   └── appeteeInitDatabase.sql
-├── reference/
-│   └── dataInitDatabase.sql
+├── candidates/
+│   └── recipe-names.json
+├── workflow/
+│   ├── START_CODEX_TASK.md
+│   ├── RESUME_PROMPT.md
+│   ├── PLAN.md
+│   ├── RESUME.md
+│   └── progress.json
 ├── ingredients/
-│   ├── IngredientInit.sql
 │   ├── index.json
 │   └── 0001_Ingredient_Name/
-│       ├── 0001_Ingredient_Name.json
+│       ├── ingredient.json
 │       └── assets/
 │           └── image.avif
 ├── recipes/
-│   ├── RecipeInit.sql
 │   ├── index.json
 │   └── 0001_Recipe_Name/
-│       ├── 0001_Recipe_Name.json
+│       ├── recipe.json
 │       └── assets/
 │           ├── main.avif
 │           └── card.avif
-├── testing/
-│   └── development/
-│       └── README.md
+├── fixtures/
+│   └── README.md
+├── generated/
+│   ├── sql/
+│   │   ├── 01-schema.sql
+│   │   ├── 02-reference.sql
+│   │   ├── 03-ingredients.sql
+│   │   └── 04-recipes.sql
+│   ├── reports/
+│   │   ├── validation.json
+│   │   ├── distribution.json
+│   │   └── images.json
+│   ├── manifests/
+│   └── snapshots/
 ├── research/
 │   └── image/
 │       ├── ingredients.json
@@ -509,10 +517,18 @@ data/
 └── tools/
     ├── generation/
     ├── validation/
-    └── image-processing/
+    ├── image-processing/
+    ├── image-acquisition/
+    ├── shared/
+    ├── database/
+    └── deployment/
 ```
 
 Local AVIF assets exist physically but are ignored by Git.
+
+`fixtures/` contains only small deterministic test data. The full realistic corpus remains canonical under `ingredients/` and `recipes/` and must not be duplicated as fixtures.
+
+Everything under `generated/` is reproducible output. Do not edit generated SQL, reports, manifests, or snapshots manually.
 
 ---
 
@@ -533,7 +549,7 @@ Recipe JSON generates recipe, recipe-ingredient, recipe-diet, and recipe-badge s
 
 ## 5. SQL File Responsibilities
 
-### `schema/appeteeInitDatabase.sql`
+### `generated/sql/01-schema.sql`
 
 Structure only:
 
@@ -548,14 +564,14 @@ No normal seed inserts.
 
 The development reset process is a full replacement/recreation, not an incremental update mechanism.
 
-### `reference/dataInitDatabase.sql`
+### `generated/sql/02-reference.sql`
 
 Small shared reference data only:
 
 - diets;
 - badges.
 
-### `ingredients/IngredientInit.sql`
+### `generated/sql/03-ingredients.sql`
 
 Generated from ingredient JSON:
 
@@ -564,7 +580,7 @@ Generated from ingredient JSON:
 - normalized ingredient pricing;
 - other current ingredient persistence fields.
 
-### `recipes/RecipeInit.sql`
+### `generated/sql/04-recipes.sql`
 
 Generated from recipe JSON:
 
@@ -737,9 +753,9 @@ Preserve enough conversion/density information to support future recalculation.
 
 ## 12. Ordered Candidate Selection and Recipe Acquisition
 
-`recipe_name_candidates.json` is the immutable ordered source of future recipe names while unused candidates remain. It is a planning input, not a factual recipe source.
+`candidates/recipe-names.json` is the immutable ordered source of future recipe names while unused candidates remain. It is a planning input, not a factual recipe source.
 
-At the start of a run, read `progress.json.candidateAcquisition.nextCandidateSequence`. Process candidate sequences in ascending order until the requested number of new valid recipes is complete or the stop-before-failure protocol applies. Do not reorder candidates, modify the master candidate file, or invent replacement names.
+At the start of a run, read `workflow/progress.json.candidateAcquisition.nextCandidateSequence`. Process candidate sequences in ascending order until the requested number of new valid recipes is complete or the stop-before-failure protocol applies. Do not reorder candidates, modify the master candidate file, or invent replacement names.
 
 Before research, compare the candidate with `recipes/index.json`, normalized names, known aliases, ingredient-set similarity when available, and preparation-method similarity. If it is semantically equivalent to an existing recipe, record the sequence and reason as skipped and continue. If no credible substantially matching recipe is available, record it as unresolved and continue without inventing a dish. A source title may differ when it is clearly equivalent.
 
@@ -1046,7 +1062,7 @@ Rules:
 
 ## 25. Image Acquisition and Pending Handoff
 
-Use this preference order for recipe images:
+When the repository owner performs a dedicated image pass, use this preference order for recipe images:
 
 1. an exact photograph from the selected recipe source page;
 2. a distinct related real-food photograph found through web image search;
@@ -1070,12 +1086,13 @@ The files are JSON arrays and remain empty when no images are pending.
 Dataset-run tooling procedure:
 
 1. new records without an image must start with `needsGeneratedImage: true`, `aiGenerated: false`, and no local AVIF files;
-2. run `npm run images:source` to try exact recipe-source and Walmart product-page photographs;
-3. run `npm run images:related` for still-pending recipes and visually audit accepted related photographs;
-4. use AI only for records that remain unresolved after both real-image attempts, unless the current user explicitly reserves AI work for a separate run;
-5. every record still missing an image remains pending;
-6. `npm run images:queue` rebuilds both handoff files;
-7. `npm run build` also audits assets and rebuilds the queues before checkpointing.
+2. bulk dataset-generation runs do not run source search, related search, downloads, or AI generation unless the user explicitly requests a dedicated image task;
+3. every record still missing an image remains pending for the repository owner;
+4. `npm run images:queue` rebuilds both owner handoff files;
+5. `npm run build` also audits existing assets and rebuilds the queues before checkpointing;
+6. dedicated image tasks may use `npm run images:source` and `npm run images:related`, followed by visual audit, without changing the bulk-generation rule.
+
+For recipe-image retries, a failed or polluted result set must not immediately trigger AI generation. Record rejected URLs, retry with an independent public image-search provider and/or a simplified dish-form query, and visually audit contact sheets. Compare perceptual hashes as well as exact encoded hashes so differently resized copies of the same photograph are not assigned to multiple recipes. AI remains the last fallback only after exact-source and these independent related-real-photo paths are exhausted.
 
 ---
 
@@ -1144,7 +1161,7 @@ Critical validation failures include:
 - wrong dimensions/aspect ratio;
 - maximum size exceeded.
 
-Generate `validation-report.json` with errors, warnings, counts, diet/badge/country/source distributions, missing fields, and pending image work.
+Generate `generated/reports/validation.json` with errors, warnings, counts, diet/badge/country/source distributions, missing fields, and pending image work.
 
 Generation of seed SQL must fail on critical validation errors.
 
@@ -1178,9 +1195,9 @@ At every checkpoint:
 3. regenerate recipe SQL;
 4. regenerate indexes;
 5. update `version.json`;
-6. update `validation-report.json`;
-7. update `progress.json`;
-8. update `RESUME.md`;
+6. update `generated/reports/validation.json`;
+7. update `workflow/progress.json`;
+8. update `workflow/RESUME.md`;
 9. only then start another batch.
 
 If model/tool/context/usage resources appear insufficient, do not start another batch.
@@ -1199,11 +1216,11 @@ Read:
 
 - applicable `AGENTS.md`;
 - `DATASET_SPEC.md`;
-- `PLAN.md`;
-- `RESUME.md`;
-- `progress.json`;
+- `workflow/PLAN.md`;
+- `workflow/RESUME.md`;
+- `workflow/progress.json`;
 - `version.json`;
-- `validation-report.json`;
+- `generated/reports/validation.json`;
 - lightweight ingredient/recipe indexes.
 
 Validate before continuing.

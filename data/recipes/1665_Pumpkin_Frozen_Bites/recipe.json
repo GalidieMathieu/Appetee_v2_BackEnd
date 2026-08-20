@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-1665",
+  "candidate": {
+    "sequence": 2464,
+    "seedId": "REC-CAND-2464",
+    "name": "Pumpkin Frozen Bites"
+  },
+  "name": "Pumpkin Frozen Bites",
+  "description": "Pumpkin Frozen Bites is a practical dessert adaptation built around vegetables, fruit, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.visitaruba.com/aruba-recipes/banana-den-forno/",
+    "domain": "visitaruba.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Aruban Baked Cinnamon Bananas source because it provides the closest validated bites structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Aruba",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 120,
+    "totalMinutes": 130
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "Freezer",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0112",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0057",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for pumpkin frozen bites.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the vegetables with the fruit and remaining ingredients in the intended dessert form.",
+    "Arrange the mixture in an even layer and freeze until firm.",
+    "Divide the pumpkin frozen bites into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 630,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1269.946,
+      "proteinG": 35.176,
+      "carbohydratesG": 239.512,
+      "fatG": 16.504,
+      "fiberG": 33.06,
+      "sugarsG": 64.858,
+      "sodiumMg": 34.173,
+      "potassiumMg": 1557.028,
+      "calciumMg": 209.301,
+      "ironMg": 14.653,
+      "magnesiumMg": 404.564,
+      "vitaminCMg": 12.9
+    },
+    "perServing": {
+      "calories": 317.486,
+      "proteinG": 8.794,
+      "carbohydratesG": 59.878,
+      "fatG": 4.126,
+      "fiberG": 8.265,
+      "sugarsG": 16.215,
+      "sodiumMg": 8.543,
+      "potassiumMg": 389.257,
+      "calciumMg": 52.325,
+      "ironMg": 3.663,
+      "magnesiumMg": 101.141,
+      "vitaminCMg": 3.225
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.46,
+    "perServingUsd": 1.61,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2031-01-12T01:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/frozen-yogurt-pumpkin-pie-bites--44824958769414501/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.k4Uwq462PXX9KrctjdwAjwHaKZ&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/28/8a/11/288a115ad780d8382644143337efa6ff.jpg",
+    "searchQuery": "Pumpkin Frozen Bites plated recipe food",
+    "searchResultTitle": "Frozen Yogurt Pumpkin Pie Bites | Recipe | Frozen yogurt, Frozen ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:56:48.656Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1665",
+    "name": "Pumpkin Frozen Bites",
+    "description": "Pumpkin Frozen Bites is a practical dessert adaptation built around vegetables, fruit, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 130,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 317.486,
+      "proteinG": 8.794,
+      "carbohydratesG": 59.878,
+      "fatG": 4.126,
+      "fiberG": 8.265,
+      "sugarsG": 16.215,
+      "sodiumMg": 8.543,
+      "potassiumMg": 389.257,
+      "calciumMg": 52.325,
+      "ironMg": 3.663,
+      "magnesiumMg": 101.141,
+      "vitaminCMg": 3.225
+    },
+    "estimatedCostPerServingUsd": 1.61,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

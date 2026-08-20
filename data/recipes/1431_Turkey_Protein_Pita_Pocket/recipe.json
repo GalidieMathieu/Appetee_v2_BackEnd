@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-1431",
+  "candidate": {
+    "sequence": 2228,
+    "seedId": "REC-CAND-2228",
+    "name": "Turkey Protein Pita Pocket"
+  },
+  "name": "Turkey Protein Pita Pocket",
+  "description": "Turkey Protein Pita Pocket is a practical small meal adaptation built around turkey, pita, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/8542186/red-lentil-flatbread/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Thai Lentil Flatbread source because it provides the closest validated turkey and pita structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Thailand",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 50,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "pita",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0106",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, turkey, and pita for turkey protein pita pocket.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned turkey and cook it until browned or heated through as appropriate.",
+    "Stir in the pita, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the turkey protein pita pocket, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1080,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2221.332,
+      "proteinG": 133.29,
+      "carbohydratesG": 193.53,
+      "fatG": 107.58,
+      "fiberG": 24,
+      "sugarsG": 8.61,
+      "sodiumMg": 1590.546,
+      "potassiumMg": 2268.273,
+      "calciumMg": 288.273,
+      "ironMg": 18.093,
+      "magnesiumMg": 348,
+      "vitaminCMg": 24.6
+    },
+    "perServing": {
+      "calories": 555.333,
+      "proteinG": 33.322,
+      "carbohydratesG": 48.383,
+      "fatG": 26.895,
+      "fiberG": 6,
+      "sugarsG": 2.152,
+      "sodiumMg": 397.637,
+      "potassiumMg": 567.068,
+      "calciumMg": 72.068,
+      "ironMg": 4.523,
+      "magnesiumMg": 87,
+      "vitaminCMg": 6.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.87,
+    "perServingUsd": 2.72,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-01-16T07:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/proteinpacked-pita-pocket-with-turkey-and-veggies--434738170255567453/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.6obpzLfTMp1Oab7-XcKGdQHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/db/2b/a1/db2ba147bd79142c1c924f16bb13e2e8.jpg",
+    "searchQuery": "Turkey Protein Pita Pocket plated recipe food",
+    "searchResultTitle": "Protein-packed pita pocket with turkey and veggies",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:53:17.307Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1431",
+    "name": "Turkey Protein Pita Pocket",
+    "description": "Turkey Protein Pita Pocket is a practical small meal adaptation built around turkey, pita, and title-specific supporting ingredients.",
+    "mealType": "Breakfast",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 555.333,
+      "proteinG": 33.322,
+      "carbohydratesG": 48.383,
+      "fatG": 26.895,
+      "fiberG": 6,
+      "sugarsG": 2.152,
+      "sodiumMg": 397.637,
+      "potassiumMg": 567.068,
+      "calciumMg": 72.068,
+      "ironMg": 4.523,
+      "magnesiumMg": 87,
+      "vitaminCMg": 6.15
+    },
+    "estimatedCostPerServingUsd": 2.72,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

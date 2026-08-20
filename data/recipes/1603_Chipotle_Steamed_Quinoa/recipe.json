@@ -1,0 +1,205 @@
+{
+  "seedId": "REC-1603",
+  "candidate": {
+    "sequence": 2401,
+    "seedId": "REC-CAND-2401",
+    "name": "Chipotle Steamed Quinoa"
+  },
+  "name": "Chipotle Steamed Quinoa",
+  "description": "Chipotle Steamed Quinoa is a practical meal component adaptation built around quinoa, quinoa, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.afghanaid.org.uk/brilliant-bolani-with-potato-filling",
+    "domain": "afghanaid.org.uk",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Afghan Bolani with Potato Filling source because it provides the closest validated quinoa structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Afghanistan",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Meal Component",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "quinoa",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, quinoa, and quinoa for chipotle steamed quinoa.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned quinoa and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the chipotle steamed quinoa, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1060,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1266.732,
+      "proteinG": 37.71,
+      "carbohydratesG": 185.095,
+      "fatG": 43.378,
+      "fiberG": 25.985,
+      "sodiumMg": 162.446,
+      "potassiumMg": 2108.973,
+      "calciumMg": 186.023,
+      "ironMg": 13.881,
+      "magnesiumMg": 516.15,
+      "sugarsG": 0.875,
+      "vitaminCMg": 24.68
+    },
+    "perServing": {
+      "calories": 316.683,
+      "proteinG": 9.428,
+      "carbohydratesG": 46.274,
+      "fatG": 10.845,
+      "fiberG": 6.496,
+      "sodiumMg": 40.611,
+      "potassiumMg": 527.243,
+      "calciumMg": 46.506,
+      "ironMg": 3.47,
+      "magnesiumMg": 129.037,
+      "sugarsG": 0.219,
+      "vitaminCMg": 6.17
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.95,
+    "perServingUsd": 0.74,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-10-08T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://techiecycle.com/high-protein-southwest-quinoa-with-creamy-chipotle-dressing/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.e84qA0kRoyrtYOE5v2vyEAHaJQ&pid=15.1",
+    "discoveredOriginalUrl": "https://techiecycle.com/wp-content/uploads/2025/09/02e1c2d5025254e6935ae6e7d4eb0939.jpg",
+    "searchQuery": "Chipotle Steamed Quinoa plated recipe food",
+    "searchResultTitle": "High protein southwest quinoa with creamy chipotle dressing - EASY RECIPES",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:56:15.336Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1603",
+    "name": "Chipotle Steamed Quinoa",
+    "description": "Chipotle Steamed Quinoa is a practical meal component adaptation built around quinoa, quinoa, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Meal Component",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 316.683,
+      "proteinG": 9.428,
+      "carbohydratesG": 46.274,
+      "fatG": 10.845,
+      "fiberG": 6.496,
+      "sodiumMg": 40.611,
+      "potassiumMg": 527.243,
+      "calciumMg": 46.506,
+      "ironMg": 3.47,
+      "magnesiumMg": 129.037,
+      "sugarsG": 0.219,
+      "vitaminCMg": 6.17
+    },
+    "estimatedCostPerServingUsd": 0.74,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

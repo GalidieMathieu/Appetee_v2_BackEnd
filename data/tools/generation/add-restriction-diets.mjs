@@ -1,7 +1,7 @@
 import { readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { applyDerivedDiets, dietCompatibilityForIngredient } from "../diet-compatibility.mjs";
+import { applyDerivedDiets, dietCompatibilityForIngredient } from "../shared/diet-compatibility.mjs";
 
 const toolDir = path.dirname(fileURLToPath(import.meta.url));
 const dataDir = path.resolve(toolDir, "..", "..");

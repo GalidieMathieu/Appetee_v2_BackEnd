@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-1407",
+  "candidate": {
+    "sequence": 2202,
+    "seedId": "REC-CAND-2202",
+    "name": "Cottage Cheese Fresh Bowl"
+  },
+  "name": "Cottage Cheese Fresh Bowl",
+  "description": "Cottage Cheese Fresh Bowl is a practical small meal adaptation built around cottage cheese, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.skinnytaste.com/berry-cottage-cheese-breakfast-bowl/",
+    "domain": "skinnytaste.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Cottage Cheese Berry Bowls source because it provides the closest validated dairy and bowl structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "cottage cheese",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0035",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, cottage cheese, and vegetables for cottage cheese fresh bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned cottage cheese and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the cottage cheese fresh bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 900,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 589.332,
+      "proteinG": 42.81,
+      "carbohydratesG": 37.92,
+      "fatG": 31.86,
+      "fiberG": 9.9,
+      "sugarsG": 28.65,
+      "sodiumMg": 1245.546,
+      "potassiumMg": 1602.273,
+      "calciumMg": 234.273,
+      "ironMg": 2.673,
+      "magnesiumMg": 84,
+      "vitaminCMg": 425.1
+    },
+    "perServing": {
+      "calories": 147.333,
+      "proteinG": 10.703,
+      "carbohydratesG": 9.48,
+      "fatG": 7.965,
+      "fiberG": 2.475,
+      "sugarsG": 7.162,
+      "sodiumMg": 311.387,
+      "potassiumMg": 400.568,
+      "calciumMg": 58.568,
+      "ironMg": 0.668,
+      "magnesiumMg": 21,
+      "vitaminCMg": 106.275
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.11,
+    "perServingUsd": 1.53,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-12-10T07:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse1.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://wiserecipes.com/cottage-cheese-bowl/",
+    "originalSourceUrl": "https://tse1.mm.bing.net/th/id/OIP.Cp4nT9UPlGMyaTN0FUPzdgHaNl?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://wiserecipes.com/wp-content/uploads/2025/06/Image_fx-2025-06-29T143250.794.jpg",
+    "searchQuery": "cottage cheese bowl plated recipe food photograph",
+    "searchResultTitle": "The Ultimate Cottage Cheese Bowl Recipe (2 Ways!): Your Easy, Protein-Packed Meal! - WiseRecipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:47.268Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1407",
+    "name": "Cottage Cheese Fresh Bowl",
+    "description": "Cottage Cheese Fresh Bowl is a practical small meal adaptation built around cottage cheese, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 147.333,
+      "proteinG": 10.703,
+      "carbohydratesG": 9.48,
+      "fatG": 7.965,
+      "fiberG": 2.475,
+      "sugarsG": 7.162,
+      "sodiumMg": 311.387,
+      "potassiumMg": 400.568,
+      "calciumMg": 58.568,
+      "ironMg": 0.668,
+      "magnesiumMg": 21,
+      "vitaminCMg": 106.275
+    },
+    "estimatedCostPerServingUsd": 1.53,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

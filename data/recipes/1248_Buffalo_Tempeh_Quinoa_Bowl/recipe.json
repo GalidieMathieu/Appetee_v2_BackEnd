@@ -1,0 +1,213 @@
+{
+  "seedId": "REC-1248",
+  "candidate": {
+    "sequence": 2042,
+    "seedId": "REC-CAND-2042",
+    "name": "Buffalo Tempeh Quinoa Bowl"
+  },
+  "name": "Buffalo Tempeh Quinoa Bowl",
+  "description": "Buffalo Tempeh Quinoa Bowl is a practical main meal adaptation built around tempeh, quinoa, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.thepeskyvegan.com/recipes/jerk-tempeh/",
+    "domain": "thepeskyvegan.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Indian Tempeh Quinoa Bowl source because it provides the closest validated soy and bowl structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Jamaica",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tempeh",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0049",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tempeh, and quinoa for buffalo tempeh quinoa bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tempeh and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the buffalo tempeh quinoa bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1360,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1842.732,
+      "proteinG": 98.61,
+      "carbohydratesG": 208.015,
+      "fatG": 75.778,
+      "sodiumMg": 189.446,
+      "potassiumMg": 3344.973,
+      "calciumMg": 519.023,
+      "ironMg": 21.981,
+      "magnesiumMg": 759.15,
+      "vitaminCMg": 24.68,
+      "fiberG": 25.985,
+      "sugarsG": 0.875
+    },
+    "perServing": {
+      "calories": 460.683,
+      "proteinG": 24.652,
+      "carbohydratesG": 52.004,
+      "fatG": 18.945,
+      "sodiumMg": 47.361,
+      "potassiumMg": 836.243,
+      "calciumMg": 129.756,
+      "ironMg": 5.495,
+      "magnesiumMg": 189.787,
+      "vitaminCMg": 6.17,
+      "fiberG": 6.496,
+      "sugarsG": 0.219
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 11.88,
+    "perServingUsd": 2.97,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-04-09T04:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.purplecarrot.com/plant-based-recipes/buffalo-tempeh-quinoa-bowls-with-roasted-peppers-dill-sour-cream",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.vdG2zBEYDE3UfaJ89Zm3uwHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://images.purplecarrot.com/uploads/product/archive_image/1844/BuffaloTempehQuinoaBowlswithRoastedPeppers_Tzatziki_THUMB-bdd1b6cc11180c4dd47da27cf599b7bb.jpg",
+    "searchQuery": "Buffalo Tempeh Quinoa Bowl plated recipe food",
+    "searchResultTitle": "Vegan Recipes | Purple Carrot",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:15:23.044Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1248",
+    "name": "Buffalo Tempeh Quinoa Bowl",
+    "description": "Buffalo Tempeh Quinoa Bowl is a practical main meal adaptation built around tempeh, quinoa, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 460.683,
+      "proteinG": 24.652,
+      "carbohydratesG": 52.004,
+      "fatG": 18.945,
+      "sodiumMg": 47.361,
+      "potassiumMg": 836.243,
+      "calciumMg": 129.756,
+      "ironMg": 5.495,
+      "magnesiumMg": 189.787,
+      "vitaminCMg": 6.17,
+      "fiberG": 6.496,
+      "sugarsG": 0.219
+    },
+    "estimatedCostPerServingUsd": 2.97,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Meal Prep"
+    ]
+  }
+}

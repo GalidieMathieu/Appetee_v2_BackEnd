@@ -1,0 +1,201 @@
+{
+  "seedId": "REC-1205",
+  "candidate": {
+    "sequence": 1999,
+    "seedId": "REC-CAND-1999",
+    "name": "Turkey and Zucchini Flatbread"
+  },
+  "name": "Turkey and Zucchini Flatbread",
+  "description": "Turkey and Zucchini Flatbread is a practical main meal adaptation built around turkey, flatbread, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://broccyourbody.com/one-pan-italian-orzo-skillet/",
+    "domain": "broccyourbody.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Turkey and Kale Orzo Skillet source because it provides the closest validated turkey and flatbread structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 60,
+    "totalMinutes": 85
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "flatbread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0067",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0083",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, turkey, and flatbread for turkey and zucchini flatbread.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned turkey and cook it until browned or heated through as appropriate.",
+    "Stir in the flatbread, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the turkey and zucchini flatbread, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1350,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2578.332,
+      "proteinG": 138.42,
+      "carbohydratesG": 264.06,
+      "fatG": 106.35,
+      "fiberG": 16.8,
+      "sugarsG": 8.31,
+      "sodiumMg": 357.546,
+      "potassiumMg": 2862.273,
+      "calciumMg": 336.273,
+      "ironMg": 23.943,
+      "magnesiumMg": 261,
+      "vitaminCMg": 78.3
+    },
+    "perServing": {
+      "calories": 644.583,
+      "proteinG": 34.605,
+      "carbohydratesG": 66.015,
+      "fatG": 26.587,
+      "fiberG": 4.2,
+      "sugarsG": 2.078,
+      "sodiumMg": 89.386,
+      "potassiumMg": 715.568,
+      "calciumMg": 84.068,
+      "ironMg": 5.986,
+      "magnesiumMg": 65.25,
+      "vitaminCMg": 19.575
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.11,
+    "perServingUsd": 1.28,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-02-01T21:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://savoryspin.com/easy-zucchini-sausage-flatbread/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.WCkOBIvDB8d57OkVGiKm9AHaIh&pid=15.1",
+    "discoveredOriginalUrl": "https://savoryspin.com/wp-content/uploads/2019/04/Sausage-Zucchini-Flatbread.jpg.webp",
+    "searchQuery": "Turkey and Zucchini Flatbread plated recipe food",
+    "searchResultTitle": "Easy Zucchini Sausage Flatbread Recipe - Savory Spin",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:02:59.476Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1205",
+    "name": "Turkey and Zucchini Flatbread",
+    "description": "Turkey and Zucchini Flatbread is a practical main meal adaptation built around turkey, flatbread, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 85,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 644.583,
+      "proteinG": 34.605,
+      "carbohydratesG": 66.015,
+      "fatG": 26.587,
+      "fiberG": 4.2,
+      "sugarsG": 2.078,
+      "sodiumMg": 89.386,
+      "potassiumMg": 715.568,
+      "calciumMg": 84.068,
+      "ironMg": 5.986,
+      "magnesiumMg": 65.25,
+      "vitaminCMg": 19.575
+    },
+    "estimatedCostPerServingUsd": 1.28,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

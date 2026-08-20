@@ -1,0 +1,205 @@
+{
+  "seedId": "REC-1208",
+  "candidate": {
+    "sequence": 2002,
+    "seedId": "REC-CAND-2002",
+    "name": "Lemon Shrimp with Green Beans"
+  },
+  "name": "Lemon Shrimp with Green Beans",
+  "description": "Lemon Shrimp with Green Beans is a practical main meal adaptation built around shrimp, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/spanish-rice-prawn-one-pot",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Teriyaki Shrimp with Green Beans source because it provides the closest validated shellfish and legumes structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Spain",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "shrimp",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0038",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0037",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, shrimp, and legumes for lemon shrimp with green beans.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned shrimp and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the lemon shrimp with green beans, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1350,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 967.332,
+      "proteinG": 92.76,
+      "carbohydratesG": 81.87,
+      "fatG": 35.04,
+      "fiberG": 21.9,
+      "sugarsG": 14.13,
+      "sodiumMg": 3414.546,
+      "potassiumMg": 2196.273,
+      "calciumMg": 573.273,
+      "ironMg": 6.603,
+      "magnesiumMg": 249,
+      "vitaminCMg": 222.3
+    },
+    "perServing": {
+      "calories": 241.833,
+      "proteinG": 23.19,
+      "carbohydratesG": 20.468,
+      "fatG": 8.76,
+      "fiberG": 5.475,
+      "sugarsG": 3.533,
+      "sodiumMg": 853.636,
+      "potassiumMg": 549.068,
+      "calciumMg": 143.318,
+      "ironMg": 1.651,
+      "magnesiumMg": 62.25,
+      "vitaminCMg": 55.575
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 15.25,
+    "perServingUsd": 3.81,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-02-06T12:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://mixturarecipes.com/shrimp-and-green-beans/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.EXUt1D7qlfzBwP0nqdenuAHaEK&pid=15.1",
+    "discoveredOriginalUrl": "https://mixturarecipes.com/wp-content/uploads/2024/12/Glazed-Shrimp-and-Green-Beans-A-Burst-of-Flavor-and-Freshness-1024x576.webp",
+    "searchQuery": "Lemon Shrimp with Green Beans plated recipe food",
+    "searchResultTitle": "Shrimp and Green Beans Medley with Zesty Lemon",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:13:15.932Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1208",
+    "name": "Lemon Shrimp with Green Beans",
+    "description": "Lemon Shrimp with Green Beans is a practical main meal adaptation built around shrimp, legumes, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 241.833,
+      "proteinG": 23.19,
+      "carbohydratesG": 20.468,
+      "fatG": 8.76,
+      "fiberG": 5.475,
+      "sugarsG": 3.533,
+      "sodiumMg": 853.636,
+      "potassiumMg": 549.068,
+      "calciumMg": 143.318,
+      "ironMg": 1.651,
+      "magnesiumMg": 62.25,
+      "vitaminCMg": 55.575
+    },
+    "estimatedCostPerServingUsd": 3.81,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

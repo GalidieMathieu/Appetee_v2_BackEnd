@@ -1,0 +1,201 @@
+{
+  "seedId": "REC-1263",
+  "candidate": {
+    "sequence": 2057,
+    "seedId": "REC-CAND-2057",
+    "name": "Salmon and Mushrooms Flatbread"
+  },
+  "name": "Salmon and Mushrooms Flatbread",
+  "description": "Salmon and Mushrooms Flatbread is a practical main meal adaptation built around salmon, flatbread, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.kikkoman.com/en/culture/foodforum/japanese-ways-of-cooking/40-2.html",
+    "domain": "kikkoman.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Salmon Fried Rice source because it provides the closest validated fish and flatbread structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Japan",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "salmon",
+  "carbohydrateBase": "flatbread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0011",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0067",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0074",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, salmon, and flatbread for salmon and mushrooms flatbread.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned salmon and cook it until browned or heated through as appropriate.",
+    "Stir in the flatbread, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the salmon and mushrooms flatbread, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1380,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2275.332,
+      "proteinG": 165.66,
+      "carbohydratesG": 264.51,
+      "fatG": 57.81,
+      "fiberG": 16.8,
+      "sugarsG": 6.75,
+      "sodiumMg": 474.546,
+      "potassiumMg": 4017.273,
+      "calciumMg": 141.273,
+      "ironMg": 18.693,
+      "magnesiumMg": 282,
+      "vitaminCMg": 30.9
+    },
+    "perServing": {
+      "calories": 568.833,
+      "proteinG": 41.415,
+      "carbohydratesG": 66.127,
+      "fatG": 14.453,
+      "fiberG": 4.2,
+      "sugarsG": 1.688,
+      "sodiumMg": 118.636,
+      "potassiumMg": 1004.318,
+      "calciumMg": 35.318,
+      "ironMg": 4.673,
+      "magnesiumMg": 70.5,
+      "vitaminCMg": 7.725
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 11.63,
+    "perServingUsd": 2.91,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-05-02T07:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse2.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/smoked-salmon-flatbread-recipe--580471839495771098/",
+    "originalSourceUrl": "https://tse2.mm.bing.net/th/id/OIP.dJlsUZ_uFrrQqHUtoYdbbQHaLH?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/4e/56/ff/4e56ff710f355d760f2be5e4815beefc.jpg",
+    "searchQuery": "salmon and mushrooms flatbread plated recipe food photograph",
+    "searchResultTitle": "Smoked Salmon Flatbread Recipe",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:34.308Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1263",
+    "name": "Salmon and Mushrooms Flatbread",
+    "description": "Salmon and Mushrooms Flatbread is a practical main meal adaptation built around salmon, flatbread, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 568.833,
+      "proteinG": 41.415,
+      "carbohydratesG": 66.127,
+      "fatG": 14.453,
+      "fiberG": 4.2,
+      "sugarsG": 1.688,
+      "sodiumMg": 118.636,
+      "potassiumMg": 1004.318,
+      "calciumMg": 35.318,
+      "ironMg": 4.673,
+      "magnesiumMg": 70.5,
+      "vitaminCMg": 7.725
+    },
+    "estimatedCostPerServingUsd": 2.91,
+    "diets": [
+      "Pescatarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

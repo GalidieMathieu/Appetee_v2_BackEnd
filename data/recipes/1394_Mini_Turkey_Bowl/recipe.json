@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-1394",
+  "candidate": {
+    "sequence": 2188,
+    "seedId": "REC-CAND-2188",
+    "name": "Mini Turkey Bowl"
+  },
+  "name": "Mini Turkey Bowl",
+  "description": "Mini Turkey Bowl is a practical small meal adaptation built around turkey, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.eatingwell.com/recipe/250491/turkey-taco-bowls/",
+    "domain": "eatingwell.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Turkey Stir Fry Bowl source because it provides the closest validated turkey and bowl structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 50,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, turkey, and vegetables for mini turkey bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned turkey and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the mini turkey bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1080,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1489.332,
+      "proteinG": 106.53,
+      "carbohydratesG": 37.5,
+      "fatG": 103.05,
+      "fiberG": 9.3,
+      "sugarsG": 7.89,
+      "sodiumMg": 342.546,
+      "potassiumMg": 2469.273,
+      "calciumMg": 273.273,
+      "ironMg": 9.723,
+      "magnesiumMg": 174,
+      "vitaminCMg": 65.7
+    },
+    "perServing": {
+      "calories": 372.333,
+      "proteinG": 26.633,
+      "carbohydratesG": 9.375,
+      "fatG": 25.762,
+      "fiberG": 2.325,
+      "sugarsG": 1.972,
+      "sodiumMg": 85.636,
+      "potassiumMg": 617.318,
+      "calciumMg": 68.318,
+      "ironMg": 2.431,
+      "magnesiumMg": 43.5,
+      "vitaminCMg": 16.425
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.54,
+    "perServingUsd": 1.14,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-11-20T06:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse4.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/152278031144569075/",
+    "originalSourceUrl": "https://tse4.mm.bing.net/th/id/OIP.E6Wmr4hkkzEIY2yHqDJHOQHaM9?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/90/e8/41/90e8410f0605900dfa6f71087acb71fa.png",
+    "searchQuery": "turkey bowl plated recipe food photograph",
+    "searchResultTitle": "Flavorful Ground Turkey Bowls with PB2 Sauce | Recipe | Ground turkey greek bowl, Ground turkey ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:43.011Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1394",
+    "name": "Mini Turkey Bowl",
+    "description": "Mini Turkey Bowl is a practical small meal adaptation built around turkey, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Breakfast",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 372.333,
+      "proteinG": 26.633,
+      "carbohydratesG": 9.375,
+      "fatG": 25.762,
+      "fiberG": 2.325,
+      "sugarsG": 1.972,
+      "sodiumMg": 85.636,
+      "potassiumMg": 617.318,
+      "calciumMg": 68.318,
+      "ironMg": 2.431,
+      "magnesiumMg": 43.5,
+      "vitaminCMg": 16.425
+    },
+    "estimatedCostPerServingUsd": 1.14,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

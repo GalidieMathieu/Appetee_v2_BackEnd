@@ -1,0 +1,195 @@
+{
+  "seedId": "REC-1634",
+  "candidate": {
+    "sequence": 2432,
+    "seedId": "REC-CAND-2432",
+    "name": "Garlic Baked Salmon Fillets"
+  },
+  "name": "Garlic Baked Salmon Fillets",
+  "description": "Garlic Baked Salmon Fillets is a practical meal component adaptation built around salmon, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.eatingwell.com/roasted-salmon-broccoli-rice-bowls-11685541",
+    "domain": "eatingwell.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Garlic Salmon and Broccoli source because it provides the closest validated fish and vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 40,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Meal Component",
+  "cookingMethod": "Oven",
+  "primaryProtein": "salmon",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0011",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for garlic baked salmon fillets and preheat the oven.",
+    "Coat the salmon and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the vegetables and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the garlic baked salmon fillets briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 795,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1139.682,
+      "proteinG": 126.444,
+      "carbohydratesG": 30.795,
+      "fatG": 53.925,
+      "fiberG": 6.015,
+      "sugarsG": 0.15,
+      "sodiumMg": 456.096,
+      "potassiumMg": 2802.423,
+      "calciumMg": 114.423,
+      "ironMg": 3.528,
+      "magnesiumMg": 192.75,
+      "vitaminCMg": 29.28
+    },
+    "perServing": {
+      "calories": 284.921,
+      "proteinG": 31.611,
+      "carbohydratesG": 7.699,
+      "fatG": 13.481,
+      "fiberG": 1.504,
+      "sugarsG": 0.037,
+      "sodiumMg": 114.024,
+      "potassiumMg": 700.606,
+      "calciumMg": 28.606,
+      "ironMg": 0.882,
+      "magnesiumMg": 48.188,
+      "vitaminCMg": 7.32
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.85,
+    "perServingUsd": 2.21,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-11-25T06:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://recipedelicious.net/garlic-butter-baked-salmon-fillets/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.nGPkt48F4yeF2NBOW0LX4gHaJQ&pid=15.1",
+    "discoveredOriginalUrl": "https://recipedelicious.net/wp-content/uploads/2026/02/garlic-butter-baked-salmon-fillets-2026-02-28-233212.webp",
+    "searchQuery": "Garlic Baked Salmon Fillets plated recipe food",
+    "searchResultTitle": "Garlic Butter Baked Salmon Fillets",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:56:31.418Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1634",
+    "name": "Garlic Baked Salmon Fillets",
+    "description": "Garlic Baked Salmon Fillets is a practical meal component adaptation built around salmon, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Meal Component",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 284.921,
+      "proteinG": 31.611,
+      "carbohydratesG": 7.699,
+      "fatG": 13.481,
+      "fiberG": 1.504,
+      "sugarsG": 0.037,
+      "sodiumMg": 114.024,
+      "potassiumMg": 700.606,
+      "calciumMg": 28.606,
+      "ironMg": 0.882,
+      "magnesiumMg": 48.188,
+      "vitaminCMg": 7.32
+    },
+    "estimatedCostPerServingUsd": 2.21,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

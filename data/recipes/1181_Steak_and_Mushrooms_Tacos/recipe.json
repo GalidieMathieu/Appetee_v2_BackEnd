@@ -1,0 +1,201 @@
+{
+  "seedId": "REC-1181",
+  "candidate": {
+    "sequence": 1975,
+    "seedId": "REC-CAND-1975",
+    "name": "Steak and Mushrooms Tacos"
+  },
+  "name": "Steak and Mushrooms Tacos",
+  "description": "Steak and Mushrooms Tacos is a practical main meal adaptation built around steak, tortilla, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://recipecenter.stopandshop.com/recipes/236647/pulled-buffalo-beef-salad-with-parmesan-croutons",
+    "domain": "recipecenter.stopandshop.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Lean Beef Taco Bowl source because it provides the closest validated beef and taco structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 20,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "steak",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0074",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, steak, and tortilla for steak and mushrooms tacos.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned steak and cook it until browned or heated through as appropriate.",
+    "Stir in the tortilla, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the steak and mushrooms tacos, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1380,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2113.332,
+      "proteinG": 174.84,
+      "carbohydratesG": 173.31,
+      "fatG": 78.99,
+      "fiberG": 38.1,
+      "sugarsG": 13.26,
+      "sodiumMg": 2205.546,
+      "potassiumMg": 4428.273,
+      "calciumMg": 918.273,
+      "ironMg": 20.043,
+      "magnesiumMg": 447,
+      "vitaminCMg": 30.9
+    },
+    "perServing": {
+      "calories": 528.333,
+      "proteinG": 43.71,
+      "carbohydratesG": 43.328,
+      "fatG": 19.747,
+      "fiberG": 9.525,
+      "sugarsG": 3.315,
+      "sodiumMg": 551.386,
+      "potassiumMg": 1107.068,
+      "calciumMg": 229.568,
+      "ironMg": 5.011,
+      "magnesiumMg": 111.75,
+      "vitaminCMg": 7.725
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 24,
+    "perServingUsd": 6,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Few Ingredients"
+  ],
+  "createdAt": "2028-12-26T21:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/steak-poblano-and-mushroom-tacos--297026537944035564/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.bn-qyrVzu29fEhTo3qMytAHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/8c/fa/91/8cfa91e2598ee2b1cf0e5b4e1d24332c.jpg",
+    "searchQuery": "Steak and Mushrooms Tacos plated recipe food",
+    "searchResultTitle": "Steak, Poblano and Mushroom Tacos | Recipe in 2025 | Stuffed mushrooms ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:11:48.902Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1181",
+    "name": "Steak and Mushrooms Tacos",
+    "description": "Steak and Mushrooms Tacos is a practical main meal adaptation built around steak, tortilla, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 528.333,
+      "proteinG": 43.71,
+      "carbohydratesG": 43.328,
+      "fatG": 19.747,
+      "fiberG": 9.525,
+      "sugarsG": 3.315,
+      "sodiumMg": 551.386,
+      "potassiumMg": 1107.068,
+      "calciumMg": 229.568,
+      "ironMg": 5.011,
+      "magnesiumMg": 111.75,
+      "vitaminCMg": 7.725
+    },
+    "estimatedCostPerServingUsd": 6,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Few Ingredients"
+    ]
+  }
+}

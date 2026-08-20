@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-1463",
+  "candidate": {
+    "sequence": 2260,
+    "seedId": "REC-CAND-2260",
+    "name": "Peanut Butter Banana Bites"
+  },
+  "name": "Peanut Butter Banana Bites",
+  "description": "Peanut Butter Banana Bites is a practical snack adaptation built around peanut butter, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/banana-oatmeal-bites-514723",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Banana Oatmeal Bites source because it provides the closest validated nuts and bites structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "peanut butter",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0032",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0033",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for peanut butter banana bites.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the peanut butter with the vegetables and remaining ingredients in the intended snack form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the peanut butter banana bites into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 720,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2065.8,
+      "proteinG": 64.05,
+      "carbohydratesG": 306.24,
+      "fatG": 76.518,
+      "fiberG": 41.76,
+      "sugarsG": 98.328,
+      "sodiumMg": 603,
+      "potassiumMg": 2868,
+      "calciumMg": 197.4,
+      "ironMg": 13.512,
+      "magnesiumMg": 605.4,
+      "vitaminCMg": 26.4
+    },
+    "perServing": {
+      "calories": 516.45,
+      "proteinG": 16.012,
+      "carbohydratesG": 76.56,
+      "fatG": 19.13,
+      "fiberG": 10.44,
+      "sugarsG": 24.582,
+      "sodiumMg": 150.75,
+      "potassiumMg": 717,
+      "calciumMg": 49.35,
+      "ironMg": 3.378,
+      "magnesiumMg": 151.35,
+      "vitaminCMg": 6.6
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.16,
+    "perServingUsd": 0.54,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-03-06T15:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.explicit.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.aleenarecipes.com/peanut-butter-banana-bites/",
+    "originalSourceUrl": "https://ts2.explicit.bing.net/th?id=OIP.WMcHfVZyljYPnJs7PtRzfQHaJ4&pid=15.1",
+    "discoveredOriginalUrl": "https://www.aleenarecipes.com/wp-content/uploads/2026/01/lc2krqsbhwzojbbhs1r5.webp",
+    "searchQuery": "Peanut Butter Banana Bites plated recipe food",
+    "searchResultTitle": "Peanut Butter Banana Bites: A Guilt-Free Sweet Treat - Aleena Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:53:35.511Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1463",
+    "name": "Peanut Butter Banana Bites",
+    "description": "Peanut Butter Banana Bites is a practical snack adaptation built around peanut butter, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 516.45,
+      "proteinG": 16.012,
+      "carbohydratesG": 76.56,
+      "fatG": 19.13,
+      "fiberG": 10.44,
+      "sugarsG": 24.582,
+      "sodiumMg": 150.75,
+      "potassiumMg": 717,
+      "calciumMg": 49.35,
+      "ironMg": 3.378,
+      "magnesiumMg": 151.35,
+      "vitaminCMg": 6.6
+    },
+    "estimatedCostPerServingUsd": 0.54,
+    "diets": [
+      "Vegetarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

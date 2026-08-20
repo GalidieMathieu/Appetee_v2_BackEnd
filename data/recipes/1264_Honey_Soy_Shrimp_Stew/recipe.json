@@ -1,0 +1,215 @@
+{
+  "seedId": "REC-1264",
+  "candidate": {
+    "sequence": 2058,
+    "seedId": "REC-CAND-2058",
+    "name": "Honey Soy Shrimp Stew"
+  },
+  "name": "Honey Soy Shrimp Stew",
+  "description": "Honey Soy Shrimp Stew is a practical main meal adaptation built around shrimp, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/chinese-prawns-with-stir-fried-vegetables-207529",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Honey Soy Shrimp Stir-Fry source because it provides the closest validated shellfish and stew structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "China",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 50,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "shrimp",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0038",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, shrimp, and vegetables for honey soy shrimp stew.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned shrimp and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the honey soy shrimp stew, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 885,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1004.526,
+      "proteinG": 88.057,
+      "carbohydratesG": 87.411,
+      "fatG": 33.783,
+      "fiberG": 6.413,
+      "sugarsG": 49.549,
+      "sodiumMg": 5315.016,
+      "potassiumMg": 1467.003,
+      "calciumMg": 411.507,
+      "ironMg": 3.265,
+      "magnesiumMg": 189.702,
+      "vitaminCMg": 29.58
+    },
+    "perServing": {
+      "calories": 251.131,
+      "proteinG": 22.014,
+      "carbohydratesG": 21.853,
+      "fatG": 8.446,
+      "fiberG": 1.603,
+      "sugarsG": 12.387,
+      "sodiumMg": 1328.754,
+      "potassiumMg": 366.751,
+      "calciumMg": 102.877,
+      "ironMg": 0.816,
+      "magnesiumMg": 47.425,
+      "vitaminCMg": 7.395
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 13.86,
+    "perServingUsd": 3.46,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-05-03T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/286682332507863338/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.fun12dXbN3Sh9l2LZPxU8AAAAA&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/3b/de/27/3bde27c9465b983eee28f1319bea4f23.png",
+    "searchQuery": "Honey Soy Shrimp Stew plated recipe food",
+    "searchResultTitle": "Honey Soy Shrimp | Seafood recipes, Recipes, Cooking recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:16:06.213Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1264",
+    "name": "Honey Soy Shrimp Stew",
+    "description": "Honey Soy Shrimp Stew is a practical main meal adaptation built around shrimp, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 251.131,
+      "proteinG": 22.014,
+      "carbohydratesG": 21.853,
+      "fatG": 8.446,
+      "fiberG": 1.603,
+      "sugarsG": 12.387,
+      "sodiumMg": 1328.754,
+      "potassiumMg": 366.751,
+      "calciumMg": 102.877,
+      "ironMg": 0.816,
+      "magnesiumMg": 47.425,
+      "vitaminCMg": 7.395
+    },
+    "estimatedCostPerServingUsd": 3.46,
+    "diets": [
+      "Pescatarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Meal Prep"
+    ]
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "seedId": "REC-1219",
+  "candidate": {
+    "sequence": 2013,
+    "seedId": "REC-CAND-2013",
+    "name": "Pesto Chicken Casserole"
+  },
+  "name": "Pesto Chicken Casserole",
+  "description": "Pesto Chicken Casserole is a practical main meal adaptation built around chicken, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.jocooks.com/recipes/chicken-with-green-beans-and-sweet-potatoes/",
+    "domain": "jocooks.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Sheet Pan Chicken and Bell Peppers source because it provides the closest validated chicken and casserole structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 50,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0080",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for pesto chicken casserole and preheat the oven.",
+    "Coat the chicken and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the vegetables and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the pesto chicken casserole briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1380,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2320.332,
+      "proteinG": 232.14,
+      "carbohydratesG": 75.48,
+      "fatG": 124.35,
+      "sodiumMg": 5810.346,
+      "potassiumMg": 3951.273,
+      "calciumMg": 3158.913,
+      "ironMg": 14.097,
+      "magnesiumMg": 478.2,
+      "fiberG": 10.5,
+      "sugarsG": 1.11,
+      "vitaminCMg": 78.6
+    },
+    "perServing": {
+      "calories": 580.083,
+      "proteinG": 58.035,
+      "carbohydratesG": 18.87,
+      "fatG": 31.087,
+      "sodiumMg": 1452.586,
+      "potassiumMg": 987.818,
+      "calciumMg": 789.728,
+      "ironMg": 3.524,
+      "magnesiumMg": 119.55,
+      "fiberG": 2.625,
+      "sugarsG": 0.278,
+      "vitaminCMg": 19.65
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 46.68,
+    "perServingUsd": 11.67,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Carb",
+    "Freezer Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-02-23T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.vivianarecipes.com/cheesy-pesto-chicken-casserole-recipe/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.Db-pUid9TCFRrC-GXO94GgHaGr&pid=15.1",
+    "discoveredOriginalUrl": "https://www.vivianarecipes.com/wp-content/uploads/2026/02/c72ddc74549.webp",
+    "searchQuery": "Pesto Chicken Casserole plated recipe food",
+    "searchResultTitle": "Cheesy Pesto Chicken Casserole Recipe - Vivianarecipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:13:55.556Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1219",
+    "name": "Pesto Chicken Casserole",
+    "description": "Pesto Chicken Casserole is a practical main meal adaptation built around chicken, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 580.083,
+      "proteinG": 58.035,
+      "carbohydratesG": 18.87,
+      "fatG": 31.087,
+      "sodiumMg": 1452.586,
+      "potassiumMg": 987.818,
+      "calciumMg": 789.728,
+      "ironMg": 3.524,
+      "magnesiumMg": 119.55,
+      "fiberG": 2.625,
+      "sugarsG": 0.278,
+      "vitaminCMg": 19.65
+    },
+    "estimatedCostPerServingUsd": 11.67,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Carb",
+      "Freezer Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

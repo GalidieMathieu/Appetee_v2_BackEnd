@@ -1,0 +1,205 @@
+{
+  "seedId": "REC-1600",
+  "candidate": {
+    "sequence": 2398,
+    "seedId": "REC-CAND-2398",
+    "name": "Chipotle Baked Salmon Fillets"
+  },
+  "name": "Chipotle Baked Salmon Fillets",
+  "description": "Chipotle Baked Salmon Fillets is a practical meal component adaptation built around salmon, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.hungryroot.com/recipes/garlic-sheet-pan-tuna-bell-peppers-1036722838/",
+    "domain": "hungryroot.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Sheet Pan Tuna and Bell Peppers source because it provides the closest validated fish and vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 50,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Meal Component",
+  "cookingMethod": "Oven",
+  "primaryProtein": "salmon",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0011",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for chipotle baked salmon fillets and preheat the oven.",
+    "Coat the salmon and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the vegetables and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the chipotle baked salmon fillets briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 790,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1145.532,
+      "proteinG": 126.87,
+      "carbohydratesG": 31.015,
+      "fatG": 55.21,
+      "fiberG": 9.185,
+      "sugarsG": 0.875,
+      "sodiumMg": 600.446,
+      "potassiumMg": 2953.773,
+      "calciumMg": 115.223,
+      "ironMg": 5.193,
+      "magnesiumMg": 205.35,
+      "vitaminCMg": 24.68
+    },
+    "perServing": {
+      "calories": 286.383,
+      "proteinG": 31.718,
+      "carbohydratesG": 7.754,
+      "fatG": 13.803,
+      "fiberG": 2.296,
+      "sugarsG": 0.219,
+      "sodiumMg": 150.112,
+      "potassiumMg": 738.443,
+      "calciumMg": 28.806,
+      "ironMg": 1.298,
+      "magnesiumMg": 51.337,
+      "vitaminCMg": 6.17
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.89,
+    "perServingUsd": 2.22,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-10-03T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://smalldishes.com/20-minute-baked-salmon-with-maple-chipotle-sauce/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.LQuxId8Gufl4A4V5G9JHZwHaJQ&pid=15.1",
+    "discoveredOriginalUrl": "https://smalldishes.com/wp-content/uploads/2025/12/20_Minute_Baked_Salmon_with_Maple_Chipotle_Sauce-4.webp",
+    "searchQuery": "Chipotle Baked Salmon Fillets plated recipe food",
+    "searchResultTitle": "20 Minute Baked Salmon with Maple Chipotle Sauce - Small Dishes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:55:53.706Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1600",
+    "name": "Chipotle Baked Salmon Fillets",
+    "description": "Chipotle Baked Salmon Fillets is a practical meal component adaptation built around salmon, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Meal Component",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 286.383,
+      "proteinG": 31.718,
+      "carbohydratesG": 7.754,
+      "fatG": 13.803,
+      "fiberG": 2.296,
+      "sugarsG": 0.219,
+      "sodiumMg": 150.112,
+      "potassiumMg": 738.443,
+      "calciumMg": 28.806,
+      "ironMg": 1.298,
+      "magnesiumMg": 51.337,
+      "vitaminCMg": 6.17
+    },
+    "estimatedCostPerServingUsd": 2.22,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

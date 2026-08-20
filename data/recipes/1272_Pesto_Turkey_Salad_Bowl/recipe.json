@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-1272",
+  "candidate": {
+    "sequence": 2066,
+    "seedId": "REC-CAND-2066",
+    "name": "Pesto Turkey Salad Bowl"
+  },
+  "name": "Pesto Turkey Salad Bowl",
+  "description": "Pesto Turkey Salad Bowl is a practical main meal adaptation built around turkey, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.healthline.com/recipes/low-calorie-recipe-5",
+    "domain": "healthline.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Turkey Taco Spinach Salad source because it provides the closest validated turkey and bowl/salad structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "totalMinutes": 20
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0080",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for pesto turkey salad bowl.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the turkey with the vegetables and remaining ingredients in the intended main meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the pesto turkey salad bowl into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1080,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2650.332,
+      "proteinG": 196.05,
+      "carbohydratesG": 49.65,
+      "fatG": 187.62,
+      "fiberG": 4.8,
+      "sugarsG": 1.11,
+      "sodiumMg": 5736.546,
+      "potassiumMg": 2637.273,
+      "calciumMg": 3288.273,
+      "ironMg": 19.053,
+      "magnesiumMg": 408,
+      "vitaminCMg": 54
+    },
+    "perServing": {
+      "calories": 662.583,
+      "proteinG": 49.013,
+      "carbohydratesG": 12.412,
+      "fatG": 46.905,
+      "fiberG": 1.2,
+      "sugarsG": 0.278,
+      "sodiumMg": 1434.137,
+      "potassiumMg": 659.318,
+      "calciumMg": 822.068,
+      "ironMg": 4.763,
+      "magnesiumMg": 102,
+      "vitaminCMg": 13.5
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 44.6,
+    "perServingUsd": 11.15,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Carb",
+    "Quick Meal",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-05-16T04:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/tuscan-turkey-salad-with-pesto-vinaigrette--365354588538511459/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP._wT9L81qYTbA3JdpsdigLwHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/bb/9e/be/bb9ebe7ef8075f61426e3994e9551987.jpg",
+    "searchQuery": "Pesto Turkey Salad Bowl plated recipe food",
+    "searchResultTitle": "Tuscan Turkey Salad with Pesto Vinaigrette | Recipe in 2024 | Pesto ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:16:33.907Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1272",
+    "name": "Pesto Turkey Salad Bowl",
+    "description": "Pesto Turkey Salad Bowl is a practical main meal adaptation built around turkey, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 662.583,
+      "proteinG": 49.013,
+      "carbohydratesG": 12.412,
+      "fatG": 46.905,
+      "fiberG": 1.2,
+      "sugarsG": 0.278,
+      "sodiumMg": 1434.137,
+      "potassiumMg": 659.318,
+      "calciumMg": 822.068,
+      "ironMg": 4.763,
+      "magnesiumMg": 102,
+      "vitaminCMg": 13.5
+    },
+    "estimatedCostPerServingUsd": 11.15,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Carb",
+      "Quick Meal",
+      "Few Ingredients"
+    ]
+  }
+}

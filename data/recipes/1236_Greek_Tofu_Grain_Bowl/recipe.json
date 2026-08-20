@@ -1,0 +1,209 @@
+{
+  "seedId": "REC-1236",
+  "candidate": {
+    "sequence": 2030,
+    "seedId": "REC-CAND-2030",
+    "name": "Greek Tofu Grain Bowl"
+  },
+  "name": "Greek Tofu Grain Bowl",
+  "description": "Greek Tofu Grain Bowl is a practical main meal adaptation built around tofu, quinoa, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/mark-bittmans-qunioa-salad-with-tempeh-379312",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Smoky Tempeh Grain Bowl source because it provides the closest validated soy and bowl structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Greece",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tofu",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0018",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tofu, and quinoa for greek tofu grain bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tofu and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the greek tofu grain bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1650,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1559.532,
+      "proteinG": 66.75,
+      "carbohydratesG": 216.42,
+      "fatG": 55.428,
+      "fiberG": 33.6,
+      "sugarsG": 9.3,
+      "sodiumMg": 57.546,
+      "potassiumMg": 2755.473,
+      "calciumMg": 839.073,
+      "ironMg": 18.591,
+      "magnesiumMg": 634.8,
+      "vitaminCMg": 184.2
+    },
+    "perServing": {
+      "calories": 389.883,
+      "proteinG": 16.688,
+      "carbohydratesG": 54.105,
+      "fatG": 13.857,
+      "fiberG": 8.4,
+      "sugarsG": 2.325,
+      "sodiumMg": 14.386,
+      "potassiumMg": 688.868,
+      "calciumMg": 209.768,
+      "ironMg": 4.648,
+      "magnesiumMg": 158.7,
+      "vitaminCMg": 46.05
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.32,
+    "perServingUsd": 1.58,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-03-21T16:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/greek-salad-grain-bowl-with-crispy-tofu-and-hummus-double-thyme--361765782554109894/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.Fl-xyTzdXtq9z-BfGKEpqwHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/1e/1f/91/1e1f917009080489a3e62058924cae88.jpg",
+    "searchQuery": "Greek Tofu Grain Bowl plated recipe food",
+    "searchResultTitle": "Greek Salad Grain Bowl With Crispy Tofu and hummus — double thyme ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:14:45.403Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1236",
+    "name": "Greek Tofu Grain Bowl",
+    "description": "Greek Tofu Grain Bowl is a practical main meal adaptation built around tofu, quinoa, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 389.883,
+      "proteinG": 16.688,
+      "carbohydratesG": 54.105,
+      "fatG": 13.857,
+      "fiberG": 8.4,
+      "sugarsG": 2.325,
+      "sodiumMg": 14.386,
+      "potassiumMg": 688.868,
+      "calciumMg": 209.768,
+      "ironMg": 4.648,
+      "magnesiumMg": 158.7,
+      "vitaminCMg": 46.05
+    },
+    "estimatedCostPerServingUsd": 1.58,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

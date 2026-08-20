@@ -1,0 +1,229 @@
+{
+  "seedId": "REC-1324",
+  "candidate": {
+    "sequence": 2118,
+    "seedId": "REC-CAND-2118",
+    "name": "Lemon Tofu Chili"
+  },
+  "name": "Lemon Tofu Chili",
+  "description": "Lemon Tofu Chili is a practical main meal adaptation built around tofu, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.budgetbytes.com/peanut-tofu-noodle-bowls/",
+    "domain": "budgetbytes.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Tomato Basil Tofu with Green Beans source because it provides the closest validated soy and chili structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Thailand",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 50,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tofu",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0018",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tofu, and legumes for lemon tofu chili.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tofu and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the lemon tofu chili, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 955,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 726.882,
+      "proteinG": 35.244,
+      "carbohydratesG": 72.49,
+      "fatG": 42.295,
+      "fiberG": 20.6,
+      "sugarsG": 10.325,
+      "sodiumMg": 194.996,
+      "potassiumMg": 1675.923,
+      "calciumMg": 781.373,
+      "ironMg": 9.798,
+      "magnesiumMg": 182.1,
+      "vitaminCMg": 188.96
+    },
+    "perServing": {
+      "calories": 181.72,
+      "proteinG": 8.811,
+      "carbohydratesG": 18.122,
+      "fatG": 10.574,
+      "fiberG": 5.15,
+      "sugarsG": 2.581,
+      "sodiumMg": 48.749,
+      "potassiumMg": 418.981,
+      "calciumMg": 195.343,
+      "ironMg": 2.45,
+      "magnesiumMg": 45.525,
+      "vitaminCMg": 47.24
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.91,
+    "perServingUsd": 1.23,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-08-04T08:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://au.pinterest.com/pin/lemongrass-tofu--216595063319296649/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.6eTLrgajkBWynQ5kp3zyhAHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/2f/c7/bf/2fc7bf1ab6b854276e577c368faada23.jpg",
+    "searchQuery": "Lemon Tofu Chili plated recipe food",
+    "searchResultTitle": "Lemongrass Tofu Recipe with Red Thai Chili Peppers | Lemongrass tofu ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:19:12.960Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1324",
+    "name": "Lemon Tofu Chili",
+    "description": "Lemon Tofu Chili is a practical main meal adaptation built around tofu, legumes, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 181.72,
+      "proteinG": 8.811,
+      "carbohydratesG": 18.122,
+      "fatG": 10.574,
+      "fiberG": 5.15,
+      "sugarsG": 2.581,
+      "sodiumMg": 48.749,
+      "potassiumMg": 418.981,
+      "calciumMg": 195.343,
+      "ironMg": 2.45,
+      "magnesiumMg": 45.525,
+      "vitaminCMg": 47.24
+    },
+    "estimatedCostPerServingUsd": 1.23,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Meal Prep"
+    ]
+  }
+}

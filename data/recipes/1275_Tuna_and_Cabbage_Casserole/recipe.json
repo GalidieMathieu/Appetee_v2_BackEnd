@@ -1,0 +1,199 @@
+{
+  "seedId": "REC-1275",
+  "candidate": {
+    "sequence": 2069,
+    "seedId": "REC-CAND-2069",
+    "name": "Tuna and Cabbage Casserole"
+  },
+  "name": "Tuna and Cabbage Casserole",
+  "description": "Tuna and Cabbage Casserole is a practical main meal adaptation built around tuna, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.hungryroot.com/recipes/garlic-sheet-pan-tuna-bell-peppers-1036722838/",
+    "domain": "hungryroot.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Sheet Pan Tuna and Tomatoes source because it provides the closest validated fish and casserole structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "tuna",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0025",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0100",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for tuna and cabbage casserole and preheat the oven.",
+    "Coat the tuna and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the vegetables and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the tuna and cabbage casserole briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1000,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 894.332,
+      "proteinG": 108.33,
+      "carbohydratesG": 43.23,
+      "fatG": 31.03,
+      "fiberG": 13.2,
+      "sugarsG": 9.6,
+      "sodiumMg": 257.546,
+      "potassiumMg": 2004.273,
+      "calciumMg": 209.273,
+      "ironMg": 8.523,
+      "magnesiumMg": 171,
+      "vitaminCMg": 134.4
+    },
+    "perServing": {
+      "calories": 223.583,
+      "proteinG": 27.082,
+      "carbohydratesG": 10.807,
+      "fatG": 7.758,
+      "fiberG": 3.3,
+      "sugarsG": 2.4,
+      "sodiumMg": 64.386,
+      "potassiumMg": 501.068,
+      "calciumMg": 52.318,
+      "ironMg": 2.131,
+      "magnesiumMg": 42.75,
+      "vitaminCMg": 33.6
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.44,
+    "perServingUsd": 1.11,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-05-20T19:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://storage.googleapis.com/ddfkrwefrlmtje/cabbage-tuna-casserole.html",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.WrVPTS42AlPLX9UNEtCYFwHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://www.thegorgeousspiceco.com/wp-content/uploads/2021/04/Tuna-and-Cabbage-Casserole.jpg",
+    "searchQuery": "Tuna and Cabbage Casserole plated recipe food",
+    "searchResultTitle": "Cabbage Tuna Casserole at Thomas Gabaldon blog",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:16:46.575Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1275",
+    "name": "Tuna and Cabbage Casserole",
+    "description": "Tuna and Cabbage Casserole is a practical main meal adaptation built around tuna, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 223.583,
+      "proteinG": 27.082,
+      "carbohydratesG": 10.807,
+      "fatG": 7.758,
+      "fiberG": 3.3,
+      "sugarsG": 2.4,
+      "sodiumMg": 64.386,
+      "potassiumMg": 501.068,
+      "calciumMg": 52.318,
+      "ironMg": 2.131,
+      "magnesiumMg": 42.75,
+      "vitaminCMg": 33.6
+    },
+    "estimatedCostPerServingUsd": 1.11,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "seedId": "REC-1647",
+  "candidate": {
+    "sequence": 2446,
+    "seedId": "REC-CAND-2446",
+    "name": "Lemon Crumble Cups"
+  },
+  "name": "Lemon Crumble Cups",
+  "description": "Lemon Crumble Cups is a practical dessert adaptation built around oats, oats, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/banana-oatmeal-bites-514723",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Banana Oatmeal Bites source because it provides the closest validated cups/crumble structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "Oven",
+  "primaryProtein": "oats",
+  "carbohydrateBase": "oats",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0047",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0034",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for lemon crumble cups and preheat the oven.",
+    "Coat the oats and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the oats and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the lemon crumble cups briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 605,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1209.35,
+      "proteinG": 33.349,
+      "carbohydratesG": 243.34,
+      "fatG": 16.04,
+      "fiberG": 33.315,
+      "sugarsG": 65.424,
+      "sodiumMg": 23.3,
+      "potassiumMg": 1365.55,
+      "calciumMg": 226.4,
+      "ironMg": 13.118,
+      "magnesiumMg": 368.4,
+      "vitaminCMg": 124.09
+    },
+    "perServing": {
+      "calories": 302.337,
+      "proteinG": 8.337,
+      "carbohydratesG": 60.835,
+      "fatG": 4.01,
+      "fiberG": 8.329,
+      "sugarsG": 16.356,
+      "sodiumMg": 5.825,
+      "potassiumMg": 341.387,
+      "calciumMg": 56.6,
+      "ironMg": 3.28,
+      "magnesiumMg": 92.1,
+      "vitaminCMg": 31.023
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.37,
+    "perServingUsd": 0.84,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-12-15T07:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse3.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://keeponcookin.com/lemon-tahini-oat-bites/",
+    "originalSourceUrl": "https://tse3.mm.bing.net/th/id/OIP.h5XAaqBGfX75PemDgx6N2QHaJl?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://keeponcookin.com/wp-content/uploads/2024/09/59_LemonTahiniOatBites2.jpg",
+    "searchQuery": "lemon healthy oat energy bites dessert food photograph",
+    "searchResultTitle": "Lemon Tahini Oat Bites - Keep On Cookin'",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:23.880Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1647",
+    "name": "Lemon Crumble Cups",
+    "description": "Lemon Crumble Cups is a practical dessert adaptation built around oats, oats, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 302.337,
+      "proteinG": 8.337,
+      "carbohydratesG": 60.835,
+      "fatG": 4.01,
+      "fiberG": 8.329,
+      "sugarsG": 16.356,
+      "sodiumMg": 5.825,
+      "potassiumMg": 341.387,
+      "calciumMg": 56.6,
+      "ironMg": 3.28,
+      "magnesiumMg": 92.1,
+      "vitaminCMg": 31.023
+    },
+    "estimatedCostPerServingUsd": 0.84,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "seedId": "REC-1533",
+  "candidate": {
+    "sequence": 2331,
+    "seedId": "REC-CAND-2331",
+    "name": "Asian Rice"
+  },
+  "name": "Asian Rice",
+  "description": "Asian Rice is a practical side adaptation built around rice, rice, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/56161/fasoliyyeh-bi-z-zayt-syrian-green-beans-with-olive-oil/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Syrian Green Beans with Olive Oil source because it provides the closest validated rice structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Syria",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 30,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Side",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "rice",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, rice, and rice for asian rice.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned rice and cook it until browned or heated through as appropriate.",
+    "Stir in the rice, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the asian rice, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1080,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1235.376,
+      "proteinG": 22.219,
+      "carbohydratesG": 220.266,
+      "fatG": 30.12,
+      "fiberG": 6.336,
+      "sodiumMg": 1915.175,
+      "potassiumMg": 895.173,
+      "calciumMg": 67.461,
+      "ironMg": 1.834,
+      "magnesiumMg": 116.352,
+      "sugarsG": 0.139,
+      "vitaminCMg": 24.6
+    },
+    "perServing": {
+      "calories": 308.844,
+      "proteinG": 5.555,
+      "carbohydratesG": 55.066,
+      "fatG": 7.53,
+      "fiberG": 1.584,
+      "sodiumMg": 478.794,
+      "potassiumMg": 223.793,
+      "calciumMg": 16.865,
+      "ironMg": 0.459,
+      "magnesiumMg": 29.088,
+      "sugarsG": 0.035,
+      "vitaminCMg": 6.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.05,
+    "perServingUsd": 0.51,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-06-22T13:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.slenderkitchen.com/recipe/rice-bowl-recipes",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.XJXD7Hy2l3VfTKPCZAIO5AHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://www.slenderkitchen.com/sites/default/files/styles/featured_square_1280/public/recipe_images/asian-rice-bowls.jpg",
+    "searchQuery": "Asian Rice plated recipe food",
+    "searchResultTitle": "34 Easy Rice Bowl Recipes - Slender Kitchen",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:55:10.575Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1533",
+    "name": "Asian Rice",
+    "description": "Asian Rice is a practical side adaptation built around rice, rice, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 308.844,
+      "proteinG": 5.555,
+      "carbohydratesG": 55.066,
+      "fatG": 7.53,
+      "fiberG": 1.584,
+      "sodiumMg": 478.794,
+      "potassiumMg": 223.793,
+      "calciumMg": 16.865,
+      "ironMg": 0.459,
+      "magnesiumMg": 29.088,
+      "sugarsG": 0.035,
+      "vitaminCMg": 6.15
+    },
+    "estimatedCostPerServingUsd": 0.51,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

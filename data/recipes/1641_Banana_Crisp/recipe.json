@@ -1,0 +1,195 @@
+{
+  "seedId": "REC-1641",
+  "candidate": {
+    "sequence": 2440,
+    "seedId": "REC-CAND-2440",
+    "name": "Banana Crisp"
+  },
+  "name": "Banana Crisp",
+  "description": "Banana Crisp is a practical dessert adaptation built around banana, oats, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.visitaruba.com/aruba-recipes/banana-den-forno/",
+    "domain": "visitaruba.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Aruban Baked Cinnamon Bananas source because it provides the closest validated fruit and crisp structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Aruba",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "Oven",
+  "primaryProtein": "banana",
+  "carbohydrateBase": "oats",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0033",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0047",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for banana crisp and preheat the oven.",
+    "Coat the banana and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the oats and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the banana crisp briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 605,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1371.35,
+      "proteinG": 35.329,
+      "carbohydratesG": 284.35,
+      "fatG": 16.7,
+      "fiberG": 34.815,
+      "sugarsG": 88.344,
+      "sodiumMg": 20.3,
+      "potassiumMg": 1995.55,
+      "calciumMg": 193.4,
+      "ironMg": 11.648,
+      "magnesiumMg": 416.4,
+      "vitaminCMg": 26.59
+    },
+    "perServing": {
+      "calories": 342.837,
+      "proteinG": 8.832,
+      "carbohydratesG": 71.088,
+      "fatG": 4.175,
+      "fiberG": 8.704,
+      "sugarsG": 22.086,
+      "sodiumMg": 5.075,
+      "potassiumMg": 498.887,
+      "calciumMg": 48.35,
+      "ironMg": 2.912,
+      "magnesiumMg": 104.1,
+      "vitaminCMg": 6.647
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 1.94,
+    "perServingUsd": 0.48,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-12-06T01:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://easypressureeats.com/black-beans-instant-pot-recipe/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.Ai_VMwFEi-xDJ6FpK8KMNAHaJQ&pid=15.1",
+    "discoveredOriginalUrl": "https://easypressureeats.com/wp-content/uploads/2026/03/instant-pot-banana-crisp.jpg",
+    "searchQuery": "Banana Crisp plated recipe food",
+    "searchResultTitle": "Black Beans Instant Pot Perfect Every Time",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:56:35.820Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1641",
+    "name": "Banana Crisp",
+    "description": "Banana Crisp is a practical dessert adaptation built around banana, oats, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 342.837,
+      "proteinG": 8.832,
+      "carbohydratesG": 71.088,
+      "fatG": 4.175,
+      "fiberG": 8.704,
+      "sugarsG": 22.086,
+      "sodiumMg": 5.075,
+      "potassiumMg": 498.887,
+      "calciumMg": 48.35,
+      "ironMg": 2.912,
+      "magnesiumMg": 104.1,
+      "vitaminCMg": 6.647
+    },
+    "estimatedCostPerServingUsd": 0.48,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

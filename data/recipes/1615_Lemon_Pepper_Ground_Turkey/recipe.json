@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-1615",
+  "candidate": {
+    "sequence": 2413,
+    "seedId": "REC-CAND-2413",
+    "name": "Lemon Pepper Ground Turkey"
+  },
+  "name": "Lemon Pepper Ground Turkey",
+  "description": "Lemon Pepper Ground Turkey is a practical meal component adaptation built around turkey, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/turkey-kale-and-brown-rice-soup-recipe-2121147",
+    "domain": "foodnetwork.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Chipotle Turkey with Kale source because it provides the closest validated turkey and vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 50,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Meal Component",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, turkey, and vegetables for lemon pepper ground turkey.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned turkey and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the lemon pepper ground turkey, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1080,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1522.332,
+      "proteinG": 107.19,
+      "carbohydratesG": 53.79,
+      "fatG": 103.35,
+      "fiberG": 14.1,
+      "sugarsG": 7.5,
+      "sodiumMg": 333.546,
+      "potassiumMg": 2172.273,
+      "calciumMg": 321.273,
+      "ironMg": 10.713,
+      "magnesiumMg": 165,
+      "vitaminCMg": 183.6
+    },
+    "perServing": {
+      "calories": 380.583,
+      "proteinG": 26.797,
+      "carbohydratesG": 13.447,
+      "fatG": 25.837,
+      "fiberG": 3.525,
+      "sugarsG": 1.875,
+      "sodiumMg": 83.386,
+      "potassiumMg": 543.068,
+      "calciumMg": 80.318,
+      "ironMg": 2.678,
+      "magnesiumMg": 41.25,
+      "vitaminCMg": 45.9
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.08,
+    "perServingUsd": 1.27,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-10-26T23:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse1.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.platedwithlove.com/recipes/gordon-ramsay-ground-turkey-pasta",
+    "originalSourceUrl": "https://tse1.mm.bing.net/th/id/OIP.z4qlpQ4APbirXmmGpaAw0QHaOK?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://platedwithlove.com/uploads/recipes/gordon-ramsay-ground-turkey-pasta-plate-1771429254572-943-1771429254727.webp",
+    "searchQuery": "ground turkey plated recipe food photograph",
+    "searchResultTitle": "Gordon Ramsay Ground Turkey Pasta Recipe - 30 Minute Dinner | Delicious Recipes - Plated With ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:11.609Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1615",
+    "name": "Lemon Pepper Ground Turkey",
+    "description": "Lemon Pepper Ground Turkey is a practical meal component adaptation built around turkey, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Meal Component",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 380.583,
+      "proteinG": 26.797,
+      "carbohydratesG": 13.447,
+      "fatG": 25.837,
+      "fiberG": 3.525,
+      "sugarsG": 1.875,
+      "sodiumMg": 83.386,
+      "potassiumMg": 543.068,
+      "calciumMg": 80.318,
+      "ironMg": 2.678,
+      "magnesiumMg": 41.25,
+      "vitaminCMg": 45.9
+    },
+    "estimatedCostPerServingUsd": 1.27,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

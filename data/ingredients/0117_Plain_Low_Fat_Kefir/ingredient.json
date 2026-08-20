@@ -1,0 +1,122 @@
+{
+  "seedId": "ING-0117",
+  "name": "Plain Low-Fat Kefir",
+  "canonicalName": "Plain Low-Fat Kefir",
+  "description": "Plain cultured low-fat milk kefir for smoothies and shakes.",
+  "measurementType": "liquid",
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": false,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": "The plain kefir product is gluten-free but is cultured dairy and is conservatively treated as not lactose-free."
+  },
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Lifeway Plain Unsweetened Low-Fat Milk Kefir, 32 fl oz",
+    "productId": "198295609",
+    "productUrl": "https://www.walmart.com/ip/198295609",
+    "brand": "Lifeway",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 3.84,
+    "packageQuantity": 946,
+    "packageUnit": "ml",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-11T19:50:49.978Z",
+    "priceEvidence": "Current Walmart product-page listing price and package volume."
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "ml",
+    "values": {
+      "calories": 44.29,
+      "proteinG": 3.904,
+      "carbohydratesG": 4.913,
+      "fatG": 1.051,
+      "fiberG": 0,
+      "sugarsG": 4.748,
+      "sodiumMg": 41.2,
+      "potassiumMg": 168.92,
+      "calciumMg": 133.9,
+      "ironMg": 0.041,
+      "magnesiumMg": 12.36,
+      "vitaminCMg": 0.206
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "ml",
+    "usdPerBasis": 0.4059
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 170904,
+      "dataType": "SR Legacy",
+      "description": "Kefir, lowfat, plain, LIFEWAY",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/170904/nutrients",
+      "searchQuery": "kefir lowfat plain lifeway",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": "USDA gram-basis kefir nutrition converted to ml with density 1.03 g/ml."
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": 1.03,
+    "notes": "USDA gram-basis kefir nutrition converted to ml with density 1.03 g/ml."
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "imageType": "external-real-product-photograph",
+    "aiGenerated": false,
+    "provider": "i5.walmartimages.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/198295609",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Lifeway-Lowfat-Milk-Plain-Kefir-32-fl-oz_d7bc6b9d-4d65-4215-962d-824953011c9e.bc26d121ecb3586e7b34f76da1f56852.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:01:23.923Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0117",
+    "name": "Plain Low-Fat Kefir",
+    "description": "Plain cultured low-fat milk kefir for smoothies and shakes.",
+    "measurement": {
+      "type": "liquid",
+      "basisQuantity": 100,
+      "basisUnit": "ml"
+    },
+    "nutrition": {
+      "calories": 44.29,
+      "proteinG": 3.904,
+      "carbohydratesG": 4.913,
+      "fatG": 1.051,
+      "fiberG": 0,
+      "sugarsG": 4.748,
+      "sodiumMg": 41.2,
+      "potassiumMg": 168.92,
+      "calciumMg": 133.9,
+      "ironMg": 0.041,
+      "magnesiumMg": 12.36,
+      "vitaminCMg": 0.206
+    },
+    "price": {
+      "usdPerBasis": 0.4059,
+      "basisQuantity": 100,
+      "basisUnit": "ml"
+    },
+    "image": null
+  }
+}

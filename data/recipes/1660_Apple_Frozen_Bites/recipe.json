@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-1660",
+  "candidate": {
+    "sequence": 2459,
+    "seedId": "REC-CAND-2459",
+    "name": "Apple Frozen Bites"
+  },
+  "name": "Apple Frozen Bites",
+  "description": "Apple Frozen Bites is a practical dessert adaptation built around vegetables, fruit, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.visitaruba.com/aruba-recipes/banana-den-forno/",
+    "domain": "visitaruba.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Aruban Baked Cinnamon Bananas source because it provides the closest validated bites structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Aruba",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 120,
+    "totalMinutes": 145
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "Freezer",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0104",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0057",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for apple frozen bites.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the vegetables with the fruit and remaining ingredients in the intended dessert form.",
+    "Arrange the mixture in an even layer and freeze until firm.",
+    "Divide the apple frozen bites into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 630,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1356.946,
+      "proteinG": 32.476,
+      "carbohydratesG": 260.842,
+      "fatG": 16.204,
+      "fiberG": 30.66,
+      "sugarsG": 90.058,
+      "sodiumMg": 22.173,
+      "potassiumMg": 1266.028,
+      "calciumMg": 152.301,
+      "ironMg": 10.784,
+      "magnesiumMg": 350.564,
+      "vitaminCMg": 0.3
+    },
+    "perServing": {
+      "calories": 339.236,
+      "proteinG": 8.119,
+      "carbohydratesG": 65.21,
+      "fatG": 4.051,
+      "fiberG": 7.665,
+      "sugarsG": 22.515,
+      "sodiumMg": 5.543,
+      "potassiumMg": 316.507,
+      "calciumMg": 38.075,
+      "ironMg": 2.696,
+      "magnesiumMg": 87.641,
+      "vitaminCMg": 0.075
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.26,
+    "perServingUsd": 1.56,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2031-01-04T08:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.explicit.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.mettabk.com/recipes/frozen-applesauce-bites-recipe/",
+    "originalSourceUrl": "https://ts2.explicit.bing.net/th?id=OIP.Qq8af6wRlmYHQVJJ4wEQawHaE8&pid=15.1",
+    "discoveredOriginalUrl": "https://www.mettabk.com/wp-content/uploads/media/02/9668601-frozen-applesauce-bites-recipe-mettabk.jpg",
+    "searchQuery": "Apple Frozen Bites plated recipe food",
+    "searchResultTitle": "Frosty Delight: Frozen Applesauce Bites Recipe for Summer Fun - Make ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:56:47.082Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1660",
+    "name": "Apple Frozen Bites",
+    "description": "Apple Frozen Bites is a practical dessert adaptation built around vegetables, fruit, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 145,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 339.236,
+      "proteinG": 8.119,
+      "carbohydratesG": 65.21,
+      "fatG": 4.051,
+      "fiberG": 7.665,
+      "sugarsG": 22.515,
+      "sodiumMg": 5.543,
+      "potassiumMg": 316.507,
+      "calciumMg": 38.075,
+      "ironMg": 2.696,
+      "magnesiumMg": 87.641,
+      "vitaminCMg": 0.075
+    },
+    "estimatedCostPerServingUsd": 1.56,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

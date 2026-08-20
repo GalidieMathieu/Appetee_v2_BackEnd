@@ -1,0 +1,205 @@
+{
+  "seedId": "REC-1282",
+  "candidate": {
+    "sequence": 2076,
+    "seedId": "REC-CAND-2076",
+    "name": "Greek Lean Beef with Quinoa"
+  },
+  "name": "Greek Lean Beef with Quinoa",
+  "description": "Greek Lean Beef with Quinoa is a practical main meal adaptation built around lean beef, quinoa, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.frugalnutrition.com/mediterranean-quinoa-bowls/",
+    "domain": "frugalnutrition.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Korean Lean Beef with Quinoa source because it provides the closest validated beef and quinoa structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Greece",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lean beef",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lean beef, and quinoa for greek lean beef with quinoa.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lean beef and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the greek lean beef with quinoa, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1800,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2615.532,
+      "proteinG": 151.23,
+      "carbohydratesG": 207.87,
+      "fatG": 132.918,
+      "fiberG": 30.9,
+      "sugarsG": 7.5,
+      "sodiumMg": 417.546,
+      "potassiumMg": 4081.473,
+      "calciumMg": 326.073,
+      "ironMg": 26.301,
+      "magnesiumMg": 631.8,
+      "vitaminCMg": 183.6
+    },
+    "perServing": {
+      "calories": 653.883,
+      "proteinG": 37.807,
+      "carbohydratesG": 51.968,
+      "fatG": 33.23,
+      "fiberG": 7.725,
+      "sugarsG": 1.875,
+      "sodiumMg": 104.386,
+      "potassiumMg": 1020.368,
+      "calciumMg": 81.518,
+      "ironMg": 6.575,
+      "magnesiumMg": 157.95,
+      "vitaminCMg": 45.9
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 13.92,
+    "perServingUsd": 3.48,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-05-31T14:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse1.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://kitchenrecipesfans.com/how-to-make-beef-quinoa-bowl-in-40-min/",
+    "originalSourceUrl": "https://tse1.mm.bing.net/th/id/OIP.18X9AqxcOiP6xlFkIZV00gHaJ3?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://kitchenrecipesfans.com/wp-content/uploads/2025/05/high-protein-beef-quinoa-bowl.webp",
+    "searchQuery": "lean beef with quinoa plated recipe food photograph",
+    "searchResultTitle": "How to make Beef Quinoa Bowl in 40 min",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:34.004Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1282",
+    "name": "Greek Lean Beef with Quinoa",
+    "description": "Greek Lean Beef with Quinoa is a practical main meal adaptation built around lean beef, quinoa, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 653.883,
+      "proteinG": 37.807,
+      "carbohydratesG": 51.968,
+      "fatG": 33.23,
+      "fiberG": 7.725,
+      "sugarsG": 1.875,
+      "sodiumMg": 104.386,
+      "potassiumMg": 1020.368,
+      "calciumMg": 81.518,
+      "ironMg": 6.575,
+      "magnesiumMg": 157.95,
+      "vitaminCMg": 45.9
+    },
+    "estimatedCostPerServingUsd": 3.48,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

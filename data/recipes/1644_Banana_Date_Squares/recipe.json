@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-1644",
+  "candidate": {
+    "sequence": 2443,
+    "seedId": "REC-CAND-2443",
+    "name": "Banana Date Squares"
+  },
+  "name": "Banana Date Squares",
+  "description": "Banana Date Squares is a practical dessert adaptation built around banana, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.visitaruba.com/aruba-recipes/banana-den-forno/",
+    "domain": "visitaruba.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Aruban Baked Cinnamon Bananas source because it provides the closest validated fruit and vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Aruba",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 50,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "Oven",
+  "primaryProtein": "banana",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0033",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0115",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for banana date squares and preheat the oven.",
+    "Coat the banana and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the vegetables and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the banana date squares briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 720,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1697.4,
+      "proteinG": 38.07,
+      "carbohydratesG": 370.32,
+      "fatG": 17.106,
+      "fiberG": 41.76,
+      "sugarsG": 164.316,
+      "sodiumMg": 22.2,
+      "potassiumMg": 2761.2,
+      "calciumMg": 190.2,
+      "ironMg": 12.456,
+      "magnesiumMg": 465,
+      "vitaminCMg": 26.88
+    },
+    "perServing": {
+      "calories": 424.35,
+      "proteinG": 9.518,
+      "carbohydratesG": 92.58,
+      "fatG": 4.277,
+      "fiberG": 10.44,
+      "sugarsG": 41.079,
+      "sodiumMg": 5.55,
+      "potassiumMg": 690.3,
+      "calciumMg": 47.55,
+      "ironMg": 3.114,
+      "magnesiumMg": 116.25,
+      "vitaminCMg": 6.72
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.34,
+    "perServingUsd": 0.83,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-12-10T16:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse3.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://peakprimelife.com/10-super-healthy-desserts-you-can-indulge-in-guilt-free/",
+    "originalSourceUrl": "https://tse3.mm.bing.net/th/id/OIP.tJHQhI7RpGK5J94kupbcEAHaHa?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://peakprimelife.com/wp-content/uploads/2025/02/banana_oatmeal_energy_bites_1-500x500.jpg",
+    "searchQuery": "banana healthy oat energy bites dessert food photograph",
+    "searchResultTitle": "10 Super Healthy Desserts You Can Indulge In Guilt-Free",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:22.656Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1644",
+    "name": "Banana Date Squares",
+    "description": "Banana Date Squares is a practical dessert adaptation built around banana, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 424.35,
+      "proteinG": 9.518,
+      "carbohydratesG": 92.58,
+      "fatG": 4.277,
+      "fiberG": 10.44,
+      "sugarsG": 41.079,
+      "sodiumMg": 5.55,
+      "potassiumMg": 690.3,
+      "calciumMg": 47.55,
+      "ironMg": 3.114,
+      "magnesiumMg": 116.25,
+      "vitaminCMg": 6.72
+    },
+    "estimatedCostPerServingUsd": 0.83,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

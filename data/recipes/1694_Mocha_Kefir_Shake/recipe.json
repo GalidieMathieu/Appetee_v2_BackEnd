@@ -1,0 +1,200 @@
+{
+  "seedId": "REC-1694",
+  "candidate": {
+    "sequence": 2495,
+    "seedId": "REC-CAND-2495",
+    "name": "Mocha Kefir Shake"
+  },
+  "name": "Mocha Kefir Shake",
+  "description": "Mocha Kefir Shake is a practical drink adaptation built around kefir, fruit, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.oikos.com/greek-yogurt-recipes/smoothies/recipe/berry-banana-smoothie/",
+    "domain": "oikos.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Berry Banana Greek Yogurt Smoothie source because it provides the closest validated dairy and shake structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "totalMinutes": 20
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Drink",
+  "cookingMethod": "Blender",
+  "primaryProtein": "kefir",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0117",
+      "sourceQuantity": 480,
+      "sourceUnit": "ml",
+      "sourceDisplay": "480 ml",
+      "normalizedQuantity": 480,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0030",
+      "sourceQuantity": 240,
+      "sourceUnit": "ml",
+      "sourceDisplay": "240 ml",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and chill the ingredients for mocha kefir shake.",
+    "Add the liquid ingredients to the blender before the thicker ingredients.",
+    "Blend until the mocha kefir shake is completely smooth and evenly combined.",
+    "Adjust the thickness with a small amount of milk and serve immediately."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1320,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1605.192,
+      "proteinG": 89.357,
+      "carbohydratesG": 258.168,
+      "fatG": 26.756,
+      "fiberG": 24.36,
+      "sugarsG": 96.655,
+      "sodiumMg": 438.744,
+      "potassiumMg": 2479.896,
+      "calciumMg": 1397.76,
+      "ironMg": 10.909,
+      "magnesiumMg": 451.92,
+      "vitaminCMg": 1.783
+    },
+    "perServing": {
+      "calories": 401.298,
+      "proteinG": 22.339,
+      "carbohydratesG": 64.542,
+      "fatG": 6.689,
+      "fiberG": 6.09,
+      "sugarsG": 24.164,
+      "sodiumMg": 109.686,
+      "potassiumMg": 619.974,
+      "calciumMg": 349.44,
+      "ironMg": 2.727,
+      "magnesiumMg": 112.98,
+      "vitaminCMg": 0.446
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.74,
+    "perServingUsd": 1.19,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2031-02-25T18:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse2.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://marvelousmocktails.com/mocha-coffee-protein-smoothie/",
+    "originalSourceUrl": "https://tse2.mm.bing.net/th/id/OIP.O5oFN-1nGPj8TpmhvyvgEgHaHa?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://marvelousmocktails.com/wp-content/uploads/2025/03/Mocha-Coffee-Protein-Smoothie.png",
+    "searchQuery": "mocha smoothie drink in a glass food photograph",
+    "searchResultTitle": "Coffee, Chocolate, & Protein? Yes, Please! This Mocha Smoothie Has Them All - Marvelous Mocktails",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:25:56.391Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1694",
+    "name": "Mocha Kefir Shake",
+    "description": "Mocha Kefir Shake is a practical drink adaptation built around kefir, fruit, and title-specific supporting ingredients.",
+    "mealType": "Breakfast",
+    "mealCategory": "Drink",
+    "image": null,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 401.298,
+      "proteinG": 22.339,
+      "carbohydratesG": 64.542,
+      "fatG": 6.689,
+      "fiberG": 6.09,
+      "sugarsG": 24.164,
+      "sodiumMg": 109.686,
+      "potassiumMg": 619.974,
+      "calciumMg": 349.44,
+      "ironMg": 2.727,
+      "magnesiumMg": 112.98,
+      "vitaminCMg": 0.446
+    },
+    "estimatedCostPerServingUsd": 1.19,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

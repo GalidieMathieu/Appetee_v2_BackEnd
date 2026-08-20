@@ -1,0 +1,201 @@
+{
+  "seedId": "REC-1664",
+  "candidate": {
+    "sequence": 2463,
+    "seedId": "REC-CAND-2463",
+    "name": "Chocolate Mousse"
+  },
+  "name": "Chocolate Mousse",
+  "description": "Chocolate Mousse is a practical dessert adaptation built around vegetables, fruit, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.visitaruba.com/aruba-recipes/banana-den-forno/",
+    "domain": "visitaruba.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Aruban Baked Cinnamon Bananas source because it provides the closest validated mousse structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Aruba",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0105",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0057",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for chocolate mousse.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the vegetables with the fruit and remaining ingredients in the intended dessert form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the chocolate mousse into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 750,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1618.546,
+      "proteinG": 85.996,
+      "carbohydratesG": 295.522,
+      "fatG": 33.274,
+      "fiberG": 68.76,
+      "sugarsG": 66.778,
+      "sodiumMg": 152.373,
+      "potassiumMg": 3186.028,
+      "calciumMg": 614.901,
+      "ironMg": 27.373,
+      "magnesiumMg": 967.364,
+      "vitaminCMg": 0.3
+    },
+    "perServing": {
+      "calories": 404.637,
+      "proteinG": 21.499,
+      "carbohydratesG": 73.88,
+      "fatG": 8.319,
+      "fiberG": 17.19,
+      "sugarsG": 16.695,
+      "sodiumMg": 38.093,
+      "potassiumMg": 796.507,
+      "calciumMg": 153.725,
+      "ironMg": 6.843,
+      "magnesiumMg": 241.841,
+      "vitaminCMg": 0.075
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.74,
+    "perServingUsd": 2.19,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2031-01-10T12:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://fity.club/lists/2025/Plating-Chocolate-Mousse/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.2xUkBmBKytttoRsp8VvCmwHaNK&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/4c/50/84/4c50849141cf78a91550a96a8cd844ef.png",
+    "searchQuery": "Chocolate Mousse plated recipe food",
+    "searchResultTitle": "Plating Chocolate Mousse Chocolate Raspberry Indulgence By Matthew",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:56:47.841Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1664",
+    "name": "Chocolate Mousse",
+    "description": "Chocolate Mousse is a practical dessert adaptation built around vegetables, fruit, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 404.637,
+      "proteinG": 21.499,
+      "carbohydratesG": 73.88,
+      "fatG": 8.319,
+      "fiberG": 17.19,
+      "sugarsG": 16.695,
+      "sodiumMg": 38.093,
+      "potassiumMg": 796.507,
+      "calciumMg": 153.725,
+      "ironMg": 6.843,
+      "magnesiumMg": 241.841,
+      "vitaminCMg": 0.075
+    },
+    "estimatedCostPerServingUsd": 2.19,
+    "diets": [
+      "Flexitarian"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

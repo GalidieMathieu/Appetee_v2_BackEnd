@@ -1,0 +1,201 @@
+{
+  "seedId": "REC-1673",
+  "candidate": {
+    "sequence": 2472,
+    "seedId": "REC-CAND-2472",
+    "name": "Cherry Yogurt Bark"
+  },
+  "name": "Cherry Yogurt Bark",
+  "description": "Cherry Yogurt Bark is a practical dessert adaptation built around Greek yogurt, fruit, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.eatingwell.com/recipe/259080/strawberry-chocolate-greek-yogurt-bark/",
+    "domain": "eatingwell.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Greek Yogurt Berry Bark source because it provides the closest validated dairy and fruit structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 120,
+    "totalMinutes": 130
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "Freezer",
+  "primaryProtein": "Greek yogurt",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0111",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0057",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for cherry yogurt bark.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the Greek yogurt with the fruit and remaining ingredients in the intended dessert form.",
+    "Arrange the mixture in an even layer and freeze until firm.",
+    "Divide the cherry yogurt bark into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1533.946,
+      "proteinG": 65.656,
+      "carbohydratesG": 274.042,
+      "fatG": 17.434,
+      "fiberG": 30.66,
+      "sugarsG": 103.079,
+      "sodiumMg": 127.173,
+      "potassiumMg": 2028.028,
+      "calciumMg": 500.301,
+      "ironMg": 11.773,
+      "magnesiumMg": 401.564,
+      "vitaminCMg": 21.3
+    },
+    "perServing": {
+      "calories": 383.486,
+      "proteinG": 16.414,
+      "carbohydratesG": 68.51,
+      "fatG": 4.359,
+      "fiberG": 7.665,
+      "sugarsG": 25.77,
+      "sodiumMg": 31.793,
+      "potassiumMg": 507.007,
+      "calciumMg": 125.075,
+      "ironMg": 2.943,
+      "magnesiumMg": 100.391,
+      "vitaminCMg": 5.325
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.69,
+    "perServingUsd": 2.17,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2031-01-24T09:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse3.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://justbrightideas.com/cherry-dessert-recipes/",
+    "originalSourceUrl": "https://tse3.mm.bing.net/th/id/OIP.pm6Ep81zBUx56Q4Jx6P5FAHaNM?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://justbrightideas.com/wp-content/uploads/cherry_yogurt_parfait.png",
+    "searchQuery": "cherry yogurt parfait dessert cup food photograph",
+    "searchResultTitle": "50 Cherry Dessert Recipes That Will Steal the Show",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:36.938Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1673",
+    "name": "Cherry Yogurt Bark",
+    "description": "Cherry Yogurt Bark is a practical dessert adaptation built around Greek yogurt, fruit, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 130,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 383.486,
+      "proteinG": 16.414,
+      "carbohydratesG": 68.51,
+      "fatG": 4.359,
+      "fiberG": 7.665,
+      "sugarsG": 25.77,
+      "sodiumMg": 31.793,
+      "potassiumMg": 507.007,
+      "calciumMg": 125.075,
+      "ironMg": 2.943,
+      "magnesiumMg": 100.391,
+      "vitaminCMg": 5.325
+    },
+    "estimatedCostPerServingUsd": 2.17,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "High Fiber",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

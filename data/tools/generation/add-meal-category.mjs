@@ -1,7 +1,7 @@
 import { readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { canonicalMealCategory } from "../meal-categories.mjs";
+import { canonicalMealCategory } from "../shared/meal-categories.mjs";
 
 const toolDir = path.dirname(fileURLToPath(import.meta.url));
 const dataDir = path.resolve(toolDir, "..", "..");

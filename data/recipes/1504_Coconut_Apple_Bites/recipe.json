@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-1504",
+  "candidate": {
+    "sequence": 2302,
+    "seedId": "REC-CAND-2302",
+    "name": "Coconut Apple Bites"
+  },
+  "name": "Coconut Apple Bites",
+  "description": "Coconut Apple Bites is a practical snack adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/banana-oatmeal-bites-514723",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Banana Oatmeal Bites source because it provides the closest validated bites structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 240,
+      "sourceUnit": "ml",
+      "sourceDisplay": "240 ml",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0104",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for coconut apple bites.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the vegetables with the vegetables and remaining ingredients in the intended snack form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the coconut apple bites into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 840,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1753.8,
+      "proteinG": 37.308,
+      "carbohydratesG": 264.264,
+      "fatG": 67.308,
+      "sodiumMg": 51,
+      "potassiumMg": 1755,
+      "calciumMg": 192.6,
+      "ironMg": 18.672,
+      "magnesiumMg": 457.8,
+      "vitaminCMg": 2.7,
+      "fiberG": 30.66,
+      "sugarsG": 86.736
+    },
+    "perServing": {
+      "calories": 438.45,
+      "proteinG": 9.327,
+      "carbohydratesG": 66.066,
+      "fatG": 16.827,
+      "sodiumMg": 12.75,
+      "potassiumMg": 438.75,
+      "calciumMg": 48.15,
+      "ironMg": 4.668,
+      "magnesiumMg": 114.45,
+      "vitaminCMg": 0.675,
+      "fiberG": 7.665,
+      "sugarsG": 21.684
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.96,
+    "perServingUsd": 0.99,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-05-08T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse2.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://gourmetgusto.net/coconut-oat-energy-bites-weight-loss-snack/",
+    "originalSourceUrl": "https://tse2.mm.bing.net/th/id/OIP.u8qyUrJpW10TVLO2rxGPBAHaJQ?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://gourmetgusto.net/wp-content/uploads/2025/11/Coconut-Oat-Energy-Bites-1.jpg",
+    "searchQuery": "coconut healthy oat energy bites dessert food photograph",
+    "searchResultTitle": "5 Amazing Coconut Oat Energy Bites Secrets - GourmetGusto",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:58.105Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1504",
+    "name": "Coconut Apple Bites",
+    "description": "Coconut Apple Bites is a practical snack adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 438.45,
+      "proteinG": 9.327,
+      "carbohydratesG": 66.066,
+      "fatG": 16.827,
+      "sodiumMg": 12.75,
+      "potassiumMg": 438.75,
+      "calciumMg": 48.15,
+      "ironMg": 4.668,
+      "magnesiumMg": 114.45,
+      "vitaminCMg": 0.675,
+      "fiberG": 7.665,
+      "sugarsG": 21.684
+    },
+    "estimatedCostPerServingUsd": 0.99,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

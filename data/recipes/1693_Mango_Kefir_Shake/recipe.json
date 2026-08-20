@@ -1,0 +1,210 @@
+{
+  "seedId": "REC-1693",
+  "candidate": {
+    "sequence": 2493,
+    "seedId": "REC-CAND-2493",
+    "name": "Mango Kefir Shake"
+  },
+  "name": "Mango Kefir Shake",
+  "description": "Mango Kefir Shake is a practical drink adaptation built around kefir, fruit, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.oikos.com/greek-yogurt-recipes/smoothies/recipe/berry-banana-smoothie/",
+    "domain": "oikos.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Berry Banana Greek Yogurt Smoothie source because it provides the closest validated dairy and shake structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Drink",
+  "cookingMethod": "Blender",
+  "primaryProtein": "kefir",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0117",
+      "sourceQuantity": 480,
+      "sourceUnit": "ml",
+      "sourceDisplay": "480 ml",
+      "normalizedQuantity": 480,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0107",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0030",
+      "sourceQuantity": 240,
+      "sourceUnit": "ml",
+      "sourceDisplay": "240 ml",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and chill the ingredients for mango kefir shake.",
+    "Add the liquid ingredients to the blender before the thicker ingredients.",
+    "Blend until the mango kefir shake is completely smooth and evenly combined.",
+    "Adjust the thickness with a small amount of milk and serve immediately."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1620,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1785.192,
+      "proteinG": 91.817,
+      "carbohydratesG": 303.168,
+      "fatG": 27.896,
+      "fiberG": 29.16,
+      "sugarsG": 137.755,
+      "sodiumMg": 441.744,
+      "potassiumMg": 2983.896,
+      "calciumMg": 1430.76,
+      "ironMg": 11.389,
+      "magnesiumMg": 481.92,
+      "vitaminCMg": 110.983
+    },
+    "perServing": {
+      "calories": 446.298,
+      "proteinG": 22.954,
+      "carbohydratesG": 75.792,
+      "fatG": 6.974,
+      "fiberG": 7.29,
+      "sugarsG": 34.439,
+      "sodiumMg": 110.436,
+      "potassiumMg": 745.974,
+      "calciumMg": 357.69,
+      "ironMg": 2.847,
+      "magnesiumMg": 120.48,
+      "vitaminCMg": 27.746
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7,
+    "perServingUsd": 1.75,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly"
+  ],
+  "createdAt": "2031-02-24T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse4.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://in.pinterest.com/pin/delicious-mango-smoothie-in-glass-jar-on-grey-background-with-copy-space-refreshing-sum--52495151901399607/",
+    "originalSourceUrl": "https://tse4.mm.bing.net/th/id/OIP.KFJclg4juRJPKeC_0OQ5ygHaNM?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/82/a1/d0/82a1d0cb106d7b258b452c1f4e48fcc1.jpg",
+    "searchQuery": "mango smoothie drink in a glass food photograph",
+    "searchResultTitle": "Delicious mango smoothie in glass jar on grey background with copy space. Refreshing sum | Mango ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:49.038Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1693",
+    "name": "Mango Kefir Shake",
+    "description": "Mango Kefir Shake is a practical drink adaptation built around kefir, fruit, and title-specific supporting ingredients.",
+    "mealType": "Breakfast",
+    "mealCategory": "Drink",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 446.298,
+      "proteinG": 22.954,
+      "carbohydratesG": 75.792,
+      "fatG": 6.974,
+      "fiberG": 7.29,
+      "sugarsG": 34.439,
+      "sodiumMg": 110.436,
+      "potassiumMg": 745.974,
+      "calciumMg": 357.69,
+      "ironMg": 2.847,
+      "magnesiumMg": 120.48,
+      "vitaminCMg": 27.746
+    },
+    "estimatedCostPerServingUsd": 1.75,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly"
+    ]
+  }
+}

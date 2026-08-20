@@ -1,0 +1,191 @@
+{
+  "seedId": "REC-1396",
+  "candidate": {
+    "sequence": 2190,
+    "seedId": "REC-CAND-2190",
+    "name": "Cottage Cheese Fresh Sandwich"
+  },
+  "name": "Cottage Cheese Fresh Sandwich",
+  "description": "Cottage Cheese Fresh Sandwich is a practical small meal adaptation built around cottage cheese, bread, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/cottage-cheese-and-tomato-on-toast-203178",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Cottage Cheese Tomato Toast source because it provides the closest validated dairy and sandwich structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "cottage cheese",
+  "carbohydrateBase": "bread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0035",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0051",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for cottage cheese fresh sandwich.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the cottage cheese with the bread and remaining ingredients in the intended small meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the cottage cheese fresh sandwich into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1327.332,
+      "proteinG": 76.89,
+      "carbohydratesG": 162.09,
+      "fatG": 41.01,
+      "fiberG": 23.7,
+      "sugarsG": 21.18,
+      "sodiumMg": 2586.546,
+      "potassiumMg": 1566.273,
+      "calciumMg": 711.273,
+      "ironMg": 8.823,
+      "magnesiumMg": 267,
+      "vitaminCMg": 24.6
+    },
+    "perServing": {
+      "calories": 331.833,
+      "proteinG": 19.223,
+      "carbohydratesG": 40.523,
+      "fatG": 10.252,
+      "fiberG": 5.925,
+      "sugarsG": 5.295,
+      "sodiumMg": 646.636,
+      "potassiumMg": 391.568,
+      "calciumMg": 177.818,
+      "ironMg": 2.206,
+      "magnesiumMg": 66.75,
+      "vitaminCMg": 6.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.43,
+    "perServingUsd": 0.86,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-11-23T08:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://5mincook.com/cottage-cheese-sandwich-recipe/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.0JBt3zO7mNu9GhpZSL_vVwHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://5mincook.com/wp-content/uploads/2025/11/5MinCook-Pins-47-1.jpg",
+    "searchQuery": "Cottage Cheese Fresh Sandwich plated recipe food",
+    "searchResultTitle": "Cottage Cheese Sandwich Recipe: High-Protein, Fresh, and Delicious - 5 ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:52:22.885Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1396",
+    "name": "Cottage Cheese Fresh Sandwich",
+    "description": "Cottage Cheese Fresh Sandwich is a practical small meal adaptation built around cottage cheese, bread, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 331.833,
+      "proteinG": 19.223,
+      "carbohydratesG": 40.523,
+      "fatG": 10.252,
+      "fiberG": 5.925,
+      "sugarsG": 5.295,
+      "sodiumMg": 646.636,
+      "potassiumMg": 391.568,
+      "calciumMg": 177.818,
+      "ironMg": 2.206,
+      "magnesiumMg": 66.75,
+      "vitaminCMg": 6.15
+    },
+    "estimatedCostPerServingUsd": 0.86,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

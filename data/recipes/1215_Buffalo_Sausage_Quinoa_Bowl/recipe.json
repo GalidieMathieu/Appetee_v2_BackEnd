@@ -1,0 +1,213 @@
+{
+  "seedId": "REC-1215",
+  "candidate": {
+    "sequence": 2009,
+    "seedId": "REC-CAND-2009",
+    "name": "Buffalo Sausage Quinoa Bowl"
+  },
+  "name": "Buffalo Sausage Quinoa Bowl",
+  "description": "Buffalo Sausage Quinoa Bowl is a practical main meal adaptation built around sausage, quinoa, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.womanandhome.com/food/everyday-inspiration/japanese-hotdogs-sausage-ragu/",
+    "domain": "womanandhome.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Honey Soy Pork Tenderloin Quinoa Bowl source because it provides the closest validated pork and bowl structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Japan",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "sausage",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0085",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, sausage, and quinoa for buffalo sausage quinoa bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned sausage and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the buffalo sausage quinoa bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1510,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3042.732,
+      "proteinG": 119.31,
+      "carbohydratesG": 207.775,
+      "fatG": 193.978,
+      "fiberG": 25.985,
+      "sugarsG": 0.875,
+      "sodiumMg": 4890.446,
+      "potassiumMg": 3956.973,
+      "calciumMg": 300.023,
+      "ironMg": 22.341,
+      "magnesiumMg": 636.15,
+      "vitaminCMg": 24.68
+    },
+    "perServing": {
+      "calories": 760.683,
+      "proteinG": 29.828,
+      "carbohydratesG": 51.944,
+      "fatG": 48.495,
+      "fiberG": 6.496,
+      "sugarsG": 0.219,
+      "sodiumMg": 1222.611,
+      "potassiumMg": 989.243,
+      "calciumMg": 75.006,
+      "ironMg": 5.585,
+      "magnesiumMg": 159.037,
+      "vitaminCMg": 6.17
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.48,
+    "perServingUsd": 1.62,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-02-17T07:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.wendyrecipes.com/sausage-and-cheese-quinoa-breakfast-bowl/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.Hf4W5YG37krwPaTDwHIT1AHaJ4&pid=15.1",
+    "discoveredOriginalUrl": "https://www.wendyrecipes.com/wp-content/uploads/2025/12/xhi3wc6xxfh6xdihyqwo.webp",
+    "searchQuery": "Buffalo Sausage Quinoa Bowl plated recipe food",
+    "searchResultTitle": "Irresistible Sausage and Cheese Quinoa Breakfast Bowl",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:13:43.929Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1215",
+    "name": "Buffalo Sausage Quinoa Bowl",
+    "description": "Buffalo Sausage Quinoa Bowl is a practical main meal adaptation built around sausage, quinoa, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 760.683,
+      "proteinG": 29.828,
+      "carbohydratesG": 51.944,
+      "fatG": 48.495,
+      "fiberG": 6.496,
+      "sugarsG": 0.219,
+      "sodiumMg": 1222.611,
+      "potassiumMg": 989.243,
+      "calciumMg": 75.006,
+      "ironMg": 5.585,
+      "magnesiumMg": 159.037,
+      "vitaminCMg": 6.17
+    },
+    "estimatedCostPerServingUsd": 1.62,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Meal Prep"
+    ]
+  }
+}

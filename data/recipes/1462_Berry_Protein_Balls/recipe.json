@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-1462",
+  "candidate": {
+    "sequence": 2259,
+    "seedId": "REC-CAND-2259",
+    "name": "Berry Protein Balls"
+  },
+  "name": "Berry Protein Balls",
+  "description": "Berry Protein Balls is a practical snack adaptation built around berries, oats, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/banana-oatmeal-bites-514723",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Banana Oatmeal Bites source because it provides the closest validated fruit and oats structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "berries",
+  "carbohydrateBase": "oats",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0034",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for berry protein balls.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the berries with the oats and remaining ingredients in the intended snack form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the berry protein balls into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 900,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1374,
+      "proteinG": 63.75,
+      "carbohydratesG": 250.11,
+      "fatG": 17.148,
+      "fiberG": 30.66,
+      "sugarsG": 75.036,
+      "sodiumMg": 130.8,
+      "potassiumMg": 1767,
+      "calciumMg": 506.4,
+      "ironMg": 12.912,
+      "magnesiumMg": 398.4,
+      "vitaminCMg": 123.9
+    },
+    "perServing": {
+      "calories": 343.5,
+      "proteinG": 15.938,
+      "carbohydratesG": 62.528,
+      "fatG": 4.287,
+      "fiberG": 7.665,
+      "sugarsG": 18.759,
+      "sodiumMg": 32.7,
+      "potassiumMg": 441.75,
+      "calciumMg": 126.6,
+      "ironMg": 3.228,
+      "magnesiumMg": 99.6,
+      "vitaminCMg": 30.975
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.28,
+    "perServingUsd": 1.07,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-03-05T02:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.cakere.com/delicious-no-bake-protein-ball-recipes/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.QibQi8kVDFIaHWb18cbskgHaNK&pid=15.1",
+    "discoveredOriginalUrl": "https://viviandmary.com/wp-content/uploads/2025/02/berry_bliss_protein_balls.jpg",
+    "searchQuery": "Berry Protein Balls plated recipe food",
+    "searchResultTitle": "17 Delicious No-Bake Protein Ball Recipes for Easy Snacking",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:53:34.421Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1462",
+    "name": "Berry Protein Balls",
+    "description": "Berry Protein Balls is a practical snack adaptation built around berries, oats, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 343.5,
+      "proteinG": 15.938,
+      "carbohydratesG": 62.528,
+      "fatG": 4.287,
+      "fiberG": 7.665,
+      "sugarsG": 18.759,
+      "sodiumMg": 32.7,
+      "potassiumMg": 441.75,
+      "calciumMg": 126.6,
+      "ironMg": 3.228,
+      "magnesiumMg": 99.6,
+      "vitaminCMg": 30.975
+    },
+    "estimatedCostPerServingUsd": 1.07,
+    "diets": [
+      "Vegetarian",
+      "Vegan"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

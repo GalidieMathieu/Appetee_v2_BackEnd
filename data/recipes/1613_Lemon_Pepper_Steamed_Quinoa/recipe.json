@@ -1,0 +1,195 @@
+{
+  "seedId": "REC-1613",
+  "candidate": {
+    "sequence": 2411,
+    "seedId": "REC-CAND-2411",
+    "name": "Lemon Pepper Steamed Quinoa"
+  },
+  "name": "Lemon Pepper Steamed Quinoa",
+  "description": "Lemon Pepper Steamed Quinoa is a practical meal component adaptation built around quinoa, quinoa, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.afghanaid.org.uk/brilliant-bolani-with-potato-filling",
+    "domain": "afghanaid.org.uk",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Afghan Bolani with Potato Filling source because it provides the closest validated quinoa structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Afghanistan",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 30,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Meal Component",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "quinoa",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, quinoa, and quinoa for lemon pepper steamed quinoa.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned quinoa and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the lemon pepper steamed quinoa, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1350,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1325.532,
+      "proteinG": 39.63,
+      "carbohydratesG": 207.87,
+      "fatG": 42.918,
+      "fiberG": 30.9,
+      "sodiumMg": 21.546,
+      "potassiumMg": 2311.473,
+      "calciumMg": 236.073,
+      "ironMg": 13.761,
+      "magnesiumMg": 523.8,
+      "sugarsG": 7.5,
+      "vitaminCMg": 183.6
+    },
+    "perServing": {
+      "calories": 331.383,
+      "proteinG": 9.908,
+      "carbohydratesG": 51.968,
+      "fatG": 10.729,
+      "fiberG": 7.725,
+      "sodiumMg": 5.386,
+      "potassiumMg": 577.868,
+      "calciumMg": 59.018,
+      "ironMg": 3.44,
+      "magnesiumMg": 130.95,
+      "sugarsG": 1.875,
+      "vitaminCMg": 45.9
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.11,
+    "perServingUsd": 1.03,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-10-23T21:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse4.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/delicious-quinoa-recipes-collection-in-2025--86905467802788101/",
+    "originalSourceUrl": "https://tse4.mm.bing.net/th/id/OIP.2QQgbco3ajnLAbEJH3O7kQHaLH?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/9f/ff/bd/9fffbd246c09420bddfbac899f696b84.jpg",
+    "searchQuery": "steamed quinoa plated recipe food photograph",
+    "searchResultTitle": "Delicious Quinoa Recipes Collection | Gourmet quinoa dish, Herb garnished quinoa dish, Plate of ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:11.056Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1613",
+    "name": "Lemon Pepper Steamed Quinoa",
+    "description": "Lemon Pepper Steamed Quinoa is a practical meal component adaptation built around quinoa, quinoa, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Meal Component",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 331.383,
+      "proteinG": 9.908,
+      "carbohydratesG": 51.968,
+      "fatG": 10.729,
+      "fiberG": 7.725,
+      "sodiumMg": 5.386,
+      "potassiumMg": 577.868,
+      "calciumMg": 59.018,
+      "ironMg": 3.44,
+      "magnesiumMg": 130.95,
+      "sugarsG": 1.875,
+      "vitaminCMg": 45.9
+    },
+    "estimatedCostPerServingUsd": 1.03,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

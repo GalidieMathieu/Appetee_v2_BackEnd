@@ -1,0 +1,229 @@
+{
+  "seedId": "REC-1191",
+  "candidate": {
+    "sequence": 1985,
+    "seedId": "REC-CAND-1985",
+    "name": "Ginger Tofu Chili"
+  },
+  "name": "Ginger Tofu Chili",
+  "description": "Ginger Tofu Chili is a practical main meal adaptation built around tofu, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.unileverfoodsolutions.co.id/en/recipe/egg-tofu-rice-R0078842.html",
+    "domain": "unileverfoodsolutions.co.id",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Teriyaki Tofu with Green Beans source because it provides the closest validated soy and chili structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Indonesia",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "totalMinutes": 35
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tofu",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0018",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tofu, and legumes for ginger tofu chili.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tofu and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the ginger tofu chili, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 670,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 651.882,
+      "proteinG": 32.217,
+      "carbohydratesG": 47.2,
+      "fatG": 41.508,
+      "fiberG": 12.5,
+      "sugarsG": 3.079,
+      "sodiumMg": 190.946,
+      "potassiumMg": 1324.173,
+      "calciumMg": 705.773,
+      "ironMg": 8.088,
+      "magnesiumMg": 164.55,
+      "vitaminCMg": 30.71
+    },
+    "perServing": {
+      "calories": 162.97,
+      "proteinG": 8.054,
+      "carbohydratesG": 11.8,
+      "fatG": 10.377,
+      "fiberG": 3.125,
+      "sugarsG": 0.77,
+      "sodiumMg": 47.736,
+      "potassiumMg": 331.043,
+      "calciumMg": 176.443,
+      "ironMg": 2.022,
+      "magnesiumMg": 41.138,
+      "vitaminCMg": 7.678
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.91,
+    "perServingUsd": 0.98,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-01-11T07:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://grandmarecipes.com/one-pan-ginger-chili-baked-tofu-recipe/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.E5sHhazqhpM0Pe5qXflTcAHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://grandmarecipes.com/wp-content/uploads/2025/03/drivexmidjourney_One-Pan_Ginger-Chili_Baked_Tofu_Recipe_Amateur_80cd08a9-ea21-461b-9155-306c1f2df0d0.webp",
+    "searchQuery": "Ginger Tofu Chili plated recipe food",
+    "searchResultTitle": "One-Pan Ginger-Chili Baked Tofu Recipe - Grandma Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:12:21.693Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1191",
+    "name": "Ginger Tofu Chili",
+    "description": "Ginger Tofu Chili is a practical main meal adaptation built around tofu, legumes, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 162.97,
+      "proteinG": 8.054,
+      "carbohydratesG": 11.8,
+      "fatG": 10.377,
+      "fiberG": 3.125,
+      "sugarsG": 0.77,
+      "sodiumMg": 47.736,
+      "potassiumMg": 331.043,
+      "calciumMg": 176.443,
+      "ironMg": 2.022,
+      "magnesiumMg": 41.138,
+      "vitaminCMg": 7.678
+    },
+    "estimatedCostPerServingUsd": 0.98,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Meal Prep"
+    ]
+  }
+}

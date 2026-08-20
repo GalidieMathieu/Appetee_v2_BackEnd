@@ -1,5 +1,39 @@
 # Dataset Package Changelog
 
+## 0.6.0 — Data workspace reorganization
+
+- Preserved all canonical ingredient and recipe JSON records while separating candidates, workflow state, fixtures, generated artifacts, research, and tools into explicit top-level responsibilities.
+- Consolidated ordered SQL in `generated/sql/`, reports in `generated/reports/`, image provenance in `generated/manifests/`, and historical checkpoint ZIPs in `generated/snapshots/`.
+- Moved the ordered recipe-name plan to `candidates/recipe-names.json`, workflow state to `workflow/`, and shared validation/generation rules to `tools/shared/`.
+- Integrated the optional Wikimedia fallback under `tools/image-acquisition/wikimedia/` as a staging workflow outside normal npm generation.
+- Updated generation, validation, image, checkpoint, documentation, and ignore paths without changing canonical record semantics or database behavior.
+
+## 0.5.2 — Complete current recipe-image assets
+
+- Filled all 529 pending recipe image pairs with visually audited real-food photographs: 8 acceptable exact-source photos and 521 related photos found through independent Bing and DuckDuckGo searches.
+- Rejected exact-source logos/non-food metadata, 117 polluted or mismatched related results, and later near-duplicate assignments instead of accepting them merely to empty the queue.
+- Added independent-provider and simplified dish-form retries, rejected-URL persistence, faster bounded AVIF encoding, and perceptual-hash duplicate protection to the reusable related-image workflow.
+- Produced distinct 1200×800 main and 480×320 card AVIF assets for every new recipe; no AI images were generated, and the 529-image batch has zero exact-hash or perceptual near-duplicate pairs.
+- Completed all 1,699 recipe asset pairs and all 121 ingredient assets, emptying both `research/image` handoff queues.
+- Preserved private/test-only provenance and unverified redistribution status, regenerated manifests, SQL, indexes, distributions, validation state, progress, version, and resume metadata, and retained zero validation errors.
+
+## 0.5.1 — Complete current ingredient-image assets
+
+- Downloaded and visually reviewed the 18 pending ingredient photographs from their Walmart product listings for repository-owner-authorized private test use.
+- Replaced the stale 404 source for ING-0106 Whole-Wheat Pita Bread with Walmart's current Papa Pita whole-wheat listing while preserving the original independent price snapshot.
+- Converted every acquired asset to a centered 256×256 AVIF below 40 KB and recorded honest source-page, original-image, usage, and production-approval provenance.
+- Completed all 121 ingredient assets with unique image hashes and emptied `research/image/ingredients.json`; the 529 pending recipe images were not downloaded or changed.
+- Regenerated image manifests, queues, SQL, indexes, distributions, validation state, progress, version, and resume metadata with zero validation errors.
+
+## 0.5.0 — Exhausted ordered-candidate checkpoint
+
+- Added 529 validated recipes as REC-1171 through REC-1699 while processing every remaining immutable candidate sequence from 1965 through 2500.
+- Continued past unsupported candidates and recorded seven new unresolved names instead of inventing or reordering replacements; the 2,500-name candidate plan is now exhausted.
+- Added 18 researched canonical Walmart/USDA ingredient records, bringing the corpus to 121 ingredients.
+- Preserved truthful role classification across Main Meal, Small Meal, Snack, Side, Meal Component, Dessert, and Drink; progressive targets now report 26.8% student-athlete, 25.9% Meal Prep, and 9.5% Discovery.
+- Left all new images pending for owner handling and rebuilt `research/image/recipes.json` with 529 recipe-name/source-URL entries plus `research/image/ingredients.json` with 18 ingredient-name/Walmart-URL entries.
+- Regenerated SQL, indexes, distributions, image manifests, validation state, progress, plan, version, and resume metadata with zero validation errors.
+
 ## 0.4.2 — Complete recipe-image assets
 
 - Filled every previously pending recipe image with a distinct real food photograph, preferring exact recipe-source images and then related web photographs; no AI images were generated.
@@ -38,7 +72,7 @@
 
 ## 0.3.6 — Ordered candidates and real-photo workflow
 
-- Adopted `recipe_name_candidates.json` as the immutable ordered recipe-name source and persisted its SHA-256 plus completed/skipped/unresolved cursor state.
+- Adopted the immutable ordered recipe-name source now located at `candidates/recipe-names.json` and persisted its SHA-256 plus completed/skipped/unresolved cursor state.
 - Added candidate metadata to new recipe JSON and lightweight indexes, with validator enforcement from REC-0117 onward.
 - Added four valid candidate recipes and three canonical ingredients; processed candidates 1-8 with three semantic-duplicate skips and one unresolved candidate.
 - Changed the candidate-plan meal-category target to approximately 85% Main Meal and 15% combined other roles.

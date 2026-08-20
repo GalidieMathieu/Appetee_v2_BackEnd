@@ -1,4 +1,4 @@
-import { canonicalMealCategory } from "../meal-categories.mjs";
+import { canonicalMealCategory } from "../shared/meal-categories.mjs";
 
 const OZ_G = 28.349523125;
 const LB_G = 453.59237;

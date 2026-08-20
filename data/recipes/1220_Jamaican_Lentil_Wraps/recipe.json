@@ -1,0 +1,195 @@
+{
+  "seedId": "REC-1220",
+  "candidate": {
+    "sequence": 2014,
+    "seedId": "REC-CAND-2014",
+    "name": "Jamaican Lentil Wraps"
+  },
+  "name": "Jamaican Lentil Wraps",
+  "description": "Jamaican Lentil Wraps is a practical main meal adaptation built around lentils, tortilla, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.pcrm.org/good-nutrition/plant-based-diets/recipes/peruvian-lentil-stew",
+    "domain": "pcrm.org",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Japanese Lentil Wraps source because it provides the closest validated lentils and wrap structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Jamaica",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 2.5
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for jamaican lentil wraps.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the lentils with the tortilla and remaining ingredients in the intended main meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the jamaican lentil wraps into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1230,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2130.132,
+      "proteinG": 90.81,
+      "carbohydratesG": 315.69,
+      "fatG": 59.274,
+      "fiberG": 60.78,
+      "sugarsG": 12.192,
+      "sodiumMg": 1868.946,
+      "potassiumMg": 2957.073,
+      "calciumMg": 861.273,
+      "ironMg": 24.507,
+      "magnesiumMg": 394.8,
+      "vitaminCMg": 35.4
+    },
+    "perServing": {
+      "calories": 532.533,
+      "proteinG": 22.703,
+      "carbohydratesG": 78.922,
+      "fatG": 14.819,
+      "fiberG": 15.195,
+      "sugarsG": 3.048,
+      "sodiumMg": 467.236,
+      "potassiumMg": 739.268,
+      "calciumMg": 215.318,
+      "ironMg": 6.127,
+      "magnesiumMg": 98.7,
+      "vitaminCMg": 8.85
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.01,
+    "perServingUsd": 1,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-02-25T00:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://mytriedrecipes.com/easy-lentil-wraps/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.g_vDNWQJn3SzSMeCsNG6KgHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://mytriedrecipes.com/wp-content/uploads/2025/06/Easy-Lentil-Wraps.webp",
+    "searchQuery": "Jamaican Lentil Wraps plated recipe food",
+    "searchResultTitle": "Easy Lentil Wraps - My Tried Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:13:55.121Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1220",
+    "name": "Jamaican Lentil Wraps",
+    "description": "Jamaican Lentil Wraps is a practical main meal adaptation built around lentils, tortilla, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 532.533,
+      "proteinG": 22.703,
+      "carbohydratesG": 78.922,
+      "fatG": 14.819,
+      "fiberG": 15.195,
+      "sugarsG": 3.048,
+      "sodiumMg": 467.236,
+      "potassiumMg": 739.268,
+      "calciumMg": 215.318,
+      "ironMg": 6.127,
+      "magnesiumMg": 98.7,
+      "vitaminCMg": 8.85
+    },
+    "estimatedCostPerServingUsd": 1,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

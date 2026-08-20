@@ -364,7 +364,9 @@ MigrationBackup/
 
 # Local Appetee dataset image assets (JSON metadata remains tracked)
 data/**/assets/
-data/fallback-source.png
+data/research/image/fallback-source.png
+data/research/image/wikimedia/
+data/generated/snapshots/*.zip
 
 # Reproducible large USDA workflow inputs (curated cache remains tracked)
 data/research/cache/FoodData_Central_sr_legacy_food_json_2018-04.zip

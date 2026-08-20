@@ -1,0 +1,197 @@
+{
+  "seedId": "REC-1251",
+  "candidate": {
+    "sequence": 2045,
+    "seedId": "REC-CAND-2045",
+    "name": "Greek Tofu with Vegetables"
+  },
+  "name": "Greek Tofu with Vegetables",
+  "description": "Greek Tofu with Vegetables is a practical main meal adaptation built around tofu, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.peta.org/recipes/buffalo-tofu-scramble-breakfast-tacos/",
+    "domain": "peta.org",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Pesto Tofu with Cabbage source because it provides the closest validated soy and vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Greece",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "totalMinutes": 35
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tofu",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0018",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tofu, and vegetables for greek tofu with vegetables.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tofu and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the greek tofu with vegetables, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 676.332,
+      "proteinG": 32.91,
+      "carbohydratesG": 62.34,
+      "fatG": 40.86,
+      "fiberG": 16.8,
+      "sugarsG": 9.3,
+      "sodiumMg": 45.546,
+      "potassiumMg": 1404.273,
+      "calciumMg": 726.273,
+      "ironMg": 7.623,
+      "magnesiumMg": 162,
+      "vitaminCMg": 184.2
+    },
+    "perServing": {
+      "calories": 169.083,
+      "proteinG": 8.227,
+      "carbohydratesG": 15.585,
+      "fatG": 10.215,
+      "fiberG": 4.2,
+      "sugarsG": 2.325,
+      "sodiumMg": 11.386,
+      "potassiumMg": 351.068,
+      "calciumMg": 181.568,
+      "ironMg": 1.906,
+      "magnesiumMg": 40.5,
+      "vitaminCMg": 46.05
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.67,
+    "perServingUsd": 1.17,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-04-13T19:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://members.cleanfooddirtygirl.com/recipes/recipe-vault/5919-greekseasoned-tofu-vegetables-over-spinach",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.0AVMd-RJB1zuu6GuX50bawHaFj&pid=15.1",
+    "discoveredOriginalUrl": "https://assets.cleanfooddirtygirl.com/recipes/greek-seasoned_tofu_&_vegetables_over_spinach_f3e6103f-ab86-425d-8376-f69c815b51b0.jpg",
+    "searchQuery": "Greek Tofu with Vegetables plated recipe food",
+    "searchResultTitle": "Greek-seasoned Tofu & Vegetables over Spinach - Plant Fueled Life",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:15:30.633Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1251",
+    "name": "Greek Tofu with Vegetables",
+    "description": "Greek Tofu with Vegetables is a practical main meal adaptation built around tofu, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 169.083,
+      "proteinG": 8.227,
+      "carbohydratesG": 15.585,
+      "fatG": 10.215,
+      "fiberG": 4.2,
+      "sugarsG": 2.325,
+      "sodiumMg": 11.386,
+      "potassiumMg": 351.068,
+      "calciumMg": 181.568,
+      "ironMg": 1.906,
+      "magnesiumMg": 40.5,
+      "vitaminCMg": 46.05
+    },
+    "estimatedCostPerServingUsd": 1.17,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

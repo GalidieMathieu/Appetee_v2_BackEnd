@@ -1,0 +1,211 @@
+{
+  "seedId": "REC-1266",
+  "candidate": {
+    "sequence": 2060,
+    "seedId": "REC-CAND-2060",
+    "name": "Coconut Chicken Soup"
+  },
+  "name": "Coconut Chicken Soup",
+  "description": "Coconut Chicken Soup is a practical main meal adaptation built around chicken, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://apnews.com/article/a8b4b8460a8a4d62c7310befe6c66cf7",
+    "domain": "apnews.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Korean Gochujang Chicken source because it provides the closest validated chicken and soup structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "South Korea",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 240,
+      "sourceUnit": "ml",
+      "sourceDisplay": "240 ml",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chicken, and vegetables for coconut chicken soup.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chicken and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the coconut chicken soup, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1035,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1486.482,
+      "proteinG": 143.292,
+      "carbohydratesG": 37.539,
+      "fatG": 90.225,
+      "sodiumMg": 432.096,
+      "potassiumMg": 3114.423,
+      "calciumMg": 139.263,
+      "ironMg": 11.292,
+      "magnesiumMg": 298.35,
+      "vitaminCMg": 31.68,
+      "fiberG": 6.015,
+      "sugarsG": 0.15
+    },
+    "perServing": {
+      "calories": 371.62,
+      "proteinG": 35.823,
+      "carbohydratesG": 9.385,
+      "fatG": 22.556,
+      "sodiumMg": 108.024,
+      "potassiumMg": 778.606,
+      "calciumMg": 34.816,
+      "ironMg": 2.823,
+      "magnesiumMg": 74.588,
+      "vitaminCMg": 7.92,
+      "fiberG": 1.504,
+      "sugarsG": 0.037
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.5,
+    "perServingUsd": 1.63,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Carb",
+    "Quick Meal",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-05-06T22:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://grammyrecipes.com/thai-coconut-chicken-soup/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.3hMXxCJbv_ZFXZqfaP2CCwHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://grammyrecipes.com/wp-content/uploads/2025/04/work0383_httpss.mj_.runj8y9SNWJNwg_Thai_Coconut_Chicken_Soup_-s_d74ec93e-1514-4863-92e5-cf0200ee165b.webp",
+    "searchQuery": "Coconut Chicken Soup plated recipe food",
+    "searchResultTitle": "Thai Coconut Chicken Soup - Grammy Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:16:20.607Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1266",
+    "name": "Coconut Chicken Soup",
+    "description": "Coconut Chicken Soup is a practical main meal adaptation built around chicken, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 371.62,
+      "proteinG": 35.823,
+      "carbohydratesG": 9.385,
+      "fatG": 22.556,
+      "sodiumMg": 108.024,
+      "potassiumMg": 778.606,
+      "calciumMg": 34.816,
+      "ironMg": 2.823,
+      "magnesiumMg": 74.588,
+      "vitaminCMg": 7.92,
+      "fiberG": 1.504,
+      "sugarsG": 0.037
+    },
+    "estimatedCostPerServingUsd": 1.63,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Carb",
+      "Quick Meal",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

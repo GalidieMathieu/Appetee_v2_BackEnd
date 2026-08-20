@@ -1,0 +1,197 @@
+{
+  "seedId": "REC-1243",
+  "candidate": {
+    "sequence": 2037,
+    "seedId": "REC-CAND-2037",
+    "name": "Lemon Egg Salad Bowl"
+  },
+  "name": "Lemon Egg Salad Bowl",
+  "description": "Lemon Egg Salad Bowl is a practical main meal adaptation built around eggs, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.loveandlemons.com/farro-bowl/",
+    "domain": "loveandlemons.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Smoky Egg Salad Bowl source because it provides the closest validated eggs and bowl/salad structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for lemon egg salad bowl.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the eggs with the vegetables and remaining ingredients in the intended main meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the lemon egg salad bowl into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 811.332,
+      "proteinG": 43.74,
+      "carbohydratesG": 41.79,
+      "fatG": 57.33,
+      "fiberG": 12,
+      "sugarsG": 16.5,
+      "sodiumMg": 447.546,
+      "potassiumMg": 1539.273,
+      "calciumMg": 276.273,
+      "ironMg": 8.013,
+      "magnesiumMg": 93,
+      "vitaminCMg": 200.1
+    },
+    "perServing": {
+      "calories": 202.833,
+      "proteinG": 10.935,
+      "carbohydratesG": 10.447,
+      "fatG": 14.332,
+      "fiberG": 3,
+      "sugarsG": 4.125,
+      "sodiumMg": 111.886,
+      "potassiumMg": 384.818,
+      "calciumMg": 69.068,
+      "ironMg": 2.003,
+      "magnesiumMg": 23.25,
+      "vitaminCMg": 50.025
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.14,
+    "perServingUsd": 0.79,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-04-01T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://oliviadish.com/the-ultimate-lemon-herb-egg-salad-fresh-creamy-easy/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.JPengNjQhVjrbyAb-SCNoQHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://oliviadish.com/wp-content/uploads/2026/01/lemon-herb-egg-salad-bowl.webp",
+    "searchQuery": "Lemon Egg Salad Bowl plated recipe food",
+    "searchResultTitle": "The Ultimate Lemon Herb Egg Salad: Fresh, Creamy & Easy! – oliviadish.com",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:15:07.191Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1243",
+    "name": "Lemon Egg Salad Bowl",
+    "description": "Lemon Egg Salad Bowl is a practical main meal adaptation built around eggs, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 202.833,
+      "proteinG": 10.935,
+      "carbohydratesG": 10.447,
+      "fatG": 14.332,
+      "fiberG": 3,
+      "sugarsG": 4.125,
+      "sodiumMg": 111.886,
+      "potassiumMg": 384.818,
+      "calciumMg": 69.068,
+      "ironMg": 2.003,
+      "magnesiumMg": 23.25,
+      "vitaminCMg": 50.025
+    },
+    "estimatedCostPerServingUsd": 0.79,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

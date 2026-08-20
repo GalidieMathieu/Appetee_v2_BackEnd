@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-1360",
+  "candidate": {
+    "sequence": 2154,
+    "seedId": "REC-CAND-2154",
+    "name": "Mango Toast"
+  },
+  "name": "Mango Toast",
+  "description": "Mango Toast is a practical small meal adaptation built around vegetables, bread, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/peanut-butter-banana-toast",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Peanut Butter Banana Toast source because it provides the closest validated toast structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United Kingdom",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 5,
+    "totalMinutes": 25
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Toaster",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "bread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0051",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0107",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for mango toast.",
+    "Toast the bread until crisp enough to support the toppings.",
+    "Combine the vegetables with the bread and remaining ingredients in the intended small meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the mango toast into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1291.332,
+      "proteinG": 42.15,
+      "carbohydratesG": 198.93,
+      "fatG": 39.09,
+      "fiberG": 28.5,
+      "sugarsG": 54.12,
+      "sodiumMg": 1371.546,
+      "potassiumMg": 1812.273,
+      "calciumMg": 561.273,
+      "ironMg": 8.883,
+      "magnesiumMg": 282,
+      "vitaminCMg": 133.8
+    },
+    "perServing": {
+      "calories": 322.833,
+      "proteinG": 10.537,
+      "carbohydratesG": 49.733,
+      "fatG": 9.773,
+      "fiberG": 7.125,
+      "sugarsG": 13.53,
+      "sodiumMg": 342.887,
+      "potassiumMg": 453.068,
+      "calciumMg": 140.318,
+      "ironMg": 2.221,
+      "magnesiumMg": 70.5,
+      "vitaminCMg": 33.45
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.42,
+    "perServingUsd": 1.1,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-09-28T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://cookwhatyoulove.com/cottage-cheese-toast-with-mango/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.GdIsLRUe7EgW2uZrlHmobgHaJ4&pid=15.1",
+    "discoveredOriginalUrl": "https://cookwhatyoulove.com/wp-content/uploads/2023/06/mango-toast-finished-3v.webp",
+    "searchQuery": "Mango Toast plated recipe food",
+    "searchResultTitle": "Cottage Cheese Toast with Mango - Cook What You Love",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:50:48.381Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1360",
+    "name": "Mango Toast",
+    "description": "Mango Toast is a practical small meal adaptation built around vegetables, bread, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 322.833,
+      "proteinG": 10.537,
+      "carbohydratesG": 49.733,
+      "fatG": 9.773,
+      "fiberG": 7.125,
+      "sugarsG": 13.53,
+      "sodiumMg": 342.887,
+      "potassiumMg": 453.068,
+      "calciumMg": 140.318,
+      "ironMg": 2.221,
+      "magnesiumMg": 70.5,
+      "vitaminCMg": 33.45
+    },
+    "estimatedCostPerServingUsd": 1.1,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

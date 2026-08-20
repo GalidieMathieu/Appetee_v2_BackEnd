@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-1661",
+  "candidate": {
+    "sequence": 2460,
+    "seedId": "REC-CAND-2460",
+    "name": "Pear Frozen Bites"
+  },
+  "name": "Pear Frozen Bites",
+  "description": "Pear Frozen Bites is a practical dessert adaptation built around vegetables, fruit, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.visitaruba.com/aruba-recipes/banana-den-forno/",
+    "domain": "visitaruba.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Aruban Baked Cinnamon Bananas source because it provides the closest validated bites structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Aruba",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 120,
+    "totalMinutes": 130
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "Freezer",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0118",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0057",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for pear frozen bites.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the vegetables with the fruit and remaining ingredients in the intended dessert form.",
+    "Arrange the mixture in an even layer and freeze until firm.",
+    "Divide the pear frozen bites into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 630,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1356.946,
+      "proteinG": 33.046,
+      "carbohydratesG": 260.243,
+      "fatG": 16.144,
+      "fiberG": 33.66,
+      "sugarsG": 84.029,
+      "sodiumMg": 22.173,
+      "potassiumMg": 1242.028,
+      "calciumMg": 158.301,
+      "ironMg": 11.053,
+      "magnesiumMg": 353.564,
+      "vitaminCMg": 13.5
+    },
+    "perServing": {
+      "calories": 339.236,
+      "proteinG": 8.261,
+      "carbohydratesG": 65.061,
+      "fatG": 4.036,
+      "fiberG": 8.415,
+      "sugarsG": 21.007,
+      "sodiumMg": 5.543,
+      "potassiumMg": 310.507,
+      "calciumMg": 39.575,
+      "ironMg": 2.763,
+      "magnesiumMg": 88.391,
+      "vitaminCMg": 3.375
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.39,
+    "perServingUsd": 1.6,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2031-01-05T21:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse1.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.usapears.org/recipe/pear-walnut-oat-nuggets/",
+    "originalSourceUrl": "https://tse1.mm.bing.net/th/id/OIP.Q0LbYmtnLho7bDClecnPyQHaF3?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://www.usapears.org/wp-content/uploads/2026/02/Walnut-Pear-Oat-Nuggets-F.webp",
+    "searchQuery": "pear healthy oat energy bites dessert food photograph",
+    "searchResultTitle": "Pear, Walnut & Oat Nuggets Recipe | USA Pears",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:32.052Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1661",
+    "name": "Pear Frozen Bites",
+    "description": "Pear Frozen Bites is a practical dessert adaptation built around vegetables, fruit, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 130,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 339.236,
+      "proteinG": 8.261,
+      "carbohydratesG": 65.061,
+      "fatG": 4.036,
+      "fiberG": 8.415,
+      "sugarsG": 21.007,
+      "sodiumMg": 5.543,
+      "potassiumMg": 310.507,
+      "calciumMg": 39.575,
+      "ironMg": 2.763,
+      "magnesiumMg": 88.391,
+      "vitaminCMg": 3.375
+    },
+    "estimatedCostPerServingUsd": 1.6,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

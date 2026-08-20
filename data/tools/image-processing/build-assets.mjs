@@ -66,7 +66,7 @@ async function main() {
 
   const duplicateRecipeImages = duplicateGroups(recipeMain);
   const duplicateIngredientImages = duplicateGroups(ingredients);
-  if (duplicateRecipeImages.length || duplicateIngredientImages.length) throw new Error("Duplicate record-specific image content detected; see image-manifest.json after resolving it");
+  if (duplicateRecipeImages.length || duplicateIngredientImages.length) throw new Error("Duplicate record-specific image content detected; see generated/reports/images.json after resolving it");
   const pendingRecipeImages = recipeRecords.filter((item) => item.data.image?.needsGeneratedImage).length;
   const pendingIngredientImages = ingredientRecords.filter((item) => item.data.image?.needsGeneratedImage).length;
   const manifest = {
@@ -86,7 +86,7 @@ async function main() {
     duplicateIngredientImages,
     pendingRecordSpecificImages: pendingRecipeImages + pendingIngredientImages,
   };
-  await writeFile(path.join(dataDir, "image-manifest.json"), `${JSON.stringify(manifest, null, 2)}\n`);
+  await writeFile(path.join(dataDir, "generated", "reports", "images.json"), `${JSON.stringify(manifest, null, 2)}\n`);
   const sourceManifest = {
     generatedAt: manifest.generatedAt,
     policy: "Consolidated record-level provenance for non-production test assets; licenses are not verified for production redistribution.",
@@ -94,7 +94,7 @@ async function main() {
     recipes: recipeRecords.map((record) => ({ seedId: record.data.seedId, name: record.data.name, status: record.data.image?.needsGeneratedImage ? "pending-real-image" : "record-specific", sourcePageUrl: record.data.image?.sourcePageUrl, originalSourceUrl: record.data.image?.originalSourceUrl, provenance: record.data.image?.provenance, license: record.data.image?.license, productionApproved: Boolean(record.data.image?.productionApproved), mainAssetHash: recipeMain.find((asset) => asset.seedId === record.data.seedId)?.hash ?? null, cardAssetHash: recipeCard.find((asset) => asset.seedId === record.data.seedId)?.hash ?? null })),
     counts: { recordSpecificIngredients: ingredientRecords.length - pendingIngredientImages, pendingIngredients: pendingIngredientImages, recordSpecificRecipes: recipeRecords.length - pendingRecipeImages, pendingRecipes: pendingRecipeImages },
   };
-  await writeFile(path.join(dataDir, "image-source-manifest.json"), `${JSON.stringify(sourceManifest, null, 2)}\n`);
+  await writeFile(path.join(dataDir, "generated", "manifests", "image-sources.json"), `${JSON.stringify(sourceManifest, null, 2)}\n`);
   process.stdout.write(`Audited ${recipeMain.length} available recipe and ${ingredients.length} available ingredient assets; all primary images are distinct.\n`);
 }
 

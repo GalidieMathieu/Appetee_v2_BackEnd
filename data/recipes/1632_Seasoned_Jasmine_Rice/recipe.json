@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-1632",
+  "candidate": {
+    "sequence": 2430,
+    "seedId": "REC-CAND-2430",
+    "name": "Seasoned Jasmine Rice"
+  },
+  "name": "Seasoned Jasmine Rice",
+  "description": "Seasoned Jasmine Rice is a practical meal component adaptation built around rice, rice, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.afghanaid.org.uk/brilliant-bolani-with-potato-filling",
+    "domain": "afghanaid.org.uk",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Afghan Bolani with Potato Filling source because it provides the closest validated rice structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Afghanistan",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Meal Component",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "rice",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, rice, and rice for seasoned jasmine rice.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned rice and cook it until browned or heated through as appropriate.",
+    "Stir in the rice, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the seasoned jasmine rice, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1350,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1270.932,
+      "proteinG": 22.026,
+      "carbohydratesG": 230.22,
+      "fatG": 30.522,
+      "fiberG": 9.658,
+      "sodiumMg": 19.655,
+      "potassiumMg": 1454.793,
+      "calciumMg": 85.977,
+      "ironMg": 2.139,
+      "magnesiumMg": 123.6,
+      "sugarsG": 7.89,
+      "vitaminCMg": 65.7
+    },
+    "perServing": {
+      "calories": 317.733,
+      "proteinG": 5.506,
+      "carbohydratesG": 57.555,
+      "fatG": 7.63,
+      "fiberG": 2.414,
+      "sodiumMg": 4.914,
+      "potassiumMg": 363.698,
+      "calciumMg": 21.494,
+      "ironMg": 0.535,
+      "magnesiumMg": 30.9,
+      "sugarsG": 1.972,
+      "vitaminCMg": 16.425
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.68,
+    "perServingUsd": 0.67,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-11-22T04:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse4.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.dreamstime.com/illustration/thaifusionfood.html",
+    "originalSourceUrl": "https://tse4.mm.bing.net/th/id/OIP.TK6JMgQSnZgYy_IpxcjlQQHaHa?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://thumbs.dreamstime.com/b/thai-fusion-chicken-rice-chili-mango-pickle-gourmet-sauce-white-plate-beautifully-plated-dish-featuring-grilled-savory-385883085.jpg",
+    "searchQuery": "jasmine rice plated recipe food photograph",
+    "searchResultTitle": "Thaifusionfood Stock Illustrations - 1 Thaifusionfood Stock Illustrations, Vectors & Clipart ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:18.691Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1632",
+    "name": "Seasoned Jasmine Rice",
+    "description": "Seasoned Jasmine Rice is a practical meal component adaptation built around rice, rice, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Meal Component",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 317.733,
+      "proteinG": 5.506,
+      "carbohydratesG": 57.555,
+      "fatG": 7.63,
+      "fiberG": 2.414,
+      "sodiumMg": 4.914,
+      "potassiumMg": 363.698,
+      "calciumMg": 21.494,
+      "ironMg": 0.535,
+      "magnesiumMg": 30.9,
+      "sugarsG": 1.972,
+      "vitaminCMg": 16.425
+    },
+    "estimatedCostPerServingUsd": 0.67,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

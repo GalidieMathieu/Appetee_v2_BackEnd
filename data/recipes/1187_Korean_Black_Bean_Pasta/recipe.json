@@ -1,0 +1,201 @@
+{
+  "seedId": "REC-1187",
+  "candidate": {
+    "sequence": 1981,
+    "seedId": "REC-CAND-1981",
+    "name": "Korean Black Bean Pasta"
+  },
+  "name": "Korean Black Bean Pasta",
+  "description": "Korean Black Bean Pasta is a practical main meal adaptation built around black beans, pasta, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/black-bean-avocado-quinoa-wrap-516928",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Korean Black Bean Tacos source because it provides the closest validated beans and pasta structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "South Korea",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "black beans",
+  "carbohydrateBase": "pasta",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0039",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 2.5
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, black beans, and pasta for korean black bean pasta.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned black beans and cook it until browned or heated through as appropriate.",
+    "Stir in the pasta, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the korean black bean pasta, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1360,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1724.176,
+      "proteinG": 64.163,
+      "carbohydratesG": 286.026,
+      "fatG": 36.352,
+      "sodiumMg": 2800.466,
+      "potassiumMg": 2244.853,
+      "calciumMg": 280.357,
+      "ironMg": 16.178,
+      "magnesiumMg": 309.952,
+      "fiberG": 13.658,
+      "sugarsG": 6.547,
+      "vitaminCMg": 24.6
+    },
+    "perServing": {
+      "calories": 431.044,
+      "proteinG": 16.041,
+      "carbohydratesG": 71.507,
+      "fatG": 9.088,
+      "sodiumMg": 700.116,
+      "potassiumMg": 561.213,
+      "calciumMg": 70.089,
+      "ironMg": 4.045,
+      "magnesiumMg": 77.488,
+      "fiberG": 3.414,
+      "sugarsG": 1.637,
+      "vitaminCMg": 6.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.75,
+    "perServingUsd": 0.69,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-01-05T03:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://sandiego.eater.com/2022/8/4/23291987/steak-48-steakhouse-mastros-restaurant-new-opening-del-mar-highlands-town-center",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.EdaC5QJc5gNWrY9ka8Xt-QHaD4&pid=15.1",
+    "discoveredOriginalUrl": "https://cdn.vox-cdn.com/thumbor/FiA5cc8_yVtZ0Shxovi4E3ur5iQ=/0x307:4316x2567/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23922981/JMH_3950_2.jpg",
+    "searchQuery": "Korean Black Bean Pasta plated recipe food",
+    "searchResultTitle": "Massive Luxury Restaurant Steak 48 Opening in San Diego - Eater San Diego",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:02:58.413Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1187",
+    "name": "Korean Black Bean Pasta",
+    "description": "Korean Black Bean Pasta is a practical main meal adaptation built around black beans, pasta, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 431.044,
+      "proteinG": 16.041,
+      "carbohydratesG": 71.507,
+      "fatG": 9.088,
+      "sodiumMg": 700.116,
+      "potassiumMg": 561.213,
+      "calciumMg": 70.089,
+      "ironMg": 4.045,
+      "magnesiumMg": 77.488,
+      "fiberG": 3.414,
+      "sugarsG": 1.637,
+      "vitaminCMg": 6.15
+    },
+    "estimatedCostPerServingUsd": 0.69,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-1648",
+  "candidate": {
+    "sequence": 2447,
+    "seedId": "REC-CAND-2447",
+    "name": "Chocolate Frozen Bites"
+  },
+  "name": "Chocolate Frozen Bites",
+  "description": "Chocolate Frozen Bites is a practical dessert adaptation built around vegetables, fruit, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.visitaruba.com/aruba-recipes/banana-den-forno/",
+    "domain": "visitaruba.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Aruban Baked Cinnamon Bananas source because it provides the closest validated bites structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Aruba",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 120,
+    "totalMinutes": 145
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "Freezer",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0105",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0057",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for chocolate frozen bites.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the vegetables with the fruit and remaining ingredients in the intended dessert form.",
+    "Arrange the mixture in an even layer and freeze until firm.",
+    "Divide the chocolate frozen bites into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 450,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1441.546,
+      "proteinG": 55.396,
+      "carbohydratesG": 284.722,
+      "fatG": 32.104,
+      "fiberG": 68.76,
+      "sugarsG": 57.058,
+      "sodiumMg": 44.373,
+      "potassiumMg": 2763.028,
+      "calciumMg": 284.901,
+      "ironMg": 27.163,
+      "magnesiumMg": 934.364,
+      "vitaminCMg": 0.3
+    },
+    "perServing": {
+      "calories": 360.387,
+      "proteinG": 13.849,
+      "carbohydratesG": 71.18,
+      "fatG": 8.026,
+      "fiberG": 17.19,
+      "sugarsG": 14.264,
+      "sodiumMg": 11.093,
+      "potassiumMg": 690.757,
+      "calciumMg": 71.225,
+      "ironMg": 6.791,
+      "magnesiumMg": 233.591,
+      "vitaminCMg": 0.075
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.66,
+    "perServingUsd": 1.92,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-12-16T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://quicknobakerecipes.com/chocolate-banana-frozen-bites/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.kXNiYdZ7Z04uaFHcDkBPVAHaJM&pid=15.1",
+    "discoveredOriginalUrl": "https://quicknobakerecipes.com/wp-content/uploads/2026/04/featured-18.webp",
+    "searchQuery": "Chocolate Frozen Bites plated recipe food",
+    "searchResultTitle": "5 Best Chocolate Banana Frozen Bites Recipe",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:56:39.911Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1648",
+    "name": "Chocolate Frozen Bites",
+    "description": "Chocolate Frozen Bites is a practical dessert adaptation built around vegetables, fruit, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 145,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 360.387,
+      "proteinG": 13.849,
+      "carbohydratesG": 71.18,
+      "fatG": 8.026,
+      "fiberG": 17.19,
+      "sugarsG": 14.264,
+      "sodiumMg": 11.093,
+      "potassiumMg": 690.757,
+      "calciumMg": 71.225,
+      "ironMg": 6.791,
+      "magnesiumMg": 233.591,
+      "vitaminCMg": 0.075
+    },
+    "estimatedCostPerServingUsd": 1.92,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

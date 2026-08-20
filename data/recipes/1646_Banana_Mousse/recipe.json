@@ -1,0 +1,203 @@
+{
+  "seedId": "REC-1646",
+  "candidate": {
+    "sequence": 2445,
+    "seedId": "REC-CAND-2445",
+    "name": "Banana Mousse"
+  },
+  "name": "Banana Mousse",
+  "description": "Banana Mousse is a practical dessert adaptation built around banana, fruit, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.visitaruba.com/aruba-recipes/banana-den-forno/",
+    "domain": "visitaruba.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Aruban Baked Cinnamon Bananas source because it provides the closest validated fruit and mousse structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Aruba",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "banana",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0033",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0057",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for banana mousse.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the banana with the fruit and remaining ingredients in the intended dessert form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the banana mousse into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1611.946,
+      "proteinG": 65.746,
+      "carbohydratesG": 294.442,
+      "fatG": 17.824,
+      "fiberG": 32.16,
+      "sugarsG": 101.278,
+      "sodiumMg": 130.173,
+      "potassiumMg": 2436.028,
+      "calciumMg": 476.301,
+      "ironMg": 11.473,
+      "magnesiumMg": 449.564,
+      "vitaminCMg": 26.4
+    },
+    "perServing": {
+      "calories": 402.986,
+      "proteinG": 16.436,
+      "carbohydratesG": 73.611,
+      "fatG": 4.456,
+      "fiberG": 8.04,
+      "sugarsG": 25.32,
+      "sodiumMg": 32.543,
+      "potassiumMg": 609.007,
+      "calciumMg": 119.075,
+      "ironMg": 2.868,
+      "magnesiumMg": 112.391,
+      "vitaminCMg": 6.6
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.49,
+    "perServingUsd": 1.62,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-12-13T18:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse2.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.dreamstime.com/banana-yogurt-parfait-glass-cups-banana-cream-pie-parfaits-delightful-image-showcasing-banana-yogurt-parfaits-topped-image340807712",
+    "originalSourceUrl": "https://tse2.mm.bing.net/th/id/OIP.5OGtaPSiRKHVi42VogkjXwHaEK?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://thumbs.dreamstime.com/b/banana-yogurt-parfait-glass-cups-banana-cream-pie-parfaits-delightful-image-showcasing-banana-yogurt-parfaits-topped-340807712.jpg",
+    "searchQuery": "banana yogurt parfait dessert cup food photograph",
+    "searchResultTitle": "Banana Yogurt Parfait in Glass Cups. Banana Cream Pie Parfaits Stock Illustration - Illustration ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:25:49.108Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1646",
+    "name": "Banana Mousse",
+    "description": "Banana Mousse is a practical dessert adaptation built around banana, fruit, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 402.986,
+      "proteinG": 16.436,
+      "carbohydratesG": 73.611,
+      "fatG": 4.456,
+      "fiberG": 8.04,
+      "sugarsG": 25.32,
+      "sodiumMg": 32.543,
+      "potassiumMg": 609.007,
+      "calciumMg": 119.075,
+      "ironMg": 2.868,
+      "magnesiumMg": 112.391,
+      "vitaminCMg": 6.6
+    },
+    "estimatedCostPerServingUsd": 1.62,
+    "diets": [
+      "Vegetarian",
+      "Vegan"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

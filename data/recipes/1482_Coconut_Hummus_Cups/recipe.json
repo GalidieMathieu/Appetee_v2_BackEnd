@@ -1,0 +1,195 @@
+{
+  "seedId": "REC-1482",
+  "candidate": {
+    "sequence": 2279,
+    "seedId": "REC-CAND-2279",
+    "name": "Coconut Hummus Cups"
+  },
+  "name": "Coconut Hummus Cups",
+  "description": "Coconut Hummus Cups is a practical snack adaptation built around vegetables, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.oldelpaso.co.uk/recipes/black-bean-and-corn-tortilla-cups",
+    "domain": "oldelpaso.co.uk",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Black Bean Salsa Tortilla Cups source because it provides the closest validated cups structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "totalMinutes": 20
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 240,
+      "sourceUnit": "ml",
+      "sourceDisplay": "240 ml",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for coconut hummus cups.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the vegetables with the legumes and remaining ingredients in the intended snack form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the coconut hummus cups into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 970,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1384.132,
+      "proteinG": 35.538,
+      "carbohydratesG": 122.574,
+      "fatG": 89.65,
+      "sodiumMg": 1018.746,
+      "potassiumMg": 1578.273,
+      "calciumMg": 268.473,
+      "ironMg": 13.193,
+      "magnesiumMg": 241.4,
+      "vitaminCMg": 27.4,
+      "fiberG": 31.3,
+      "sugarsG": 16.04
+    },
+    "perServing": {
+      "calories": 346.033,
+      "proteinG": 8.884,
+      "carbohydratesG": 30.643,
+      "fatG": 22.413,
+      "sodiumMg": 254.686,
+      "potassiumMg": 394.568,
+      "calciumMg": 67.118,
+      "ironMg": 3.298,
+      "magnesiumMg": 60.35,
+      "vitaminCMg": 6.85,
+      "fiberG": 7.825,
+      "sugarsG": 4.01
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.29,
+    "perServingUsd": 0.82,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-04-04T22:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/delicious-hummus-coconut-chocolate-caramel-cups--89860955052781792/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.fRlyn1ADZResCbs3hSJTogHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/ee/40/b6/ee40b608b98c85efc7f9a1858602eb62.jpg",
+    "searchQuery": "Coconut Hummus Cups plated recipe food",
+    "searchResultTitle": "Delicious Hummus Coconut Chocolate Caramel Cups",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:53:48.335Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1482",
+    "name": "Coconut Hummus Cups",
+    "description": "Coconut Hummus Cups is a practical snack adaptation built around vegetables, legumes, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 346.033,
+      "proteinG": 8.884,
+      "carbohydratesG": 30.643,
+      "fatG": 22.413,
+      "sodiumMg": 254.686,
+      "potassiumMg": 394.568,
+      "calciumMg": 67.118,
+      "ironMg": 3.298,
+      "magnesiumMg": 60.35,
+      "vitaminCMg": 6.85,
+      "fiberG": 7.825,
+      "sugarsG": 4.01
+    },
+    "estimatedCostPerServingUsd": 0.82,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

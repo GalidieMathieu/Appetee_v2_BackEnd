@@ -1,0 +1,195 @@
+{
+  "seedId": "REC-1347",
+  "candidate": {
+    "sequence": 2141,
+    "seedId": "REC-CAND-2141",
+    "name": "Mini Chicken Sandwich"
+  },
+  "name": "Mini Chicken Sandwich",
+  "description": "Mini Chicken Sandwich is a practical small meal adaptation built around chicken, bread, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://realfood.tesco.com/recipes/tuna-and-tomato-toasts.html",
+    "domain": "realfood.tesco.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Tuna Tomato Toasts source because it provides the closest validated chicken and sandwich structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United Kingdom",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "totalMinutes": 20
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "bread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0051",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for mini chicken sandwich.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the chicken with the bread and remaining ingredients in the intended small meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the mini chicken sandwich into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1080,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1747.332,
+      "proteinG": 174.69,
+      "carbohydratesG": 153.93,
+      "fatG": 49.53,
+      "sodiumMg": 1763.346,
+      "potassiumMg": 3288.273,
+      "calciumMg": 551.913,
+      "ironMg": 10.527,
+      "magnesiumMg": 409.2,
+      "fiberG": 23.7,
+      "sugarsG": 13.02,
+      "vitaminCMg": 24.6
+    },
+    "perServing": {
+      "calories": 436.833,
+      "proteinG": 43.672,
+      "carbohydratesG": 38.483,
+      "fatG": 12.383,
+      "sodiumMg": 440.837,
+      "potassiumMg": 822.068,
+      "calciumMg": 137.978,
+      "ironMg": 2.632,
+      "magnesiumMg": 102.3,
+      "fiberG": 5.925,
+      "sugarsG": 3.255,
+      "vitaminCMg": 6.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.06,
+    "perServingUsd": 1.51,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-09-08T19:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://agreeablerecipes.com/mini-chicken-and-cheese-sandwich-bites/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.VwJNfw4PpNFTbDdQzuD_tgHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://agreeablerecipes.com/wp-content/uploads/2024/11/pinteresto_43490_Mini_Chicken_and_Cheese_Sandwich_Bites_33bfda3b-ffdb-47fb-9bb7-c892fc4ddf8a.png",
+    "searchQuery": "Mini Chicken Sandwich plated recipe food",
+    "searchResultTitle": "Mini Chicken and Cheese Sandwich Bites - Agreeable Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:20:15.550Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1347",
+    "name": "Mini Chicken Sandwich",
+    "description": "Mini Chicken Sandwich is a practical small meal adaptation built around chicken, bread, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 436.833,
+      "proteinG": 43.672,
+      "carbohydratesG": 38.483,
+      "fatG": 12.383,
+      "sodiumMg": 440.837,
+      "potassiumMg": 822.068,
+      "calciumMg": 137.978,
+      "ironMg": 2.632,
+      "magnesiumMg": 102.3,
+      "fiberG": 5.925,
+      "sugarsG": 3.255,
+      "vitaminCMg": 6.15
+    },
+    "estimatedCostPerServingUsd": 1.51,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

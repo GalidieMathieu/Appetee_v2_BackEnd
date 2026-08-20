@@ -1,0 +1,189 @@
+{
+  "seedId": "REC-1455",
+  "candidate": {
+    "sequence": 2252,
+    "seedId": "REC-CAND-2252",
+    "name": "Vanilla Granola Bites"
+  },
+  "name": "Vanilla Granola Bites",
+  "description": "Vanilla Granola Bites is a practical snack adaptation built around oats, oats, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/banana-oatmeal-bites-514723",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Banana Oatmeal Bites source because it provides the closest validated bites structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 40,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "Oven",
+  "primaryProtein": "oats",
+  "carbohydrateBase": "oats",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0034",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for vanilla granola bites and preheat the oven.",
+    "Coat the oats and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the oats and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the vanilla granola bites briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 900,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1374,
+      "proteinG": 63.75,
+      "carbohydratesG": 250.11,
+      "fatG": 17.148,
+      "fiberG": 30.66,
+      "sugarsG": 75.036,
+      "sodiumMg": 130.8,
+      "potassiumMg": 1767,
+      "calciumMg": 506.4,
+      "ironMg": 12.912,
+      "magnesiumMg": 398.4,
+      "vitaminCMg": 123.9
+    },
+    "perServing": {
+      "calories": 343.5,
+      "proteinG": 15.938,
+      "carbohydratesG": 62.528,
+      "fatG": 4.287,
+      "fiberG": 7.665,
+      "sugarsG": 18.759,
+      "sodiumMg": 32.7,
+      "potassiumMg": 441.75,
+      "calciumMg": 126.6,
+      "ironMg": 3.228,
+      "magnesiumMg": 99.6,
+      "vitaminCMg": 30.975
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.28,
+    "perServingUsd": 1.07,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-02-22T07:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse3.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.goodhousekeeping.com/food-recipes/healthy/g4892/protein-ball-recipes/",
+    "originalSourceUrl": "https://tse3.mm.bing.net/th/id/OIP.zxf92Wjf5w1JufDxiAMQPwHaLH?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://hips.hearstapps.com/ghk.h-cdn.co/assets/17/47/1511286694-1491325218-vanilla-espresso-almond-butter-energy-bites-4.jpg?crop=1.0xw:1xh;center,top&resize=980:*",
+    "searchQuery": "vanilla healthy oat energy bites dessert food photograph",
+    "searchResultTitle": "45 Easy Protein Bite Recipes - Best No Bake Energy Bites in Chocolate and Peanut Butter",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:51.641Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1455",
+    "name": "Vanilla Granola Bites",
+    "description": "Vanilla Granola Bites is a practical snack adaptation built around oats, oats, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 343.5,
+      "proteinG": 15.938,
+      "carbohydratesG": 62.528,
+      "fatG": 4.287,
+      "fiberG": 7.665,
+      "sugarsG": 18.759,
+      "sodiumMg": 32.7,
+      "potassiumMg": 441.75,
+      "calciumMg": 126.6,
+      "ironMg": 3.228,
+      "magnesiumMg": 99.6,
+      "vitaminCMg": 30.975
+    },
+    "estimatedCostPerServingUsd": 1.07,
+    "diets": [
+      "Flexitarian"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

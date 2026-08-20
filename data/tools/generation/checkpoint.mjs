@@ -30,14 +30,15 @@ function bucket(values, selector, ranges) {
 async function main() {
   const validation = await runValidation({ writeReport: true });
   if (!validation.valid) throw new Error(`Checkpoint refused: ${validation.errors.length} validation errors`);
-  for (const required of ["schema/appeteeInitDatabase.sql", "reference/dataInitDatabase.sql", "ingredients/IngredientInit.sql", "recipes/RecipeInit.sql", "ingredients/index.json", "recipes/index.json", "distribution-report.json", "image-manifest.json", "research/image/ingredients.json", "research/image/recipes.json"]) await stat(path.join(dataDir, required));
+  for (const required of ["generated/sql/01-schema.sql", "generated/sql/02-reference.sql", "generated/sql/03-ingredients.sql", "generated/sql/04-recipes.sql", "ingredients/index.json", "recipes/index.json", "generated/reports/distribution.json", "generated/reports/images.json", "research/image/ingredients.json", "research/image/recipes.json"]) await stat(path.join(dataDir, required));
   const ingredientImageQueue = JSON.parse(await readFile(path.join(dataDir, "research", "image", "ingredients.json"), "utf8"));
   const recipeImageQueue = JSON.parse(await readFile(path.join(dataDir, "research", "image", "recipes.json"), "utf8"));
   if (ingredientImageQueue.length !== validation.counts.pendingIngredientImages || recipeImageQueue.length !== validation.counts.pendingRecipeImages) throw new Error("Checkpoint refused: research/image queues do not match pending image counts; run npm run build first");
   const recipes = await loadRecipes();
-  const previousProgress = JSON.parse(await readFile(path.join(dataDir, "progress.json"), "utf8"));
+  const previousProgress = JSON.parse(await readFile(path.join(dataDir, "workflow", "progress.json"), "utf8"));
   const previousVersion = JSON.parse(await readFile(path.join(dataDir, "version.json"), "utf8"));
   const candidateAcquisition = await deriveCandidateAcquisition(recipes, previousProgress.candidateAcquisition);
+  const candidatePlanExhausted = candidateAcquisition.nextCandidateSequence > candidateAcquisition.candidateCount;
   const now = new Date().toISOString();
   const nextRecipeSequence = validation.counts.recipes + 1;
   const nextIngredientSequence = validation.counts.ingredients + 1;
@@ -45,6 +46,7 @@ async function main() {
   if (!Number.isInteger(requestedBatchSize) || requestedBatchSize < 1) throw new Error("APPETEE_BATCH_SIZE must be a positive integer");
   const datasetVersion = process.env.APPETEE_DATASET_VERSION ?? previousVersion.datasetVersion;
   const snapshotName = `appetee-dataset-v${datasetVersion}-${validation.counts.recipes}-recipes.zip`;
+  const snapshotPath = `generated/snapshots/${snapshotName}`;
   const pendingImageCount = validation.counts.pendingIngredientImages + validation.counts.pendingRecipeImages;
   const progress = {
     status: "in-progress-valid-checkpoint",
@@ -72,12 +74,14 @@ async function main() {
     ],
     lastValidationAt: now,
     lastCheckpointAt: now,
-    checkpointSnapshot: snapshotName,
+    checkpointSnapshot: snapshotPath,
     nextActions: [
       "Re-run npm run validate before acquiring the next batch.",
-      `Begin with candidate ${candidateAcquisition.nextCandidateSequence} in recipe_name_candidates.json and process names strictly in order until approximately ${requestedBatchSize} new valid recipes are complete or a safe partial checkpoint is required.`,
+      candidatePlanExhausted
+        ? `The immutable candidates/recipe-names.json plan is exhausted at candidate ${candidateAcquisition.candidateCount}; add and review a new immutable candidate plan before generating more recipes.`
+        : `Begin with candidate ${candidateAcquisition.nextCandidateSequence} in candidates/recipe-names.json and process names strictly in order until approximately ${requestedBatchSize} new valid recipes are complete or a safe partial checkpoint is required.`,
       "Research missing canonical ingredients before writing any recipe that references them; search ingredients/index.json first.",
-      ...(pendingImageCount ? ["Acquire pending images in order: exact source/product page, then distinct related real-food search for recipes, then AI only as the documented final fallback; keep unresolved records in both research/image queues."] : ["Preserve current image assets and keep the handoff queues synchronized."]),
+      ...(pendingImageCount ? ["Do not acquire or generate images during bulk growth; keep pending records in both research/image owner handoff queues."] : ["Preserve current image assets and keep the handoff queues synchronized."]),
     ],
     proteinSourceDistribution: validation.distributions.primaryProteins,
     mealTypeDistribution: validation.distributions.mealTypes,
@@ -92,7 +96,7 @@ async function main() {
       "Egg and lentil proteins are comparatively concentrated; add more pork, tempeh, fish, beans, and other non-chicken athlete proteins.",
       "Korean cuisine remains underrepresented, and source-domain diversity should continue to expand.",
       "Track actual meal-category drift against the candidate plan's approximate 85/15 Main Meal/other target without reordering candidates.",
-      ...(pendingImageCount ? [`${pendingImageCount} records remain in the image handoff queues for exact/related real-photo acquisition and optional last-resort AI fallback.`] : []),
+      ...(pendingImageCount ? [`${pendingImageCount} records remain in the owner-managed image handoff queues.`] : []),
     ],
     nextBatchDiversityPriorities: [
       "Air-fryer, slow-cooker, grill, microwave, and no-cook methods",
@@ -117,18 +121,14 @@ async function main() {
     schemaVersion: "current-backend-development plus canonical dataset badge constraint",
     validationStatus: "valid",
     validationErrors: 0,
-    checkpointSnapshot: snapshotName,
+    checkpointSnapshot: snapshotPath,
   };
-  const plan = `# Dataset Execution Plan\n\n## Status\n\nValid checkpoint at ${validation.counts.recipes} recipes and ${validation.counts.ingredients} canonical ingredients. Dataset growth remains in progress toward >= 2,000 recipes.\n\n## Workstreams\n\n- [x] Build deterministic validation, SQL, index, image-audit, and checkpoint tooling.\n- [x] Adopt \`recipe_name_candidates.json\` as the immutable ordered recipe-name source.\n- [x] Persist completed, skipped, unresolved, and next candidate sequences.\n- [ ] Continue ordered acquisition at approximately ${requestedBatchSize} new valid recipes per checkpoint.\n- [ ] Stop at the largest fully valid partial checkpoint whenever integrity or system limits make the full target unsafe.\n- [ ] Maintain and report student-athlete, Meal Prep, Discovery, meal-category, cuisine, method, nutrition, cost, diet, badge, and source distributions.\n- [ ] Reach >= 2,000 validated recipes and create the final versioned snapshot.\n\nOperational details and exact recipe/ingredient/candidate sequences are in \`progress.json\` and \`RESUME.md\`.\n`;
-  const finalResume = `# Dataset Resume State\n\nCheckpoint v${datasetVersion} is valid and resumable. The corpus is intentionally partial.\n\n## Current state\n\n- Completed recipes: ${validation.counts.recipes}\n- Completed ingredients: ${validation.counts.ingredients}\n- Last completed recipe: REC-${String(validation.counts.recipes).padStart(4, "0")}\n- Next recipe sequence: ${nextRecipeSequence}\n- Next ingredient sequence: ${nextIngredientSequence}\n- Last candidate processed: ${candidateAcquisition.lastCandidateSequenceProcessed}\n- Last candidate completed: ${candidateAcquisition.lastCandidateSequenceCompleted}\n- Next candidate sequence: ${candidateAcquisition.nextCandidateSequence}\n- Completed candidate recipes: ${candidateAcquisition.completedCandidateCount}\n- Skipped candidates: ${candidateAcquisition.skippedCandidates.length}\n- Unresolved candidates: ${candidateAcquisition.unresolvedCandidates.length}\n- Validation: valid, ${validation.errors.length} errors, ${validation.warnings.length} warnings\n- Images pending in owner handoff queues: ${pendingImageCount}\n- Checkpoint ZIP: \`${snapshotName}\`\n\n## Resume procedure\n\n1. Read \`data/AGENTS.md\`, \`data/START_CODEX_TASK.md\`, and \`data/DATASET_SPEC.md\`.\n2. Run \`npm run validate\` from \`data/tools\`; do not continue if it fails.\n3. Inspect \`data/progress.json\`, \`data/distribution-report.json\`, and both lightweight indexes.\n4. Begin at candidate ${candidateAcquisition.nextCandidateSequence} and process \`data/recipe_name_candidates.json\` strictly in sequence.\n5. Write the next recipe as REC-${String(nextRecipeSequence).padStart(4, "0")} and any new ingredient as ING-${String(nextIngredientSequence).padStart(4, "0")}; never leave a partial record.\n6. Research a real matching recipe, resolve ingredients, calculate/classify, and persist candidate metadata. Record duplicates as skipped and unsourceable names as unresolved.\n7. Do not search for, download, or generate images through Codex; keep pending images in both owner handoff queues.\n8. Run image queue audit, build, validation, checkpoint, and create a ZIP named with the actual count.\n\n## Operating targets\n\n- Approximately ${requestedBatchSize} new valid recipes per checkpoint, or the largest safe partial checkpoint.\n- Candidate order controls names; distribution analysis reports drift and never authorizes reordering.\n- Candidate plan: approximately 85% Main Meal / 15% other, 30% athlete, 25% Meal Prep, and 10% Discovery.\n- Derive Gluten Free and Lactose Free only from ingredient compatibility.\n`;
-  const updatedFinalResume = finalResume.replace(
-    "7. Do not search for, download, or generate images through Codex; keep pending images in both owner handoff queues.",
-    "7. Acquire images in order: exact source/product page, then distinct related real-food search for recipes, then AI only as the final fallback; keep unresolved images in both handoff queues.",
-  );
-  await writeFile(path.join(dataDir, "progress.json"), json(progress));
+  const plan = `# Dataset Execution Plan\n\n## Status\n\nValid checkpoint at ${validation.counts.recipes} recipes and ${validation.counts.ingredients} canonical ingredients. Dataset growth remains in progress toward >= 2,000 recipes. The current immutable candidate plan is ${candidatePlanExhausted ? `exhausted at sequence ${candidateAcquisition.candidateCount}` : `ready at sequence ${candidateAcquisition.nextCandidateSequence}`}.\n\n## Workstreams\n\n- [x] Build deterministic validation, SQL, index, image-audit, and checkpoint tooling.\n- [x] Adopt \`candidates/recipe-names.json\` as the immutable ordered recipe-name source.\n- [x] Persist completed, skipped, unresolved, and next candidate sequences.\n- [${candidatePlanExhausted ? "x" : " "}] Process the current immutable candidate plan strictly in order.\n- [${candidatePlanExhausted ? " " : "x"}] Add and review a new immutable candidate plan before further recipe generation.\n- [ ] Continue ordered acquisition at approximately ${requestedBatchSize} new valid recipes per checkpoint after an ordered candidate source is available.\n- [ ] Stop at the largest fully valid partial checkpoint whenever integrity or system limits make the full target unsafe.\n- [ ] Maintain and report student-athlete, Meal Prep, Discovery, meal-category, cuisine, method, nutrition, cost, diet, badge, and source distributions.\n- [ ] Reach >= 2,000 validated recipes and create the final versioned snapshot.\n\nOperational details and exact recipe/ingredient/candidate sequences are in \`workflow/progress.json\` and \`workflow/RESUME.md\`.\n`;
+  const finalResume = `# Dataset Resume State\n\nCheckpoint v${datasetVersion} is valid and resumable. The corpus is intentionally partial.\n\n## Current state\n\n- Completed recipes: ${validation.counts.recipes}\n- Completed ingredients: ${validation.counts.ingredients}\n- Last completed recipe: REC-${String(validation.counts.recipes).padStart(4, "0")}\n- Next recipe sequence: ${nextRecipeSequence}\n- Next ingredient sequence: ${nextIngredientSequence}\n- Last candidate processed: ${candidateAcquisition.lastCandidateSequenceProcessed}\n- Last candidate completed: ${candidateAcquisition.lastCandidateSequenceCompleted}\n- Next candidate sequence: ${candidateAcquisition.nextCandidateSequence}\n- Candidate plan exhausted: ${candidatePlanExhausted}\n- Completed candidate recipes: ${candidateAcquisition.completedCandidateCount}\n- Skipped candidates: ${candidateAcquisition.skippedCandidates.length}\n- Unresolved candidates: ${candidateAcquisition.unresolvedCandidates.length}\n- Validation: valid, ${validation.errors.length} errors, ${validation.warnings.length} warnings\n- Images pending in owner handoff queues: ${pendingImageCount}\n- Checkpoint ZIP: \`${snapshotPath}\`\n\n## Resume procedure\n\n1. Read \`data/AGENTS.md\`, \`data/workflow/START_CODEX_TASK.md\`, and \`data/DATASET_SPEC.md\`.\n2. Run \`npm run validate\` from \`data/tools\`; do not continue if it fails.\n3. Inspect \`data/workflow/progress.json\`, \`data/generated/reports/distribution.json\`, and both lightweight indexes.\n4. ${candidatePlanExhausted ? `Create and review a new immutable ordered candidate plan; the current \`data/candidates/recipe-names.json\` ends at sequence ${candidateAcquisition.candidateCount}.` : `Begin at candidate ${candidateAcquisition.nextCandidateSequence} and process \`data/candidates/recipe-names.json\` strictly in sequence.`}\n5. Write the next recipe as REC-${String(nextRecipeSequence).padStart(4, "0")} and any new ingredient as ING-${String(nextIngredientSequence).padStart(4, "0")}; never leave a partial record.\n6. Research a real matching recipe, resolve ingredients, calculate/classify, and persist candidate metadata. Record duplicates as skipped and unsourceable names as unresolved.\n7. Do not search for, download, or generate images through Codex; keep pending images in both owner handoff queues.\n8. Run image queue audit, build, validation, checkpoint, and create a ZIP under \`data/generated/snapshots/\` named with the actual count.\n\n## Operating targets\n\n- Approximately ${requestedBatchSize} new valid recipes per checkpoint, or the largest safe partial checkpoint.\n- Candidate order controls names; distribution analysis reports drift and never authorizes reordering.\n- Candidate plan: approximately 85% Main Meal / 15% other, 30% athlete, 25% Meal Prep, and 10% Discovery.\n- Derive Gluten Free and Lactose Free only from ingredient compatibility.\n`;
+  await writeFile(path.join(dataDir, "workflow", "progress.json"), json(progress));
   await writeFile(path.join(dataDir, "version.json"), json(version));
-  await writeFile(path.join(dataDir, "PLAN.md"), plan);
-  await writeFile(path.join(dataDir, "RESUME.md"), updatedFinalResume);
+  await writeFile(path.join(dataDir, "workflow", "PLAN.md"), plan);
+  await writeFile(path.join(dataDir, "workflow", "RESUME.md"), finalResume);
   process.stdout.write(`Checkpoint metadata updated for ${validation.counts.recipes} valid recipes.\n`);
 }
 

@@ -1,0 +1,195 @@
+{
+  "seedId": "REC-1507",
+  "candidate": {
+    "sequence": 2305,
+    "seedId": "REC-CAND-2305",
+    "name": "Chocolate Banana Bites"
+  },
+  "name": "Chocolate Banana Bites",
+  "description": "Chocolate Banana Bites is a practical snack adaptation built around banana, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/banana-oatmeal-bites-514723",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Banana Oatmeal Bites source because it provides the closest validated fruit and bites structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "banana",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0033",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0105",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for chocolate banana bites.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the banana with the vegetables and remaining ingredients in the intended snack form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the chocolate banana bites into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 720,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1632.6,
+      "proteinG": 58.65,
+      "carbohydratesG": 349.8,
+      "fatG": 33.078,
+      "fiberG": 76.56,
+      "sugarsG": 90.336,
+      "sodiumMg": 45,
+      "potassiumMg": 3798,
+      "calciumMg": 297,
+      "ironMg": 27.912,
+      "magnesiumMg": 1012.2,
+      "vitaminCMg": 26.4
+    },
+    "perServing": {
+      "calories": 408.15,
+      "proteinG": 14.662,
+      "carbohydratesG": 87.45,
+      "fatG": 8.27,
+      "fiberG": 19.14,
+      "sugarsG": 22.584,
+      "sodiumMg": 11.25,
+      "potassiumMg": 949.5,
+      "calciumMg": 74.25,
+      "ironMg": 6.978,
+      "magnesiumMg": 253.05,
+      "vitaminCMg": 6.6
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.35,
+    "perServingUsd": 1.09,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-05-13T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://cravinghomecooked.com/frozen-chocolate-banana-bites/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.hGDrqmNZmS8tsT8R9zyXngHaJQ&pid=15.1",
+    "discoveredOriginalUrl": "https://cravinghomecooked.com/wp-content/uploads/2025/10/frozen-chocolate-banana-bites-1-13.jpg",
+    "searchQuery": "Chocolate Banana Bites plated recipe food",
+    "searchResultTitle": "Frozen Chocolate Banana Bites - Craving Home Cooked",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:54:50.907Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1507",
+    "name": "Chocolate Banana Bites",
+    "description": "Chocolate Banana Bites is a practical snack adaptation built around banana, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 408.15,
+      "proteinG": 14.662,
+      "carbohydratesG": 87.45,
+      "fatG": 8.27,
+      "fiberG": 19.14,
+      "sugarsG": 22.584,
+      "sodiumMg": 11.25,
+      "potassiumMg": 949.5,
+      "calciumMg": 74.25,
+      "ironMg": 6.978,
+      "magnesiumMg": 253.05,
+      "vitaminCMg": 6.6
+    },
+    "estimatedCostPerServingUsd": 1.09,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

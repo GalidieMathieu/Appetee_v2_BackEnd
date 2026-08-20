@@ -1,0 +1,207 @@
+{
+  "seedId": "REC-1313",
+  "candidate": {
+    "sequence": 2107,
+    "seedId": "REC-CAND-2107",
+    "name": "Moroccan Lentil Quinoa Bowl"
+  },
+  "name": "Moroccan Lentil Quinoa Bowl",
+  "description": "Moroccan Lentil Quinoa Bowl is a practical main meal adaptation built around lentils, quinoa, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://feelgoodfoodie.net/recipe/mujadara/",
+    "domain": "feelgoodfoodie.net",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Lentil and Mushrooms Grain Bowl source because it provides the closest validated lentils and bowl structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Morocco",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 40,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 2.5
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0088",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lentils, and quinoa for moroccan lentil quinoa bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lentils and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the moroccan lentil quinoa bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1950,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2362.332,
+      "proteinG": 101.16,
+      "carbohydratesG": 389.67,
+      "fatG": 47.352,
+      "fiberG": 54.78,
+      "sugarsG": 50.172,
+      "sodiumMg": 6389.946,
+      "potassiumMg": 4485.273,
+      "calciumMg": 296.073,
+      "ironMg": 32.505,
+      "magnesiumMg": 660.6,
+      "vitaminCMg": 116.1
+    },
+    "perServing": {
+      "calories": 590.583,
+      "proteinG": 25.29,
+      "carbohydratesG": 97.418,
+      "fatG": 11.838,
+      "fiberG": 13.695,
+      "sugarsG": 12.543,
+      "sodiumMg": 1597.486,
+      "potassiumMg": 1121.318,
+      "calciumMg": 74.018,
+      "ironMg": 8.126,
+      "magnesiumMg": 165.15,
+      "vitaminCMg": 29.025
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 12.98,
+    "perServingUsd": 3.25,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-07-18T09:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.simplyquinoa.com/one-pot-moroccan-lentils-quinoa/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.gh--uFOSzIhhdoGL35IrpAHaLG&pid=15.1",
+    "discoveredOriginalUrl": "https://www.simplyquinoa.com/wp-content/uploads/2017/09/one-pot-moroccan-lentils-quinoa-5.jpg",
+    "searchQuery": "Moroccan Lentil Quinoa Bowl plated recipe food",
+    "searchResultTitle": "One Pot Moroccan Lentils + Quinoa - Simply Quinoa",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:18:34.191Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1313",
+    "name": "Moroccan Lentil Quinoa Bowl",
+    "description": "Moroccan Lentil Quinoa Bowl is a practical main meal adaptation built around lentils, quinoa, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 590.583,
+      "proteinG": 25.29,
+      "carbohydratesG": 97.418,
+      "fatG": 11.838,
+      "fiberG": 13.695,
+      "sugarsG": 12.543,
+      "sodiumMg": 1597.486,
+      "potassiumMg": 1121.318,
+      "calciumMg": 74.018,
+      "ironMg": 8.126,
+      "magnesiumMg": 165.15,
+      "vitaminCMg": 29.025
+    },
+    "estimatedCostPerServingUsd": 3.25,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

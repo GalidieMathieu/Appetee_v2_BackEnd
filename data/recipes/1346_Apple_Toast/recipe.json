@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-1346",
+  "candidate": {
+    "sequence": 2140,
+    "seedId": "REC-CAND-2140",
+    "name": "Apple Toast"
+  },
+  "name": "Apple Toast",
+  "description": "Apple Toast is a practical small meal adaptation built around vegetables, bread, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/cottage-cheese-and-tomato-on-toast-203178",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Cottage Cheese Tomato Toast source because it provides the closest validated toast structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 5,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Toaster",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "bread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0051",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0104",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for apple toast.",
+    "Toast the bread until crisp enough to support the toppings.",
+    "Combine the vegetables with the bread and remaining ingredients in the intended small meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the apple toast into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1300.332,
+      "proteinG": 40.29,
+      "carbohydratesG": 199.53,
+      "fatG": 38.49,
+      "fiberG": 30,
+      "sugarsG": 48.12,
+      "sodiumMg": 1371.546,
+      "potassiumMg": 1635.273,
+      "calciumMg": 549.273,
+      "ironMg": 8.703,
+      "magnesiumMg": 267,
+      "vitaminCMg": 24.6
+    },
+    "perServing": {
+      "calories": 325.083,
+      "proteinG": 10.072,
+      "carbohydratesG": 49.883,
+      "fatG": 9.623,
+      "fiberG": 7.5,
+      "sugarsG": 12.03,
+      "sodiumMg": 342.887,
+      "potassiumMg": 408.818,
+      "calciumMg": 137.318,
+      "ironMg": 2.176,
+      "magnesiumMg": 66.75,
+      "vitaminCMg": 6.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.35,
+    "perServingUsd": 0.84,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-09-07T06:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://marcellosplace.com/recipes/caramel-apple-french-toast/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.41cL9jTLrgWNXSXrj4zGgAHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://mp-img.com/QzYobIygYg-853.jpeg",
+    "searchQuery": "Apple Toast plated recipe food",
+    "searchResultTitle": "Caramel Apple French Toast Recipe",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:20:11.086Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1346",
+    "name": "Apple Toast",
+    "description": "Apple Toast is a practical small meal adaptation built around vegetables, bread, and title-specific supporting ingredients.",
+    "mealType": "Breakfast",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 325.083,
+      "proteinG": 10.072,
+      "carbohydratesG": 49.883,
+      "fatG": 9.623,
+      "fiberG": 7.5,
+      "sugarsG": 12.03,
+      "sodiumMg": 342.887,
+      "potassiumMg": 408.818,
+      "calciumMg": 137.318,
+      "ironMg": 2.176,
+      "magnesiumMg": 66.75,
+      "vitaminCMg": 6.15
+    },
+    "estimatedCostPerServingUsd": 0.84,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

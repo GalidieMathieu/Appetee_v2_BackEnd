@@ -1,0 +1,205 @@
+{
+  "seedId": "REC-1226",
+  "candidate": {
+    "sequence": 2020,
+    "seedId": "REC-CAND-2020",
+    "name": "Korean Lentil Flatbread"
+  },
+  "name": "Korean Lentil Flatbread",
+  "description": "Korean Lentil Flatbread is a practical main meal adaptation built around lentils, flatbread, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/8542186/red-lentil-flatbread/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Lentil and Cauliflower Flatbread source because it provides the closest validated lentils and flatbread structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "South Korea",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "flatbread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 2.5
+    },
+    {
+      "ingredientSeedId": "ING-0067",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lentils, and flatbread for korean lentil flatbread.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lentils and cook it until browned or heated through as appropriate.",
+    "Stir in the flatbread, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the korean lentil flatbread, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1260,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2310.576,
+      "proteinG": 95.263,
+      "carbohydratesG": 408.606,
+      "fatG": 33.132,
+      "fiberG": 39.758,
+      "sugarsG": 5.821,
+      "sodiumMg": 1934.466,
+      "potassiumMg": 2643.453,
+      "calciumMg": 185.757,
+      "ironMg": 31.042,
+      "magnesiumMg": 231.552,
+      "vitaminCMg": 35.4
+    },
+    "perServing": {
+      "calories": 577.644,
+      "proteinG": 23.816,
+      "carbohydratesG": 102.151,
+      "fatG": 8.283,
+      "fiberG": 9.94,
+      "sugarsG": 1.455,
+      "sodiumMg": 483.616,
+      "potassiumMg": 660.863,
+      "calciumMg": 46.439,
+      "ironMg": 7.761,
+      "magnesiumMg": 57.888,
+      "vitaminCMg": 8.85
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.62,
+    "perServingUsd": 0.66,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-03-06T06:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "chefpatialrecipes.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://chefpatialrecipes.com/protein-packed-red-lentil-flatbread/",
+    "originalSourceUrl": "https://chefpatialrecipes.com/wp-content/uploads/2026/01/eba4df5d-415a-4034-982e-fb6d30bd98a8tr_pgsdrg.webp",
+    "discoveredOriginalUrl": "https://chefpatialrecipes.com/wp-content/uploads/2026/01/eba4df5d-415a-4034-982e-fb6d30bd98a8tr_pgsdrg.webp",
+    "searchQuery": "Korean Lentil Flatbread plated recipe food",
+    "searchResultTitle": "Ultimate Protein-Packed Red Lentil Flatbread That's Delicious",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:14:17.222Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1226",
+    "name": "Korean Lentil Flatbread",
+    "description": "Korean Lentil Flatbread is a practical main meal adaptation built around lentils, flatbread, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 577.644,
+      "proteinG": 23.816,
+      "carbohydratesG": 102.151,
+      "fatG": 8.283,
+      "fiberG": 9.94,
+      "sugarsG": 1.455,
+      "sodiumMg": 483.616,
+      "potassiumMg": 660.863,
+      "calciumMg": 46.439,
+      "ironMg": 7.761,
+      "magnesiumMg": 57.888,
+      "vitaminCMg": 8.85
+    },
+    "estimatedCostPerServingUsd": 0.66,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

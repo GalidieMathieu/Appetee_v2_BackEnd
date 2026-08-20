@@ -1,0 +1,191 @@
+{
+  "seedId": "REC-1501",
+  "candidate": {
+    "sequence": 2299,
+    "seedId": "REC-CAND-2299",
+    "name": "Chocolate Cottage Cheese Cups"
+  },
+  "name": "Chocolate Cottage Cheese Cups",
+  "description": "Chocolate Cottage Cheese Cups is a practical snack adaptation built around cottage cheese, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.oldelpaso.co.uk/recipes/black-bean-and-corn-tortilla-cups",
+    "domain": "oldelpaso.co.uk",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Black Bean Salsa Tortilla Cups source because it provides the closest validated dairy and cups structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "cottage cheese",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0035",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0105",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for chocolate cottage cheese cups.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the cottage cheese with the vegetables and remaining ingredients in the intended snack form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the chocolate cottage cheese cups into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 720,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1581.6,
+      "proteinG": 92.58,
+      "carbohydratesG": 289.56,
+      "fatG": 35.148,
+      "fiberG": 68.76,
+      "sugarsG": 61.896,
+      "sodiumMg": 1260,
+      "potassiumMg": 2982,
+      "calciumMg": 465,
+      "ironMg": 27.552,
+      "magnesiumMg": 946.2,
+      "vitaminCMg": 0.3
+    },
+    "perServing": {
+      "calories": 395.4,
+      "proteinG": 23.145,
+      "carbohydratesG": 72.39,
+      "fatG": 8.787,
+      "fiberG": 17.19,
+      "sugarsG": 15.474,
+      "sodiumMg": 315,
+      "potassiumMg": 745.5,
+      "calciumMg": 116.25,
+      "ironMg": 6.888,
+      "magnesiumMg": 236.55,
+      "vitaminCMg": 0.075
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.28,
+    "perServingUsd": 1.32,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-05-04T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse4.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://dishesprint.com/triple-chocolate-oatmeal-energy-bites/",
+    "originalSourceUrl": "https://tse4.mm.bing.net/th/id/OIP.xQl2axJ-2EmRZgsN93-LgwHaJ4?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://dishesprint.com/wp-content/uploads/2026/02/Triple_Chocolate_Oatmeal_Energy_Bites_Third_Image_mthmzy.webp",
+    "searchQuery": "chocolate healthy oat energy bites dessert food photograph",
+    "searchResultTitle": "triple chocolate oatmeal energy bites",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:25:40.135Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1501",
+    "name": "Chocolate Cottage Cheese Cups",
+    "description": "Chocolate Cottage Cheese Cups is a practical snack adaptation built around cottage cheese, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 395.4,
+      "proteinG": 23.145,
+      "carbohydratesG": 72.39,
+      "fatG": 8.787,
+      "fiberG": 17.19,
+      "sugarsG": 15.474,
+      "sodiumMg": 315,
+      "potassiumMg": 745.5,
+      "calciumMg": 116.25,
+      "ironMg": 6.888,
+      "magnesiumMg": 236.55,
+      "vitaminCMg": 0.075
+    },
+    "estimatedCostPerServingUsd": 1.32,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

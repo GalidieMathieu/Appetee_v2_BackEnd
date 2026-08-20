@@ -1,0 +1,197 @@
+{
+  "seedId": "REC-1300",
+  "candidate": {
+    "sequence": 2094,
+    "seedId": "REC-CAND-2094",
+    "name": "Sheet Pan Steak and Cucumber"
+  },
+  "name": "Sheet Pan Steak and Cucumber",
+  "description": "Sheet Pan Steak and Cucumber is a practical main meal adaptation built around steak, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.sainsburysmagazine.co.uk/recipes/mains/oregano-roast-beef-with-crispy-kale",
+    "domain": "sainsburysmagazine.co.uk",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Roasted Lean Beef with Kale source because it provides the closest validated beef and vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United Kingdom",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 60,
+    "totalMinutes": 80
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "steak",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0101",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for sheet pan steak and cucumber and preheat the oven.",
+    "Coat the steak and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the vegetables and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the sheet pan steak and cucumber briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1050,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1162.332,
+      "proteinG": 138.24,
+      "carbohydratesG": 36.72,
+      "fatG": 49.02,
+      "fiberG": 7.2,
+      "sugarsG": 5.01,
+      "sodiumMg": 345.546,
+      "potassiumMg": 3129.273,
+      "calciumMg": 225.273,
+      "ironMg": 11.493,
+      "magnesiumMg": 204,
+      "vitaminCMg": 33
+    },
+    "perServing": {
+      "calories": 290.583,
+      "proteinG": 34.56,
+      "carbohydratesG": 9.18,
+      "fatG": 12.255,
+      "fiberG": 1.8,
+      "sugarsG": 1.252,
+      "sodiumMg": 86.386,
+      "potassiumMg": 782.318,
+      "calciumMg": 56.318,
+      "ironMg": 2.873,
+      "magnesiumMg": 51,
+      "vitaminCMg": 8.25
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 20.36,
+    "perServingUsd": 5.09,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Low Carb",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-06-28T08:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.homestylepick.com/sheet-pan-steak-and-veggies-recipe/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.D5hBAAXXynC2EqRvnqft2gHaKl&pid=15.1",
+    "discoveredOriginalUrl": "https://www.homestylepick.com/wp-content/uploads/2025/08/Sheet-pan-steak-and-veggies.webp",
+    "searchQuery": "Sheet Pan Steak and Cucumber plated recipe food",
+    "searchResultTitle": "Sheet Pan Steak and Veggies Recipe - Home Style Pick",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:17:59.744Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1300",
+    "name": "Sheet Pan Steak and Cucumber",
+    "description": "Sheet Pan Steak and Cucumber is a practical main meal adaptation built around steak, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 80,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 290.583,
+      "proteinG": 34.56,
+      "carbohydratesG": 9.18,
+      "fatG": 12.255,
+      "fiberG": 1.8,
+      "sugarsG": 1.252,
+      "sodiumMg": 86.386,
+      "potassiumMg": 782.318,
+      "calciumMg": 56.318,
+      "ironMg": 2.873,
+      "magnesiumMg": 51,
+      "vitaminCMg": 8.25
+    },
+    "estimatedCostPerServingUsd": 5.09,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Low Carb",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

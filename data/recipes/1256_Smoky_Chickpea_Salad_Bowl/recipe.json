@@ -1,0 +1,199 @@
+{
+  "seedId": "REC-1256",
+  "candidate": {
+    "sequence": 2050,
+    "seedId": "REC-CAND-2050",
+    "name": "Smoky Chickpea Salad Bowl"
+  },
+  "name": "Smoky Chickpea Salad Bowl",
+  "description": "Smoky Chickpea Salad Bowl is a practical main meal adaptation built around chickpeas, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/chickpea-salad-sandwiches-8811083",
+    "domain": "foodnetwork.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Cajun Chickpea Salad Bowl source because it provides the closest validated beans and bowl/salad structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for smoky chickpea salad bowl.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the chickpeas with the legumes and remaining ingredients in the intended main meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the smoky chickpea salad bowl into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 440,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 825.532,
+      "proteinG": 29.58,
+      "carbohydratesG": 95.185,
+      "fatG": 39.74,
+      "fiberG": 29.085,
+      "sugarsG": 16.915,
+      "sodiumMg": 1131.446,
+      "potassiumMg": 715.773,
+      "calciumMg": 208.223,
+      "ironMg": 6.353,
+      "magnesiumMg": 120.35,
+      "vitaminCMg": 0.48
+    },
+    "perServing": {
+      "calories": 206.383,
+      "proteinG": 7.395,
+      "carbohydratesG": 23.796,
+      "fatG": 9.935,
+      "fiberG": 7.271,
+      "sugarsG": 4.229,
+      "sodiumMg": 282.861,
+      "potassiumMg": 178.943,
+      "calciumMg": 52.056,
+      "ironMg": 1.588,
+      "magnesiumMg": 30.087,
+      "vitaminCMg": 0.12
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 1.29,
+    "perServingUsd": 0.32,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-04-21T12:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.euphoricvegan.com/2023/06/smoky-chickpea-salad.html",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.W9vhG2hOBmRv-afn5S4ZCwAAAA&pid=15.1",
+    "discoveredOriginalUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikWmpH-Y-W2fUioV_he3FBQOACkxAOSfKBOwLW6P6sEned2QkKBl6gMPWlwXHCNifJYgLApGaQkgVOC0ZpaFhEAZw5KQtagfg2xtJXic-VWZSkxh5A01J7ni63UcohJz4Ug4HaGx7T0oWUL9o2pB8nzfyP9h3eMqZUeRGIMZMQ4U8WLn0_ElfaTLZTNg/w426-h640/Smoky chickpea salad.jpg",
+    "searchQuery": "Smoky Chickpea Salad Bowl plated recipe food",
+    "searchResultTitle": "Smoky Chickpea Salad |Euphoric Vegan",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:15:48.061Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1256",
+    "name": "Smoky Chickpea Salad Bowl",
+    "description": "Smoky Chickpea Salad Bowl is a practical main meal adaptation built around chickpeas, legumes, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 206.383,
+      "proteinG": 7.395,
+      "carbohydratesG": 23.796,
+      "fatG": 9.935,
+      "fiberG": 7.271,
+      "sugarsG": 4.229,
+      "sodiumMg": 282.861,
+      "potassiumMg": 178.943,
+      "calciumMg": 52.056,
+      "ironMg": 1.588,
+      "magnesiumMg": 30.087,
+      "vitaminCMg": 0.12
+    },
+    "estimatedCostPerServingUsd": 0.32,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

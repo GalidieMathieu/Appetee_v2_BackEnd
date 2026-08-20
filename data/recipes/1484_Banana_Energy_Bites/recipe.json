@@ -1,0 +1,195 @@
+{
+  "seedId": "REC-1484",
+  "candidate": {
+    "sequence": 2281,
+    "seedId": "REC-CAND-2281",
+    "name": "Banana Energy Bites"
+  },
+  "name": "Banana Energy Bites",
+  "description": "Banana Energy Bites is a practical snack adaptation built around banana, oats, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/banana-oatmeal-bites-514723",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Banana Oatmeal Bites source because it provides the closest validated fruit and bites structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "banana",
+  "carbohydrateBase": "oats",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0033",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0034",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for banana energy bites.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the banana with the oats and remaining ingredients in the intended snack form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the banana energy bites into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 900,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1464,
+      "proteinG": 36.42,
+      "carbohydratesG": 307.71,
+      "fatG": 16.968,
+      "fiberG": 38.46,
+      "sugarsG": 101.916,
+      "sodiumMg": 25.8,
+      "potassiumMg": 2418,
+      "calciumMg": 191.4,
+      "ironMg": 13.482,
+      "magnesiumMg": 446.4,
+      "vitaminCMg": 150
+    },
+    "perServing": {
+      "calories": 366,
+      "proteinG": 9.105,
+      "carbohydratesG": 76.927,
+      "fatG": 4.242,
+      "fiberG": 9.615,
+      "sugarsG": 25.479,
+      "sodiumMg": 6.45,
+      "potassiumMg": 604.5,
+      "calciumMg": 47.85,
+      "ironMg": 3.37,
+      "magnesiumMg": 111.6,
+      "vitaminCMg": 37.5
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.53,
+    "perServingUsd": 0.88,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-04-08T00:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://bakeitgood.com/recipes/peanut-butter-banana-energy-bites",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.6VOs9VqS6yOAeW9zdoWvXAHaJ1&pid=15.1",
+    "discoveredOriginalUrl": "https://bakeitgood.com/assets/images/1740928976653-75pg3qr0.webp",
+    "searchQuery": "Banana Energy Bites plated recipe food",
+    "searchResultTitle": "Easy No-Bake Peanut Butter Banana Energy Bites - Bake it Good",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:53:48.335Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1484",
+    "name": "Banana Energy Bites",
+    "description": "Banana Energy Bites is a practical snack adaptation built around banana, oats, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 366,
+      "proteinG": 9.105,
+      "carbohydratesG": 76.927,
+      "fatG": 4.242,
+      "fiberG": 9.615,
+      "sugarsG": 25.479,
+      "sodiumMg": 6.45,
+      "potassiumMg": 604.5,
+      "calciumMg": 47.85,
+      "ironMg": 3.37,
+      "magnesiumMg": 111.6,
+      "vitaminCMg": 37.5
+    },
+    "estimatedCostPerServingUsd": 0.88,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

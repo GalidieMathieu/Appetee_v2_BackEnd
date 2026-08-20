@@ -1,0 +1,233 @@
+{
+  "seedId": "REC-1261",
+  "candidate": {
+    "sequence": 2055,
+    "seedId": "REC-CAND-2055",
+    "name": "Pesto Egg Chili"
+  },
+  "name": "Pesto Egg Chili",
+  "description": "Pesto Egg Chili is a practical main meal adaptation built around eggs, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://schnucks.com/recipes/cottage-cheese-egg-salad-sandwich",
+    "domain": "schnucks.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Cottage Cheese Egg Salad Sandwiches source because it provides the closest validated eggs and chili structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 20,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0080",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, eggs, and legumes for pesto egg chili.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned eggs and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the pesto egg chili, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1255,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2163.882,
+      "proteinG": 137.274,
+      "carbohydratesG": 87.79,
+      "fatG": 142.735,
+      "fiberG": 14.3,
+      "sugarsG": 3.244,
+      "sodiumMg": 5990.996,
+      "potassiumMg": 2656.923,
+      "calciumMg": 3358.373,
+      "ironMg": 19.398,
+      "magnesiumMg": 377.1,
+      "vitaminCMg": 83.36
+    },
+    "perServing": {
+      "calories": 540.971,
+      "proteinG": 34.319,
+      "carbohydratesG": 21.948,
+      "fatG": 35.684,
+      "fiberG": 3.575,
+      "sugarsG": 0.811,
+      "sodiumMg": 1497.749,
+      "potassiumMg": 664.231,
+      "calciumMg": 839.593,
+      "ironMg": 4.849,
+      "magnesiumMg": 94.275,
+      "vitaminCMg": 20.84
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 43.74,
+    "perServingUsd": 10.94,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Carb",
+    "Freezer Friendly",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-04-29T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://deliciousyum.com/pesto-egg-sandwich-with-provolone-and-chili-onion-crunch-recipe/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.ic3OIKoVdm8xHNI3EJInoQHaJQ&pid=15.1",
+    "discoveredOriginalUrl": "https://deliciousyum.com/wp-content/uploads/2026/03/0_1-1772526909719.jpeg",
+    "searchQuery": "Pesto Egg Chili plated recipe food",
+    "searchResultTitle": "Pesto Egg Sandwich with Provolone and Chili Onion Crunch",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:16:06.032Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1261",
+    "name": "Pesto Egg Chili",
+    "description": "Pesto Egg Chili is a practical main meal adaptation built around eggs, legumes, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 540.971,
+      "proteinG": 34.319,
+      "carbohydratesG": 21.948,
+      "fatG": 35.684,
+      "fiberG": 3.575,
+      "sugarsG": 0.811,
+      "sodiumMg": 1497.749,
+      "potassiumMg": 664.231,
+      "calciumMg": 839.593,
+      "ironMg": 4.849,
+      "magnesiumMg": 94.275,
+      "vitaminCMg": 20.84
+    },
+    "estimatedCostPerServingUsd": 10.94,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Carb",
+      "Freezer Friendly",
+      "Meal Prep"
+    ]
+  }
+}

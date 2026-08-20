@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-1345",
+  "candidate": {
+    "sequence": 2139,
+    "seedId": "REC-CAND-2139",
+    "name": "Hummus Toast"
+  },
+  "name": "Hummus Toast",
+  "description": "Hummus Toast is a practical small meal adaptation built around vegetables, bread, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/peanut-butter-banana-toast",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Peanut Butter Banana Toast source because it provides the closest validated toast structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United Kingdom",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 5,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Toaster",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "bread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0051",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for hummus toast.",
+    "Toast the bread until crisp enough to support the toppings.",
+    "Combine the vegetables with the bread and remaining ingredients in the intended small meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the hummus toast into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1030,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1667.332,
+      "proteinG": 67.89,
+      "carbohydratesG": 243.93,
+      "fatG": 49.03,
+      "fiberG": 49.3,
+      "sugarsG": 29.06,
+      "sodiumMg": 2352.546,
+      "potassiumMg": 1812.273,
+      "calciumMg": 708.273,
+      "ironMg": 12.683,
+      "magnesiumMg": 356,
+      "vitaminCMg": 25
+    },
+    "perServing": {
+      "calories": 416.833,
+      "proteinG": 16.973,
+      "carbohydratesG": 60.983,
+      "fatG": 12.258,
+      "fiberG": 12.325,
+      "sugarsG": 7.265,
+      "sodiumMg": 588.136,
+      "potassiumMg": 453.068,
+      "calciumMg": 177.068,
+      "ironMg": 3.171,
+      "magnesiumMg": 89,
+      "vitaminCMg": 6.25
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.95,
+    "perServingUsd": 0.74,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-09-05T17:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/delicious-mediterranean-hummus-toast-with-zaatar-recipe-easy-healthy--59180182597558996/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.oKKbM4Z61wO-_8x5k-jVzwHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/6a/37/d5/6a37d53c29b3c7ab0cf439cb14c67f5b.jpg",
+    "searchQuery": "Hummus Toast plated recipe food",
+    "searchResultTitle": "Delicious Mediterranean Hummus Toast with Za'atar Recipe – Easy ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:20:12.519Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1345",
+    "name": "Hummus Toast",
+    "description": "Hummus Toast is a practical small meal adaptation built around vegetables, bread, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 416.833,
+      "proteinG": 16.973,
+      "carbohydratesG": 60.983,
+      "fatG": 12.258,
+      "fiberG": 12.325,
+      "sugarsG": 7.265,
+      "sodiumMg": 588.136,
+      "potassiumMg": 453.068,
+      "calciumMg": 177.068,
+      "ironMg": 3.171,
+      "magnesiumMg": 89,
+      "vitaminCMg": 6.25
+    },
+    "estimatedCostPerServingUsd": 0.74,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

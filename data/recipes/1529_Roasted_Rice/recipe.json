@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-1529",
+  "candidate": {
+    "sequence": 2327,
+    "seedId": "REC-CAND-2327",
+    "name": "Roasted Rice"
+  },
+  "name": "Roasted Rice",
+  "description": "Roasted Rice is a practical side adaptation built around rice, rice, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/153802/algerian-flafla-bell-pepper-salad/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Algerian Flafla Bell Pepper Salad source because it provides the closest validated rice structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Algeria",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 40,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Side",
+  "cookingMethod": "Oven",
+  "primaryProtein": "rice",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for roasted rice and preheat the oven.",
+    "Coat the rice and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the rice and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the roasted rice briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1065,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1239.282,
+      "proteinG": 20.34,
+      "carbohydratesG": 223.515,
+      "fatG": 29.997,
+      "fiberG": 6.373,
+      "sodiumMg": 7.205,
+      "potassiumMg": 803.943,
+      "calciumMg": 83.127,
+      "ironMg": 1.584,
+      "magnesiumMg": 94.35,
+      "sugarsG": 0.15,
+      "vitaminCMg": 29.28
+    },
+    "perServing": {
+      "calories": 309.82,
+      "proteinG": 5.085,
+      "carbohydratesG": 55.879,
+      "fatG": 7.499,
+      "fiberG": 1.593,
+      "sodiumMg": 1.801,
+      "potassiumMg": 200.986,
+      "calciumMg": 20.782,
+      "ironMg": 0.396,
+      "magnesiumMg": 23.587,
+      "sugarsG": 0.037,
+      "vitaminCMg": 7.32
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.03,
+    "perServingUsd": 0.51,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-06-16T09:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://easyandtastyfood.com/roasted-veggie-rice/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.DOCR7bSRaYcw8WfMCfqzhwHaLG&pid=15.1",
+    "discoveredOriginalUrl": "https://easyandtastyfood.com/wp-content/uploads/2025/12/5-16.png",
+    "searchQuery": "Roasted Rice plated recipe food",
+    "searchResultTitle": "Roasted Veggie Rice",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:55:06.400Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1529",
+    "name": "Roasted Rice",
+    "description": "Roasted Rice is a practical side adaptation built around rice, rice, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 309.82,
+      "proteinG": 5.085,
+      "carbohydratesG": 55.879,
+      "fatG": 7.499,
+      "fiberG": 1.593,
+      "sodiumMg": 1.801,
+      "potassiumMg": 200.986,
+      "calciumMg": 20.782,
+      "ironMg": 0.396,
+      "magnesiumMg": 23.587,
+      "sugarsG": 0.037,
+      "vitaminCMg": 7.32
+    },
+    "estimatedCostPerServingUsd": 0.51,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

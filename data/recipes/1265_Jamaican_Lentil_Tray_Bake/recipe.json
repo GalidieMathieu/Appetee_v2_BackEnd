@@ -1,0 +1,199 @@
+{
+  "seedId": "REC-1265",
+  "candidate": {
+    "sequence": 2059,
+    "seedId": "REC-CAND-2059",
+    "name": "Jamaican Lentil Tray Bake"
+  },
+  "name": "Jamaican Lentil Tray Bake",
+  "description": "Jamaican Lentil Tray Bake is a practical main meal adaptation built around lentils, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/tomato-basil-and-lentil-soup-200421",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Roasted Lentil Stew source because it provides the closest validated lentils and legumes structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Jamaica",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 60,
+    "totalMinutes": 85
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 2.5
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for jamaican lentil tray bake and preheat the oven.",
+    "Coat the lentils and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the legumes and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the jamaican lentil tray bake briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1230,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1254.132,
+      "proteinG": 64.17,
+      "carbohydratesG": 189.66,
+      "fatG": 30.594,
+      "fiberG": 34.98,
+      "sugarsG": 12.762,
+      "sodiumMg": 32.946,
+      "potassiumMg": 2882.073,
+      "calciumMg": 159.273,
+      "ironMg": 17.427,
+      "magnesiumMg": 172.8,
+      "vitaminCMg": 76.5
+    },
+    "perServing": {
+      "calories": 313.533,
+      "proteinG": 16.043,
+      "carbohydratesG": 47.415,
+      "fatG": 7.649,
+      "fiberG": 8.745,
+      "sugarsG": 3.191,
+      "sodiumMg": 8.236,
+      "potassiumMg": 720.518,
+      "calciumMg": 39.818,
+      "ironMg": 4.357,
+      "magnesiumMg": 43.2,
+      "vitaminCMg": 19.125
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.93,
+    "perServingUsd": 0.73,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-05-05T09:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://vintagecooks.com/vegetarian-lentil-and-broccoli-tray-bake-with-creamy-tahini-dressing-recipe/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.m7AoPfD5uV26-cwatENRsgHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://vintagecooks.com/wp-content/uploads/2025/04/drivexmidjourney_Vegetarian_lentil_and_broccoli_tray_bake_with__798ad31c-4fa2-40cd-b7e7-bcd8ba1b1536.webp",
+    "searchQuery": "Jamaican Lentil Tray Bake plated recipe food",
+    "searchResultTitle": "Vegetarian Lentil and Broccoli Tray Bake with Creamy Tahini Dressing ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:16:16.017Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1265",
+    "name": "Jamaican Lentil Tray Bake",
+    "description": "Jamaican Lentil Tray Bake is a practical main meal adaptation built around lentils, legumes, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 85,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 313.533,
+      "proteinG": 16.043,
+      "carbohydratesG": 47.415,
+      "fatG": 7.649,
+      "fiberG": 8.745,
+      "sugarsG": 3.191,
+      "sodiumMg": 8.236,
+      "potassiumMg": 720.518,
+      "calciumMg": 39.818,
+      "ironMg": 4.357,
+      "magnesiumMg": 43.2,
+      "vitaminCMg": 19.125
+    },
+    "estimatedCostPerServingUsd": 0.73,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

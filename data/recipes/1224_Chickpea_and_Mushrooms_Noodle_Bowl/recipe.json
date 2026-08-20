@@ -1,0 +1,207 @@
+{
+  "seedId": "REC-1224",
+  "candidate": {
+    "sequence": 2018,
+    "seedId": "REC-CAND-2018",
+    "name": "Chickpea and Mushrooms Noodle Bowl"
+  },
+  "name": "Chickpea and Mushrooms Noodle Bowl",
+  "description": "Chickpea and Mushrooms Noodle Bowl is a practical main meal adaptation built around chickpeas, noodles, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://cookieandkate.com/black-bean-burrito-bowl-recipe/",
+    "domain": "cookieandkate.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Spicy Black Bean Noodle Bowl source because it provides the closest validated beans and bowl/noodle structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 50,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "noodles",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0103",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 2.5
+    },
+    {
+      "ingredientSeedId": "ING-0074",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chickpeas, and noodles for chickpea and mushrooms noodle bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chickpeas and cook it until browned or heated through as appropriate.",
+    "Stir in the noodles, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the chickpea and mushrooms noodle bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1630,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1898.932,
+      "proteinG": 74.04,
+      "carbohydratesG": 296.73,
+      "fatG": 50.206,
+      "fiberG": 42.22,
+      "sugarsG": 26.492,
+      "sodiumMg": 1052.946,
+      "potassiumMg": 2589.873,
+      "calciumMg": 318.273,
+      "ironMg": 16.397,
+      "magnesiumMg": 297.2,
+      "vitaminCMg": 31.3
+    },
+    "perServing": {
+      "calories": 474.733,
+      "proteinG": 18.51,
+      "carbohydratesG": 74.183,
+      "fatG": 12.552,
+      "fiberG": 10.555,
+      "sugarsG": 6.623,
+      "sodiumMg": 263.236,
+      "potassiumMg": 647.468,
+      "calciumMg": 79.568,
+      "ironMg": 4.099,
+      "magnesiumMg": 74.3,
+      "vitaminCMg": 7.825
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.44,
+    "perServingUsd": 1.36,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-03-03T04:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://levanacooks.com/recipe/broccoli-waldorf-salad-recipe/28c1bb14-9dfe-4d3f-980d-4710749e02a4/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.sh8O1o8z99PcA06fciFeWwHaJp&pid=15.1",
+    "discoveredOriginalUrl": "https://levanacooks.com/wp-content/uploads/2023/03/28C1BB14-9DFE-4D3F-980D-4710749E02A4.jpeg",
+    "searchQuery": "Chickpea and Mushrooms Noodle Bowl plated recipe food",
+    "searchResultTitle": "Noodle bowl with chickpeas, greens, chopsticks - Levana Cooks",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:14:07.965Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1224",
+    "name": "Chickpea and Mushrooms Noodle Bowl",
+    "description": "Chickpea and Mushrooms Noodle Bowl is a practical main meal adaptation built around chickpeas, noodles, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 474.733,
+      "proteinG": 18.51,
+      "carbohydratesG": 74.183,
+      "fatG": 12.552,
+      "fiberG": 10.555,
+      "sugarsG": 6.623,
+      "sodiumMg": 263.236,
+      "potassiumMg": 647.468,
+      "calciumMg": 79.568,
+      "ironMg": 4.099,
+      "magnesiumMg": 74.3,
+      "vitaminCMg": 7.825
+    },
+    "estimatedCostPerServingUsd": 1.36,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

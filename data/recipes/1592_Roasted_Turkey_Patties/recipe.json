@@ -1,0 +1,197 @@
+{
+  "seedId": "REC-1592",
+  "candidate": {
+    "sequence": 2390,
+    "seedId": "REC-CAND-2390",
+    "name": "Roasted Turkey Patties"
+  },
+  "name": "Roasted Turkey Patties",
+  "description": "Roasted Turkey Patties is a practical meal component adaptation built around turkey, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://cookieandkate.com/how-to-make-crispy-baked-tofu/",
+    "domain": "cookieandkate.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Crispy Baked Tofu Bites source because it provides the closest validated turkey and patties structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Meal Component",
+  "cookingMethod": "Oven",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for roasted turkey patties and preheat the oven.",
+    "Coat the turkey and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the vegetables and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the roasted turkey patties briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 795,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1457.682,
+      "proteinG": 104.844,
+      "carbohydratesG": 30.795,
+      "fatG": 102.525,
+      "fiberG": 6.015,
+      "sugarsG": 0.15,
+      "sodiumMg": 330.096,
+      "potassiumMg": 1818.423,
+      "calciumMg": 270.423,
+      "ironMg": 9.168,
+      "magnesiumMg": 144.75,
+      "vitaminCMg": 29.28
+    },
+    "perServing": {
+      "calories": 364.421,
+      "proteinG": 26.211,
+      "carbohydratesG": 7.699,
+      "fatG": 25.631,
+      "fiberG": 1.504,
+      "sugarsG": 0.037,
+      "sodiumMg": 82.524,
+      "potassiumMg": 454.606,
+      "calciumMg": 67.606,
+      "ironMg": 2.292,
+      "magnesiumMg": 36.188,
+      "vitaminCMg": 7.32
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.89,
+    "perServingUsd": 0.97,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2030-09-21T12:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.thedaleyplate.com/blog/turkey-and-roasted-red-pepper-hummus-patties-with-dill-yogurt-sauce",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.B7ggg4-Jo3Nl3Dy8-PwNCwHaIz&pid=15.1",
+    "discoveredOriginalUrl": "https://images.squarespace-cdn.com/content/v1/58b44bf820099eeee6c01fb2/1567530431951-MBSSD4NQ497QDB2BPJCZ/Turkey+Patties.JPG",
+    "searchQuery": "Roasted Turkey Patties plated recipe food",
+    "searchResultTitle": "Turkey and Roasted Red Pepper Hummus Patties with Dill Yogurt Sauce ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:55:49.176Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1592",
+    "name": "Roasted Turkey Patties",
+    "description": "Roasted Turkey Patties is a practical meal component adaptation built around turkey, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Meal Component",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 364.421,
+      "proteinG": 26.211,
+      "carbohydratesG": 7.699,
+      "fatG": 25.631,
+      "fiberG": 1.504,
+      "sugarsG": 0.037,
+      "sodiumMg": 82.524,
+      "potassiumMg": 454.606,
+      "calciumMg": 67.606,
+      "ironMg": 2.292,
+      "magnesiumMg": 36.188,
+      "vitaminCMg": 7.32
+    },
+    "estimatedCostPerServingUsd": 0.97,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

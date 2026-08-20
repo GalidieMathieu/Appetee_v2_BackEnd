@@ -1,0 +1,195 @@
+{
+  "seedId": "REC-1273",
+  "candidate": {
+    "sequence": 2067,
+    "seedId": "REC-CAND-2067",
+    "name": "Roasted Cod Skillet"
+  },
+  "name": "Roasted Cod Skillet",
+  "description": "Roasted Cod Skillet is a practical main meal adaptation built around cod, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.eatingwell.com/recipe/266298/mediterranean-cod-with-roasted-tomatoes/",
+    "domain": "eatingwell.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Roasted Cod Orzo Skillet source because it provides the closest validated fish and skillet structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Greece",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 40,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "cod",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0044",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for roasted cod skillet and preheat the oven.",
+    "Coat the cod and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the vegetables and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the roasted cod skillet briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 795,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 791.682,
+      "proteinG": 95.244,
+      "carbohydratesG": 30.795,
+      "fatG": 29.985,
+      "fiberG": 6.015,
+      "sugarsG": 0.15,
+      "sodiumMg": 1824.096,
+      "potassiumMg": 2016.423,
+      "calciumMg": 120.423,
+      "ironMg": 2.208,
+      "magnesiumMg": 150.75,
+      "vitaminCMg": 29.28
+    },
+    "perServing": {
+      "calories": 197.921,
+      "proteinG": 23.811,
+      "carbohydratesG": 7.699,
+      "fatG": 7.496,
+      "fiberG": 1.504,
+      "sugarsG": 0.037,
+      "sodiumMg": 456.024,
+      "potassiumMg": 504.106,
+      "calciumMg": 30.106,
+      "ironMg": 0.552,
+      "magnesiumMg": 37.688,
+      "vitaminCMg": 7.32
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 13.59,
+    "perServingUsd": 3.4,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-05-17T17:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://dishwhisperer.com/skillet-roasted-cod-with-white-beans-and-tomato/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.xAYmVxdXKEBhzrjR4aP9qAHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://dishwhisperer.com/wp-content/uploads/2026/04/skillet-cod-white-beans-tomato-overhead-cast-iron-1.jpg",
+    "searchQuery": "Roasted Cod Skillet plated recipe food",
+    "searchResultTitle": "30-Minute Skillet Roasted Cod",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:16:41.048Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1273",
+    "name": "Roasted Cod Skillet",
+    "description": "Roasted Cod Skillet is a practical main meal adaptation built around cod, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 197.921,
+      "proteinG": 23.811,
+      "carbohydratesG": 7.699,
+      "fatG": 7.496,
+      "fiberG": 1.504,
+      "sugarsG": 0.037,
+      "sodiumMg": 456.024,
+      "potassiumMg": 504.106,
+      "calciumMg": 30.106,
+      "ironMg": 0.552,
+      "magnesiumMg": 37.688,
+      "vitaminCMg": 7.32
+    },
+    "estimatedCostPerServingUsd": 3.4,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

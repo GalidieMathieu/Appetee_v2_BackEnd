@@ -1,0 +1,197 @@
+{
+  "seedId": "REC-1280",
+  "candidate": {
+    "sequence": 2074,
+    "seedId": "REC-CAND-2074",
+    "name": "Sheet Pan Shrimp and Carrots"
+  },
+  "name": "Sheet Pan Shrimp and Carrots",
+  "description": "Sheet Pan Shrimp and Carrots is a practical main meal adaptation built around shrimp, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.delish.com/cooking/recipe-ideas/a19624080/blackened-shrimp-bowl-recipe/",
+    "domain": "delish.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Roasted Shrimp Salad Bowl source because it provides the closest validated shellfish and vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 60,
+    "totalMinutes": 80
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "shrimp",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0038",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for sheet pan shrimp and carrots and preheat the oven.",
+    "Coat the shrimp and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the vegetables and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the sheet pan shrimp and carrots briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1050,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 904.332,
+      "proteinG": 86.88,
+      "carbohydratesG": 60.03,
+      "fatG": 34.23,
+      "fiberG": 14.1,
+      "sugarsG": 14.22,
+      "sodiumMg": 3606.546,
+      "potassiumMg": 2184.273,
+      "calciumMg": 468.273,
+      "ironMg": 3.153,
+      "magnesiumMg": 195,
+      "vitaminCMg": 42.3
+    },
+    "perServing": {
+      "calories": 226.083,
+      "proteinG": 21.72,
+      "carbohydratesG": 15.008,
+      "fatG": 8.557,
+      "fiberG": 3.525,
+      "sugarsG": 3.555,
+      "sodiumMg": 901.636,
+      "potassiumMg": 546.068,
+      "calciumMg": 117.068,
+      "ironMg": 0.788,
+      "magnesiumMg": 48.75,
+      "vitaminCMg": 10.575
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 13.84,
+    "perServingUsd": 3.46,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-05-28T12:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://30minuteplate.com/easy-sheet-pan-shrimp-and-carrots-30-minutes/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.wV8UydhATg5Pg6XOJFs9JQHaJ3&pid=15.1",
+    "discoveredOriginalUrl": "https://30minuteplate.com/wp-content/uploads/2026/01/Easy-Sheet-Pan-Shrimp-and-Carrots-30-Minutes.webp",
+    "searchQuery": "Sheet Pan Shrimp and Carrots plated recipe food",
+    "searchResultTitle": "Easy Sheet Pan Shrimp and Carrots (30 Minutes!)",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:16:59.282Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1280",
+    "name": "Sheet Pan Shrimp and Carrots",
+    "description": "Sheet Pan Shrimp and Carrots is a practical main meal adaptation built around shrimp, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 80,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 226.083,
+      "proteinG": 21.72,
+      "carbohydratesG": 15.008,
+      "fatG": 8.557,
+      "fiberG": 3.525,
+      "sugarsG": 3.555,
+      "sodiumMg": 901.636,
+      "potassiumMg": 546.068,
+      "calciumMg": 117.068,
+      "ironMg": 0.788,
+      "magnesiumMg": 48.75,
+      "vitaminCMg": 10.575
+    },
+    "estimatedCostPerServingUsd": 3.46,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

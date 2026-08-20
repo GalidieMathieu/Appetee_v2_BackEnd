@@ -1,0 +1,205 @@
+{
+  "seedId": "REC-1316",
+  "candidate": {
+    "sequence": 2110,
+    "seedId": "REC-CAND-2110",
+    "name": "Mediterranean Pork Tenderloin Wraps"
+  },
+  "name": "Mediterranean Pork Tenderloin Wraps",
+  "description": "Mediterranean Pork Tenderloin Wraps is a practical main meal adaptation built around pork tenderloin, tortilla, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/pork-tacos-with-black-beans-recipe-3361652",
+    "domain": "foodnetwork.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Mexican Pork Tenderloin Wraps source because it provides the closest validated pork and wrap structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Mediterranean",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "pork tenderloin",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0069",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for mediterranean pork tenderloin wraps.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the pork tenderloin with the tortilla and remaining ingredients in the intended main meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the mediterranean pork tenderloin wraps into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1380,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2026.332,
+      "proteinG": 161.07,
+      "carbohydratesG": 191.49,
+      "fatG": 70.65,
+      "fiberG": 43.5,
+      "sugarsG": 14.82,
+      "sodiumMg": 2178.546,
+      "potassiumMg": 4140.273,
+      "calciumMg": 885.273,
+      "ironMg": 16.563,
+      "magnesiumMg": 468,
+      "vitaminCMg": 183.6
+    },
+    "perServing": {
+      "calories": 506.583,
+      "proteinG": 40.267,
+      "carbohydratesG": 47.873,
+      "fatG": 17.663,
+      "fiberG": 10.875,
+      "sugarsG": 3.705,
+      "sodiumMg": 544.636,
+      "potassiumMg": 1035.068,
+      "calciumMg": 221.318,
+      "ironMg": 4.141,
+      "magnesiumMg": 117,
+      "vitaminCMg": 45.9
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 9.79,
+    "perServingUsd": 2.45,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-07-23T00:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse1.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://iriscooks.com/grilled-pork-tenderloin-wraps/",
+    "originalSourceUrl": "https://tse1.mm.bing.net/th/id/OIP.gXqJkDVIJFvhH5uK6CwQKAHaHa?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://iriscooks.com/wp-content/uploads/2026/01/1767279960926-mirtdgk.png",
+    "searchQuery": "pork tenderloin wraps plated recipe food photograph",
+    "searchResultTitle": "Grilled Pork Tenderloin Wraps with Corn Salsa and Peppers",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:38.322Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1316",
+    "name": "Mediterranean Pork Tenderloin Wraps",
+    "description": "Mediterranean Pork Tenderloin Wraps is a practical main meal adaptation built around pork tenderloin, tortilla, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 506.583,
+      "proteinG": 40.267,
+      "carbohydratesG": 47.873,
+      "fatG": 17.663,
+      "fiberG": 10.875,
+      "sugarsG": 3.705,
+      "sodiumMg": 544.636,
+      "potassiumMg": 1035.068,
+      "calciumMg": 221.318,
+      "ironMg": 4.141,
+      "magnesiumMg": 117,
+      "vitaminCMg": 45.9
+    },
+    "estimatedCostPerServingUsd": 2.45,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

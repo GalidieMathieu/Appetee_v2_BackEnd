@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-1227",
+  "candidate": {
+    "sequence": 2021,
+    "seedId": "REC-CAND-2021",
+    "name": "Spanish Sausage Wraps"
+  },
+  "name": "Spanish Sausage Wraps",
+  "description": "Spanish Sausage Wraps is a practical main meal adaptation built around sausage, tortilla, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/pork-tacos-with-black-beans-recipe-3361652",
+    "domain": "foodnetwork.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Roasted Pork Tenderloin Wraps source because it provides the closest validated pork and wrap structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Spain",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "totalMinutes": 20
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "sausage",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0085",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for spanish sausage wraps.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the sausage with the tortilla and remaining ingredients in the intended main meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the spanish sausage wraps into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1080,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3061.332,
+      "proteinG": 113.37,
+      "carbohydratesG": 186.21,
+      "fatG": 207.33,
+      "fiberG": 35.1,
+      "sugarsG": 7.32,
+      "sodiumMg": 6582.546,
+      "potassiumMg": 3180.273,
+      "calciumMg": 891.273,
+      "ironMg": 17.343,
+      "magnesiumMg": 402,
+      "vitaminCMg": 24.6
+    },
+    "perServing": {
+      "calories": 765.333,
+      "proteinG": 28.343,
+      "carbohydratesG": 46.553,
+      "fatG": 51.833,
+      "fiberG": 8.775,
+      "sugarsG": 1.83,
+      "sodiumMg": 1645.637,
+      "potassiumMg": 795.068,
+      "calciumMg": 222.818,
+      "ironMg": 4.336,
+      "magnesiumMg": 100.5,
+      "vitaminCMg": 6.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.52,
+    "perServingUsd": 1.63,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-03-07T19:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse1.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.garnishwithlemon.com/grilled-italian-sausage-wraps/",
+    "originalSourceUrl": "https://tse1.mm.bing.net/th/id/OIP.QrSEpF-np7yJ7GjbWLNNkgHaJr?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://www.garnishwithlemon.com/wp-content/uploads/2017/06/Grilled-Italian-Sausage-Wraps-2017-1-of-2.jpg",
+    "searchQuery": "sausage wraps plated recipe food photograph",
+    "searchResultTitle": "Italian Grilled Sausage Wraps - Garnish with Lemon",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:34.098Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1227",
+    "name": "Spanish Sausage Wraps",
+    "description": "Spanish Sausage Wraps is a practical main meal adaptation built around sausage, tortilla, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 765.333,
+      "proteinG": 28.343,
+      "carbohydratesG": 46.553,
+      "fatG": 51.833,
+      "fiberG": 8.775,
+      "sugarsG": 1.83,
+      "sodiumMg": 1645.637,
+      "potassiumMg": 795.068,
+      "calciumMg": 222.818,
+      "ironMg": 4.336,
+      "magnesiumMg": 100.5,
+      "vitaminCMg": 6.15
+    },
+    "estimatedCostPerServingUsd": 1.63,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

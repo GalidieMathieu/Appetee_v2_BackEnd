@@ -1,12 +1,12 @@
 import { readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { canonicalMealCategory } from "../meal-categories.mjs";
+import { canonicalMealCategory } from "../shared/meal-categories.mjs";
 
 const checkedAt = "2026-08-10T20:00:00-06:00";
 const toolDir = path.dirname(fileURLToPath(import.meta.url));
 const dataDir = path.resolve(toolDir, "..", "..");
-const candidatePlan = JSON.parse(await readFile(path.join(dataDir, "recipe_name_candidates.json"), "utf8"));
+const candidatePlan = JSON.parse(await readFile(path.join(dataDir, "candidates", "recipe-names.json"), "utf8"));
 
 const templateRecipes = [];
 for (const entry of await readdir(path.join(dataDir, "recipes"), { withFileTypes: true })) {

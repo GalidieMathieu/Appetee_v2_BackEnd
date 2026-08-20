@@ -11,9 +11,9 @@ The target is at least 2,000 high-quality validated recipes, with quality and re
 Before changing dataset content:
 
 1. Read `DATASET_SPEC.md`.
-2. Read `progress.json`.
-3. Read `RESUME.md`.
-4. Read `validation-report.json`.
+2. Read `workflow/progress.json`.
+3. Read `workflow/RESUME.md`.
+4. Read `generated/reports/validation.json`.
 5. Use `ingredients/index.json` and `recipes/index.json` for lookup when they exist; do not load the entire dataset into context.
 
 `DATASET_SPEC.md` is the canonical dataset contract. This file only defines permanent working rules.
@@ -60,19 +60,19 @@ Maintain the approved approximate targets progressively:
 
 ## Ordered Recipe Candidates
 
-`recipe_name_candidates.json` is the immutable ordered planning source for recipe names while unused candidates remain.
+`candidates/recipe-names.json` is the immutable ordered planning source for recipe names while unused candidates remain.
 
 For a normal acquisition run:
 
 1. validate the current checkpoint;
-2. read `progress.json.candidateAcquisition.nextCandidateSequence`;
+2. read `workflow/progress.json.candidateAcquisition.nextCandidateSequence`;
 3. process candidates in ascending sequence without reordering;
 4. research a real, substantially matching public recipe for each name;
 5. skip semantic duplicates and record their sequence/reason;
 6. record candidates that cannot yet be sourced as unresolved and continue;
 7. persist every completed recipe's candidate sequence and update the cursor at checkpoint.
 
-The candidate name is the acquisition target. Its suggested metadata is not factual authority: verify country, cuisine, meal timing/category, athlete status, Meal Prep, Discovery, diets, badges, method, nutrition, and cost from the researched recipe and canonical rules. Do not modify `recipe_name_candidates.json` during normal generation.
+The candidate name is the acquisition target. Its suggested metadata is not factual authority: verify country, cuisine, meal timing/category, athlete status, Meal Prep, Discovery, diets, badges, method, nutrition, and cost from the researched recipe and canonical rules. Do not modify `candidates/recipe-names.json` during normal generation.
 
 Do not increase recipe count with repetitive low-value variants.
 
@@ -123,7 +123,7 @@ Every recipe must set both `mealType` (`Breakfast`, `Lunch`, or `Dinner`) and `m
 
 Every ingredient must explicitly set `dietCompatibility.glutenFree` and `dietCompatibility.lactoseFree` from exact product evidence or a conservative documented classification. Every recipe must derive `Gluten Free` and `Lactose Free` from all referenced ingredients; do not assign either restriction diet from a recipe title or cuisine assumption.
 
-For recipe images, try the exact recipe page first, then a distinct related real-food photograph from web image search. A related photograph may be approximate, but it must visibly fit the dish theme; a photographer watermark is allowed. AI generation is the final fallback only after exact-source and related-real searches fail. For ingredient images, prefer the exact Walmart product-page image. Record honest provenance, never claim unverified reuse rights, never reuse one asset across records, and keep `aiGenerated` accurate. New or unresolved records remain explicitly pending with no local AVIF paths. Every build/checkpoint must rebuild `research/image/recipes.json` with each pending recipe's name and source URL and `research/image/ingredients.json` with each pending ingredient's name and Walmart product URL.
+Image acquisition is handled separately by the repository owner during bulk dataset growth. Bulk runs must not search for, download, or generate recipe or ingredient images unless the user explicitly requests a dedicated image task. New records remain explicitly pending with `aiGenerated: false` and no local AVIF paths. Every build/checkpoint must rebuild `research/image/recipes.json` with each pending recipe's name and source URL and `research/image/ingredients.json` with each pending ingredient's name and Walmart product URL. During a dedicated recipe-image pass, prefer exact source photos, then visually audited related real-food searches from independent providers or simplified dish-form queries; reject non-food/promotional results and perceptual duplicates. AI is the final fallback only after those real-image paths are genuinely exhausted. Preserve completed assets and honest provenance without modifying them.
 
 Do not begin another batch if available context, tool allowance, or usage appears insufficient to safely finish it.
 
@@ -135,9 +135,9 @@ When resources are becoming insufficient:
 2. Run validation.
 3. Regenerate SQL and lightweight indexes.
 4. Update `version.json`.
-5. Update `validation-report.json`.
-6. Update `progress.json`.
-7. Update `RESUME.md` with exact next steps.
+5. Update `generated/reports/validation.json`.
+6. Update `workflow/progress.json`.
+7. Update `workflow/RESUME.md` with exact next steps.
 8. Create a ZIP snapshot named with the actual completed recipe count.
 9. Stop cleanly.
 

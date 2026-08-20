@@ -1,0 +1,197 @@
+{
+  "seedId": "REC-1323",
+  "candidate": {
+    "sequence": 2117,
+    "seedId": "REC-CAND-2117",
+    "name": "French Shrimp Grain Bowl"
+  },
+  "name": "French Shrimp Grain Bowl",
+  "description": "French Shrimp Grain Bowl is a practical main meal adaptation built around shrimp, quinoa, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://onedishkitchen.com/shrimp-quinoa-bowl-recipe/",
+    "domain": "onedishkitchen.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Garlic Shrimp Quinoa Bowls source because it provides the closest validated shellfish and bowl structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "France",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "shrimp",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0038",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, shrimp, and quinoa for french shrimp grain bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned shrimp and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the french shrimp grain bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1500,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1664.532,
+      "proteinG": 117.93,
+      "carbohydratesG": 185.37,
+      "fatG": 48.078,
+      "fiberG": 22.5,
+      "sugarsG": 0,
+      "sodiumMg": 3411.546,
+      "potassiumMg": 2575.473,
+      "calciumMg": 482.073,
+      "ironMg": 13.221,
+      "magnesiumMg": 631.8,
+      "vitaminCMg": 24.6
+    },
+    "perServing": {
+      "calories": 416.133,
+      "proteinG": 29.483,
+      "carbohydratesG": 46.343,
+      "fatG": 12.02,
+      "fiberG": 5.625,
+      "sugarsG": 0,
+      "sodiumMg": 852.886,
+      "potassiumMg": 643.868,
+      "calciumMg": 120.518,
+      "ironMg": 3.305,
+      "magnesiumMg": 157.95,
+      "vitaminCMg": 6.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 14.74,
+    "perServingUsd": 3.69,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-08-02T19:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.allrecipes.com/recipe/283552/shrimp-grain-bowl/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.mReRIUioKS4TC2DlRb9zewHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://www.allrecipes.com/thmb/xSN-I2mbGjU6Qks0bqU1VgmesCc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9079246-b5146d11180e4fcda87f9ce40555f7f4.jpg",
+    "searchQuery": "French Shrimp Grain Bowl plated recipe food",
+    "searchResultTitle": "Shrimp Grain Bowl",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:19:07.016Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1323",
+    "name": "French Shrimp Grain Bowl",
+    "description": "French Shrimp Grain Bowl is a practical main meal adaptation built around shrimp, quinoa, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 416.133,
+      "proteinG": 29.483,
+      "carbohydratesG": 46.343,
+      "fatG": 12.02,
+      "fiberG": 5.625,
+      "sugarsG": 0,
+      "sodiumMg": 852.886,
+      "potassiumMg": 643.868,
+      "calciumMg": 120.518,
+      "ironMg": 3.305,
+      "magnesiumMg": 157.95,
+      "vitaminCMg": 6.15
+    },
+    "estimatedCostPerServingUsd": 3.69,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

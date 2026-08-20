@@ -1,0 +1,197 @@
+{
+  "seedId": "REC-1628",
+  "candidate": {
+    "sequence": 2426,
+    "seedId": "REC-CAND-2426",
+    "name": "Skillet Tofu Strips"
+  },
+  "name": "Skillet Tofu Strips",
+  "description": "Skillet Tofu Strips is a practical meal component adaptation built around tofu, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://cookieandkate.com/how-to-make-crispy-baked-tofu/",
+    "domain": "cookieandkate.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Crispy Baked Tofu Bites source because it provides the closest validated soy and skillet/strips structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Meal Component",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tofu",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0018",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tofu, and vegetables for skillet tofu strips.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tofu and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the skillet tofu strips, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 645,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 611.682,
+      "proteinG": 30.564,
+      "carbohydratesG": 39.345,
+      "fatG": 40.035,
+      "fiberG": 8.715,
+      "sugarsG": 1.95,
+      "sodiumMg": 42.096,
+      "potassiumMg": 1050.423,
+      "calciumMg": 675.423,
+      "ironMg": 6.078,
+      "magnesiumMg": 141.75,
+      "vitaminCMg": 29.88
+    },
+    "perServing": {
+      "calories": 152.921,
+      "proteinG": 7.641,
+      "carbohydratesG": 9.836,
+      "fatG": 10.009,
+      "fiberG": 2.179,
+      "sugarsG": 0.487,
+      "sodiumMg": 10.524,
+      "potassiumMg": 262.606,
+      "calciumMg": 168.856,
+      "ironMg": 1.52,
+      "magnesiumMg": 35.438,
+      "vitaminCMg": 7.47
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.47,
+    "perServingUsd": 0.87,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-11-16T00:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse3.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://dreamlifecooking.net/recipe/%F0%9F%8D%AF-maple-garlic-tofu-skillet-with-roasted-veggies-cozy-one-pan-dinner/",
+    "originalSourceUrl": "https://tse3.mm.bing.net/th/id/OIP.57-dhjHm8KirgtkFeJVN0QHaJQ?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://dreamlifecooking.net/wp-content/uploads/2025/11/final-maple-garlic-tofu-skillet-topped-w_d2ecZFiRRrKCg4_nDjhb5g_MCyCa4FNT1GtFlpM4xzm5A.png",
+    "searchQuery": "skillet tofu strips plated recipe food photograph",
+    "searchResultTitle": "🍯 Maple Garlic Tofu Skillet with Roasted Veggies (Cozy One-Pan Dinner) - dreamlifecooking",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:14.640Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1628",
+    "name": "Skillet Tofu Strips",
+    "description": "Skillet Tofu Strips is a practical meal component adaptation built around tofu, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Meal Component",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 152.921,
+      "proteinG": 7.641,
+      "carbohydratesG": 9.836,
+      "fatG": 10.009,
+      "fiberG": 2.179,
+      "sugarsG": 0.487,
+      "sodiumMg": 10.524,
+      "potassiumMg": 262.606,
+      "calciumMg": 168.856,
+      "ironMg": 1.52,
+      "magnesiumMg": 35.438,
+      "vitaminCMg": 7.47
+    },
+    "estimatedCostPerServingUsd": 0.87,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

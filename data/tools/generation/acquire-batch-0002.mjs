@@ -1,8 +1,8 @@
 import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { applyDerivedDiets, dietCompatibilityForIngredient } from "../diet-compatibility.mjs";
-import { canonicalMealCategory } from "../meal-categories.mjs";
+import { applyDerivedDiets, dietCompatibilityForIngredient } from "../shared/diet-compatibility.mjs";
+import { canonicalMealCategory } from "../shared/meal-categories.mjs";
 
 const toolDir = path.dirname(fileURLToPath(import.meta.url));
 const dataDir = path.resolve(toolDir, "..", "..");
@@ -202,7 +202,7 @@ async function main() {
     await writeFile(path.join(target, "recipe.json"), json(record));
   }
   if (candidateEvents) {
-    const progressPath = path.join(dataDir, "progress.json");
+    const progressPath = path.join(dataDir, "workflow", "progress.json");
     const progress = JSON.parse(await readFile(progressPath, "utf8"));
     const acquisition = progress.candidateAcquisition ?? {};
     const mergeEvents = (previous = [], incoming = []) => {

@@ -1,0 +1,122 @@
+{
+  "seedId": "ING-0118",
+  "name": "Fresh Bartlett Pears",
+  "canonicalName": "Fresh Bartlett Pears",
+  "description": "Fresh Bartlett pears for frozen bites and dessert squares.",
+  "measurementType": "solid",
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": "The exact product is a single-ingredient food without gluten- or lactose-bearing ingredients."
+  },
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Fresh Organic Bartlett Pears, 2 lb Bag",
+    "productId": "47197248",
+    "productUrl": "https://www.walmart.com/ip/47197248",
+    "brand": "Fresh Produce",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 3.98,
+    "packageQuantity": 907.185,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-11T19:50:49.978Z",
+    "priceEvidence": "Current Walmart product-page listing price and package weight."
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 63,
+      "proteinG": 0.39,
+      "carbohydratesG": 15,
+      "fatG": 0.16,
+      "fiberG": 3.1,
+      "sugarsG": 9.69,
+      "sodiumMg": 1,
+      "potassiumMg": 101,
+      "calciumMg": 9,
+      "ironMg": 0.19,
+      "magnesiumMg": 6,
+      "vitaminCMg": 4.4
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.4387
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 167776,
+      "dataType": "SR Legacy",
+      "description": "Pears, raw, bartlett (Includes foods for USDA's Food Distribution Program)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/167776/nutrients",
+      "searchQuery": "pears raw bartlett",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "imageType": "external-real-product-photograph",
+    "aiGenerated": false,
+    "provider": "i5.walmartimages.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/47197248",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Fresh-Organic-Anjou-Pears-2-lb-Bag_7c007d25-96ce-400b-9e46-174710228653.e6247a95311f10e7dd02060065b7e9f3.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:01:23.923Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0118",
+    "name": "Fresh Bartlett Pears",
+    "description": "Fresh Bartlett pears for frozen bites and dessert squares.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 63,
+      "proteinG": 0.39,
+      "carbohydratesG": 15,
+      "fatG": 0.16,
+      "fiberG": 3.1,
+      "sugarsG": 9.69,
+      "sodiumMg": 1,
+      "potassiumMg": 101,
+      "calciumMg": 9,
+      "ironMg": 0.19,
+      "magnesiumMg": 6,
+      "vitaminCMg": 4.4
+    },
+    "price": {
+      "usdPerBasis": 0.4387,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": null
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "seedId": "REC-1621",
+  "candidate": {
+    "sequence": 2419,
+    "seedId": "REC-CAND-2419",
+    "name": "Chipotle Grilled Chicken Breast"
+  },
+  "name": "Chipotle Grilled Chicken Breast",
+  "description": "Chipotle Grilled Chicken Breast is a practical meal component adaptation built around chicken, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/spiced-smoky-barbecued-chicken",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Australian Smoky Barbecued Chicken source because it provides the closest validated chicken and vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Australia",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 60,
+    "totalMinutes": 85
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Meal Component",
+  "cookingMethod": "Grill",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for chipotle grilled chicken breast and preheat the grill.",
+    "Coat the chicken and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the vegetables and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the chipotle grilled chicken breast briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 790,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1019.532,
+      "proteinG": 138.87,
+      "carbohydratesG": 31.015,
+      "fatG": 40.39,
+      "sodiumMg": 545.246,
+      "potassiumMg": 2737.773,
+      "calciumMg": 96.863,
+      "ironMg": 5.037,
+      "magnesiumMg": 200.55,
+      "fiberG": 9.185,
+      "sugarsG": 0.875,
+      "vitaminCMg": 24.68
+    },
+    "perServing": {
+      "calories": 254.883,
+      "proteinG": 34.718,
+      "carbohydratesG": 7.754,
+      "fatG": 10.098,
+      "sodiumMg": 136.311,
+      "potassiumMg": 684.443,
+      "calciumMg": 24.216,
+      "ironMg": 1.259,
+      "magnesiumMg": 50.138,
+      "fiberG": 2.296,
+      "sugarsG": 0.219,
+      "vitaminCMg": 6.17
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.2,
+    "perServingUsd": 1.3,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-11-05T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse3.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/286611963782611851/",
+    "originalSourceUrl": "https://tse3.mm.bing.net/th/id/OIP.keSDbSuUKEJSdhAqv0cSSwHaLH?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/cf/cc/e3/cfcce3b5bf50cff3eb723f3cdde66e99.jpg",
+    "searchQuery": "grilled chicken breast plated recipe food photograph",
+    "searchResultTitle": "Delicious Chicken Breast Dinner Ideas | Healthy recipes, Chicken breast dinners, Food photography",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:14.519Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1621",
+    "name": "Chipotle Grilled Chicken Breast",
+    "description": "Chipotle Grilled Chicken Breast is a practical meal component adaptation built around chicken, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Meal Component",
+    "image": null,
+    "totalTimeMinutes": 85,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 254.883,
+      "proteinG": 34.718,
+      "carbohydratesG": 7.754,
+      "fatG": 10.098,
+      "sodiumMg": 136.311,
+      "potassiumMg": 684.443,
+      "calciumMg": 24.216,
+      "ironMg": 1.259,
+      "magnesiumMg": 50.138,
+      "fiberG": 2.296,
+      "sugarsG": 0.219,
+      "vitaminCMg": 6.17
+    },
+    "estimatedCostPerServingUsd": 1.3,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

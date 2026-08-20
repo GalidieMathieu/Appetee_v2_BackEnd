@@ -1,0 +1,207 @@
+{
+  "seedId": "REC-1490",
+  "candidate": {
+    "sequence": 2287,
+    "seedId": "REC-CAND-2287",
+    "name": "Apple Cinnamon Roasted Chickpeas"
+  },
+  "name": "Apple Cinnamon Roasted Chickpeas",
+  "description": "Apple Cinnamon Roasted Chickpeas is a practical snack adaptation built around chickpeas, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://nutritionsource.hsph.harvard.edu/crunchy-roasted-chickpeas/",
+    "domain": "nutritionsource.hsph.harvard.edu",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Chili Cumin Roasted Chickpeas source because it provides the closest validated beans and legumes structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 40,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "Oven",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0104",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for apple cinnamon roasted chickpeas and preheat the oven.",
+    "Coat the chickpeas and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the legumes and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the apple cinnamon roasted chickpeas briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1045,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1122.682,
+      "proteinG": 32.244,
+      "carbohydratesG": 166.395,
+      "fatG": 39.145,
+      "fiberG": 37.915,
+      "sugarsG": 51.29,
+      "sodiumMg": 993.096,
+      "potassiumMg": 1437.423,
+      "calciumMg": 273.423,
+      "ironMg": 5.828,
+      "magnesiumMg": 149.75,
+      "vitaminCMg": 29.68
+    },
+    "perServing": {
+      "calories": 280.671,
+      "proteinG": 8.061,
+      "carbohydratesG": 41.599,
+      "fatG": 9.786,
+      "fiberG": 9.479,
+      "sugarsG": 12.822,
+      "sodiumMg": 248.274,
+      "potassiumMg": 359.356,
+      "calciumMg": 68.356,
+      "ironMg": 1.457,
+      "magnesiumMg": 37.438,
+      "vitaminCMg": 7.42
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.23,
+    "perServingUsd": 0.81,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-04-17T06:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://askthefoodgeek.com/apple-salad-roasted-chickpeas/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.Dljh_fWK5lAS3fCLROPlYwHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://askthefoodgeek.com/wp-content/uploads/2018/08/fall-apple-salad-walnuts-chickpeas.jpg",
+    "searchQuery": "Apple Cinnamon Roasted Chickpeas plated recipe food",
+    "searchResultTitle": "Fall arugula salad with apples, walnuts & cinnamon roasted chickpeas",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:53:52.361Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1490",
+    "name": "Apple Cinnamon Roasted Chickpeas",
+    "description": "Apple Cinnamon Roasted Chickpeas is a practical snack adaptation built around chickpeas, legumes, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 280.671,
+      "proteinG": 8.061,
+      "carbohydratesG": 41.599,
+      "fatG": 9.786,
+      "fiberG": 9.479,
+      "sugarsG": 12.822,
+      "sodiumMg": 248.274,
+      "potassiumMg": 359.356,
+      "calciumMg": 68.356,
+      "ironMg": 1.457,
+      "magnesiumMg": 37.438,
+      "vitaminCMg": 7.42
+    },
+    "estimatedCostPerServingUsd": 0.81,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

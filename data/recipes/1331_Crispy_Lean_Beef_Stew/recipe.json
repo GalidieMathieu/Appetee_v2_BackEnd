@@ -1,0 +1,207 @@
+{
+  "seedId": "REC-1331",
+  "candidate": {
+    "sequence": 2125,
+    "seedId": "REC-CAND-2125",
+    "name": "Crispy Lean Beef Stew"
+  },
+  "name": "Crispy Lean Beef Stew",
+  "description": "Crispy Lean Beef Stew is a practical main meal adaptation built around lean beef, oats, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://recipecenter.stopandshop.com/recipes/236647/pulled-buffalo-beef-salad-with-parmesan-croutons",
+    "domain": "recipecenter.stopandshop.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Crispy Lean Beef Noodle Bowl source because it provides the closest validated beef and stew/crisp structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "totalMinutes": 35
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "lean beef",
+  "carbohydrateBase": "oats",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for crispy lean beef stew and preheat the oven.",
+    "Coat the lean beef and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the oats and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the crispy lean beef stew briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1035,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2577.282,
+      "proteinG": 146.724,
+      "carbohydratesG": 193.275,
+      "fatG": 133.173,
+      "fiberG": 30.255,
+      "sugarsG": 2.526,
+      "sodiumMg": 416.496,
+      "potassiumMg": 3245.223,
+      "calciumMg": 287.223,
+      "ironMg": 23.988,
+      "magnesiumMg": 469.95,
+      "vitaminCMg": 29.28
+    },
+    "perServing": {
+      "calories": 644.321,
+      "proteinG": 36.681,
+      "carbohydratesG": 48.319,
+      "fatG": 33.293,
+      "fiberG": 7.564,
+      "sugarsG": 0.631,
+      "sodiumMg": 104.124,
+      "potassiumMg": 811.306,
+      "calciumMg": 71.806,
+      "ironMg": 5.997,
+      "magnesiumMg": 117.487,
+      "vitaminCMg": 7.32
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 11.96,
+    "perServingUsd": 2.99,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-08-15T03:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://crispysavors.com/beef-stew-with-tender-root-veggies-an-incredible-ultimate-recipe-for-5-star-comfort/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.350kk41cWPYDnpLyaUAlvAHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://crispysavors.com/wp-content/uploads/2025/09/wvnlw8bpuyr8jao76doq.webp",
+    "searchQuery": "Crispy Lean Beef Stew plated recipe food",
+    "searchResultTitle": "Beef Stew with Tender Root Veggies: An Incredible Ultimate Recipe for 5 ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:19:31.261Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1331",
+    "name": "Crispy Lean Beef Stew",
+    "description": "Crispy Lean Beef Stew is a practical main meal adaptation built around lean beef, oats, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 644.321,
+      "proteinG": 36.681,
+      "carbohydratesG": 48.319,
+      "fatG": 33.293,
+      "fiberG": 7.564,
+      "sugarsG": 0.631,
+      "sodiumMg": 104.124,
+      "potassiumMg": 811.306,
+      "calciumMg": 71.806,
+      "ironMg": 5.997,
+      "magnesiumMg": 117.487,
+      "vitaminCMg": 7.32
+    },
+    "estimatedCostPerServingUsd": 2.99,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

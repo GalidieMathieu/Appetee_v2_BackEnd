@@ -1028,5 +1028,185 @@
     "normalizedPriceUsd": 0.3836,
     "walmartProductId": "10534091",
     "path": "ingredients/0103_Dry_Egg_Noodles/ingredient.json"
+  },
+  {
+    "seedId": "ING-0104",
+    "name": "Fresh Apples",
+    "normalizedName": "fresh apples",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.3946,
+    "walmartProductId": "978115165",
+    "path": "ingredients/0104_Fresh_Apples/ingredient.json"
+  },
+  {
+    "seedId": "ING-0105",
+    "name": "Unsweetened Cocoa Powder",
+    "normalizedName": "unsweetened cocoa powder",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 2.1517,
+    "walmartProductId": "110307843",
+    "path": "ingredients/0105_Unsweetened_Cocoa_Powder/ingredient.json"
+  },
+  {
+    "seedId": "ING-0106",
+    "name": "Whole-Wheat Pita Bread",
+    "normalizedName": "whole-wheat pita bread",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 2.3625,
+    "walmartProductId": "18719012482",
+    "path": "ingredients/0106_Whole_Wheat_Pita_Bread/ingredient.json"
+  },
+  {
+    "seedId": "ING-0107",
+    "name": "Frozen Mango Chunks",
+    "normalizedName": "frozen mango chunks",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.754,
+    "walmartProductId": "31712522",
+    "path": "ingredients/0107_Frozen_Mango_Chunks/ingredient.json"
+  },
+  {
+    "seedId": "ING-0108",
+    "name": "Frozen Sliced Peaches",
+    "normalizedName": "frozen sliced peaches",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.6305,
+    "walmartProductId": "10543667",
+    "path": "ingredients/0108_Frozen_Sliced_Peaches/ingredient.json"
+  },
+  {
+    "seedId": "ING-0109",
+    "name": "Fresh Asparagus",
+    "normalizedName": "fresh asparagus",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.7848,
+    "walmartProductId": "44390952",
+    "path": "ingredients/0109_Fresh_Asparagus/ingredient.json"
+  },
+  {
+    "seedId": "ING-0110",
+    "name": "Dry Couscous",
+    "normalizedName": "dry couscous",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.9046,
+    "walmartProductId": "358772293",
+    "path": "ingredients/0110_Dry_Couscous/ingredient.json"
+  },
+  {
+    "seedId": "ING-0111",
+    "name": "Frozen Dark Sweet Cherries",
+    "normalizedName": "frozen dark sweet cherries",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.8422,
+    "walmartProductId": "13045006",
+    "path": "ingredients/0111_Frozen_Dark_Sweet_Cherries/ingredient.json"
+  },
+  {
+    "seedId": "ING-0112",
+    "name": "Canned Pumpkin Puree",
+    "normalizedName": "canned pumpkin puree",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.4609,
+    "walmartProductId": "24538777",
+    "path": "ingredients/0112_Canned_Pumpkin_Puree/ingredient.json"
+  },
+  {
+    "seedId": "ING-0113",
+    "name": "Frozen Pineapple Chunks",
+    "normalizedName": "frozen pineapple chunks",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.6217,
+    "walmartProductId": "115159456",
+    "path": "ingredients/0113_Frozen_Pineapple_Chunks/ingredient.json"
+  },
+  {
+    "seedId": "ING-0114",
+    "name": "Fresh Avocado",
+    "normalizedName": "fresh avocado",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.73,
+    "walmartProductId": "37295421",
+    "path": "ingredients/0114_Fresh_Avocado/ingredient.json"
+  },
+  {
+    "seedId": "ING-0115",
+    "name": "Pitted Deglet Noor Dates",
+    "normalizedName": "pitted deglet noor dates",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 1.3095,
+    "walmartProductId": "578393789",
+    "path": "ingredients/0115_Pitted_Deglet_Noor_Dates/ingredient.json"
+  },
+  {
+    "seedId": "ING-0116",
+    "name": "Pure Maple Syrup",
+    "normalizedName": "pure maple syrup",
+    "measurementType": "liquid",
+    "basisUnit": "ml",
+    "normalizedPriceUsd": 2.1587,
+    "walmartProductId": "13925187",
+    "path": "ingredients/0116_Pure_Maple_Syrup/ingredient.json"
+  },
+  {
+    "seedId": "ING-0117",
+    "name": "Plain Low-Fat Kefir",
+    "normalizedName": "plain low-fat kefir",
+    "measurementType": "liquid",
+    "basisUnit": "ml",
+    "normalizedPriceUsd": 0.4059,
+    "walmartProductId": "198295609",
+    "path": "ingredients/0117_Plain_Low_Fat_Kefir/ingredient.json"
+  },
+  {
+    "seedId": "ING-0118",
+    "name": "Fresh Bartlett Pears",
+    "normalizedName": "fresh bartlett pears",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.4387,
+    "walmartProductId": "47197248",
+    "path": "ingredients/0118_Fresh_Bartlett_Pears/ingredient.json"
+  },
+  {
+    "seedId": "ING-0119",
+    "name": "Dried Chia Seeds",
+    "normalizedName": "dried chia seeds",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 3.354,
+    "walmartProductId": "26968734",
+    "path": "ingredients/0119_Dried_Chia_Seeds/ingredient.json"
+  },
+  {
+    "seedId": "ING-0120",
+    "name": "Semolina Flour",
+    "normalizedName": "semolina flour",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.5409,
+    "walmartProductId": "1994651989",
+    "path": "ingredients/0120_Semolina_Flour/ingredient.json"
+  },
+  {
+    "seedId": "ING-0121",
+    "name": "Tahini",
+    "normalizedName": "tahini",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 3.3047,
+    "walmartProductId": "340131211",
+    "path": "ingredients/0121_Tahini/ingredient.json"
   }
 ]

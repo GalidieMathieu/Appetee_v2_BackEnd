@@ -1,4 +1,4 @@
-import { readdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { runValidation } from "../validation/validate.mjs";
@@ -40,6 +40,21 @@ function ingredientSql(items) {
     lines.push("");
   }
   return `${lines.join("\n")}\n`;
+}
+
+function referenceSql() {
+  return `-- GENERATED FILE. Source of truth: data/DATASET_SPEC.md and data/tools/shared/diet-compatibility.mjs
+INSERT INTO diets (id, name) VALUES
+  (1, 'Vegetarian'),
+  (2, 'Vegan'),
+  (3, 'Pescatarian'),
+  (4, 'Keto'),
+  (5, 'Paleo'),
+  (6, 'Flexitarian'),
+  (7, 'Gluten Free'),
+  (8, 'Lactose Free')
+ON DUPLICATE KEY UPDATE name = VALUES(name);
+`;
 }
 
 function instructionTitle(instruction) {
@@ -86,7 +101,7 @@ function distributionReport(validation) {
       "Add familiar Korean and other underrepresented cuisines while preserving source-domain diversity.",
       "Classify meal roles truthfully and track drift against the candidate plan's approximately 85% Main Meal and 15% combined other categories.",
       "Maintain Gluten Free and Lactose Free coverage using ingredient-level compatibility evidence.",
-      "Attempt exact source-page real photos first, list missing real images in research/image, and never use AI generation.",
+      "Keep new images pending during bulk growth and maintain both research/image owner handoff queues.",
     ],
   };
 }
@@ -97,20 +112,25 @@ async function main() {
   const ingredientItems = await records(path.join(dataDir, "ingredients"), "ingredient.json");
   const recipeItems = await records(path.join(dataDir, "recipes"), "recipe.json");
   const ingredientMap = new Map(ingredientItems.map((item) => [item.data.seedId, item.data]));
+  const sqlDir = path.join(dataDir, "generated", "sql");
+  const reportsDir = path.join(dataDir, "generated", "reports");
+  await mkdir(sqlDir, { recursive: true });
+  await mkdir(reportsDir, { recursive: true });
 
   const schemaSource = await readFile(path.join(repoDir, "scriptDatabase.sql"), "utf8");
   const badgeConstraint = "CHECK (badge IN ('High Protein', 'Low Calorie', 'Low Carb', 'High Fiber', 'Quick Meal', 'Meal Prep', 'Freezer Friendly', 'Budget Friendly', 'Few Ingredients'))";
   const schema = schemaSource.replace("CHECK (badge IN ('freezer-friendly', 'budget-focused', 'high-protein'))", badgeConstraint);
   if (schema === schemaSource) throw new Error("Could not locate the backend badge constraint while generating the dataset schema copy");
-  await writeFile(path.join(dataDir, "schema", "appeteeInitDatabase.sql"), `-- Dataset schema copy generated from repository scriptDatabase.sql.\n-- Dataset badge constraint expanded to the canonical DATASET_SPEC.md badge vocabulary.\n${schema}`);
-  await writeFile(path.join(dataDir, "ingredients", "IngredientInit.sql"), ingredientSql(ingredientItems));
-  await writeFile(path.join(dataDir, "recipes", "RecipeInit.sql"), recipeSql(recipeItems, ingredientMap));
+  await writeFile(path.join(sqlDir, "01-schema.sql"), `-- GENERATED FILE. Dataset schema copy generated from repository scriptDatabase.sql.\n-- Dataset badge constraint expanded to the canonical DATASET_SPEC.md badge vocabulary.\n${schema}`);
+  await writeFile(path.join(sqlDir, "02-reference.sql"), referenceSql());
+  await writeFile(path.join(sqlDir, "03-ingredients.sql"), ingredientSql(ingredientItems));
+  await writeFile(path.join(sqlDir, "04-recipes.sql"), recipeSql(recipeItems, ingredientMap));
 
   const ingredientIndex = ingredientItems.map(({ directory, data: item }) => ({ seedId: item.seedId, name: item.name, normalizedName: item.name.trim().toLowerCase(), measurementType: item.measurementType, basisUnit: item.normalizedNutrition.basisUnit, normalizedPriceUsd: item.normalizedPrice.usdPerBasis, walmartProductId: item.market.productId, path: `ingredients/${directory}/ingredient.json` }));
   const recipeIndex = recipeItems.map(({ directory, data: item }) => ({ seedId: item.seedId, name: item.name, normalizedName: item.name.trim().toLowerCase(), candidateSequence: item.candidate?.sequence ?? null, candidateSeedId: item.candidate?.seedId ?? null, ingredientSeedIds: item.ingredients.map((usage) => usage.ingredientSeedId).sort(), countryOfOrigin: item.countryOfOrigin, sourceDomain: item.source.domain, discovery: item.discovery, studentAthleteTarget: item.studentAthleteTarget, totalMinutes: item.times.totalMinutes, mealType: item.mealType, mealCategory: item.mealCategory, cookingMethod: item.cookingMethod, primaryProtein: item.primaryProtein, carbohydrateBase: item.carbohydrateBase, diets: item.diets, badges: item.badges, costPerServingUsd: item.calculatedCost.perServingUsd, path: `recipes/${directory}/recipe.json` }));
   await writeFile(path.join(dataDir, "ingredients", "index.json"), json(ingredientIndex));
   await writeFile(path.join(dataDir, "recipes", "index.json"), json(recipeIndex));
-  await writeFile(path.join(dataDir, "distribution-report.json"), json(distributionReport(validation)));
+  await writeFile(path.join(reportsDir, "distribution.json"), json(distributionReport(validation)));
   await syncImageQueues();
   process.stdout.write(`Generated schema, SQL, indexes, and distributions for ${recipeItems.length} recipes.\n`);
 }
