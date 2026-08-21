@@ -5,7 +5,6 @@ import { fileURLToPath, pathToFileURL } from "node:url";
 import sharp from "sharp";
 import { allowedDietNames, deriveRestrictionDiets, derivedDietNames } from "../shared/diet-compatibility.mjs";
 import { allowedMealCategoryNames, mainMealTargetPercentage, nonMainMealTargetPercentage } from "../shared/meal-categories.mjs";
-import { loadCandidates } from "../generation/candidate-progress.mjs";
 
 const toolDir = path.dirname(fileURLToPath(import.meta.url));
 const dataDir = path.resolve(toolDir, "..", "..");
@@ -97,8 +96,6 @@ export async function runValidation({ writeReport = true } = {}) {
   };
   const ingredientFiles = await loadRecords(path.join(dataDir, "ingredients"), "ingredient.json");
   const recipeFiles = await loadRecords(path.join(dataDir, "recipes"), "recipe.json");
-  const candidates = await loadCandidates();
-  const candidateBySequence = new Map(candidates.map((candidate) => [candidate.sequence, candidate]));
   const completedCandidateSequences = new Set();
   const ingredientMap = new Map();
   const ingredientImageHashes = new Map();
@@ -148,14 +145,12 @@ export async function runValidation({ writeReport = true } = {}) {
     const recipeSequence = Number(value.seedId?.slice(4));
     if (recipeSequence >= 117 || value.candidate) {
       const sequence = value.candidate?.sequence;
-      const candidate = candidateBySequence.get(sequence);
-      if (!Number.isInteger(sequence) || !candidate) error(report, "RECIPE_CANDIDATE", "Missing or unknown candidate sequence", value.seedId);
-      else {
+      if (!Number.isInteger(sequence) || sequence < 1 || !/^REC-CAND-\d{4}$/u.test(value.candidate?.seedId ?? "") || value.candidate?.name !== value.name) {
+        error(report, "RECIPE_CANDIDATE", "Missing or invalid embedded candidate provenance", value.seedId);
+      } else {
         report.counts.candidateRecipes += 1;
         if (completedCandidateSequences.has(sequence)) error(report, "DUPLICATE_CANDIDATE_RECIPE", `Candidate ${sequence} is used by multiple recipes`, value.seedId);
         completedCandidateSequences.add(sequence);
-        if (value.candidate.seedId !== candidate.seedId || value.candidate.name !== candidate.name || value.name !== candidate.name) error(report, "RECIPE_CANDIDATE_MISMATCH", `Expected ${candidate.seedId} / ${candidate.name}`, value.seedId);
-        if (value.mealCategory !== candidate.mealCategory) warning(report, "CANDIDATE_CATEGORY_CORRECTED", `Candidate ${sequence} intended ${candidate.mealCategory}; researched recipe uses ${value.mealCategory}`, value.seedId);
       }
     }
     if (!Array.isArray(value.ingredients) || value.ingredients.length === 0) error(report, "ZERO_INGREDIENTS", "Recipe has no ingredients", value.seedId);

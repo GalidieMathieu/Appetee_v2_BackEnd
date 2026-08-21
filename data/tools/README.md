@@ -1,31 +1,69 @@
 # Dataset Tools
 
-Run commands from this directory:
+Run commands from `Backend/data/tools`.
+
+## Primary workflow
 
 ```powershell
 npm install
-npm run images:queue
-npm run images:source
-npm run images:related
-npm run validate
-npm run build
-npm run candidate:status
-npm run checkpoint
+npm run db:reset:local
 ```
 
-Bulk dataset runs use `images:queue` or `build` and leave new image work to the repository owner. `images:source` and `images:related` are retained for explicitly requested dedicated image passes; accepted results still require visual review.
+The reset validates and regenerates the dataset before dropping anything, recreates the local database from the fixed SQL files, and runs read-only verification afterward.
 
-- `generation/acquire-batch-0001.mjs` contains the reproducible first-batch acquisition adapter.
-- `generation/add-restriction-diets.mjs` backfills ingredient compatibility and derives Gluten Free/Lactose Free recipe diets.
-- `shared/diet-compatibility.mjs` and `shared/meal-categories.mjs` are canonical rules imported by acquisition, generation, and validation.
-- `generation/generate.mjs` validates JSON before generating the ordered files in `generated/sql/`, indexes, reports, and image queues. Generated outputs must not be edited manually.
-- `generation/candidate-progress.mjs` verifies the immutable candidate-file hash and derives the completed/skipped/unresolved cursor.
-- `validation/validate.mjs` independently recalculates nutrition, cost, badges, restriction diets, identities, references, assets, and diversity.
-- `image-processing/sync-image-queues.mjs` maintains the two pending image handoff files.
-- `image-processing/acquire-source-assets.mjs` attempts exact source/product-page real photos and records honest private/test-use provenance; accepted downloads still require visual dish review.
-- `image-processing/acquire-related-recipe-assets.mjs` finds distinct related real-food photographs for pending recipes, supports Bing or DuckDuckGo plus simplified dish-form retries, rejects exact and perceptual duplicates, preserves discovery/original URLs, and records unverified private/test-use provenance.
-- `generation/checkpoint.mjs` refuses invalid data and updates all persistent resume metadata.
+It accepts only `localhost`, `127.0.0.1`, or `::1` when the database name is exactly `appetee`. Remote hosts, other database names, and bypass arguments such as `--force` are rejected before SQL. Do not run two resets concurrently.
 
-The application does not need to be started for dataset generation or validation.
+Configuration is read from `ConnectionStrings__AppeteeDb`, then `src/Appetee.Api/appsettings.Development.json`, then `src/Appetee.Api/appsettings.json`. Output contains only the redacted `host:port/database` target.
 
-`database/` and `deployment/` are reserved integration boundaries. Dataset tools currently generate artifacts only; they do not reset a database or deploy/synchronize Azure resources.
+## Commands
+
+```powershell
+# Install pinned tooling dependencies
+npm install
+
+# Test the tooling without changing canonical data or MySQL
+npm test
+
+# Validate canonical JSON, calculations, relationships, and AVIF assets
+npm run validate
+
+# Validate, then regenerate indexes, reports, and SQL
+npm run build
+
+# Destructively rebuild only the guarded local appetee database
+npm run db:reset:local
+
+# Verify the existing local database without changing it
+npm run db:verify:local
+
+# Read-only Azure preflight and synchronization plan
+npm run images:sync:azure -- --dry-run
+
+# Upload missing/changed dataset assets, then verify
+npm run images:sync:azure
+
+# Verify Azure dataset assets without changing them
+npm run images:verify:azure
+```
+
+`db:reset:local` already runs `validate` and `build`. The individual commands are useful for dataset/tooling maintenance that does not need a MySQL rebuild.
+
+## Maintained modules
+
+- `validation/validate.mjs` validates the complete stable dataset.
+- `generation/generate.mjs` produces indexes, distribution/validation reports, and the four ordered SQL files.
+- `shared/diet-compatibility.mjs` and `shared/meal-categories.mjs` own reusable classification rules.
+- `shared/blob-names.mjs` owns deterministic dataset Blob names.
+- `shared/tool-config.mjs` owns BOM-safe layered configuration without exposing secrets.
+- `database/mysql-local.mjs` owns connection parsing, the immutable safety guard, and fixed SQL execution.
+- `database/reset-local.mjs` orchestrates the explicit destructive local reset.
+- `database/verify-local.mjs` performs reusable SELECT-only verification.
+- `shared/dataset-assets.mjs` builds the contained, hashed canonical AVIF inventory.
+- `deployment/azure-blobs.mjs` owns Azure clients, prefix listing, classification, upload metadata, access safety, and bounded workers.
+- `deployment/sync-azure-images.mjs` provides dry-run and idempotent synchronization with automatic post-sync verification.
+- `deployment/verify-azure-images.mjs` provides separate read-only Azure verification.
+- `test/` covers deterministic naming, generation, configuration, local/Azure safety, workflow ordering, hashing, classification, and concurrency.
+
+Historical batch generators, acquisition adapters, image staging, candidate cursors, and checkpoint tooling were retired with the finalized mock dataset.
+
+Azure media synchronization remains separate from database commands. It requires Node.js 22+, `DefaultAzureCredential` (normally `az login` locally), an existing container, and Blob data access. The normal target comes from development/base appsettings; environment variables are optional overrides. See `deployment/README.md`. The configured `appetee-images-dev` container was verified private with all 3,519 assets present on 2026-08-21.

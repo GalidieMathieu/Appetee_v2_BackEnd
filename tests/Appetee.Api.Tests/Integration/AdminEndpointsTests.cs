@@ -578,6 +578,23 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     }
 
     [Fact]
+    public async Task UpdateRecipeDetails_ClearsStaleCardImageWhenMainImageIsReplaced()
+    {
+        await Factory.Database.ExecuteAsync(
+            "UPDATE recipes SET card_image_blob_name = 'dataset/recipes/REC-0001/card.avif' WHERE id = 1;");
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
+        using var content = MultipartContentBuilder.CreateRecipeRequest();
+
+        var response = await client.PutAsync("/api/admin/recipe-details/1", content);
+        var cardBlobName = await Factory.Database.QuerySingleOrDefaultAsync<string>(
+            "SELECT card_image_blob_name FROM recipes WHERE id = 1;");
+
+        Assert.Equal(HttpStatusCode.OK, response.StatusCode);
+        Assert.Null(cardBlobName);
+    }
+
+    [Fact]
     public async Task UpdateRecipeDetails_PreservesReorderedInstructionSequence()
     {
         var expectedInstructions = new[]

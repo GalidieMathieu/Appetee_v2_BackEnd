@@ -1,5 +1,29 @@
 # Dataset Package Changelog
 
+## 0.6.0 acceptance — End-to-end bootstrap and Azure verification
+
+- Verified validation, generation, destructive local reset, read-only database verification, tooling tests, and backend tests against the finalized dataset.
+- Verified the configured `appetee-images-dev` container as non-anonymous/private and confirmed all 3,519 deterministic assets with no missing, changed, mismatched, or extra managed Blobs.
+- Confirmed Azure idempotency with an immediate second synchronization reporting zero uploads and zero updates.
+- Started the backend against the reset database and verified recipe list card URLs, recipe detail main URLs, and ingredient image URLs resolve to the expected deterministic Blob names.
+- Updated the operator runbooks so the normal commands use development appsettings without requiring redundant Azure environment variables.
+
+## 0.6.0 maintenance — Azure dataset-media synchronization
+
+- Added canonical AVIF inventory preflight with path-containment, regular-file, extension, approval-state, and SHA-256 checks.
+- Added `DefaultAzureCredential`-based synchronization and read-only verification for deterministic `dataset/` Blob names.
+- Added hash/metadata/content-type classification, eight-worker bounded upload, dry-run behavior, automatic post-sync verification, and non-deleting remote-extra reporting.
+- Added a mandatory guard that rejects all current private/test-only media when the configured container permits anonymous access; the live dry run verified this guard against `recipe-images` before any write.
+- Added automated Azure workflow tests and the operator runbook without modifying canonical records or media.
+
+## 0.6.0 maintenance — Final development dataset cleanup
+
+- Kept all 121 canonical ingredient records, 1,699 canonical recipe records, and their record-local AVIF assets unchanged.
+- Retired completed acquisition candidates, workflow/checkpoint state, fixtures, research caches and staging images, image manifests, historical snapshot ZIPs, and one-off acquisition/migration scripts.
+- Reduced the maintained tool surface to validation, deterministic generation, tests, and guarded local database reset/verification.
+- Replaced the growth-oriented operator documentation and specification with the stable finalized-dataset workflow.
+- Preserved the generated SQL and useful validation/distribution reports, then regenerated and verified them against the unchanged canonical records.
+
 ## 0.6.0 — Data workspace reorganization
 
 - Preserved all canonical ingredient and recipe JSON records while separating candidates, workflow state, fixtures, generated artifacts, research, and tools into explicit top-level responsibilities.
