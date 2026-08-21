@@ -1,3 +1,0 @@
-requests>=2.32,<3
-Pillow>=11,<13
-pillow-avif-plugin>=1.5,<2

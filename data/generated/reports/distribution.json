@@ -2,7 +2,7 @@
   "generatedAt": "2026-08-10T12:00:00-06:00",
   "recipeCount": 1699,
   "ingredientCount": 121,
-  "progressiveTargets": {
+  "diversitySummary": {
     "studentAthlete": {
       "count": 456,
       "percentage": 26.8,
@@ -335,13 +335,5 @@
       "premium": 306,
       "upper-budget": 203
     }
-  },
-  "nextBatchPriorityGaps": [
-    "Add air-fryer, slow-cooker, grill, microwave, and additional no-cook recipes to reduce stovetop concentration.",
-    "Continue non-chicken athlete proteins including pork, tempeh, beans, and additional fish.",
-    "Add familiar Korean and other underrepresented cuisines while preserving source-domain diversity.",
-    "Classify meal roles truthfully and track drift against the candidate plan's approximately 85% Main Meal and 15% combined other categories.",
-    "Maintain Gluten Free and Lactose Free coverage using ingredient-level compatibility evidence.",
-    "Keep new images pending during bulk growth and maintain both research/image owner handoff queues."
-  ]
+  }
 }

@@ -4,7 +4,7 @@ internal static class RecipeSql
         SELECT
             r.id                         AS Id,
             r.name                       AS Name,
-            r.image_blob_name            AS ImageBlobName,
+            COALESCE(r.card_image_blob_name, r.image_blob_name) AS ImageBlobName,
             r.prep_time_minutes          AS PrepTimeMinutes,
             r.servings                   AS Servings,
             r.difficulty                 AS Difficulty,
@@ -42,6 +42,7 @@ internal static class RecipeSql
         INSERT INTO recipes (
             name,
             image_blob_name,
+            card_image_blob_name,
             instructions,
             prep_time_minutes,
             servings,
@@ -54,6 +55,7 @@ internal static class RecipeSql
         VALUES (
             @Name,
             @ImageBlobName,
+            NULL,
             @InstructionsJson,
             @PrepTimeMinutes,
             @Servings,
@@ -95,6 +97,7 @@ internal static class RecipeSql
         SET
             name = @Name,
             image_blob_name = @ImageBlobName,
+            card_image_blob_name = CASE WHEN @ClearCardImage THEN NULL ELSE card_image_blob_name END,
             instructions = @InstructionsJson,
             prep_time_minutes = @PrepTimeMinutes,
             servings = @Servings,

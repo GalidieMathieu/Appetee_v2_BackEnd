@@ -172,6 +172,7 @@ namespace Appetee.Infrastructure.Recipes
                             Id = id,
                             request.Name,
                             ImageBlobName = nextImageBlobName,
+                            ClearCardImage = !string.IsNullOrWhiteSpace(newBlobName),
                             InstructionsJson = SerializeInstructions(request.Instructions),
                             request.PrepTimeMinutes,
                             request.Servings,

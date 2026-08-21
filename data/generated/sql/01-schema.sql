@@ -61,6 +61,7 @@
 		id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
 		name VARCHAR(255) NOT NULL,
 		image_blob_name VARCHAR(500) NULL,
+		card_image_blob_name VARCHAR(500) NULL,
 		instructions JSON NOT NULL,
 		prep_time_minutes INT NOT NULL,
 		servings INT NOT NULL,

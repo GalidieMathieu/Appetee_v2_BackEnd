@@ -44,6 +44,33 @@ public sealed class RecipesEndpointsTests : IntegrationTestBase
     }
 
     [Fact]
+    public async Task GetRecipes_UsesCardImageAndFallsBackToMainImage()
+    {
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
+        const string cardBlobName = "dataset/recipes/REC-0001/card.avif";
+        var mainBlobName = await Factory.Database.QuerySingleOrDefaultAsync<string>(
+            "SELECT image_blob_name FROM recipes WHERE id = 1;");
+
+        await Factory.Database.ExecuteAsync(
+            "UPDATE recipes SET card_image_blob_name = @cardBlobName WHERE id = 1;",
+            new { cardBlobName });
+
+        var withCard = await client.GetFromJsonAsync<List<RecipeSummaryDto>>("/api/recipes");
+
+        Assert.NotNull(withCard);
+        Assert.Equal($"https://test.local/{cardBlobName}", withCard!.Single(recipe => recipe.Id == 1).ImageUrl);
+
+        await Factory.Database.ExecuteAsync(
+            "UPDATE recipes SET card_image_blob_name = NULL WHERE id = 1;");
+
+        var withoutCard = await client.GetFromJsonAsync<List<RecipeSummaryDto>>("/api/recipes");
+
+        Assert.NotNull(withoutCard);
+        Assert.Equal($"https://test.local/{mainBlobName}", withoutCard!.Single(recipe => recipe.Id == 1).ImageUrl);
+    }
+
+    [Fact]
     public async Task GetRecipe_ReturnsBadRequest_WhenIdIsZero()
     {
         var (authClient, _) = await CreateAuthenticatedClientAsync();

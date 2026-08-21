@@ -2,7 +2,11 @@ import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { runValidation } from "../validation/validate.mjs";
-import { syncImageQueues } from "../image-processing/sync-image-queues.mjs";
+import {
+  getIngredientImageBlobName,
+  getRecipeCardImageBlobName,
+  getRecipeMainImageBlobName,
+} from "../shared/blob-names.mjs";
 
 const toolDir = path.dirname(fileURLToPath(import.meta.url));
 const dataDir = path.resolve(toolDir, "..", "..");
@@ -21,10 +25,10 @@ async function records(root, jsonName) {
   return output;
 }
 
-function ingredientSql(items) {
+export function ingredientSql(items) {
   const lines = [
     "-- GENERATED FILE. Source of truth: data/ingredients/*/ingredient.json",
-    "-- The image path is the known-valid development seed placeholder from initObjectDatabase.sql.",
+    "-- Image Blob names are derived deterministically from canonical ingredient seed IDs.",
     "USE appetee;",
     "SET NAMES utf8mb4;",
     "",
@@ -32,7 +36,7 @@ function ingredientSql(items) {
   for (const { data: item } of items) {
     const n = item.normalizedNutrition.values;
     lines.push(`-- ${item.seedId} ${item.name}`);
-    lines.push(`INSERT INTO ingredients (name, image_blob_name) VALUES (${sqlString(item.name)}, 'ingredients/chicken-breast-seed.avif') ON DUPLICATE KEY UPDATE image_blob_name = VALUES(image_blob_name);`);
+    lines.push(`INSERT INTO ingredients (name, image_blob_name) VALUES (${sqlString(item.name)}, ${sqlString(getIngredientImageBlobName(item.seedId))}) ON DUPLICATE KEY UPDATE image_blob_name = VALUES(image_blob_name);`);
     lines.push(`SET @ingredient_id := (SELECT id FROM ingredients WHERE name = ${sqlString(item.name)} LIMIT 1);`);
     lines.push("INSERT INTO ingredient_nutrition (ingredient_id, basis, basis_unit, calories_kcal, price, protein_g, fat_g, carbs_g, sugar_g, fiber_g, sodium_mg, vitamin_c_mg, iron_mg)");
     lines.push(`VALUES (@ingredient_id, 100.00, ${sqlString(item.normalizedNutrition.basisUnit)}, ${sqlNumber(n.calories)}, ${sqlNumber(item.normalizedPrice.usdPerBasis)}, ${sqlNumber(n.proteinG)}, ${sqlNumber(n.fatG)}, ${sqlNumber(n.carbohydratesG)}, ${sqlNumber(n.sugarsG)}, ${sqlNumber(n.fiberG)}, ${sqlNumber(n.sodiumMg)}, ${sqlNumber(n.vitaminCMg)}, ${sqlNumber(n.ironMg)})`);
@@ -62,11 +66,11 @@ function instructionTitle(instruction) {
   return /[.!?]$/u.test(firstSentence) ? firstSentence : `${firstSentence}.`;
 }
 
-function recipeSql(items, ingredientMap) {
+export function recipeSql(items, ingredientMap) {
   const lines = [
     "-- GENERATED FILE. Source of truth: data/recipes/*/recipe.json",
     "-- prep_time_minutes stores mandatory preparation + cooking time because the current schema has one time column.",
-    "-- The image path is the requested stable recipe seed blob name.",
+    "-- Main and card image Blob names are derived deterministically from canonical recipe seed IDs.",
     "USE appetee;",
     "SET NAMES utf8mb4;",
     "",
@@ -74,8 +78,8 @@ function recipeSql(items, ingredientMap) {
   for (const { data: item } of items) {
     const instructions = item.instructions.map((instruction) => ({ title: instructionTitle(instruction), instruction }));
     lines.push(`-- ${item.seedId} ${item.name}`);
-    lines.push("INSERT INTO recipes (name, image_blob_name, instructions, prep_time_minutes, servings, difficulty, estimated_cost_per_serving, calories_total, protein_total, carbs_total, created_at, updated_at)");
-    lines.push(`VALUES (${sqlString(item.name)}, 'recipes/96ef8a25a7f4433e936a40e6aa6e33c0.avif', CAST(${sqlString(JSON.stringify(instructions))} AS JSON), ${item.times.totalMinutes}, ${item.servings}, ${sqlString(item.difficulty)}, ${sqlNumber(item.calculatedCost.perServingUsd)}, ${sqlNumber(item.calculatedNutrition.total.calories)}, ${sqlNumber(item.calculatedNutrition.total.proteinG)}, ${sqlNumber(item.calculatedNutrition.total.carbohydratesG)}, ${sqlString(item.createdAt.slice(0, 19).replace("T", " "))}, ${sqlString(item.createdAt.slice(0, 19).replace("T", " "))});`);
+    lines.push("INSERT INTO recipes (name, image_blob_name, card_image_blob_name, instructions, prep_time_minutes, servings, difficulty, estimated_cost_per_serving, calories_total, protein_total, carbs_total, created_at, updated_at)");
+    lines.push(`VALUES (${sqlString(item.name)}, ${sqlString(getRecipeMainImageBlobName(item.seedId))}, ${sqlString(getRecipeCardImageBlobName(item.seedId))}, CAST(${sqlString(JSON.stringify(instructions))} AS JSON), ${item.times.totalMinutes}, ${item.servings}, ${sqlString(item.difficulty)}, ${sqlNumber(item.calculatedCost.perServingUsd)}, ${sqlNumber(item.calculatedNutrition.total.calories)}, ${sqlNumber(item.calculatedNutrition.total.proteinG)}, ${sqlNumber(item.calculatedNutrition.total.carbohydratesG)}, ${sqlString(item.createdAt.slice(0, 19).replace("T", " "))}, ${sqlString(item.createdAt.slice(0, 19).replace("T", " "))});`);
     lines.push("SET @recipe_id := LAST_INSERT_ID();");
     for (const usage of item.ingredients) {
       const ingredient = ingredientMap.get(usage.ingredientSeedId);
@@ -93,20 +97,12 @@ function distributionReport(validation) {
     generatedAt: validation.generatedAt,
     recipeCount: validation.counts.recipes,
     ingredientCount: validation.counts.ingredients,
-    progressiveTargets: validation.diversityTargets,
+    diversitySummary: validation.diversityTargets,
     distributions: validation.distributions,
-    nextBatchPriorityGaps: [
-      "Add air-fryer, slow-cooker, grill, microwave, and additional no-cook recipes to reduce stovetop concentration.",
-      "Continue non-chicken athlete proteins including pork, tempeh, beans, and additional fish.",
-      "Add familiar Korean and other underrepresented cuisines while preserving source-domain diversity.",
-      "Classify meal roles truthfully and track drift against the candidate plan's approximately 85% Main Meal and 15% combined other categories.",
-      "Maintain Gluten Free and Lactose Free coverage using ingredient-level compatibility evidence.",
-      "Keep new images pending during bulk growth and maintain both research/image owner handoff queues.",
-    ],
   };
 }
 
-async function main() {
+export async function main() {
   const validation = await runValidation({ writeReport: true });
   if (!validation.valid) throw new Error(`SQL generation refused: validation has ${validation.errors.length} critical errors`);
   const ingredientItems = await records(path.join(dataDir, "ingredients"), "ingredient.json");
@@ -131,8 +127,9 @@ async function main() {
   await writeFile(path.join(dataDir, "ingredients", "index.json"), json(ingredientIndex));
   await writeFile(path.join(dataDir, "recipes", "index.json"), json(recipeIndex));
   await writeFile(path.join(reportsDir, "distribution.json"), json(distributionReport(validation)));
-  await syncImageQueues();
   process.stdout.write(`Generated schema, SQL, indexes, and distributions for ${recipeItems.length} recipes.\n`);
 }
 
-main().catch((error) => { process.stderr.write(`${error.stack ?? error}\n`); process.exitCode = 1; });
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  main().catch((error) => { process.stderr.write(`${error.stack ?? error}\n`); process.exitCode = 1; });
+}

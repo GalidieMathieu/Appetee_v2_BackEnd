@@ -5,26 +5,6 @@
   "errors": [],
   "warnings": [
     {
-      "code": "CANDIDATE_CATEGORY_CORRECTED",
-      "message": "Candidate 14 intended Main Meal; researched recipe uses Small Meal",
-      "record": "REC-0126"
-    },
-    {
-      "code": "CANDIDATE_CATEGORY_CORRECTED",
-      "message": "Candidate 25 intended Main Meal; researched recipe uses Small Meal",
-      "record": "REC-0135"
-    },
-    {
-      "code": "CANDIDATE_CATEGORY_CORRECTED",
-      "message": "Candidate 46 intended Main Meal; researched recipe uses Small Meal",
-      "record": "REC-0155"
-    },
-    {
-      "code": "CANDIDATE_CATEGORY_CORRECTED",
-      "message": "Candidate 54 intended Main Meal; researched recipe uses Small Meal",
-      "record": "REC-0162"
-    },
-    {
       "code": "POSSIBLE_RECIPE_DUPLICATE",
       "message": "REC-0009 and REC-1148 share 0.86 ingredient Jaccard similarity",
       "record": null

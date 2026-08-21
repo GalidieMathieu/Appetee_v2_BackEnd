@@ -2,19 +2,22 @@
   "name": "appetee-dataset-tools",
   "private": true,
   "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "scripts": {
+    "test": "node --test test/*.test.mjs",
     "build": "node generation/generate.mjs",
-    "migrate:meal-category": "node generation/add-meal-category.mjs",
-    "migrate:restriction-diets": "node generation/add-restriction-diets.mjs",
-    "validate": "node validation/validate.mjs",
-    "images": "node image-processing/build-assets.mjs",
-    "images:source": "node image-processing/acquire-source-assets.mjs",
-    "images:related": "node image-processing/acquire-related-recipe-assets.mjs",
-    "images:queue": "node image-processing/sync-image-queues.mjs",
-    "checkpoint": "node generation/checkpoint.mjs",
-    "candidate:status": "node generation/candidate-progress.mjs"
+    "db:reset:local": "node database/reset-local.mjs",
+    "db:verify:local": "node database/verify-local.mjs",
+    "images:sync:azure": "node deployment/sync-azure-images.mjs",
+    "images:verify:azure": "node deployment/verify-azure-images.mjs",
+    "validate": "node validation/validate.mjs"
   },
   "dependencies": {
+    "@azure/identity": "^4.13.2",
+    "@azure/storage-blob": "^12.33.0",
+    "mysql2": "^3.23.4",
     "sharp": "0.35.3"
   }
 }

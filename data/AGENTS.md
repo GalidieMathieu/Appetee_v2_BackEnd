@@ -1,169 +1,78 @@
-# Appetee Dataset — AGENTS.md
+# Appetee Development Dataset — Agent Rules
 
-## Mission
+## Purpose
 
-Build and maintain the realistic Appetee development dataset under this `data/` directory.
+This directory contains the finalized development/mock dataset used by Appetee. Treat the canonical ingredient and recipe records as stable application inputs, not as an active bulk-acquisition project.
 
-The target is at least 2,000 high-quality validated recipes, with quality and realism taking precedence over hitting an arbitrary count.
+## Source of truth
 
-## Required Context
+- `ingredients/*/ingredient.json` and `recipes/*/recipe.json` are authoritative.
+- Record-local AVIF files under `assets/` are authoritative media.
+- `ingredients/index.json`, `recipes/index.json`, `generated/sql/`, and `generated/reports/` are reproducible outputs.
+- Never repair a generated file without repairing its canonical source or generator.
 
-Before changing dataset content:
+## Required context
 
-1. Read `DATASET_SPEC.md`.
-2. Read `workflow/progress.json`.
-3. Read `workflow/RESUME.md`.
-4. Read `generated/reports/validation.json`.
-5. Use `ingredients/index.json` and `recipes/index.json` for lookup when they exist; do not load the entire dataset into context.
+Before changing canonical records or dataset tooling, read:
 
-`DATASET_SPEC.md` is the canonical dataset contract. This file only defines permanent working rules.
+1. `README.md`;
+2. `DATASET_SPEC.md`;
+3. `generated/reports/validation.json`.
 
-## Scope
+Use the lightweight indexes for lookup instead of loading the full corpus when possible.
 
-Dataset work may create or change:
+## Change boundaries
 
-- dataset JSON source records;
-- generated seed SQL;
-- dataset manifests/indexes;
-- validators and generators under `tools/`;
-- local AVIF assets;
-- dataset documentation/checkpoints;
-- schema seed copies needed by the dataset contract.
+Preserve the existing 1,699 recipes and 121 ingredients unless the user explicitly requests a canonical-data correction. Do not restart bulk acquisition, reconstruct deleted research queues, or introduce checkpoint/candidate workflows.
 
-Do not independently implement:
+Allowed maintenance includes:
 
-- Recipe Discovery API;
-- frontend screens;
-- Redis;
-- authentication;
-- users/favorites;
-- meal-plan algorithms;
-- Azure deployment.
+- correcting a verified canonical-data defect;
+- maintaining validation and deterministic generation;
+- maintaining local database bootstrap/verification;
+- maintaining deterministic dataset media deployment;
+- updating generated artifacts after an approved source change.
 
-If a schema change is needed for the approved dataset, document it clearly. Do not opportunistically refactor unrelated backend code.
+Do not independently implement unrelated API, frontend, authentication, recommendation, or meal-planning behavior from this directory.
 
-## Diversity-First Rule
+## Validation and generation
 
-Every intermediate corpus must already be useful and representative.
+Run from `data/tools`:
 
-Before every batch, inspect current distributions and report material drift. Candidate selection itself follows the ordered candidate file below; do not invent, reorder, or cherry-pick names to repair a distribution.
+```powershell
+npm test
+npm run validate
+npm run build
+```
 
-The first 500 recipes must be a diverse standalone development dataset, not merely the first quarter of a future corpus.
+For a local database rebuild:
 
-Maintain the approved approximate targets progressively:
+```powershell
+npm run db:reset:local
+```
 
-- ~30% student-athlete-oriented;
-- ~25% Meal Prep so the final 2,000 reaches at least 500;
-- ~10% Discovery;
-- ~90% familiar/relevant to US users;
-- ~85% Main Meal and ~15% all other meal categories combined, as planned by the candidate list.
+For Azure dataset-media deployment, run a dry run first and use only an existing non-anonymous development container:
 
-## Ordered Recipe Candidates
+```powershell
+npm run images:sync:azure -- --dry-run
+npm run images:sync:azure
+npm run images:verify:azure
+```
 
-`candidates/recipe-names.json` is the immutable ordered planning source for recipe names while unused candidates remain.
+Never add a public-access, licensing, credential, deletion, or container-creation bypass.
 
-For a normal acquisition run:
+The reset is intentionally destructive only to local hosts with the exact database name `appetee`. Never weaken or bypass that guard.
 
-1. validate the current checkpoint;
-2. read `workflow/progress.json.candidateAcquisition.nextCandidateSequence`;
-3. process candidates in ascending sequence without reordering;
-4. research a real, substantially matching public recipe for each name;
-5. skip semantic duplicates and record their sequence/reason;
-6. record candidates that cannot yet be sourced as unresolved and continue;
-7. persist every completed recipe's candidate sequence and update the cursor at checkpoint.
+## Integrity rules
 
-The candidate name is the acquisition target. Its suggested metadata is not factual authority: verify country, cuisine, meal timing/category, athlete status, Meal Prep, Discovery, diets, badges, method, nutrition, and cost from the researched recipe and canonical rules. Do not modify `candidates/recipe-names.json` during normal generation.
+- Stable IDs retain the `ING-####` and `REC-####` formats.
+- JSON remains canonical; SQL remains generated.
+- Recipe ingredient references must resolve to canonical ingredient seed IDs.
+- Nutrition, cost, diet, badge, measurement, and asset validation must continue to pass.
+- Deterministic Blob names must remain derived from seed IDs.
+- Preserve factual source, product, nutrition, and image provenance.
+- Never promote `productionApproved: false` media into an anonymously public storage boundary.
 
-Do not increase recipe count with repetitive low-value variants.
+## Completion gate
 
-## Source of Truth
-
-- JSON is authoritative.
-- SQL is generated from JSON.
-- Never fix generated SQL without fixing the JSON source.
-- Recipe JSON references ingredients by stable seed identifiers.
-- Folder sequence numbers are human dataset identifiers and do not need to equal MySQL AUTO_INCREMENT IDs.
-
-## Research Integrity
-
-Never fabricate:
-
-- recipe source URLs;
-- Walmart product URLs/IDs;
-- Walmart prices;
-- package sizes;
-- nutrition values;
-- image licenses;
-- country provenance.
-
-Use live public sources when researching. Prefer Walmart Supercenter #3789, 1959 Wall Ave, Ogden, UT 84401 for Walmart price/product context.
-
-If required data cannot be verified, use an approved documented fallback or reject the candidate.
-
-Do not bypass authentication, paywalls, access controls, anti-bot controls, or technical restrictions.
-
-## Batch Rule
-
-Work toward approximately 200 recipes per checkpoint unless the current user instruction specifies another size. The mandatory stop-before-failure protocol permits and requires a smaller fully valid partial checkpoint when the full target is unsafe.
-
-A recipe is complete only when:
-
-- every ingredient reference resolves;
-- required ingredient data exists;
-- source provenance exists;
-- measurements normalize correctly;
-- nutrition and cost calculations validate;
-- diets/badges validate;
-- required asset state is valid;
-- JSON validates;
-- SQL has been regenerated;
-- indexes/manifests and checkpoint files are updated.
-
-Every recipe must set both `mealType` (`Breakfast`, `Lunch`, or `Dinner`) and `mealCategory` (`Main Meal`, `Small Meal`, `Snack`, `Side`, `Meal Component`, `Dessert`, or `Drink`). Respect the candidate's intended category unless the researched dish proves it inaccurate; the candidate plan targets approximately 85% Main Meal and 15% combined other roles. A missing image may use the documented explicit pending state.
-
-Every ingredient must explicitly set `dietCompatibility.glutenFree` and `dietCompatibility.lactoseFree` from exact product evidence or a conservative documented classification. Every recipe must derive `Gluten Free` and `Lactose Free` from all referenced ingredients; do not assign either restriction diet from a recipe title or cuisine assumption.
-
-Image acquisition is handled separately by the repository owner during bulk dataset growth. Bulk runs must not search for, download, or generate recipe or ingredient images unless the user explicitly requests a dedicated image task. New records remain explicitly pending with `aiGenerated: false` and no local AVIF paths. Every build/checkpoint must rebuild `research/image/recipes.json` with each pending recipe's name and source URL and `research/image/ingredients.json` with each pending ingredient's name and Walmart product URL. During a dedicated recipe-image pass, prefer exact source photos, then visually audited related real-food searches from independent providers or simplified dish-form queries; reject non-food/promotional results and perceptual duplicates. AI is the final fallback only after those real-image paths are genuinely exhausted. Preserve completed assets and honest provenance without modifying them.
-
-Do not begin another batch if available context, tool allowance, or usage appears insufficient to safely finish it.
-
-## Mandatory Stop-Before-Failure Protocol
-
-When resources are becoming insufficient:
-
-1. Finish the current safe record/batch if possible.
-2. Run validation.
-3. Regenerate SQL and lightweight indexes.
-4. Update `version.json`.
-5. Update `generated/reports/validation.json`.
-6. Update `workflow/progress.json`.
-7. Update `workflow/RESUME.md` with exact next steps.
-8. Create a ZIP snapshot named with the actual completed recipe count.
-9. Stop cleanly.
-
-A valid partial dataset is always preferred to a broken larger one.
-
-Never knowingly leave a half-written recipe or ingredient as a completed record.
-
-## Context Efficiency
-
-- Use indexes/manifests rather than rereading thousands of JSON files.
-- Reuse canonical ingredients instead of researching the same product repeatedly.
-- Read only records needed for the current batch.
-- Write large artifacts directly to files instead of printing them into chat.
-- Keep status updates concise.
-
-## Completion Gate
-
-Final completion requires at minimum:
-
-- 2,000 valid recipes;
-- 500 recipes with the Meal Prep badge;
-- approximately 30% student-athlete-oriented recipes;
-- approximately 10% discovery recipes;
-- zero broken ingredient references;
-- zero duplicate canonical ingredients;
-- zero missing mandatory price/calorie/protein data;
-- zero calculation mismatches.
-
-The validator and `DATASET_SPEC.md` define the full acceptance criteria.
+Any approved maintenance change is complete only after tooling tests, dataset validation, SQL regeneration when applicable, and relevant database/backend verification pass.
