@@ -12,18 +12,34 @@ namespace Appetee.Infrastructure.Auth
 {
     public sealed class AuthCookieService : IAuthCookieService
     {
+        private readonly TimeProvider _timeProvider;
+        private readonly AuthSessionSettings _sessionSettings;
+
+        public AuthCookieService(
+            TimeProvider timeProvider,
+            AuthSessionSettings sessionSettings)
+        {
+            _timeProvider = timeProvider;
+            _sessionSettings = sessionSettings;
+        }
+
         public async Task SignInAsync(
-        HttpContext http,
-        int userId,
-        string username,
-        IEnumerable<Claim>? extraClaims = null
-        /*DateTimeOffset? expiresUtc = null*/) //for later when user have a "stay log in" button
+            HttpContext http,
+            int userId,
+            string username,
+            bool rememberMe = false,
+            IEnumerable<Claim>? extraClaims = null)
         {
+            var issuedUtc = _timeProvider.GetUtcNow();
             var claims = new List<Claim>
-        {
-            new(ClaimTypes.NameIdentifier, userId.ToString()),
-            new(ClaimTypes.Name, username),
-        };
+            {
+                new(ClaimTypes.NameIdentifier, userId.ToString()),
+                new(ClaimTypes.Name, username),
+                new(
+                    AuthSessionPolicy.OriginalIssuedUtcClaim,
+                    issuedUtc.ToUnixTimeSeconds().ToString(
+                        System.Globalization.CultureInfo.InvariantCulture)),
+            };
 
             if (extraClaims is not null) claims.AddRange(extraClaims);
 
@@ -35,8 +51,13 @@ namespace Appetee.Infrastructure.Auth
                 principal,
                 new AuthenticationProperties
                 {
-                    IsPersistent = true,
-                    ExpiresUtc = DateTimeOffset.UtcNow.AddDays(14)
+                    AllowRefresh = true,
+                    // ExpiresUtc limits the server ticket for every login; IsPersistent alone
+                    // controls whether the browser retains the cookie after it closes.
+                    IsPersistent = rememberMe,
+                    IssuedUtc = issuedUtc,
+                    ExpiresUtc = issuedUtc.Add(
+                        _sessionSettings.RememberedSessionLifetime)
                 });
         }
 

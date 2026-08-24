@@ -62,6 +62,15 @@ Keep controllers thin. Do not put SQL or substantial business workflows in contr
 
 For new code, keep ASP.NET, Azure, Dapper, and MySQL-specific types out of Application logic when practical. Use application interfaces/ports for infrastructure concerns.
 
+## Code Comments and File Metadata
+
+- Add comments only when they explain intent, a non-obvious invariant, a security boundary, or an important tradeoff. Do not restate straightforward code.
+- Keep comments accurate when behavior changes; remove stale or redundant comments.
+- Every newly created source or test class file must begin with a short header containing its purpose, creation time, and last-updated time. Use ISO 8601 timestamps with an explicit UTC offset.
+- Every newly introduced class, record, interface, or enum must have a concise description of what it is used for. A file header may serve as that description when the file contains one primary type and names it explicitly.
+- Preserve the original creation timestamp and update the last-updated timestamp whenever the file changes materially.
+- Do not add metadata headers retroactively to unrelated existing files unless the task explicitly requests it.
+
 ## Security Invariants
 
 Preserve these on every change:
