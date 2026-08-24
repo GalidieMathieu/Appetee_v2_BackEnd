@@ -13,21 +13,26 @@ namespace Appetee.Api.Controllers
     public sealed class AuthController : ControllerBase
     {
         private readonly IAuthService _authService;
+        private readonly IPasswordRecoveryService _passwordRecoveryService;
 
-        public AuthController(IAuthService authService) => _authService = authService;
+        public AuthController(
+            IAuthService authService,
+            IPasswordRecoveryService passwordRecoveryService)
+        {
+            _authService = authService;
+            _passwordRecoveryService = passwordRecoveryService;
+        }
 
         [HttpPost("sign-up")]
         public async Task<ActionResult<AuthResult>> SignUp([FromBody] SignUpRequest request, CancellationToken ct)
         {
-            Console.WriteLine(request);
             var authResult = await _authService.SignUpAsync(HttpContext, request, ct);
             return Ok(authResult);
         }
 
         [HttpPost("login")]
-        public async Task<ActionResult<AuthResult>> login([FromBody] LoginRequest request, CancellationToken ct)
+        public async Task<ActionResult<AuthResult>> Login([FromBody] LoginRequest request, CancellationToken ct)
         {
-            Console.WriteLine(request);
             var authResult = await _authService.LogInAsync(HttpContext, request, ct);
             return Ok(authResult);
         }
@@ -40,6 +45,26 @@ namespace Appetee.Api.Controllers
         {
             var result = await _authService.ExistsByEmailAsync(email, ct);
             return Ok(result);
+        }
+
+        [AllowAnonymous]
+        [HttpPost("password-recovery/request")]
+        public async Task<ActionResult<PasswordRecoveryRequestDto>> RequestPasswordRecovery(
+            [FromBody] PasswordRecoveryRequest request,
+            CancellationToken ct)
+        {
+            var result = await _passwordRecoveryService.RequestAsync(request, ct);
+            return Accepted(result);
+        }
+
+        [AllowAnonymous]
+        [HttpPost("password-recovery/confirm")]
+        public async Task<IActionResult> ConfirmPasswordRecovery(
+            [FromBody] PasswordRecoveryConfirmRequest request,
+            CancellationToken ct)
+        {
+            await _passwordRecoveryService.ConfirmAsync(request, ct);
+            return NoContent();
         }
 
         [HttpPost("logout")]

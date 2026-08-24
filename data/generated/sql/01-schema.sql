@@ -115,7 +115,8 @@
 
 		created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
 
-		KEY idx_prt_user_id (user_id),
+		UNIQUE KEY uq_prt_token_hash (token_hash),
+		KEY idx_prt_user_created_at (user_id, created_at),
 		KEY idx_prt_expires_at (expires_at),
 
 		CONSTRAINT fk_prt_user

@@ -18,6 +18,7 @@ public abstract class IntegrationTestBase : IClassFixture<AppeteeWebApplicationF
     public virtual async Task InitializeAsync()
     {
         await Factory.Database.ResetAsync();
+        Factory.RecoveryEmailSender.Reset();
         Client = Factory.CreateApiClient();
     }
 

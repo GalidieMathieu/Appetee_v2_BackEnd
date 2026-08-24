@@ -1,3 +1,4 @@
+using Appetee.Application.Abstractions.Auth;
 using Appetee.Infrastructure.Data;
 using Azure.Storage.Blobs;
 using Microsoft.AspNetCore.DataProtection;
@@ -12,6 +13,8 @@ public sealed class AppeteeWebApplicationFactory : WebApplicationFactory<Program
 {
     private readonly TestBlobStorageService _blobStorage = new();
 
+    internal TestPasswordRecoveryEmailSender RecoveryEmailSender { get; } = new();
+
     internal ApiTestDatabase Database { get; } = new();
 
     public HttpClient CreateApiClient() =>
@@ -24,6 +27,8 @@ public sealed class AppeteeWebApplicationFactory : WebApplicationFactory<Program
     protected override void ConfigureWebHost(IWebHostBuilder builder)
     {
         builder.UseEnvironment("Development");
+        // The Key Vault provider loads immediately, so integration tests disable it before Program runs.
+        builder.UseSetting("KeyVault:Enabled", "false");
 
         builder.ConfigureAppConfiguration((_, configBuilder) =>
         {
@@ -33,6 +38,9 @@ public sealed class AppeteeWebApplicationFactory : WebApplicationFactory<Program
                 ["ConnectionStrings:Default"] = Database.ConnectionString,
                 ["AzureStorage:AccountUrl"] = "https://test.blob.core.windows.net",
                 ["AzureStorage:ContainerName"] = "test-images",
+                ["CommunicationEmail:Endpoint"] = "https://test.communication.azure.com",
+                ["CommunicationEmail:AccessKey"] = "integration-test-placeholder-key",
+                ["CommunicationEmail:FromAddress"] = "DoNotReply@test.azurecomm.net",
             });
         });
 
@@ -47,6 +55,7 @@ public sealed class AppeteeWebApplicationFactory : WebApplicationFactory<Program
             services.RemoveAll<IDbConnectionFactory>();
             services.RemoveAll<IBlobStorageService>();
             services.RemoveAll<BlobServiceClient>();
+            services.RemoveAll<IPasswordRecoveryEmailSender>();
 
             var keyDirectory = Path.Combine(AppContext.BaseDirectory, "data-protection-keys");
             Directory.CreateDirectory(keyDirectory);
@@ -57,6 +66,7 @@ public sealed class AppeteeWebApplicationFactory : WebApplicationFactory<Program
 
             services.AddScoped<IDbConnectionFactory>(_ => new DbConnectionFactory(Database.ConnectionString));
             services.AddSingleton<IBlobStorageService>(_blobStorage);
+            services.AddSingleton<IPasswordRecoveryEmailSender>(RecoveryEmailSender);
         });
     }
 }

@@ -105,6 +105,12 @@ namespace Appetee.Api.Controllers
                 problemDetails.Extensions["traceId"] =
                     traceId;
 
+                if (!string.IsNullOrWhiteSpace(apiException.Code))
+                {
+                    problemDetails.Extensions["code"] =
+                        apiException.Code;
+                }
+
                 return StatusCode(
                     statusCode,
                     problemDetails);

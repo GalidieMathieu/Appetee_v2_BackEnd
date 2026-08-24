@@ -5,7 +5,7 @@ namespace Appetee.Application.Abstractions.Auth;
 
 public interface IAuthQueries
 {
-    Task<AuthResult> LoginAsync(LoginRequest user, CancellationToken ct);
+    Task<LoginAttempt> LoginAsync(LoginRequest user, CancellationToken ct);
 
     Task<bool> ExistsByEmailAsync(string email, CancellationToken ct);
 

@@ -12,7 +12,6 @@ namespace Appetee.Application.Services.Auth
     {
         private readonly IAuthRepository _authRepository;
         private readonly IAuthQueries _authQueries;
-
         private readonly IAuthCookieService _cookieService;
         private readonly IPasswordHasher _passwordHasher;
 
@@ -68,21 +67,33 @@ namespace Appetee.Application.Services.Auth
             if (string.IsNullOrWhiteSpace(request.Email))
                 throw new ValidationException("Email is required.");
 
-            if (!MailAddress.TryCreate(request.Email, out _))
+            var normalizedRequest = request with { Email = request.Email.Trim() };
+
+            if (!MailAddress.TryCreate(normalizedRequest.Email, out _))
                 throw new ValidationException("Email must be valid.");
 
             if (string.IsNullOrWhiteSpace(request.Password))
                 throw new ValidationException("Password is required.");
 
-            AuthResult userAuth = await _authQueries.LoginAsync(request, ct);
+            var loginAttempt = await _authQueries.LoginAsync(normalizedRequest, ct);
 
-            if(userAuth is null)
-            {
-                throw new UnauthorizedException("Invalid credentials.");
-            }
+            if (loginAttempt.Outcome == LoginOutcome.InvalidCredentials)
+                throw new UnauthorizedException("Invalid email or password.");
 
-            if(userAuth.userId > 0)
-                await _cookieService.SignInAsync(http, userAuth.userId, userAuth.userName);
+            if (loginAttempt.Outcome == LoginOutcome.EmailVerificationRequired)
+                throw new EmailVerificationRequiredException();
+
+            var userAuth = loginAttempt.AuthResult
+                ?? throw new InternalServerException();
+
+            if (userAuth.userId <= 0 || string.IsNullOrWhiteSpace(userAuth.userName))
+                throw new InternalServerException();
+
+            await _cookieService.SignInAsync(
+                http,
+                userAuth.userId,
+                userAuth.userName,
+                request.RememberMe);
 
             return userAuth;
         }
@@ -111,6 +122,9 @@ namespace Appetee.Application.Services.Auth
 
         public UserSessionDto? GetSession(HttpContext context)
         {
+            if (context.Items.ContainsKey(AuthSessionContext.ExpiredSessionItemKey))
+                throw new SessionExpiredException();
+
             var userSess = context?.User;
             if (userSess is null) throw new UnauthorizedException();
             return _cookieService.GetSession(userSess);
