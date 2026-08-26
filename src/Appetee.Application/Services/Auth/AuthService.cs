@@ -129,5 +129,21 @@ namespace Appetee.Application.Services.Auth
             if (userSess is null) throw new UnauthorizedException();
             return _cookieService.GetSession(userSess);
         }
+
+        public UserSessionDto GetRequiredSession(HttpContext context)
+        {
+            var session = GetSession(context);
+
+            if (session is null || session.userId <= 0)
+            {
+                throw new UnauthorizedException(
+                    "Missing or invalid authentication cookie.");
+            }
+
+            return session;
+        }
+
+        public int GetRequiredUserId(HttpContext context) =>
+            GetRequiredSession(context).userId;
     }
 }

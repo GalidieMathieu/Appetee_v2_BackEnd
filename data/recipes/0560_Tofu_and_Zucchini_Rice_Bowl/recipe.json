@@ -37,7 +37,8 @@
       "normalizedQuantity": 396.9,
       "normalizedUnit": "g",
       "normalizationMethod": "Source measure converted with product or USDA standard mass",
-      "cookingYieldFactor": 0.9
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
     },
     {
       "ingredientSeedId": "ING-0050",
@@ -47,7 +48,8 @@
       "normalizedQuantity": 310,
       "normalizedUnit": "g",
       "normalizationMethod": "Source measure converted with product or USDA standard mass",
-      "cookingYieldFactor": 0.9
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
     },
     {
       "ingredientSeedId": "ING-0002",
@@ -57,7 +59,8 @@
       "normalizedQuantity": 231.3,
       "normalizedUnit": "g",
       "normalizationMethod": "Source measure converted with product or USDA standard mass",
-      "cookingYieldFactor": 3
+      "cookingYieldFactor": 3,
+      "featuredOrder": 3
     },
     {
       "ingredientSeedId": "ING-0023",

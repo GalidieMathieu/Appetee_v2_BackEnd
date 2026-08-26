@@ -1,6 +1,7 @@
 ﻿using Appetee.Application.Dtos;
 using Appetee.Application.Services.Ingredients;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Appetee.Api.Controllers
 {
@@ -14,7 +15,9 @@ namespace Appetee.Api.Controllers
 
         // Any authenticated user can read Ingredients
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<DietDto>>> GetAll(CancellationToken ct)
+        [AllowAnonymous]
+        [ProducesResponseType(typeof(IReadOnlyList<IngredientDto>), StatusCodes.Status200OK)]
+        public async Task<ActionResult<IReadOnlyList<IngredientDto>>> GetAll(CancellationToken ct)
         {
             var ingredients = await _ingredientS.GetAll(ct);
             return Ok(ingredients);

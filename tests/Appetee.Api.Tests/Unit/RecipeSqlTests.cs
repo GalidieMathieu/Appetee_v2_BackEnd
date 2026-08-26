@@ -5,19 +5,73 @@ namespace Appetee.Api.Tests.Unit;
 public sealed class RecipeSqlTests
 {
     [Fact]
-    public void RecipeList_UsesCardImageWithMainImageFallback()
+    public void DiscoveryCandidates_UseCardImageWithMainImageFallback()
     {
         Assert.Contains(
-            "COALESCE(r.card_image_blob_name, r.image_blob_name) AS ImageBlobName",
-            RecipeSql.GetAll,
+            "COALESCE(r.card_image_blob_name, r.image_blob_name) AS CardImageBlobName",
+            RecipeSql.DiscoverCandidates,
             StringComparison.OrdinalIgnoreCase);
+    }
+
+    [Fact]
+    public void DiscoveryCandidates_AreBoundedAndAlwaysApplyCurrentUserCompatibility()
+    {
+        var sql = RecipeSql.DiscoverCandidates;
+
+        Assert.Contains("LIMIT @TakePlusOne", sql, StringComparison.OrdinalIgnoreCase);
+        Assert.Contains("fr.user_id = @CurrentUserId", sql, StringComparison.OrdinalIgnoreCase);
+        Assert.Contains("FROM user_diets", sql, StringComparison.OrdinalIgnoreCase);
+        Assert.Contains("FROM diet_recipes", sql, StringComparison.OrdinalIgnoreCase);
+        Assert.Contains("JOIN user_ingredient_restrictions", sql, StringComparison.OrdinalIgnoreCase);
+        Assert.DoesNotContain("instructions", sql, StringComparison.OrdinalIgnoreCase);
+        Assert.DoesNotContain("protein_per_serving", sql, StringComparison.OrdinalIgnoreCase);
+    }
+
+    [Fact]
+    public void DiscoveryCandidates_UseStableSeededKeysetOrdering()
+    {
+        var sql = RecipeSql.DiscoverCandidates;
+
+        Assert.Contains("CRC32(CONCAT(@BrowseSeed, ':', r.id))", sql, StringComparison.OrdinalIgnoreCase);
+        Assert.Contains("ranked.SortRank > @CursorRank", sql, StringComparison.OrdinalIgnoreCase);
+        Assert.Contains("ranked.SortRank = @CursorRank", sql, StringComparison.OrdinalIgnoreCase);
+        Assert.Contains("ranked.Id > @CursorId", sql, StringComparison.OrdinalIgnoreCase);
+        Assert.Contains("ORDER BY ranked.SortRank ASC, ranked.Id ASC", sql, StringComparison.OrdinalIgnoreCase);
+        Assert.DoesNotContain("ORDER BY RAND", sql, StringComparison.OrdinalIgnoreCase);
+        Assert.DoesNotContain("OFFSET", sql, StringComparison.OrdinalIgnoreCase);
+        Assert.DoesNotContain("COUNT(*)", sql, StringComparison.OrdinalIgnoreCase);
+    }
+
+    [Fact]
+    public void DiscoveryCardHydration_IsOneBoundedTwoResultCommand()
+    {
+        var sql = RecipeSql.HydrateDiscoveryCards;
+
+        Assert.Equal(2, Regex.Matches(sql, @"\bSELECT\b", RegexOptions.IgnoreCase).Count);
+        Assert.Equal(2, Regex.Matches(sql, @"IN\s+@RecipeIds", RegexOptions.IgnoreCase).Count);
+        Assert.Contains("featured_order IS NOT NULL", sql, StringComparison.OrdinalIgnoreCase);
+        Assert.DoesNotContain("diet_recipes", sql, StringComparison.OrdinalIgnoreCase);
+        Assert.DoesNotContain("instructions", sql, StringComparison.OrdinalIgnoreCase);
+        Assert.DoesNotContain("ingredient_nutrition", sql, StringComparison.OrdinalIgnoreCase);
+    }
+
+    [Fact]
+    public void TemporaryWholeCatalogSql_IsAbsent()
+    {
+        var getAllField = typeof(RecipeSql).GetField(
+            "GetAll",
+            System.Reflection.BindingFlags.Static |
+            System.Reflection.BindingFlags.Public |
+            System.Reflection.BindingFlags.NonPublic);
+
+        Assert.Null(getAllField);
     }
 
     [Fact]
     public void RecipeDetail_UsesMainImage()
     {
         Assert.Contains(
-            "r.image_blob_name            AS ImageBlobName",
+            "r.image_blob_name            AS PreviewImageBlobName",
             RecipeSql.GetWithDetailsById,
             StringComparison.OrdinalIgnoreCase);
         Assert.DoesNotContain("card_image_blob_name", RecipeSql.GetWithDetailsById, StringComparison.OrdinalIgnoreCase);
@@ -30,6 +84,31 @@ public sealed class RecipeSqlTests
             "card_image_blob_name = CASE WHEN @ClearCardImage THEN NULL ELSE card_image_blob_name END",
             RecipeSql.UpdateRecipe,
             StringComparison.OrdinalIgnoreCase);
+    }
+
+    [Fact]
+    public void RecipeWrites_PersistF008ReadinessFields()
+    {
+        foreach (var field in new[]
+        {
+            "description",
+            "cook_time_minutes",
+            "total_time_minutes",
+            "calories_per_serving",
+            "protein_per_serving",
+        })
+        {
+            Assert.Contains(field, RecipeSql.CreateRecipe, StringComparison.OrdinalIgnoreCase);
+            Assert.Contains(field, RecipeSql.UpdateRecipe, StringComparison.OrdinalIgnoreCase);
+        }
+    }
+
+    [Fact]
+    public void RecipeDetail_LoadsIngredientsInPersistedDisplayOrder()
+    {
+        Assert.Contains("ri.display_order", RecipeSql.GetWithDetailsById, StringComparison.OrdinalIgnoreCase);
+        Assert.Contains("ri.featured_order", RecipeSql.GetWithDetailsById, StringComparison.OrdinalIgnoreCase);
+        Assert.Contains("ORDER BY ri.display_order", RecipeSql.GetWithDetailsById, StringComparison.OrdinalIgnoreCase);
     }
 
     [Fact]

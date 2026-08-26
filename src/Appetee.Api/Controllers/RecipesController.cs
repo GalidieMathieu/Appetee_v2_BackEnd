@@ -1,4 +1,6 @@
 using Appetee.Application.Dtos;
+using Appetee.Application.Requests;
+using Appetee.Application.Services.Auth;
 using Appetee.Application.Services.Recipes;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -12,14 +14,33 @@ namespace Appetee.Api.Controllers
     public sealed class RecipesController : ControllerBase
     {
         private readonly IRecipeService _recipes;
+        private readonly IAuthService _authService;
 
-        public RecipesController(IRecipeService recipes) => _recipes = recipes;
+        public RecipesController(
+            IRecipeService recipes,
+            IAuthService authService)
+        {
+            _recipes = recipes;
+            _authService = authService;
+        }
 
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<RecipeSummaryDto>>> GetAll(CancellationToken ct)
+        [ProducesResponseType(typeof(RecipeDiscoveryPageDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        public async Task<ActionResult<RecipeDiscoveryPageDto>> Discover(
+            CancellationToken ct,
+            [FromQuery(Name = "cursor")] string? cursor = null,
+            [FromQuery(Name = "limit")] int limit = 20)
         {
-            var recipes = await _recipes.GetAllAsync(ct);
-            return Ok(recipes);
+            var currentUserId = _authService.GetRequiredUserId(HttpContext);
+            var request = new RecipeDiscoveryRequest
+            {
+                Cursor = cursor,
+                Limit = limit,
+            };
+            var page = await _recipes.DiscoverAsync(currentUserId, request, ct);
+            return Ok(page);
         }
 
         [HttpGet("{id:int}")]
@@ -82,6 +103,7 @@ namespace Appetee.Api.Controllers
                 detail: $"Meal Prep {id} cannot be deleted on the backend yet because persistence is still a placeholder."
             );
         }
+
     }
 
     public sealed record MealPrepPlanRequest(

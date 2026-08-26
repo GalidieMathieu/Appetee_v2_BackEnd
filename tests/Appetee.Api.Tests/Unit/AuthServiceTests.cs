@@ -1,7 +1,7 @@
 /*
  * Purpose: Verifies login validation, outcome mapping, and cookie-issuance boundaries in AuthService.
  * Created: 2026-08-21T10:36:10-06:00
- * Last updated: 2026-08-21T11:39:25-06:00
+ * Last updated: 2026-08-25T15:25:01-06:00
  */
 
 using Appetee.Application.Abstractions.Auth;
@@ -95,6 +95,42 @@ public sealed class AuthServiceTests
         Assert.Null(queries.LastRequest);
     }
 
+    [Fact]
+    public void GetRequiredUserId_ReturnsTheValidatedSessionUserId()
+    {
+        var cookies = new RecordingCookieService
+        {
+            Session = new UserSessionDto(42, "current_user"),
+        };
+        var service = CreateService(
+            new StubAuthQueries(LoginAttempt.InvalidCredentials()),
+            cookies);
+
+        var currentUserId = service.GetRequiredUserId(new DefaultHttpContext());
+
+        Assert.Equal(42, currentUserId);
+    }
+
+    [Theory]
+    [InlineData(null)]
+    [InlineData(0)]
+    [InlineData(-1)]
+    public void GetRequiredUserId_RejectsMissingOrInvalidSessionUserId(int? userId)
+    {
+        var cookies = new RecordingCookieService
+        {
+            Session = userId.HasValue
+                ? new UserSessionDto(userId.Value, "invalid_user")
+                : null,
+        };
+        var service = CreateService(
+            new StubAuthQueries(LoginAttempt.InvalidCredentials()),
+            cookies);
+
+        Assert.Throws<UnauthorizedException>(() =>
+            service.GetRequiredUserId(new DefaultHttpContext()));
+    }
+
     private static AuthService CreateService(
         IAuthQueries queries,
         IAuthCookieService cookies) =>
@@ -120,6 +156,8 @@ public sealed class AuthServiceTests
 
     private sealed class RecordingCookieService : IAuthCookieService
     {
+        public UserSessionDto? Session { get; init; }
+
         public (int UserId, string Username, bool RememberMe)? SignedInUser { get; private set; }
 
         public Task SignInAsync(
@@ -135,7 +173,7 @@ public sealed class AuthServiceTests
 
         public Task SignOutAsync(HttpContext http) => Task.CompletedTask;
 
-        public UserSessionDto? GetSession(ClaimsPrincipal user) => null;
+        public UserSessionDto? GetSession(ClaimsPrincipal user) => Session;
     }
 
     private sealed class StubAuthRepository : IAuthRepository

@@ -8,6 +8,7 @@ namespace Appetee.Application.Requests
         public int IngredientId { get; set; }
         public decimal? Quantity { get; set; }
         public string? Unit { get; set; }
+        public int? FeaturedOrder { get; set; }
     }
 
     public sealed record RecipeInstructionStepRequest
@@ -19,9 +20,12 @@ namespace Appetee.Application.Requests
     public sealed record RecipeDetailRequest
     {
         public string Name { get; set; } = string.Empty;
+        public string? Description { get; set; }
         public IFormFile? Image { get; set; }
         public List<RecipeInstructionStepRequest> Instructions { get; set; } = [];
         public int PrepTimeMinutes { get; set; }
+        public int CookTimeMinutes { get; set; }
+        public int TotalTimeMinutes { get; set; }
         public int Servings { get; set; }
         public RecipeDifficulty? Difficulty { get; set; }
         public List<string> Badges { get; set; } = [];

@@ -1,69 +1,106 @@
 internal static class RecipeSql
 {
-    internal const string GetAll = """
+    internal static readonly string DiscoverCandidates = $"""
+        WITH ranked_recipes AS (
+            SELECT
+                r.id                         AS Id,
+                r.name                       AS Name,
+                COALESCE(r.card_image_blob_name, r.image_blob_name) AS CardImageBlobName,
+                r.total_time_minutes         AS TotalTimeMinutes,
+                r.calories_per_serving       AS CaloriesPerServing,
+                r.estimated_cost_per_serving AS EstimatedCostPerServing,
+                CAST(
+                    EXISTS (
+                        SELECT 1
+                        FROM favorite_recipes fr
+                        WHERE fr.user_id = @CurrentUserId
+                          AND fr.recipe_id = r.id
+                    )
+                    AS SIGNED
+                ) AS IsSaved,
+                CAST(
+                    CRC32(CONCAT(@BrowseSeed, ':', r.id))
+                    AS SIGNED
+                ) AS SortRank
+            FROM recipes r
+            WHERE {RecipeCompatibilitySql.Predicate}
+        )
         SELECT
-            r.id                         AS Id,
-            r.name                       AS Name,
-            COALESCE(r.card_image_blob_name, r.image_blob_name) AS ImageBlobName,
-            r.prep_time_minutes          AS PrepTimeMinutes,
-            r.servings                   AS Servings,
-            r.difficulty                 AS Difficulty,
-            r.estimated_cost_per_serving AS EstimatedCostPerServing,
-            r.calories_total             AS CaloriesTotal,
-            r.protein_total              AS ProteinTotal,
-            r.carbs_total                AS CarbsTotal
-        FROM recipes r
-        ORDER BY r.created_at DESC, r.id DESC;
+            ranked.Id,
+            ranked.Name,
+            ranked.CardImageBlobName,
+            ranked.TotalTimeMinutes,
+            ranked.CaloriesPerServing,
+            ranked.EstimatedCostPerServing,
+            ranked.IsSaved,
+            ranked.SortRank
+        FROM ranked_recipes ranked
+        WHERE @HasCursor = 0
+           OR ranked.SortRank > @CursorRank
+           OR (
+               ranked.SortRank = @CursorRank
+               AND ranked.Id > @CursorId
+           )
+        ORDER BY ranked.SortRank ASC, ranked.Id ASC
+        LIMIT @TakePlusOne;
+    """;
 
-        SELECT
-            dr.recipe_id AS RecipeId,
-            d.id         AS Id,
-            d.name       AS Name
-        FROM diet_recipes dr
-        INNER JOIN diets d ON d.id = dr.diet_id
-        ORDER BY dr.recipe_id, d.id;
-
+    internal const string HydrateDiscoveryCards = """
         SELECT
             rb.recipe_id AS RecipeId,
             rb.badge     AS Badge
         FROM recipe_badges rb
+        WHERE rb.recipe_id IN @RecipeIds
         ORDER BY rb.recipe_id, rb.badge;
 
         SELECT
-            ri.recipe_id AS RecipeId,
-            i.id         AS Id,
-            i.name       AS Name
+            ri.recipe_id     AS RecipeId,
+            i.id             AS Id,
+            i.name           AS Name,
+            ri.featured_order AS FeaturedOrder
         FROM recipe_ingredients ri
         INNER JOIN ingredients i ON i.id = ri.ingredient_id
-        ORDER BY ri.recipe_id, i.id;
+        WHERE ri.recipe_id IN @RecipeIds
+          AND ri.featured_order IS NOT NULL
+        ORDER BY ri.recipe_id, ri.featured_order;
     """;
 
     internal const string CreateRecipe = """
         INSERT INTO recipes (
             name,
+            description,
             image_blob_name,
             card_image_blob_name,
             instructions,
             prep_time_minutes,
+            cook_time_minutes,
+            total_time_minutes,
             servings,
             difficulty,
             estimated_cost_per_serving,
             calories_total,
             protein_total,
-            carbs_total
+            carbs_total,
+            calories_per_serving,
+            protein_per_serving
         )
         VALUES (
             @Name,
-            @ImageBlobName,
+            @Description,
+            @PreviewImageBlobName,
             NULL,
             @InstructionsJson,
             @PrepTimeMinutes,
+            @CookTimeMinutes,
+            @TotalTimeMinutes,
             @Servings,
             @Difficulty,
             @EstimatedCostPerServing,
             @CaloriesTotal,
             @ProteinTotal,
-            @CarbsTotal
+            @CarbsTotal,
+            @CaloriesPerServing,
+            @ProteinPerServing
         );
         SELECT LAST_INSERT_ID();
     """;
@@ -71,7 +108,7 @@ internal static class RecipeSql
     internal const string GetImageBlobById = """
         SELECT
             id              AS Id,
-            image_blob_name AS ImageBlobName
+            image_blob_name AS PreviewImageBlobName
         FROM recipes
         WHERE id = @id
         LIMIT 1;
@@ -96,16 +133,21 @@ internal static class RecipeSql
         UPDATE recipes
         SET
             name = @Name,
-            image_blob_name = @ImageBlobName,
+            description = @Description,
+            image_blob_name = @PreviewImageBlobName,
             card_image_blob_name = CASE WHEN @ClearCardImage THEN NULL ELSE card_image_blob_name END,
             instructions = @InstructionsJson,
             prep_time_minutes = @PrepTimeMinutes,
+            cook_time_minutes = @CookTimeMinutes,
+            total_time_minutes = @TotalTimeMinutes,
             servings = @Servings,
             difficulty = @Difficulty,
             estimated_cost_per_serving = @EstimatedCostPerServing,
             calories_total = @CaloriesTotal,
             protein_total = @ProteinTotal,
-            carbs_total = @CarbsTotal
+            carbs_total = @CarbsTotal,
+            calories_per_serving = @CaloriesPerServing,
+            protein_per_serving = @ProteinPerServing
         WHERE id = @Id;
     """;
 
@@ -128,15 +170,20 @@ internal static class RecipeSql
         SELECT
             r.id                         AS Id,
             r.name                       AS Name,
-            r.image_blob_name            AS ImageBlobName,
+            r.description                AS Description,
+            r.image_blob_name            AS PreviewImageBlobName,
             r.instructions               AS Instructions,
             r.prep_time_minutes          AS PrepTimeMinutes,
+            r.cook_time_minutes          AS CookTimeMinutes,
+            r.total_time_minutes         AS TotalTimeMinutes,
             r.servings                   AS Servings,
             r.difficulty                 AS Difficulty,
             r.estimated_cost_per_serving AS EstimatedCostPerServing,
             r.calories_total             AS CaloriesTotal,
             r.protein_total              AS ProteinTotal,
-            r.carbs_total                AS CarbsTotal
+            r.carbs_total                AS CarbsTotal,
+            r.calories_per_serving       AS CaloriesPerServing,
+            r.protein_per_serving        AS ProteinPerServing
         FROM recipes r
         WHERE r.id = @id
         LIMIT 1;
@@ -159,6 +206,8 @@ internal static class RecipeSql
             ri.ingredient_id   AS IngredientId,
             ri.quantity        AS Quantity,
             ri.unit            AS Unit,
+            ri.display_order   AS DisplayOrder,
+            ri.featured_order  AS FeaturedOrder,
             i.id               AS Id,
             i.name             AS Name,
             n.basis            AS Basis,
@@ -178,6 +227,6 @@ internal static class RecipeSql
         INNER JOIN ingredients i ON i.id = ri.ingredient_id
         LEFT JOIN ingredient_nutrition n ON n.ingredient_id = i.id
         WHERE ri.recipe_id = @id
-        ORDER BY i.id;
+        ORDER BY ri.display_order;
     """;
 }

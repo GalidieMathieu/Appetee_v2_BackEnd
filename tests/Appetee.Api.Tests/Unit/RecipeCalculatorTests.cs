@@ -7,6 +7,28 @@ namespace Appetee.Api.Tests.Unit;
 public sealed class RecipeCalculatorTests
 {
     [Fact]
+    public void BadgeValues_ExposeCanonicalVocabularyAndPriority()
+    {
+        Assert.Equal(
+            [
+                "High Protein",
+                "Low Calorie",
+                "Low Carb",
+                "High Fiber",
+                "Quick Meal",
+                "Meal Prep",
+                "Freezer Friendly",
+                "Budget Friendly",
+                "Few Ingredients",
+            ],
+            RecipeBadgeValues.All);
+        Assert.Equal(
+            ["High Protein", "Meal Prep", "Few Ingredients"],
+            RecipeBadgeValues.Order(["Few Ingredients", "High Protein", "Meal Prep"]));
+        Assert.False(RecipeBadgeValues.IsValid("high-protein"));
+    }
+
+    [Fact]
     public void Calculate_UsesAllIngredientsAndRoundsToPersistencePrecision()
     {
         var ingredients = new[]
@@ -25,6 +47,8 @@ public sealed class RecipeCalculatorTests
         Assert.Equal(584.40m, result.CaloriesTotal);
         Assert.Equal(73.06m, result.ProteinTotal);
         Assert.Equal(46.08m, result.CarbsTotal);
+        Assert.Equal(194.80m, result.CaloriesPerServing);
+        Assert.Equal(24.35m, result.ProteinPerServing);
         Assert.Equal(2.15m, result.EstimatedCostPerServing);
     }
 

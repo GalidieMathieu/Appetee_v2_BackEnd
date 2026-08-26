@@ -1,11 +1,14 @@
 using Appetee.Application.Dtos;
+using Appetee.Application.Models.Recipes;
 using Appetee.Application.Requests;
 
 namespace Appetee.Application.Abstractions.Recipes
 {
     public interface IRecipeQueries
     {
-        Task<IReadOnlyList<RecipeSummaryDto>> GetAllAsync(CancellationToken ct);
+        Task<RecipeDiscoverySlice> DiscoverAsync(
+            RecipeDiscoveryQuery query,
+            CancellationToken ct);
 
         Task<RecipeSummaryDto?> CreateRecipeWithDetailsAsync(
             RecipeDetailRequest request,

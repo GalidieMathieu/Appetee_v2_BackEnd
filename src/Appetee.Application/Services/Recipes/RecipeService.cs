@@ -3,6 +3,7 @@ using Appetee.Application.Dtos;
 using Appetee.Application.Models.Recipes;
 using Appetee.Application.Requests;
 using Appetee.Application.utils;
+using System.Security.Cryptography;
 
 namespace Appetee.Application.Services.Recipes
 {
@@ -15,8 +16,76 @@ namespace Appetee.Application.Services.Recipes
             _queries = queries;
         }
 
-        public Task<IReadOnlyList<RecipeSummaryDto>> GetAllAsync(CancellationToken ct) =>
-            _queries.GetAllAsync(ct);
+        public async Task<RecipeDiscoveryPageDto> DiscoverAsync(
+            int currentUserId,
+            RecipeDiscoveryRequest request,
+            CancellationToken ct)
+        {
+            if (currentUserId <= 0)
+                throw new ValidationException("current user id must be greater than zero.");
+
+            ArgumentNullException.ThrowIfNull(request);
+
+            if (request.Limit is < 1 or > 50)
+                throw new ValidationException("limit must be between 1 and 50.");
+
+            var criteria = new RecipeDiscoveryCriteria(
+                CurrentUserId: currentUserId,
+                EffectiveSearchTerms: [],
+                IngredientIds: [],
+                RequireAllIngredients: true,
+                CanonicalBadges: [],
+                MaxTotalMinutes: null,
+                MaxDifficulty: null,
+                SavedOnly: false,
+                PageSize: request.Limit);
+            var criteriaFingerprint = RecipeDiscoveryCriteriaFingerprint.Create(criteria);
+
+            BrowseCursorV1? cursor = null;
+            if (request.Cursor is not null)
+            {
+                cursor = RecipeDiscoveryCursorCodec.DecodeBrowse(request.Cursor);
+                if (!string.Equals(
+                        cursor.Criteria,
+                        criteriaFingerprint,
+                        StringComparison.Ordinal))
+                {
+                    throw new ValidationException(
+                        "cursor does not match the current discovery criteria.");
+                }
+            }
+
+            var browseSeed = cursor?.Seed
+                ?? RandomNumberGenerator.GetInt32(1, int.MaxValue);
+            var query = new RecipeDiscoveryQuery(
+                CurrentUserId: currentUserId,
+                PageSize: request.Limit,
+                BrowseSeed: browseSeed,
+                AfterRank: cursor?.Rank,
+                AfterRecipeId: cursor?.Id);
+            var slice = await _queries.DiscoverAsync(query, ct);
+
+            string? nextCursor = null;
+            if (slice.HasMore)
+            {
+                var continuation = slice.Continuation
+                    ?? throw new InternalServerException(
+                        "Recipe discovery continuation state is unavailable.");
+                nextCursor = RecipeDiscoveryCursorCodec.Encode(
+                    new BrowseCursorV1(
+                        V: RecipeDiscoveryCursorCodec.CurrentVersion,
+                        Mode: RecipeDiscoveryCursorCodec.BrowseMode,
+                        Seed: browseSeed,
+                        Rank: continuation.Rank,
+                        Id: continuation.RecipeId,
+                        Criteria: criteriaFingerprint));
+            }
+
+            return new RecipeDiscoveryPageDto(
+                slice.Items,
+                nextCursor,
+                slice.HasMore);
+        }
 
         public Task<RecipeSummaryDto?> CreateRecipeWithDetailsAsync(
             RecipeDetailRequest request,
@@ -67,6 +136,7 @@ namespace Appetee.Application.Services.Recipes
             request with
             {
                 Name = request.Name?.Trim() ?? string.Empty,
+                Description = request.Description?.Trim() ?? string.Empty,
                 Instructions = (request.Instructions ?? [])
                     .Select(step => step is null
                         ? new RecipeInstructionStepRequest()
@@ -99,14 +169,32 @@ namespace Appetee.Application.Services.Recipes
             if (string.IsNullOrWhiteSpace(normalizedRequest.Name))
                 throw new ValidationException("recipe name is required.");
 
+            if (string.IsNullOrWhiteSpace(normalizedRequest.Description))
+                throw new ValidationException("recipe description is required.");
+
+            if (normalizedRequest.Description.Length > 500)
+                throw new ValidationException("recipe description cannot exceed 500 characters.");
+
             if (requireImage && (normalizedRequest.Image is null || normalizedRequest.Image.Length == 0))
                 throw new ValidationException("recipe image is required.");
 
             if (!requireImage && normalizedRequest.Image is not null && normalizedRequest.Image.Length == 0)
                 throw new ValidationException("recipe image cannot be empty.");
 
-            if (normalizedRequest.PrepTimeMinutes <= 0)
-                throw new ValidationException("prep time must be greater than zero.");
+            if (normalizedRequest.PrepTimeMinutes < 0)
+                throw new ValidationException("prep time cannot be negative.");
+
+            if (normalizedRequest.CookTimeMinutes < 0)
+                throw new ValidationException("cook time cannot be negative.");
+
+            if (normalizedRequest.TotalTimeMinutes <= 0)
+                throw new ValidationException("total time must be greater than zero.");
+
+            if (normalizedRequest.TotalTimeMinutes < normalizedRequest.PrepTimeMinutes ||
+                normalizedRequest.TotalTimeMinutes < normalizedRequest.CookTimeMinutes)
+            {
+                throw new ValidationException("total time cannot be less than prep time or cook time.");
+            }
 
             if (normalizedRequest.Servings <= 0)
                 throw new ValidationException("servings must be greater than zero.");
@@ -154,6 +242,22 @@ namespace Appetee.Application.Services.Recipes
                 .FirstOrDefault();
             if (duplicateIngredientId > 0)
                 throw new ValidationException($"ingredient '{duplicateIngredientId}' was selected more than once.");
+
+            var featuredOrders = normalizedRequest.Ingredients
+                .Where(ingredient => ingredient.FeaturedOrder.HasValue)
+                .Select(ingredient => ingredient.FeaturedOrder!.Value)
+                .ToArray();
+            if (featuredOrders.Length is < 1 or > 3)
+                throw new ValidationException("between one and three recipe ingredients must be featured.");
+
+            if (featuredOrders.Any(order => order is < 1 or > 3))
+                throw new ValidationException("featured ingredient order must be between one and three.");
+
+            var duplicateFeaturedOrder = featuredOrders
+                .GroupBy(order => order)
+                .FirstOrDefault(group => group.Count() > 1)?.Key;
+            if (duplicateFeaturedOrder.HasValue)
+                throw new ValidationException($"featured ingredient order '{duplicateFeaturedOrder}' was selected more than once.");
 
             foreach (var ingredient in normalizedRequest.Ingredients)
             {

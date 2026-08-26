@@ -149,15 +149,69 @@ export async function verifyLocalDatabase(
       ) AS Value
     `);
 
+    const invalidRecipeReadinessCount = await scalar(connection, `
+      SELECT COUNT(*) AS Value
+      FROM recipes
+      WHERE CHAR_LENGTH(TRIM(description)) = 0
+         OR prep_time_minutes < 0
+         OR cook_time_minutes < 0
+         OR total_time_minutes <= 0
+         OR total_time_minutes < prep_time_minutes
+         OR total_time_minutes < cook_time_minutes
+         OR calories_per_serving < 0
+         OR protein_per_serving < 0
+    `);
+    const invalidDisplayOrderCount = await scalar(connection, `
+      SELECT COUNT(*) AS Value
+      FROM (
+        SELECT recipe_id
+        FROM recipe_ingredients
+        GROUP BY recipe_id
+        HAVING MIN(display_order) <> 1
+           OR MAX(display_order) <> COUNT(*)
+           OR COUNT(DISTINCT display_order) <> COUNT(*)
+      ) invalid_display_order
+    `);
+    const invalidFeaturedOrderCount = await scalar(connection, `
+      SELECT COUNT(*) AS Value
+      FROM (
+        SELECT recipe_id
+        FROM recipe_ingredients
+        GROUP BY recipe_id
+        HAVING COUNT(featured_order) NOT BETWEEN 1 AND 3
+           OR COUNT(DISTINCT featured_order) <> COUNT(featured_order)
+           OR MIN(featured_order) < 1
+           OR MAX(featured_order) > 3
+      ) invalid_featured_order
+    `);
+    const legacyBadgeCount = await scalar(connection, `
+      SELECT COUNT(*) AS Value
+      FROM recipe_badges
+      WHERE badge IN ('freezer-friendly', 'budget-focused', 'high-protein')
+    `);
+
     const issues = [...countIssues];
     if (orphanCount !== 0) issues.push(`orphan relationships: ${orphanCount}`);
     if (legacyImageCount !== 0) issues.push(`legacy image Blob names: ${legacyImageCount}`);
+    if (invalidRecipeReadinessCount !== 0) issues.push(`recipes missing F-008 readiness data: ${invalidRecipeReadinessCount}`);
+    if (invalidDisplayOrderCount !== 0) issues.push(`recipes with invalid ingredient display order: ${invalidDisplayOrderCount}`);
+    if (invalidFeaturedOrderCount !== 0) issues.push(`recipes with invalid featured ingredient order: ${invalidFeaturedOrderCount}`);
+    if (legacyBadgeCount !== 0) issues.push(`legacy recipe badge values: ${legacyBadgeCount}`);
     issues.push(...imageIssues);
     if (issues.length > 0) {
       throw new Error(`Local database verification failed:\n- ${issues.slice(0, 20).join("\n- ")}${issues.length > 20 ? `\n- ...and ${issues.length - 20} more` : ""}`);
     }
 
-    return { counts: actualCounts, orphanCount, legacyImageCount, imageMappingsPassed: true };
+    return {
+      counts: actualCounts,
+      orphanCount,
+      legacyImageCount,
+      invalidRecipeReadinessCount,
+      invalidDisplayOrderCount,
+      invalidFeaturedOrderCount,
+      legacyBadgeCount,
+      imageMappingsPassed: true,
+    };
   } finally {
     await connection.end();
   }
@@ -171,6 +225,7 @@ export function printVerification(result, write = console.log) {
   write(`  Badge relationships: ${result.counts.recipeBadges}`);
   write("  Relationships: passed");
   write("  Image mappings: passed");
+  write("  F-008 recipe readiness: passed");
 }
 
 export async function main() {

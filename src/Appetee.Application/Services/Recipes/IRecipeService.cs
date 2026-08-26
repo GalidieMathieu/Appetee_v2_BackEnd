@@ -5,7 +5,10 @@ namespace Appetee.Application.Services.Recipes
 {
     public interface IRecipeService
     {
-        Task<IReadOnlyList<RecipeSummaryDto>> GetAllAsync(CancellationToken ct);
+        Task<RecipeDiscoveryPageDto> DiscoverAsync(
+            int currentUserId,
+            RecipeDiscoveryRequest request,
+            CancellationToken ct);
 
         Task<RecipeSummaryDto?> CreateRecipeWithDetailsAsync(
             RecipeDetailRequest request,

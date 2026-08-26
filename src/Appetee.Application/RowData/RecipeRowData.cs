@@ -1,22 +1,15 @@
 namespace Appetee.Application.RowData;
 
-public sealed record RecipeSummaryRowData(
+/// <summary>Materializes one compatibility-filtered Recipe Discovery candidate row.</summary>
+public sealed record RecipeDiscoveryRowData(
     int Id,
     string Name,
-    string? ImageBlobName,
-    int PrepTimeMinutes,
-    int Servings,
-    string Difficulty,
-    decimal? EstimatedCostPerServing,
-    decimal CaloriesTotal,
-    decimal ProteinTotal,
-    decimal CarbsTotal
-);
-
-public sealed record RecipeDietRowData(
-    int RecipeId,
-    int Id,
-    string Name
+    string? CardImageBlobName,
+    int TotalTimeMinutes,
+    decimal CaloriesPerServing,
+    decimal EstimatedCostPerServing,
+    long IsSaved,
+    long SortRank
 );
 
 public sealed record RecipeBadgeRowData(
@@ -24,35 +17,44 @@ public sealed record RecipeBadgeRowData(
     string Badge
 );
 
-public sealed record RecipeIngredientRowData(
+/// <summary>Materializes one featured ingredient for bounded card hydration.</summary>
+public sealed record RecipeFeaturedIngredientRowData(
     int RecipeId,
     int Id,
-    string Name
+    string Name,
+    byte FeaturedOrder
 );
 
 public sealed record RecipeDetailRowData(
     int Id,
     string Name,
-    string? ImageBlobName,
+    string Description,
+    string? PreviewImageBlobName,
     string Instructions,
     int PrepTimeMinutes,
+    int CookTimeMinutes,
+    int TotalTimeMinutes,
     int Servings,
     string Difficulty,
     decimal? EstimatedCostPerServing,
     decimal CaloriesTotal,
     decimal ProteinTotal,
-    decimal CarbsTotal
+    decimal CarbsTotal,
+    decimal CaloriesPerServing,
+    decimal ProteinPerServing
 );
 
 public sealed record RecipeImageBlobRowData(
     int Id,
-    string? ImageBlobName
+    string? PreviewImageBlobName
 );
 
 public sealed record RecipeIngredientDetailRowData(
     int IngredientId,
     decimal? Quantity,
     string? Unit,
+    ushort DisplayOrder,
+    byte? FeaturedOrder,
     int Id,
     string Name,
     decimal Basis,

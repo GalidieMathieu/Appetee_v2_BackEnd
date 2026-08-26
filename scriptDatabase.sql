@@ -58,21 +58,34 @@
 	CREATE TABLE IF NOT EXISTS recipes (
 		id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
 		name VARCHAR(255) NOT NULL,
+		description VARCHAR(500) NOT NULL,
 		image_blob_name VARCHAR(500) NULL,
 		card_image_blob_name VARCHAR(500) NULL,
 		instructions JSON NOT NULL,
 		prep_time_minutes INT NOT NULL,
+		cook_time_minutes INT NOT NULL,
+		total_time_minutes INT NOT NULL,
 		servings INT NOT NULL,
 		difficulty VARCHAR(50) NOT NULL,
 		estimated_cost_per_serving DECIMAL(10,2) NOT NULL,
 		calories_total DECIMAL(10,2) NOT NULL,
 		protein_total DECIMAL(10,2) NOT NULL,
 		carbs_total DECIMAL(10,2) NOT NULL,
+		calories_per_serving DECIMAL(10,2) NOT NULL,
+		protein_per_serving DECIMAL(10,2) NOT NULL,
 		created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
 		updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
 
 		CONSTRAINT chk_recipes_prep_time
-			CHECK (prep_time_minutes > 0),
+			CHECK (prep_time_minutes >= 0),
+		CONSTRAINT chk_recipes_description
+			CHECK (CHAR_LENGTH(TRIM(description)) > 0),
+		CONSTRAINT chk_recipes_cook_time
+			CHECK (cook_time_minutes >= 0),
+		CONSTRAINT chk_recipes_total_time
+			CHECK (total_time_minutes > 0
+				AND total_time_minutes >= prep_time_minutes
+				AND total_time_minutes >= cook_time_minutes),
 		CONSTRAINT chk_recipes_servings
 			CHECK (servings > 0),
 		CONSTRAINT chk_recipes_difficulty
@@ -86,7 +99,11 @@
 		CONSTRAINT chk_recipes_protein_total
 			CHECK (protein_total >= 0),
 		CONSTRAINT chk_recipes_carbs_total
-			CHECK (carbs_total >= 0)
+			CHECK (carbs_total >= 0),
+		CONSTRAINT chk_recipes_calories_per_serving
+			CHECK (calories_per_serving >= 0),
+		CONSTRAINT chk_recipes_protein_per_serving
+			CHECK (protein_per_serving >= 0)
 	) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 	CREATE TABLE IF NOT EXISTS users (
@@ -227,7 +244,7 @@
 			FOREIGN KEY (recipe_id) REFERENCES recipes(id)
 			ON DELETE CASCADE,
 		CONSTRAINT chk_recipe_badges_badge
-			CHECK (badge IN ('freezer-friendly', 'budget-focused', 'high-protein'))
+			CHECK (badge IN ('High Protein', 'Low Calorie', 'Low Carb', 'High Fiber', 'Quick Meal', 'Meal Prep', 'Freezer Friendly', 'Budget Friendly', 'Few Ingredients'))
 	) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 	-- ------------------------------------------------------------
@@ -295,10 +312,14 @@
 
 		quantity DECIMAL(10,3) NOT NULL,
 		unit VARCHAR(50) NOT NULL,
+		display_order SMALLINT UNSIGNED NOT NULL,
+		featured_order TINYINT UNSIGNED NULL,
         
 		note VARCHAR(255) NULL,
 
 		PRIMARY KEY (recipe_id, ingredient_id),
+		UNIQUE KEY uq_recipe_ingredients_display_order (recipe_id, display_order),
+		UNIQUE KEY uq_recipe_ingredients_featured_order (recipe_id, featured_order),
 		KEY idx_recipe_ingredients_ingredient (ingredient_id),
 
 		CONSTRAINT fk_recipe_ingredients_recipe
@@ -310,7 +331,11 @@
 		CONSTRAINT chk_recipe_ingredients_quantity
 			CHECK (quantity > 0),
 		CONSTRAINT chk_recipe_ingredients_unit
-			CHECK (CHAR_LENGTH(TRIM(unit)) > 0)
+			CHECK (CHAR_LENGTH(TRIM(unit)) > 0),
+		CONSTRAINT chk_recipe_ingredients_display_order
+			CHECK (display_order >= 1),
+		CONSTRAINT chk_recipe_ingredients_featured_order
+			CHECK (featured_order IS NULL OR featured_order BETWEEN 1 AND 3)
 	) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 	-- User ingredient restrictions
