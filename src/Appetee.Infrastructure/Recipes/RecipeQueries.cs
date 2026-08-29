@@ -1,7 +1,7 @@
 // Purpose: Implements bounded recipe discovery, Quick Preview, favorites, details, and writes with Dapper/MySQL.
-// Change reason: Add privacy-safe Phase 13 discovery and Preview performance observability.
+// Change reason: Add F-009 Favorites retrieval through the shared Recipe Card hydration path.
 // Created: Existing file; original timestamp was not recorded.
-// Last updated: 2026-08-28T20:20:53-06:00
+// Last updated: 2026-08-29T14:05:58-06:00
 
 using Appetee.Application.Abstractions.Recipes;
 using Appetee.Application.Dtos;
@@ -11,6 +11,7 @@ using Appetee.Application.RowData;
 using Appetee.Application.utils;
 using Appetee.Infrastructure.Data;
 using Microsoft.Extensions.Logging;
+using System.Data;
 using System.Diagnostics;
 using System.Text.Json;
 
@@ -72,6 +73,64 @@ namespace Appetee.Infrastructure.Recipes
                 return new RecipeDiscoverySlice([], HasMore: false, Continuation: null);
             }
 
+            var cards = await HydrateCardsAsync(conn, recipeRows, "discovery", ct);
+
+            var continuation = hasMore
+                ? new RecipeDiscoveryContinuation(
+                    recipeRows[^1].SortRank,
+                    recipeRows[^1].Id)
+                : null;
+
+            _logger.LogDebug(
+                "Recipe discovery {DiscoveryMode} page returned {ReturnedCount} cards for page size {PageSize}; has more: {HasMore}.",
+                query.IsSearch ? "search" : "browse",
+                cards.Count,
+                query.PageSize,
+                hasMore);
+
+            return new RecipeDiscoverySlice(cards, hasMore, continuation);
+        }
+
+        /// <summary>Loads current-user Favorites using fixed SQL shapes and shared set-based card hydration.</summary>
+        public async Task<IReadOnlyList<RecipeCardDto>> GetFavoritesAsync(
+            int currentUserId,
+            int? limit,
+            CancellationToken ct)
+        {
+            using var conn = await _db.CreateOpenConnectionAsync(ct);
+            var startedAt = Stopwatch.GetTimestamp();
+            var sql = limit.HasValue
+                ? RecipeSql.GetFavoriteCandidatesWithLimit
+                : RecipeSql.GetFavoriteCandidates;
+            var recipeRows = (await conn.QueryAsync<RecipeDiscoveryRowData>(
+                new CommandDefinition(
+                    sql,
+                    new
+                    {
+                        CurrentUserId = currentUserId,
+                        Limit = limit,
+                    },
+                    cancellationToken: ct))).AsList();
+
+            _logger.LogDebug(
+                "Favorites candidate query completed in {CandidateDurationMs} ms with {CandidateCount} rows; limited: {HasLimit}.",
+                Stopwatch.GetElapsedTime(startedAt).TotalMilliseconds,
+                recipeRows.Count,
+                limit.HasValue);
+
+            if (recipeRows.Count == 0)
+                return [];
+
+            return await HydrateCardsAsync(conn, recipeRows, "favorites", ct);
+        }
+
+        /// <summary>Hydrates badges and featured ingredients in one bounded relationship command for every card-list use case.</summary>
+        private async Task<IReadOnlyList<RecipeCardDto>> HydrateCardsAsync(
+            IDbConnection conn,
+            IReadOnlyList<RecipeDiscoveryRowData> recipeRows,
+            string queryKind,
+            CancellationToken ct)
+        {
             var recipeIds = recipeRows.Select(row => row.Id).ToArray();
             var hydrationStartedAt = Stopwatch.GetTimestamp();
             using var grid = await conn.QueryMultipleAsync(
@@ -82,13 +141,11 @@ namespace Appetee.Infrastructure.Recipes
 
             var badgeRows = (await grid.ReadAsync<RecipeBadgeRowData>()).AsList();
             var ingredientRows = (await grid.ReadAsync<RecipeFeaturedIngredientRowData>()).AsList();
-            var hydrationDurationMs = Stopwatch
-                .GetElapsedTime(hydrationStartedAt)
-                .TotalMilliseconds;
 
             _logger.LogDebug(
-                "Recipe discovery card hydration completed in {HydrationDurationMs} ms for {HydratedRecipeCount} recipes.",
-                hydrationDurationMs,
+                "Recipe card hydration for {QueryKind} completed in {HydrationDurationMs} ms for {HydratedRecipeCount} recipes.",
+                queryKind,
+                Stopwatch.GetElapsedTime(hydrationStartedAt).TotalMilliseconds,
                 recipeIds.Length);
 
             var badgesByRecipe = badgeRows
@@ -110,7 +167,7 @@ namespace Appetee.Infrastructure.Recipes
                             row.FeaturedOrder))
                         .ToList());
 
-            var cards = recipeRows.Select(row => new RecipeCardDto(
+            return recipeRows.Select(row => new RecipeCardDto(
                 Id: row.Id,
                 Name: row.Name,
                 CardImageUrl: ResolveBlobUrl(row.CardImageBlobName),
@@ -121,21 +178,6 @@ namespace Appetee.Infrastructure.Recipes
                 FeaturedIngredients: ingredientsByRecipe.GetValueOrDefault(row.Id) ?? [],
                 IsSaved: row.IsSaved != 0
             )).ToList();
-
-            var continuation = hasMore
-                ? new RecipeDiscoveryContinuation(
-                    recipeRows[^1].SortRank,
-                    recipeRows[^1].Id)
-                : null;
-
-            _logger.LogDebug(
-                "Recipe discovery {DiscoveryMode} page returned {ReturnedCount} cards for page size {PageSize}; has more: {HasMore}.",
-                query.IsSearch ? "search" : "browse",
-                cards.Count,
-                query.PageSize,
-                hasMore);
-
-            return new RecipeDiscoverySlice(cards, hasMore, continuation);
         }
 
         /// <summary>Applies compatibility before the idempotent save and records only its coarse outcome.</summary>

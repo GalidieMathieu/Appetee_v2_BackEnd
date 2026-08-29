@@ -1,7 +1,7 @@
 // Purpose: Orchestrates recipe discovery, favorites, detail reads, and authoritative recipe writes.
-// Change reason: Add validated F-008 Phase 12 Quick Preview orchestration.
+// Change reason: Add validated F-009 Favorites list orchestration.
 // Created: Existing file; original timestamp was not recorded.
-// Last updated: 2026-08-28T11:50:10-06:00
+// Last updated: 2026-08-29T14:05:58-06:00
 
 using Appetee.Application.Abstractions.Recipes;
 using Appetee.Application.Dtos;
@@ -213,6 +213,21 @@ namespace Appetee.Application.Services.Recipes
         {
             ValidateCurrentUserRecipeId(currentUserId, recipeId);
             return _queries.GetPreviewAsync(currentUserId, recipeId, ct);
+        }
+
+        /// <summary>Validates the optional collection bound before loading current-user compatible Favorites.</summary>
+        public Task<IReadOnlyList<RecipeCardDto>> GetFavoritesAsync(
+            int currentUserId,
+            int? limit,
+            CancellationToken ct)
+        {
+            if (currentUserId <= 0)
+                throw new ValidationException("current user id must be greater than zero.");
+
+            if (limit is < 1 or > 50)
+                throw new ValidationException("limit must be between 1 and 50.");
+
+            return _queries.GetFavoritesAsync(currentUserId, limit, ct);
         }
 
         public Task RemoveFavoriteAsync(

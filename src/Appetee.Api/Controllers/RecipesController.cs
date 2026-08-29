@@ -1,7 +1,7 @@
 // Purpose: Exposes authenticated recipe discovery, favorite, detail, and temporary meal-prep HTTP routes.
-// Change reason: Add the authenticated F-008 Phase 12 Recipe Quick Preview route.
+// Change reason: Add the authenticated F-009 Favorites collection route.
 // Created: Existing file; original timestamp was not recorded.
-// Last updated: 2026-08-28T11:50:10-06:00
+// Last updated: 2026-08-29T14:05:58-06:00
 
 using Appetee.Application.Dtos;
 using Appetee.Application.Models.Recipes;
@@ -82,6 +82,20 @@ namespace Appetee.Api.Controllers
                 throw new NotFoundException("Recipe was not found.");
 
             return Ok(preview);
+        }
+
+        /// <summary>Returns the current user's compatible saved recipes in newest-saved order.</summary>
+        [HttpGet("favorites")]
+        [ProducesResponseType(typeof(IReadOnlyList<RecipeCardDto>), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        public async Task<ActionResult<IReadOnlyList<RecipeCardDto>>> GetFavorites(
+            CancellationToken ct,
+            [FromQuery(Name = "limit")] int? limit = null)
+        {
+            var currentUserId = _authService.GetRequiredUserId(HttpContext);
+            var favorites = await _recipes.GetFavoritesAsync(currentUserId, limit, ct);
+            return Ok(favorites);
         }
 
         [HttpPut("{id:int}/favorite")]

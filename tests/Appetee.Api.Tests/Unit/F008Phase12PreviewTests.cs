@@ -1,7 +1,7 @@
 // Purpose: Verifies F-008 Phase 12 Preview validation, delegation, and bounded SQL shape.
-// Change reason: Add focused backend coverage for the dedicated compatibility-scoped Quick Preview read path.
+// Change reason: Supply a neutral F-009 Favorites stub for the expanded recipe query contract.
 // Created: 2026-08-28T11:50:10-06:00
-// Last updated: 2026-08-28T11:50:10-06:00
+// Last updated: 2026-08-29T14:05:58-06:00
 
 using Appetee.Application.Abstractions.Recipes;
 using Appetee.Application.Dtos;
@@ -95,6 +95,12 @@ public sealed class F008Phase12PreviewTests
             PreviewCalls.Add((currentUserId, recipeId));
             return Task.FromResult(PreviewResult);
         }
+
+        public Task<IReadOnlyList<RecipeCardDto>> GetFavoritesAsync(
+            int currentUserId,
+            int? limit,
+            CancellationToken ct) =>
+            Task.FromResult<IReadOnlyList<RecipeCardDto>>([]);
 
         public Task<RecipeDiscoverySlice> DiscoverAsync(
             RecipeDiscoveryQuery query,

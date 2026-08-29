@@ -1,7 +1,7 @@
 // Purpose: Defines persistence operations required by recipe application use cases.
-// Change reason: Expose the F-008 Phase 12 compatibility-scoped Quick Preview query.
+// Change reason: Expose the F-009 compatibility-scoped Favorites list query.
 // Created: Existing file; original timestamp was not recorded.
-// Last updated: 2026-08-28T11:50:10-06:00
+// Last updated: 2026-08-29T14:05:58-06:00
 
 using Appetee.Application.Dtos;
 using Appetee.Application.Models.Recipes;
@@ -18,6 +18,11 @@ namespace Appetee.Application.Abstractions.Recipes
         Task<RecipePreviewDto?> GetPreviewAsync(
             int currentUserId,
             int recipeId,
+            CancellationToken ct);
+
+        Task<IReadOnlyList<RecipeCardDto>> GetFavoritesAsync(
+            int currentUserId,
+            int? limit,
             CancellationToken ct);
 
         Task<bool> SaveFavoriteAsync(
