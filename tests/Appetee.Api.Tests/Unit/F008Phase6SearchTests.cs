@@ -1,7 +1,7 @@
 // Purpose: Verifies F-008 Phase 6 search normalization, safe SQL composition, and cursor coordination.
-// Change reason: Supply a neutral Phase 12 Preview stub for the expanded recipe query contract.
+// Change reason: Supply a neutral F-009 Favorites stub for the expanded recipe query contract.
 // Created: 2026-08-26T09:45:15-06:00
-// Last updated: 2026-08-28T11:50:10-06:00
+// Last updated: 2026-08-29T14:05:58-06:00
 
 using Appetee.Application.Abstractions.Recipes;
 using Appetee.Application.Dtos;
@@ -208,6 +208,12 @@ public sealed class F008Phase6SearchTests
             int recipeId,
             CancellationToken ct) =>
             Task.FromResult<RecipePreviewDto?>(null);
+
+        public Task<IReadOnlyList<RecipeCardDto>> GetFavoritesAsync(
+            int currentUserId,
+            int? limit,
+            CancellationToken ct) =>
+            Task.FromResult<IReadOnlyList<RecipeCardDto>>([]);
 
         public Task<bool> SaveFavoriteAsync(
             int currentUserId,

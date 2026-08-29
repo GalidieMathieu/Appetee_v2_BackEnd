@@ -1,7 +1,7 @@
 // Purpose: Owns all SQL text used by recipe discovery, favorites, hydration, details, and writes.
-// Change reason: Add the SQL-owned three-result F-008 Phase 12 Quick Preview command.
+// Change reason: Add F-009 Favorites candidate queries using the shared compatibility predicate.
 // Created: Existing file; original timestamp was not recorded.
-// Last updated: 2026-08-28T11:50:10-06:00
+// Last updated: 2026-08-29T14:05:58-06:00
 
 using System.Text;
 
@@ -91,6 +91,32 @@ internal static class RecipeSql
         DELETE FROM favorite_recipes
         WHERE user_id = @CurrentUserId
           AND recipe_id = @RecipeId;
+    """;
+
+    private static readonly string FavoriteCandidateProjection = $"""
+        SELECT
+            r.id                         AS Id,
+            r.name                       AS Name,
+            COALESCE(r.card_image_blob_name, r.image_blob_name) AS CardImageBlobName,
+            r.total_time_minutes         AS TotalTimeMinutes,
+            r.calories_per_serving       AS CaloriesPerServing,
+            r.estimated_cost_per_serving AS EstimatedCostPerServing,
+            CAST(1 AS SIGNED)            AS IsSaved,
+            CAST(0 AS SIGNED)            AS SortRank
+        FROM favorite_recipes fr
+        INNER JOIN recipes r ON r.id = fr.recipe_id
+        WHERE fr.user_id = @CurrentUserId
+          AND {RecipeCompatibilitySql.Predicate}
+        ORDER BY fr.created_at DESC, r.id DESC
+    """;
+
+    internal static readonly string GetFavoriteCandidates = $"""
+        {FavoriteCandidateProjection};
+    """;
+
+    internal static readonly string GetFavoriteCandidatesWithLimit = $"""
+        {FavoriteCandidateProjection}
+        LIMIT @Limit;
     """;
 
     internal static readonly string GetCompatiblePreview = $"""

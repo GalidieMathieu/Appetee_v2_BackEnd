@@ -1,7 +1,7 @@
 // Purpose: Defines application use cases for recipe discovery, Quick Preview, favorites, details, and authoring.
-// Change reason: Expose the validated F-008 Phase 12 Quick Preview use case.
+// Change reason: Expose the validated F-009 Favorites list use case.
 // Created: Existing file; original timestamp was not recorded.
-// Last updated: 2026-08-28T11:50:10-06:00
+// Last updated: 2026-08-29T14:05:58-06:00
 
 using Appetee.Application.Dtos;
 using Appetee.Application.Requests;
@@ -18,6 +18,11 @@ namespace Appetee.Application.Services.Recipes
         Task<RecipePreviewDto?> GetPreviewAsync(
             int currentUserId,
             int recipeId,
+            CancellationToken ct);
+
+        Task<IReadOnlyList<RecipeCardDto>> GetFavoritesAsync(
+            int currentUserId,
+            int? limit,
             CancellationToken ct);
 
         Task<bool> SaveFavoriteAsync(
