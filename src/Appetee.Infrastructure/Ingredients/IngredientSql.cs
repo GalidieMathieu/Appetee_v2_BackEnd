@@ -1,4 +1,9 @@
-﻿internal static class IngredientSql
+// Purpose: Owns all SQL text for ingredient catalogue, autocomplete, detail, and write persistence.
+// Change reason: Add the F-008 Phase 9 bounded case-insensitive ingredient-name search statement.
+// Created: Existing file; original timestamp was not recorded.
+// Last updated: 2026-08-27T13:16:15-06:00
+
+internal static class IngredientSql
 {
     internal const string GetById = """
         SELECT
@@ -13,6 +18,23 @@
         SELECT id as id, name as name from ingredients
         ORDER BY id DESC;
         """;
+
+    internal const string SearchByName = """
+        SELECT
+            id   AS id,
+            name AS name
+        FROM ingredients
+        WHERE name LIKE @SearchContains ESCAPE '\\'
+        ORDER BY
+            CASE
+                WHEN name = @SearchExact THEN 0
+                WHEN name LIKE @SearchStarts ESCAPE '\\' THEN 1
+                ELSE 2
+            END,
+            name ASC,
+            id ASC
+        LIMIT @Take;
+    """;
 
     internal const string GetSomeByIds = """
         SELECT id FROM ingredients WHERE id IN @Ids;

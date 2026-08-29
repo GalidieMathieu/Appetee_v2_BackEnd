@@ -1,6 +1,7 @@
 // Purpose: Verifies F-008 Phase 4 cursor encoding, criteria binding, and service coordination.
+// Change reason: Supply a neutral Phase 12 Preview stub for the expanded recipe query contract.
 // Created: 2026-08-25T23:50:21-06:00
-// Last updated: 2026-08-25T23:50:21-06:00
+// Last updated: 2026-08-28T11:50:10-06:00
 
 using Appetee.Application.Abstractions.Recipes;
 using Appetee.Application.Dtos;
@@ -65,7 +66,7 @@ public sealed class F008Phase4CursorTests
             pageSize: 20);
         var equivalent = Criteria(
             userId: 12,
-            searchTerms: [" RICE ", " chicken   bowl "],
+            searchTerms: [" CHICKEN   BOWL ", " rice "],
             ingredientIds: [3, 9],
             badges: ["budget friendly", "HIGH PROTEIN"],
             pageSize: 20);
@@ -84,6 +85,10 @@ public sealed class F008Phase4CursorTests
         Assert.NotEqual(
             fingerprint,
             RecipeDiscoveryCriteriaFingerprint.Create(baseline with { PageSize = 21 }));
+        Assert.NotEqual(
+            fingerprint,
+            RecipeDiscoveryCriteriaFingerprint.Create(
+                baseline with { EffectiveSearchTerms = ["rice", "Chicken Bowl"] }));
     }
 
     [Fact]
@@ -105,7 +110,7 @@ public sealed class F008Phase4CursorTests
         var firstQuery = Assert.Single(queries.CapturedQueries);
         var cursor = RecipeDiscoveryCursorCodec.DecodeBrowse(firstPage.NextCursor!);
 
-        Assert.InRange(firstQuery.BrowseSeed, 1, int.MaxValue - 1);
+        Assert.InRange(firstQuery.BrowseSeed!.Value, 1, int.MaxValue - 1);
         Assert.Equal(firstQuery.BrowseSeed, cursor.Seed);
         Assert.Equal(1234, cursor.Rank);
         Assert.Equal(7, cursor.Id);
@@ -193,6 +198,24 @@ public sealed class F008Phase4CursorTests
             CapturedQueries.Add(query);
             return Task.FromResult(Slice);
         }
+
+        public Task<RecipePreviewDto?> GetPreviewAsync(
+            int currentUserId,
+            int recipeId,
+            CancellationToken ct) =>
+            Task.FromResult<RecipePreviewDto?>(null);
+
+        public Task<bool> SaveFavoriteAsync(
+            int currentUserId,
+            int recipeId,
+            CancellationToken ct) =>
+            Task.FromResult(false);
+
+        public Task RemoveFavoriteAsync(
+            int currentUserId,
+            int recipeId,
+            CancellationToken ct) =>
+            Task.CompletedTask;
 
         public Task<RecipeSummaryDto?> CreateRecipeWithDetailsAsync(
             RecipeDetailRequest request,

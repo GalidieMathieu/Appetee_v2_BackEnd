@@ -1,3 +1,8 @@
+// Purpose: Defines persistence projections used by recipe discovery, Quick Preview, details, and authoring.
+// Change reason: Add bounded F-008 Phase 12 Preview recipe and ingredient row projections.
+// Created: Existing file; original timestamp was not recorded.
+// Last updated: 2026-08-28T11:50:10-06:00
+
 namespace Appetee.Application.RowData;
 
 /// <summary>Materializes one compatibility-filtered Recipe Discovery candidate row.</summary>
@@ -23,6 +28,25 @@ public sealed record RecipeFeaturedIngredientRowData(
     int Id,
     string Name,
     byte FeaturedOrder
+);
+
+/// <summary>Materializes the compatibility-filtered recipe portion of one Quick Preview.</summary>
+public sealed record RecipePreviewRowData(
+    int Id,
+    string Name,
+    string Description,
+    string? PreviewImageBlobName,
+    int TotalTimeMinutes,
+    decimal CaloriesPerServing,
+    decimal ProteinPerServing,
+    decimal EstimatedCostPerServing,
+    long IsSaved
+);
+
+/// <summary>Materializes one lightweight Quick Preview ingredient in authored display order.</summary>
+public sealed record RecipePreviewIngredientRowData(
+    int Id,
+    string Name
 );
 
 public sealed record RecipeDetailRowData(

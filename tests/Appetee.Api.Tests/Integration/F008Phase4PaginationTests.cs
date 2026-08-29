@@ -1,6 +1,6 @@
 // Purpose: Verifies F-008 Phase 4 seeded keyset pagination through the authenticated API.
 // Created: 2026-08-25T23:50:21-06:00
-// Last updated: 2026-08-26T00:08:00-06:00
+// Last updated: 2026-08-26T09:45:15-06:00
 
 using Appetee.Api.Tests.Infrastructure;
 using Appetee.Application.Dtos;
@@ -167,7 +167,7 @@ public sealed class F008Phase4PaginationTests : IntegrationTestBase
     }
 
     [Fact]
-    public async Task OpenApi_PublishesOpaqueCursorAndLimitOnly()
+    public async Task OpenApi_PublishesSearchAndOpaquePaginationInputsOnly()
     {
         using var response = await Client.GetAsync("/swagger/v1/swagger.json");
         response.EnsureSuccessStatusCode();
@@ -182,6 +182,7 @@ public sealed class F008Phase4PaginationTests : IntegrationTestBase
             .Select(parameter => parameter.GetProperty("name").GetString())
             .ToArray();
 
+        Assert.Contains("search", parameters);
         Assert.Contains("cursor", parameters);
         Assert.Contains("limit", parameters);
         Assert.DoesNotContain("seed", parameters);

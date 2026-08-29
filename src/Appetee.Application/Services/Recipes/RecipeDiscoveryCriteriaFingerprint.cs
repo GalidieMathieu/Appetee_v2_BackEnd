@@ -1,6 +1,6 @@
 // Purpose: Produces the stable authenticated-criteria hash bound into Recipe Discovery cursors.
 // Created: 2026-08-25T23:50:21-06:00
-// Last updated: 2026-08-25T23:50:21-06:00
+// Last updated: 2026-08-26T09:45:15-06:00
 
 using Appetee.Application.Models.Recipes;
 using System.Security.Cryptography;
@@ -18,10 +18,10 @@ internal static class RecipeDiscoveryCriteriaFingerprint
         {
             writer.WriteStartObject();
             writer.WriteNumber("userId", criteria.CurrentUserId);
-            WriteStrings(writer, "searchTerms", criteria.EffectiveSearchTerms);
+            WriteOrderedStrings(writer, "searchTerms", criteria.EffectiveSearchTerms);
             WriteIntegers(writer, "ingredientIds", criteria.IngredientIds);
             writer.WriteBoolean("requireAllIngredients", criteria.RequireAllIngredients);
-            WriteStrings(writer, "badges", criteria.CanonicalBadges);
+            WriteCanonicalStrings(writer, "badges", criteria.CanonicalBadges);
             WriteNullableNumber(writer, "maxTotalMinutes", criteria.MaxTotalMinutes);
             if (criteria.MaxDifficulty.HasValue)
                 writer.WriteString("maxDifficulty", criteria.MaxDifficulty.Value.ToString());
@@ -36,7 +36,22 @@ internal static class RecipeDiscoveryCriteriaFingerprint
             SHA256.HashData(stream.ToArray()));
     }
 
-    private static void WriteStrings(
+    private static void WriteOrderedStrings(
+        Utf8JsonWriter writer,
+        string propertyName,
+        IEnumerable<string> values)
+    {
+        writer.WriteStartArray(propertyName);
+        foreach (var value in values
+                     .Select(NormalizeString)
+                     .Where(value => value.Length > 0))
+        {
+            writer.WriteStringValue(value);
+        }
+        writer.WriteEndArray();
+    }
+
+    private static void WriteCanonicalStrings(
         Utf8JsonWriter writer,
         string propertyName,
         IEnumerable<string> values)

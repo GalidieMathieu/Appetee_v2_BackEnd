@@ -1,4 +1,11 @@
+// Purpose: Verifies the centralized recipe SQL contracts and bounded discovery query shape.
+// Change reason: Supply neutral Phase 8 filter state to the expanded discovery query contract.
+// Created: Existing file; original timestamp was not recorded.
+// Last updated: 2026-08-27T10:48:05-06:00
+
 using System.Text.RegularExpressions;
+using Appetee.Application.Models.Recipes;
+using Appetee.Infrastructure.Recipes;
 
 namespace Appetee.Api.Tests.Unit;
 
@@ -7,16 +14,18 @@ public sealed class RecipeSqlTests
     [Fact]
     public void DiscoveryCandidates_UseCardImageWithMainImageFallback()
     {
+        var sql = BuildBrowseSql();
+
         Assert.Contains(
             "COALESCE(r.card_image_blob_name, r.image_blob_name) AS CardImageBlobName",
-            RecipeSql.DiscoverCandidates,
+            sql,
             StringComparison.OrdinalIgnoreCase);
     }
 
     [Fact]
     public void DiscoveryCandidates_AreBoundedAndAlwaysApplyCurrentUserCompatibility()
     {
-        var sql = RecipeSql.DiscoverCandidates;
+        var sql = BuildBrowseSql();
 
         Assert.Contains("LIMIT @TakePlusOne", sql, StringComparison.OrdinalIgnoreCase);
         Assert.Contains("fr.user_id = @CurrentUserId", sql, StringComparison.OrdinalIgnoreCase);
@@ -30,7 +39,7 @@ public sealed class RecipeSqlTests
     [Fact]
     public void DiscoveryCandidates_UseStableSeededKeysetOrdering()
     {
-        var sql = RecipeSql.DiscoverCandidates;
+        var sql = BuildBrowseSql();
 
         Assert.Contains("CRC32(CONCAT(@BrowseSeed, ':', r.id))", sql, StringComparison.OrdinalIgnoreCase);
         Assert.Contains("ranked.SortRank > @CursorRank", sql, StringComparison.OrdinalIgnoreCase);
@@ -120,4 +129,21 @@ public sealed class RecipeSqlTests
         Assert.Contains("WHERE i.id IN @Ids", sql, StringComparison.OrdinalIgnoreCase);
         Assert.Contains("LEFT JOIN ingredient_nutrition", sql, StringComparison.OrdinalIgnoreCase);
     }
+
+    /// <summary>Builds the neutral browse query shape used by centralized SQL regression assertions.</summary>
+    private static string BuildBrowseSql() =>
+        RecipeDiscoverySqlBuilder.Build(
+            new RecipeDiscoveryQuery(
+                CurrentUserId: 42,
+                PageSize: 20,
+                NormalizedSearch: null,
+                EffectiveSearchTerms: [],
+                CanonicalBadges: [],
+                MaxTotalMinutes: null,
+                AllowedDifficulties: [],
+                SavedOnly: false,
+                BrowseSeed: 1234,
+                AfterRank: null,
+                AfterRecipeId: null))
+        .Sql;
 }

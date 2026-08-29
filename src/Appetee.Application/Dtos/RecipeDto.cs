@@ -1,3 +1,8 @@
+// Purpose: Defines public recipe authoring, discovery, detail, and Quick Preview response contracts.
+// Change reason: Add the dedicated lightweight F-008 Phase 12 Recipe Preview contract.
+// Created: Existing file; original timestamp was not recorded.
+// Last updated: 2026-08-28T11:50:10-06:00
+
 namespace Appetee.Application.Dtos
 {
     //################ Shared ###########
@@ -70,6 +75,27 @@ namespace Appetee.Application.Dtos
         IReadOnlyList<RecipeCardDto> Items,
         string? NextCursor,
         bool HasMore
+    );
+
+    /// <summary>Identifies one ingredient in authored display order without exposing quantities or nutrition.</summary>
+    public sealed record RecipePreviewIngredientDto(
+        int Id,
+        string Name
+    );
+
+    /// <summary>Provides the lightweight, current-user-aware Recipe Quick Preview read contract.</summary>
+    public sealed record RecipePreviewDto(
+        int Id,
+        string Name,
+        string Description,
+        string? PreviewImageUrl,
+        int TotalTimeMinutes,
+        decimal CaloriesPerServing,
+        decimal ProteinPerServing,
+        decimal EstimatedCostPerServing,
+        IReadOnlyList<string> Badges,
+        IReadOnlyList<RecipePreviewIngredientDto> Ingredients,
+        bool IsSaved
     );
 
     //################ Recipe Details ###########

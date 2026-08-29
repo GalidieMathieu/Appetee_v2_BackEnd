@@ -1,3 +1,8 @@
+// Purpose: Implements bounded recipe discovery, Quick Preview, favorites, details, and writes with Dapper/MySQL.
+// Change reason: Add privacy-safe Phase 13 discovery and Preview performance observability.
+// Created: Existing file; original timestamp was not recorded.
+// Last updated: 2026-08-28T20:20:53-06:00
+
 using Appetee.Application.Abstractions.Recipes;
 using Appetee.Application.Dtos;
 using Appetee.Application.Models.Recipes;
@@ -6,6 +11,7 @@ using Appetee.Application.RowData;
 using Appetee.Application.utils;
 using Appetee.Infrastructure.Data;
 using Microsoft.Extensions.Logging;
+using System.Diagnostics;
 using System.Text.Json;
 
 using Dapper;
@@ -29,25 +35,29 @@ namespace Appetee.Infrastructure.Recipes
             _logger = logger ?? throw new ValidationException(nameof(logger));
         }
 
+        /// <summary>Executes bounded candidate and hydration commands while recording aggregate privacy-safe timings.</summary>
         public async Task<RecipeDiscoverySlice> DiscoverAsync(
             RecipeDiscoveryQuery query,
             CancellationToken ct)
         {
             using var conn = await _db.CreateOpenConnectionAsync(ct);
+            var (candidateSql, candidateParameters) = RecipeDiscoverySqlBuilder.Build(query);
 
+            var candidateStartedAt = Stopwatch.GetTimestamp();
             var recipeRows = (await conn.QueryAsync<RecipeDiscoveryRowData>(
                 new CommandDefinition(
-                    RecipeSql.DiscoverCandidates,
-                    new
-                    {
-                        query.CurrentUserId,
-                        query.BrowseSeed,
-                        HasCursor = query.AfterRank.HasValue,
-                        CursorRank = query.AfterRank,
-                        CursorId = query.AfterRecipeId,
-                        TakePlusOne = query.PageSize + 1,
-                    },
+                    candidateSql,
+                    candidateParameters,
                     cancellationToken: ct))).AsList();
+            var candidateDurationMs = Stopwatch
+                .GetElapsedTime(candidateStartedAt)
+                .TotalMilliseconds;
+
+            _logger.LogDebug(
+                "Recipe discovery {DiscoveryMode} candidate query completed in {CandidateDurationMs} ms with {CandidateCount} rows.",
+                query.IsSearch ? "search" : "browse",
+                candidateDurationMs,
+                recipeRows.Count);
 
             var hasMore = recipeRows.Count > query.PageSize;
             if (hasMore)
@@ -56,13 +66,14 @@ namespace Appetee.Infrastructure.Recipes
             if (recipeRows.Count == 0)
             {
                 _logger.LogDebug(
-                    "Recipe discovery returned no compatible candidates for current user {CurrentUserId}.",
-                    query.CurrentUserId);
+                    "Recipe discovery {DiscoveryMode} returned no compatible candidates.",
+                    query.IsSearch ? "search" : "browse");
 
                 return new RecipeDiscoverySlice([], HasMore: false, Continuation: null);
             }
 
             var recipeIds = recipeRows.Select(row => row.Id).ToArray();
+            var hydrationStartedAt = Stopwatch.GetTimestamp();
             using var grid = await conn.QueryMultipleAsync(
                 new CommandDefinition(
                     RecipeSql.HydrateDiscoveryCards,
@@ -71,6 +82,14 @@ namespace Appetee.Infrastructure.Recipes
 
             var badgeRows = (await grid.ReadAsync<RecipeBadgeRowData>()).AsList();
             var ingredientRows = (await grid.ReadAsync<RecipeFeaturedIngredientRowData>()).AsList();
+            var hydrationDurationMs = Stopwatch
+                .GetElapsedTime(hydrationStartedAt)
+                .TotalMilliseconds;
+
+            _logger.LogDebug(
+                "Recipe discovery card hydration completed in {HydrationDurationMs} ms for {HydratedRecipeCount} recipes.",
+                hydrationDurationMs,
+                recipeIds.Length);
 
             var badgesByRecipe = badgeRows
                 .GroupBy(row => row.RecipeId)
@@ -110,12 +129,133 @@ namespace Appetee.Infrastructure.Recipes
                 : null;
 
             _logger.LogDebug(
-                "Recipe discovery browse page returned {ReturnedCount} cards for page size {PageSize}; has more: {HasMore}.",
+                "Recipe discovery {DiscoveryMode} page returned {ReturnedCount} cards for page size {PageSize}; has more: {HasMore}.",
+                query.IsSearch ? "search" : "browse",
                 cards.Count,
                 query.PageSize,
                 hasMore);
 
             return new RecipeDiscoverySlice(cards, hasMore, continuation);
+        }
+
+        /// <summary>Applies compatibility before the idempotent save and records only its coarse outcome.</summary>
+        public async Task<bool> SaveFavoriteAsync(
+            int currentUserId,
+            int recipeId,
+            CancellationToken ct)
+        {
+            using var conn = await _db.CreateOpenConnectionAsync(ct);
+            var isCompatible = await conn.ExecuteScalarAsync<long>(
+                new CommandDefinition(
+                    RecipeSql.IsCompatibleFavoriteCandidate,
+                    new
+                    {
+                        CurrentUserId = currentUserId,
+                        RecipeId = recipeId,
+                    },
+                    cancellationToken: ct));
+
+            if (isCompatible == 0)
+            {
+                _logger.LogDebug(
+                    "Favorite save completed with result {FavoriteMutationResult}.",
+                    "not-found-or-incompatible");
+                return false;
+            }
+
+            await conn.ExecuteAsync(
+                new CommandDefinition(
+                    RecipeSql.EnsureFavorite,
+                    new
+                    {
+                        CurrentUserId = currentUserId,
+                        RecipeId = recipeId,
+                    },
+                    cancellationToken: ct));
+
+            _logger.LogDebug(
+                "Favorite save completed with result {FavoriteMutationResult}.",
+                "saved-or-already-saved");
+
+            return true;
+        }
+
+        /// <summary>Loads one compatibility-scoped Preview and its independent badge/ingredient result sets.</summary>
+        public async Task<RecipePreviewDto?> GetPreviewAsync(
+            int currentUserId,
+            int recipeId,
+            CancellationToken ct)
+        {
+            using var conn = await _db.CreateOpenConnectionAsync(ct);
+            var previewStartedAt = Stopwatch.GetTimestamp();
+            using var grid = await conn.QueryMultipleAsync(
+                new CommandDefinition(
+                    RecipeSql.GetCompatiblePreview,
+                    new
+                    {
+                        CurrentUserId = currentUserId,
+                        RecipeId = recipeId,
+                    },
+                    cancellationToken: ct));
+
+            var recipe = await grid.ReadSingleOrDefaultAsync<RecipePreviewRowData>();
+            if (recipe is null)
+            {
+                _logger.LogDebug(
+                    "Recipe Preview query completed in {PreviewDurationMs} ms with result {PreviewResult}.",
+                    Stopwatch.GetElapsedTime(previewStartedAt).TotalMilliseconds,
+                    "not-found-or-incompatible");
+                return null;
+            }
+
+            var badges = RecipeBadgeValues
+                .Order(await grid.ReadAsync<string>())
+                .ToArray();
+            var ingredients = (await grid.ReadAsync<RecipePreviewIngredientRowData>())
+                .Select(row => new RecipePreviewIngredientDto(row.Id, row.Name))
+                .ToArray();
+
+            var preview = new RecipePreviewDto(
+                Id: recipe.Id,
+                Name: recipe.Name,
+                Description: recipe.Description,
+                PreviewImageUrl: ResolveBlobUrl(recipe.PreviewImageBlobName),
+                TotalTimeMinutes: recipe.TotalTimeMinutes,
+                CaloriesPerServing: recipe.CaloriesPerServing,
+                ProteinPerServing: recipe.ProteinPerServing,
+                EstimatedCostPerServing: recipe.EstimatedCostPerServing,
+                Badges: badges,
+                Ingredients: ingredients,
+                IsSaved: recipe.IsSaved != 0);
+
+            _logger.LogDebug(
+                "Recipe Preview query completed in {PreviewDurationMs} ms with result {PreviewResult}.",
+                Stopwatch.GetElapsedTime(previewStartedAt).TotalMilliseconds,
+                "returned");
+
+            return preview;
+        }
+
+        /// <summary>Removes only the current-user membership and records no ownership identifiers.</summary>
+        public async Task RemoveFavoriteAsync(
+            int currentUserId,
+            int recipeId,
+            CancellationToken ct)
+        {
+            using var conn = await _db.CreateOpenConnectionAsync(ct);
+            await conn.ExecuteAsync(
+                new CommandDefinition(
+                    RecipeSql.RemoveFavorite,
+                    new
+                    {
+                        CurrentUserId = currentUserId,
+                        RecipeId = recipeId,
+                    },
+                    cancellationToken: ct));
+
+            _logger.LogDebug(
+                "Favorite delete completed with result {FavoriteMutationResult}.",
+                "removed-or-already-absent");
         }
 
         public async Task<RecipeSummaryDto?> CreateRecipeWithDetailsAsync(RecipeDetailRequest request, CancellationToken ct)

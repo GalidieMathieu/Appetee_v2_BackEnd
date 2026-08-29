@@ -1,7 +1,14 @@
+// Purpose: Exposes authenticated recipe discovery, favorite, detail, and temporary meal-prep HTTP routes.
+// Change reason: Add the authenticated F-008 Phase 12 Recipe Quick Preview route.
+// Created: Existing file; original timestamp was not recorded.
+// Last updated: 2026-08-28T11:50:10-06:00
+
 using Appetee.Application.Dtos;
+using Appetee.Application.Models.Recipes;
 using Appetee.Application.Requests;
 using Appetee.Application.Services.Auth;
 using Appetee.Application.Services.Recipes;
+using Appetee.Application.utils;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -24,23 +31,85 @@ namespace Appetee.Api.Controllers
             _authService = authService;
         }
 
+        /// <summary>Binds public discovery criteria while keeping user identity and cursor internals server-owned.</summary>
         [HttpGet]
         [ProducesResponseType(typeof(RecipeDiscoveryPageDto), StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         public async Task<ActionResult<RecipeDiscoveryPageDto>> Discover(
             CancellationToken ct,
+            [FromQuery(Name = "search")] string? search = null,
+            [FromQuery(Name = "ingredientIds")] int[]? ingredientIds = null,
+            [FromQuery(Name = "requireAllIngredients")] bool requireAllIngredients = true,
+            [FromQuery(Name = "badges")] string[]? badges = null,
+            [FromQuery(Name = "maxTotalMinutes")] int? maxTotalMinutes = null,
+            [FromQuery(Name = "maxDifficulty")] RecipeDifficulty? maxDifficulty = null,
+            [FromQuery(Name = "savedOnly")] bool savedOnly = false,
             [FromQuery(Name = "cursor")] string? cursor = null,
             [FromQuery(Name = "limit")] int limit = 20)
         {
             var currentUserId = _authService.GetRequiredUserId(HttpContext);
             var request = new RecipeDiscoveryRequest
             {
+                Search = search,
+                IngredientIds = ingredientIds ?? [],
+                RequireAllIngredients = requireAllIngredients,
+                Badges = badges ?? [],
+                MaxTotalMinutes = maxTotalMinutes,
+                MaxDifficulty = maxDifficulty,
+                SavedOnly = savedOnly,
                 Cursor = cursor,
                 Limit = limit,
             };
             var page = await _recipes.DiscoverAsync(currentUserId, request, ct);
             return Ok(page);
+        }
+
+        /// <summary>Returns a lightweight Preview only when the recipe is compatible with the current user.</summary>
+        [HttpGet("{id:int}/preview")]
+        [ProducesResponseType(typeof(RecipePreviewDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<ActionResult<RecipePreviewDto>> GetPreview(
+            int id,
+            CancellationToken ct)
+        {
+            var currentUserId = _authService.GetRequiredUserId(HttpContext);
+            var preview = await _recipes.GetPreviewAsync(currentUserId, id, ct);
+
+            if (preview is null)
+                throw new NotFoundException("Recipe was not found.");
+
+            return Ok(preview);
+        }
+
+        [HttpPut("{id:int}/favorite")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public async Task<IActionResult> SaveFavorite(int id, CancellationToken ct)
+        {
+            var currentUserId = _authService.GetRequiredUserId(HttpContext);
+            var saved = await _recipes.SaveFavoriteAsync(currentUserId, id, ct);
+
+            if (!saved)
+                throw new NotFoundException("Recipe was not found.");
+
+            return NoContent();
+        }
+
+        [HttpDelete("{id:int}/favorite")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        public async Task<IActionResult> RemoveFavorite(int id, CancellationToken ct)
+        {
+            var currentUserId = _authService.GetRequiredUserId(HttpContext);
+            await _recipes.RemoveFavoriteAsync(currentUserId, id, ct);
+
+            return NoContent();
         }
 
         [HttpGet("{id:int}")]

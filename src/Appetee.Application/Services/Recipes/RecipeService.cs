@@ -1,3 +1,8 @@
+// Purpose: Orchestrates recipe discovery, favorites, detail reads, and authoritative recipe writes.
+// Change reason: Add validated F-008 Phase 12 Quick Preview orchestration.
+// Created: Existing file; original timestamp was not recorded.
+// Last updated: 2026-08-28T11:50:10-06:00
+
 using Appetee.Application.Abstractions.Recipes;
 using Appetee.Application.Dtos;
 using Appetee.Application.Models.Recipes;
@@ -16,6 +21,7 @@ namespace Appetee.Application.Services.Recipes
             _queries = queries;
         }
 
+        /// <summary>Normalizes public criteria, binds them to the cursor, and coordinates bounded discovery.</summary>
         public async Task<RecipeDiscoveryPageDto> DiscoverAsync(
             int currentUserId,
             RecipeDiscoveryRequest request,
@@ -29,24 +35,37 @@ namespace Appetee.Application.Services.Recipes
             if (request.Limit is < 1 or > 50)
                 throw new ValidationException("limit must be between 1 and 50.");
 
+            var (normalizedSearch, effectiveSearchTerms) =
+                RecipeSearchNormalizer.Normalize(request.Search);
+            var isSearch = effectiveSearchTerms.Count > 0;
+            var ingredientIds = NormalizeDiscoveryIngredientIds(request.IngredientIds);
+            var requireAllIngredients =
+                ingredientIds.Count == 0 || request.RequireAllIngredients;
+            var canonicalBadges = NormalizeDiscoveryBadges(request.Badges);
+            ValidateDiscoveryRangeFilters(request.MaxTotalMinutes, request.MaxDifficulty);
+            var allowedDifficulties = GetAllowedDifficulties(request.MaxDifficulty);
+
             var criteria = new RecipeDiscoveryCriteria(
                 CurrentUserId: currentUserId,
-                EffectiveSearchTerms: [],
-                IngredientIds: [],
-                RequireAllIngredients: true,
-                CanonicalBadges: [],
-                MaxTotalMinutes: null,
-                MaxDifficulty: null,
-                SavedOnly: false,
+                EffectiveSearchTerms: effectiveSearchTerms,
+                IngredientIds: ingredientIds,
+                RequireAllIngredients: requireAllIngredients,
+                CanonicalBadges: canonicalBadges,
+                MaxTotalMinutes: request.MaxTotalMinutes,
+                MaxDifficulty: request.MaxDifficulty,
+                SavedOnly: request.SavedOnly,
                 PageSize: request.Limit);
             var criteriaFingerprint = RecipeDiscoveryCriteriaFingerprint.Create(criteria);
 
-            BrowseCursorV1? cursor = null;
+            BrowseCursorV1? browseCursor = null;
+            SearchCursorV1? searchCursor = null;
             if (request.Cursor is not null)
             {
-                cursor = RecipeDiscoveryCursorCodec.DecodeBrowse(request.Cursor);
+                var cursorCriteria = isSearch
+                    ? (searchCursor = RecipeDiscoveryCursorCodec.DecodeSearch(request.Cursor)).Criteria
+                    : (browseCursor = RecipeDiscoveryCursorCodec.DecodeBrowse(request.Cursor)).Criteria;
                 if (!string.Equals(
-                        cursor.Criteria,
+                        cursorCriteria,
                         criteriaFingerprint,
                         StringComparison.Ordinal))
                 {
@@ -55,14 +74,26 @@ namespace Appetee.Application.Services.Recipes
                 }
             }
 
-            var browseSeed = cursor?.Seed
-                ?? RandomNumberGenerator.GetInt32(1, int.MaxValue);
+            int? browseSeed = isSearch
+                ? null
+                : browseCursor?.Seed
+                  ?? RandomNumberGenerator.GetInt32(1, int.MaxValue);
             var query = new RecipeDiscoveryQuery(
                 CurrentUserId: currentUserId,
                 PageSize: request.Limit,
+                NormalizedSearch: normalizedSearch,
+                EffectiveSearchTerms: effectiveSearchTerms,
+                CanonicalBadges: canonicalBadges,
+                MaxTotalMinutes: request.MaxTotalMinutes,
+                AllowedDifficulties: allowedDifficulties,
+                SavedOnly: request.SavedOnly,
                 BrowseSeed: browseSeed,
-                AfterRank: cursor?.Rank,
-                AfterRecipeId: cursor?.Id);
+                AfterRank: searchCursor?.Rank ?? browseCursor?.Rank,
+                AfterRecipeId: searchCursor?.Id ?? browseCursor?.Id)
+            {
+                IngredientIds = ingredientIds,
+                RequireAllIngredients = requireAllIngredients,
+            };
             var slice = await _queries.DiscoverAsync(query, ct);
 
             string? nextCursor = null;
@@ -71,20 +102,126 @@ namespace Appetee.Application.Services.Recipes
                 var continuation = slice.Continuation
                     ?? throw new InternalServerException(
                         "Recipe discovery continuation state is unavailable.");
-                nextCursor = RecipeDiscoveryCursorCodec.Encode(
-                    new BrowseCursorV1(
-                        V: RecipeDiscoveryCursorCodec.CurrentVersion,
-                        Mode: RecipeDiscoveryCursorCodec.BrowseMode,
-                        Seed: browseSeed,
-                        Rank: continuation.Rank,
-                        Id: continuation.RecipeId,
-                        Criteria: criteriaFingerprint));
+                nextCursor = isSearch
+                    ? RecipeDiscoveryCursorCodec.Encode(
+                        new SearchCursorV1(
+                            V: RecipeDiscoveryCursorCodec.CurrentVersion,
+                            Mode: RecipeDiscoveryCursorCodec.SearchMode,
+                            Rank: continuation.Rank,
+                            Id: continuation.RecipeId,
+                            Criteria: criteriaFingerprint))
+                    : RecipeDiscoveryCursorCodec.Encode(
+                        new BrowseCursorV1(
+                            V: RecipeDiscoveryCursorCodec.CurrentVersion,
+                            Mode: RecipeDiscoveryCursorCodec.BrowseMode,
+                            Seed: browseSeed!.Value,
+                            Rank: continuation.Rank,
+                            Id: continuation.RecipeId,
+                            Criteria: criteriaFingerprint));
             }
 
             return new RecipeDiscoveryPageDto(
                 slice.Items,
                 nextCursor,
                 slice.HasMore);
+        }
+
+        /// <summary>Validates, deduplicates, and sorts selected ingredients for SQL and cursor stability.</summary>
+        private static IReadOnlyList<int> NormalizeDiscoveryIngredientIds(
+            IReadOnlyList<int>? ingredientIds)
+        {
+            if (ingredientIds is null || ingredientIds.Count == 0)
+                return [];
+
+            if (ingredientIds.Count > 3)
+                throw new ValidationException("no more than three ingredients may be selected.");
+
+            if (ingredientIds.Any(id => id <= 0))
+                throw new ValidationException("ingredient ids must be greater than zero.");
+
+            return ingredientIds
+                .Distinct()
+                .Order()
+                .ToArray();
+        }
+
+        /// <summary>Canonicalizes repeated badge inputs so SQL counts and cursor fingerprints share one stable set.</summary>
+        private static IReadOnlyList<string> NormalizeDiscoveryBadges(
+            IReadOnlyList<string>? badges)
+        {
+            if (badges is null || badges.Count == 0)
+                return [];
+
+            if (badges.Count > RecipeBadgeValues.All.Count)
+                throw new ValidationException("no more than nine badges may be selected.");
+
+            if (badges.Any(badge =>
+                    string.IsNullOrEmpty(badge)
+                    || badge.Length > 50
+                    || !RecipeBadgeValues.IsValid(badge)))
+            {
+                throw new ValidationException("one or more badges are invalid.");
+            }
+
+            return RecipeBadgeValues
+                .Order(badges.Distinct(StringComparer.Ordinal))
+                .ToArray();
+        }
+
+        /// <summary>Rejects filter values that cannot be represented safely by the bounded discovery query.</summary>
+        private static void ValidateDiscoveryRangeFilters(
+            int? maxTotalMinutes,
+            RecipeDifficulty? maxDifficulty)
+        {
+            if (maxTotalMinutes is <= 0 or > 1440)
+                throw new ValidationException("max total minutes must be between 1 and 1440.");
+
+            if (maxDifficulty.HasValue
+                && !Enum.IsDefined(maxDifficulty.Value))
+            {
+                throw new ValidationException("max difficulty must be Easy, Medium, or Hard.");
+            }
+        }
+
+        /// <summary>Translates ordinal difficulty semantics into explicit stored values without string sorting.</summary>
+        private static IReadOnlyList<string> GetAllowedDifficulties(
+            RecipeDifficulty? maxDifficulty) =>
+            maxDifficulty switch
+            {
+                RecipeDifficulty.Easy => [RecipeDifficulty.Easy.ToString()],
+                RecipeDifficulty.Medium =>
+                [
+                    RecipeDifficulty.Easy.ToString(),
+                    RecipeDifficulty.Medium.ToString(),
+                ],
+                _ => [],
+            };
+
+        public Task<bool> SaveFavoriteAsync(
+            int currentUserId,
+            int recipeId,
+            CancellationToken ct)
+        {
+            ValidateCurrentUserRecipeId(currentUserId, recipeId);
+            return _queries.SaveFavoriteAsync(currentUserId, recipeId, ct);
+        }
+
+        public Task<RecipePreviewDto?> GetPreviewAsync(
+            int currentUserId,
+            int recipeId,
+            CancellationToken ct)
+        {
+            ValidateCurrentUserRecipeId(currentUserId, recipeId);
+            return _queries.GetPreviewAsync(currentUserId, recipeId, ct);
+        }
+
+        public Task RemoveFavoriteAsync(
+            int currentUserId,
+            int recipeId,
+            CancellationToken ct)
+        {
+            ValidateCurrentUserRecipeId(currentUserId, recipeId);
+            return _queries.RemoveFavoriteAsync(currentUserId, recipeId, ct);
         }
 
         public Task<RecipeSummaryDto?> CreateRecipeWithDetailsAsync(
@@ -119,6 +256,7 @@ namespace Appetee.Application.Services.Recipes
             return _queries.GetRecipeWithDetailsByIdAsync(id, ct);
         }
 
+        /// <summary>Normalizes authored recipe input, validates invariants, and removes incomplete empty instruction rows.</summary>
         private static RecipeDetailRequest PrepareRequest(RecipeDetailRequest request, bool requireImage)
         {
             var normalizedRequest = NormalizeRequest(request);
@@ -132,6 +270,7 @@ namespace Appetee.Application.Services.Recipes
             };
         }
 
+        /// <summary>Canonicalizes authored text, collections, units, and duplicate selections before validation.</summary>
         private static RecipeDetailRequest NormalizeRequest(RecipeDetailRequest request) =>
             request with
             {
@@ -164,6 +303,7 @@ namespace Appetee.Application.Services.Recipes
                     .ToList(),
             };
 
+        /// <summary>Enforces persisted recipe, instruction, badge, ingredient, and featured-order invariants.</summary>
         private static void ValidateRecipeRequest(RecipeDetailRequest normalizedRequest, bool requireImage)
         {
             if (string.IsNullOrWhiteSpace(normalizedRequest.Name))
@@ -267,6 +407,16 @@ namespace Appetee.Application.Services.Recipes
                 if (string.IsNullOrWhiteSpace(ingredient.Unit))
                     throw new ValidationException($"ingredient '{ingredient.IngredientId}' unit is required.");
             }
+        }
+
+        /// <summary>Protects current-user recipe reads and mutations from invalid internal or route identifiers.</summary>
+        private static void ValidateCurrentUserRecipeId(int currentUserId, int recipeId)
+        {
+            if (currentUserId <= 0)
+                throw new ValidationException("current user id must be greater than zero.");
+
+            if (recipeId <= 0)
+                throw new ValidationException("recipe id must be greater than zero.");
         }
     }
 }

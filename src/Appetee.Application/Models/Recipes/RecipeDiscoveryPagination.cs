@@ -1,19 +1,33 @@
-// Purpose: Carries normalized Recipe Discovery pagination state across application and persistence layers.
+// Purpose: Carries normalized Recipe Discovery criteria and pagination state across application and persistence layers.
+// Change reason: Carry normalized F-008 Phase 10 ingredient IDs and ALL/ANY mode to persistence.
 // Created: 2026-08-25T23:50:21-06:00
-// Last updated: 2026-08-25T23:50:21-06:00
+// Last updated: 2026-08-28T08:53:55-06:00
 
 using Appetee.Application.Dtos;
 
 namespace Appetee.Application.Models.Recipes;
 
-/// <summary>Provides validated seeded browse state to the discovery query.</summary>
+/// <summary>Provides validated browse or ranked-search state to the discovery query.</summary>
 public sealed record RecipeDiscoveryQuery(
     int CurrentUserId,
     int PageSize,
-    int BrowseSeed,
+    string? NormalizedSearch,
+    IReadOnlyList<string> EffectiveSearchTerms,
+    IReadOnlyList<string> CanonicalBadges,
+    int? MaxTotalMinutes,
+    IReadOnlyList<string> AllowedDifficulties,
+    bool SavedOnly,
+    int? BrowseSeed,
     long? AfterRank,
     int? AfterRecipeId
-);
+)
+{
+    public bool IsSearch => EffectiveSearchTerms.Count > 0;
+
+    public IReadOnlyList<int> IngredientIds { get; init; } = [];
+
+    public bool RequireAllIngredients { get; init; } = true;
+}
 
 /// <summary>Identifies the last returned candidate used to continue a stable page chain.</summary>
 public sealed record RecipeDiscoveryContinuation(
@@ -51,7 +65,7 @@ internal sealed record BrowseCursorV1(
     string Criteria
 );
 
-/// <summary>Defines version one of the private ranked search cursor payload reserved for later discovery phases.</summary>
+/// <summary>Defines version one of the private ranked search cursor payload.</summary>
 internal sealed record SearchCursorV1(
     int V,
     string Mode,

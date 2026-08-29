@@ -1,7 +1,8 @@
-// Purpose: Centralizes the authenticated user's mandatory recipe compatibility predicate.
+// Purpose: Owns the reusable SQL predicate for authenticated recipe compatibility.
 // Created: 2026-08-24T22:52:54-06:00
-// Last updated: 2026-08-24T22:58:00-06:00
+// Last updated: 2026-08-26T18:24:14-06:00
 
+/// <summary>Provides the mandatory current-user diet and ingredient-restriction SQL predicate.</summary>
 internal static class RecipeCompatibilitySql
 {
     internal const string Predicate = """
@@ -24,5 +25,5 @@ internal static class RecipeCompatibilitySql
                AND uir.ingredient_id = ri_restriction.ingredient_id
             WHERE ri_restriction.recipe_id = r.id
         )
-        """;
+    """;
 }

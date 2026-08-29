@@ -1,3 +1,10 @@
+<!--
+Purpose: Defines permanent implementation and review rules for Appetee backend work.
+Change reason: Require descriptive change headers and intent comments on files touched by each task.
+Created: Existing file; original timestamp was not recorded.
+Last updated: 2026-08-27T10:48:05-06:00
+-->
+
 # Appetee Backend — AGENTS.md
 
 ## Purpose
@@ -66,7 +73,10 @@ For new code, keep ASP.NET, Azure, Dapper, and MySQL-specific types out of Appli
 
 - Add comments only when they explain intent, a non-obvious invariant, a security boundary, or an important tradeoff. Do not restate straightforward code.
 - Keep comments accurate when behavior changes; remove stale or redundant comments.
-- Every newly created source or test class file must begin with a short header containing its purpose, creation time, and last-updated time. Use ISO 8601 timestamps with an explicit UTC offset.
+- Every file created or materially changed by the current task must begin with a short header containing: a description/purpose of the file, why the current task changed it, its creation time when known, and its last-updated time. Use the file type's valid comment syntax and ISO 8601 timestamps with an explicit UTC offset.
+- Apply the header requirement only to files touched by the current task. Do not edit unrelated files merely to add metadata.
+- Preserve an existing creation timestamp. If an older file has no recorded creation timestamp, state that it is an existing file whose original timestamp was not recorded rather than inventing one.
+- Add a concise intent comment immediately above each function whose behavior, invariant, security role, query composition, or orchestration is not straightforward. Do not add comments that merely paraphrase an obvious function name or one-line implementation.
 - Every newly introduced class, record, interface, or enum must have a concise description of what it is used for. A file header may serve as that description when the file contains one primary type and names it explicitly.
 - Preserve the original creation timestamp and update the last-updated timestamp whenever the file changes materially.
 - Do not add metadata headers retroactively to unrelated existing files unless the task explicitly requests it.
