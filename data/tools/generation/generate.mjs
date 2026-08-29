@@ -69,7 +69,6 @@ function instructionTitle(instruction) {
 export function recipeSql(items, ingredientMap) {
   const lines = [
     "-- GENERATED FILE. Source of truth: data/recipes/*/recipe.json",
-    "-- prep_time_minutes stores mandatory preparation + cooking time because the current schema has one time column.",
     "-- Main and card image Blob names are derived deterministically from canonical recipe seed IDs.",
     "USE appetee;",
     "SET NAMES utf8mb4;",
@@ -78,12 +77,12 @@ export function recipeSql(items, ingredientMap) {
   for (const { data: item } of items) {
     const instructions = item.instructions.map((instruction) => ({ title: instructionTitle(instruction), instruction }));
     lines.push(`-- ${item.seedId} ${item.name}`);
-    lines.push("INSERT INTO recipes (name, image_blob_name, card_image_blob_name, instructions, prep_time_minutes, servings, difficulty, estimated_cost_per_serving, calories_total, protein_total, carbs_total, created_at, updated_at)");
-    lines.push(`VALUES (${sqlString(item.name)}, ${sqlString(getRecipeMainImageBlobName(item.seedId))}, ${sqlString(getRecipeCardImageBlobName(item.seedId))}, CAST(${sqlString(JSON.stringify(instructions))} AS JSON), ${item.times.totalMinutes}, ${item.servings}, ${sqlString(item.difficulty)}, ${sqlNumber(item.calculatedCost.perServingUsd)}, ${sqlNumber(item.calculatedNutrition.total.calories)}, ${sqlNumber(item.calculatedNutrition.total.proteinG)}, ${sqlNumber(item.calculatedNutrition.total.carbohydratesG)}, ${sqlString(item.createdAt.slice(0, 19).replace("T", " "))}, ${sqlString(item.createdAt.slice(0, 19).replace("T", " "))});`);
+    lines.push("INSERT INTO recipes (name, description, image_blob_name, card_image_blob_name, instructions, prep_time_minutes, cook_time_minutes, total_time_minutes, servings, difficulty, estimated_cost_per_serving, calories_total, protein_total, carbs_total, calories_per_serving, protein_per_serving, created_at, updated_at)");
+    lines.push(`VALUES (${sqlString(item.name)}, ${sqlString(item.description)}, ${sqlString(getRecipeMainImageBlobName(item.seedId))}, ${sqlString(getRecipeCardImageBlobName(item.seedId))}, CAST(${sqlString(JSON.stringify(instructions))} AS JSON), ${item.times.prepMinutes}, ${item.times.cookMinutes}, ${item.times.totalMinutes}, ${item.servings}, ${sqlString(item.difficulty)}, ${sqlNumber(item.calculatedCost.perServingUsd)}, ${sqlNumber(item.calculatedNutrition.total.calories)}, ${sqlNumber(item.calculatedNutrition.total.proteinG)}, ${sqlNumber(item.calculatedNutrition.total.carbohydratesG)}, ${sqlNumber(item.calculatedNutrition.perServing.calories)}, ${sqlNumber(item.calculatedNutrition.perServing.proteinG)}, ${sqlString(item.createdAt.slice(0, 19).replace("T", " "))}, ${sqlString(item.createdAt.slice(0, 19).replace("T", " "))});`);
     lines.push("SET @recipe_id := LAST_INSERT_ID();");
-    for (const usage of item.ingredients) {
+    for (const [index, usage] of item.ingredients.entries()) {
       const ingredient = ingredientMap.get(usage.ingredientSeedId);
-      lines.push(`INSERT INTO recipe_ingredients (recipe_id, ingredient_id, quantity, unit, note) VALUES (@recipe_id, (SELECT id FROM ingredients WHERE name = ${sqlString(ingredient.name)} LIMIT 1), ${Number(usage.normalizedQuantity).toFixed(3)}, ${sqlString(usage.normalizedUnit)}, ${sqlString(usage.sourceDisplay)});`);
+      lines.push(`INSERT INTO recipe_ingredients (recipe_id, ingredient_id, quantity, unit, display_order, featured_order, note) VALUES (@recipe_id, (SELECT id FROM ingredients WHERE name = ${sqlString(ingredient.name)} LIMIT 1), ${Number(usage.normalizedQuantity).toFixed(3)}, ${sqlString(usage.normalizedUnit)}, ${index + 1}, ${sqlNumber(usage.featuredOrder)?.replace(".00", "") ?? "NULL"}, ${sqlString(usage.sourceDisplay)});`);
     }
     for (const diet of item.diets) lines.push(`INSERT INTO diet_recipes (recipe_id, diet_id) VALUES (@recipe_id, (SELECT id FROM diets WHERE name = ${sqlString(diet)} LIMIT 1));`);
     for (const badge of item.badges) lines.push(`INSERT INTO recipe_badges (recipe_id, badge) VALUES (@recipe_id, ${sqlString(badge)});`);
@@ -115,9 +114,9 @@ export async function main() {
 
   const schemaSource = await readFile(path.join(repoDir, "scriptDatabase.sql"), "utf8");
   const badgeConstraint = "CHECK (badge IN ('High Protein', 'Low Calorie', 'Low Carb', 'High Fiber', 'Quick Meal', 'Meal Prep', 'Freezer Friendly', 'Budget Friendly', 'Few Ingredients'))";
-  const schema = schemaSource.replace("CHECK (badge IN ('freezer-friendly', 'budget-focused', 'high-protein'))", badgeConstraint);
-  if (schema === schemaSource) throw new Error("Could not locate the backend badge constraint while generating the dataset schema copy");
-  await writeFile(path.join(sqlDir, "01-schema.sql"), `-- GENERATED FILE. Dataset schema copy generated from repository scriptDatabase.sql.\n-- Dataset badge constraint expanded to the canonical DATASET_SPEC.md badge vocabulary.\n${schema}`);
+  if (!schemaSource.includes(badgeConstraint)) throw new Error("Canonical backend schema is missing the F-008 badge constraint");
+  const schema = schemaSource;
+  await writeFile(path.join(sqlDir, "01-schema.sql"), `-- GENERATED FILE. Dataset schema copy generated from repository scriptDatabase.sql.\n${schema}`);
   await writeFile(path.join(sqlDir, "02-reference.sql"), referenceSql());
   await writeFile(path.join(sqlDir, "03-ingredients.sql"), ingredientSql(ingredientItems));
   await writeFile(path.join(sqlDir, "04-recipes.sql"), recipeSql(recipeItems, ingredientMap));

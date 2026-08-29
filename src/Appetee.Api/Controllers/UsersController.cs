@@ -32,7 +32,7 @@ public sealed class UsersController : ControllerBase
     public async Task<ActionResult<CurrentUserProfileDto>> GetMe(
         CancellationToken ct)
     {
-        var currentUserId = GetCurrentUserId();
+        var currentUserId = _authService.GetRequiredUserId(HttpContext);
         var profile = await _users.GetCurrentProfileAsync(currentUserId, ct);
 
         if (profile is null)
@@ -49,7 +49,7 @@ public sealed class UsersController : ControllerBase
         [FromBody] UpdateCurrentUserProfileRequest request,
         CancellationToken ct)
     {
-        var currentUserId = GetCurrentUserId();
+        var currentUserId = _authService.GetRequiredUserId(HttpContext);
         var profile = await _users.UpdateCurrentProfileAsync(
             currentUserId,
             request,
@@ -95,16 +95,4 @@ public sealed class UsersController : ControllerBase
             title: "Not Found",
             detail: LegacyAccountRouteDetail);
 
-    private int GetCurrentUserId()
-    {
-        UserSessionDto? session = _authService.GetSession(HttpContext);
-
-        if (session is null || session.userId <= 0)
-        {
-            throw new UnauthorizedException(
-                "Missing or invalid authentication cookie.");
-        }
-
-        return session.userId;
-    }
 }

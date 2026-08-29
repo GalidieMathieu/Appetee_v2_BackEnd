@@ -119,11 +119,13 @@ namespace Appetee.Infrastructure.Data
                 p.Add($"ing{i}", ingredient.IngredientId, DbType.Int32);
                 p.Add($"q{i}", ingredient.Quantity, DbType.Decimal);
                 p.Add($"u{i}", ingredient.Unit, DbType.String);
-                values.Add($"(@r, @ing{i}, @q{i}, @u{i})");
+                p.Add($"display{i}", i + 1, DbType.Int16);
+                p.Add($"featured{i}", ingredient.FeaturedOrder, DbType.Byte);
+                values.Add($"(@r, @ing{i}, @q{i}, @u{i}, @display{i}, @featured{i})");
             }
 
             var sql = $"""
-                INSERT INTO recipe_ingredients (recipe_id, ingredient_id, quantity, unit)
+                INSERT INTO recipe_ingredients (recipe_id, ingredient_id, quantity, unit, display_order, featured_order)
                 VALUES {string.Join(", ", values)};
                 """;
 

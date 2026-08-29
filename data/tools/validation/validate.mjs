@@ -83,6 +83,17 @@ function recalculate(recipe, ingredientMap) {
   };
 }
 
+export function getFeaturedOrderValidationError(ingredients) {
+  if (!Array.isArray(ingredients)) return "Recipe ingredients must be an array";
+  const orders = ingredients
+    .filter((usage) => usage.featuredOrder !== undefined && usage.featuredOrder !== null)
+    .map((usage) => usage.featuredOrder);
+  if (orders.length < 1 || orders.length > 3) return "Recipe must explicitly feature 1-3 ingredients";
+  if (orders.some((order) => !Number.isInteger(order) || order < 1 || order > 3)) return "Featured orders must be integers from 1 to 3";
+  if (new Set(orders).size !== orders.length) return "Featured orders must be unique within a recipe";
+  return null;
+}
+
 export async function runValidation({ writeReport = true } = {}) {
   const report = {
     contract: "data/DATASET_SPEC.md",
@@ -155,7 +166,13 @@ export async function runValidation({ writeReport = true } = {}) {
     }
     if (!Array.isArray(value.ingredients) || value.ingredients.length === 0) error(report, "ZERO_INGREDIENTS", "Recipe has no ingredients", value.seedId);
     if (!Array.isArray(value.instructions) || value.instructions.length === 0) error(report, "ZERO_INSTRUCTIONS", "Recipe has no instructions", value.seedId);
-    if (!(value.servings > 0) || !(value.times?.prepMinutes >= 0) || !(value.times?.cookMinutes >= 0) || value.times?.totalMinutes !== value.times?.prepMinutes + value.times?.cookMinutes) error(report, "RECIPE_QUANTITIES", "Invalid servings or times", value.seedId);
+    if (typeof value.description !== "string" || value.description.trim().length === 0 || value.description.length > 500) error(report, "RECIPE_DESCRIPTION", "Description must be nonblank and at most 500 characters", value.seedId);
+    if (!(value.servings > 0)
+      || !(value.times?.prepMinutes >= 0)
+      || !(value.times?.cookMinutes >= 0)
+      || !(value.times?.totalMinutes > 0)
+      || value.times.totalMinutes < value.times.prepMinutes
+      || value.times.totalMinutes < value.times.cookMinutes) error(report, "RECIPE_QUANTITIES", "Invalid servings or times", value.seedId);
     if (!allowedMealTypes.has(value.mealType)) error(report, "INVALID_MEAL_TYPE", `Expected Breakfast, Lunch, or Dinner; received ${value.mealType}`, value.seedId);
     if (!allowedMealCategories.has(value.mealCategory)) error(report, "INVALID_MEAL_CATEGORY", `Expected one of ${allowedMealCategoryNames.join(", ")}; received ${value.mealCategory}`, value.seedId);
     if (!value.source?.url || !value.source?.domain) error(report, "RECIPE_SOURCE", "Missing source", value.seedId);
@@ -170,6 +187,8 @@ export async function runValidation({ writeReport = true } = {}) {
       if (ingredientValue && usage.normalizedUnit !== ingredientValue.normalizedNutrition.basisUnit) error(report, "INGREDIENT_UNIT_MISMATCH", usage.ingredientSeedId, value.seedId);
       if (!(usage.cookingYieldFactor > 0)) error(report, "COOKING_YIELD", `Missing cooking-yield factor for ${usage.ingredientSeedId}`, value.seedId);
     }
+    const featuredOrderError = getFeaturedOrderValidationError(value.ingredients);
+    if (featuredOrderError) error(report, "FEATURED_INGREDIENT_ORDER", featuredOrderError, value.seedId);
     const expectedFinishedWeight = round((value.ingredients ?? []).reduce((sum, usage) => sum + usage.normalizedQuantity * usage.cookingYieldFactor, 0));
     if (!near(value.estimatedFinishedWeightG, expectedFinishedWeight)) error(report, "FINISHED_WEIGHT_MISMATCH", `Stored ${value.estimatedFinishedWeightG}; expected ${expectedFinishedWeight}`, value.seedId);
     if (new Set(value.diets ?? []).size !== (value.diets ?? []).length) error(report, "DUPLICATE_DIET", "Recipe contains duplicate diet values", value.seedId);

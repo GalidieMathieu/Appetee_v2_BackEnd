@@ -3,7 +3,11 @@ using System.Net.Http.Headers;
 
 namespace Appetee.Api.Tests.Infrastructure;
 
-internal sealed record RecipeIngredientFormItem(int IngredientId, decimal Quantity, string Unit);
+internal sealed record RecipeIngredientFormItem(
+    int IngredientId,
+    decimal Quantity,
+    string Unit,
+    int? FeaturedOrder = null);
 internal sealed record RecipeInstructionFormItem(string Title, string Instruction);
 
 internal static class MultipartContentBuilder
@@ -50,8 +54,11 @@ internal static class MultipartContentBuilder
 
     public static MultipartFormDataContent CreateRecipeRequest(
         string name = "Sheet Pan Chicken",
+        string description = "A practical sheet-pan chicken recipe.",
         IReadOnlyList<RecipeInstructionFormItem>? instructions = null,
         int prepTimeMinutes = 35,
+        int cookTimeMinutes = 20,
+        int totalTimeMinutes = 55,
         int servings = 3,
         string difficulty = "Medium",
         IReadOnlyList<string>? badges = null,
@@ -66,7 +73,10 @@ internal static class MultipartContentBuilder
         var content = new MultipartFormDataContent();
 
         AddString(content, "Name", name);
+        AddString(content, "Description", description);
         AddString(content, "PrepTimeMinutes", prepTimeMinutes);
+        AddString(content, "CookTimeMinutes", cookTimeMinutes);
+        AddString(content, "TotalTimeMinutes", totalTimeMinutes);
         AddString(content, "Servings", servings);
         AddString(content, "Difficulty", difficulty);
 
@@ -75,7 +85,7 @@ internal static class MultipartContentBuilder
         AddNullableString(content, "CarbsTotal", submittedCarbsTotal);
         AddNullableString(content, "EstimatedCostPerServing", submittedEstimatedCostPerServing);
 
-        var badgeValues = badges ?? new[] { "high-protein" };
+        var badgeValues = badges ?? new[] { "High Protein" };
         for (var i = 0; i < badgeValues.Count; i++)
         {
             AddString(content, $"Badges[{i}]", badgeValues[i]);
@@ -102,8 +112,8 @@ internal static class MultipartContentBuilder
 
         var ingredientValues = ingredients ?? new[]
         {
-            new RecipeIngredientFormItem(1, 220m, "g"),
-            new RecipeIngredientFormItem(2, 180m, "g"),
+            new RecipeIngredientFormItem(1, 220m, "g", 1),
+            new RecipeIngredientFormItem(2, 180m, "g", 2),
         };
 
         for (var i = 0; i < ingredientValues.Count; i++)
@@ -112,6 +122,10 @@ internal static class MultipartContentBuilder
             AddString(content, $"Ingredients[{i}].IngredientId", ingredient.IngredientId);
             AddString(content, $"Ingredients[{i}].Quantity", ingredient.Quantity);
             AddString(content, $"Ingredients[{i}].Unit", ingredient.Unit);
+            if (ingredient.FeaturedOrder.HasValue)
+            {
+                AddString(content, $"Ingredients[{i}].FeaturedOrder", ingredient.FeaturedOrder.Value);
+            }
         }
 
         if (includeImage)

@@ -1,4 +1,9 @@
-﻿using Appetee.Application.Abstractions.Ingredients;
+// Purpose: Implements ingredient catalogue, autocomplete, and administrative persistence through Dapper and MySQL.
+// Change reason: Add the F-008 Phase 9 parameterized and bounded ingredient-name search query.
+// Created: Existing file; original timestamp was not recorded.
+// Last updated: 2026-08-27T13:16:15-06:00
+
+using Appetee.Application.Abstractions.Ingredients;
 using Appetee.Application.Dtos;
 using Appetee.Application.Requests;
 using Appetee.Application.utils;
@@ -25,7 +30,7 @@ namespace Appetee.Infrastructure.Ingredients
             _logger = logger ?? throw new ValidationException(nameof(logger));
         }
 
-        public async Task<IReadOnlyList<IngredientDto>> GetAllDiets(CancellationToken ct)
+        public async Task<IReadOnlyList<IngredientDto>> GetAllAsync(CancellationToken ct)
         {
             using var conn = await _db.CreateOpenConnectionAsync(ct);
 
@@ -36,6 +41,36 @@ namespace Appetee.Infrastructure.Ingredients
             return rows.AsList();
         }
 
+        public async Task<IReadOnlyList<IngredientDto>> SearchByNameAsync(
+            string normalizedSearch,
+            int limit,
+            CancellationToken ct)
+        {
+            using var conn = await _db.CreateOpenConnectionAsync(ct);
+            var escapedSearch = EscapeLikePattern(normalizedSearch);
+            var rows = await conn.QueryAsync<IngredientDto>(
+                new CommandDefinition(
+                    IngredientSql.SearchByName,
+                    new
+                    {
+                        SearchExact = normalizedSearch,
+                        SearchStarts = $"{escapedSearch}%",
+                        SearchContains = $"%{escapedSearch}%",
+                        Take = limit,
+                    },
+                    cancellationToken: ct));
+
+            return rows.AsList();
+        }
+
+        /// <summary>Escapes LIKE metacharacters so autocomplete treats user text as literal parameter data.</summary>
+        internal static string EscapeLikePattern(string value) =>
+            value
+                .Replace("\\", "\\\\", StringComparison.Ordinal)
+                .Replace("%", "\\%", StringComparison.Ordinal)
+                .Replace("_", "\\_", StringComparison.Ordinal);
+
+        /// <summary>Coordinates Blob upload, transactional ingredient writes, rollback, and compensating Blob cleanup.</summary>
         public async Task<IngredientAdminDetailDto?> CreateIngredientWithDetailsAsync(IngredientAdminDetailRequest request, CancellationToken ct)
         {
             // Upload image first (if provided). Persist blob name to DB.
@@ -199,6 +234,7 @@ namespace Appetee.Infrastructure.Ingredients
             }
         }
 
+        /// <summary>Loads administrative nutrition data and resolves the stored Blob name into an optional public URL.</summary>
         public async Task<IngredientAdminDetailDto?> GetIngredientWithDetailsByIdAsync(int id, CancellationToken ct)
         {
             using var conn = await _db.CreateOpenConnectionAsync(ct);

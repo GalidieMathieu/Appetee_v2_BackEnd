@@ -1,7 +1,11 @@
-﻿using Appetee.Application.Abstractions.Ingredients;
+// Purpose: Validates ingredient catalogue/autocomplete reads and orchestrates administrative ingredient operations.
+// Change reason: Preserve GetAll and isolate F-008 Phase 9 validation in a separate autocomplete operation.
+// Created: Existing file; original timestamp was not recorded.
+// Last updated: 2026-08-27T13:46:36-06:00
+
+using Appetee.Application.Abstractions.Ingredients;
 using Appetee.Application.Dtos;
 using Appetee.Application.Requests;
-using Microsoft.AspNetCore.Mvc;
 using Appetee.Application.utils;
 using Microsoft.Extensions.Logging;
 
@@ -9,6 +13,11 @@ namespace Appetee.Application.Services.Ingredients
 {
     public sealed class IngredientService : IIngredientService
     {
+        internal const int AutocompleteDefaultLimit = 10;
+        internal const int AutocompleteMaximumLimit = 50;
+        internal const int AutocompleteMinimumSearchLength = 2;
+        internal const int AutocompleteMaximumSearchLength = 100;
+
         private readonly IIngredientQueries _queries;
         private readonly ILogger<IngredientService> _logger;
 
@@ -18,8 +27,42 @@ namespace Appetee.Application.Services.Ingredients
             _logger = logger;
         }
 
-        public Task<IReadOnlyList<IngredientDto>> GetAll(CancellationToken ct) => _queries.GetAllDiets(ct);
+        public Task<IReadOnlyList<IngredientDto>> GetAll(CancellationToken ct) =>
+            _queries.GetAllAsync(ct);
 
+        /// <summary>Validates and normalizes ingredient autocomplete so every search remains bounded.</summary>
+        public Task<IReadOnlyList<IngredientDto>> SearchAsync(
+            string? search,
+            int? limit,
+            CancellationToken ct)
+        {
+            if (search is null)
+                throw new ValidationException("ingredient search is required.");
+
+            if (search.Length > AutocompleteMaximumSearchLength)
+            {
+                throw new ValidationException(
+                    $"ingredient search cannot exceed {AutocompleteMaximumSearchLength} characters.");
+            }
+
+            var normalizedSearch = search.Trim();
+            if (normalizedSearch.Length < AutocompleteMinimumSearchLength)
+            {
+                throw new ValidationException(
+                    $"ingredient search must contain at least {AutocompleteMinimumSearchLength} characters.");
+            }
+
+            var effectiveLimit = limit ?? AutocompleteDefaultLimit;
+            if (effectiveLimit is < 1 or > AutocompleteMaximumLimit)
+            {
+                throw new ValidationException(
+                    $"ingredient search limit must be between 1 and {AutocompleteMaximumLimit}.");
+            }
+
+            return _queries.SearchByNameAsync(normalizedSearch, effectiveLimit, ct);
+        }
+
+        /// <summary>Validates authoritative ingredient nutrition and image inputs before persistence.</summary>
         public Task<IngredientAdminDetailDto?> CreateIngredientWithDetailsAsync(
             IngredientAdminDetailRequest request,
             CancellationToken ct)
@@ -69,6 +112,7 @@ namespace Appetee.Application.Services.Ingredients
                 throw new ValidationException($"{field} cannot be negative.");
         }
 
+        /// <summary>Delegates the complete administrative ingredient read without affecting lightweight catalogue DTOs.</summary>
         public Task<IngredientAdminDetailDto?> GetIngredientWithDetailsByIdAsync(int id, CancellationToken ct)
             => _queries.GetIngredientWithDetailsByIdAsync(id, ct);
     }

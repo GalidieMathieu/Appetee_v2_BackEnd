@@ -12,7 +12,9 @@ namespace Appetee.Application.Services.Auth
         Task<AuthResult> LogInAsync(HttpContext http, LoginRequest request ,  CancellationToken ct);
         Task<EmailExistsDto> ExistsByEmailAsync(string email, CancellationToken ct);
         Task LogOutAsync(HttpContext http, CancellationToken ct);
-        UserSessionDto? GetSession(HttpContext context);  
+        UserSessionDto? GetSession(HttpContext context);
+        UserSessionDto GetRequiredSession(HttpContext context);
+        int GetRequiredUserId(HttpContext context);
 
 
         //Task<AuthResult> LoginAsync(LoginRequest request, CancellationToken ct);

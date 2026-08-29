@@ -17,6 +17,8 @@ public sealed record RecipeCalculatedTotals(
     decimal CaloriesTotal,
     decimal ProteinTotal,
     decimal CarbsTotal,
+    decimal CaloriesPerServing,
+    decimal ProteinPerServing,
     decimal EstimatedCostPerServing);
 
 public static class RecipeCalculator
@@ -47,10 +49,15 @@ public static class RecipeCalculator
             cost += data.Price!.Value * factor;
         }
 
+        var caloriesTotal = RoundAndValidate(calories, "calories total");
+        var proteinTotal = RoundAndValidate(protein, "protein total");
+
         return new RecipeCalculatedTotals(
-            RoundAndValidate(calories, "calories total"),
-            RoundAndValidate(protein, "protein total"),
+            caloriesTotal,
+            proteinTotal,
             RoundAndValidate(carbs, "carbs total"),
+            RoundAndValidate(caloriesTotal / servings, "calories per serving"),
+            RoundAndValidate(proteinTotal / servings, "protein per serving"),
             RoundAndValidate(cost / servings, "estimated cost per serving"));
     }
 
