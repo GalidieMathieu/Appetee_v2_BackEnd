@@ -1,7 +1,7 @@
 // Purpose: Verifies F-008 Phase 8 filter validation, normalization, SQL composition, and cursor binding.
-// Change reason: Supply a neutral F-009 Favorites stub for the expanded recipe query contract.
+// Change reason: Supply a neutral F-010 Cooking View stub for the expanded recipe query contract.
 // Created: 2026-08-27T10:48:05-06:00
-// Last updated: 2026-08-29T14:05:58-06:00
+// Last updated: 2026-08-31T18:01:27-06:00
 
 using Appetee.Application.Abstractions.Recipes;
 using Appetee.Application.Dtos;
@@ -235,6 +235,12 @@ public sealed class F008Phase8FilterTests
             int recipeId,
             CancellationToken ct) =>
             Task.FromResult<RecipePreviewDto?>(null);
+
+        public Task<RecipeCookingViewDto?> GetCookingViewAsync(
+            int currentUserId,
+            int recipeId,
+            CancellationToken ct) =>
+            Task.FromResult<RecipeCookingViewDto?>(null);
 
         public Task<IReadOnlyList<RecipeCardDto>> GetFavoritesAsync(
             int currentUserId,

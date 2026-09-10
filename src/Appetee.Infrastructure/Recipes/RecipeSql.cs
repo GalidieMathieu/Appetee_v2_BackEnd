@@ -1,7 +1,7 @@
-// Purpose: Owns all SQL text used by recipe discovery, favorites, hydration, details, and writes.
-// Change reason: Add F-009 Favorites candidate queries using the shared compatibility predicate.
+// Purpose: Owns all SQL text used by recipe discovery, Cooking View, favorites, hydration, details, and writes.
+// Change reason: Add the bounded F-010 Cooking View query using the shared compatibility predicate.
 // Created: Existing file; original timestamp was not recorded.
-// Last updated: 2026-08-29T14:05:58-06:00
+// Last updated: 2026-08-31T18:01:27-06:00
 
 using System.Text;
 
@@ -150,6 +150,39 @@ internal static class RecipeSql
         SELECT
             i.id   AS Id,
             i.name AS Name
+        FROM recipe_ingredients ri
+        INNER JOIN ingredients i ON i.id = ri.ingredient_id
+        WHERE ri.recipe_id = @RecipeId
+        ORDER BY ri.display_order;
+    """;
+
+    internal static readonly string GetCompatibleCookingView = $"""
+        SELECT
+            r.id                 AS Id,
+            r.name               AS Name,
+            r.image_blob_name    AS ImageBlobName,
+            r.description        AS Description,
+            r.total_time_minutes AS TotalTimeMinutes,
+            r.servings           AS BaseServings,
+            r.calories_total     AS CaloriesTotal,
+            r.protein_total      AS ProteinTotal,
+            r.carbs_total        AS CarbsTotal,
+            r.instructions       AS Instructions
+        FROM recipes r
+        WHERE r.id = @RecipeId
+          AND {RecipeCompatibilitySql.Predicate}
+        LIMIT 1;
+
+        SELECT rb.badge
+        FROM recipe_badges rb
+        WHERE rb.recipe_id = @RecipeId;
+
+        SELECT
+            i.id             AS Id,
+            i.name           AS Name,
+            ri.quantity      AS Quantity,
+            ri.unit          AS Unit,
+            ri.display_order AS DisplayOrder
         FROM recipe_ingredients ri
         INNER JOIN ingredients i ON i.id = ri.ingredient_id
         WHERE ri.recipe_id = @RecipeId
