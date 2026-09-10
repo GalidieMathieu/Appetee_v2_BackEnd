@@ -1,0 +1,228 @@
+{
+  "seedId": "REC-0766",
+  "candidate": {
+    "sequence": 1230,
+    "seedId": "REC-CAND-1230",
+    "name": "Herbed Lentil with Kale"
+  },
+  "name": "Herbed Lentil with Kale",
+  "description": "Herbed Lentil with Kale is a practical stovetop recipe pairing lentils with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.food.com/recipe/tomato-basil-and-lentil-soup-200421",
+    "domain": "food.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Tomato Basil Lentil Stew source while retaining its closest matching dish form, cooking sequence, and applicable lentils or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Italy",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0097",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lentils, and legumes for herbed lentil with kale.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lentils and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the herbed lentil with kale, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1326,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1182.89,
+      "proteinG": 76.378,
+      "carbohydratesG": 213.692,
+      "fatG": 10.129,
+      "fiberG": 45.839,
+      "sugarsG": 8.488,
+      "sodiumMg": 731.54,
+      "potassiumMg": 4317.97,
+      "calciumMg": 1108.57,
+      "ironMg": 25.753,
+      "magnesiumMg": 310.612,
+      "vitaminCMg": 325.356
+    },
+    "perServing": {
+      "calories": 295.723,
+      "proteinG": 19.095,
+      "carbohydratesG": 53.423,
+      "fatG": 2.532,
+      "fiberG": 11.46,
+      "sugarsG": 2.122,
+      "sodiumMg": 182.885,
+      "potassiumMg": 1079.493,
+      "calciumMg": 277.142,
+      "ironMg": 6.438,
+      "magnesiumMg": 77.653,
+      "vitaminCMg": 81.339
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.78,
+    "perServingUsd": 2.19,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-03-28T02:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://myauntyrecipes.com/cozy-lentil-and-kale-stew-perfect-fall-meal-recipe/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.I5V0JCPIflKpGf_9Nw0E2AHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://myauntyrecipes.com/wp-content/uploads/2025/07/Lentil_and_kale_stew_fall_meal_1.png",
+    "searchQuery": "Herbed Lentil with Kale plated recipe food",
+    "searchResultTitle": "Lentil and Kale Stew Fall Meal",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:05:01.219Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0766",
+    "name": "Herbed Lentil with Kale",
+    "description": "Herbed Lentil with Kale is a practical stovetop recipe pairing lentils with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 295.723,
+      "proteinG": 19.095,
+      "carbohydratesG": 53.423,
+      "fatG": 2.532,
+      "fiberG": 11.46,
+      "sugarsG": 2.122,
+      "sodiumMg": 182.885,
+      "potassiumMg": 1079.493,
+      "calciumMg": 277.142,
+      "ironMg": 6.438,
+      "magnesiumMg": 77.653,
+      "vitaminCMg": 81.339
+    },
+    "estimatedCostPerServingUsd": 2.19,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

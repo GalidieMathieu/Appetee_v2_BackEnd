@@ -1,0 +1,240 @@
+{
+  "seedId": "REC-0260",
+  "candidate": {
+    "sequence": 262,
+    "seedId": "REC-CAND-0262",
+    "name": "Lemon Turkey Chili"
+  },
+  "name": "Lemon Turkey Chili",
+  "description": "Lemon Turkey Chili is a practical stovetop recipe pairing turkey with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.capitalareafoodbank.org/wp-content/uploads/2026/02/Turkey-Sweet-Potato-Kidney-Bean-Chili_FAR.pdf",
+    "domain": "capitalareafoodbank.org",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Turkey Sweet Potato Chili source while retaining its closest matching dish form, cooking sequence, and applicable turkey or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 1,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1 lb ground turkey",
+      "normalizedQuantity": 453.592,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0007",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb sweet potatoes",
+      "normalizedQuantity": 680.389,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can black beans",
+      "normalizedQuantity": 425.243,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans diced tomatoes",
+      "normalizedQuantity": 822.136,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 medium onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp chili powder",
+      "normalizedQuantity": 8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, turkey, and legumes for lemon turkey chili.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned turkey and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the lemon turkey chili, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 2406.923,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2099.227,
+      "proteinG": 127.246,
+      "carbohydratesG": 253.843,
+      "fatG": 70.677,
+      "fiberG": 8.71,
+      "sugarsG": 2.487,
+      "sodiumMg": 2434.659,
+      "potassiumMg": 7529.64,
+      "calciumMg": 805.843,
+      "ironMg": 23.576,
+      "magnesiumMg": 472.25,
+      "vitaminCMg": 144.89
+    },
+    "perServing": {
+      "calories": 524.807,
+      "proteinG": 31.811,
+      "carbohydratesG": 63.461,
+      "fatG": 17.669,
+      "fiberG": 2.178,
+      "sugarsG": 0.622,
+      "sodiumMg": 608.665,
+      "potassiumMg": 1882.41,
+      "calciumMg": 201.461,
+      "ironMg": 5.894,
+      "magnesiumMg": 118.063,
+      "vitaminCMg": 36.222
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.12,
+    "perServingUsd": 1.78,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2025-02-06T00:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.lemonblossoms.com/blog/turkey-chili-recipe/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.Esj0w7CoEQXmRTgzIcIEywHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://www.lemonblossoms.com/wp-content/uploads/2022/12/Turkey-Chili-16-800x1200.jpg",
+    "searchQuery": "Lemon Turkey Chili plated recipe food",
+    "searchResultTitle": "Best Healthy Turkey Chili Recipe - Lemon Blossoms",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:38:14.753Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0260",
+    "name": "Lemon Turkey Chili",
+    "description": "Lemon Turkey Chili is a practical stovetop recipe pairing turkey with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 524.807,
+      "proteinG": 31.811,
+      "carbohydratesG": 63.461,
+      "fatG": 17.669,
+      "fiberG": 2.178,
+      "sugarsG": 0.622,
+      "sodiumMg": 608.665,
+      "potassiumMg": 1882.41,
+      "calciumMg": 201.461,
+      "ironMg": 5.894,
+      "magnesiumMg": 118.063,
+      "vitaminCMg": 36.222
+    },
+    "estimatedCostPerServingUsd": 1.78,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

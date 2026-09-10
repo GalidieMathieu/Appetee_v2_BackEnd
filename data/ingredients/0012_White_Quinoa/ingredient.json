@@ -1,0 +1,110 @@
+{
+  "seedId": "ING-0012",
+  "name": "White Quinoa",
+  "canonicalName": "White Quinoa",
+  "description": "Dry white quinoa.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Organic White Quinoa, 32 oz",
+    "productId": "51258806",
+    "productUrl": "https://www.walmart.com/ip/51258806",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 6.22,
+    "packageQuantity": 907.185,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 368,
+      "proteinG": 14.1,
+      "carbohydratesG": 64.2,
+      "fatG": 6.07,
+      "fiberG": 7,
+      "sodiumMg": 5,
+      "potassiumMg": 563,
+      "calciumMg": 47,
+      "ironMg": 4.57,
+      "magnesiumMg": 197
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.6856
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 168874,
+      "dataType": "SR Legacy",
+      "description": "Quinoa, uncooked",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/168874/nutrients",
+      "searchQuery": "quinoa uncooked",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.freepik.com/premium-photo/white-quinoa-bowl-with-wooden-spoon-close-up_10512983.htm",
+    "originalSourceUrl": "https://img.freepik.com/premium-photo/white-quinoa-bowl-with-wooden-spoon-close-up_202769-1904.jpg",
+    "searchQuery": "White Quinoa ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0012",
+    "name": "White Quinoa",
+    "description": "Dry white quinoa.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 368,
+      "proteinG": 14.1,
+      "carbohydratesG": 64.2,
+      "fatG": 6.07,
+      "fiberG": 7,
+      "sodiumMg": 5,
+      "potassiumMg": 563,
+      "calciumMg": 47,
+      "ironMg": 4.57,
+      "magnesiumMg": 197
+    },
+    "price": {
+      "usdPerBasis": 0.6856,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0012_White_Quinoa/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

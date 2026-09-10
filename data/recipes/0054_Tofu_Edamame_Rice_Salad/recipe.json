@@ -1,0 +1,204 @@
+{
+  "seedId": "REC-0054",
+  "name": "Tofu Edamame Rice Salad",
+  "description": "A chilled rice salad with crisp tofu, edamame, tomatoes, and soy-vinegar dressing.",
+  "source": {
+    "url": "https://cooktogether.com/recipe-items/rice-salad-with-edamame-and-crispy-tofu/",
+    "domain": "cooktogether.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Japan",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tofu",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0018",
+      "sourceQuantity": 14,
+      "sourceUnit": "oz",
+      "sourceDisplay": "14 oz tofu",
+      "normalizedQuantity": 396.9,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0050",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups shelled edamame",
+      "normalizedQuantity": 310,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 1.25,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1¼ cups dry rice",
+      "normalizedQuantity": 231.3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 Roma tomatoes",
+      "normalizedQuantity": 186,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp soy sauce",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp vinegar",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Cook the rice until tender, then cool it promptly on a tray.",
+    "Cube and brown the tofu in a wide skillet.",
+    "Simmer the edamame until tender and drain it well.",
+    "Toss rice, tofu, edamame, tomato, soy sauce, and vinegar and chill."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1557.51,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1536.136,
+      "proteinG": 91.353,
+      "carbohydratesG": 229.869,
+      "fatG": 34.166,
+      "fiberG": 21.307,
+      "sugarsG": 15.222,
+      "sodiumMg": 1988.632,
+      "potassiumMg": 2886.291,
+      "calciumMg": 1026.29,
+      "ironMg": 14.322,
+      "magnesiumMg": 444.974,
+      "vitaminCMg": 56.346
+    },
+    "perServing": {
+      "calories": 384.034,
+      "proteinG": 22.838,
+      "carbohydratesG": 57.467,
+      "fatG": 8.541,
+      "fiberG": 5.327,
+      "sugarsG": 3.805,
+      "sodiumMg": 497.158,
+      "potassiumMg": 721.573,
+      "calciumMg": 256.572,
+      "ironMg": 3.58,
+      "magnesiumMg": 111.243,
+      "vitaminCMg": 14.086
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.07,
+    "perServingUsd": 1.52,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-03-25T10:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "cooktogether.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://cooktogether.com/recipe-items/rice-salad-with-edamame-and-crispy-tofu/",
+    "originalSourceUrl": "https://cooktogether.com/pinpics/uploads/2022/05/rice-salad-edamame-crispy-tofu.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0054",
+    "name": "Tofu Edamame Rice Salad",
+    "description": "A chilled rice salad with crisp tofu, edamame, tomatoes, and soy-vinegar dressing.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 384.034,
+      "proteinG": 22.838,
+      "carbohydratesG": 57.467,
+      "fatG": 8.541,
+      "fiberG": 5.327,
+      "sugarsG": 3.805,
+      "sodiumMg": 497.158,
+      "potassiumMg": 721.573,
+      "calciumMg": 256.572,
+      "ironMg": 3.58,
+      "magnesiumMg": 111.243,
+      "vitaminCMg": 14.086
+    },
+    "estimatedCostPerServingUsd": 1.52,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Budget Friendly"
+    ]
+  }
+}

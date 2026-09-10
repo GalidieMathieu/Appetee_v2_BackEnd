@@ -1,0 +1,256 @@
+{
+  "seedId": "REC-0217",
+  "candidate": {
+    "sequence": 170,
+    "seedId": "REC-CAND-0170",
+    "name": "Spicy Chicken with Green Beans"
+  },
+  "name": "Spicy Chicken with Green Beans",
+  "description": "Spicy Chicken with Green Beans is a practical stovetop recipe pairing chicken with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://apnews.com/article/9837eca3d7d2f03e0a669b64caf20e27",
+    "domain": "apnews.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Chicken Spinach Yogurt Wraps source while retaining its closest matching dish form, cooking sequence, and applicable chicken or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 1.25,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1¼ lb chicken breast",
+      "normalizedQuantity": 567,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 4,
+      "sourceUnit": "tortillas",
+      "sourceDisplay": "4 whole-wheat tortillas",
+      "normalizedQuantity": 181.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup Greek yogurt",
+      "normalizedQuantity": 245,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups spinach",
+      "normalizedQuantity": 127.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 Roma tomatoes",
+      "normalizedQuantity": 186,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp minced garlic",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0037",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chicken, and legumes for spicy chicken with green beans.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chicken and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the spicy chicken with green beans, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1746.3,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1621.375,
+      "proteinG": 185.817,
+      "carbohydratesG": 158.939,
+      "fatG": 32.595,
+      "sodiumMg": 1814.544,
+      "potassiumMg": 4867.038,
+      "calciumMg": 1119.941,
+      "ironMg": 14.872,
+      "magnesiumMg": 553.109,
+      "fiberG": 40.1,
+      "sugarsG": 25.464,
+      "vitaminCMg": 97.419
+    },
+    "perServing": {
+      "calories": 405.344,
+      "proteinG": 46.454,
+      "carbohydratesG": 39.735,
+      "fatG": 8.149,
+      "sodiumMg": 453.636,
+      "potassiumMg": 1216.759,
+      "calciumMg": 279.985,
+      "ironMg": 3.718,
+      "magnesiumMg": 138.277,
+      "fiberG": 10.025,
+      "sugarsG": 6.366,
+      "vitaminCMg": 24.355
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.42,
+    "perServingUsd": 2.1,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-12-01T17:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://simplychickenrecipe.com/chicken-and-green-beans-recipes/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.QB12iZT2c1MOBV3JxcgwxAHaKX&pid=15.1",
+    "discoveredOriginalUrl": "https://simplychickenrecipe.com/wp-content/uploads/2026/05/Spicy-Chicken-and-Green-Bean-Saut-recipe.jpeg",
+    "searchQuery": "Spicy Chicken with Green Beans plated recipe food",
+    "searchResultTitle": "15 Easy Chicken and Green Bean Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:35:34.413Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0217",
+    "name": "Spicy Chicken with Green Beans",
+    "description": "Spicy Chicken with Green Beans is a practical stovetop recipe pairing chicken with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 405.344,
+      "proteinG": 46.454,
+      "carbohydratesG": 39.735,
+      "fatG": 8.149,
+      "sodiumMg": 453.636,
+      "potassiumMg": 1216.759,
+      "calciumMg": 279.985,
+      "ironMg": 3.718,
+      "magnesiumMg": 138.277,
+      "fiberG": 10.025,
+      "sugarsG": 6.366,
+      "vitaminCMg": 24.355
+    },
+    "estimatedCostPerServingUsd": 2.1,
+    "diets": [
+      "Flexitarian"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

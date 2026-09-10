@@ -1,0 +1,248 @@
+{
+  "seedId": "REC-0372",
+  "candidate": {
+    "sequence": 467,
+    "seedId": "REC-CAND-0467",
+    "name": "Ginger Tofu with Cabbage"
+  },
+  "name": "Ginger Tofu with Cabbage",
+  "description": "Ginger Tofu with Cabbage is a practical stovetop recipe pairing tofu with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.peta.org/recipes/buffalo-tofu-scramble-breakfast-tacos/",
+    "domain": "peta.org",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Tofu Scramble Breakfast Tacos source while retaining its closest matching dish form, cooking sequence, and applicable tofu or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 40,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tofu",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0018",
+      "sourceQuantity": 14,
+      "sourceUnit": "oz",
+      "sourceDisplay": "14 oz extra-firm tofu",
+      "normalizedQuantity": 396.9,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 8,
+      "sourceUnit": "tortillas",
+      "sourceDisplay": "8 whole-wheat tortillas",
+      "normalizedQuantity": 362.9,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups spinach",
+      "normalizedQuantity": 127.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup salsa",
+      "normalizedQuantity": 260,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp curry powder",
+      "normalizedQuantity": 2.3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0100",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tofu, and vegetables for ginger tofu with cabbage.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tofu and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the ginger tofu with cabbage, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2012.16,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2005.772,
+      "proteinG": 92.744,
+      "carbohydratesG": 303.653,
+      "fatG": 56.288,
+      "fiberG": 68.252,
+      "sugarsG": 26.978,
+      "sodiumMg": 4186.417,
+      "potassiumMg": 5038.22,
+      "calciumMg": 2172.745,
+      "ironMg": 24.18,
+      "magnesiumMg": 792.078,
+      "vitaminCMg": 161.902
+    },
+    "perServing": {
+      "calories": 501.443,
+      "proteinG": 23.186,
+      "carbohydratesG": 75.913,
+      "fatG": 14.072,
+      "fiberG": 17.063,
+      "sugarsG": 6.745,
+      "sodiumMg": 1046.604,
+      "potassiumMg": 1259.555,
+      "calciumMg": 543.186,
+      "ironMg": 6.045,
+      "magnesiumMg": 198.019,
+      "vitaminCMg": 40.475
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 14.38,
+    "perServingUsd": 3.6,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2025-07-28T16:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://foodblogrecipe.com/recipe/cabbage-crunch-salad-with-sticky-ginger-tofu/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.ySpmY2CF5gUtBp3HcUVIYQHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://foodblogrecipe.com/wp-content/uploads/2026/03/20260327T050315.webp",
+    "searchQuery": "Ginger Tofu with Cabbage plated recipe food",
+    "searchResultTitle": "Cabbage Crunch Salad with Sticky Ginger Tofu – Food Blog Recipe",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:44:09.897Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0372",
+    "name": "Ginger Tofu with Cabbage",
+    "description": "Ginger Tofu with Cabbage is a practical stovetop recipe pairing tofu with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 501.443,
+      "proteinG": 23.186,
+      "carbohydratesG": 75.913,
+      "fatG": 14.072,
+      "fiberG": 17.063,
+      "sugarsG": 6.745,
+      "sodiumMg": 1046.604,
+      "potassiumMg": 1259.555,
+      "calciumMg": 543.186,
+      "ironMg": 6.045,
+      "magnesiumMg": 198.019,
+      "vitaminCMg": 40.475
+    },
+    "estimatedCostPerServingUsd": 3.6,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

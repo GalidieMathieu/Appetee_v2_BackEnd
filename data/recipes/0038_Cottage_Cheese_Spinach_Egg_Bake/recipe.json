@@ -1,0 +1,198 @@
+{
+  "seedId": "REC-0038",
+  "name": "Cottage Cheese Spinach Egg Bake",
+  "description": "A fluffy baked egg dish enriched with cottage cheese and spinach.",
+  "source": {
+    "url": "https://ifoodreal.com/cottage-cheese-egg-bake/",
+    "domain": "ifoodreal.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "totalMinutes": 40
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 10,
+      "sourceUnit": "large",
+      "sourceDisplay": "10 eggs",
+      "normalizedQuantity": 500,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0035",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups cottage cheese",
+      "normalizedQuantity": 452,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups frozen spinach",
+      "normalizedQuantity": 170,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 Roma tomatoes",
+      "normalizedQuantity": 186,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "medium",
+      "sourceDisplay": "½ onion",
+      "normalizedQuantity": 75,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Heat the oven to 375°F and grease a baking dish.",
+    "Whisk the eggs and cottage cheese until combined.",
+    "Fold in the spinach, tomatoes, and onion and pour into the dish.",
+    "Bake until the center is firm, then rest before slicing."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1289.9,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1151.72,
+      "proteinG": 127.478,
+      "carbohydratesG": 36.744,
+      "fatG": 53.539,
+      "fiberG": 8.587,
+      "sugarsG": 20.141,
+      "sodiumMg": 2680.97,
+      "potassiumMg": 2244.24,
+      "calciumMg": 804.87,
+      "ironMg": 13.308,
+      "magnesiumMg": 237.31,
+      "vitaminCMg": 40.982
+    },
+    "perServing": {
+      "calories": 191.953,
+      "proteinG": 21.246,
+      "carbohydratesG": 6.124,
+      "fatG": 8.923,
+      "fiberG": 1.431,
+      "sugarsG": 3.357,
+      "sodiumMg": 446.828,
+      "potassiumMg": 374.04,
+      "calciumMg": 134.145,
+      "ironMg": 2.218,
+      "magnesiumMg": 39.552,
+      "vitaminCMg": 6.83
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.41,
+    "perServingUsd": 0.73,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-02-29T18:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "ifoodreal.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://ifoodreal.com/cottage-cheese-egg-bake/",
+    "originalSourceUrl": "https://ifoodreal.com/wp-content/uploads/2023/12/fg-cottage-cheese-egg-bake.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0038",
+    "name": "Cottage Cheese Spinach Egg Bake",
+    "description": "A fluffy baked egg dish enriched with cottage cheese and spinach.",
+    "mealType": "Breakfast",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 191.953,
+      "proteinG": 21.246,
+      "carbohydratesG": 6.124,
+      "fatG": 8.923,
+      "fiberG": 1.431,
+      "sugarsG": 3.357,
+      "sodiumMg": 446.828,
+      "potassiumMg": 374.04,
+      "calciumMg": 134.145,
+      "ironMg": 2.218,
+      "magnesiumMg": 39.552,
+      "vitaminCMg": 6.83
+    },
+    "estimatedCostPerServingUsd": 0.73,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

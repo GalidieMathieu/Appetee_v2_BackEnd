@@ -1,0 +1,223 @@
+{
+  "seedId": "REC-1690",
+  "candidate": {
+    "sequence": 2490,
+    "seedId": "REC-CAND-2490",
+    "name": "Pineapple Kefir Shake"
+  },
+  "name": "Pineapple Kefir Shake",
+  "description": "Pineapple Kefir Shake is a practical drink adaptation built around kefir, fruit, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.oikos.com/greek-yogurt-recipes/smoothies/recipe/berry-banana-smoothie/",
+    "domain": "oikos.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Berry Banana Greek Yogurt Smoothie source because it provides the closest validated dairy and shake structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Drink",
+  "cookingMethod": "Blender",
+  "primaryProtein": "kefir",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0117",
+      "sourceQuantity": 480,
+      "sourceUnit": "ml",
+      "sourceDisplay": "480 ml",
+      "normalizedQuantity": 480,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0104",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0113",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0030",
+      "sourceQuantity": 240,
+      "sourceUnit": "ml",
+      "sourceDisplay": "240 ml",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and chill the ingredients for pineapple kefir shake.",
+    "Add the liquid ingredients to the blender before the thicker ingredients.",
+    "Blend until the pineapple kefir shake is completely smooth and evenly combined.",
+    "Adjust the thickness with a small amount of milk and serve immediately."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1920,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1944.192,
+      "proteinG": 91.577,
+      "carbohydratesG": 343.068,
+      "fatG": 27.656,
+      "fiberG": 34.86,
+      "sugarsG": 161.305,
+      "sodiumMg": 444.744,
+      "potassiumMg": 3133.896,
+      "calciumMg": 1457.76,
+      "ironMg": 12.079,
+      "magnesiumMg": 502.92,
+      "vitaminCMg": 145.183
+    },
+    "perServing": {
+      "calories": 486.048,
+      "proteinG": 22.894,
+      "carbohydratesG": 85.767,
+      "fatG": 6.914,
+      "fiberG": 8.715,
+      "sugarsG": 40.326,
+      "sodiumMg": 111.186,
+      "potassiumMg": 783.474,
+      "calciumMg": 364.44,
+      "ironMg": 3.02,
+      "magnesiumMg": 125.73,
+      "vitaminCMg": 36.296
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.79,
+    "perServingUsd": 1.95,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly"
+  ],
+  "createdAt": "2031-02-19T14:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/banana-pineapple-kefir-smoothie-gut-healing-fermented-food--365073113543690674/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.cFAUYdi6ksA3TCDXhJYYgAHaLG&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/c8/5f/14/c85f1437516c973eb7340cba27aeb272.jpg",
+    "searchQuery": "Pineapple Kefir Shake plated recipe food",
+    "searchResultTitle": "Banana, Pineapple & Kefir Smoothie (Gut Healing & Fermented Food ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:57:04.465Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1690",
+    "name": "Pineapple Kefir Shake",
+    "description": "Pineapple Kefir Shake is a practical drink adaptation built around kefir, fruit, and title-specific supporting ingredients.",
+    "mealType": "Breakfast",
+    "mealCategory": "Drink",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 486.048,
+      "proteinG": 22.894,
+      "carbohydratesG": 85.767,
+      "fatG": 6.914,
+      "fiberG": 8.715,
+      "sugarsG": 40.326,
+      "sodiumMg": 111.186,
+      "potassiumMg": 783.474,
+      "calciumMg": 364.44,
+      "ironMg": 3.02,
+      "magnesiumMg": 125.73,
+      "vitaminCMg": 36.296
+    },
+    "estimatedCostPerServingUsd": 1.95,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly"
+    ]
+  }
+}

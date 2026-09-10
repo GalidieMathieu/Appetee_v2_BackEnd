@@ -1,0 +1,246 @@
+{
+  "seedId": "REC-0206",
+  "candidate": {
+    "sequence": 143,
+    "seedId": "REC-CAND-0143",
+    "name": "Herbed Tempeh Salad Bowl"
+  },
+  "name": "Herbed Tempeh Salad Bowl",
+  "description": "Herbed Tempeh Salad Bowl is a practical stovetop recipe pairing tempeh with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.food.com/recipe/mark-bittmans-qunioa-salad-with-tempeh-379312",
+    "domain": "food.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Tempeh Quinoa Tomato Salad source while retaining its closest matching dish form, cooking sequence, and applicable tempeh or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 50,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tempeh",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0049",
+      "sourceQuantity": 16,
+      "sourceUnit": "oz",
+      "sourceDisplay": "16 oz tempeh",
+      "normalizedQuantity": 453.6,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups dry quinoa",
+      "normalizedQuantity": 255,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 4,
+      "sourceUnit": "medium",
+      "sourceDisplay": "4 Roma tomatoes",
+      "normalizedQuantity": 248,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp soy sauce",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp apple cider vinegar",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tempeh, and vegetables for herbed tempeh salad bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tempeh and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the herbed tempeh salad bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1827.94,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2262.881,
+      "proteinG": 137.377,
+      "carbohydratesG": 241.547,
+      "fatG": 92.866,
+      "sodiumMg": 1985.225,
+      "potassiumMg": 4754.764,
+      "calciumMg": 783.734,
+      "ironMg": 27.271,
+      "magnesiumMg": 972.983,
+      "vitaminCMg": 68.296,
+      "fiberG": 27.567,
+      "sugarsG": 7.017
+    },
+    "perServing": {
+      "calories": 565.72,
+      "proteinG": 34.344,
+      "carbohydratesG": 60.387,
+      "fatG": 23.216,
+      "sodiumMg": 496.306,
+      "potassiumMg": 1188.691,
+      "calciumMg": 195.934,
+      "ironMg": 6.818,
+      "magnesiumMg": 243.246,
+      "vitaminCMg": 17.074,
+      "fiberG": 6.892,
+      "sugarsG": 1.754
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 20.84,
+    "perServingUsd": 5.21,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Meal Prep"
+  ],
+  "createdAt": "2024-11-14T18:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://animalia-life.club/qa/pictures/tempeh-salad-recipes",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.-aQL91mli4vno8JCOIqnyAHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://frommybowl.com/wp-content/uploads/2022/06/Thai_Inspired_Salad_Tempeh_Vegan_FromMyBowl-9.jpg",
+    "searchQuery": "Herbed Tempeh Salad Bowl plated recipe food",
+    "searchResultTitle": "Tempeh Salad Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:26:11.411Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0206",
+    "name": "Herbed Tempeh Salad Bowl",
+    "description": "Herbed Tempeh Salad Bowl is a practical stovetop recipe pairing tempeh with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 565.72,
+      "proteinG": 34.344,
+      "carbohydratesG": 60.387,
+      "fatG": 23.216,
+      "sodiumMg": 496.306,
+      "potassiumMg": 1188.691,
+      "calciumMg": 195.934,
+      "ironMg": 6.818,
+      "magnesiumMg": 243.246,
+      "vitaminCMg": 17.074,
+      "fiberG": 6.892,
+      "sugarsG": 1.754
+    },
+    "estimatedCostPerServingUsd": 5.21,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Meal Prep"
+    ]
+  }
+}

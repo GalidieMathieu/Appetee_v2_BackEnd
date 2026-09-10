@@ -1,0 +1,206 @@
+{
+  "seedId": "REC-1454",
+  "candidate": {
+    "sequence": 2251,
+    "seedId": "REC-CAND-2251",
+    "name": "Honey Roasted Nuts"
+  },
+  "name": "Honey Roasted Nuts",
+  "description": "Honey Roasted Nuts is a practical snack adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/banana-oatmeal-bites-514723",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Banana Oatmeal Bites source because it provides the closest validated vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 30,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "Oven",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0096",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for honey roasted nuts and preheat the oven.",
+    "Coat the vegetables and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the vegetables and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the honey roasted nuts briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 525,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1254.882,
+      "proteinG": 29.064,
+      "carbohydratesG": 106.155,
+      "fatG": 87.405,
+      "fiberG": 21.135,
+      "sugarsG": 54.63,
+      "sodiumMg": 9.696,
+      "potassiumMg": 1517.223,
+      "calciumMg": 398.823,
+      "ironMg": 5.952,
+      "magnesiumMg": 355.95,
+      "vitaminCMg": 29.58
+    },
+    "perServing": {
+      "calories": 313.721,
+      "proteinG": 7.266,
+      "carbohydratesG": 26.539,
+      "fatG": 21.851,
+      "fiberG": 5.284,
+      "sugarsG": 13.658,
+      "sodiumMg": 2.424,
+      "potassiumMg": 379.306,
+      "calciumMg": 99.706,
+      "ironMg": 1.488,
+      "magnesiumMg": 88.987,
+      "vitaminCMg": 7.395
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.87,
+    "perServingUsd": 0.97,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-02-20T18:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse2.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://momskitchenrecipes.com/honey-roasted-nuts-mix/",
+    "originalSourceUrl": "https://tse2.mm.bing.net/th/id/OIP.JKgfonoQkKV0VwMX9kvh1AHaLG?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://momskitchenrecipes.com/wp-content/uploads/2025/10/2-5.png",
+    "searchQuery": "honey nuts plated recipe food photograph",
+    "searchResultTitle": "Honey Roasted Nuts Mix",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:51.269Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1454",
+    "name": "Honey Roasted Nuts",
+    "description": "Honey Roasted Nuts is a practical snack adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 313.721,
+      "proteinG": 7.266,
+      "carbohydratesG": 26.539,
+      "fatG": 21.851,
+      "fiberG": 5.284,
+      "sugarsG": 13.658,
+      "sodiumMg": 2.424,
+      "potassiumMg": 379.306,
+      "calciumMg": 99.706,
+      "ironMg": 1.488,
+      "magnesiumMg": 88.987,
+      "vitaminCMg": 7.395
+    },
+    "estimatedCostPerServingUsd": 0.97,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

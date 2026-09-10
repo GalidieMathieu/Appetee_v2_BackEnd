@@ -1,0 +1,216 @@
+{
+  "seedId": "REC-1279",
+  "candidate": {
+    "sequence": 2073,
+    "seedId": "REC-CAND-2073",
+    "name": "Lemon Black Bean Curry"
+  },
+  "name": "Lemon Black Bean Curry",
+  "description": "Lemon Black Bean Curry is a practical main meal adaptation built around black beans, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://cookieandkate.com/black-bean-burrito-bowl-recipe/",
+    "domain": "cookieandkate.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Black Bean Curry Bowl source because it provides the closest validated beans and curry structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 50,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "black beans",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, black beans, and legumes for lemon black bean curry.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned black beans and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the lemon black bean curry, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1050,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 940.932,
+      "proteinG": 35.099,
+      "carbohydratesG": 140.745,
+      "fatG": 34.205,
+      "sodiumMg": 886.696,
+      "potassiumMg": 2090.923,
+      "calciumMg": 349.873,
+      "ironMg": 10.763,
+      "magnesiumMg": 197.5,
+      "fiberG": 17.075,
+      "sugarsG": 7.788,
+      "vitaminCMg": 188.315
+    },
+    "perServing": {
+      "calories": 235.233,
+      "proteinG": 8.775,
+      "carbohydratesG": 35.186,
+      "fatG": 8.551,
+      "sodiumMg": 221.674,
+      "potassiumMg": 522.731,
+      "calciumMg": 87.468,
+      "ironMg": 2.691,
+      "magnesiumMg": 49.375,
+      "fiberG": 4.269,
+      "sugarsG": 1.947,
+      "vitaminCMg": 47.079
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.55,
+    "perServingUsd": 0.89,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Budget Friendly"
+  ],
+  "createdAt": "2029-05-26T23:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://neilshealthymeals.com/30-minute-easy-black-bean-curry/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.HEiBOo70lWlOsSu8CjXTmgHaLG&pid=15.1",
+    "discoveredOriginalUrl": "https://neilshealthymeals.com/wp-content/uploads/2022/10/30-Minute-Easy-Black-Bean-Curry-Bottom-683x1024.jpg",
+    "searchQuery": "Lemon Black Bean Curry plated recipe food",
+    "searchResultTitle": "30-Minute Easy Black Bean Curry - Neils Healthy Meals",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:16:59.056Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1279",
+    "name": "Lemon Black Bean Curry",
+    "description": "Lemon Black Bean Curry is a practical main meal adaptation built around black beans, legumes, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 235.233,
+      "proteinG": 8.775,
+      "carbohydratesG": 35.186,
+      "fatG": 8.551,
+      "sodiumMg": 221.674,
+      "potassiumMg": 522.731,
+      "calciumMg": 87.468,
+      "ironMg": 2.691,
+      "magnesiumMg": 49.375,
+      "fiberG": 4.269,
+      "sugarsG": 1.947,
+      "vitaminCMg": 47.079
+    },
+    "estimatedCostPerServingUsd": 0.89,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Budget Friendly"
+    ]
+  }
+}

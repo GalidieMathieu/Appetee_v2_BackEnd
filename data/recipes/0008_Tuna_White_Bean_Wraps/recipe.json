@@ -1,0 +1,198 @@
+{
+  "seedId": "REC-0008",
+  "name": "Tuna White Bean Wraps",
+  "description": "Whole-wheat wraps filled with tuna, cannellini beans, spinach, and tomato.",
+  "source": {
+    "url": "https://www.food.com/recipe/tuna-and-white-bean-wraps-251930",
+    "domain": "food.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "tuna",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0025",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans tuna, drained",
+      "normalizedQuantity": 226,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0026",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can cannellini beans, drained",
+      "normalizedQuantity": 260,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 4,
+      "sourceUnit": "pieces",
+      "sourceDisplay": "4 whole-wheat tortillas",
+      "normalizedQuantity": 181.437,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 4,
+      "sourceUnit": "oz",
+      "sourceDisplay": "4 oz spinach",
+      "normalizedQuantity": 113.398,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 2,
+      "sourceUnit": "medium",
+      "sourceDisplay": "2 Roma tomatoes",
+      "normalizedQuantity": 124,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp cider vinegar",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Drain the tuna and beans; thaw and squeeze the spinach dry.",
+    "Mash half the beans with vinegar, then fold in the remaining beans and tuna.",
+    "Warm the tortillas until flexible.",
+    "Layer each tortilla with spinach, tomato, and tuna mixture, then roll firmly."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 896.095,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1179.402,
+      "proteinG": 99.422,
+      "carbohydratesG": 148.138,
+      "fatG": 21.21,
+      "fiberG": 35.037,
+      "sugarsG": 9.24,
+      "sodiumMg": 2207.338,
+      "potassiumMg": 2888.682,
+      "calciumMg": 817.11,
+      "ironMg": 18.512,
+      "magnesiumMg": 447.287,
+      "vitaminCMg": 23.225
+    },
+    "perServing": {
+      "calories": 294.851,
+      "proteinG": 24.855,
+      "carbohydratesG": 37.035,
+      "fatG": 5.303,
+      "fiberG": 8.759,
+      "sugarsG": 2.31,
+      "sodiumMg": 551.835,
+      "potassiumMg": 722.17,
+      "calciumMg": 204.278,
+      "ironMg": 4.628,
+      "magnesiumMg": 111.822,
+      "vitaminCMg": 5.806
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.91,
+    "perServingUsd": 0.98,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-01-14T12:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "provenance": "Public source-page image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.food.com/recipe/tuna-and-white-bean-wraps-251930",
+    "originalSourceUrl": "https://geniuskitchen.sndimg.com/fdc-new/img/fdc-shareGraphic.png",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0008",
+    "name": "Tuna White Bean Wraps",
+    "description": "Whole-wheat wraps filled with tuna, cannellini beans, spinach, and tomato.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": {
+      "main": "recipes/0008_Tuna_White_Bean_Wraps/assets/main.avif",
+      "card": "recipes/0008_Tuna_White_Bean_Wraps/assets/card.avif"
+    },
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 294.851,
+      "proteinG": 24.855,
+      "carbohydratesG": 37.035,
+      "fatG": 5.303,
+      "fiberG": 8.759,
+      "sugarsG": 2.31,
+      "sodiumMg": 551.835,
+      "potassiumMg": 722.17,
+      "calciumMg": 204.278,
+      "ironMg": 4.628,
+      "magnesiumMg": 111.822,
+      "vitaminCMg": 5.806
+    },
+    "estimatedCostPerServingUsd": 0.98,
+    "diets": [
+      "Pescatarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly"
+    ]
+  }
+}

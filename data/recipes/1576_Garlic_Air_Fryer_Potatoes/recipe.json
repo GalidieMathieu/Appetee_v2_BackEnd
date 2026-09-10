@@ -1,0 +1,194 @@
+{
+  "seedId": "REC-1576",
+  "candidate": {
+    "sequence": 2374,
+    "seedId": "REC-CAND-2374",
+    "name": "Garlic Air Fryer Potatoes"
+  },
+  "name": "Garlic Air Fryer Potatoes",
+  "description": "Garlic Air Fryer Potatoes is a practical meal component adaptation built around vegetables, potatoes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/air-fryer-baked-potatoes-8650977",
+    "domain": "foodnetwork.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Air Fryer Baked Potatoes source because it provides the closest validated potatoes structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 60,
+    "totalMinutes": 80
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Meal Component",
+  "cookingMethod": "Air Fryer",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for garlic air fryer potatoes and preheat the air fryer.",
+    "Coat the vegetables and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the potatoes and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the garlic air fryer potatoes briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 645,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 614.682,
+      "proteinG": 9.864,
+      "carbohydratesG": 85.095,
+      "fatG": 27.765,
+      "fiberG": 9.915,
+      "sugarsG": 2.01,
+      "sodiumMg": 21.096,
+      "potassiumMg": 1857.423,
+      "calciumMg": 111.423,
+      "ironMg": 3.828,
+      "magnesiumMg": 99.75,
+      "vitaminCMg": 46.38
+    },
+    "perServing": {
+      "calories": 153.671,
+      "proteinG": 2.466,
+      "carbohydratesG": 21.274,
+      "fatG": 6.941,
+      "fiberG": 2.479,
+      "sugarsG": 0.502,
+      "sodiumMg": 5.274,
+      "potassiumMg": 464.356,
+      "calciumMg": 27.856,
+      "ironMg": 0.957,
+      "magnesiumMg": 24.938,
+      "vitaminCMg": 11.595
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 1.7,
+    "perServingUsd": 0.42,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-08-27T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "food.fnr.sndimg.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.foodnetwork.com/recipes/food-network-kitchen/air-fryer-baked-potatoes-8650977",
+    "originalSourceUrl": "https://food.fnr.sndimg.com/content/dam/images/food/plus/fullset/2020/04/30/0/FNK_Air-Fryer-Baked-Potatoes_H_s4x3.jpg.rend.hgtvcom.616.462.suffix/1588257267895.webp",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:09:21.839Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1576",
+    "name": "Garlic Air Fryer Potatoes",
+    "description": "Garlic Air Fryer Potatoes is a practical meal component adaptation built around vegetables, potatoes, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Meal Component",
+    "image": null,
+    "totalTimeMinutes": 80,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 153.671,
+      "proteinG": 2.466,
+      "carbohydratesG": 21.274,
+      "fatG": 6.941,
+      "fiberG": 2.479,
+      "sugarsG": 0.502,
+      "sodiumMg": 5.274,
+      "potassiumMg": 464.356,
+      "calciumMg": 27.856,
+      "ironMg": 0.957,
+      "magnesiumMg": 24.938,
+      "vitaminCMg": 11.595
+    },
+    "estimatedCostPerServingUsd": 0.42,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

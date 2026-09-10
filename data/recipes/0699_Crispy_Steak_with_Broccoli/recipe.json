@@ -1,0 +1,244 @@
+{
+  "seedId": "REC-0699",
+  "candidate": {
+    "sequence": 1094,
+    "seedId": "REC-CAND-1094",
+    "name": "Crispy Steak with Broccoli"
+  },
+  "name": "Crispy Steak with Broccoli",
+  "description": "Crispy Steak with Broccoli is a practical stovetop recipe pairing steak with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://dinnerthendessert.com/mongolian-beef/",
+    "domain": "dinnerthendessert.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Mongolian Beef and Cabbage Bowl source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Mongolia",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 60,
+    "totalMinutes": 80
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "steak",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0052",
+      "sourceQuantity": 12,
+      "sourceUnit": "g",
+      "sourceDisplay": "12 g",
+      "normalizedQuantity": 12,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0013",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, steak, and vegetables for crispy steak with broccoli.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned steak and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the crispy steak with broccoli, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1737,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1609.566,
+      "proteinG": 164.857,
+      "carbohydratesG": 124.881,
+      "fatG": 53.793,
+      "fiberG": 29.993,
+      "sugarsG": 23.365,
+      "sodiumMg": 2585.736,
+      "potassiumMg": 5819.043,
+      "calciumMg": 819.027,
+      "ironMg": 21.319,
+      "magnesiumMg": 602.502,
+      "vitaminCMg": 229.98
+    },
+    "perServing": {
+      "calories": 402.392,
+      "proteinG": 41.214,
+      "carbohydratesG": 31.22,
+      "fatG": 13.448,
+      "fiberG": 7.498,
+      "sugarsG": 5.841,
+      "sodiumMg": 646.434,
+      "potassiumMg": 1454.761,
+      "calciumMg": 204.757,
+      "ironMg": 5.33,
+      "magnesiumMg": 150.625,
+      "vitaminCMg": 57.495
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 27.89,
+    "perServingUsd": 6.97,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber"
+  ],
+  "createdAt": "2026-12-14T19:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.epicurious.com/recipes/food/views/pan-roasted-steak-with-crispy-broccoli",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.5rkO9LS50nwEVlvmQqCruQHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://assets.epicurious.com/photos/5c6442ee11a45745bba9440d/1:1/w_2560%2Cc_limit/pan-roasted-Steak-with-crispy-broccoli-recipe-BA-010819.jpg",
+    "searchQuery": "Crispy Steak with Broccoli plated recipe food",
+    "searchResultTitle": "Pan-Roasted Steak with Crispy Broccoli Recipe | Epicurious",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:01:28.724Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0699",
+    "name": "Crispy Steak with Broccoli",
+    "description": "Crispy Steak with Broccoli is a practical stovetop recipe pairing steak with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 80,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 402.392,
+      "proteinG": 41.214,
+      "carbohydratesG": 31.22,
+      "fatG": 13.448,
+      "fiberG": 7.498,
+      "sugarsG": 5.841,
+      "sodiumMg": 646.434,
+      "potassiumMg": 1454.761,
+      "calciumMg": 204.757,
+      "ironMg": 5.33,
+      "magnesiumMg": 150.625,
+      "vitaminCMg": 57.495
+    },
+    "estimatedCostPerServingUsd": 6.97,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber"
+    ]
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "seedId": "REC-0882",
+  "candidate": {
+    "sequence": 1441,
+    "seedId": "REC-CAND-1441",
+    "name": "Sausage and Carrots Tacos"
+  },
+  "name": "Sausage and Carrots Tacos",
+  "description": "Sausage and Carrots Tacos is a practical stovetop recipe pairing sausage with tortilla and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/pork-tacos-with-black-beans-recipe-3361652",
+    "domain": "foodnetwork.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Pork Black Bean Tacos source while retaining its closest matching dish form, cooking sequence, and applicable pork or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "sausage",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0085",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 10,
+      "sourceUnit": "tortillas",
+      "sourceDisplay": "10 whole-wheat tortillas",
+      "normalizedQuantity": 453.6,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can black beans, drained",
+      "normalizedQuantity": 260,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup corn",
+      "normalizedQuantity": 165,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup salsa",
+      "normalizedQuantity": 260,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp chili powder",
+      "normalizedQuantity": 8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, sausage, and tortilla for sausage and carrots tacos.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned sausage and cook it until browned or heated through as appropriate.",
+    "Stir in the tortilla, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the sausage and carrots tacos, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2195.1,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3972.12,
+      "proteinG": 159.103,
+      "carbohydratesG": 395.242,
+      "fatG": 201.862,
+      "fiberG": 70.292,
+      "sugarsG": 31.079,
+      "sodiumMg": 10242.912,
+      "potassiumMg": 6471.632,
+      "calciumMg": 1608.664,
+      "ironMg": 30.03,
+      "magnesiumMg": 754.45,
+      "vitaminCMg": 52.811
+    },
+    "perServing": {
+      "calories": 993.03,
+      "proteinG": 39.776,
+      "carbohydratesG": 98.811,
+      "fatG": 50.465,
+      "fiberG": 17.573,
+      "sugarsG": 7.77,
+      "sodiumMg": 2560.728,
+      "potassiumMg": 1617.908,
+      "calciumMg": 402.166,
+      "ironMg": 7.508,
+      "magnesiumMg": 188.613,
+      "vitaminCMg": 13.203
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.48,
+    "perServingUsd": 2.62,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-09-22T22:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://homecooksimple.com/easy-sausage-tacos/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.uaWIczwXUjHP9akWB8jvDAHaJQ&pid=15.1",
+    "discoveredOriginalUrl": "https://homecooksimple.com/wp-content/uploads/2026/01/32-1.png",
+    "searchQuery": "Sausage and Carrots Tacos plated recipe food",
+    "searchResultTitle": "Easy Sausage Tacos - Home Cook Simple",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:10:46.420Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0882",
+    "name": "Sausage and Carrots Tacos",
+    "description": "Sausage and Carrots Tacos is a practical stovetop recipe pairing sausage with tortilla and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 993.03,
+      "proteinG": 39.776,
+      "carbohydratesG": 98.811,
+      "fatG": 50.465,
+      "fiberG": 17.573,
+      "sugarsG": 7.77,
+      "sodiumMg": 2560.728,
+      "potassiumMg": 1617.908,
+      "calciumMg": 402.166,
+      "ironMg": 7.508,
+      "magnesiumMg": 188.613,
+      "vitaminCMg": 13.203
+    },
+    "estimatedCostPerServingUsd": 2.62,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

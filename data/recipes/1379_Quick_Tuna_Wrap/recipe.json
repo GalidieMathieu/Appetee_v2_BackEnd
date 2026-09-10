@@ -1,0 +1,198 @@
+{
+  "seedId": "REC-1379",
+  "candidate": {
+    "sequence": 2173,
+    "seedId": "REC-CAND-2173",
+    "name": "Quick Tuna Wrap"
+  },
+  "name": "Quick Tuna Wrap",
+  "description": "Quick Tuna Wrap is a practical small meal adaptation built around tuna, tortilla, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/tuna-and-white-bean-wraps-251930",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Tuna and Cabbage Wraps source because it provides the closest validated fish and wrap structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "tuna",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0025",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for quick tuna wrap.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the tuna with the tortilla and remaining ingredients in the intended small meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the quick tuna wrap into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1030,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1749.332,
+      "proteinG": 133.77,
+      "carbohydratesG": 163.53,
+      "fatG": 60.01,
+      "fiberG": 35.1,
+      "sugarsG": 7.32,
+      "sodiumMg": 2054.546,
+      "potassiumMg": 2280.273,
+      "calciumMg": 821.273,
+      "ironMg": 15.003,
+      "magnesiumMg": 390,
+      "vitaminCMg": 24.6
+    },
+    "perServing": {
+      "calories": 437.333,
+      "proteinG": 33.443,
+      "carbohydratesG": 40.883,
+      "fatG": 15.002,
+      "fiberG": 8.775,
+      "sugarsG": 1.83,
+      "sodiumMg": 513.636,
+      "potassiumMg": 570.068,
+      "calciumMg": 205.318,
+      "ironMg": 3.751,
+      "magnesiumMg": 97.5,
+      "vitaminCMg": 6.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.7,
+    "perServingUsd": 1.43,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-10-28T03:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://zagarecipes.com/tuna-wraps-cooked-pan/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.q8bw4LrCExhpLg89jj1qAwHaJ1&pid=15.1",
+    "discoveredOriginalUrl": "https://zagarecipes.com/wp-content/uploads/2025/11/Tuna-Wraps-Cooked-Pan-1.jpg",
+    "searchQuery": "Quick Tuna Wrap plated recipe food",
+    "searchResultTitle": "Quick Tuna Wraps Cooked Pan for Busy Nights - Zagarecipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:51:39.583Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1379",
+    "name": "Quick Tuna Wrap",
+    "description": "Quick Tuna Wrap is a practical small meal adaptation built around tuna, tortilla, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 437.333,
+      "proteinG": 33.443,
+      "carbohydratesG": 40.883,
+      "fatG": 15.002,
+      "fiberG": 8.775,
+      "sugarsG": 1.83,
+      "sodiumMg": 513.636,
+      "potassiumMg": 570.068,
+      "calciumMg": 205.318,
+      "ironMg": 3.751,
+      "magnesiumMg": 97.5,
+      "vitaminCMg": 6.15
+    },
+    "estimatedCostPerServingUsd": 1.43,
+    "diets": [
+      "Pescatarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

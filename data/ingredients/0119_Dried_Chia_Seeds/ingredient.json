@@ -1,0 +1,120 @@
+{
+  "seedId": "ING-0119",
+  "name": "Dried Chia Seeds",
+  "canonicalName": "Dried Chia Seeds",
+  "description": "Plain dried chia seeds for puddings and blended snacks.",
+  "measurementType": "solid",
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": "The exact product is a single-ingredient food without gluten- or lactose-bearing ingredients."
+  },
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Nutiva Organic Black Chia Seeds, 12 oz",
+    "productId": "26968734",
+    "productUrl": "https://www.walmart.com/ip/26968734",
+    "brand": "Nutiva",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 11.41,
+    "packageQuantity": 340.194,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-11T19:50:49.978Z",
+    "priceEvidence": "Current Walmart product-page listing price and package weight."
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 486,
+      "proteinG": 16.5,
+      "carbohydratesG": 42.1,
+      "fatG": 30.7,
+      "fiberG": 34.4,
+      "sodiumMg": 16,
+      "potassiumMg": 407,
+      "calciumMg": 631,
+      "ironMg": 7.72,
+      "magnesiumMg": 335,
+      "vitaminCMg": 1.6
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 3.354
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 170554,
+      "dataType": "SR Legacy",
+      "description": "Seeds, chia seeds, dried",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/170554/nutrients",
+      "searchQuery": "seeds chia dried",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "imageType": "external-real-product-photograph",
+    "aiGenerated": false,
+    "provider": "i5.walmartimages.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/26968734",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Nutiva-Organic-Black-Chia-Seeds-12-Oz_a39550c9-b321-4e67-9f01-0f0ea5e10a04.14eeef6cefb036fde0b52aca25028432.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:01:23.923Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0119",
+    "name": "Dried Chia Seeds",
+    "description": "Plain dried chia seeds for puddings and blended snacks.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 486,
+      "proteinG": 16.5,
+      "carbohydratesG": 42.1,
+      "fatG": 30.7,
+      "fiberG": 34.4,
+      "sodiumMg": 16,
+      "potassiumMg": 407,
+      "calciumMg": 631,
+      "ironMg": 7.72,
+      "magnesiumMg": 335,
+      "vitaminCMg": 1.6
+    },
+    "price": {
+      "usdPerBasis": 3.354,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": null
+  }
+}

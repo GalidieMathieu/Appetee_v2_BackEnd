@@ -1,0 +1,196 @@
+{
+  "seedId": "REC-1480",
+  "candidate": {
+    "sequence": 2277,
+    "seedId": "REC-CAND-2277",
+    "name": "Peanut Butter Apple Bites"
+  },
+  "name": "Peanut Butter Apple Bites",
+  "description": "Peanut Butter Apple Bites is a practical snack adaptation built around peanut butter, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/banana-oatmeal-bites-514723",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Banana Oatmeal Bites source because it provides the closest validated nuts and bites structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "peanut butter",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0032",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0104",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for peanut butter apple bites.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the peanut butter with the vegetables and remaining ingredients in the intended snack form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the peanut butter apple bites into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 720,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1987.8,
+      "proteinG": 61.38,
+      "carbohydratesG": 283.44,
+      "fatG": 76.068,
+      "fiberG": 40.26,
+      "sugarsG": 96.828,
+      "sodiumMg": 603,
+      "potassiumMg": 2121,
+      "calciumMg": 203.4,
+      "ironMg": 13.032,
+      "magnesiumMg": 539.4,
+      "vitaminCMg": 0.3
+    },
+    "perServing": {
+      "calories": 496.95,
+      "proteinG": 15.345,
+      "carbohydratesG": 70.86,
+      "fatG": 19.017,
+      "fiberG": 10.065,
+      "sugarsG": 24.207,
+      "sodiumMg": 150.75,
+      "potassiumMg": 530.25,
+      "calciumMg": 50.85,
+      "ironMg": 3.258,
+      "magnesiumMg": 134.85,
+      "vitaminCMg": 0.075
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.01,
+    "perServingUsd": 0.75,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-04-01T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse4.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.melanyrecipes.com/oatmeal-peanut-butter-energy-bites/",
+    "originalSourceUrl": "https://tse4.mm.bing.net/th/id/OIP.1cPiE6T8VSQI3qcYzVSRVgHaJQ?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://www.melanyrecipes.com/wp-content/uploads/2025/07/ellamallin_58365_Oatmeal_Peanut_Butter_Energy_Bites__Make_our_r_4c92d92e-64ed-4ec7-9e65-78251894c612.png",
+    "searchQuery": "peanut butter healthy oat energy bites dessert food photograph",
+    "searchResultTitle": "Oatmeal Peanut Butter Energy Bites",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:55.391Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1480",
+    "name": "Peanut Butter Apple Bites",
+    "description": "Peanut Butter Apple Bites is a practical snack adaptation built around peanut butter, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 496.95,
+      "proteinG": 15.345,
+      "carbohydratesG": 70.86,
+      "fatG": 19.017,
+      "fiberG": 10.065,
+      "sugarsG": 24.207,
+      "sodiumMg": 150.75,
+      "potassiumMg": 530.25,
+      "calciumMg": 50.85,
+      "ironMg": 3.258,
+      "magnesiumMg": 134.85,
+      "vitaminCMg": 0.075
+    },
+    "estimatedCostPerServingUsd": 0.75,
+    "diets": [
+      "Vegetarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

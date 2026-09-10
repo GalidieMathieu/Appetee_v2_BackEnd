@@ -1,0 +1,198 @@
+{
+  "seedId": "REC-1228",
+  "candidate": {
+    "sequence": 2022,
+    "seedId": "REC-CAND-2022",
+    "name": "Turkey and Zucchini Salad Bowl"
+  },
+  "name": "Turkey and Zucchini Salad Bowl",
+  "description": "Turkey and Zucchini Salad Bowl is a practical main meal adaptation built around turkey, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.healthline.com/recipes/low-calorie-recipe-5",
+    "domain": "healthline.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Turkey Taco Spinach Salad source because it provides the closest validated turkey and bowl/salad structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0083",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for turkey and zucchini salad bowl.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the turkey with the vegetables and remaining ingredients in the intended main meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the turkey and zucchini salad bowl into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1050,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1426.332,
+      "proteinG": 107.67,
+      "carbohydratesG": 21,
+      "fatG": 103.86,
+      "fiberG": 6.6,
+      "sugarsG": 15.39,
+      "sodiumMg": 363.546,
+      "potassiumMg": 2706.273,
+      "calciumMg": 276.273,
+      "ironMg": 9.993,
+      "magnesiumMg": 201,
+      "vitaminCMg": 94.8
+    },
+    "perServing": {
+      "calories": 356.583,
+      "proteinG": 26.918,
+      "carbohydratesG": 5.25,
+      "fatG": 25.965,
+      "fiberG": 1.65,
+      "sugarsG": 3.848,
+      "sodiumMg": 90.886,
+      "potassiumMg": 676.568,
+      "calciumMg": 69.068,
+      "ironMg": 2.498,
+      "magnesiumMg": 50.25,
+      "vitaminCMg": 23.7
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.74,
+    "perServingUsd": 1.19,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-03-09T08:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "techiecycle.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://techiecycle.com/ground-turkey-and-zucchini-bowl/",
+    "originalSourceUrl": "https://techiecycle.com/wp-content/uploads/2026/04/99e371d5a5a6c570496cdef0c3a95f1c.jpg",
+    "discoveredOriginalUrl": "https://techiecycle.com/wp-content/uploads/2026/04/99e371d5a5a6c570496cdef0c3a95f1c.jpg",
+    "searchQuery": "Turkey and Zucchini Salad Bowl plated recipe food",
+    "searchResultTitle": "Ground Turkey and Zucchini bowl - EASY RECIPES",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:14:27.199Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1228",
+    "name": "Turkey and Zucchini Salad Bowl",
+    "description": "Turkey and Zucchini Salad Bowl is a practical main meal adaptation built around turkey, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 356.583,
+      "proteinG": 26.918,
+      "carbohydratesG": 5.25,
+      "fatG": 25.965,
+      "fiberG": 1.65,
+      "sugarsG": 3.848,
+      "sodiumMg": 90.886,
+      "potassiumMg": 676.568,
+      "calciumMg": 69.068,
+      "ironMg": 2.498,
+      "magnesiumMg": 50.25,
+      "vitaminCMg": 23.7
+    },
+    "estimatedCostPerServingUsd": 1.19,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

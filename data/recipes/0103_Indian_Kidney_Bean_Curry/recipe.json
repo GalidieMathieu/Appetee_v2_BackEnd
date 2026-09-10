@@ -1,0 +1,261 @@
+{
+  "seedId": "REC-0103",
+  "name": "Indian Kidney Bean Curry",
+  "description": "Kidney beans simmered with tomato, ginger, cilantro, cumin, paprika, and garam masala over rice.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/kidney-bean-curry",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "India",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "totalMinutes": 35
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "kidney beans",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 finely chopped onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 2,
+      "sourceUnit": "cloves",
+      "sourceDisplay": "2 chopped garlic cloves",
+      "normalizedQuantity": 10,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp chopped ginger",
+      "normalizedQuantity": 10,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 1,
+      "sourceUnit": "packet",
+      "sourceDisplay": "1 small packet cilantro",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp cumin",
+      "normalizedQuantity": 2.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp paprika",
+      "normalizedQuantity": 2.3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0077",
+      "sourceQuantity": 2,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "2 tsp garam masala",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g canned tomatoes",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0078",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g canned kidney beans",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 200,
+      "sourceUnit": "g dry",
+      "sourceDisplay": "rice for serving",
+      "normalizedQuantity": 200,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Soften the onion slowly in oil until it begins to color.",
+    "Add the garlic, ginger, and cilantro stems and cook until fragrant.",
+    "Toast the cumin, paprika, and garam masala with the aromatics for one minute.",
+    "Add the tomatoes and kidney beans with their liquid and bring the curry to a boil.",
+    "Simmer until thick, season it, and serve the curry over rice with cilantro leaves."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1202.6,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1348.367,
+      "proteinG": 42.249,
+      "carbohydratesG": 256.515,
+      "fatG": 20.821,
+      "fiberG": 28.693,
+      "sugarsG": 8.308,
+      "sodiumMg": 993.749,
+      "potassiumMg": 2634.046,
+      "calciumMg": 351.834,
+      "ironMg": 11.426,
+      "magnesiumMg": 261.76,
+      "vitaminCMg": 26.89
+    },
+    "perServing": {
+      "calories": 337.092,
+      "proteinG": 10.562,
+      "carbohydratesG": 64.129,
+      "fatG": 5.205,
+      "fiberG": 7.173,
+      "sugarsG": 2.077,
+      "sodiumMg": 248.437,
+      "potassiumMg": 658.511,
+      "calciumMg": 87.959,
+      "ironMg": 2.857,
+      "magnesiumMg": 65.44,
+      "vitaminCMg": 6.723
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.74,
+    "perServingUsd": 0.94,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-06-08T23:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "images.immediate.co.uk",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.bbcgoodfood.com/recipes/kidney-bean-curry",
+    "originalSourceUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/kidney-bean-curry-f8e0b17.jpg?resize=440%2C230",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0103",
+    "name": "Indian Kidney Bean Curry",
+    "description": "Kidney beans simmered with tomato, ginger, cilantro, cumin, paprika, and garam masala over rice.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 337.092,
+      "proteinG": 10.562,
+      "carbohydratesG": 64.129,
+      "fatG": 5.205,
+      "fiberG": 7.173,
+      "sugarsG": 2.077,
+      "sodiumMg": 248.437,
+      "potassiumMg": 658.511,
+      "calciumMg": 87.959,
+      "ironMg": 2.857,
+      "magnesiumMg": 65.44,
+      "vitaminCMg": 6.723
+    },
+    "estimatedCostPerServingUsd": 0.94,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

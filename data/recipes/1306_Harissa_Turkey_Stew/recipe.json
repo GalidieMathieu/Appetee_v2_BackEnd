@@ -1,0 +1,212 @@
+{
+  "seedId": "REC-1306",
+  "candidate": {
+    "sequence": 2100,
+    "seedId": "REC-CAND-2100",
+    "name": "Harissa Turkey Stew"
+  },
+  "name": "Harissa Turkey Stew",
+  "description": "Harissa Turkey Stew is a practical main meal adaptation built around turkey, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.healthline.com/recipes/low-calorie-recipe-5",
+    "domain": "healthline.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Turkey Taco Spinach Salad source because it provides the closest validated turkey and stew structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0088",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, turkey, and vegetables for harissa turkey stew.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned turkey and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the harissa turkey stew, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1095,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1736.682,
+      "proteinG": 110.634,
+      "carbohydratesG": 88.395,
+      "fatG": 105.315,
+      "fiberG": 12.615,
+      "sugarsG": 45.45,
+      "sodiumMg": 6690.096,
+      "potassiumMg": 2781.423,
+      "calciumMg": 324.423,
+      "ironMg": 14.088,
+      "magnesiumMg": 192.75,
+      "vitaminCMg": 109.98
+    },
+    "perServing": {
+      "calories": 434.171,
+      "proteinG": 27.659,
+      "carbohydratesG": 22.099,
+      "fatG": 26.329,
+      "fiberG": 3.154,
+      "sugarsG": 11.363,
+      "sodiumMg": 1672.524,
+      "potassiumMg": 695.356,
+      "calciumMg": 81.106,
+      "ironMg": 3.522,
+      "magnesiumMg": 48.188,
+      "vitaminCMg": 27.495
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 13.04,
+    "perServingUsd": 3.26,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Quick Meal",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-07-07T14:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.scrambledandscrumptious.com/recipes/harissa-and-turkey-stew",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.zqUfa-m_am2_pfc46PfkkAHaJ4&pid=15.1",
+    "discoveredOriginalUrl": "https://assets-global.website-files.com/60d29a175c2cd12b443f0a63/6144db335006c07028d41bd7_20200920_191512-768x1024.jpeg",
+    "searchQuery": "Harissa Turkey Stew plated recipe food",
+    "searchResultTitle": "Harissa and Turkey Stew",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:18:22.210Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1306",
+    "name": "Harissa Turkey Stew",
+    "description": "Harissa Turkey Stew is a practical main meal adaptation built around turkey, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 434.171,
+      "proteinG": 27.659,
+      "carbohydratesG": 22.099,
+      "fatG": 26.329,
+      "fiberG": 3.154,
+      "sugarsG": 11.363,
+      "sodiumMg": 1672.524,
+      "potassiumMg": 695.356,
+      "calciumMg": 81.106,
+      "ironMg": 3.522,
+      "magnesiumMg": 48.188,
+      "vitaminCMg": 27.495
+    },
+    "estimatedCostPerServingUsd": 3.26,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Quick Meal",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

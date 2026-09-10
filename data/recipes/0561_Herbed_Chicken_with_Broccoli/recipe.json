@@ -1,0 +1,278 @@
+{
+  "seedId": "REC-0561",
+  "candidate": {
+    "sequence": 827,
+    "seedId": "REC-CAND-0827",
+    "name": "Herbed Chicken with Broccoli"
+  },
+  "name": "Herbed Chicken with Broccoli",
+  "description": "Herbed Chicken with Broccoli is a practical stovetop recipe pairing chicken with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/11753/nutty-chicken-curry",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Indian Peanut Chicken Curry source while retaining its closest matching dish form, cooking sequence, and applicable chicken or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "India",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 40,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "chili powder replacing 1 fresh red chili",
+      "normalizedQuantity": 1.35,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g fresh ginger",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 2,
+      "sourceUnit": "cloves",
+      "sourceDisplay": "2 garlic cloves",
+      "normalizedQuantity": 10,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 1,
+      "sourceUnit": "bunch",
+      "sourceDisplay": "1 bunch cilantro",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 4,
+      "sourceUnit": "breasts",
+      "sourceDisplay": "4 chicken breasts",
+      "normalizedQuantity": 680.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0032",
+      "sourceQuantity": 5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "5 tbsp peanut butter",
+      "normalizedQuantity": 80,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0055",
+      "sourceQuantity": 150,
+      "sourceUnit": "ml",
+      "sourceDisplay": "150 ml chicken broth",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 200,
+      "sourceUnit": "g",
+      "sourceDisplay": "200 g Greek yogurt",
+      "normalizedQuantity": 200,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0013",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chicken, and vegetables for herbed chicken with broccoli.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chicken and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the herbed chicken with broccoli, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1633.35,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1677.177,
+      "proteinG": 208.3,
+      "carbohydratesG": 73.641,
+      "fatG": 69.182,
+      "fiberG": 23.312,
+      "sugarsG": 18.368,
+      "sodiumMg": 1386.671,
+      "potassiumMg": 4790.111,
+      "calciumMg": 601.219,
+      "ironMg": 9.682,
+      "magnesiumMg": 446.926,
+      "vitaminCMg": 210.879
+    },
+    "perServing": {
+      "calories": 419.294,
+      "proteinG": 52.075,
+      "carbohydratesG": 18.41,
+      "fatG": 17.296,
+      "fiberG": 5.828,
+      "sugarsG": 4.592,
+      "sodiumMg": 346.668,
+      "potassiumMg": 1197.528,
+      "calciumMg": 150.305,
+      "ironMg": 2.421,
+      "magnesiumMg": 111.731,
+      "vitaminCMg": 52.72
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 11.82,
+    "perServingUsd": 2.96,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Low Carb",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-05-16T01:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://in.pinterest.com/pin/herbed-chicken-with-roasted-veggies-plate--12103492743269991/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.WOXmoR2qJUzS28n6dsCwVwHaJQ&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/4a/20/a5/4a20a55493878028df5b83c683170c9d.jpg",
+    "searchQuery": "Herbed Chicken with Broccoli plated recipe food",
+    "searchResultTitle": "🍗Herbed Chicken with Roasted Veggies Plate🍗 | Broccoli and chicken ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:54:34.330Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0561",
+    "name": "Herbed Chicken with Broccoli",
+    "description": "Herbed Chicken with Broccoli is a practical stovetop recipe pairing chicken with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 419.294,
+      "proteinG": 52.075,
+      "carbohydratesG": 18.41,
+      "fatG": 17.296,
+      "fiberG": 5.828,
+      "sugarsG": 4.592,
+      "sodiumMg": 346.668,
+      "potassiumMg": 1197.528,
+      "calciumMg": 150.305,
+      "ironMg": 2.421,
+      "magnesiumMg": 111.731,
+      "vitaminCMg": 52.72
+    },
+    "estimatedCostPerServingUsd": 2.96,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Low Carb",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

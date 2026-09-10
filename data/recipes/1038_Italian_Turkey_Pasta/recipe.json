@@ -1,0 +1,236 @@
+{
+  "seedId": "REC-1038",
+  "candidate": {
+    "sequence": 1731,
+    "seedId": "REC-CAND-1731",
+    "name": "Italian Turkey Pasta"
+  },
+  "name": "Italian Turkey Pasta",
+  "description": "Italian Turkey Pasta is a practical stovetop recipe pairing turkey with pasta and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.budgetbytes.com/turkey-meatballs/",
+    "domain": "budgetbytes.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Turkey Meatball Tomato Penne source while retaining its closest matching dish form, cooking sequence, and applicable turkey or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Italy",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 30,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "pasta",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb ground turkey",
+      "normalizedQuantity": 680.389,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 1,
+      "sourceUnit": "large",
+      "sourceDisplay": "1 large egg",
+      "normalizedQuantity": 50,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0039",
+      "sourceQuantity": 1,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1 lb penne",
+      "normalizedQuantity": 453.592,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 2.5,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans diced tomatoes",
+      "normalizedQuantity": 822.136,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 8,
+      "sourceUnit": "oz",
+      "sourceDisplay": "8 oz spinach",
+      "normalizedQuantity": 226.796,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, turkey, and pasta for italian turkey pasta.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned turkey and cook it until browned or heated through as appropriate.",
+    "Stir in the pasta, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the italian turkey pasta, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 3057.024,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3335.572,
+      "proteinG": 199.717,
+      "carbohydratesG": 407.573,
+      "fatG": 102.46,
+      "fiberG": 27.555,
+      "sugarsG": 14.004,
+      "sodiumMg": 1667.795,
+      "potassiumMg": 5556.189,
+      "calciumMg": 1008.7,
+      "ironMg": 35.78,
+      "magnesiumMg": 675.014,
+      "vitaminCMg": 46.794
+    },
+    "perServing": {
+      "calories": 833.893,
+      "proteinG": 49.929,
+      "carbohydratesG": 101.893,
+      "fatG": 25.615,
+      "fiberG": 6.889,
+      "sugarsG": 3.501,
+      "sodiumMg": 416.949,
+      "potassiumMg": 1389.047,
+      "calciumMg": 252.175,
+      "ironMg": 8.945,
+      "magnesiumMg": 168.754,
+      "vitaminCMg": 11.698
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 11.43,
+    "perServingUsd": 2.86,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-05-20T10:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://eatproteins.com/9-best-ground-turkey-pasta-recipes/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.1TaS179nOBXC5XAC5FDkKwHaJ4&pid=15.1",
+    "discoveredOriginalUrl": "https://eatproteins.com/wp-content/uploads/2024/11/classic-italian-turkey-bolognese-768x1024.webp",
+    "searchQuery": "Italian Turkey Pasta plated recipe food",
+    "searchResultTitle": "9 Best Ground Turkey Pasta Recipes for Healthy and Delicious Meals",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:18:38.599Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1038",
+    "name": "Italian Turkey Pasta",
+    "description": "Italian Turkey Pasta is a practical stovetop recipe pairing turkey with pasta and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 833.893,
+      "proteinG": 49.929,
+      "carbohydratesG": 101.893,
+      "fatG": 25.615,
+      "fiberG": 6.889,
+      "sugarsG": 3.501,
+      "sodiumMg": 416.949,
+      "potassiumMg": 1389.047,
+      "calciumMg": 252.175,
+      "ironMg": 8.945,
+      "magnesiumMg": 168.754,
+      "vitaminCMg": 11.698
+    },
+    "estimatedCostPerServingUsd": 2.86,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

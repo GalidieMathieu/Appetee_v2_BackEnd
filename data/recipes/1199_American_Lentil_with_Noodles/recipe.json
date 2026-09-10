@@ -1,0 +1,196 @@
+{
+  "seedId": "REC-1199",
+  "candidate": {
+    "sequence": 1993,
+    "seedId": "REC-CAND-1993",
+    "name": "American Lentil with Noodles"
+  },
+  "name": "American Lentil with Noodles",
+  "description": "American Lentil with Noodles is a practical main meal adaptation built around lentils, noodles, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://feelgoodfoodie.net/recipe/mujadara/",
+    "domain": "feelgoodfoodie.net",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Brazilian Lentil Noodle Bowl source because it provides the closest validated lentils and noodle structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Lebanon",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 50,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "noodles",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 2.5,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0103",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 2.5,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lentils, and noodles for american lentil with noodles.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lentils and cook it until browned or heated through as appropriate.",
+    "Stir in the noodles, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the american lentil with noodles, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1530,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2121.732,
+      "proteinG": 95.61,
+      "carbohydratesG": 349.11,
+      "fatG": 40.65,
+      "fiberG": 39.3,
+      "sugarsG": 9.384,
+      "sodiumMg": 68.346,
+      "potassiumMg": 2756.673,
+      "calciumMg": 213.273,
+      "ironMg": 26.241,
+      "magnesiumMg": 279,
+      "vitaminCMg": 35.4
+    },
+    "perServing": {
+      "calories": 530.433,
+      "proteinG": 23.902,
+      "carbohydratesG": 87.278,
+      "fatG": 10.162,
+      "fiberG": 9.825,
+      "sugarsG": 2.346,
+      "sodiumMg": 17.087,
+      "potassiumMg": 689.168,
+      "calciumMg": 53.318,
+      "ironMg": 6.56,
+      "magnesiumMg": 69.75,
+      "vitaminCMg": 8.85
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.1,
+    "perServingUsd": 0.78,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-01-23T15:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.greenprophet.com/2011/02/recipe-middle-eastern-noodles-with-lentils/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.5_Bav1VuQoFroBcLdRe3FAHaIS&pid=15.1",
+    "discoveredOriginalUrl": "https://www.greenprophet.com/wp-content/uploads/Pasta-with-lentils-middle-east-1372x1536.jpg",
+    "searchQuery": "American Lentil with Noodles plated recipe food",
+    "searchResultTitle": "Noodles and lentils recipe | Green Prophet",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:12:42.516Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1199",
+    "name": "American Lentil with Noodles",
+    "description": "American Lentil with Noodles is a practical main meal adaptation built around lentils, noodles, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 530.433,
+      "proteinG": 23.902,
+      "carbohydratesG": 87.278,
+      "fatG": 10.162,
+      "fiberG": 9.825,
+      "sugarsG": 2.346,
+      "sodiumMg": 17.087,
+      "potassiumMg": 689.168,
+      "calciumMg": 53.318,
+      "ironMg": 6.56,
+      "magnesiumMg": 69.75,
+      "vitaminCMg": 8.85
+    },
+    "estimatedCostPerServingUsd": 0.78,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

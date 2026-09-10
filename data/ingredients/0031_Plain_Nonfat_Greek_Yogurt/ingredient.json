@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0031",
+  "name": "Plain Nonfat Greek Yogurt",
+  "canonicalName": "Plain Nonfat Greek Yogurt",
+  "description": "Plain nonfat Greek-style yogurt.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Plain Nonfat Greek Yogurt, 32 oz",
+    "productId": "26559565",
+    "productUrl": "https://www.walmart.com/ip/26559565",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 3.28,
+    "packageQuantity": 907.185,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 59,
+      "proteinG": 10.2,
+      "carbohydratesG": 3.6,
+      "fatG": 0.39,
+      "fiberG": 0,
+      "sugarsG": 3.24,
+      "sodiumMg": 36,
+      "potassiumMg": 141,
+      "calciumMg": 110,
+      "ironMg": 0.07,
+      "magnesiumMg": 11,
+      "vitaminCMg": 0
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.3616
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 170894,
+      "dataType": "SR Legacy",
+      "description": "Yogurt, Greek, plain, nonfat (Includes foods for USDA's Food Distribution Program)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/170894/nutrients",
+      "searchQuery": "yogurt greek plain nonfat",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://storage.googleapis.com/dvmuqdurhchjde/chobani-nonfat-plain-greek-yogurt-ingredients.html",
+    "originalSourceUrl": "https://dsom-imager-prod.shipt.com/615117/2-4f50853f81ddb9ab02cc18f251a25bb6.jpeg",
+    "searchQuery": "Plain Nonfat Greek Yogurt ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0031",
+    "name": "Plain Nonfat Greek Yogurt",
+    "description": "Plain nonfat Greek-style yogurt.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 59,
+      "proteinG": 10.2,
+      "carbohydratesG": 3.6,
+      "fatG": 0.39,
+      "fiberG": 0,
+      "sugarsG": 3.24,
+      "sodiumMg": 36,
+      "potassiumMg": 141,
+      "calciumMg": 110,
+      "ironMg": 0.07,
+      "magnesiumMg": 11,
+      "vitaminCMg": 0
+    },
+    "price": {
+      "usdPerBasis": 0.3616,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0031_Plain_Nonfat_Greek_Yogurt/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": false,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "seedId": "REC-1085",
+  "candidate": {
+    "sequence": 1811,
+    "seedId": "REC-CAND-1811",
+    "name": "Sesame Shrimp with Cauliflower"
+  },
+  "name": "Sesame Shrimp with Cauliflower",
+  "description": "Sesame Shrimp with Cauliflower is a practical stovetop recipe pairing shrimp with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.food.com/recipe/chinese-prawns-with-stir-fried-vegetables-207529",
+    "domain": "food.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Chinese Shrimp with Vegetables source while retaining its closest matching dish form, cooking sequence, and applicable shrimp or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "China",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 30,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "shrimp",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0038",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0019",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0037",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0071",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0102",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, shrimp, and vegetables for sesame shrimp with cauliflower.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned shrimp and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the sesame shrimp with cauliflower, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2010,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1372.428,
+      "proteinG": 113.983,
+      "carbohydratesG": 156.666,
+      "fatG": 39.108,
+      "fiberG": 36.878,
+      "sugarsG": 18.529,
+      "sodiumMg": 5666.52,
+      "potassiumMg": 4339.38,
+      "calciumMg": 701.484,
+      "ironMg": 11.845,
+      "magnesiumMg": 469.752,
+      "vitaminCMg": 258.3
+    },
+    "perServing": {
+      "calories": 343.107,
+      "proteinG": 28.496,
+      "carbohydratesG": 39.166,
+      "fatG": 9.777,
+      "fiberG": 9.22,
+      "sugarsG": 4.632,
+      "sodiumMg": 1416.63,
+      "potassiumMg": 1084.845,
+      "calciumMg": 175.371,
+      "ironMg": 2.961,
+      "magnesiumMg": 117.438,
+      "vitaminCMg": 64.575
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 22.23,
+    "perServingUsd": 5.56,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber"
+  ],
+  "createdAt": "2028-07-31T21:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://dishbloom.com/shrimp-cauliflower-recipe/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.x4M7_wNyM02nzoEUZfO5LgHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://dishbloom.com/wp-content/uploads/2025/12/u6589661274_Shrimp_Cauliflower_Recipe_-v_7_9c944e9f-4913-4e36-90a4-4dd390a54989_2-780x780.png",
+    "searchQuery": "Sesame Shrimp with Cauliflower plated recipe food",
+    "searchResultTitle": "Shrimp Cauliflower Recipe - Dish Bloom",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:21:10.480Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1085",
+    "name": "Sesame Shrimp with Cauliflower",
+    "description": "Sesame Shrimp with Cauliflower is a practical stovetop recipe pairing shrimp with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 343.107,
+      "proteinG": 28.496,
+      "carbohydratesG": 39.166,
+      "fatG": 9.777,
+      "fiberG": 9.22,
+      "sugarsG": 4.632,
+      "sodiumMg": 1416.63,
+      "potassiumMg": 1084.845,
+      "calciumMg": 175.371,
+      "ironMg": 2.961,
+      "magnesiumMg": 117.438,
+      "vitaminCMg": 64.575
+    },
+    "estimatedCostPerServingUsd": 5.56,
+    "diets": [
+      "Pescatarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber"
+    ]
+  }
+}

@@ -1,0 +1,230 @@
+{
+  "seedId": "REC-1096",
+  "candidate": {
+    "sequence": 1831,
+    "seedId": "REC-CAND-1831",
+    "name": "Lemon Steak Orzo Skillet"
+  },
+  "name": "Lemon Steak Orzo Skillet",
+  "description": "Lemon Steak Orzo Skillet is a practical stovetop recipe pairing steak with orzo and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.oliviascuisine.com/feijoada-recipe/",
+    "domain": "oliviascuisine.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Brazilian Black Bean Beef Skillet source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Brazil",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 30,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "steak",
+  "carbohydrateBase": "orzo",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0098",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, steak, and orzo for lemon steak orzo skillet.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned steak and cook it until browned or heated through as appropriate.",
+    "Stir in the orzo, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the lemon steak orzo skillet, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1536,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2328.72,
+      "proteinG": 200.599,
+      "carbohydratesG": 305.777,
+      "fatG": 31.506,
+      "fiberG": 17.555,
+      "sugarsG": 8.714,
+      "sodiumMg": 1329.77,
+      "potassiumMg": 4713.9,
+      "calciumMg": 488.157,
+      "ironMg": 27.794,
+      "magnesiumMg": 457.825,
+      "vitaminCMg": 68.676
+    },
+    "perServing": {
+      "calories": 582.18,
+      "proteinG": 50.15,
+      "carbohydratesG": 76.444,
+      "fatG": 7.877,
+      "fiberG": 4.389,
+      "sugarsG": 2.179,
+      "sodiumMg": 332.442,
+      "potassiumMg": 1178.475,
+      "calciumMg": 122.039,
+      "ironMg": 6.949,
+      "magnesiumMg": 114.456,
+      "vitaminCMg": 17.169
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 21.54,
+    "perServingUsd": 5.38,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein"
+  ],
+  "createdAt": "2028-08-17T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://smartfamilyrecipes.com/one-skillet-salmon-lemon-orzo-2/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.WobVG4HTW9kDEzhPfDex0gHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://smartfamilyrecipes.com/wp-content/uploads/2025/11/One-Skillet-Salmon-Lemon-Orzo-18-1.jpg",
+    "searchQuery": "Lemon Steak Orzo Skillet plated recipe food",
+    "searchResultTitle": "One Skillet Salmon Lemon Orzo With Creamy Garlic Spinach",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:21:46.823Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1096",
+    "name": "Lemon Steak Orzo Skillet",
+    "description": "Lemon Steak Orzo Skillet is a practical stovetop recipe pairing steak with orzo and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 582.18,
+      "proteinG": 50.15,
+      "carbohydratesG": 76.444,
+      "fatG": 7.877,
+      "fiberG": 4.389,
+      "sugarsG": 2.179,
+      "sodiumMg": 332.442,
+      "potassiumMg": 1178.475,
+      "calciumMg": 122.039,
+      "ironMg": 6.949,
+      "magnesiumMg": 114.456,
+      "vitaminCMg": 17.169
+    },
+    "estimatedCostPerServingUsd": 5.38,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein"
+    ]
+  }
+}

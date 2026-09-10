@@ -1,0 +1,192 @@
+{
+  "seedId": "REC-1372",
+  "candidate": {
+    "sequence": 2166,
+    "seedId": "REC-CAND-2166",
+    "name": "Cottage Cheese Fresh Pita Pocket"
+  },
+  "name": "Cottage Cheese Fresh Pita Pocket",
+  "description": "Cottage Cheese Fresh Pita Pocket is a practical small meal adaptation built around cottage cheese, pita, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.skinnytaste.com/berry-cottage-cheese-breakfast-bowl/",
+    "domain": "skinnytaste.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Cottage Cheese Berry Bowls source because it provides the closest validated dairy and pita structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "cottage cheese",
+  "carbohydrateBase": "pita",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0035",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0106",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, cottage cheese, and pita for cottage cheese fresh pita pocket.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned cottage cheese and cook it until browned or heated through as appropriate.",
+    "Stir in the pita, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the cottage cheese fresh pita pocket, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1357.332,
+      "proteinG": 69.09,
+      "carbohydratesG": 201.69,
+      "fatG": 35.64,
+      "fiberG": 24,
+      "sugarsG": 16.77,
+      "sodiumMg": 2484.546,
+      "potassiumMg": 1314.273,
+      "calciumMg": 273.273,
+      "ironMg": 10.593,
+      "magnesiumMg": 249,
+      "vitaminCMg": 24.6
+    },
+    "perServing": {
+      "calories": 339.333,
+      "proteinG": 17.273,
+      "carbohydratesG": 50.422,
+      "fatG": 8.91,
+      "fiberG": 6,
+      "sugarsG": 4.192,
+      "sodiumMg": 621.136,
+      "potassiumMg": 328.568,
+      "calciumMg": 68.318,
+      "ironMg": 2.648,
+      "magnesiumMg": 62.25,
+      "vitaminCMg": 6.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 9.52,
+    "perServingUsd": 2.38,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-10-17T08:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://quicksimplerecipes.com/high-protein-cottage-cheese-and-veggie-stuffed-pita-pockets/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.QNZD7RNXgAtsynSiWar62wHaJ1&pid=15.1",
+    "discoveredOriginalUrl": "https://quicksimplerecipes.com/wp-content/uploads/2026/03/high-protein-cottage-cheese-and-veggie-stuffed-pita-pockets_0_20260326_002001.jpg",
+    "searchQuery": "Cottage Cheese Fresh Pita Pocket plated recipe food",
+    "searchResultTitle": "High Protein Cottage Cheese And Veggie Stuffed Pita Pockets",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:51:14.482Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1372",
+    "name": "Cottage Cheese Fresh Pita Pocket",
+    "description": "Cottage Cheese Fresh Pita Pocket is a practical small meal adaptation built around cottage cheese, pita, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 339.333,
+      "proteinG": 17.273,
+      "carbohydratesG": 50.422,
+      "fatG": 8.91,
+      "fiberG": 6,
+      "sugarsG": 4.192,
+      "sodiumMg": 621.136,
+      "potassiumMg": 328.568,
+      "calciumMg": 68.318,
+      "ironMg": 2.648,
+      "magnesiumMg": 62.25,
+      "vitaminCMg": 6.15
+    },
+    "estimatedCostPerServingUsd": 2.38,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

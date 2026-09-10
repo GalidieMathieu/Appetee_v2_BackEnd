@@ -1,0 +1,246 @@
+{
+  "seedId": "REC-1039",
+  "candidate": {
+    "sequence": 1733,
+    "seedId": "REC-CAND-1733",
+    "name": "Turkey and Cauliflower Quinoa Bowl"
+  },
+  "name": "Turkey and Cauliflower Quinoa Bowl",
+  "description": "Turkey and Cauliflower Quinoa Bowl is a practical stovetop recipe pairing turkey with quinoa and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.eatingwell.com/recipe/250491/turkey-taco-bowls/",
+    "domain": "eatingwell.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Turkey Taco Bowl source while retaining its closest matching dish form, cooking sequence, and applicable turkey or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 50,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0102",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, turkey, and quinoa for turkey and cauliflower quinoa bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned turkey and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the turkey and cauliflower quinoa bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2372,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3012.84,
+      "proteinG": 187.615,
+      "carbohydratesG": 364.985,
+      "fatG": 98.904,
+      "fiberG": 43.099,
+      "sugarsG": 16.264,
+      "sodiumMg": 3354.45,
+      "potassiumMg": 6477.9,
+      "calciumMg": 750.797,
+      "ironMg": 32.188,
+      "magnesiumMg": 933.105,
+      "vitaminCMg": 193.74
+    },
+    "perServing": {
+      "calories": 753.21,
+      "proteinG": 46.904,
+      "carbohydratesG": 91.246,
+      "fatG": 24.726,
+      "fiberG": 10.775,
+      "sugarsG": 4.066,
+      "sodiumMg": 838.612,
+      "potassiumMg": 1619.475,
+      "calciumMg": 187.699,
+      "ironMg": 8.047,
+      "magnesiumMg": 233.276,
+      "vitaminCMg": 48.435
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.07,
+    "perServingUsd": 2.52,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-05-21T23:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://spiceandpan.com/mediterranean-turkey-quinoa-bowl",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.CNtyp32-GkTRbvMurIGe2gHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://spiceandpan.com/assets/images/435f318f-80f3-45d3-6e4f-30c9ca637000",
+    "searchQuery": "Turkey and Cauliflower Quinoa Bowl plated recipe food",
+    "searchResultTitle": "Mediterranean Turkey Quinoa Bowl - Spiceandpan",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:18:50.849Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1039",
+    "name": "Turkey and Cauliflower Quinoa Bowl",
+    "description": "Turkey and Cauliflower Quinoa Bowl is a practical stovetop recipe pairing turkey with quinoa and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 753.21,
+      "proteinG": 46.904,
+      "carbohydratesG": 91.246,
+      "fatG": 24.726,
+      "fiberG": 10.775,
+      "sugarsG": 4.066,
+      "sodiumMg": 838.612,
+      "potassiumMg": 1619.475,
+      "calciumMg": 187.699,
+      "ironMg": 8.047,
+      "magnesiumMg": 233.276,
+      "vitaminCMg": 48.435
+    },
+    "estimatedCostPerServingUsd": 2.52,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "seedId": "REC-1672",
+  "candidate": {
+    "sequence": 2471,
+    "seedId": "REC-CAND-2471",
+    "name": "Apple Mousse"
+  },
+  "name": "Apple Mousse",
+  "description": "Apple Mousse is a practical dessert adaptation built around vegetables, fruit, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.visitaruba.com/aruba-recipes/banana-den-forno/",
+    "domain": "visitaruba.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Aruban Baked Cinnamon Bananas source because it provides the closest validated mousse structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Aruba",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "totalMinutes": 20
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0104",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0057",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for apple mousse.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the vegetables with the fruit and remaining ingredients in the intended dessert form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the apple mousse into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1533.946,
+      "proteinG": 63.076,
+      "carbohydratesG": 271.642,
+      "fatG": 17.374,
+      "fiberG": 30.66,
+      "sugarsG": 99.778,
+      "sodiumMg": 130.173,
+      "potassiumMg": 1689.028,
+      "calciumMg": 482.301,
+      "ironMg": 10.994,
+      "magnesiumMg": 383.564,
+      "vitaminCMg": 0.3
+    },
+    "perServing": {
+      "calories": 383.486,
+      "proteinG": 15.769,
+      "carbohydratesG": 67.91,
+      "fatG": 4.343,
+      "fiberG": 7.665,
+      "sugarsG": 24.945,
+      "sodiumMg": 32.543,
+      "potassiumMg": 422.257,
+      "calciumMg": 120.575,
+      "ironMg": 2.748,
+      "magnesiumMg": 95.891,
+      "vitaminCMg": 0.075
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.34,
+    "perServingUsd": 1.83,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2031-01-22T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "pursuitcooking.com",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://pursuitcooking.com/apple-yogurt-cups/",
+    "originalSourceUrl": "https://pursuitcooking.com/wp-content/uploads/2026/01/4-16.png",
+    "discoveredOriginalUrl": "https://pursuitcooking.com/wp-content/uploads/2026/01/4-16.png",
+    "searchQuery": "apple yogurt parfait dessert cup food photograph",
+    "searchResultTitle": "Apple Yogurt Cups",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:38.960Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1672",
+    "name": "Apple Mousse",
+    "description": "Apple Mousse is a practical dessert adaptation built around vegetables, fruit, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 383.486,
+      "proteinG": 15.769,
+      "carbohydratesG": 67.91,
+      "fatG": 4.343,
+      "fiberG": 7.665,
+      "sugarsG": 24.945,
+      "sodiumMg": 32.543,
+      "potassiumMg": 422.257,
+      "calciumMg": 120.575,
+      "ironMg": 2.748,
+      "magnesiumMg": 95.891,
+      "vitaminCMg": 0.075
+    },
+    "estimatedCostPerServingUsd": 1.83,
+    "diets": [
+      "Flexitarian"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

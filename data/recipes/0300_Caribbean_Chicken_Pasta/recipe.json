@@ -1,0 +1,228 @@
+{
+  "seedId": "REC-0300",
+  "candidate": {
+    "sequence": 337,
+    "seedId": "REC-CAND-0337",
+    "name": "Caribbean Chicken Pasta"
+  },
+  "name": "Caribbean Chicken Pasta",
+  "description": "Caribbean Chicken Pasta is a practical stovetop recipe pairing chicken with pasta and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.budgetbytes.com/creamy-tomato-spinach-pasta/",
+    "domain": "budgetbytes.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Chicken Tomato Spinach Penne source while retaining its closest matching dish form, cooking sequence, and applicable chicken or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Italy",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "pasta",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 1.25,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1¼ lb chicken breast",
+      "normalizedQuantity": 566.99,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0039",
+      "sourceQuantity": 1,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1 lb penne",
+      "normalizedQuantity": 453.592,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 2.5,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans diced tomatoes",
+      "normalizedQuantity": 822.136,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 12,
+      "sourceUnit": "oz",
+      "sourceDisplay": "12 oz spinach",
+      "normalizedQuantity": 340.194,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp olive oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chicken, and pasta for caribbean chicken pasta.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chicken and cook it until browned or heated through as appropriate.",
+    "Stir in the pasta, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the caribbean chicken pasta, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 3016.033,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2787.492,
+      "proteinG": 209.239,
+      "carbohydratesG": 411.245,
+      "fatG": 37.717,
+      "sodiumMg": 1685.531,
+      "potassiumMg": 6293.764,
+      "calciumMg": 875.371,
+      "ironMg": 29.263,
+      "magnesiumMg": 755.42,
+      "fiberG": 30.396,
+      "sugarsG": 14.472,
+      "vitaminCMg": 47.991
+    },
+    "perServing": {
+      "calories": 696.873,
+      "proteinG": 52.31,
+      "carbohydratesG": 102.811,
+      "fatG": 9.429,
+      "sodiumMg": 421.383,
+      "potassiumMg": 1573.441,
+      "calciumMg": 218.843,
+      "ironMg": 7.316,
+      "magnesiumMg": 188.855,
+      "fiberG": 7.599,
+      "sugarsG": 3.618,
+      "vitaminCMg": 11.998
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 9.1,
+    "perServingUsd": 2.27,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2025-04-08T16:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://yumtonight.com/italian-caribbean-jerk-chicken-pasta-recipe/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.tcjMDOHs4QwiM8kbO7H-3wHaNN&pid=15.1",
+    "discoveredOriginalUrl": "https://yumtonight.com/wp-content/uploads/2026/02/Italian-Caribbean-Jerk-Chicken-Pasta-Recipe-19-1-735x1311.jpg",
+    "searchQuery": "Caribbean Chicken Pasta plated recipe food",
+    "searchResultTitle": "Italian-Caribbean Jerk Chicken Pasta Recipe",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:40:14.746Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0300",
+    "name": "Caribbean Chicken Pasta",
+    "description": "Caribbean Chicken Pasta is a practical stovetop recipe pairing chicken with pasta and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 696.873,
+      "proteinG": 52.31,
+      "carbohydratesG": 102.811,
+      "fatG": 9.429,
+      "sodiumMg": 421.383,
+      "potassiumMg": 1573.441,
+      "calciumMg": 218.843,
+      "ironMg": 7.316,
+      "magnesiumMg": 188.855,
+      "fiberG": 7.599,
+      "sugarsG": 3.618,
+      "vitaminCMg": 11.998
+    },
+    "estimatedCostPerServingUsd": 2.27,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

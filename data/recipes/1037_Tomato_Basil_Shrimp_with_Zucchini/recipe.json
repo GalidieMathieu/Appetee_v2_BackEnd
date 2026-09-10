@@ -1,0 +1,252 @@
+{
+  "seedId": "REC-1037",
+  "candidate": {
+    "sequence": 1730,
+    "seedId": "REC-CAND-1730",
+    "name": "Tomato Basil Shrimp with Zucchini"
+  },
+  "name": "Tomato Basil Shrimp with Zucchini",
+  "description": "Tomato Basil Shrimp with Zucchini is a practical stovetop recipe pairing shrimp with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.food.com/recipe/chinese-prawns-with-stir-fried-vegetables-207529",
+    "domain": "food.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Chinese Shrimp with Vegetables source while retaining its closest matching dish form, cooking sequence, and applicable shrimp or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "China",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "shrimp",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0038",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0019",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0037",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0071",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0083",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, shrimp, and vegetables for tomato basil shrimp with zucchini.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned shrimp and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the tomato basil shrimp with zucchini, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2338,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1411.868,
+      "proteinG": 115.105,
+      "carbohydratesG": 164.368,
+      "fatG": 40.038,
+      "fiberG": 37.026,
+      "sugarsG": 27.343,
+      "sodiumMg": 5634.64,
+      "potassiumMg": 5336.98,
+      "calciumMg": 763.044,
+      "ironMg": 13.032,
+      "magnesiumMg": 538.672,
+      "vitaminCMg": 211.74
+    },
+    "perServing": {
+      "calories": 352.967,
+      "proteinG": 28.776,
+      "carbohydratesG": 41.092,
+      "fatG": 10.009,
+      "fiberG": 9.257,
+      "sugarsG": 6.836,
+      "sodiumMg": 1408.66,
+      "potassiumMg": 1334.245,
+      "calciumMg": 190.761,
+      "ironMg": 3.258,
+      "magnesiumMg": 134.668,
+      "vitaminCMg": 52.935
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 26.48,
+    "perServingUsd": 6.62,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber"
+  ],
+  "createdAt": "2028-05-18T21:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.recipesbykatie.com/tomato-basil-shrimp-and-zucchini/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.C1SO_OuEu-Car6qvqG2EAwHaJ4&pid=15.1",
+    "discoveredOriginalUrl": "https://www.recipesbykatie.com/wp-content/uploads/2025/11/fn5itlqv7a0joa5befhx.webp",
+    "searchQuery": "Tomato Basil Shrimp with Zucchini plated recipe food",
+    "searchResultTitle": "Irresistible Tomato-Basil Shrimp and Zucchini for Dinner",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:18:40.532Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1037",
+    "name": "Tomato Basil Shrimp with Zucchini",
+    "description": "Tomato Basil Shrimp with Zucchini is a practical stovetop recipe pairing shrimp with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 352.967,
+      "proteinG": 28.776,
+      "carbohydratesG": 41.092,
+      "fatG": 10.009,
+      "fiberG": 9.257,
+      "sugarsG": 6.836,
+      "sodiumMg": 1408.66,
+      "potassiumMg": 1334.245,
+      "calciumMg": 190.761,
+      "ironMg": 3.258,
+      "magnesiumMg": 134.668,
+      "vitaminCMg": 52.935
+    },
+    "estimatedCostPerServingUsd": 6.62,
+    "diets": [
+      "Pescatarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber"
+    ]
+  }
+}

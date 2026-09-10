@@ -1,0 +1,248 @@
+{
+  "seedId": "REC-0638",
+  "candidate": {
+    "sequence": 972,
+    "seedId": "REC-CAND-0972",
+    "name": "Caribbean Chicken Curry"
+  },
+  "name": "Caribbean Chicken Curry",
+  "description": "Caribbean Chicken Curry is a practical stovetop recipe pairing chicken with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.thekitchn.com/coconut-chicken-curry-recipe-23254792",
+    "domain": "thekitchn.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Chicken Spinach Coconut Curry source while retaining its closest matching dish form, cooking sequence, and applicable chicken or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "India",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 40,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 2,
+      "sourceUnit": "lb",
+      "sourceDisplay": "2 lb chicken breast",
+      "normalizedQuantity": 907.2,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups dry rice",
+      "normalizedQuantity": 370,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can coconut milk",
+      "normalizedQuantity": 399,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can diced tomatoes",
+      "normalizedQuantity": 411.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 3,
+      "sourceUnit": "cups",
+      "sourceDisplay": "3 cups spinach",
+      "normalizedQuantity": 255,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1½ tbsp curry powder",
+      "normalizedQuantity": 10.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chicken, and legumes for caribbean chicken curry.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chicken and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the caribbean chicken curry, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 3020.5,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3578.717,
+      "proteinG": 254.638,
+      "carbohydratesG": 356.445,
+      "fatG": 138.736,
+      "sodiumMg": 1363.148,
+      "potassiumMg": 6328.621,
+      "calciumMg": 681.394,
+      "ironMg": 26.893,
+      "magnesiumMg": 794.839,
+      "fiberG": 16.697,
+      "vitaminCMg": 35.069,
+      "sugarsG": 2.097
+    },
+    "perServing": {
+      "calories": 894.679,
+      "proteinG": 63.66,
+      "carbohydratesG": 89.111,
+      "fatG": 34.684,
+      "sodiumMg": 340.787,
+      "potassiumMg": 1582.155,
+      "calciumMg": 170.349,
+      "ironMg": 6.723,
+      "magnesiumMg": 198.71,
+      "fiberG": 4.174,
+      "vitaminCMg": 8.767,
+      "sugarsG": 0.524
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 12.41,
+    "perServingUsd": 3.1,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-09-11T18:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://fity.club/lists/suggestions/Caribbean-Chicken-Curry-Recipes/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.xLly_6xW_O7yuUgxefFdwQHaJs&pid=15.1",
+    "discoveredOriginalUrl": "https://www.ainsley-harriott.com/app/uploads/2024/10/Caribbean-Curry-Chicken-web-1-scaled.jpg",
+    "searchQuery": "Caribbean Chicken Curry plated recipe food",
+    "searchResultTitle": "Caribbean Chicken Curry Recipes Easy Jamaican Curry Chicken Recipe",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:58:19.969Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0638",
+    "name": "Caribbean Chicken Curry",
+    "description": "Caribbean Chicken Curry is a practical stovetop recipe pairing chicken with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 894.679,
+      "proteinG": 63.66,
+      "carbohydratesG": 89.111,
+      "fatG": 34.684,
+      "sodiumMg": 340.787,
+      "potassiumMg": 1582.155,
+      "calciumMg": 170.349,
+      "ironMg": 6.723,
+      "magnesiumMg": 198.71,
+      "fiberG": 4.174,
+      "vitaminCMg": 8.767,
+      "sugarsG": 0.524
+    },
+    "estimatedCostPerServingUsd": 3.1,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

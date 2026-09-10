@@ -1,0 +1,230 @@
+{
+  "seedId": "REC-0586",
+  "candidate": {
+    "sequence": 864,
+    "seedId": "REC-CAND-0864",
+    "name": "Honey Soy Steak with Broccoli"
+  },
+  "name": "Honey Soy Steak with Broccoli",
+  "description": "Honey Soy Steak with Broccoli is a practical stovetop recipe pairing steak with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://scandinaviancookbook.com/karbonader/",
+    "domain": "scandinaviancookbook.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Norwegian Karbonader with Caramelized Onions source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Norway",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 60,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "steak",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 2,
+      "sourceUnit": "medium",
+      "sourceDisplay": "2 onions",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0056",
+      "sourceQuantity": 3,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "3 tbsp butter, divided",
+      "normalizedQuantity": 42.6,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0079",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "½ tsp ground nutmeg",
+      "normalizedQuantity": 1.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0066",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "½ tbsp cornstarch",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0013",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 18,
+      "sourceUnit": "g",
+      "sourceDisplay": "18 g",
+      "normalizedQuantity": 18,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, steak, and vegetables for honey soy steak with broccoli.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned steak and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the honey soy steak with broccoli, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1115.7,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1353.621,
+      "proteinG": 148.043,
+      "carbohydratesG": 60.938,
+      "fatG": 57.408,
+      "fiberG": 15.279,
+      "sodiumMg": 2327.462,
+      "potassiumMg": 3498.934,
+      "calciumMg": 369.892,
+      "ironMg": 13.571,
+      "magnesiumMg": 248.097,
+      "vitaminCMg": 193.923,
+      "sugarsG": 19.026
+    },
+    "perServing": {
+      "calories": 338.405,
+      "proteinG": 37.011,
+      "carbohydratesG": 15.235,
+      "fatG": 14.352,
+      "fiberG": 3.82,
+      "sodiumMg": 581.865,
+      "potassiumMg": 874.734,
+      "calciumMg": 92.473,
+      "ironMg": 3.393,
+      "magnesiumMg": 62.024,
+      "vitaminCMg": 48.481,
+      "sugarsG": 4.756
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 20.84,
+    "perServingUsd": 5.21,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Carb"
+  ],
+  "createdAt": "2026-06-23T14:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.kyleecooks.com/honey-soy-beef-broccoli/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP._QDg-3sWtLgSF01nLIo2yQHaFI&pid=15.1",
+    "discoveredOriginalUrl": "https://www.kyleecooks.com/wp-content/uploads/2025/03/Honey-Soy-Beef-Broccoli-25.jpg",
+    "searchQuery": "Honey Soy Steak with Broccoli plated recipe food",
+    "searchResultTitle": "Honey-Soy Beef and Broccoli Stir Fry - Kylee Cooks",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:55:40.152Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0586",
+    "name": "Honey Soy Steak with Broccoli",
+    "description": "Honey Soy Steak with Broccoli is a practical stovetop recipe pairing steak with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 338.405,
+      "proteinG": 37.011,
+      "carbohydratesG": 15.235,
+      "fatG": 14.352,
+      "fiberG": 3.82,
+      "sodiumMg": 581.865,
+      "potassiumMg": 874.734,
+      "calciumMg": 92.473,
+      "ironMg": 3.393,
+      "magnesiumMg": 62.024,
+      "vitaminCMg": 48.481,
+      "sugarsG": 4.756
+    },
+    "estimatedCostPerServingUsd": 5.21,
+    "diets": [
+      "Flexitarian"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Carb"
+    ]
+  }
+}

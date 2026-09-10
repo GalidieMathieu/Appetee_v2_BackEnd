@@ -1,0 +1,262 @@
+{
+  "seedId": "REC-0315",
+  "candidate": {
+    "sequence": 369,
+    "seedId": "REC-CAND-0369",
+    "name": "Steak Fried Rice"
+  },
+  "name": "Steak Fried Rice",
+  "description": "Steak Fried Rice is a practical stovetop recipe pairing steak with rice and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://mykoreankitchen.com/korean-ground-beef-rice-bowls/",
+    "domain": "mykoreankitchen.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Korean Ground Beef Rice Bowls source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "South Korea",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "steak",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 0.25,
+      "sourceUnit": "cup",
+      "sourceDisplay": "¼ cup soy sauce",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0052",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp sugar",
+      "normalizedQuantity": 25,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "½ tbsp minced garlic",
+      "normalizedQuantity": 7.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp minced ginger",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0071",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "½ tbsp toasted sesame oil",
+      "normalizedQuantity": 7.5,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0072",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "½ tbsp sesame seeds",
+      "normalizedQuantity": 4.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0062",
+      "sourceQuantity": 2,
+      "sourceUnit": "stalks",
+      "sourceDisplay": "2 sliced green onions",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups cooked",
+      "sourceDisplay": "2 cups cooked rice",
+      "normalizedQuantity": 125,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source cooked rice represented by approximately 125 g dry rice before cooking",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, steak, and rice for steak fried rice.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned steak and cook it until browned or heated through as appropriate.",
+    "Stir in the rice, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the steak fried rice, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1041,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1813.886,
+      "proteinG": 152.79,
+      "carbohydratesG": 160.737,
+      "fatG": 60.16,
+      "fiberG": 8.003,
+      "sugarsG": 26.109,
+      "sodiumMg": 4170.253,
+      "potassiumMg": 3244.683,
+      "calciumMg": 244.741,
+      "ironMg": 12.737,
+      "magnesiumMg": 275.179,
+      "vitaminCMg": 32.83
+    },
+    "perServing": {
+      "calories": 453.471,
+      "proteinG": 38.197,
+      "carbohydratesG": 40.184,
+      "fatG": 15.04,
+      "fiberG": 2.001,
+      "sugarsG": 6.527,
+      "sodiumMg": 1042.563,
+      "potassiumMg": 811.171,
+      "calciumMg": 61.185,
+      "ironMg": 3.184,
+      "magnesiumMg": 68.795,
+      "vitaminCMg": 8.207
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 21.55,
+    "perServingUsd": 5.39,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Meal Prep"
+  ],
+  "createdAt": "2025-05-01T19:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.dishbyamanda.com/easy-pepper-steak-fried-rice-better-than-takeout-recipe/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP._RJ-7NX5wZkeL-LpL8QkdQHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://dishbyamanda.com/wp-content/uploads/2026/01/pepper-steak-fried-rice-plated-overhead.webp",
+    "searchQuery": "Steak Fried Rice plated recipe food",
+    "searchResultTitle": "Easy Pepper Steak Fried Rice: Better Than Takeout Recipe – dishbyamanda.com",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:41:11.888Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0315",
+    "name": "Steak Fried Rice",
+    "description": "Steak Fried Rice is a practical stovetop recipe pairing steak with rice and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 453.471,
+      "proteinG": 38.197,
+      "carbohydratesG": 40.184,
+      "fatG": 15.04,
+      "fiberG": 2.001,
+      "sugarsG": 6.527,
+      "sodiumMg": 1042.563,
+      "potassiumMg": 811.171,
+      "calciumMg": 61.185,
+      "ironMg": 3.184,
+      "magnesiumMg": 68.795,
+      "vitaminCMg": 8.207
+    },
+    "estimatedCostPerServingUsd": 5.39,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Meal Prep"
+    ]
+  }
+}

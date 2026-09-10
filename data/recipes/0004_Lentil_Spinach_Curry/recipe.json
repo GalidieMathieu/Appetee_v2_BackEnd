@@ -1,0 +1,197 @@
+{
+  "seedId": "REC-0004",
+  "name": "Lentil Spinach Curry",
+  "description": "Brown lentils and spinach simmered in tomatoes and curry spices.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/user/299274/recipe/lentil-spinach-curry",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "India",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 35,
+    "totalMinutes": 45
+  },
+  "servings": 5,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups dry lentils",
+      "normalizedQuantity": 288,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 2.5,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 12,
+      "sourceUnit": "oz",
+      "sourceDisplay": "12 oz frozen spinach",
+      "normalizedQuantity": 340.194,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can diced tomatoes",
+      "normalizedQuantity": 411.068,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 medium onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp curry powder",
+      "normalizedQuantity": 7,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Rinse the lentils and finely chop the onion.",
+    "Soften the onion in a large saucepan with a splash of water.",
+    "Add curry powder and stir until aromatic.",
+    "Add lentils and tomatoes plus enough water to cover; simmer until tender.",
+    "Stir in spinach and cook until hot throughout."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1579.243,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1266.159,
+      "proteinG": 88.896,
+      "carbohydratesG": 227.383,
+      "fatG": 8.102,
+      "fiberG": 47.256,
+      "sugarsG": 8.251,
+      "sodiumMg": 787.999,
+      "potassiumMg": 4295.646,
+      "calciumMg": 722.221,
+      "ironMg": 29.279,
+      "magnesiumMg": 462.14,
+      "vitaminCMg": 44.02
+    },
+    "perServing": {
+      "calories": 253.232,
+      "proteinG": 17.779,
+      "carbohydratesG": 45.477,
+      "fatG": 1.62,
+      "fiberG": 9.451,
+      "sugarsG": 1.65,
+      "sodiumMg": 157.6,
+      "potassiumMg": 859.129,
+      "calciumMg": 144.444,
+      "ironMg": 5.856,
+      "magnesiumMg": 92.428,
+      "vitaminCMg": 8.804
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.06,
+    "perServingUsd": 0.81,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-01-08T08:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "provenance": "Public source-page image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.bbcgoodfood.com/user/299274/recipe/lentil-spinach-curry",
+    "originalSourceUrl": "https://user-images.immediate.co.uk/bbcgoodfood/recipes/user-recipe/Lentil%20%26%20Spinach%20Curry_4.JPG?resize=667%2C349",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0004",
+    "name": "Lentil Spinach Curry",
+    "description": "Brown lentils and spinach simmered in tomatoes and curry spices.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": {
+      "main": "recipes/0004_Lentil_Spinach_Curry/assets/main.avif",
+      "card": "recipes/0004_Lentil_Spinach_Curry/assets/card.avif"
+    },
+    "totalTimeMinutes": 45,
+    "servings": 5,
+    "nutritionPerServing": {
+      "calories": 253.232,
+      "proteinG": 17.779,
+      "carbohydratesG": 45.477,
+      "fatG": 1.62,
+      "fiberG": 9.451,
+      "sugarsG": 1.65,
+      "sodiumMg": 157.6,
+      "potassiumMg": 859.129,
+      "calciumMg": 144.444,
+      "ironMg": 5.856,
+      "magnesiumMg": 92.428,
+      "vitaminCMg": 8.804
+    },
+    "estimatedCostPerServingUsd": 0.81,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "seedId": "REC-0015",
+  "name": "Chicken Tomato Spinach Penne",
+  "description": "Penne tossed with chicken, diced tomatoes, spinach, and garlic.",
+  "source": {
+    "url": "https://www.budgetbytes.com/creamy-tomato-spinach-pasta/",
+    "domain": "budgetbytes.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Italy",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "totalMinutes": 40
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "pasta",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 1.25,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1¼ lb chicken breast",
+      "normalizedQuantity": 566.99,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0039",
+      "sourceQuantity": 1,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1 lb penne",
+      "normalizedQuantity": 453.592,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 2.5,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans diced tomatoes",
+      "normalizedQuantity": 822.136,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 12,
+      "sourceUnit": "oz",
+      "sourceDisplay": "12 oz spinach",
+      "normalizedQuantity": 340.194,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp olive oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Boil the penne until just tender, reserving a little cooking water.",
+    "Cut chicken into bite-size pieces and cook it in olive oil until it reaches 165°F.",
+    "Add garlic, tomatoes, and spinach and simmer until the spinach is hot.",
+    "Toss with penne, loosening with reserved pasta water as needed."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 2716.033,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2673.492,
+      "proteinG": 206.749,
+      "carbohydratesG": 385.415,
+      "fatG": 37.567,
+      "sodiumMg": 1682.531,
+      "potassiumMg": 5747.764,
+      "calciumMg": 830.371,
+      "ironMg": 28.423,
+      "magnesiumMg": 728.42,
+      "fiberG": 24.696,
+      "sugarsG": 14.472,
+      "vitaminCMg": 23.391
+    },
+    "perServing": {
+      "calories": 445.582,
+      "proteinG": 34.458,
+      "carbohydratesG": 64.236,
+      "fatG": 6.261,
+      "sodiumMg": 280.422,
+      "potassiumMg": 957.961,
+      "calciumMg": 138.395,
+      "ironMg": 4.737,
+      "magnesiumMg": 121.403,
+      "fiberG": 4.116,
+      "sugarsG": 2.412,
+      "vitaminCMg": 3.898
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.3,
+    "perServingUsd": 1.38,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-01-25T07:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "provenance": "Public source-page image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.budgetbytes.com/creamy-tomato-spinach-pasta/",
+    "originalSourceUrl": "https://www.budgetbytes.com/wp-content/uploads/2020/05/CreamyTomatoSpinachPasta_OverheadPlated.jpg",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0015",
+    "name": "Chicken Tomato Spinach Penne",
+    "description": "Penne tossed with chicken, diced tomatoes, spinach, and garlic.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": {
+      "main": "recipes/0015_Chicken_Tomato_Spinach_Penne/assets/main.avif",
+      "card": "recipes/0015_Chicken_Tomato_Spinach_Penne/assets/card.avif"
+    },
+    "totalTimeMinutes": 40,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 445.582,
+      "proteinG": 34.458,
+      "carbohydratesG": 64.236,
+      "fatG": 6.261,
+      "sodiumMg": 280.422,
+      "potassiumMg": 957.961,
+      "calciumMg": 138.395,
+      "ironMg": 4.737,
+      "magnesiumMg": 121.403,
+      "fiberG": 4.116,
+      "sugarsG": 2.412,
+      "vitaminCMg": 3.898
+    },
+    "estimatedCostPerServingUsd": 1.38,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

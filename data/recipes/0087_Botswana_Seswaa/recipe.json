@@ -1,0 +1,187 @@
+{
+  "seedId": "REC-0087",
+  "name": "Botswana Seswaa",
+  "description": "Slow-braised beef pounded into tender shreds with onion and bay leaves.",
+  "source": {
+    "url": "https://www.myburntorange.com/how-to-make-seswaa/",
+    "domain": "myburntorange.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source beef, aromatics, long covered braise, and pounding technique are retained; top sirloin is the exact validated fresh-beef product used for the generic beef quantity."
+  },
+  "countryOfOrigin": "Botswana",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 250,
+    "totalMinutes": 265
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Braise",
+  "primaryProtein": "beef",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 1,
+      "sourceUnit": "kg",
+      "sourceDisplay": "1 kg beef, cut into large chunks",
+      "normalizedQuantity": 1000,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 whole peeled onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0065",
+      "sourceQuantity": 3,
+      "sourceUnit": "leaves",
+      "sourceDisplay": "3 bay leaves",
+      "normalizedQuantity": 0.6,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    }
+  ],
+  "instructions": [
+    "Heat the oven to 320°F and brown the beef in an oven-safe casserole.",
+    "Add the whole onion, bay leaves, pepper, salt, and water, then bring the pot to a boil.",
+    "Cover the casserole and braise it in the oven for four hours.",
+    "Move the pot to the stovetop and reduce most of the remaining liquid.",
+    "Pound the tender beef with a wooden spoon until it separates into characteristic shreds."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Paleo",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 885.6,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1328.878,
+      "proteinG": 224.291,
+      "carbohydratesG": 13.365,
+      "fatG": 35.525,
+      "fiberG": 3.008,
+      "sugarsG": 0,
+      "sodiumMg": 561.638,
+      "potassiumMg": 3846.174,
+      "calciumMg": 247.504,
+      "ironMg": 16.778,
+      "magnesiumMg": 244.22,
+      "vitaminCMg": 12.579
+    },
+    "perServing": {
+      "calories": 221.48,
+      "proteinG": 37.382,
+      "carbohydratesG": 2.228,
+      "fatG": 5.921,
+      "fiberG": 0.501,
+      "sugarsG": 0,
+      "sodiumMg": 93.606,
+      "potassiumMg": 641.029,
+      "calciumMg": 41.251,
+      "ironMg": 2.796,
+      "magnesiumMg": 40.703,
+      "vitaminCMg": 2.097
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 31.66,
+    "perServingUsd": 5.28,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Carb",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-05-15T07:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "theafrikanstore.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://theafrikanstore.com/blogs/recipes/seswaa-a-pulled-beef-recipe-from-botswana",
+    "originalSourceUrl": "https://theafrikanstore.com/cdn/shop/articles/seswaa-beef-_botswana_1200x1200.webp?v=1692641721",
+    "discoveredOriginalUrl": "https://theafrikanstore.com/cdn/shop/articles/seswaa-beef-_botswana_1200x1200.webp?v=1692641721",
+    "searchQuery": "Botswana Seswaa plated recipe food",
+    "searchResultTitle": "Seswaa: A pulled beef recipe from Botswana – The Ethnic Store Ltd",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:08:37.917Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0087",
+    "name": "Botswana Seswaa",
+    "description": "Slow-braised beef pounded into tender shreds with onion and bay leaves.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 265,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 221.48,
+      "proteinG": 37.382,
+      "carbohydratesG": 2.228,
+      "fatG": 5.921,
+      "fiberG": 0.501,
+      "sugarsG": 0,
+      "sodiumMg": 93.606,
+      "potassiumMg": 641.029,
+      "calciumMg": 41.251,
+      "ironMg": 2.796,
+      "magnesiumMg": 40.703,
+      "vitaminCMg": 2.097
+    },
+    "estimatedCostPerServingUsd": 5.28,
+    "diets": [
+      "Flexitarian",
+      "Paleo",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Carb",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

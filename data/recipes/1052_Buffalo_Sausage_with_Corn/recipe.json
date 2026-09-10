@@ -1,0 +1,280 @@
+{
+  "seedId": "REC-1052",
+  "candidate": {
+    "sequence": 1750,
+    "seedId": "REC-CAND-1750",
+    "name": "Buffalo Sausage with Corn"
+  },
+  "name": "Buffalo Sausage with Corn",
+  "description": "Buffalo Sausage with Corn is a practical stovetop recipe pairing sausage with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.chinahighlights.com/travelguide/chinese-food/cooking/sweet-sour-pork.htm",
+    "domain": "chinahighlights.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Chinese Sweet-and-Sour Pork source while retaining its closest matching dish form, cooking sequence, and applicable pork or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "China",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "sausage",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0085",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 1,
+      "sourceUnit": "large",
+      "sourceDisplay": "1 large egg",
+      "normalizedQuantity": 50,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0052",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp granulated sugar",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 2,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "2 tsp soy sauce",
+      "normalizedQuantity": 10,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0066",
+      "sourceQuantity": 10,
+      "sourceUnit": "g",
+      "sourceDisplay": "10 g cornstarch",
+      "normalizedQuantity": 10,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0054",
+      "sourceQuantity": 30,
+      "sourceUnit": "g",
+      "sourceDisplay": "30 g tomato paste",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 2,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "2 tsp vinegar",
+      "normalizedQuantity": 10,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp cilantro leaves",
+      "normalizedQuantity": 3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp frying oil absorbed",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Unspecified source frying oil conservatively modeled as 2 tbsp absorbed and represented by the validated olive oil product",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, sausage, and vegetables for buffalo sausage with corn.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned sausage and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the buffalo sausage with corn, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1199.7,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2555.531,
+      "proteinG": 101.474,
+      "carbohydratesG": 130.494,
+      "fatG": 186.131,
+      "fiberG": 17.185,
+      "sugarsG": 17.86,
+      "sodiumMg": 5580.431,
+      "potassiumMg": 3708.316,
+      "calciumMg": 236.218,
+      "ironMg": 14.459,
+      "magnesiumMg": 272.849,
+      "vitaminCMg": 42.544
+    },
+    "perServing": {
+      "calories": 638.883,
+      "proteinG": 25.369,
+      "carbohydratesG": 32.623,
+      "fatG": 46.533,
+      "fiberG": 4.296,
+      "sugarsG": 4.465,
+      "sodiumMg": 1395.108,
+      "potassiumMg": 927.079,
+      "calciumMg": 59.054,
+      "ironMg": 3.615,
+      "magnesiumMg": 68.212,
+      "vitaminCMg": 10.636
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.49,
+    "perServingUsd": 1.62,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-06-11T00:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://nocrumbsleft.net/2021/09/03/end-of-summer-corn-and-sausage-platter/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.-DC7mx49xW7dEC0uy0pIbgHaJ4&pid=15.1",
+    "discoveredOriginalUrl": "https://nocrumbsleft.net/wp-content/uploads/2021/09/end-of-summer-sausage-and-corn-platter-1125x1500.jpg",
+    "searchQuery": "Buffalo Sausage with Corn plated recipe food",
+    "searchResultTitle": "End of Summer Corn and Sausage Platter - nocrumbsleft",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:19:29.190Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1052",
+    "name": "Buffalo Sausage with Corn",
+    "description": "Buffalo Sausage with Corn is a practical stovetop recipe pairing sausage with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 638.883,
+      "proteinG": 25.369,
+      "carbohydratesG": 32.623,
+      "fatG": 46.533,
+      "fiberG": 4.296,
+      "sugarsG": 4.465,
+      "sodiumMg": 1395.108,
+      "potassiumMg": 927.079,
+      "calciumMg": 59.054,
+      "ironMg": 3.615,
+      "magnesiumMg": 68.212,
+      "vitaminCMg": 10.636
+    },
+    "estimatedCostPerServingUsd": 1.62,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Budget Friendly"
+    ]
+  }
+}

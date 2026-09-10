@@ -1,0 +1,240 @@
+{
+  "seedId": "REC-0904",
+  "candidate": {
+    "sequence": 1485,
+    "seedId": "REC-CAND-1485",
+    "name": "Roasted Lentil Stew"
+  },
+  "name": "Roasted Lentil Stew",
+  "description": "Roasted Lentil Stew is a practical oven recipe pairing lentils with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.food.com/recipe/tomato-basil-and-lentil-soup-200421",
+    "domain": "food.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Tomato Basil Lentil Stew source while retaining its closest matching dish form, cooking sequence, and applicable lentils or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Italy",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "totalMinutes": 35
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for roasted lentil stew.",
+    "Season the lentils and vegetables evenly while the oven reaches temperature.",
+    "Arrange the lentils, legumes, and vegetables so heat can circulate around each component.",
+    "Bake until the lentils is safely cooked and the vegetables or grain base are tender.",
+    "Rest the roasted lentil stew briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1356,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1373.222,
+      "proteinG": 70.258,
+      "carbohydratesG": 212.102,
+      "fatG": 33.559,
+      "fiberG": 37.139,
+      "sugarsG": 13.408,
+      "sodiumMg": 588.086,
+      "potassiumMg": 3985.243,
+      "calciumMg": 376.843,
+      "ironMg": 21.916,
+      "magnesiumMg": 244.612,
+      "vitaminCMg": 86.256
+    },
+    "perServing": {
+      "calories": 343.305,
+      "proteinG": 17.564,
+      "carbohydratesG": 53.026,
+      "fatG": 8.39,
+      "fiberG": 9.285,
+      "sugarsG": 3.352,
+      "sodiumMg": 147.022,
+      "potassiumMg": 996.311,
+      "calciumMg": 94.211,
+      "ironMg": 5.479,
+      "magnesiumMg": 61.153,
+      "vitaminCMg": 21.564
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.59,
+    "perServingUsd": 1.9,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-10-26T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.artofit.org/image-gallery/842313936583786436/hearty-roasted-garlic-and-vegetable-lentil-stew/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.0rbp_gK9r89axL4zMi1nGAHaJ1&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/bc/65/e7/bc65e7a9ca1544c66b675241b31e65c2.jpg",
+    "searchQuery": "Roasted Lentil Stew plated recipe food",
+    "searchResultTitle": "Hearty roasted garlic and vegetable lentil stew – Artofit",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:11:46.217Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0904",
+    "name": "Roasted Lentil Stew",
+    "description": "Roasted Lentil Stew is a practical oven recipe pairing lentils with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 343.305,
+      "proteinG": 17.564,
+      "carbohydratesG": 53.026,
+      "fatG": 8.39,
+      "fiberG": 9.285,
+      "sugarsG": 3.352,
+      "sodiumMg": 147.022,
+      "potassiumMg": 996.311,
+      "calciumMg": 94.211,
+      "ironMg": 5.479,
+      "magnesiumMg": 61.153,
+      "vitaminCMg": 21.564
+    },
+    "estimatedCostPerServingUsd": 1.9,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

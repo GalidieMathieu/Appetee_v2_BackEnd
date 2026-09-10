@@ -1,0 +1,236 @@
+{
+  "seedId": "REC-0324",
+  "candidate": {
+    "sequence": 387,
+    "seedId": "REC-CAND-0387",
+    "name": "Greek Shrimp Noodle Bowl"
+  },
+  "name": "Greek Shrimp Noodle Bowl",
+  "description": "Greek Shrimp Noodle Bowl is a practical stovetop recipe pairing shrimp with noodles and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.delish.com/cooking/recipe-ideas/a19624080/blackened-shrimp-bowl-recipe/",
+    "domain": "delish.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Blackened Shrimp Rice Bowl source while retaining its closest matching dish form, cooking sequence, and applicable shrimp or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 40,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "shrimp",
+  "carbohydrateBase": "noodles",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0038",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0103",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, shrimp, and noodles for greek shrimp noodle bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned shrimp and cook it until browned or heated through as appropriate.",
+    "Stir in the noodles, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the greek shrimp noodle bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1669,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1833.63,
+      "proteinG": 130.968,
+      "carbohydratesG": 291.117,
+      "fatG": 20.547,
+      "fiberG": 30.511,
+      "sugarsG": 28.384,
+      "sodiumMg": 3470.87,
+      "potassiumMg": 3375.75,
+      "calciumMg": 534.91,
+      "ironMg": 15.883,
+      "magnesiumMg": 433.87,
+      "vitaminCMg": 455.616
+    },
+    "perServing": {
+      "calories": 458.408,
+      "proteinG": 32.742,
+      "carbohydratesG": 72.779,
+      "fatG": 5.137,
+      "fiberG": 7.628,
+      "sugarsG": 7.096,
+      "sodiumMg": 867.717,
+      "potassiumMg": 843.938,
+      "calciumMg": 133.727,
+      "ironMg": 3.971,
+      "magnesiumMg": 108.468,
+      "vitaminCMg": 113.904
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 19,
+    "perServingUsd": 4.75,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Meal Prep"
+  ],
+  "createdAt": "2025-05-15T16:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.tasteofhome.com/recipes/shrimp-n-noodle-bowls/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.MFWVnbiR3a8pjV2B1j_IVgHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://www.tasteofhome.com/wp-content/uploads/2025/03/Shrimp-n-Noodle-Bowls_EXPS_FT25_39890_JR_0227_1.jpg",
+    "searchQuery": "Greek Shrimp Noodle Bowl plated recipe food",
+    "searchResultTitle": "Shrimp Noodle Bowl Recipe",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:41:29.591Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0324",
+    "name": "Greek Shrimp Noodle Bowl",
+    "description": "Greek Shrimp Noodle Bowl is a practical stovetop recipe pairing shrimp with noodles and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 458.408,
+      "proteinG": 32.742,
+      "carbohydratesG": 72.779,
+      "fatG": 5.137,
+      "fiberG": 7.628,
+      "sugarsG": 7.096,
+      "sodiumMg": 867.717,
+      "potassiumMg": 843.938,
+      "calciumMg": 133.727,
+      "ironMg": 3.971,
+      "magnesiumMg": 108.468,
+      "vitaminCMg": 113.904
+    },
+    "estimatedCostPerServingUsd": 4.75,
+    "diets": [
+      "Pescatarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Meal Prep"
+    ]
+  }
+}

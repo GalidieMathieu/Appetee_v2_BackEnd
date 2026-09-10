@@ -1,0 +1,234 @@
+{
+  "seedId": "REC-0817",
+  "candidate": {
+    "sequence": 1327,
+    "seedId": "REC-CAND-1327",
+    "name": "Korean Salmon Rice Bowl"
+  },
+  "name": "Korean Salmon Rice Bowl",
+  "description": "Korean Salmon Rice Bowl is a practical stovetop recipe pairing salmon with rice and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.kikkoman.com/en/culture/foodforum/japanese-ways-of-cooking/40-2.html",
+    "domain": "kikkoman.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Japanese Salmon Rice Bowls source while retaining its closest matching dish form, cooking sequence, and applicable salmon or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Japan",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 40,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "salmon",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0011",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb salmon",
+      "normalizedQuantity": 680.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups dry rice",
+      "normalizedQuantity": 277.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0050",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups shelled edamame",
+      "normalizedQuantity": 310,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups spinach",
+      "normalizedQuantity": 170,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 3,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "3 tbsp soy sauce",
+      "normalizedQuantity": 45,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, salmon, and rice for korean salmon rice bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned salmon and cook it until browned or heated through as appropriate.",
+    "Stir in the rice, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the korean salmon rice bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2164.8,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2652.881,
+      "proteinG": 207.602,
+      "carbohydratesG": 286.949,
+      "fatG": 76.25,
+      "fiberG": 26.656,
+      "sugarsG": 9.152,
+      "sodiumMg": 3527.858,
+      "potassiumMg": 5634.539,
+      "calciumMg": 554.953,
+      "ironMg": 14.733,
+      "magnesiumMg": 643.224,
+      "vitaminCMg": 68.7
+    },
+    "perServing": {
+      "calories": 663.22,
+      "proteinG": 51.901,
+      "carbohydratesG": 71.737,
+      "fatG": 19.063,
+      "fiberG": 6.664,
+      "sugarsG": 2.288,
+      "sodiumMg": 881.965,
+      "potassiumMg": 1408.635,
+      "calciumMg": 138.738,
+      "ironMg": 3.683,
+      "magnesiumMg": 160.806,
+      "vitaminCMg": 17.175
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 13.3,
+    "perServingUsd": 3.33,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-06-14T17:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.recipesbyeverly.com/korean-inspired-salmon-rice-bowl/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.AqnAB39CR6x8_RKAQrM94wHaJ4&pid=15.1",
+    "discoveredOriginalUrl": "https://www.recipesbyeverly.com/wp-content/uploads/2025/12/z4l76cbylm8tiweeqwgm.webp",
+    "searchQuery": "Korean Salmon Rice Bowl plated recipe food",
+    "searchResultTitle": "Irresistible Korean-Inspired Salmon Rice Bowl in 21 Minutes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:07:37.467Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0817",
+    "name": "Korean Salmon Rice Bowl",
+    "description": "Korean Salmon Rice Bowl is a practical stovetop recipe pairing salmon with rice and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 663.22,
+      "proteinG": 51.901,
+      "carbohydratesG": 71.737,
+      "fatG": 19.063,
+      "fiberG": 6.664,
+      "sugarsG": 2.288,
+      "sodiumMg": 881.965,
+      "potassiumMg": 1408.635,
+      "calciumMg": 138.738,
+      "ironMg": 3.683,
+      "magnesiumMg": 160.806,
+      "vitaminCMg": 17.175
+    },
+    "estimatedCostPerServingUsd": 3.33,
+    "diets": [
+      "Pescatarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

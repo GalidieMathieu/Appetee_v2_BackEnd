@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-0025",
+  "name": "Berry Banana Greek Yogurt Smoothie",
+  "description": "A thick berry-banana smoothie blended with Greek yogurt, milk, and peanut butter.",
+  "source": {
+    "url": "https://www.oikos.com/greek-yogurt-recipes/smoothies/recipe/berry-banana-smoothie/",
+    "domain": "oikos.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 5,
+    "cookMinutes": 0,
+    "totalMinutes": 5
+  },
+  "servings": 2,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Drink",
+  "cookingMethod": "Blender",
+  "primaryProtein": "Greek yogurt",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups Greek yogurt",
+      "normalizedQuantity": 367.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0030",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup milk",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0034",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups frozen berries",
+      "normalizedQuantity": 280,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0033",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 banana",
+      "normalizedQuantity": 118,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0032",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp peanut butter",
+      "normalizedQuantity": 32,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Add milk and yogurt to the blender first.",
+    "Add frozen berries, banana, and peanut butter.",
+    "Blend until smooth, stopping to scrape the sides if needed.",
+    "Divide between two glasses and serve immediately."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 997.7,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 731.925,
+      "proteinG": 55.845,
+      "carbohydratesG": 84.476,
+      "fatG": 22.992,
+      "fiberG": 11.508,
+      "sugarsG": 54.271,
+      "sodiumMg": 410.784,
+      "potassiumMg": 1939.495,
+      "calciumMg": 765.99,
+      "ironMg": 3.322,
+      "magnesiumMg": 181.477,
+      "vitaminCMg": 126.12
+    },
+    "perServing": {
+      "calories": 365.962,
+      "proteinG": 27.922,
+      "carbohydratesG": 42.238,
+      "fatG": 11.496,
+      "fiberG": 5.754,
+      "sugarsG": 27.136,
+      "sodiumMg": 205.392,
+      "potassiumMg": 969.747,
+      "calciumMg": 382.995,
+      "ironMg": 1.661,
+      "magnesiumMg": 90.739,
+      "vitaminCMg": 63.06
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.49,
+    "perServingUsd": 1.74,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-02-09T17:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://suerecipe.com/5-minute-banana-and-berry-greek-yogurt-smoothie-bowl-recipe/",
+    "originalSourceUrl": "https://suerecipe.com/wp-content/uploads/2026/04/0_3-1775141722211.jpeg",
+    "searchQuery": "Berry Banana Greek Yogurt Smoothie plated recipe food photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0025",
+    "name": "Berry Banana Greek Yogurt Smoothie",
+    "description": "A thick berry-banana smoothie blended with Greek yogurt, milk, and peanut butter.",
+    "mealType": "Breakfast",
+    "mealCategory": "Drink",
+    "image": {
+      "main": "recipes/0025_Berry_Banana_Greek_Yogurt_Smoothie/assets/main.avif",
+      "card": "recipes/0025_Berry_Banana_Greek_Yogurt_Smoothie/assets/card.avif"
+    },
+    "totalTimeMinutes": 5,
+    "servings": 2,
+    "nutritionPerServing": {
+      "calories": 365.962,
+      "proteinG": 27.922,
+      "carbohydratesG": 42.238,
+      "fatG": 11.496,
+      "fiberG": 5.754,
+      "sugarsG": 27.136,
+      "sodiumMg": 205.392,
+      "potassiumMg": 969.747,
+      "calciumMg": 382.995,
+      "ironMg": 1.661,
+      "magnesiumMg": 90.739,
+      "vitaminCMg": 63.06
+    },
+    "estimatedCostPerServingUsd": 1.74,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

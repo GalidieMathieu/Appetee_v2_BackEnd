@@ -1,0 +1,222 @@
+{
+  "seedId": "REC-0651",
+  "candidate": {
+    "sequence": 994,
+    "seedId": "REC-CAND-0994",
+    "name": "Garlic Steak with Carrots"
+  },
+  "name": "Garlic Steak with Carrots",
+  "description": "Garlic Steak with Carrots is a practical stovetop recipe pairing steak with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://panlasangpinoy.com/bistek-tagalog-beefsteak-recipe/",
+    "domain": "panlasangpinoy.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Filipino Bistek source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Philippines",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 60,
+    "totalMinutes": 80
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "steak",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 1,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1 lb thinly sliced beef",
+      "normalizedQuantity": 453.592,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "5 tbsp soy sauce",
+      "normalizedQuantity": 75,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "juice of 1 lemon",
+      "normalizedQuantity": 58,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 3,
+      "sourceUnit": "cloves",
+      "sourceDisplay": "3 garlic cloves",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 onions, sliced",
+      "normalizedQuantity": 450,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 4,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "4 tbsp olive oil",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, steak, and vegetables for garlic steak with carrots.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned steak and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the garlic steak with carrots, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1247.394,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1438.006,
+      "proteinG": 116.35,
+      "carbohydratesG": 82.145,
+      "fatG": 72.347,
+      "fiberG": 19.585,
+      "sugarsG": 16.168,
+      "sodiumMg": 5246.614,
+      "potassiumMg": 3917.509,
+      "calciumMg": 337.776,
+      "ironMg": 11.633,
+      "magnesiumMg": 253.596,
+      "vitaminCMg": 90.02
+    },
+    "perServing": {
+      "calories": 359.502,
+      "proteinG": 29.087,
+      "carbohydratesG": 20.536,
+      "fatG": 18.087,
+      "fiberG": 4.896,
+      "sugarsG": 4.042,
+      "sodiumMg": 1311.653,
+      "potassiumMg": 979.377,
+      "calciumMg": 84.444,
+      "ironMg": 2.908,
+      "magnesiumMg": 63.399,
+      "vitaminCMg": 22.505
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 17.27,
+    "perServingUsd": 4.32,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb"
+  ],
+  "createdAt": "2026-10-01T19:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.fitnessblender.com/articles/garlic-steak-tips-with-italian-herb-carrots",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.9Q7bDRKhpz-c0kCpD3CTTQHaEK&pid=15.1",
+    "discoveredOriginalUrl": "https://d18zdz9g6n5za7.cloudfront.net/blog/1068-garlic-steak-tips-with-italian-herb-carrots-9e25.jpg",
+    "searchQuery": "Garlic Steak with Carrots plated recipe food",
+    "searchResultTitle": "Garlic Steak Tips with Italian Herb Carrots | Fitness Blender",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:58:53.069Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0651",
+    "name": "Garlic Steak with Carrots",
+    "description": "Garlic Steak with Carrots is a practical stovetop recipe pairing steak with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 80,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 359.502,
+      "proteinG": 29.087,
+      "carbohydratesG": 20.536,
+      "fatG": 18.087,
+      "fiberG": 4.896,
+      "sugarsG": 4.042,
+      "sodiumMg": 1311.653,
+      "potassiumMg": 979.377,
+      "calciumMg": 84.444,
+      "ironMg": 2.908,
+      "magnesiumMg": 63.399,
+      "vitaminCMg": 22.505
+    },
+    "estimatedCostPerServingUsd": 4.32,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb"
+    ]
+  }
+}

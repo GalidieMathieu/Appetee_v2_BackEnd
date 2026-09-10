@@ -1,0 +1,246 @@
+{
+  "seedId": "REC-0405",
+  "candidate": {
+    "sequence": 523,
+    "seedId": "REC-CAND-0523",
+    "name": "Smoky Turkey Noodle Bowl"
+  },
+  "name": "Smoky Turkey Noodle Bowl",
+  "description": "Smoky Turkey Noodle Bowl is a practical stovetop recipe pairing turkey with noodles and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.eatingwell.com/recipe/250491/turkey-taco-bowls/",
+    "domain": "eatingwell.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Turkey Taco Bowl source while retaining its closest matching dish form, cooking sequence, and applicable turkey or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 50,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "noodles",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0103",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, turkey, and noodles for smoky turkey noodle bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned turkey and cook it until browned or heated through as appropriate.",
+    "Stir in the noodles, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the smoky turkey noodle bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2065,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2979.45,
+      "proteinG": 181.975,
+      "carbohydratesG": 367.168,
+      "fatG": 95.195,
+      "fiberG": 29.792,
+      "sugarsG": 14.665,
+      "sodiumMg": 3435.82,
+      "potassiumMg": 5242.35,
+      "calciumMg": 651.207,
+      "ironMg": 30.505,
+      "magnesiumMg": 572.835,
+      "vitaminCMg": 42.724
+    },
+    "perServing": {
+      "calories": 744.862,
+      "proteinG": 45.494,
+      "carbohydratesG": 91.792,
+      "fatG": 23.799,
+      "fiberG": 7.448,
+      "sugarsG": 3.666,
+      "sodiumMg": 858.955,
+      "potassiumMg": 1310.588,
+      "calciumMg": 162.802,
+      "ironMg": 7.626,
+      "magnesiumMg": 143.209,
+      "vitaminCMg": 10.681
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.34,
+    "perServingUsd": 2.08,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2025-09-17T13:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.jennieo.com/recipes/smoky-turkey-zucchini-ramen-noodles/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.zFIteA8yOgLw5IofyvznvAHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://www.jennieo.com/wp-content/uploads/2019/11/image-recipe_smoky-turkey-and-zucchini-ramen-noodles.jpg",
+    "searchQuery": "Smoky Turkey Noodle Bowl plated recipe food",
+    "searchResultTitle": "Smoky Turkey & Zucchini Ramen Noodles | JENNIE-O® Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:46:08.053Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0405",
+    "name": "Smoky Turkey Noodle Bowl",
+    "description": "Smoky Turkey Noodle Bowl is a practical stovetop recipe pairing turkey with noodles and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 744.862,
+      "proteinG": 45.494,
+      "carbohydratesG": 91.792,
+      "fatG": 23.799,
+      "fiberG": 7.448,
+      "sugarsG": 3.666,
+      "sodiumMg": 858.955,
+      "potassiumMg": 1310.588,
+      "calciumMg": 162.802,
+      "ironMg": 7.626,
+      "magnesiumMg": 143.209,
+      "vitaminCMg": 10.681
+    },
+    "estimatedCostPerServingUsd": 2.08,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

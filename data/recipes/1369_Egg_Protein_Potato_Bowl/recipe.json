@@ -1,0 +1,198 @@
+{
+  "seedId": "REC-1369",
+  "candidate": {
+    "sequence": 2163,
+    "seedId": "REC-CAND-2163",
+    "name": "Egg Protein Potato Bowl"
+  },
+  "name": "Egg Protein Potato Bowl",
+  "description": "Egg Protein Potato Bowl is a practical small meal adaptation built around eggs, potatoes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.sainsburysmagazine.co.uk/recipes/mains/tortang-talong",
+    "domain": "sainsburysmagazine.co.uk",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Filipino Tortang Talong source because it provides the closest validated eggs and bowl structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Philippines",
+  "discovery": true,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 50,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, eggs, and potatoes for egg protein potato bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned eggs and cook it until browned or heated through as appropriate.",
+    "Stir in the potatoes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the egg protein potato bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1021.332,
+      "proteinG": 46.71,
+      "carbohydratesG": 82.29,
+      "fatG": 56.22,
+      "fiberG": 9.6,
+      "sugarsG": 2.97,
+      "sodiumMg": 444.546,
+      "potassiumMg": 2211.273,
+      "calciumMg": 252.273,
+      "ironMg": 8.823,
+      "magnesiumMg": 132,
+      "vitaminCMg": 41.7
+    },
+    "perServing": {
+      "calories": 255.333,
+      "proteinG": 11.678,
+      "carbohydratesG": 20.573,
+      "fatG": 14.055,
+      "fiberG": 2.4,
+      "sugarsG": 0.743,
+      "sodiumMg": 111.136,
+      "potassiumMg": 552.818,
+      "calciumMg": 63.068,
+      "ironMg": 2.206,
+      "magnesiumMg": 33,
+      "vitaminCMg": 10.425
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.32,
+    "perServingUsd": 0.58,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-10-12T17:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://kitchenflashwave.com/high-protein-sausage-egg-potato-meal-prep-breakfast-bowls/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.uVj7LW193aRtE4cqxaEr6QHaLG&pid=15.1",
+    "discoveredOriginalUrl": "https://kitchenflashwave.com/wp-content/uploads/2026/01/6-16.png",
+    "searchQuery": "Egg Protein Potato Bowl plated recipe food",
+    "searchResultTitle": "High Protein Sausage Egg & Potato Meal Prep Breakfast Bowls",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:51:10.903Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1369",
+    "name": "Egg Protein Potato Bowl",
+    "description": "Egg Protein Potato Bowl is a practical small meal adaptation built around eggs, potatoes, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 255.333,
+      "proteinG": 11.678,
+      "carbohydratesG": 20.573,
+      "fatG": 14.055,
+      "fiberG": 2.4,
+      "sugarsG": 0.743,
+      "sodiumMg": 111.136,
+      "potassiumMg": 552.818,
+      "calciumMg": 63.068,
+      "ironMg": 2.206,
+      "magnesiumMg": 33,
+      "vitaminCMg": 10.425
+    },
+    "estimatedCostPerServingUsd": 0.58,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

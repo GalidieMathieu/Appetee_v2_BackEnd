@@ -1,0 +1,244 @@
+{
+  "seedId": "REC-0875",
+  "candidate": {
+    "sequence": 1426,
+    "seedId": "REC-CAND-1426",
+    "name": "Pesto Sausage Stew"
+  },
+  "name": "Pesto Sausage Stew",
+  "description": "Pesto Sausage Stew is a practical stovetop recipe pairing sausage with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.globaleducationcenter.org/uploads/5/4/4/6/54461425/manna_cookbook_reduced.pdf",
+    "domain": "globaleducationcenter.org",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Croatian Bean and Sausage Stew source while retaining its closest matching dish form, cooking sequence, and applicable pork or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Croatia",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "sausage",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0085",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0078",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0096",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0080",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, sausage, and vegetables for pesto sausage stew.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned sausage and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the pesto sausage stew, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 2560,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 5462.33,
+      "proteinG": 263.729,
+      "carbohydratesG": 266.199,
+      "fatG": 389.041,
+      "fiberG": 76.711,
+      "sugarsG": 36.097,
+      "sodiumMg": 11407.22,
+      "potassiumMg": 8277.42,
+      "calciumMg": 3941.73,
+      "ironMg": 32.521,
+      "magnesiumMg": 1294.762,
+      "vitaminCMg": 50.888
+    },
+    "perServing": {
+      "calories": 1365.582,
+      "proteinG": 65.932,
+      "carbohydratesG": 66.55,
+      "fatG": 97.26,
+      "fiberG": 19.178,
+      "sugarsG": 9.024,
+      "sodiumMg": 2851.805,
+      "potassiumMg": 2069.355,
+      "calciumMg": 985.433,
+      "ironMg": 8.13,
+      "magnesiumMg": 323.69,
+      "vitaminCMg": 12.722
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 19.56,
+    "perServingUsd": 4.89,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Freezer Friendly"
+  ],
+  "createdAt": "2027-09-12T03:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://uk.pinterest.com/pin/recipe-sausage-and-vegetable-stew-with-a-green-pesto--171277592061445251/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.Vtcivd7T4YeQxHzlZiwHKwHaFU&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/3f/2f/18/3f2f18796d6f6d23c3c1f856e776623a.jpg",
+    "searchQuery": "Pesto Sausage Stew plated recipe food",
+    "searchResultTitle": "Recipe: Sausage and vegetable stew with a green pesto... | Sainsbury's ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:10:17.551Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0875",
+    "name": "Pesto Sausage Stew",
+    "description": "Pesto Sausage Stew is a practical stovetop recipe pairing sausage with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 1365.582,
+      "proteinG": 65.932,
+      "carbohydratesG": 66.55,
+      "fatG": 97.26,
+      "fiberG": 19.178,
+      "sugarsG": 9.024,
+      "sodiumMg": 2851.805,
+      "potassiumMg": 2069.355,
+      "calciumMg": 985.433,
+      "ironMg": 8.13,
+      "magnesiumMg": 323.69,
+      "vitaminCMg": 12.722
+    },
+    "estimatedCostPerServingUsd": 4.89,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Freezer Friendly"
+    ]
+  }
+}

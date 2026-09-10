@@ -1,0 +1,194 @@
+{
+  "seedId": "REC-1339",
+  "candidate": {
+    "sequence": 2133,
+    "seedId": "REC-CAND-2133",
+    "name": "Avocado Pita Pocket"
+  },
+  "name": "Avocado Pita Pocket",
+  "description": "Avocado Pita Pocket is a practical small meal adaptation built around vegetables, pita, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/8542186/red-lentil-flatbread/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Thai Lentil Flatbread source because it provides the closest validated pita structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Thailand",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 50,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "pita",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0106",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0114",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, vegetables, and pita for avocado pita pocket.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned vegetables and cook it until browned or heated through as appropriate.",
+    "Stir in the pita, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the avocado pita pocket, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1621.332,
+      "proteinG": 37.89,
+      "carbohydratesG": 219.12,
+      "fatG": 76.68,
+      "fiberG": 44.1,
+      "sugarsG": 10.59,
+      "sodiumMg": 1287.546,
+      "potassiumMg": 2511.273,
+      "calciumMg": 126.273,
+      "ironMg": 11.823,
+      "magnesiumMg": 321,
+      "vitaminCMg": 54.6
+    },
+    "perServing": {
+      "calories": 405.333,
+      "proteinG": 9.473,
+      "carbohydratesG": 54.78,
+      "fatG": 19.17,
+      "fiberG": 11.025,
+      "sugarsG": 2.647,
+      "sodiumMg": 321.887,
+      "potassiumMg": 627.818,
+      "calciumMg": 31.568,
+      "ironMg": 2.956,
+      "magnesiumMg": 80.25,
+      "vitaminCMg": 13.65
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.45,
+    "perServingUsd": 2.61,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-08-27T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://heidishomecooking.com/avocado-pita-pocket-sandwiches/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.SMHOff0hgL0N7oPfSeRMwgHaE8&pid=15.1",
+    "discoveredOriginalUrl": "https://heidishomecooking.com/wp-content/uploads/Plated-Avocado-Pita-Pocket-Sandwiches-1920x1280.jpg",
+    "searchQuery": "Avocado Pita Pocket plated recipe food",
+    "searchResultTitle": "Quick and Delicious Avocado Pita Pocket Sandwiches | Heidi's Bakery",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:19:50.943Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1339",
+    "name": "Avocado Pita Pocket",
+    "description": "Avocado Pita Pocket is a practical small meal adaptation built around vegetables, pita, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 405.333,
+      "proteinG": 9.473,
+      "carbohydratesG": 54.78,
+      "fatG": 19.17,
+      "fiberG": 11.025,
+      "sugarsG": 2.647,
+      "sodiumMg": 321.887,
+      "potassiumMg": 627.818,
+      "calciumMg": 31.568,
+      "ironMg": 2.956,
+      "magnesiumMg": 80.25,
+      "vitaminCMg": 13.65
+    },
+    "estimatedCostPerServingUsd": 2.61,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

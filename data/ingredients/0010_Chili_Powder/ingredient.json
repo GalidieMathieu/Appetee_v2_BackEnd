@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0010",
+  "name": "Chili Powder",
+  "canonicalName": "Chili Powder",
+  "description": "Ground chili seasoning blend.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Chili Powder, 3 oz",
+    "productId": "157643393",
+    "productUrl": "https://www.walmart.com/ip/157643393",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 1.08,
+    "packageQuantity": 85.049,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 282,
+      "proteinG": 13.5,
+      "carbohydratesG": 49.7,
+      "fatG": 14.3,
+      "fiberG": 34.8,
+      "sugarsG": 7.19,
+      "sodiumMg": 2870,
+      "potassiumMg": 1950,
+      "calciumMg": 330,
+      "ironMg": 17.3,
+      "magnesiumMg": 149,
+      "vitaminCMg": 0.7
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 1.2699
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 171319,
+      "dataType": "SR Legacy",
+      "description": "Spices, chili powder",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171319/nutrients",
+      "searchQuery": "spices chili powder",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://unsplash.com/photos/close-up-of-chili-powder-9ZFOSwKx_Gs",
+    "originalSourceUrl": "https://plus.unsplash.com/premium_photo-1723604407721-05a1ffd5de2e?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "searchQuery": "Chili Powder ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0010",
+    "name": "Chili Powder",
+    "description": "Ground chili seasoning blend.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 282,
+      "proteinG": 13.5,
+      "carbohydratesG": 49.7,
+      "fatG": 14.3,
+      "fiberG": 34.8,
+      "sugarsG": 7.19,
+      "sodiumMg": 2870,
+      "potassiumMg": 1950,
+      "calciumMg": 330,
+      "ironMg": 17.3,
+      "magnesiumMg": 149,
+      "vitaminCMg": 0.7
+    },
+    "price": {
+      "usdPerBasis": 1.2699,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0010_Chili_Powder/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

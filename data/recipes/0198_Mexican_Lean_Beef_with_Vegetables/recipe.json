@@ -1,0 +1,234 @@
+{
+  "seedId": "REC-0198",
+  "candidate": {
+    "sequence": 126,
+    "seedId": "REC-CAND-0126",
+    "name": "Mexican Lean Beef with Vegetables"
+  },
+  "name": "Mexican Lean Beef with Vegetables",
+  "description": "Mexican Lean Beef with Vegetables is a practical stovetop recipe pairing lean beef with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://scandinaviancookbook.com/karbonader/",
+    "domain": "scandinaviancookbook.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Norwegian Karbonader with Caramelized Onions source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Norway",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lean beef",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 2,
+      "sourceUnit": "medium",
+      "sourceDisplay": "2 onions",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0056",
+      "sourceQuantity": 3,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "3 tbsp butter, divided",
+      "normalizedQuantity": 42.6,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 1,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1 lb ground beef",
+      "normalizedQuantity": 453.592,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0079",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "½ tsp ground nutmeg",
+      "normalizedQuantity": 1.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0066",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "½ tbsp cornstarch",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lean beef, and vegetables for mexican lean beef with vegetables.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lean beef and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the mexican lean beef with vegetables, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1002.894,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1733.362,
+      "proteinG": 90.889,
+      "carbohydratesG": 46.685,
+      "fatG": 131.114,
+      "fiberG": 9.88,
+      "sodiumMg": 325.689,
+      "potassiumMg": 2669.713,
+      "calciumMg": 182.79,
+      "ironMg": 11.599,
+      "magnesiumMg": 148.382,
+      "vitaminCMg": 70.413,
+      "sugarsG": 8.098
+    },
+    "perServing": {
+      "calories": 433.341,
+      "proteinG": 22.722,
+      "carbohydratesG": 11.671,
+      "fatG": 32.779,
+      "fiberG": 2.47,
+      "sodiumMg": 81.422,
+      "potassiumMg": 667.428,
+      "calciumMg": 45.697,
+      "ironMg": 2.9,
+      "magnesiumMg": 37.096,
+      "vitaminCMg": 17.603,
+      "sugarsG": 2.025
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 9.8,
+    "perServingUsd": 2.45,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-11-02T10:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/lg-mexican-beef-and-zucchini-skillet--21040323248014863/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.uX-qM2z5wiJrh7ZnsmZB9QHaNJ&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/6a/c4/75/6ac4753325929637ee83c4f5e3c2bfff.jpg",
+    "searchQuery": "Mexican Lean Beef with Vegetables plated recipe food",
+    "searchResultTitle": "LG Mexican beef and zucchini skillet | Lean and green meals, Greens ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:34:10.390Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0198",
+    "name": "Mexican Lean Beef with Vegetables",
+    "description": "Mexican Lean Beef with Vegetables is a practical stovetop recipe pairing lean beef with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 433.341,
+      "proteinG": 22.722,
+      "carbohydratesG": 11.671,
+      "fatG": 32.779,
+      "fiberG": 2.47,
+      "sodiumMg": 81.422,
+      "potassiumMg": 667.428,
+      "calciumMg": 45.697,
+      "ironMg": 2.9,
+      "magnesiumMg": 37.096,
+      "vitaminCMg": 17.603,
+      "sugarsG": 2.025
+    },
+    "estimatedCostPerServingUsd": 2.45,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

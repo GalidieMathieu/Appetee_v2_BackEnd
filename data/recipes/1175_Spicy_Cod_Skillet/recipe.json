@@ -1,0 +1,216 @@
+{
+  "seedId": "REC-1175",
+  "candidate": {
+    "sequence": 1969,
+    "seedId": "REC-CAND-1969",
+    "name": "Spicy Cod Skillet"
+  },
+  "name": "Spicy Cod Skillet",
+  "description": "Spicy Cod Skillet is a practical main meal adaptation built around cod, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://diet.mayoclinic.org/us/motivational-tips/recipe-collections/one-pan-meals/pan-seared-fish-with-garlicky-green-beans-quinoa/",
+    "domain": "diet.mayoclinic.org",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Smoky Cod Stir-Fry source because it provides the closest validated fish and skillet structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "cod",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0044",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, cod, and vegetables for spicy cod skillet.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned cod and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the spicy cod skillet, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 805,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 819.882,
+      "proteinG": 96.624,
+      "carbohydratesG": 35.98,
+      "fatG": 31.345,
+      "fiberG": 9.5,
+      "sugarsG": 1.025,
+      "sodiumMg": 1970.996,
+      "potassiumMg": 2227.923,
+      "calciumMg": 148.373,
+      "ironMg": 4.128,
+      "magnesiumMg": 167.1,
+      "vitaminCMg": 29.36
+    },
+    "perServing": {
+      "calories": 204.97,
+      "proteinG": 24.156,
+      "carbohydratesG": 8.995,
+      "fatG": 7.836,
+      "fiberG": 2.375,
+      "sugarsG": 0.256,
+      "sodiumMg": 492.749,
+      "potassiumMg": 556.981,
+      "calciumMg": 37.093,
+      "ironMg": 1.032,
+      "magnesiumMg": 41.775,
+      "vitaminCMg": 7.34
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 13.73,
+    "perServingUsd": 3.43,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-12-17T15:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://panmastery.com/spicy-cod-recipes/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.0uDYWxNDQuOkBEo4AFXUSwHaFj&pid=15.1",
+    "discoveredOriginalUrl": "https://panmastery.com/wp-content/uploads/2025/11/Spicy-Lemon-Garlic-Cod-Skillet.jpg",
+    "searchQuery": "Spicy Cod Skillet plated recipe food",
+    "searchResultTitle": "33 Sizzling Spicy Cod Recipes for Flavorful Dinners | Pan Mastery",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:11:37.970Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1175",
+    "name": "Spicy Cod Skillet",
+    "description": "Spicy Cod Skillet is a practical main meal adaptation built around cod, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 204.97,
+      "proteinG": 24.156,
+      "carbohydratesG": 8.995,
+      "fatG": 7.836,
+      "fiberG": 2.375,
+      "sugarsG": 0.256,
+      "sodiumMg": 492.749,
+      "potassiumMg": 556.981,
+      "calciumMg": 37.093,
+      "ironMg": 1.032,
+      "magnesiumMg": 41.775,
+      "vitaminCMg": 7.34
+    },
+    "estimatedCostPerServingUsd": 3.43,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly"
+    ]
+  }
+}

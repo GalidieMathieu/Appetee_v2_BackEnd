@@ -1,0 +1,248 @@
+{
+  "seedId": "REC-0538",
+  "candidate": {
+    "sequence": 780,
+    "seedId": "REC-CAND-0780",
+    "name": "Herbed Black Bean with Cucumber"
+  },
+  "name": "Herbed Black Bean with Cucumber",
+  "description": "Herbed Black Bean with Cucumber is a practical stovetop recipe pairing black beans with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.wwhealth.org/wp-content/uploads/2022/08/SMOKY-BLACK-BEAN-STEW.pdf",
+    "domain": "wwhealth.org",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Smoky Black Bean with Carrots source while retaining its closest matching dish form, cooking sequence, and applicable black beans or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "black beans",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0101",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, black beans, and legumes for herbed black bean with cucumber.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned black beans and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the herbed black bean with cucumber, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1829,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 920.94,
+      "proteinG": 44.364,
+      "carbohydratesG": 176.592,
+      "fatG": 10.632,
+      "sodiumMg": 1734.88,
+      "potassiumMg": 4232.44,
+      "calciumMg": 636.897,
+      "ironMg": 17.144,
+      "magnesiumMg": 331.127,
+      "fiberG": 18.179,
+      "sugarsG": 19.966,
+      "vitaminCMg": 60.764
+    },
+    "perServing": {
+      "calories": 230.235,
+      "proteinG": 11.091,
+      "carbohydratesG": 44.148,
+      "fatG": 2.658,
+      "sodiumMg": 433.72,
+      "potassiumMg": 1058.11,
+      "calciumMg": 159.224,
+      "ironMg": 4.286,
+      "magnesiumMg": 82.782,
+      "fiberG": 4.545,
+      "sugarsG": 4.992,
+      "vitaminCMg": 15.191
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.94,
+    "perServingUsd": 1.99,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Quick Meal",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-04-10T14:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/cucumber-black-bean-salad-recipe--413768284531950031/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.BTVi9at5IZg68zQC71Mv-QHaLI&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/0c/73/41/0c73419ee59e0ed225cfdcda53648630.jpg",
+    "searchQuery": "Herbed Black Bean with Cucumber plated recipe food",
+    "searchResultTitle": "Cucumber Black Bean Salad Recipe | Cucumber bean salad recipes ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:53:03.830Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0538",
+    "name": "Herbed Black Bean with Cucumber",
+    "description": "Herbed Black Bean with Cucumber is a practical stovetop recipe pairing black beans with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 230.235,
+      "proteinG": 11.091,
+      "carbohydratesG": 44.148,
+      "fatG": 2.658,
+      "sodiumMg": 433.72,
+      "potassiumMg": 1058.11,
+      "calciumMg": 159.224,
+      "ironMg": 4.286,
+      "magnesiumMg": 82.782,
+      "fiberG": 4.545,
+      "sugarsG": 4.992,
+      "vitaminCMg": 15.191
+    },
+    "estimatedCostPerServingUsd": 1.99,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Quick Meal",
+      "Budget Friendly"
+    ]
+  }
+}

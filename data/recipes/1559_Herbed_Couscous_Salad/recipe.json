@@ -1,0 +1,194 @@
+{
+  "seedId": "REC-1559",
+  "candidate": {
+    "sequence": 2357,
+    "seedId": "REC-CAND-2357",
+    "name": "Herbed Couscous Salad"
+  },
+  "name": "Herbed Couscous Salad",
+  "description": "Herbed Couscous Salad is a practical side adaptation built around vegetables, couscous, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/153802/algerian-flafla-bell-pepper-salad/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Algerian Flafla Bell Pepper Salad source because it provides the closest validated salad structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Algeria",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "totalMinutes": 20
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Side",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "couscous",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0110",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 2.5,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for herbed couscous salad.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the vegetables with the couscous and remaining ingredients in the intended side form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the herbed couscous salad into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 650,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1180.682,
+      "proteinG": 33.004,
+      "carbohydratesG": 193.255,
+      "fatG": 29.185,
+      "fiberG": 13.65,
+      "sodiumMg": 49.696,
+      "potassiumMg": 592.823,
+      "calciumMg": 142.023,
+      "ironMg": 4.1,
+      "magnesiumMg": 129.35,
+      "vitaminCMg": 10.93,
+      "sugarsG": 0.513
+    },
+    "perServing": {
+      "calories": 295.171,
+      "proteinG": 8.251,
+      "carbohydratesG": 48.314,
+      "fatG": 7.296,
+      "fiberG": 3.413,
+      "sodiumMg": 12.424,
+      "potassiumMg": 148.206,
+      "calciumMg": 35.506,
+      "ironMg": 1.025,
+      "magnesiumMg": 32.337,
+      "vitaminCMg": 2.732,
+      "sugarsG": 0.128
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.11,
+    "perServingUsd": 0.78,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-08-01T15:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.plateofflavor.com/recipes/couscous-salad-lime-basil-recipe/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.cd1hIi4xTeB_YRFTqUhE5AHaI9&pid=15.1",
+    "discoveredOriginalUrl": "https://www.plateofflavor.com/wp-content/uploads/media/01/9000907-couscous-salad-lime-basil-recipe-plateofflavor.jpg",
+    "searchQuery": "Herbed Couscous Salad plated recipe food",
+    "searchResultTitle": "Herbed Couscous Salad Recipe with Fresh Lime and Basil - Plate of Flavor",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:55:28.960Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1559",
+    "name": "Herbed Couscous Salad",
+    "description": "Herbed Couscous Salad is a practical side adaptation built around vegetables, couscous, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 295.171,
+      "proteinG": 8.251,
+      "carbohydratesG": 48.314,
+      "fatG": 7.296,
+      "fiberG": 3.413,
+      "sodiumMg": 12.424,
+      "potassiumMg": 148.206,
+      "calciumMg": 35.506,
+      "ironMg": 1.025,
+      "magnesiumMg": 32.337,
+      "vitaminCMg": 2.732,
+      "sugarsG": 0.128
+    },
+    "estimatedCostPerServingUsd": 0.78,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

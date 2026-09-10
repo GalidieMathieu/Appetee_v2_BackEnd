@@ -1,0 +1,194 @@
+{
+  "seedId": "REC-1645",
+  "candidate": {
+    "sequence": 2444,
+    "seedId": "REC-CAND-2444",
+    "name": "Peach Crumble Cups"
+  },
+  "name": "Peach Crumble Cups",
+  "description": "Peach Crumble Cups is a practical dessert adaptation built around oats, oats, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/banana-oatmeal-bites-514723",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Banana Oatmeal Bites source because it provides the closest validated cups/crumble structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 60,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "Oven",
+  "primaryProtein": "oats",
+  "carbohydrateBase": "oats",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0108",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0047",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for peach crumble cups and preheat the oven.",
+    "Coat the oats and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the oats and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the peach crumble cups briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 605,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1221.35,
+      "proteinG": 34.789,
+      "carbohydratesG": 244.57,
+      "fatG": 16.46,
+      "fiberG": 31.515,
+      "sugarsG": 76.915,
+      "sodiumMg": 17.3,
+      "potassiumMg": 1491.55,
+      "calciumMg": 196.4,
+      "ironMg": 11.618,
+      "magnesiumMg": 362.4,
+      "vitaminCMg": 20.29
+    },
+    "perServing": {
+      "calories": 305.337,
+      "proteinG": 8.697,
+      "carbohydratesG": 61.142,
+      "fatG": 4.115,
+      "fiberG": 7.879,
+      "sugarsG": 19.229,
+      "sodiumMg": 4.325,
+      "potassiumMg": 372.887,
+      "calciumMg": 49.1,
+      "ironMg": 2.905,
+      "magnesiumMg": 90.6,
+      "vitaminCMg": 5.072
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.5,
+    "perServingUsd": 0.88,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-12-12T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse1.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://tastychow.com/healthy-peach-oatmeal-breakfast-cookies/",
+    "originalSourceUrl": "https://tse1.mm.bing.net/th/id/OIP.UU2mwVE5BkBs2keRyW3O5AHaHa?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://tastychow.com/wp-content/uploads/2025/06/0_0-2025-06-14T101357.309.png",
+    "searchQuery": "peach healthy oat energy bites dessert food photograph",
+    "searchResultTitle": "Healthy Peach Oatmeal Breakfast Cookies - Tasty Chow",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:23.072Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1645",
+    "name": "Peach Crumble Cups",
+    "description": "Peach Crumble Cups is a practical dessert adaptation built around oats, oats, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 305.337,
+      "proteinG": 8.697,
+      "carbohydratesG": 61.142,
+      "fatG": 4.115,
+      "fiberG": 7.879,
+      "sugarsG": 19.229,
+      "sodiumMg": 4.325,
+      "potassiumMg": 372.887,
+      "calciumMg": 49.1,
+      "ironMg": 2.905,
+      "magnesiumMg": 90.6,
+      "vitaminCMg": 5.072
+    },
+    "estimatedCostPerServingUsd": 0.88,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

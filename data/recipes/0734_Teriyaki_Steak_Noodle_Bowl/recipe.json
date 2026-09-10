@@ -1,0 +1,232 @@
+{
+  "seedId": "REC-0734",
+  "candidate": {
+    "sequence": 1162,
+    "seedId": "REC-CAND-1162",
+    "name": "Teriyaki Steak Noodle Bowl"
+  },
+  "name": "Teriyaki Steak Noodle Bowl",
+  "description": "Teriyaki Steak Noodle Bowl is a practical stovetop recipe pairing steak with noodles and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://dinnerthendessert.com/mongolian-beef/",
+    "domain": "dinnerthendessert.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Mongolian Beef and Cabbage Bowl source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Mongolia",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "steak",
+  "carbohydrateBase": "noodles",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0052",
+      "sourceQuantity": 12,
+      "sourceUnit": "g",
+      "sourceDisplay": "12 g",
+      "normalizedQuantity": 12,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0103",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, steak, and noodles for teriyaki steak noodle bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned steak and cook it until browned or heated through as appropriate.",
+    "Stir in the noodles, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the teriyaki steak noodle bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1647,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2211.834,
+      "proteinG": 190.507,
+      "carbohydratesG": 281.661,
+      "fatG": 36.279,
+      "fiberG": 28.913,
+      "sugarsG": 23.827,
+      "sodiumMg": 2563.59,
+      "potassiumMg": 5768.37,
+      "calciumMg": 734.754,
+      "ironMg": 28.36,
+      "magnesiumMg": 687.702,
+      "vitaminCMg": 60.78
+    },
+    "perServing": {
+      "calories": 552.958,
+      "proteinG": 47.627,
+      "carbohydratesG": 70.415,
+      "fatG": 9.07,
+      "fiberG": 7.228,
+      "sugarsG": 5.957,
+      "sodiumMg": 640.898,
+      "potassiumMg": 1442.092,
+      "calciumMg": 183.689,
+      "ironMg": 7.09,
+      "magnesiumMg": 171.925,
+      "vitaminCMg": 15.195
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 27.49,
+    "perServingUsd": 6.87,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber"
+  ],
+  "createdAt": "2027-02-06T18:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://emeals.com/recipes/recipe-49230-316377-Teriyaki-Steak-Noodle-Bowls",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.eSmoWOx5yYy0aU591X79DwHaFj&pid=15.1",
+    "discoveredOriginalUrl": "https://emeals-menubuilder.s3.amazonaws.com/v1/recipes/795973/pictures/large_teriyaki-steak-noodle-bowls.jpg",
+    "searchQuery": "Teriyaki Steak Noodle Bowl plated recipe food",
+    "searchResultTitle": "Teriyaki Steak Noodle Bowls",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:03:05.418Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0734",
+    "name": "Teriyaki Steak Noodle Bowl",
+    "description": "Teriyaki Steak Noodle Bowl is a practical stovetop recipe pairing steak with noodles and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 552.958,
+      "proteinG": 47.627,
+      "carbohydratesG": 70.415,
+      "fatG": 9.07,
+      "fiberG": 7.228,
+      "sugarsG": 5.957,
+      "sodiumMg": 640.898,
+      "potassiumMg": 1442.092,
+      "calciumMg": 183.689,
+      "ironMg": 7.09,
+      "magnesiumMg": 171.925,
+      "vitaminCMg": 15.195
+    },
+    "estimatedCostPerServingUsd": 6.87,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber"
+    ]
+  }
+}

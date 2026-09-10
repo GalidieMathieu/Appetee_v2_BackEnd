@@ -1,0 +1,194 @@
+{
+  "seedId": "REC-1655",
+  "candidate": {
+    "sequence": 2454,
+    "seedId": "REC-CAND-2454",
+    "name": "Mango Crumble Cups"
+  },
+  "name": "Mango Crumble Cups",
+  "description": "Mango Crumble Cups is a practical dessert adaptation built around oats, oats, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/banana-oatmeal-bites-514723",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Banana Oatmeal Bites source because it provides the closest validated cups/crumble structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 60,
+    "totalMinutes": 80
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "Oven",
+  "primaryProtein": "oats",
+  "carbohydrateBase": "oats",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0107",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0047",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for mango crumble cups and preheat the oven.",
+    "Coat the oats and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the oats and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the mango crumble cups briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 605,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1284.35,
+      "proteinG": 34.519,
+      "carbohydratesG": 260.95,
+      "fatG": 16.85,
+      "fiberG": 31.815,
+      "sugarsG": 92.844,
+      "sodiumMg": 20.3,
+      "potassiumMg": 1425.55,
+      "calciumMg": 211.4,
+      "ironMg": 11.348,
+      "magnesiumMg": 365.4,
+      "vitaminCMg": 109.69
+    },
+    "perServing": {
+      "calories": 321.087,
+      "proteinG": 8.63,
+      "carbohydratesG": 65.237,
+      "fatG": 4.213,
+      "fiberG": 7.954,
+      "sugarsG": 23.211,
+      "sodiumMg": 5.075,
+      "potassiumMg": 356.387,
+      "calciumMg": 52.85,
+      "ironMg": 2.837,
+      "magnesiumMg": 91.35,
+      "vitaminCMg": 27.422
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.87,
+    "perServingUsd": 0.97,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-12-27T15:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse3.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://minimalistbaker.com/mango-energy-bites/",
+    "originalSourceUrl": "https://tse3.mm.bing.net/th/id/OIP.HkUzmcMhxDqZDNOA8vXxpwHaLH?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://minimalistbaker.com/wp-content/uploads/2016/05/AMAZING-naturally-sweet-Dried-Mango-ENERGY-BITES-6-ingredients-fiber-and-protein-rich-SO-delicious-vegan-glutenfree-mango-recipe-healthy-minimalistbaker.jpg",
+    "searchQuery": "mango healthy oat energy bites dessert food photograph",
+    "searchResultTitle": "Mango Energy Bites | Minimalist Baker Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:25:47.103Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1655",
+    "name": "Mango Crumble Cups",
+    "description": "Mango Crumble Cups is a practical dessert adaptation built around oats, oats, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 80,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 321.087,
+      "proteinG": 8.63,
+      "carbohydratesG": 65.237,
+      "fatG": 4.213,
+      "fiberG": 7.954,
+      "sugarsG": 23.211,
+      "sodiumMg": 5.075,
+      "potassiumMg": 356.387,
+      "calciumMg": 52.85,
+      "ironMg": 2.837,
+      "magnesiumMg": 91.35,
+      "vitaminCMg": 27.422
+    },
+    "estimatedCostPerServingUsd": 0.97,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

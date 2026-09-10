@@ -1,0 +1,256 @@
+{
+  "seedId": "REC-0469",
+  "candidate": {
+    "sequence": 646,
+    "seedId": "REC-CAND-0646",
+    "name": "Shrimp Curry Bowl"
+  },
+  "name": "Shrimp Curry Bowl",
+  "description": "Shrimp Curry Bowl is a practical stovetop recipe pairing shrimp with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.delish.com/cooking/recipe-ideas/a19624080/blackened-shrimp-bowl-recipe/",
+    "domain": "delish.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Blackened Shrimp Rice Bowl source while retaining its closest matching dish form, cooking sequence, and applicable shrimp or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "shrimp",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0038",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, shrimp, and vegetables for shrimp curry bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned shrimp and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the shrimp curry bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1703,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2027.962,
+      "proteinG": 114.356,
+      "carbohydratesG": 314.949,
+      "fatG": 40.223,
+      "fiberG": 25.077,
+      "sugarsG": 23.982,
+      "sodiumMg": 3424.205,
+      "potassiumMg": 3034.743,
+      "calciumMg": 482.887,
+      "ironMg": 7.512,
+      "magnesiumMg": 368.47,
+      "vitaminCMg": 455.644
+    },
+    "perServing": {
+      "calories": 506.99,
+      "proteinG": 28.589,
+      "carbohydratesG": 78.737,
+      "fatG": 10.056,
+      "fiberG": 6.269,
+      "sugarsG": 5.995,
+      "sodiumMg": 856.051,
+      "potassiumMg": 758.686,
+      "calciumMg": 120.722,
+      "ironMg": 1.878,
+      "magnesiumMg": 92.118,
+      "vitaminCMg": 113.911
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 19.36,
+    "perServingUsd": 4.84,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Freezer Friendly"
+  ],
+  "createdAt": "2025-12-25T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://easycookingforall.com/coconut-shrimp-curry-bowl-recipe/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.CRG43omQGIDrvdqBbLAp_QHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://easycookingforall.com/wp-content/uploads/2025/09/Coconut_Shrimp_Curry_Bowl_Recipe_3.webp",
+    "searchQuery": "Shrimp Curry Bowl plated recipe food",
+    "searchResultTitle": "Coconut Shrimp Curry Bowl Recipe",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:49:14.539Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0469",
+    "name": "Shrimp Curry Bowl",
+    "description": "Shrimp Curry Bowl is a practical stovetop recipe pairing shrimp with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 506.99,
+      "proteinG": 28.589,
+      "carbohydratesG": 78.737,
+      "fatG": 10.056,
+      "fiberG": 6.269,
+      "sugarsG": 5.995,
+      "sodiumMg": 856.051,
+      "potassiumMg": 758.686,
+      "calciumMg": 120.722,
+      "ironMg": 1.878,
+      "magnesiumMg": 92.118,
+      "vitaminCMg": 113.911
+    },
+    "estimatedCostPerServingUsd": 4.84,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Freezer Friendly"
+    ]
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "seedId": "REC-1569",
+  "candidate": {
+    "sequence": 2367,
+    "seedId": "REC-CAND-2367",
+    "name": "Mexican Vegetable Medley"
+  },
+  "name": "Mexican Vegetable Medley",
+  "description": "Mexican Vegetable Medley is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/56161/fasoliyyeh-bi-z-zayt-syrian-green-beans-with-olive-oil/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Syrian Green Beans with Olive Oil source because it provides the closest validated vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 40,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Side",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, vegetables, and vegetables for mexican vegetable medley.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned vegetables and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the mexican vegetable medley, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 340,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 383.532,
+      "proteinG": 3.87,
+      "carbohydratesG": 31.015,
+      "fatG": 28.81,
+      "fiberG": 9.185,
+      "sugarsG": 0.875,
+      "sodiumMg": 150.446,
+      "potassiumMg": 757.773,
+      "calciumMg": 73.223,
+      "ironMg": 2.913,
+      "magnesiumMg": 43.35,
+      "vitaminCMg": 24.68
+    },
+    "perServing": {
+      "calories": 95.883,
+      "proteinG": 0.968,
+      "carbohydratesG": 7.754,
+      "fatG": 7.202,
+      "fiberG": 2.296,
+      "sugarsG": 0.219,
+      "sodiumMg": 37.611,
+      "potassiumMg": 189.443,
+      "calciumMg": 18.306,
+      "ironMg": 0.728,
+      "magnesiumMg": 10.838,
+      "vitaminCMg": 6.17
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 1.31,
+    "perServingUsd": 0.33,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-08-17T01:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.renewedrecipes.com/mexican-vegetable-side-dishes/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.Zz583lZ0wdkdJgBeSt_jmgHaFj&pid=15.1",
+    "discoveredOriginalUrl": "https://www.renewedrecipes.com/wp-content/uploads/2025/05/Charred-Veggie-Medley-with-Chipotle-Drizzle.webp",
+    "searchQuery": "Mexican Vegetable Medley plated recipe food",
+    "searchResultTitle": "9 Mexican Vegetable Side Dishes That'll Make a Weeknight Special",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:55:35.812Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1569",
+    "name": "Mexican Vegetable Medley",
+    "description": "Mexican Vegetable Medley is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 95.883,
+      "proteinG": 0.968,
+      "carbohydratesG": 7.754,
+      "fatG": 7.202,
+      "fiberG": 2.296,
+      "sugarsG": 0.219,
+      "sodiumMg": 37.611,
+      "potassiumMg": 189.443,
+      "calciumMg": 18.306,
+      "ironMg": 0.728,
+      "magnesiumMg": 10.838,
+      "vitaminCMg": 6.17
+    },
+    "estimatedCostPerServingUsd": 0.33,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

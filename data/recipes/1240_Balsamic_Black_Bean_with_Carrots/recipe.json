@@ -1,0 +1,208 @@
+{
+  "seedId": "REC-1240",
+  "candidate": {
+    "sequence": 2034,
+    "seedId": "REC-CAND-2034",
+    "name": "Balsamic Black Bean with Carrots"
+  },
+  "name": "Balsamic Black Bean with Carrots",
+  "description": "Balsamic Black Bean with Carrots is a practical main meal adaptation built around black beans, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/black-bean-avocado-quinoa-wrap-516928",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Lemon Black Bean with Zucchini source because it provides the closest validated beans and legumes structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 60,
+    "totalMinutes": 80
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "black beans",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0093",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, black beans, and legumes for balsamic black bean with carrots.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned black beans and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the balsamic black bean with carrots, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1030,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 966.052,
+      "proteinG": 33.074,
+      "carbohydratesG": 139.125,
+      "fatG": 33.25,
+      "sodiumMg": 1089.791,
+      "potassiumMg": 2553.553,
+      "calciumMg": 325.978,
+      "ironMg": 8.88,
+      "magnesiumMg": 196.78,
+      "fiberG": 14.1,
+      "sugarsG": 18.945,
+      "vitaminCMg": 42.3
+    },
+    "perServing": {
+      "calories": 241.513,
+      "proteinG": 8.268,
+      "carbohydratesG": 34.781,
+      "fatG": 8.313,
+      "sodiumMg": 272.448,
+      "potassiumMg": 638.388,
+      "calciumMg": 81.495,
+      "ironMg": 2.22,
+      "magnesiumMg": 49.195,
+      "fiberG": 3.525,
+      "sugarsG": 4.736,
+      "vitaminCMg": 10.575
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.22,
+    "perServingUsd": 0.81,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-03-27T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://cassolicious.com/quick-black-bean-corn-casserole-recipe/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.gxJBTy8ZUnv2-j2XrF-69AHaJQ&pid=15.1",
+    "discoveredOriginalUrl": "https://cassolicious.com/wp-content/uploads/2025/11/Balsamic-roasted-baby-carrots-819x1024.jpg",
+    "searchQuery": "Balsamic Black Bean with Carrots plated recipe food",
+    "searchResultTitle": "30-Minute Quick Black Bean & Corn Casserole - Savory Bliss in Every ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:14:58.188Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1240",
+    "name": "Balsamic Black Bean with Carrots",
+    "description": "Balsamic Black Bean with Carrots is a practical main meal adaptation built around black beans, legumes, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 80,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 241.513,
+      "proteinG": 8.268,
+      "carbohydratesG": 34.781,
+      "fatG": 8.313,
+      "sodiumMg": 272.448,
+      "potassiumMg": 638.388,
+      "calciumMg": 81.495,
+      "ironMg": 2.22,
+      "magnesiumMg": 49.195,
+      "fiberG": 3.525,
+      "sugarsG": 4.736,
+      "vitaminCMg": 10.575
+    },
+    "estimatedCostPerServingUsd": 0.81,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

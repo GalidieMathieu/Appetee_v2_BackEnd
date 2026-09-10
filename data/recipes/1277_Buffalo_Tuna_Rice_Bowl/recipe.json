@@ -1,0 +1,218 @@
+{
+  "seedId": "REC-1277",
+  "candidate": {
+    "sequence": 2071,
+    "seedId": "REC-CAND-2071",
+    "name": "Buffalo Tuna Rice Bowl"
+  },
+  "name": "Buffalo Tuna Rice Bowl",
+  "description": "Buffalo Tuna Rice Bowl is a practical main meal adaptation built around tuna, rice, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://b2b.chickenofthesea.com/recipes/tuna-taco-bowl/",
+    "domain": "b2b.chickenofthesea.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Moroccan Tuna Rice Bowl source because it provides the closest validated fish and bowl/rice structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 30,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tuna",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0025",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tuna, and rice for buffalo tuna rice bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tuna and cook it until browned or heated through as appropriate.",
+    "Stir in the rice, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the buffalo tuna rice bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1460,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1709.132,
+      "proteinG": 122.766,
+      "carbohydratesG": 223.735,
+      "fatG": 34.562,
+      "fiberG": 9.543,
+      "sugarsG": 0.875,
+      "sodiumMg": 351.555,
+      "potassiumMg": 1903.293,
+      "calciumMg": 127.927,
+      "ironMg": 9.369,
+      "magnesiumMg": 214.95,
+      "vitaminCMg": 24.68
+    },
+    "perServing": {
+      "calories": 427.283,
+      "proteinG": 30.692,
+      "carbohydratesG": 55.934,
+      "fatG": 8.64,
+      "fiberG": 2.386,
+      "sugarsG": 0.219,
+      "sodiumMg": 87.889,
+      "potassiumMg": 475.823,
+      "calciumMg": 31.982,
+      "ironMg": 2.342,
+      "magnesiumMg": 53.737,
+      "vitaminCMg": 6.17
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.78,
+    "perServingUsd": 1.2,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Budget Friendly",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-05-23T21:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.eatingwell.com/high-protein-summer-grain-bowl-recipes-11778458",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.Qe-GUVcz0f39d1W-fzS9PgHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://www.eatingwell.com/thmb/KDqUz5LKbWA8KW9POA5VPqR64qo=/1124x0/filters:no_upscale():max_bytes(150000):strip_icc()/sesame-crusted-tuna-rice-bowls-beauty-165_preview_maxWidth_4000_maxHeight_4000_ppi_300_quality_100-40ee34be5b3244538787ca4d5dd397e5.jpg",
+    "searchQuery": "Buffalo Tuna Rice Bowl plated recipe food",
+    "searchResultTitle": "10+ High-Protein Summer Grain Bowl Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:16:54.185Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1277",
+    "name": "Buffalo Tuna Rice Bowl",
+    "description": "Buffalo Tuna Rice Bowl is a practical main meal adaptation built around tuna, rice, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 427.283,
+      "proteinG": 30.692,
+      "carbohydratesG": 55.934,
+      "fatG": 8.64,
+      "fiberG": 2.386,
+      "sugarsG": 0.219,
+      "sodiumMg": 87.889,
+      "potassiumMg": 475.823,
+      "calciumMg": 31.982,
+      "ironMg": 2.342,
+      "magnesiumMg": 53.737,
+      "vitaminCMg": 6.17
+    },
+    "estimatedCostPerServingUsd": 1.2,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Budget Friendly",
+      "Meal Prep"
+    ]
+  }
+}

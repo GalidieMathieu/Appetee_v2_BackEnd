@@ -17,7 +17,7 @@ namespace Appetee.Infrastructure.Auth
             _passwordHasher = passwordHasher;
         } 
 
-        public async Task<AuthResult> LoginAsync(LoginRequest user , CancellationToken ct)
+        public async Task<LoginAttempt> LoginAsync(LoginRequest user , CancellationToken ct)
         {
             using var conn = await _db.CreateOpenConnectionAsync(ct);
 
@@ -28,15 +28,29 @@ namespace Appetee.Infrastructure.Auth
 
             if (row is null)
             {
-                throw new UnauthorizedException("Invalid credentials.");
+                return LoginAttempt.InvalidCredentials();
             }
 
             if(!_passwordHasher.Verify(user.Password ,row.PasswordHash))
             {
-                throw new UnauthorizedException("Invalid credentials.");
+                return LoginAttempt.InvalidCredentials();
             }
 
-            return new AuthResult(row.Id , row.Username);
+            return LoginAttempt.Authenticated(new AuthResult(row.Id , row.Username));
         }
+
+        public async Task<bool> ExistsByEmailAsync(
+            string email,
+            CancellationToken ct)
+        {
+            using var connection = await _db.CreateOpenConnectionAsync(ct);
+
+            return await connection.QuerySingleAsync<bool>(
+                new CommandDefinition(
+                    AuthSql.EmailExists,
+                    new { email },
+                    cancellationToken: ct));
+        }
+
     }
 }

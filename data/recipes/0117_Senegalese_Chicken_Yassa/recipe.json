@@ -1,0 +1,232 @@
+{
+  "seedId": "REC-0117",
+  "candidate": {
+    "sequence": 1,
+    "seedId": "REC-CAND-0001",
+    "name": "Senegalese Chicken Yassa"
+  },
+  "name": "Senegalese Chicken Yassa",
+  "description": "Lemon-mustard chicken braised with abundant onions, carrots, and potatoes and served over rice.",
+  "source": {
+    "url": "https://assets.uscannenberg.org/docs/recipes/SenegaleseChickenYassa.pdf",
+    "domain": "assets.uscannenberg.org",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source's onion, lemon, mustard, garlic, carrot, potato, chicken, and rice structure is retained; boneless chicken thighs replace cut whole chicken for a practical Walmart-market preparation."
+  },
+  "countryOfOrigin": "Senegal",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 135,
+    "cookMinutes": 120,
+    "totalMinutes": 255
+  },
+  "servings": 6,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0036",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb boneless skinless chicken thighs",
+      "normalizedQuantity": 680.389,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 4,
+      "sourceUnit": "medium",
+      "sourceDisplay": "4 sliced onions",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 0.25,
+      "sourceUnit": "cup juice",
+      "sourceDisplay": "¼ cup lemon juice",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0090",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp Dijon mustard",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "clove",
+      "sourceDisplay": "1 garlic clove",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 1,
+      "sourceUnit": "large",
+      "sourceDisplay": "1 carrot",
+      "normalizedQuantity": 100,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 1,
+      "sourceUnit": "large",
+      "sourceDisplay": "1 potato",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 1.25,
+      "sourceUnit": "cups dry",
+      "sourceDisplay": "rice for serving",
+      "normalizedQuantity": 250,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Whisk the onions, garlic, lemon juice, and Dijon mustard into a tangy marinade.",
+    "Coat the chicken with the onion marinade and refrigerate it for two hours.",
+    "Arrange the chicken and marinade in a covered baking dish and bake at 375°F for one hour.",
+    "Add the carrot and potato and continue baking until the vegetables are tender and the chicken reaches 165°F.",
+    "Spoon the onion-rich chicken and vegetables over cooked rice and serve hot."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1779.292,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2194.778,
+      "proteinG": 161.984,
+      "carbohydratesG": 325.286,
+      "fatG": 29.668,
+      "fiberG": 21.457,
+      "sugarsG": 8.426,
+      "sodiumMg": 1484.612,
+      "potassiumMg": 4609.31,
+      "calciumMg": 271.131,
+      "ironMg": 9.92,
+      "magnesiumMg": 364.582,
+      "vitaminCMg": 105.65
+    },
+    "perServing": {
+      "calories": 365.796,
+      "proteinG": 26.997,
+      "carbohydratesG": 54.214,
+      "fatG": 4.945,
+      "fiberG": 3.576,
+      "sugarsG": 1.404,
+      "sodiumMg": 247.435,
+      "potassiumMg": 768.218,
+      "calciumMg": 45.188,
+      "ironMg": 1.653,
+      "magnesiumMg": 60.764,
+      "vitaminCMg": 17.608
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.46,
+    "perServingUsd": 1.41,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-06-30T13:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "www.recipesbycallie.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.recipesbycallie.com/poulet-yassa-senegalese-chicken-recipe/",
+    "originalSourceUrl": "https://www.recipesbycallie.com/wp-content/uploads/2026/01/sezhbstlvqfrim5a9ayu.webp",
+    "discoveredOriginalUrl": "https://www.recipesbycallie.com/wp-content/uploads/2026/01/sezhbstlvqfrim5a9ayu.webp",
+    "searchQuery": "Senegalese Chicken Yassa plated recipe food",
+    "searchResultTitle": "Savory Poulet Yassa: Unforgettable Senegalese Chicken Recipe - Recipes ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:09:14.559Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0117",
+    "name": "Senegalese Chicken Yassa",
+    "description": "Lemon-mustard chicken braised with abundant onions, carrots, and potatoes and served over rice.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 255,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 365.796,
+      "proteinG": 26.997,
+      "carbohydratesG": 54.214,
+      "fatG": 4.945,
+      "fiberG": 3.576,
+      "sugarsG": 1.404,
+      "sodiumMg": 247.435,
+      "potassiumMg": 768.218,
+      "calciumMg": 45.188,
+      "ironMg": 1.653,
+      "magnesiumMg": 60.764,
+      "vitaminCMg": 17.608
+    },
+    "estimatedCostPerServingUsd": 1.41,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Budget Friendly"
+    ]
+  }
+}

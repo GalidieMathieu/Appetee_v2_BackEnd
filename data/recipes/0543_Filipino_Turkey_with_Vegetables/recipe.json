@@ -1,0 +1,240 @@
+{
+  "seedId": "REC-0543",
+  "candidate": {
+    "sequence": 788,
+    "seedId": "REC-CAND-0788",
+    "name": "Filipino Turkey with Vegetables"
+  },
+  "name": "Filipino Turkey with Vegetables",
+  "description": "Filipino Turkey with Vegetables is a practical stovetop recipe pairing turkey with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/turkey-kale-and-brown-rice-soup-recipe-2121147",
+    "domain": "foodnetwork.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Chipotle Turkey with Kale source while retaining its closest matching dish form, cooking sequence, and applicable turkey or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 50,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0097",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, turkey, and vegetables for filipino turkey with vegetables.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned turkey and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the filipino turkey with vegetables, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1838,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1706.982,
+      "proteinG": 120.472,
+      "carbohydratesG": 72.288,
+      "fatG": 110.362,
+      "fiberG": 23.307,
+      "sugarsG": 11.298,
+      "sodiumMg": 1167.646,
+      "potassiumMg": 4520.643,
+      "calciumMg": 1207.323,
+      "ironMg": 17.972,
+      "magnesiumMg": 325.732,
+      "vitaminCMg": 350.608
+    },
+    "perServing": {
+      "calories": 426.745,
+      "proteinG": 30.118,
+      "carbohydratesG": 18.072,
+      "fatG": 27.59,
+      "fiberG": 5.827,
+      "sugarsG": 2.825,
+      "sodiumMg": 291.911,
+      "potassiumMg": 1130.161,
+      "calciumMg": 301.831,
+      "ironMg": 4.493,
+      "magnesiumMg": 81.433,
+      "vitaminCMg": 87.652
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.97,
+    "perServingUsd": 1.99,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Low Carb",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-04-18T07:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://dailycookingrecipe.com/turkey-with-vegetables-recipe/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.KNiSMiq7d0-8j7eIkPtm0gHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://pub-ab4915d12b744d6a965d33cb7e1925ee.r2.dev/2026/02/turkey-with-vegetables-recipe-hearty-one-pan-comfort-food-768x768.jpg",
+    "searchQuery": "Filipino Turkey with Vegetables plated recipe food",
+    "searchResultTitle": "Turkey with Vegetables Recipe: Hearty One-Pan Comfort Food - Daily ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:53:24.574Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0543",
+    "name": "Filipino Turkey with Vegetables",
+    "description": "Filipino Turkey with Vegetables is a practical stovetop recipe pairing turkey with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 426.745,
+      "proteinG": 30.118,
+      "carbohydratesG": 18.072,
+      "fatG": 27.59,
+      "fiberG": 5.827,
+      "sugarsG": 2.825,
+      "sodiumMg": 291.911,
+      "potassiumMg": 1130.161,
+      "calciumMg": 301.831,
+      "ironMg": 4.493,
+      "magnesiumMg": 81.433,
+      "vitaminCMg": 87.652
+    },
+    "estimatedCostPerServingUsd": 1.99,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Low Carb",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

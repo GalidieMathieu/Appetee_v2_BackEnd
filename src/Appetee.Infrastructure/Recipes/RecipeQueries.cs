@@ -1,9 +1,18 @@
+// Purpose: Implements bounded recipe discovery, Quick Preview, favorites, details, and writes with Dapper/MySQL.
+// Change reason: Add F-009 Favorites retrieval through the shared Recipe Card hydration path.
+// Created: Existing file; original timestamp was not recorded.
+// Last updated: 2026-08-29T14:05:58-06:00
+
 using Appetee.Application.Abstractions.Recipes;
 using Appetee.Application.Dtos;
+using Appetee.Application.Models.Recipes;
 using Appetee.Application.Requests;
 using Appetee.Application.RowData;
 using Appetee.Application.utils;
 using Appetee.Infrastructure.Data;
+using Microsoft.Extensions.Logging;
+using System.Data;
+using System.Diagnostics;
 using System.Text.Json;
 
 using Dapper;
@@ -12,61 +21,283 @@ namespace Appetee.Infrastructure.Recipes
 {
     public sealed class RecipeQueries : IRecipeQueries
     {
+        private static readonly JsonSerializerOptions InstructionJsonOptions = new(JsonSerializerDefaults.Web);
         private readonly IBlobStorageService _blobStorageService;
         private readonly IDbConnectionFactory _db;
+        private readonly ILogger<RecipeQueries> _logger;
 
-        public RecipeQueries(IDbConnectionFactory db, IBlobStorageService blobStorageService)
+        public RecipeQueries(
+            IDbConnectionFactory db,
+            IBlobStorageService blobStorageService,
+            ILogger<RecipeQueries> logger)
         {
             _db = db ?? throw new ValidationException(nameof(db));
             _blobStorageService = blobStorageService ?? throw new ValidationException(nameof(blobStorageService));
+            _logger = logger ?? throw new ValidationException(nameof(logger));
         }
 
-        public async Task<IReadOnlyList<RecipeSummaryDto>> GetAllAsync(CancellationToken ct)
+        /// <summary>Executes bounded candidate and hydration commands while recording aggregate privacy-safe timings.</summary>
+        public async Task<RecipeDiscoverySlice> DiscoverAsync(
+            RecipeDiscoveryQuery query,
+            CancellationToken ct)
         {
             using var conn = await _db.CreateOpenConnectionAsync(ct);
+            var (candidateSql, candidateParameters) = RecipeDiscoverySqlBuilder.Build(query);
+
+            var candidateStartedAt = Stopwatch.GetTimestamp();
+            var recipeRows = (await conn.QueryAsync<RecipeDiscoveryRowData>(
+                new CommandDefinition(
+                    candidateSql,
+                    candidateParameters,
+                    cancellationToken: ct))).AsList();
+            var candidateDurationMs = Stopwatch
+                .GetElapsedTime(candidateStartedAt)
+                .TotalMilliseconds;
+
+            _logger.LogDebug(
+                "Recipe discovery {DiscoveryMode} candidate query completed in {CandidateDurationMs} ms with {CandidateCount} rows.",
+                query.IsSearch ? "search" : "browse",
+                candidateDurationMs,
+                recipeRows.Count);
+
+            var hasMore = recipeRows.Count > query.PageSize;
+            if (hasMore)
+                recipeRows.RemoveRange(query.PageSize, recipeRows.Count - query.PageSize);
+
+            if (recipeRows.Count == 0)
+            {
+                _logger.LogDebug(
+                    "Recipe discovery {DiscoveryMode} returned no compatible candidates.",
+                    query.IsSearch ? "search" : "browse");
+
+                return new RecipeDiscoverySlice([], HasMore: false, Continuation: null);
+            }
+
+            var cards = await HydrateCardsAsync(conn, recipeRows, "discovery", ct);
+
+            var continuation = hasMore
+                ? new RecipeDiscoveryContinuation(
+                    recipeRows[^1].SortRank,
+                    recipeRows[^1].Id)
+                : null;
+
+            _logger.LogDebug(
+                "Recipe discovery {DiscoveryMode} page returned {ReturnedCount} cards for page size {PageSize}; has more: {HasMore}.",
+                query.IsSearch ? "search" : "browse",
+                cards.Count,
+                query.PageSize,
+                hasMore);
+
+            return new RecipeDiscoverySlice(cards, hasMore, continuation);
+        }
+
+        /// <summary>Loads current-user Favorites using fixed SQL shapes and shared set-based card hydration.</summary>
+        public async Task<IReadOnlyList<RecipeCardDto>> GetFavoritesAsync(
+            int currentUserId,
+            int? limit,
+            CancellationToken ct)
+        {
+            using var conn = await _db.CreateOpenConnectionAsync(ct);
+            var startedAt = Stopwatch.GetTimestamp();
+            var sql = limit.HasValue
+                ? RecipeSql.GetFavoriteCandidatesWithLimit
+                : RecipeSql.GetFavoriteCandidates;
+            var recipeRows = (await conn.QueryAsync<RecipeDiscoveryRowData>(
+                new CommandDefinition(
+                    sql,
+                    new
+                    {
+                        CurrentUserId = currentUserId,
+                        Limit = limit,
+                    },
+                    cancellationToken: ct))).AsList();
+
+            _logger.LogDebug(
+                "Favorites candidate query completed in {CandidateDurationMs} ms with {CandidateCount} rows; limited: {HasLimit}.",
+                Stopwatch.GetElapsedTime(startedAt).TotalMilliseconds,
+                recipeRows.Count,
+                limit.HasValue);
+
+            if (recipeRows.Count == 0)
+                return [];
+
+            return await HydrateCardsAsync(conn, recipeRows, "favorites", ct);
+        }
+
+        /// <summary>Hydrates badges and featured ingredients in one bounded relationship command for every card-list use case.</summary>
+        private async Task<IReadOnlyList<RecipeCardDto>> HydrateCardsAsync(
+            IDbConnection conn,
+            IReadOnlyList<RecipeDiscoveryRowData> recipeRows,
+            string queryKind,
+            CancellationToken ct)
+        {
+            var recipeIds = recipeRows.Select(row => row.Id).ToArray();
+            var hydrationStartedAt = Stopwatch.GetTimestamp();
             using var grid = await conn.QueryMultipleAsync(
-                new CommandDefinition(RecipeSql.GetAll, cancellationToken: ct));
+                new CommandDefinition(
+                    RecipeSql.HydrateDiscoveryCards,
+                    new { RecipeIds = recipeIds },
+                    cancellationToken: ct));
 
-            var recipeRows = (await grid.ReadAsync<RecipeSummaryRowData>()).AsList();
-            var dietRows = (await grid.ReadAsync<RecipeDietRowData>()).AsList();
             var badgeRows = (await grid.ReadAsync<RecipeBadgeRowData>()).AsList();
-            var ingredientRows = (await grid.ReadAsync<RecipeIngredientRowData>()).AsList();
+            var ingredientRows = (await grid.ReadAsync<RecipeFeaturedIngredientRowData>()).AsList();
 
-            var dietsByRecipe = dietRows
-                .GroupBy(row => row.RecipeId)
-                .ToDictionary(
-                    group => group.Key,
-                    group => (IReadOnlyList<DietDto>)group
-                        .Select(row => new DietDto(row.Id, row.Name))
-                        .ToList());
+            _logger.LogDebug(
+                "Recipe card hydration for {QueryKind} completed in {HydrationDurationMs} ms for {HydratedRecipeCount} recipes.",
+                queryKind,
+                Stopwatch.GetElapsedTime(hydrationStartedAt).TotalMilliseconds,
+                recipeIds.Length);
+
             var badgesByRecipe = badgeRows
                 .GroupBy(row => row.RecipeId)
                 .ToDictionary(
                     group => group.Key,
-                    group => (IReadOnlyList<string>)group.Select(row => row.Badge).ToList());
+                    group => (IReadOnlyList<string>)RecipeBadgeValues
+                        .Order(group.Select(row => row.Badge))
+                        .ToList());
             var ingredientsByRecipe = ingredientRows
                 .GroupBy(row => row.RecipeId)
                 .ToDictionary(
                     group => group.Key,
-                    group => (IReadOnlyList<IngredientDto>)group
-                        .Select(row => new IngredientDto(row.Id, row.Name))
+                    group => (IReadOnlyList<FeaturedIngredientDto>)group
+                        .OrderBy(row => row.FeaturedOrder)
+                        .Select(row => new FeaturedIngredientDto(
+                            row.Id,
+                            row.Name,
+                            row.FeaturedOrder))
                         .ToList());
 
-            return recipeRows.Select(row => new RecipeSummaryDto(
+            return recipeRows.Select(row => new RecipeCardDto(
                 Id: row.Id,
                 Name: row.Name,
-                ImageUrl: ResolveBlobUrl(row.ImageBlobName),
-                PrepTimeMinutes: row.PrepTimeMinutes,
-                Servings: row.Servings,
-                Difficulty: row.Difficulty,
-                Badges: badgesByRecipe.GetValueOrDefault(row.Id),
-                Diets: dietsByRecipe.GetValueOrDefault(row.Id),
+                CardImageUrl: ResolveBlobUrl(row.CardImageBlobName),
+                TotalTimeMinutes: row.TotalTimeMinutes,
+                CaloriesPerServing: row.CaloriesPerServing,
                 EstimatedCostPerServing: row.EstimatedCostPerServing,
-                Ingredients: ingredientsByRecipe.GetValueOrDefault(row.Id) ?? [],
-                CaloriesTotal: row.CaloriesTotal,
-                ProteinTotal: row.ProteinTotal,
-                CarbsTotal: row.CarbsTotal
+                Badges: badgesByRecipe.GetValueOrDefault(row.Id) ?? [],
+                FeaturedIngredients: ingredientsByRecipe.GetValueOrDefault(row.Id) ?? [],
+                IsSaved: row.IsSaved != 0
             )).ToList();
+        }
+
+        /// <summary>Applies compatibility before the idempotent save and records only its coarse outcome.</summary>
+        public async Task<bool> SaveFavoriteAsync(
+            int currentUserId,
+            int recipeId,
+            CancellationToken ct)
+        {
+            using var conn = await _db.CreateOpenConnectionAsync(ct);
+            var isCompatible = await conn.ExecuteScalarAsync<long>(
+                new CommandDefinition(
+                    RecipeSql.IsCompatibleFavoriteCandidate,
+                    new
+                    {
+                        CurrentUserId = currentUserId,
+                        RecipeId = recipeId,
+                    },
+                    cancellationToken: ct));
+
+            if (isCompatible == 0)
+            {
+                _logger.LogDebug(
+                    "Favorite save completed with result {FavoriteMutationResult}.",
+                    "not-found-or-incompatible");
+                return false;
+            }
+
+            await conn.ExecuteAsync(
+                new CommandDefinition(
+                    RecipeSql.EnsureFavorite,
+                    new
+                    {
+                        CurrentUserId = currentUserId,
+                        RecipeId = recipeId,
+                    },
+                    cancellationToken: ct));
+
+            _logger.LogDebug(
+                "Favorite save completed with result {FavoriteMutationResult}.",
+                "saved-or-already-saved");
+
+            return true;
+        }
+
+        /// <summary>Loads one compatibility-scoped Preview and its independent badge/ingredient result sets.</summary>
+        public async Task<RecipePreviewDto?> GetPreviewAsync(
+            int currentUserId,
+            int recipeId,
+            CancellationToken ct)
+        {
+            using var conn = await _db.CreateOpenConnectionAsync(ct);
+            var previewStartedAt = Stopwatch.GetTimestamp();
+            using var grid = await conn.QueryMultipleAsync(
+                new CommandDefinition(
+                    RecipeSql.GetCompatiblePreview,
+                    new
+                    {
+                        CurrentUserId = currentUserId,
+                        RecipeId = recipeId,
+                    },
+                    cancellationToken: ct));
+
+            var recipe = await grid.ReadSingleOrDefaultAsync<RecipePreviewRowData>();
+            if (recipe is null)
+            {
+                _logger.LogDebug(
+                    "Recipe Preview query completed in {PreviewDurationMs} ms with result {PreviewResult}.",
+                    Stopwatch.GetElapsedTime(previewStartedAt).TotalMilliseconds,
+                    "not-found-or-incompatible");
+                return null;
+            }
+
+            var badges = RecipeBadgeValues
+                .Order(await grid.ReadAsync<string>())
+                .ToArray();
+            var ingredients = (await grid.ReadAsync<RecipePreviewIngredientRowData>())
+                .Select(row => new RecipePreviewIngredientDto(row.Id, row.Name))
+                .ToArray();
+
+            var preview = new RecipePreviewDto(
+                Id: recipe.Id,
+                Name: recipe.Name,
+                Description: recipe.Description,
+                PreviewImageUrl: ResolveBlobUrl(recipe.PreviewImageBlobName),
+                TotalTimeMinutes: recipe.TotalTimeMinutes,
+                CaloriesPerServing: recipe.CaloriesPerServing,
+                ProteinPerServing: recipe.ProteinPerServing,
+                EstimatedCostPerServing: recipe.EstimatedCostPerServing,
+                Badges: badges,
+                Ingredients: ingredients,
+                IsSaved: recipe.IsSaved != 0);
+
+            _logger.LogDebug(
+                "Recipe Preview query completed in {PreviewDurationMs} ms with result {PreviewResult}.",
+                Stopwatch.GetElapsedTime(previewStartedAt).TotalMilliseconds,
+                "returned");
+
+            return preview;
+        }
+
+        /// <summary>Removes only the current-user membership and records no ownership identifiers.</summary>
+        public async Task RemoveFavoriteAsync(
+            int currentUserId,
+            int recipeId,
+            CancellationToken ct)
+        {
+            using var conn = await _db.CreateOpenConnectionAsync(ct);
+            await conn.ExecuteAsync(
+                new CommandDefinition(
+                    RecipeSql.RemoveFavorite,
+                    new
+                    {
+                        CurrentUserId = currentUserId,
+                        RecipeId = recipeId,
+                    },
+                    cancellationToken: ct));
+
+            _logger.LogDebug(
+                "Favorite delete completed with result {FavoriteMutationResult}.",
+                "removed-or-already-absent");
         }
 
         public async Task<RecipeSummaryDto?> CreateRecipeWithDetailsAsync(RecipeDetailRequest request, CancellationToken ct)
@@ -86,15 +317,20 @@ namespace Appetee.Infrastructure.Recipes
                         new
                         {
                             request.Name,
-                            ImageBlobName = blobName,
+                            request.Description,
+                            PreviewImageBlobName = blobName,
                             InstructionsJson = SerializeInstructions(request.Instructions),
                             request.PrepTimeMinutes,
+                            request.CookTimeMinutes,
+                            request.TotalTimeMinutes,
                             request.Servings,
                             Difficulty = request.Difficulty!.Value.ToString(),
-                            request.EstimatedCostPerServing,
-                            request.CaloriesTotal,
-                            request.ProteinTotal,
-                            request.CarbsTotal
+                            recipeReferences.Totals.EstimatedCostPerServing,
+                            recipeReferences.Totals.CaloriesTotal,
+                            recipeReferences.Totals.ProteinTotal,
+                            recipeReferences.Totals.CarbsTotal,
+                            recipeReferences.Totals.CaloriesPerServing,
+                            recipeReferences.Totals.ProteinPerServing
                         },
                         transaction: tran,
                         cancellationToken: ct
@@ -135,7 +371,7 @@ namespace Appetee.Infrastructure.Recipes
 
         public async Task<RecipeSummaryDto?> UpdateRecipeWithDetailsAsync(int id, RecipeDetailRequest request, CancellationToken ct)
         {
-            string? currentImageBlobName;
+            string? currentPreviewImageBlobName;
             using (var lookupConn = await _db.CreateOpenConnectionAsync(ct))
             {
                 var existingRecipe = await lookupConn.QuerySingleOrDefaultAsync<RecipeImageBlobRowData>(
@@ -149,11 +385,11 @@ namespace Appetee.Infrastructure.Recipes
                 if (existingRecipe is null)
                     return null;
 
-                currentImageBlobName = existingRecipe.ImageBlobName;
+                currentPreviewImageBlobName = existingRecipe.PreviewImageBlobName;
             }
 
-            var newBlobName = await UploadRecipeImageAsync(request, ct);
-            var nextImageBlobName = newBlobName ?? currentImageBlobName;
+            var newPreviewImageBlobName = await UploadRecipeImageAsync(request, ct);
+            var nextPreviewImageBlobName = newPreviewImageBlobName ?? currentPreviewImageBlobName;
 
             using var conn = await _db.CreateOpenConnectionAsync(ct);
             using var tran = conn.BeginTransaction();
@@ -169,15 +405,21 @@ namespace Appetee.Infrastructure.Recipes
                         {
                             Id = id,
                             request.Name,
-                            ImageBlobName = nextImageBlobName,
+                            request.Description,
+                            PreviewImageBlobName = nextPreviewImageBlobName,
+                            ClearCardImage = !string.IsNullOrWhiteSpace(newPreviewImageBlobName),
                             InstructionsJson = SerializeInstructions(request.Instructions),
                             request.PrepTimeMinutes,
+                            request.CookTimeMinutes,
+                            request.TotalTimeMinutes,
                             request.Servings,
                             Difficulty = request.Difficulty!.Value.ToString(),
-                            request.EstimatedCostPerServing,
-                            request.CaloriesTotal,
-                            request.ProteinTotal,
-                            request.CarbsTotal
+                            recipeReferences.Totals.EstimatedCostPerServing,
+                            recipeReferences.Totals.CaloriesTotal,
+                            recipeReferences.Totals.ProteinTotal,
+                            recipeReferences.Totals.CarbsTotal,
+                            recipeReferences.Totals.CaloriesPerServing,
+                            recipeReferences.Totals.ProteinPerServing
                         },
                         transaction: tran,
                         cancellationToken: ct
@@ -187,7 +429,7 @@ namespace Appetee.Infrastructure.Recipes
                 if (affected == 0)
                 {
                     try { tran.Rollback(); } catch { }
-                    await DeleteBlobIfExistsAsync(newBlobName, ct);
+                    await DeleteBlobIfExistsAsync(newPreviewImageBlobName, ct);
                     return null;
                 }
 
@@ -230,19 +472,19 @@ namespace Appetee.Infrastructure.Recipes
 
                 tran.Commit();
 
-                if (!string.IsNullOrWhiteSpace(newBlobName)
-                    && !string.IsNullOrWhiteSpace(currentImageBlobName)
-                    && !string.Equals(newBlobName, currentImageBlobName, StringComparison.Ordinal))
+                if (!string.IsNullOrWhiteSpace(newPreviewImageBlobName)
+                    && !string.IsNullOrWhiteSpace(currentPreviewImageBlobName)
+                    && !string.Equals(newPreviewImageBlobName, currentPreviewImageBlobName, StringComparison.Ordinal))
                 {
-                    await DeleteBlobIfExistsAsync(currentImageBlobName, ct);
+                    await DeleteBlobIfExistsAsync(currentPreviewImageBlobName, ct);
                 }
 
-                return BuildRecipeSummaryDto(id, request, nextImageBlobName, recipeReferences);
+                return BuildRecipeSummaryDto(id, request, nextPreviewImageBlobName, recipeReferences);
             }
             catch
             {
                 try { tran.Rollback(); } catch { }
-                await DeleteBlobIfExistsAsync(newBlobName, ct);
+                await DeleteBlobIfExistsAsync(newPreviewImageBlobName, ct);
                 throw;
             }
         }
@@ -266,19 +508,19 @@ namespace Appetee.Infrastructure.Recipes
             }
 
             var diets = (await grid.ReadAsync<DietDto>()).AsList();
-            var badges = (await grid.ReadAsync<string>()).AsList();
+            var badges = RecipeBadgeValues.Order(await grid.ReadAsync<string>()).ToList();
             var ingredientRows = (await grid.ReadAsync<RecipeIngredientDetailRowData>()).AsList();
 
-            string? recipeImageUrl = null;
-            if (!string.IsNullOrWhiteSpace(recipe.ImageBlobName))
+            string? previewImageUrl = null;
+            if (!string.IsNullOrWhiteSpace(recipe.PreviewImageBlobName))
             {
                 try
                 {
-                    recipeImageUrl = _blobStorageService.GetUri(recipe.ImageBlobName).ToString();
+                    previewImageUrl = _blobStorageService.GetUri(recipe.PreviewImageBlobName).ToString();
                 }
                 catch
                 {
-                    recipeImageUrl = null;
+                    previewImageUrl = null;
                 }
             }
 
@@ -301,6 +543,8 @@ namespace Appetee.Infrastructure.Recipes
                     IngredientId: row.IngredientId,
                     Quantity: row.Quantity,
                     Unit: row.Unit,
+                    DisplayOrder: row.DisplayOrder,
+                    FeaturedOrder: row.FeaturedOrder,
                     Ingredient: new IngredientAdminDetailDto(
                         Id: row.Id,
                         Name: row.Name,
@@ -326,8 +570,11 @@ namespace Appetee.Infrastructure.Recipes
             return new RecipeDetailDto(
                 Id: recipe.Id,
                 Name: recipe.Name,
-                ImageUrl: recipeImageUrl,
+                Description: recipe.Description,
+                PreviewImageUrl: previewImageUrl,
                 PrepTimeMinutes: recipe.PrepTimeMinutes,
+                CookTimeMinutes: recipe.CookTimeMinutes,
+                TotalTimeMinutes: recipe.TotalTimeMinutes,
                 Servings: recipe.Servings,
                 Difficulty: recipe.Difficulty,
                 Badges: badges.Count == 0 ? null : badges,
@@ -337,11 +584,13 @@ namespace Appetee.Infrastructure.Recipes
                 Ingredients: ingredients,
                 CaloriesTotal: recipe.CaloriesTotal,
                 ProteinTotal: recipe.ProteinTotal,
-                CarbsTotal: recipe.CarbsTotal
+                CarbsTotal: recipe.CarbsTotal,
+                CaloriesPerServing: recipe.CaloriesPerServing,
+                ProteinPerServing: recipe.ProteinPerServing
             );
         }
 
-        private async Task<(int[] DietIds, RecipeIngredientRequest[] IngredientRequests, string[] BadgeValues, List<DietDto> DietDtos, List<IngredientDto> IngredientDtos)> LoadRecipeReferenceDataAsync(
+        private async Task<(int[] DietIds, RecipeIngredientRequest[] IngredientRequests, string[] BadgeValues, List<DietDto> DietDtos, List<IngredientDto> IngredientDtos, RecipeCalculatedTotals Totals)> LoadRecipeReferenceDataAsync(
             System.Data.IDbConnection conn,
             System.Data.IDbTransaction tran,
             RecipeDetailRequest request,
@@ -350,7 +599,9 @@ namespace Appetee.Infrastructure.Recipes
             var dietIds = request.DietIds.Distinct().ToArray();
             var ingredientRequests = request.Ingredients.ToArray();
             var ingredientIds = ingredientRequests.Select(ingredient => ingredient.IngredientId).Distinct().ToArray();
-            var badgeValues = request.Badges.Distinct(StringComparer.OrdinalIgnoreCase).ToArray();
+            var badgeValues = RecipeBadgeValues
+                .Order(request.Badges.Distinct(StringComparer.Ordinal))
+                .ToArray();
 
             var dietDtos = new List<DietDto>();
             if (dietIds.Length > 0)
@@ -370,30 +621,41 @@ namespace Appetee.Infrastructure.Recipes
             }
 
             var ingredientDtos = new List<IngredientDto>();
+            RecipeCalculatedTotals totals;
             if (ingredientIds.Length > 0)
             {
-                ingredientDtos = (await conn.QueryAsync<IngredientDto>(
+                var calculationRows = (await conn.QueryAsync<RecipeIngredientCalculationData>(
                     new CommandDefinition(
-                        IngredientSql.GetByIds,
+                        RecipeSql.GetIngredientCalculationDataByIds,
                         new { Ids = ingredientIds },
                         transaction: tran,
                         cancellationToken: ct
                     ))).AsList();
 
-                var foundIngredientIds = ingredientDtos.Select(ingredient => ingredient.id).ToHashSet();
+                var foundIngredientIds = calculationRows.Select(ingredient => ingredient.Id).ToHashSet();
                 var missingIngredientIds = ingredientIds.Where(id => !foundIngredientIds.Contains(id)).ToArray();
                 if (missingIngredientIds.Length > 0)
                     throw new ValidationException($"Invalid IngredientIds: {string.Join(", ", missingIngredientIds)}");
+
+                var calculationData = calculationRows.ToDictionary(ingredient => ingredient.Id);
+                totals = RecipeCalculator.Calculate(ingredientRequests, calculationData, request.Servings);
+                ingredientDtos = calculationRows
+                    .Select(ingredient => new IngredientDto(ingredient.Id, ingredient.Name))
+                    .ToList();
+            }
+            else
+            {
+                throw new ValidationException("at least one ingredient is required.");
             }
 
-            return (dietIds, ingredientRequests, badgeValues, dietDtos, ingredientDtos);
+            return (dietIds, ingredientRequests, badgeValues, dietDtos, ingredientDtos, totals);
         }
 
         private RecipeSummaryDto BuildRecipeSummaryDto(
             int recipeId,
             RecipeDetailRequest request,
-            string? imageBlobName,
-            (int[] DietIds, RecipeIngredientRequest[] IngredientRequests, string[] BadgeValues, List<DietDto> DietDtos, List<IngredientDto> IngredientDtos) recipeReferences)
+            string? previewImageBlobName,
+            (int[] DietIds, RecipeIngredientRequest[] IngredientRequests, string[] BadgeValues, List<DietDto> DietDtos, List<IngredientDto> IngredientDtos, RecipeCalculatedTotals Totals) recipeReferences)
         {
             var ingredientLookup = recipeReferences.IngredientDtos.ToDictionary(ingredient => ingredient.id);
             var orderedIngredients = recipeReferences.IngredientRequests
@@ -410,17 +672,22 @@ namespace Appetee.Infrastructure.Recipes
             return new RecipeSummaryDto(
                 Id: recipeId,
                 Name: request.Name,
-                ImageUrl: ResolveBlobUrl(imageBlobName),
+                Description: request.Description!,
+                PreviewImageUrl: ResolveBlobUrl(previewImageBlobName),
                 PrepTimeMinutes: request.PrepTimeMinutes,
+                CookTimeMinutes: request.CookTimeMinutes,
+                TotalTimeMinutes: request.TotalTimeMinutes,
                 Servings: request.Servings,
                 Difficulty: request.Difficulty!.Value.ToString(),
                 Badges: recipeReferences.BadgeValues.Length == 0 ? null : recipeReferences.BadgeValues,
                 Diets: orderedDiets,
-                EstimatedCostPerServing: request.EstimatedCostPerServing,
+                EstimatedCostPerServing: recipeReferences.Totals.EstimatedCostPerServing,
                 Ingredients: orderedIngredients,
-                CaloriesTotal: request.CaloriesTotal,
-                ProteinTotal: request.ProteinTotal,
-                CarbsTotal: request.CarbsTotal
+                CaloriesTotal: recipeReferences.Totals.CaloriesTotal,
+                ProteinTotal: recipeReferences.Totals.ProteinTotal,
+                CarbsTotal: recipeReferences.Totals.CarbsTotal,
+                CaloriesPerServing: recipeReferences.Totals.CaloriesPerServing,
+                ProteinPerServing: recipeReferences.Totals.ProteinPerServing
             );
         }
 
@@ -474,20 +741,33 @@ namespace Appetee.Infrastructure.Recipes
             {
             }
         }
-        private static string SerializeInstructions(IReadOnlyCollection<string> instructions) =>
-            JsonSerializer.Serialize(instructions);
+        private static string SerializeInstructions(IReadOnlyCollection<RecipeInstructionStepRequest> instructions) =>
+            JsonSerializer.Serialize(instructions, InstructionJsonOptions);
 
-        private static List<string> DeserializeInstructions(string instructionsJson)
+        private static List<RecipeInstructionStepDto> DeserializeInstructions(string instructionsJson)
         {
             if (string.IsNullOrWhiteSpace(instructionsJson))
                 return [];
 
             try
             {
-                return (JsonSerializer.Deserialize<List<string>>(instructionsJson) ?? [])
-                    .Select(step => step?.Trim() ?? string.Empty)
-                    .Where(step => step.Length > 0)
+                var steps = JsonSerializer.Deserialize<List<RecipeInstructionStepDto>>(
+                    instructionsJson,
+                    InstructionJsonOptions) ?? [];
+                var normalizedSteps = steps
+                    .Select(step => new RecipeInstructionStepDto(
+                        step.Title?.Trim() ?? string.Empty,
+                        step.Instruction?.Trim() ?? string.Empty))
+                    .Where(step => step.Title.Length > 0 || step.Instruction.Length > 0)
                     .ToList();
+
+                if (normalizedSteps.Count == 0 ||
+                    normalizedSteps.Any(step => step.Title.Length == 0 || step.Instruction.Length == 0))
+                {
+                    throw new InternalServerException("Recipe instructions payload is invalid.");
+                }
+
+                return normalizedSteps;
             }
             catch (JsonException ex)
             {

@@ -1,0 +1,244 @@
+{
+  "seedId": "REC-0435",
+  "candidate": {
+    "sequence": 574,
+    "seedId": "REC-CAND-0574",
+    "name": "Balsamic Turkey Tacos"
+  },
+  "name": "Balsamic Turkey Tacos",
+  "description": "Balsamic Turkey Tacos is a practical stovetop recipe pairing turkey with tortilla and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.hormelfoods.com/recipe/moroccan-turkey-wrap/",
+    "domain": "hormelfoods.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Moroccan Turkey Wraps source while retaining its closest matching dish form, cooking sequence, and applicable turkey or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Morocco",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 60,
+    "totalMinutes": 80
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0093",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, turkey, and tortilla for balsamic turkey tacos.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned turkey and cook it until browned or heated through as appropriate.",
+    "Stir in the tortilla, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the balsamic turkey tacos, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1759,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2506.47,
+      "proteinG": 169.04,
+      "carbohydratesG": 220.75,
+      "fatG": 107.467,
+      "fiberG": 45.915,
+      "sugarsG": 37.725,
+      "sodiumMg": 2510.715,
+      "potassiumMg": 4176.83,
+      "calciumMg": 1492.495,
+      "ironMg": 21.258,
+      "magnesiumMg": 491.97,
+      "vitaminCMg": 79.088
+    },
+    "perServing": {
+      "calories": 626.617,
+      "proteinG": 42.26,
+      "carbohydratesG": 55.188,
+      "fatG": 26.867,
+      "fiberG": 11.479,
+      "sugarsG": 9.431,
+      "sodiumMg": 627.679,
+      "potassiumMg": 1044.207,
+      "calciumMg": 373.124,
+      "ironMg": 5.314,
+      "magnesiumMg": 122.993,
+      "vitaminCMg": 19.772
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.02,
+    "perServingUsd": 2,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2025-11-02T19:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://therecipecritic.com/ground-turkey-tacos/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.DuCjXrd6ve_n6GKAxb9fFgHaLG&pid=15.1",
+    "discoveredOriginalUrl": "https://therecipecritic.com/wp-content/uploads/2025/02/ground-turkey-tacos-3-2.jpg",
+    "searchQuery": "Balsamic Turkey Tacos plated recipe food",
+    "searchResultTitle": "Ground Turkey Tacos | The Recipe Critic",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:47:44.720Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0435",
+    "name": "Balsamic Turkey Tacos",
+    "description": "Balsamic Turkey Tacos is a practical stovetop recipe pairing turkey with tortilla and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 80,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 626.617,
+      "proteinG": 42.26,
+      "carbohydratesG": 55.188,
+      "fatG": 26.867,
+      "fiberG": 11.479,
+      "sugarsG": 9.431,
+      "sodiumMg": 627.679,
+      "potassiumMg": 1044.207,
+      "calciumMg": 373.124,
+      "ironMg": 5.314,
+      "magnesiumMg": 122.993,
+      "vitaminCMg": 19.772
+    },
+    "estimatedCostPerServingUsd": 2,
+    "diets": [
+      "Flexitarian"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

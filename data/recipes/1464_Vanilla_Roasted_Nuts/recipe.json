@@ -1,0 +1,196 @@
+{
+  "seedId": "REC-1464",
+  "candidate": {
+    "sequence": 2261,
+    "seedId": "REC-CAND-2261",
+    "name": "Vanilla Roasted Nuts"
+  },
+  "name": "Vanilla Roasted Nuts",
+  "description": "Vanilla Roasted Nuts is a practical snack adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.oldelpaso.co.uk/recipes/black-bean-and-corn-tortilla-cups",
+    "domain": "oldelpaso.co.uk",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Black Bean Salsa Tortilla Cups source because it provides the closest validated vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "Oven",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0096",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for vanilla roasted nuts and preheat the oven.",
+    "Coat the vegetables and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the vegetables and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the vanilla roasted nuts briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 465,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1072.482,
+      "proteinG": 28.884,
+      "carbohydratesG": 56.715,
+      "fatG": 87.405,
+      "fiberG": 21.015,
+      "sugarsG": 5.37,
+      "sodiumMg": 7.296,
+      "potassiumMg": 1486.023,
+      "calciumMg": 395.223,
+      "ironMg": 5.7,
+      "magnesiumMg": 354.75,
+      "vitaminCMg": 29.28
+    },
+    "perServing": {
+      "calories": 268.12,
+      "proteinG": 7.221,
+      "carbohydratesG": 14.179,
+      "fatG": 21.851,
+      "fiberG": 5.254,
+      "sugarsG": 1.343,
+      "sodiumMg": 1.824,
+      "potassiumMg": 371.506,
+      "calciumMg": 98.806,
+      "ironMg": 1.425,
+      "magnesiumMg": 88.688,
+      "vitaminCMg": 7.32
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.32,
+    "perServingUsd": 0.83,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-03-08T04:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://snackysmiles.com/deliciously-simple-vanilla-cinnamon-roasted-mixed-nuts-recipe/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.D5XtzIOObKfa5aQ-Er1angHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://snackysmiles.com/wp-content/uploads/2025/12/vanilla-cinnamon-roasted-mixed-nuts-2.webp",
+    "searchQuery": "Vanilla Roasted Nuts plated recipe food",
+    "searchResultTitle": "Deliciously Simple Vanilla Cinnamon Roasted Mixed Nuts Recipe - Snacky ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:53:37.781Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1464",
+    "name": "Vanilla Roasted Nuts",
+    "description": "Vanilla Roasted Nuts is a practical snack adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 268.12,
+      "proteinG": 7.221,
+      "carbohydratesG": 14.179,
+      "fatG": 21.851,
+      "fiberG": 5.254,
+      "sugarsG": 1.343,
+      "sodiumMg": 1.824,
+      "potassiumMg": 371.506,
+      "calciumMg": 98.806,
+      "ironMg": 1.425,
+      "magnesiumMg": 88.688,
+      "vitaminCMg": 7.32
+    },
+    "estimatedCostPerServingUsd": 0.83,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

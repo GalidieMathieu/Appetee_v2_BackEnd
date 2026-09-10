@@ -1,0 +1,198 @@
+{
+  "seedId": "REC-0040",
+  "name": "Tofu Scramble Breakfast Tacos",
+  "description": "Whole-wheat tacos filled with turmeric-style tofu scramble, spinach, and salsa.",
+  "source": {
+    "url": "https://www.peta.org/recipes/buffalo-tofu-scramble-breakfast-tacos/",
+    "domain": "peta.org",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "totalMinutes": 25
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tofu",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0018",
+      "sourceQuantity": 14,
+      "sourceUnit": "oz",
+      "sourceDisplay": "14 oz extra-firm tofu",
+      "normalizedQuantity": 396.9,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 8,
+      "sourceUnit": "tortillas",
+      "sourceDisplay": "8 whole-wheat tortillas",
+      "normalizedQuantity": 362.9,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups spinach",
+      "normalizedQuantity": 127.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup salsa",
+      "normalizedQuantity": 260,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp curry powder",
+      "normalizedQuantity": 2.3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Press the tofu dry and crumble it into small pieces.",
+    "Cook the tofu with curry powder until lightly browned.",
+    "Stir in the spinach and cook until hot and tender.",
+    "Warm the tortillas and fill them with tofu scramble and salsa."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1097.16,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1554.422,
+      "proteinG": 80,
+      "carbohydratesG": 202.058,
+      "fatG": 53.513,
+      "fiberG": 48.737,
+      "sugarsG": 12.128,
+      "sodiumMg": 4087.867,
+      "potassiumMg": 2677.07,
+      "calciumMg": 1932.595,
+      "ironMg": 19.875,
+      "magnesiumMg": 596.328,
+      "vitaminCMg": 7.822
+    },
+    "perServing": {
+      "calories": 388.606,
+      "proteinG": 20,
+      "carbohydratesG": 50.514,
+      "fatG": 13.378,
+      "fiberG": 12.184,
+      "sugarsG": 3.032,
+      "sodiumMg": 1021.967,
+      "potassiumMg": 669.268,
+      "calciumMg": 483.149,
+      "ironMg": 4.969,
+      "magnesiumMg": 149.082,
+      "vitaminCMg": 1.956
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.94,
+    "perServingUsd": 1.74,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-03-03T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "www.peta.org",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.peta.org/recipes/buffalo-tofu-scramble-breakfast-tacos/",
+    "originalSourceUrl": "https://www.peta.org/wp-content/uploads/2016/12/Buffalo-Tofu-Tacos.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0040",
+    "name": "Tofu Scramble Breakfast Tacos",
+    "description": "Whole-wheat tacos filled with turmeric-style tofu scramble, spinach, and salsa.",
+    "mealType": "Breakfast",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 388.606,
+      "proteinG": 20,
+      "carbohydratesG": 50.514,
+      "fatG": 13.378,
+      "fiberG": 12.184,
+      "sugarsG": 3.032,
+      "sodiumMg": 1021.967,
+      "potassiumMg": 669.268,
+      "calciumMg": 483.149,
+      "ironMg": 4.969,
+      "magnesiumMg": 149.082,
+      "vitaminCMg": 1.956
+    },
+    "estimatedCostPerServingUsd": 1.74,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

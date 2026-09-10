@@ -1,0 +1,248 @@
+{
+  "seedId": "REC-1019",
+  "candidate": {
+    "sequence": 1700,
+    "seedId": "REC-CAND-1700",
+    "name": "Roasted Pork Tenderloin Grain Bowl"
+  },
+  "name": "Roasted Pork Tenderloin Grain Bowl",
+  "description": "Roasted Pork Tenderloin Grain Bowl is a practical oven recipe pairing pork tenderloin with quinoa and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.thekitchn.com/sausage-taco-bowls-22955565",
+    "domain": "thekitchn.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Sausage Taco Bowl source while retaining its closest matching dish form, cooking sequence, and applicable pork or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "pork tenderloin",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0069",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for roasted pork tenderloin grain bowl.",
+    "Season the pork tenderloin and vegetables evenly while the oven reaches temperature.",
+    "Arrange the pork tenderloin, quinoa, and vegetables so heat can circulate around each component.",
+    "Bake until the pork tenderloin is safely cooked and the vegetables or grain base are tender.",
+    "Rest the roasted pork tenderloin grain bowl briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2102,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2756.172,
+      "proteinG": 206.185,
+      "carbohydratesG": 350.945,
+      "fatG": 63.414,
+      "fiberG": 36.199,
+      "sugarsG": 9.604,
+      "sodiumMg": 3276.996,
+      "potassiumMg": 7081.173,
+      "calciumMg": 517.07,
+      "ironMg": 28.681,
+      "magnesiumMg": 945.105,
+      "vitaminCMg": 47.34
+    },
+    "perServing": {
+      "calories": 689.043,
+      "proteinG": 51.546,
+      "carbohydratesG": 87.736,
+      "fatG": 15.854,
+      "fiberG": 9.05,
+      "sugarsG": 2.401,
+      "sodiumMg": 819.249,
+      "potassiumMg": 1770.293,
+      "calciumMg": 129.268,
+      "ironMg": 7.17,
+      "magnesiumMg": 236.276,
+      "vitaminCMg": 11.835
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 12.3,
+    "perServingUsd": 3.08,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-04-21T03:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "artsycow.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://artsycow.com/leftover-pork-tenderloin-grain-bowl-recipe/",
+    "originalSourceUrl": "https://artsycow.com/wp-content/uploads/2025/08/4dadb018-5a13-47c8-821d-ed1c8537f8cd.jpg",
+    "discoveredOriginalUrl": "https://artsycow.com/wp-content/uploads/2025/08/4dadb018-5a13-47c8-821d-ed1c8537f8cd.jpg",
+    "searchQuery": "Roasted Pork Tenderloin Grain Bowl plated recipe food",
+    "searchResultTitle": "Leftover Pork Tenderloin Grain Bowl Recipe for a Power-Packed Meal ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:17:44.906Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1019",
+    "name": "Roasted Pork Tenderloin Grain Bowl",
+    "description": "Roasted Pork Tenderloin Grain Bowl is a practical oven recipe pairing pork tenderloin with quinoa and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 689.043,
+      "proteinG": 51.546,
+      "carbohydratesG": 87.736,
+      "fatG": 15.854,
+      "fiberG": 9.05,
+      "sugarsG": 2.401,
+      "sodiumMg": 819.249,
+      "potassiumMg": 1770.293,
+      "calciumMg": 129.268,
+      "ironMg": 7.17,
+      "magnesiumMg": 236.276,
+      "vitaminCMg": 11.835
+    },
+    "estimatedCostPerServingUsd": 3.08,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly"
+    ]
+  }
+}

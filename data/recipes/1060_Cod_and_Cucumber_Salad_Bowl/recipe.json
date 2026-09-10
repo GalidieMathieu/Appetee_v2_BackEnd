@@ -1,0 +1,236 @@
+{
+  "seedId": "REC-1060",
+  "candidate": {
+    "sequence": 1770,
+    "seedId": "REC-CAND-1770",
+    "name": "Cod and Cucumber Salad Bowl"
+  },
+  "name": "Cod and Cucumber Salad Bowl",
+  "description": "Cod and Cucumber Salad Bowl is a practical stovetop recipe pairing cod with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://diet.mayoclinic.org/us/motivational-tips/recipe-collections/one-pan-meals/pan-seared-fish-with-garlicky-green-beans-quinoa/",
+    "domain": "diet.mayoclinic.org",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Cod and Green Beans Quinoa Bowl source while retaining its closest matching dish form, cooking sequence, and applicable cod or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "cod",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0044",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0037",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0101",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, cod, and vegetables for cod and cucumber salad bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned cod and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the cod and cucumber salad bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1695,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1836.282,
+      "proteinG": 137.064,
+      "carbohydratesG": 223.977,
+      "fatG": 45.693,
+      "fiberG": 33.795,
+      "sugarsG": 13.29,
+      "sodiumMg": 1852.296,
+      "potassiumMg": 4449.423,
+      "calciumMg": 422.823,
+      "ironMg": 16.926,
+      "magnesiumMg": 733.35,
+      "vitaminCMg": 108.18
+    },
+    "perServing": {
+      "calories": 459.07,
+      "proteinG": 34.266,
+      "carbohydratesG": 55.994,
+      "fatG": 11.423,
+      "fiberG": 8.449,
+      "sugarsG": 3.322,
+      "sodiumMg": 463.074,
+      "potassiumMg": 1112.356,
+      "calciumMg": 105.706,
+      "ironMg": 4.231,
+      "magnesiumMg": 183.338,
+      "vitaminCMg": 27.045
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 17.12,
+    "perServingUsd": 4.28,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber"
+  ],
+  "createdAt": "2028-06-23T08:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "http://www.traceysivak.com/blog/2015/9/3/baked-cod-with-cucumber-salad",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.uXuvUXE_dQDQA6AU73-piwHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://images.squarespace-cdn.com/content/v1/5414c28ce4b08db18091517f/1441335358266-R7C9SB99XVQ2JEF7WAA4/image-asset.jpeg",
+    "searchQuery": "Cod and Cucumber Salad Bowl plated recipe food",
+    "searchResultTitle": "Tracey Sivak — Blog",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:19:45.973Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1060",
+    "name": "Cod and Cucumber Salad Bowl",
+    "description": "Cod and Cucumber Salad Bowl is a practical stovetop recipe pairing cod with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 459.07,
+      "proteinG": 34.266,
+      "carbohydratesG": 55.994,
+      "fatG": 11.423,
+      "fiberG": 8.449,
+      "sugarsG": 3.322,
+      "sodiumMg": 463.074,
+      "potassiumMg": 1112.356,
+      "calciumMg": 105.706,
+      "ironMg": 4.231,
+      "magnesiumMg": 183.338,
+      "vitaminCMg": 27.045
+    },
+    "estimatedCostPerServingUsd": 4.28,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber"
+    ]
+  }
+}

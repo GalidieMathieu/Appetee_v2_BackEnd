@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0046",
+  "name": "Ground Cumin",
+  "canonicalName": "Ground Cumin",
+  "description": "Ground cumin seed.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Ground Cumin, 2.5 oz",
+    "productId": "985501095",
+    "productUrl": "https://www.walmart.com/ip/985501095",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 1.48,
+    "packageQuantity": 70.874,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 375,
+      "proteinG": 17.8,
+      "carbohydratesG": 44.2,
+      "fatG": 22.3,
+      "fiberG": 10.5,
+      "sugarsG": 2.25,
+      "sodiumMg": 168,
+      "potassiumMg": 1790,
+      "calciumMg": 931,
+      "ironMg": 66.4,
+      "magnesiumMg": 366,
+      "vitaminCMg": 7.7
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 2.0882
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 170923,
+      "dataType": "SR Legacy",
+      "description": "Spices, cumin seed",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/170923/nutrients",
+      "searchQuery": "spices cumin seed",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.dreamstime.com/selective-focus-ground-cumin-seeds-jeera-powder-close-up-spices-sharp-clear-aromatic-ingredients-image372982832",
+    "originalSourceUrl": "https://thumbs.dreamstime.com/b/selective-focus-ground-cumin-seeds-jeera-powder-close-up-spices-sharp-clear-aromatic-ingredients-372982832.jpg?w=992",
+    "searchQuery": "Ground Cumin ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0046",
+    "name": "Ground Cumin",
+    "description": "Ground cumin seed.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 375,
+      "proteinG": 17.8,
+      "carbohydratesG": 44.2,
+      "fatG": 22.3,
+      "fiberG": 10.5,
+      "sugarsG": 2.25,
+      "sodiumMg": 168,
+      "potassiumMg": 1790,
+      "calciumMg": 931,
+      "ironMg": 66.4,
+      "magnesiumMg": 366,
+      "vitaminCMg": 7.7
+    },
+    "price": {
+      "usdPerBasis": 2.0882,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0046_Ground_Cumin/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

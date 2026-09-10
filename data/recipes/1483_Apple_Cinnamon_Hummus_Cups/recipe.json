@@ -1,0 +1,200 @@
+{
+  "seedId": "REC-1483",
+  "candidate": {
+    "sequence": 2280,
+    "seedId": "REC-CAND-2280",
+    "name": "Apple Cinnamon Hummus Cups"
+  },
+  "name": "Apple Cinnamon Hummus Cups",
+  "description": "Apple Cinnamon Hummus Cups is a practical snack adaptation built around vegetables, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.oldelpaso.co.uk/recipes/black-bean-and-corn-tortilla-cups",
+    "domain": "oldelpaso.co.uk",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Black Bean Salsa Tortilla Cups source because it provides the closest validated cups structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0104",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for apple cinnamon hummus cups.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the vegetables with the legumes and remaining ingredients in the intended snack form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the apple cinnamon hummus cups into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1030,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1100.332,
+      "proteinG": 31.29,
+      "carbohydratesG": 161.43,
+      "fatG": 39.07,
+      "fiberG": 37.6,
+      "sugarsG": 51.14,
+      "sodiumMg": 990.546,
+      "potassiumMg": 1377.273,
+      "calciumMg": 246.273,
+      "ironMg": 5.573,
+      "magnesiumMg": 146,
+      "vitaminCMg": 25
+    },
+    "perServing": {
+      "calories": 275.083,
+      "proteinG": 7.822,
+      "carbohydratesG": 40.358,
+      "fatG": 9.768,
+      "fiberG": 9.4,
+      "sugarsG": 12.785,
+      "sodiumMg": 247.637,
+      "potassiumMg": 344.318,
+      "calciumMg": 61.568,
+      "ironMg": 1.393,
+      "magnesiumMg": 36.5,
+      "vitaminCMg": 6.25
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.13,
+    "perServingUsd": 0.78,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-04-06T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse3.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://eatwithmia.com/apple-cinnamon-oat-bites-healthy-snacks/",
+    "originalSourceUrl": "https://tse3.mm.bing.net/th/id/OIP.gjpRioDHmkS0PV1BgFmp2gHaHa?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://eatwithmia.com/wp-content/uploads/2025/09/7ac6c15d6f6119a326dfee04a52308c3.webp",
+    "searchQuery": "apple cinnamon healthy oat energy bites dessert food photograph",
+    "searchResultTitle": "Apple Cinnamon Oat Bites: Healthy Snacks - EatWithMia.Com",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:25:37.238Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1483",
+    "name": "Apple Cinnamon Hummus Cups",
+    "description": "Apple Cinnamon Hummus Cups is a practical snack adaptation built around vegetables, legumes, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 275.083,
+      "proteinG": 7.822,
+      "carbohydratesG": 40.358,
+      "fatG": 9.768,
+      "fiberG": 9.4,
+      "sugarsG": 12.785,
+      "sodiumMg": 247.637,
+      "potassiumMg": 344.318,
+      "calciumMg": 61.568,
+      "ironMg": 1.393,
+      "magnesiumMg": 36.5,
+      "vitaminCMg": 6.25
+    },
+    "estimatedCostPerServingUsd": 0.78,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

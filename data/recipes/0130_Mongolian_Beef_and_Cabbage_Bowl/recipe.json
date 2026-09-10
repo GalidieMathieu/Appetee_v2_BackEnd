@@ -1,0 +1,214 @@
+{
+  "seedId": "REC-0130",
+  "candidate": {
+    "sequence": 18,
+    "seedId": "REC-CAND-0018",
+    "name": "Mongolian Beef and Cabbage Bowl"
+  },
+  "name": "Mongolian Beef and Cabbage Bowl",
+  "description": "Mongolian Beef and Cabbage Bowl combines beef with vegetables and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+  "source": {
+    "url": "https://dinnerthendessert.com/mongolian-beef/",
+    "domain": "dinnerthendessert.com",
+    "accessedAt": "2026-08-10T18:00:00-06:00",
+    "adaptation": "The source's defining beef, vegetables, seasoning profile, and core cooking technique are retained; quantities and supporting vegetables are normalized to the canonical Appetee market ingredients."
+  },
+  "countryOfOrigin": "Mongolia",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "beef",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0052",
+      "sourceQuantity": 12,
+      "sourceUnit": "g",
+      "sourceDisplay": "12 g",
+      "normalizedQuantity": 12,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and prepare every ingredient for mongolian beef and cabbage bowl before heating the cooking vessel.",
+    "Heat the cooking vessel and soften the aromatics before adding the beef.",
+    "Cook the vegetables until tender while the seasoned beef develops its intended color and texture.",
+    "Combine the cooked components with the remaining vegetables and sauce, then adjust the consistency and seasoning.",
+    "Portion the finished mongolian beef and cabbage bowl evenly and serve it warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1107,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1176.234,
+      "proteinG": 153.937,
+      "carbohydratesG": 84.711,
+      "fatG": 25.473,
+      "fiberG": 15.293,
+      "sugarsG": 19.315,
+      "sodiumMg": 2510.19,
+      "potassiumMg": 4636.77,
+      "calciumMg": 605.754,
+      "ironMg": 17.896,
+      "magnesiumMg": 521.502,
+      "vitaminCMg": 36.18
+    },
+    "perServing": {
+      "calories": 294.058,
+      "proteinG": 38.484,
+      "carbohydratesG": 21.178,
+      "fatG": 6.368,
+      "fiberG": 3.823,
+      "sugarsG": 4.829,
+      "sodiumMg": 627.548,
+      "potassiumMg": 1159.193,
+      "calciumMg": 151.439,
+      "ironMg": 4.474,
+      "magnesiumMg": 130.375,
+      "vitaminCMg": 9.045
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 25.77,
+    "perServingUsd": 6.44,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Low Carb"
+  ],
+  "createdAt": "2024-07-20T14:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "lovedbyeveryone.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://lovedbyeveryone.com/mongolian-beef-and-cabbage-bowl/",
+    "originalSourceUrl": "https://lovedbyeveryone.com/wp-content/uploads/2026/02/gzavi01_httpss.mj_.runplbfUvimG5U_Mongolian_Beef_and_Cabbage_B_163caa92-913f-4fee-8de9-f3122d8e3901_0.png",
+    "discoveredOriginalUrl": "https://lovedbyeveryone.com/wp-content/uploads/2026/02/gzavi01_httpss.mj_.runplbfUvimG5U_Mongolian_Beef_and_Cabbage_B_163caa92-913f-4fee-8de9-f3122d8e3901_0.png",
+    "searchQuery": "Mongolian Beef and Cabbage Bowl plated recipe food",
+    "searchResultTitle": "Mongolian Beef and Cabbage Bowl",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:09:28.725Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0130",
+    "name": "Mongolian Beef and Cabbage Bowl",
+    "description": "Mongolian Beef and Cabbage Bowl combines beef with vegetables and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 294.058,
+      "proteinG": 38.484,
+      "carbohydratesG": 21.178,
+      "fatG": 6.368,
+      "fiberG": 3.823,
+      "sugarsG": 4.829,
+      "sodiumMg": 627.548,
+      "potassiumMg": 1159.193,
+      "calciumMg": 151.439,
+      "ironMg": 4.474,
+      "magnesiumMg": 130.375,
+      "vitaminCMg": 9.045
+    },
+    "estimatedCostPerServingUsd": 6.44,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Low Carb"
+    ]
+  }
+}

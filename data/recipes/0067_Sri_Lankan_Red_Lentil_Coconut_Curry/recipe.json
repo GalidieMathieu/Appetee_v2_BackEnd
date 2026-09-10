@@ -1,0 +1,222 @@
+{
+  "seedId": "REC-0067",
+  "name": "Sri Lankan Red Lentil Coconut Curry",
+  "description": "Sri Lankan-inspired red lentils simmered with coconut milk, tomato, spinach, and warm spices.",
+  "source": {
+    "url": "https://www.hungrylankan.com/recipes/sri-lankan-red-lentil-curry/",
+    "domain": "hungrylankan.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Sri Lanka",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "totalMinutes": 45
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0042",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups red lentils",
+      "normalizedQuantity": 384,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 2.5,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can coconut milk",
+      "normalizedQuantity": 399,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can diced tomatoes",
+      "normalizedQuantity": 411.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups spinach",
+      "normalizedQuantity": 170,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp curry powder",
+      "normalizedQuantity": 7,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp cumin",
+      "normalizedQuantity": 2.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Rinse the red lentils until the water runs mostly clear.",
+    "Soften the onion with curry powder and cumin in a large pot.",
+    "Add lentils, tomatoes, coconut milk, and water and simmer until creamy.",
+    "Stir in spinach and cook until hot and tender."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 2067.2,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2348.633,
+      "proteinG": 114.768,
+      "carbohydratesG": 293.223,
+      "fatG": 93.605,
+      "fiberG": 52.813,
+      "sugarsG": 9.141,
+      "sodiumMg": 723.253,
+      "potassiumMg": 5272.148,
+      "calciumMg": 627.651,
+      "ironMg": 46.873,
+      "magnesiumMg": 570.844,
+      "vitaminCMg": 43.131
+    },
+    "perServing": {
+      "calories": 391.439,
+      "proteinG": 19.128,
+      "carbohydratesG": 48.87,
+      "fatG": 15.601,
+      "fiberG": 8.802,
+      "sugarsG": 1.524,
+      "sodiumMg": 120.542,
+      "potassiumMg": 878.691,
+      "calciumMg": 104.608,
+      "ironMg": 7.812,
+      "magnesiumMg": 95.141,
+      "vitaminCMg": 7.189
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.07,
+    "perServingUsd": 1.01,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-04-14T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "www.hungrylankan.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.hungrylankan.com/recipes/sri-lankan-red-lentil-curry/",
+    "originalSourceUrl": "https://www.hungrylankan.com/wp-content/uploads/2022/02/PXL_20220211_193850832.PORTRAIT-1_compress24.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0067",
+    "name": "Sri Lankan Red Lentil Coconut Curry",
+    "description": "Sri Lankan-inspired red lentils simmered with coconut milk, tomato, spinach, and warm spices.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 391.439,
+      "proteinG": 19.128,
+      "carbohydratesG": 48.87,
+      "fatG": 15.601,
+      "fiberG": 8.802,
+      "sugarsG": 1.524,
+      "sodiumMg": 120.542,
+      "potassiumMg": 878.691,
+      "calciumMg": 104.608,
+      "ironMg": 7.812,
+      "magnesiumMg": 95.141,
+      "vitaminCMg": 7.189
+    },
+    "estimatedCostPerServingUsd": 1.01,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

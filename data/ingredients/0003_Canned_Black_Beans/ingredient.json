@@ -1,0 +1,107 @@
+{
+  "seedId": "ING-0003",
+  "name": "Canned Black Beans",
+  "canonicalName": "Canned Black Beans",
+  "description": "Canned black beans with their packing liquid unless a recipe says to drain them.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value No Salt Added Black Beans, 15 oz",
+    "productId": "39778876",
+    "productUrl": "https://www.walmart.com/ip/39778876",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 0.86,
+    "packageQuantity": 425.243,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 115,
+      "proteinG": 6.91,
+      "carbohydratesG": 19.8,
+      "fatG": 1.27,
+      "sodiumMg": 218,
+      "potassiumMg": 253,
+      "calciumMg": 43.3,
+      "ironMg": 1.69,
+      "magnesiumMg": 32.5
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.2022
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 2644285,
+      "dataType": "Foundation",
+      "description": "Beans, black, canned, sodium added, drained and rinsed",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2644285/nutrients",
+      "searchQuery": "beans black canned",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://api.nal.usda.gov/fdc/v1/foods/search?api_key=REDACTED&query=beans+black+canned&pageSize=25"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": "Package basis is labeled net weight; draining changes edible yield and is recorded at recipe use."
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/39778876",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Great-Value-No-Salt-Added-Canned-Black-Beans-15-oz-Can_8d2b6e5e-0b68-43e4-82d3-89d0ad4acbb2.a55fbb954069226ff7314a385e11403a.jpeg",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0003",
+    "name": "Canned Black Beans",
+    "description": "Canned black beans with their packing liquid unless a recipe says to drain them.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 115,
+      "proteinG": 6.91,
+      "carbohydratesG": 19.8,
+      "fatG": 1.27,
+      "sodiumMg": 218,
+      "potassiumMg": 253,
+      "calciumMg": 43.3,
+      "ironMg": 1.69,
+      "magnesiumMg": 32.5
+    },
+    "price": {
+      "usdPerBasis": 0.2022,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0003_Canned_Black_Beans/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

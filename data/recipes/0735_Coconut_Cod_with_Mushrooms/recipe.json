@@ -1,0 +1,244 @@
+{
+  "seedId": "REC-0735",
+  "candidate": {
+    "sequence": 1163,
+    "seedId": "REC-CAND-1163",
+    "name": "Coconut Cod with Mushrooms"
+  },
+  "name": "Coconut Cod with Mushrooms",
+  "description": "Coconut Cod with Mushrooms is a practical stovetop recipe pairing cod with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://diet.mayoclinic.org/us/motivational-tips/recipe-collections/one-pan-meals/pan-seared-fish-with-garlicky-green-beans-quinoa/",
+    "domain": "diet.mayoclinic.org",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Cod and Green Beans Quinoa Bowl source while retaining its closest matching dish form, cooking sequence, and applicable cod or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 50,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "cod",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0044",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0037",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0074",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 240,
+      "sourceUnit": "ml",
+      "sourceDisplay": "240 ml",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, cod, and vegetables for coconut cod with mushrooms.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned cod and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the coconut cod with mushrooms, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1935,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2330.082,
+      "proteinG": 149.232,
+      "carbohydratesG": 229.611,
+      "fatG": 97.503,
+      "fiberG": 35.295,
+      "sugarsG": 14.22,
+      "sodiumMg": 1892.496,
+      "potassiumMg": 5490.423,
+      "calciumMg": 427.023,
+      "ironMg": 25.506,
+      "magnesiumMg": 831.75,
+      "vitaminCMg": 108.48
+    },
+    "perServing": {
+      "calories": 582.52,
+      "proteinG": 37.308,
+      "carbohydratesG": 57.403,
+      "fatG": 24.376,
+      "fiberG": 8.824,
+      "sugarsG": 3.555,
+      "sodiumMg": 473.124,
+      "potassiumMg": 1372.606,
+      "calciumMg": 106.756,
+      "ironMg": 6.377,
+      "magnesiumMg": 207.938,
+      "vitaminCMg": 27.12
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 20.27,
+    "perServingUsd": 5.07,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber"
+  ],
+  "createdAt": "2027-02-08T07:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://kimalwayshungry.com/poached-coconut-cod-with-maitake-mushrooms/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.lY5iQT5VGb8QTqx3F1yFngHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://kimalwayshungry.com/wp-content/uploads/2025/03/6dd031e9-59e8-43cb-8d93-ca56dd5796c2.jpg",
+    "searchQuery": "Coconut Cod with Mushrooms plated recipe food",
+    "searchResultTitle": "Poached Coconut Cod with Maitake Mushrooms - Kim Always Hungry",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:03:07.674Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0735",
+    "name": "Coconut Cod with Mushrooms",
+    "description": "Coconut Cod with Mushrooms is a practical stovetop recipe pairing cod with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 582.52,
+      "proteinG": 37.308,
+      "carbohydratesG": 57.403,
+      "fatG": 24.376,
+      "fiberG": 8.824,
+      "sugarsG": 3.555,
+      "sodiumMg": 473.124,
+      "potassiumMg": 1372.606,
+      "calciumMg": 106.756,
+      "ironMg": 6.377,
+      "magnesiumMg": 207.938,
+      "vitaminCMg": 27.12
+    },
+    "estimatedCostPerServingUsd": 5.07,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber"
+    ]
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "seedId": "REC-0343",
+  "candidate": {
+    "sequence": 419,
+    "seedId": "REC-CAND-0419",
+    "name": "Sheet Pan Chicken and Bell Peppers"
+  },
+  "name": "Sheet Pan Chicken and Bell Peppers",
+  "description": "Sheet Pan Chicken and Bell Peppers is a practical oven recipe pairing chicken with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.jocooks.com/recipes/chicken-with-green-beans-and-sweet-potatoes/",
+    "domain": "jocooks.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Sheet-Pan Chicken, Sweet Potato, and Green Beans source while retaining its closest matching dish form, cooking sequence, and applicable chicken or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 60,
+    "totalMinutes": 85
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0036",
+      "sourceQuantity": 2,
+      "sourceUnit": "lb",
+      "sourceDisplay": "2 lb chicken thighs",
+      "normalizedQuantity": 907.185,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0007",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb sweet potatoes",
+      "normalizedQuantity": 680.389,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0037",
+      "sourceQuantity": 12,
+      "sourceUnit": "oz",
+      "sourceDisplay": "12 oz green beans",
+      "normalizedQuantity": 340.194,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 3,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "3 tbsp olive oil",
+      "normalizedQuantity": 45,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for sheet pan chicken and bell peppers.",
+    "Season the chicken and vegetables evenly while the oven reaches temperature.",
+    "Arrange the chicken, vegetables, and vegetables so heat can circulate around each component.",
+    "Bake until the chicken is safely cooked and the vegetables or grain base are tender.",
+    "Rest the sheet pan chicken and bell peppers briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2707.413,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2860.023,
+      "proteinG": 331.526,
+      "carbohydratesG": 192.243,
+      "fatG": 90.396,
+      "fiberG": 21.16,
+      "sugarsG": 20.268,
+      "sodiumMg": 1838.583,
+      "potassiumMg": 9281.824,
+      "calciumMg": 484.383,
+      "ironMg": 15.781,
+      "magnesiumMg": 619.256,
+      "vitaminCMg": 557.863
+    },
+    "perServing": {
+      "calories": 715.006,
+      "proteinG": 82.882,
+      "carbohydratesG": 48.061,
+      "fatG": 22.599,
+      "fiberG": 5.29,
+      "sugarsG": 5.067,
+      "sodiumMg": 459.646,
+      "potassiumMg": 2320.456,
+      "calciumMg": 121.096,
+      "ironMg": 3.945,
+      "magnesiumMg": 154.814,
+      "vitaminCMg": 139.466
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 18.25,
+    "perServingUsd": 4.56,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Meal Prep"
+  ],
+  "createdAt": "2025-06-13T23:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://vintagecooks.com/easy-sheet-pan-greek-chicken-bell-peppers-bold-flavors/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.0WgsTWSTrt56puGBtO6ZpQHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://vintagecooks.com/wp-content/uploads/2026/01/o9z7mtvqajhotvdm5cpf.webp",
+    "searchQuery": "Sheet Pan Chicken and Bell Peppers plated recipe food",
+    "searchResultTitle": "Ultimate Delicious Sheet-Pan Greek Chicken and Bell Peppers",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:42:31.995Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0343",
+    "name": "Sheet Pan Chicken and Bell Peppers",
+    "description": "Sheet Pan Chicken and Bell Peppers is a practical oven recipe pairing chicken with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 85,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 715.006,
+      "proteinG": 82.882,
+      "carbohydratesG": 48.061,
+      "fatG": 22.599,
+      "fiberG": 5.29,
+      "sugarsG": 5.067,
+      "sodiumMg": 459.646,
+      "potassiumMg": 2320.456,
+      "calciumMg": 121.096,
+      "ironMg": 3.945,
+      "magnesiumMg": 154.814,
+      "vitaminCMg": 139.466
+    },
+    "estimatedCostPerServingUsd": 4.56,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Meal Prep"
+    ]
+  }
+}

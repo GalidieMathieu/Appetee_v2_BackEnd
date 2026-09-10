@@ -1,0 +1,244 @@
+{
+  "seedId": "REC-0655",
+  "candidate": {
+    "sequence": 1003,
+    "seedId": "REC-CAND-1003",
+    "name": "Sausage Stuffed Peppers"
+  },
+  "name": "Sausage Stuffed Peppers",
+  "description": "Sausage Stuffed Peppers is a practical oven recipe pairing sausage with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.bylena.com/recipe/502/Rice-and-Meat-Stuffed-Peppers/",
+    "domain": "bylena.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Romanian Stuffed Pepper Bowl source while retaining its closest matching dish form, cooking sequence, and applicable pork or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Romania",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 50,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "sausage",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0085",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for sausage stuffed peppers.",
+    "Season the sausage and vegetables evenly while the oven reaches temperature.",
+    "Arrange the sausage, vegetables, and vegetables so heat can circulate around each component.",
+    "Bake until the sausage is safely cooked and the vegetables or grain base are tender.",
+    "Rest the sausage stuffed peppers briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2374,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3349.302,
+      "proteinG": 114.028,
+      "carbohydratesG": 319.27,
+      "fatG": 185.012,
+      "fiberG": 24.673,
+      "sugarsG": 34.86,
+      "sodiumMg": 5517.955,
+      "potassiumMg": 5825.163,
+      "calciumMg": 478.827,
+      "ironMg": 15.546,
+      "magnesiumMg": 362.372,
+      "vitaminCMg": 472.08
+    },
+    "perServing": {
+      "calories": 837.326,
+      "proteinG": 28.507,
+      "carbohydratesG": 79.817,
+      "fatG": 46.253,
+      "fiberG": 6.168,
+      "sugarsG": 8.715,
+      "sodiumMg": 1379.489,
+      "potassiumMg": 1456.291,
+      "calciumMg": 119.707,
+      "ironMg": 3.886,
+      "magnesiumMg": 90.593,
+      "vitaminCMg": 118.02
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 11.77,
+    "perServingUsd": 2.94,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-10-07T23:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.recipesbyemelia.com/easy-sausage-stuffed-peppers/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.fYykY-_BDf_sh0vYP7e--gHaJ4&pid=15.1",
+    "discoveredOriginalUrl": "https://www.recipesbyemelia.com/wp-content/uploads/2025/11/mtipgst8wll6hr9hhzjm.webp",
+    "searchQuery": "Sausage Stuffed Peppers plated recipe food",
+    "searchResultTitle": "Easy Sausage Stuffed Peppers for a Flavorful Family Dinner - Recipes by ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:59:10.306Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0655",
+    "name": "Sausage Stuffed Peppers",
+    "description": "Sausage Stuffed Peppers is a practical oven recipe pairing sausage with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 837.326,
+      "proteinG": 28.507,
+      "carbohydratesG": 79.817,
+      "fatG": 46.253,
+      "fiberG": 6.168,
+      "sugarsG": 8.715,
+      "sodiumMg": 1379.489,
+      "potassiumMg": 1456.291,
+      "calciumMg": 119.707,
+      "ironMg": 3.886,
+      "magnesiumMg": 90.593,
+      "vitaminCMg": 118.02
+    },
+    "estimatedCostPerServingUsd": 2.94,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

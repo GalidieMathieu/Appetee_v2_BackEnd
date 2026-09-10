@@ -1,0 +1,236 @@
+{
+  "seedId": "REC-1099",
+  "candidate": {
+    "sequence": 1838,
+    "seedId": "REC-CAND-1838",
+    "name": "Spicy Lentil Salad Bowl"
+  },
+  "name": "Spicy Lentil Salad Bowl",
+  "description": "Spicy Lentil Salad Bowl is a practical stovetop recipe pairing lentils with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://feelgoodfoodie.net/recipe/mujadara/",
+    "domain": "feelgoodfoodie.net",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Lebanese Mujadara Bowl source while retaining its closest matching dish form, cooking sequence, and applicable lentils or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Lebanon",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 50,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lentils, and legumes for spicy lentil salad bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lentils and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the spicy lentil salad bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 837,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2121.642,
+      "proteinG": 81.196,
+      "carbohydratesG": 381.591,
+      "fatG": 34.521,
+      "fiberG": 35.261,
+      "sugarsG": 5.812,
+      "sodiumMg": 145.845,
+      "potassiumMg": 2669.543,
+      "calciumMg": 226.727,
+      "ironMg": 21.4,
+      "magnesiumMg": 234.87,
+      "vitaminCMg": 40.452
+    },
+    "perServing": {
+      "calories": 530.41,
+      "proteinG": 20.299,
+      "carbohydratesG": 95.398,
+      "fatG": 8.63,
+      "fiberG": 8.815,
+      "sugarsG": 1.453,
+      "sodiumMg": 36.461,
+      "potassiumMg": 667.386,
+      "calciumMg": 56.682,
+      "ironMg": 5.35,
+      "magnesiumMg": 58.718,
+      "vitaminCMg": 10.113
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.24,
+    "perServingUsd": 0.81,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-08-22T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/insane-spicy-vegan-lentil-salad-bowl--656470083200205696/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.t6YjyAtwZcJ27yyAw5C8QQHaNK&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/d9/fa/91/d9fa912b47f688444e6629623a41acb6.jpg",
+    "searchQuery": "Spicy Lentil Salad Bowl plated recipe food",
+    "searchResultTitle": "Insane Spicy Vegan Lentil Salad Bowl | MWM | Recipe | Lentil salad ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:21:47.561Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1099",
+    "name": "Spicy Lentil Salad Bowl",
+    "description": "Spicy Lentil Salad Bowl is a practical stovetop recipe pairing lentils with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 530.41,
+      "proteinG": 20.299,
+      "carbohydratesG": 95.398,
+      "fatG": 8.63,
+      "fiberG": 8.815,
+      "sugarsG": 1.453,
+      "sodiumMg": 36.461,
+      "potassiumMg": 667.386,
+      "calciumMg": 56.682,
+      "ironMg": 5.35,
+      "magnesiumMg": 58.718,
+      "vitaminCMg": 10.113
+    },
+    "estimatedCostPerServingUsd": 0.81,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

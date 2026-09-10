@@ -1,0 +1,238 @@
+{
+  "seedId": "REC-0943",
+  "candidate": {
+    "sequence": 1544,
+    "seedId": "REC-CAND-1544",
+    "name": "Sheet Pan Tuna and Tomatoes"
+  },
+  "name": "Sheet Pan Tuna and Tomatoes",
+  "description": "Sheet Pan Tuna and Tomatoes is a practical oven recipe pairing tuna with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.hungryroot.com/recipes/garlic-sheet-pan-tuna-bell-peppers-1036722838/",
+    "domain": "hungryroot.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Sheet Pan Tuna and Kale source while retaining its closest matching dish form, cooking sequence, and applicable tuna or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 60,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "tuna",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0025",
+      "sourceQuantity": 340,
+      "sourceUnit": "g",
+      "sourceDisplay": "340 g",
+      "normalizedQuantity": 340,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0097",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for sheet pan tuna and tomatoes.",
+    "Season the tuna and vegetables evenly while the oven reaches temperature.",
+    "Arrange the tuna, vegetables, and vegetables so heat can circulate around each component.",
+    "Bake until the tuna is safely cooked and the vegetables or grain base are tender.",
+    "Rest the sheet pan tuna and tomatoes briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1645,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1026.482,
+      "proteinG": 105.174,
+      "carbohydratesG": 79.407,
+      "fatG": 36.463,
+      "fiberG": 29.895,
+      "sugarsG": 25.11,
+      "sodiumMg": 363.296,
+      "potassiumMg": 3883.023,
+      "calciumMg": 938.423,
+      "ironMg": 13.71,
+      "magnesiumMg": 295.35,
+      "vitaminCMg": 766.38
+    },
+    "perServing": {
+      "calories": 256.62,
+      "proteinG": 26.294,
+      "carbohydratesG": 19.852,
+      "fatG": 9.116,
+      "fiberG": 7.474,
+      "sugarsG": 6.277,
+      "sodiumMg": 90.824,
+      "potassiumMg": 970.756,
+      "calciumMg": 234.606,
+      "ironMg": 3.428,
+      "magnesiumMg": 73.838,
+      "vitaminCMg": 191.595
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.61,
+    "perServingUsd": 2.65,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-12-25T23:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "www.lecremedelacrumb.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://storage.googleapis.com/dykmiyjvjaaute/tuna-recipe-lemon.html",
+    "originalSourceUrl": "https://www.lecremedelacrumb.com/wp-content/uploads/2018/01/sheet-pan-tuna-steaks-101-3.jpg",
+    "discoveredOriginalUrl": "https://www.lecremedelacrumb.com/wp-content/uploads/2018/01/sheet-pan-tuna-steaks-101-3.jpg",
+    "searchQuery": "Sheet Pan Tuna and Tomatoes plated recipe food",
+    "searchResultTitle": "Tuna Recipe Lemon at Erica Laforge blog",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:13:48.270Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0943",
+    "name": "Sheet Pan Tuna and Tomatoes",
+    "description": "Sheet Pan Tuna and Tomatoes is a practical oven recipe pairing tuna with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 256.62,
+      "proteinG": 26.294,
+      "carbohydratesG": 19.852,
+      "fatG": 9.116,
+      "fiberG": 7.474,
+      "sugarsG": 6.277,
+      "sodiumMg": 90.824,
+      "potassiumMg": 970.756,
+      "calciumMg": 234.606,
+      "ironMg": 3.428,
+      "magnesiumMg": 73.838,
+      "vitaminCMg": 191.595
+    },
+    "estimatedCostPerServingUsd": 2.65,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

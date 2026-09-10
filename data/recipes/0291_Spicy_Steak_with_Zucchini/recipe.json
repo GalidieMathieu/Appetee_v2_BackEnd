@@ -1,0 +1,256 @@
+{
+  "seedId": "REC-0291",
+  "candidate": {
+    "sequence": 323,
+    "seedId": "REC-CAND-0323",
+    "name": "Spicy Steak with Zucchini"
+  },
+  "name": "Spicy Steak with Zucchini",
+  "description": "Spicy Steak with Zucchini is a practical stovetop recipe pairing steak with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://dinnerthendessert.com/mongolian-beef/",
+    "domain": "dinnerthendessert.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Mongolian Beef and Cabbage Bowl source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Mongolia",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 50,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "steak",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0052",
+      "sourceQuantity": 12,
+      "sourceUnit": "g",
+      "sourceDisplay": "12 g",
+      "normalizedQuantity": 12,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0083",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, steak, and vegetables for spicy steak with zucchini.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned steak and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the spicy steak with zucchini, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1715,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1363.794,
+      "proteinG": 161.161,
+      "carbohydratesG": 124.019,
+      "fatG": 27.671,
+      "fiberG": 26.781,
+      "sugarsG": 27.515,
+      "sodiumMg": 2654.71,
+      "potassiumMg": 6134.97,
+      "calciumMg": 721.114,
+      "ironMg": 21.382,
+      "magnesiumMg": 615.582,
+      "vitaminCMg": 114.544
+    },
+    "perServing": {
+      "calories": 340.949,
+      "proteinG": 40.29,
+      "carbohydratesG": 31.005,
+      "fatG": 6.918,
+      "fiberG": 6.695,
+      "sugarsG": 6.879,
+      "sodiumMg": 663.678,
+      "potassiumMg": 1533.743,
+      "calciumMg": 180.279,
+      "ironMg": 5.346,
+      "magnesiumMg": 153.895,
+      "vitaminCMg": 28.636
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 27.69,
+    "perServingUsd": 6.92,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Meal Prep"
+  ],
+  "createdAt": "2025-03-25T19:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.recipesmolly.com/grilled-steak-bowl-with/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.9VTKVR2tVJvelYdwy-CxTAHaJ1&pid=15.1",
+    "discoveredOriginalUrl": "https://www.recipesmolly.com/wp-content/uploads/2026/02/Grilled-Steak-Bowl-with.jpg",
+    "searchQuery": "Spicy Steak with Zucchini plated recipe food",
+    "searchResultTitle": "Grilled Steak Bowl with Zucchini and Spicy Sauce Delight - Recipes molly",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:39:57.365Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0291",
+    "name": "Spicy Steak with Zucchini",
+    "description": "Spicy Steak with Zucchini is a practical stovetop recipe pairing steak with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 340.949,
+      "proteinG": 40.29,
+      "carbohydratesG": 31.005,
+      "fatG": 6.918,
+      "fiberG": 6.695,
+      "sugarsG": 6.879,
+      "sodiumMg": 663.678,
+      "potassiumMg": 1533.743,
+      "calciumMg": 180.279,
+      "ironMg": 5.346,
+      "magnesiumMg": 153.895,
+      "vitaminCMg": 28.636
+    },
+    "estimatedCostPerServingUsd": 6.92,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Meal Prep"
+    ]
+  }
+}

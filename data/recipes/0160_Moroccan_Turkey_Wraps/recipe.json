@@ -1,0 +1,208 @@
+{
+  "seedId": "REC-0160",
+  "candidate": {
+    "sequence": 52,
+    "seedId": "REC-CAND-0052",
+    "name": "Moroccan Turkey Wraps"
+  },
+  "name": "Moroccan Turkey Wraps",
+  "description": "Moroccan Turkey Wraps combines turkey with tortilla and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+  "source": {
+    "url": "https://www.hormelfoods.com/recipe/moroccan-turkey-wrap/",
+    "domain": "hormelfoods.com",
+    "accessedAt": "2026-08-10T18:00:00-06:00",
+    "adaptation": "The source's defining turkey, tortilla, seasoning profile, and core cooking technique are retained; quantities and supporting vegetables are normalized to the canonical Appetee market ingredients."
+  },
+  "countryOfOrigin": "Morocco",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 50,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and prepare every ingredient for moroccan turkey wraps before heating the cooking vessel.",
+    "Heat the cooking vessel and soften the aromatics before adding the turkey.",
+    "Cook the tortilla until tender while the seasoned turkey develops its intended color and texture.",
+    "Combine the cooked components with the remaining vegetables and sauce, then adjust the consistency and seasoning.",
+    "Portion the finished moroccan turkey wraps evenly and serve it warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1414,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2342.4,
+      "proteinG": 165.442,
+      "carbohydratesG": 184.6,
+      "fatG": 107.242,
+      "fiberG": 39.9,
+      "sugarsG": 32.85,
+      "sodiumMg": 2497.92,
+      "potassiumMg": 3535.4,
+      "calciumMg": 1411.84,
+      "ironMg": 19.936,
+      "magnesiumMg": 457.44,
+      "vitaminCMg": 49.808
+    },
+    "perServing": {
+      "calories": 585.6,
+      "proteinG": 41.361,
+      "carbohydratesG": 46.15,
+      "fatG": 26.811,
+      "fiberG": 9.975,
+      "sugarsG": 8.213,
+      "sodiumMg": 624.48,
+      "potassiumMg": 883.85,
+      "calciumMg": 352.96,
+      "ironMg": 4.984,
+      "magnesiumMg": 114.36,
+      "vitaminCMg": 12.452
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.62,
+    "perServingUsd": 1.66,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-09-04T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "www.hormelfoods.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.hormelfoods.com/recipe/moroccan-turkey-wrap/",
+    "originalSourceUrl": "https://www.hormelfoods.com/wp-content/uploads/JO-moroccan-turkey-wrap-1170-1700x708.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0160",
+    "name": "Moroccan Turkey Wraps",
+    "description": "Moroccan Turkey Wraps combines turkey with tortilla and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 585.6,
+      "proteinG": 41.361,
+      "carbohydratesG": 46.15,
+      "fatG": 26.811,
+      "fiberG": 9.975,
+      "sugarsG": 8.213,
+      "sodiumMg": 624.48,
+      "potassiumMg": 883.85,
+      "calciumMg": 352.96,
+      "ironMg": 4.984,
+      "magnesiumMg": 114.36,
+      "vitaminCMg": 12.452
+    },
+    "estimatedCostPerServingUsd": 1.66,
+    "diets": [
+      "Flexitarian"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

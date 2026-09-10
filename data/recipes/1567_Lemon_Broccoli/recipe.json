@@ -1,0 +1,200 @@
+{
+  "seedId": "REC-1567",
+  "candidate": {
+    "sequence": 2365,
+    "seedId": "REC-CAND-2365",
+    "name": "Lemon Broccoli"
+  },
+  "name": "Lemon Broccoli",
+  "description": "Lemon Broccoli is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/56161/fasoliyyeh-bi-z-zayt-syrian-green-beans-with-olive-oil/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Syrian Green Beans with Olive Oil source because it provides the closest validated vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Syria",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "totalMinutes": 35
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Side",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0013",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, vegetables, and vegetables for lemon broccoli.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned vegetables and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the lemon broccoli, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 900,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 520.332,
+      "proteinG": 14.22,
+      "carbohydratesG": 68.13,
+      "fatG": 29.22,
+      "fiberG": 23.1,
+      "sugarsG": 11.55,
+      "sodiumMg": 81.546,
+      "potassiumMg": 1596.273,
+      "calciumMg": 291.273,
+      "ironMg": 5.223,
+      "magnesiumMg": 105,
+      "vitaminCMg": 352.8
+    },
+    "perServing": {
+      "calories": 130.083,
+      "proteinG": 3.555,
+      "carbohydratesG": 17.032,
+      "fatG": 7.305,
+      "fiberG": 5.775,
+      "sugarsG": 2.888,
+      "sodiumMg": 20.387,
+      "potassiumMg": 399.068,
+      "calciumMg": 72.818,
+      "ironMg": 1.306,
+      "magnesiumMg": 26.25,
+      "vitaminCMg": 88.2
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.42,
+    "perServingUsd": 0.85,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-08-13T23:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.healthyseasonalrecipes.com/easy-broccoli-with-garlic-and-lemon/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.7QtXr4B0usNoQidNfV8mMQHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://www.healthyseasonalrecipes.com/wp-content/uploads/2020/04/lemon-garlic-broccoli-22-016-735x1103.jpg",
+    "searchQuery": "Lemon Broccoli plated recipe food",
+    "searchResultTitle": "Lemon Garlic Broccoli Recipe - Healthy Seasonal Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:55:34.041Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1567",
+    "name": "Lemon Broccoli",
+    "description": "Lemon Broccoli is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 130.083,
+      "proteinG": 3.555,
+      "carbohydratesG": 17.032,
+      "fatG": 7.305,
+      "fiberG": 5.775,
+      "sugarsG": 2.888,
+      "sodiumMg": 20.387,
+      "potassiumMg": 399.068,
+      "calciumMg": 72.818,
+      "ironMg": 1.306,
+      "magnesiumMg": 26.25,
+      "vitaminCMg": 88.2
+    },
+    "estimatedCostPerServingUsd": 0.85,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

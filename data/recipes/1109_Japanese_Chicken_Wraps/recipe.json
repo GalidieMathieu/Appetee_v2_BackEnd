@@ -1,0 +1,234 @@
+{
+  "seedId": "REC-1109",
+  "candidate": {
+    "sequence": 1856,
+    "seedId": "REC-CAND-1856",
+    "name": "Japanese Chicken Wraps"
+  },
+  "name": "Japanese Chicken Wraps",
+  "description": "Japanese Chicken Wraps is a practical stovetop recipe pairing chicken with tortilla and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://apnews.com/article/9837eca3d7d2f03e0a669b64caf20e27",
+    "domain": "apnews.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Chicken Spinach Yogurt Wraps source while retaining its closest matching dish form, cooking sequence, and applicable chicken or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 1.25,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1¼ lb chicken breast",
+      "normalizedQuantity": 567,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 4,
+      "sourceUnit": "tortillas",
+      "sourceDisplay": "4 whole-wheat tortillas",
+      "normalizedQuantity": 181.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup Greek yogurt",
+      "normalizedQuantity": 245,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups spinach",
+      "normalizedQuantity": 127.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 Roma tomatoes",
+      "normalizedQuantity": 186,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp minced garlic",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chicken, and tortilla for japanese chicken wraps.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chicken and cook it until browned or heated through as appropriate.",
+    "Stir in the tortilla, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the japanese chicken wraps, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1468.3,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1741.147,
+      "proteinG": 179.343,
+      "carbohydratesG": 132.171,
+      "fatG": 58.177,
+      "sodiumMg": 1688.57,
+      "potassiumMg": 4140.111,
+      "calciumMg": 971.854,
+      "ironMg": 10.939,
+      "magnesiumMg": 474.029,
+      "fiberG": 29.512,
+      "sugarsG": 18.135,
+      "vitaminCMg": 58.654
+    },
+    "perServing": {
+      "calories": 435.287,
+      "proteinG": 44.836,
+      "carbohydratesG": 33.043,
+      "fatG": 14.544,
+      "sodiumMg": 422.142,
+      "potassiumMg": 1035.028,
+      "calciumMg": 242.964,
+      "ironMg": 2.735,
+      "magnesiumMg": 118.507,
+      "fiberG": 7.378,
+      "sugarsG": 4.534,
+      "vitaminCMg": 14.664
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.81,
+    "perServingUsd": 1.95,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-09-06T21:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/japanese-chicken-lettuce-wraps--821484788297550933/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.ZblEzA-jZm-Awr9gGSGGTgHaLG&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/11/e3/a5/11e3a5f3463ad24edd447168ac3815ee.jpg",
+    "searchQuery": "Japanese Chicken Wraps plated recipe food",
+    "searchResultTitle": "Japanese Chicken Lettuce Wraps | The Japantry | Recipe | Full meal ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:22:15.598Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1109",
+    "name": "Japanese Chicken Wraps",
+    "description": "Japanese Chicken Wraps is a practical stovetop recipe pairing chicken with tortilla and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 435.287,
+      "proteinG": 44.836,
+      "carbohydratesG": 33.043,
+      "fatG": 14.544,
+      "sodiumMg": 422.142,
+      "potassiumMg": 1035.028,
+      "calciumMg": 242.964,
+      "ironMg": 2.735,
+      "magnesiumMg": 118.507,
+      "fiberG": 7.378,
+      "sugarsG": 4.534,
+      "vitaminCMg": 14.664
+    },
+    "estimatedCostPerServingUsd": 1.95,
+    "diets": [
+      "Flexitarian"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

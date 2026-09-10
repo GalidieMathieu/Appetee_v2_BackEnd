@@ -1,0 +1,196 @@
+{
+  "seedId": "REC-1332",
+  "candidate": {
+    "sequence": 2126,
+    "seedId": "REC-CAND-2126",
+    "name": "Labneh Cucumber Toast"
+  },
+  "name": "Labneh Cucumber Toast",
+  "description": "Labneh Cucumber Toast is a practical small meal adaptation built around vegetables, bread, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://realfood.tesco.com/recipes/tuna-and-tomato-toasts.html",
+    "domain": "realfood.tesco.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Tuna Tomato Toasts source because it provides the closest validated toast structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United Kingdom",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 5,
+    "totalMinutes": 25
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Toaster",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "bread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0051",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0101",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for labneh cucumber toast.",
+    "Toast the bread until crisp enough to support the toppings.",
+    "Combine the vegetables with the bread and remaining ingredients in the intended small meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the labneh cucumber toast into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 900,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1156.332,
+      "proteinG": 41.64,
+      "carbohydratesG": 164.82,
+      "fatG": 38.28,
+      "fiberG": 25.2,
+      "sugarsG": 18.03,
+      "sodiumMg": 1374.546,
+      "potassiumMg": 1749.273,
+      "calciumMg": 576.273,
+      "ironMg": 9.243,
+      "magnesiumMg": 291,
+      "vitaminCMg": 33
+    },
+    "perServing": {
+      "calories": 289.083,
+      "proteinG": 10.41,
+      "carbohydratesG": 41.205,
+      "fatG": 9.57,
+      "fiberG": 6.3,
+      "sugarsG": 4.508,
+      "sodiumMg": 343.637,
+      "potassiumMg": 437.318,
+      "calciumMg": 144.068,
+      "ironMg": 2.311,
+      "magnesiumMg": 72.75,
+      "vitaminCMg": 8.25
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.92,
+    "perServingUsd": 0.73,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-08-16T16:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.artofit.org/image-gallery/559290847484042439/shaved-cucumber-lemon-herb-labneh-toast/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.Xm2UPjZL8qAAfsNiRHxSOAHaLG&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/09/b2/f6/09b2f69f8881a2106af6c183e123d45f.jpg",
+    "searchQuery": "Labneh Cucumber Toast plated recipe food",
+    "searchResultTitle": "Shaved cucumber lemon herb labneh toast – Artofit",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:19:31.696Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1332",
+    "name": "Labneh Cucumber Toast",
+    "description": "Labneh Cucumber Toast is a practical small meal adaptation built around vegetables, bread, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 289.083,
+      "proteinG": 10.41,
+      "carbohydratesG": 41.205,
+      "fatG": 9.57,
+      "fiberG": 6.3,
+      "sugarsG": 4.508,
+      "sodiumMg": 343.637,
+      "potassiumMg": 437.318,
+      "calciumMg": 144.068,
+      "ironMg": 2.311,
+      "magnesiumMg": 72.75,
+      "vitaminCMg": 8.25
+    },
+    "estimatedCostPerServingUsd": 0.73,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

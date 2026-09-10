@@ -1,0 +1,230 @@
+{
+  "seedId": "REC-0110",
+  "name": "Spanish Tortilla with Tomato Bread",
+  "description": "A slow-cooked potato and egg tortilla served with garlic-rubbed tomato bread.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/spanish-tortilla",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source tortilla and tomato-bread accompaniment are retained; whole-wheat sliced bread replaces the baguette to use a validated canonical bread product."
+  },
+  "countryOfOrigin": "Spain",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 55,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 sliced onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 70,
+      "sourceUnit": "ml",
+      "sourceDisplay": "4 tbsp olive oil plus a drizzle for the bread",
+      "normalizedQuantity": 70,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0056",
+      "sourceQuantity": 25,
+      "sourceUnit": "g",
+      "sourceDisplay": "25 g butter",
+      "normalizedQuantity": 25,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g potatoes",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 6,
+      "sourceUnit": "cloves",
+      "sourceDisplay": "6 garlic cloves, divided",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 8,
+      "sourceUnit": "large",
+      "sourceDisplay": "8 large eggs",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "parsley for serving",
+      "normalizedQuantity": 1.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0051",
+      "sourceQuantity": 4,
+      "sourceUnit": "slices",
+      "sourceDisplay": "4 slices whole-wheat bread",
+      "normalizedQuantity": 113.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 4,
+      "sourceUnit": "medium",
+      "sourceDisplay": "4 tomatoes",
+      "normalizedQuantity": 248,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Cook the onion slowly in olive oil and butter until soft but not browned.",
+    "Add the potatoes, cover the pan, and cook until the slices are tender.",
+    "Stir in part of the garlic and the beaten eggs, then cook the tortilla gently until nearly set.",
+    "Invert the tortilla with a plate and slide it back into the pan to finish cooking.",
+    "Toast the bread, rub it with the remaining garlic and tomato, and drizzle it with olive oil.",
+    "Scatter parsley over the tortilla and serve it warm or cold with the tomato bread."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1318.1,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2066.846,
+      "proteinG": 78.969,
+      "carbohydratesG": 156.968,
+      "fatG": 127.107,
+      "fiberG": 18.861,
+      "sodiumMg": 1133.774,
+      "potassiumMg": 3535.933,
+      "calciumMg": 583.911,
+      "ironMg": 15.533,
+      "magnesiumMg": 279.83,
+      "vitaminCMg": 80.311,
+      "sugarsG": 15.828
+    },
+    "perServing": {
+      "calories": 516.712,
+      "proteinG": 19.742,
+      "carbohydratesG": 39.242,
+      "fatG": 31.777,
+      "fiberG": 4.715,
+      "sodiumMg": 283.443,
+      "potassiumMg": 883.983,
+      "calciumMg": 145.978,
+      "ironMg": 3.883,
+      "magnesiumMg": 69.957,
+      "vitaminCMg": 20.078,
+      "sugarsG": 3.957
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.3,
+    "perServingUsd": 1.07,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-06-19T18:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "images.immediate.co.uk",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.bbcgoodfood.com/recipes/spanish-tortilla",
+    "originalSourceUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/spanish-tortilla-4493c5b.jpg?resize=440%2C230",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0110",
+    "name": "Spanish Tortilla with Tomato Bread",
+    "description": "A slow-cooked potato and egg tortilla served with garlic-rubbed tomato bread.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 516.712,
+      "proteinG": 19.742,
+      "carbohydratesG": 39.242,
+      "fatG": 31.777,
+      "fiberG": 4.715,
+      "sodiumMg": 283.443,
+      "potassiumMg": 883.983,
+      "calciumMg": 145.978,
+      "ironMg": 3.883,
+      "magnesiumMg": 69.957,
+      "vitaminCMg": 20.078,
+      "sugarsG": 3.957
+    },
+    "estimatedCostPerServingUsd": 1.07,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "Budget Friendly"
+    ]
+  }
+}

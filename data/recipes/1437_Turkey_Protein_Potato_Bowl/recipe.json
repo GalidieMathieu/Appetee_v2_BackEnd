@@ -1,0 +1,196 @@
+{
+  "seedId": "REC-1437",
+  "candidate": {
+    "sequence": 2234,
+    "seedId": "REC-CAND-2234",
+    "name": "Turkey Protein Potato Bowl"
+  },
+  "name": "Turkey Protein Potato Bowl",
+  "description": "Turkey Protein Potato Bowl is a practical small meal adaptation built around turkey, potatoes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.eatingwell.com/recipe/250491/turkey-taco-bowls/",
+    "domain": "eatingwell.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Turkey Stir Fry Bowl source because it provides the closest validated turkey and bowl structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 60,
+    "totalMinutes": 80
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, turkey, and potatoes for turkey protein potato bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned turkey and cook it until browned or heated through as appropriate.",
+    "Stir in the potatoes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the turkey protein potato bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1080,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1672.332,
+      "proteinG": 110.31,
+      "carbohydratesG": 80.13,
+      "fatG": 102.69,
+      "fiberG": 9.6,
+      "sugarsG": 1.86,
+      "sodiumMg": 342.546,
+      "potassiumMg": 3009.273,
+      "calciumMg": 282.273,
+      "ironMg": 11.493,
+      "magnesiumMg": 210,
+      "vitaminCMg": 41.7
+    },
+    "perServing": {
+      "calories": 418.083,
+      "proteinG": 27.578,
+      "carbohydratesG": 20.032,
+      "fatG": 25.672,
+      "fiberG": 2.4,
+      "sugarsG": 0.465,
+      "sodiumMg": 85.636,
+      "potassiumMg": 752.318,
+      "calciumMg": 70.568,
+      "ironMg": 2.873,
+      "magnesiumMg": 52.5,
+      "vitaminCMg": 10.425
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.22,
+    "perServingUsd": 1.05,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-01-25T13:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse4.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://noranosh.com/delicious-ground-turkey-sweet-potato-bowl/",
+    "originalSourceUrl": "https://tse4.mm.bing.net/th/id/OIP.5BiRZ0lYu1sI3m5tvawt6AHaJ1?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://us.noranosh.com/2026/02/noranosh.com-delicious-ground-turkey-sweet-potato-bowl-image.webp",
+    "searchQuery": "turkey potato bowl plated recipe food photograph",
+    "searchResultTitle": "Delicious Ground Turkey Sweet Potato Bowl",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:47.316Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1437",
+    "name": "Turkey Protein Potato Bowl",
+    "description": "Turkey Protein Potato Bowl is a practical small meal adaptation built around turkey, potatoes, and title-specific supporting ingredients.",
+    "mealType": "Breakfast",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 80,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 418.083,
+      "proteinG": 27.578,
+      "carbohydratesG": 20.032,
+      "fatG": 25.672,
+      "fiberG": 2.4,
+      "sugarsG": 0.465,
+      "sodiumMg": 85.636,
+      "potassiumMg": 752.318,
+      "calciumMg": 70.568,
+      "ironMg": 2.873,
+      "magnesiumMg": 52.5,
+      "vitaminCMg": 10.425
+    },
+    "estimatedCostPerServingUsd": 1.05,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "seedId": "REC-0314",
+  "candidate": {
+    "sequence": 367,
+    "seedId": "REC-CAND-0367",
+    "name": "Ginger Lentil Salad Bowl"
+  },
+  "name": "Ginger Lentil Salad Bowl",
+  "description": "Ginger Lentil Salad Bowl is a practical stovetop recipe pairing lentils with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.joeomar.com/recipes/FrenchLentilSaladNYT.pdf",
+    "domain": "joeomar.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched French Lentil Potato Salad source while retaining its closest matching dish form, cooking sequence, and applicable lentils or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "France",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 40,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups dry lentils",
+      "normalizedQuantity": 288,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 2.5,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 2,
+      "sourceUnit": "lb",
+      "sourceDisplay": "2 lb potatoes",
+      "normalizedQuantity": 907.2,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 Roma tomatoes",
+      "normalizedQuantity": 186,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups spinach",
+      "normalizedQuantity": 170,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "medium",
+      "sourceDisplay": "½ onion",
+      "normalizedQuantity": 75,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 0.25,
+      "sourceUnit": "cup",
+      "sourceDisplay": "¼ cup vinegar",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 3,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "3 tbsp olive oil",
+      "normalizedQuantity": 45,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lentils, and legumes for ginger lentil salad bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lentils and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the ginger lentil salad bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2344.38,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2478.802,
+      "proteinG": 105.106,
+      "carbohydratesG": 426.574,
+      "fatG": 48.432,
+      "fiberG": 57.512,
+      "sugarsG": 22.96,
+      "sodiumMg": 243.889,
+      "potassiumMg": 8248.102,
+      "calciumMg": 547.687,
+      "ironMg": 32.882,
+      "magnesiumMg": 634.506,
+      "vitaminCMg": 125.332
+    },
+    "perServing": {
+      "calories": 619.701,
+      "proteinG": 26.276,
+      "carbohydratesG": 106.644,
+      "fatG": 12.108,
+      "fiberG": 14.378,
+      "sugarsG": 5.74,
+      "sodiumMg": 60.972,
+      "potassiumMg": 2062.026,
+      "calciumMg": 136.922,
+      "ironMg": 8.22,
+      "magnesiumMg": 158.626,
+      "vitaminCMg": 31.333
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.61,
+    "perServingUsd": 2.65,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2025-04-30T06:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.slurrp.com/recipes/apple-ginger-lentil-salad-1621862458",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.4bL6bERvoUaEcldC6mtHYQHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://images.slurrp.com/prod/recipe_images/eatingwell/apple-ginger-lentil-salad-1621862458_V9ARVKPF5SZXSDBRKEC2.webp",
+    "searchQuery": "Ginger Lentil Salad Bowl plated recipe food",
+    "searchResultTitle": "How to make Apple & Ginger Lentil Salad Recipe",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:40:55.794Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0314",
+    "name": "Ginger Lentil Salad Bowl",
+    "description": "Ginger Lentil Salad Bowl is a practical stovetop recipe pairing lentils with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 619.701,
+      "proteinG": 26.276,
+      "carbohydratesG": 106.644,
+      "fatG": 12.108,
+      "fiberG": 14.378,
+      "sugarsG": 5.74,
+      "sodiumMg": 60.972,
+      "potassiumMg": 2062.026,
+      "calciumMg": 136.922,
+      "ironMg": 8.22,
+      "magnesiumMg": 158.626,
+      "vitaminCMg": 31.333
+    },
+    "estimatedCostPerServingUsd": 2.65,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

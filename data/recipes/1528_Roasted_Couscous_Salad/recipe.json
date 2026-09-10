@@ -1,0 +1,192 @@
+{
+  "seedId": "REC-1528",
+  "candidate": {
+    "sequence": 2326,
+    "seedId": "REC-CAND-2326",
+    "name": "Roasted Couscous Salad"
+  },
+  "name": "Roasted Couscous Salad",
+  "description": "Roasted Couscous Salad is a practical side adaptation built around vegetables, couscous, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/153802/algerian-flafla-bell-pepper-salad/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Algerian Flafla Bell Pepper Salad source because it provides the closest validated salad structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Algeria",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Side",
+  "cookingMethod": "Oven",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "couscous",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0110",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 2.5,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for roasted couscous salad and preheat the oven.",
+    "Coat the vegetables and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the couscous and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the roasted couscous salad briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 945,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1220.082,
+      "proteinG": 34.314,
+      "carbohydratesG": 202.395,
+      "fatG": 29.511,
+      "fiberG": 15.915,
+      "sodiumMg": 42.096,
+      "potassiumMg": 1169.823,
+      "calciumMg": 115.023,
+      "ironMg": 3.81,
+      "magnesiumMg": 142.35,
+      "vitaminCMg": 45.78,
+      "sugarsG": 8.04
+    },
+    "perServing": {
+      "calories": 305.021,
+      "proteinG": 8.579,
+      "carbohydratesG": 50.599,
+      "fatG": 7.378,
+      "fiberG": 3.979,
+      "sodiumMg": 10.524,
+      "potassiumMg": 292.456,
+      "calciumMg": 28.756,
+      "ironMg": 0.953,
+      "magnesiumMg": 35.587,
+      "vitaminCMg": 11.445,
+      "sugarsG": 2.01
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.39,
+    "perServingUsd": 0.85,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-06-14T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://zesticook.com/roasted-vegetable-couscous-salad-recipe/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.c7qKojh-4gDVwkjGYwZjQQHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://zesticook.com/wp-content/uploads/2025/11/AQP61G3qeVm2c0n8yj_hO1eePwBFNXAuEOH-nN-lZfVwDf4GDgDJtrJJXx5A3iRCjXjJkfJ4c5Xw3Oc-K-enTiF8tl27-N3E4gS-sDWnTxpePnSfEQNyma89B96UgoAsGVNv6WO44wSo_ttot1sOXj_Eo6y-YA-1763838609954.jpeg",
+    "searchQuery": "Roasted Couscous Salad plated recipe food",
+    "searchResultTitle": "Roasted Vegetable Couscous Salad Recipe – Zesti Cook",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:55:06.095Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1528",
+    "name": "Roasted Couscous Salad",
+    "description": "Roasted Couscous Salad is a practical side adaptation built around vegetables, couscous, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 305.021,
+      "proteinG": 8.579,
+      "carbohydratesG": 50.599,
+      "fatG": 7.378,
+      "fiberG": 3.979,
+      "sodiumMg": 10.524,
+      "potassiumMg": 292.456,
+      "calciumMg": 28.756,
+      "ironMg": 0.953,
+      "magnesiumMg": 35.587,
+      "vitaminCMg": 11.445,
+      "sugarsG": 2.01
+    },
+    "estimatedCostPerServingUsd": 0.85,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

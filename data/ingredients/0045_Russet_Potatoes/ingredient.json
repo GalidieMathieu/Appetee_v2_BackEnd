@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0045",
+  "name": "Russet Potatoes",
+  "canonicalName": "Russet Potatoes",
+  "description": "Raw whole russet potatoes.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Russet Potatoes, 5 lb Bag",
+    "productId": "10447837",
+    "productUrl": "https://www.walmart.com/ip/10447837",
+    "brand": "Fresh Produce",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 3.28,
+    "packageQuantity": 2267.962,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 79,
+      "proteinG": 2.14,
+      "carbohydratesG": 18.1,
+      "fatG": 0.08,
+      "fiberG": 1.3,
+      "sugarsG": 0.62,
+      "sodiumMg": 5,
+      "potassiumMg": 417,
+      "calciumMg": 13,
+      "ironMg": 0.86,
+      "magnesiumMg": 23,
+      "vitaminCMg": 5.7
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.1446
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 170027,
+      "dataType": "SR Legacy",
+      "description": "Potatoes, russet, flesh and skin, raw (Includes foods for USDA's Food Distribution Program)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/170027/nutrients",
+      "searchQuery": "potatoes russet flesh and skin raw",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.freepik.com/premium-ai-image/russet-potatoes-with-dirt-cracks-skin-up-close_153519171.htm",
+    "originalSourceUrl": "https://img.freepik.com/premium-photo/russet-potatoes-with-dirt-cracks-skin-up-close_14117-89155.jpg?w=2000",
+    "searchQuery": "Russet Potatoes ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0045",
+    "name": "Russet Potatoes",
+    "description": "Raw whole russet potatoes.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 79,
+      "proteinG": 2.14,
+      "carbohydratesG": 18.1,
+      "fatG": 0.08,
+      "fiberG": 1.3,
+      "sugarsG": 0.62,
+      "sodiumMg": 5,
+      "potassiumMg": 417,
+      "calciumMg": 13,
+      "ironMg": 0.86,
+      "magnesiumMg": 23,
+      "vitaminCMg": 5.7
+    },
+    "price": {
+      "usdPerBasis": 0.1446,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0045_Russet_Potatoes/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

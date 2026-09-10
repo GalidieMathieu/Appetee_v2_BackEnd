@@ -1,0 +1,208 @@
+{
+  "seedId": "REC-0053",
+  "name": "Salmon Quinoa Spinach Salad",
+  "description": "Roasted salmon, quinoa, spinach, and tomato with a simple vinegar dressing.",
+  "source": {
+    "url": "https://health.clevelandclinic.org/recipe-toasted-quinoa-and-salmon-salad",
+    "domain": "health.clevelandclinic.org",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "salmon",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0011",
+      "sourceQuantity": 1.25,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1¼ lb salmon",
+      "normalizedQuantity": 567,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup dry quinoa",
+      "normalizedQuantity": 170,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 3,
+      "sourceUnit": "cups",
+      "sourceDisplay": "3 cups spinach",
+      "normalizedQuantity": 255,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 4,
+      "sourceUnit": "medium",
+      "sourceDisplay": "4 Roma tomatoes",
+      "normalizedQuantity": 248,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp vinegar",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp olive oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Cook the quinoa until tender and spread it out to cool.",
+    "Roast the salmon at 400°F until it flakes and reaches 145°F.",
+    "Whisk the vinegar and oil and toss them with quinoa, spinach, and tomato.",
+    "Divide the salad among containers and top each with salmon."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1432.95,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1591.309,
+      "proteinG": 151.644,
+      "carbohydratesG": 129.804,
+      "fatG": 50.867,
+      "fiberG": 22.271,
+      "sugarsG": 8.301,
+      "sodiumMg": 636.638,
+      "potassiumMg": 4524.635,
+      "calciumMg": 475.597,
+      "ironMg": 15.55,
+      "magnesiumMg": 708.035,
+      "vitaminCMg": 48.001
+    },
+    "perServing": {
+      "calories": 397.827,
+      "proteinG": 37.911,
+      "carbohydratesG": 32.451,
+      "fatG": 12.717,
+      "fiberG": 5.568,
+      "sugarsG": 2.075,
+      "sodiumMg": 159.16,
+      "potassiumMg": 1131.159,
+      "calciumMg": 118.899,
+      "ironMg": 3.888,
+      "magnesiumMg": 177.009,
+      "vitaminCMg": 12
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.15,
+    "perServingUsd": 2.54,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-03-23T21:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "assets.clevelandclinic.org",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://health.clevelandclinic.org/recipe-toasted-quinoa-and-salmon-salad",
+    "originalSourceUrl": "https://assets.clevelandclinic.org/transform/LargeFeatureImage/cb536b66-62d6-4447-b110-290697362c28/QuinoaSaladSalmon_jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0053",
+    "name": "Salmon Quinoa Spinach Salad",
+    "description": "Roasted salmon, quinoa, spinach, and tomato with a simple vinegar dressing.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 397.827,
+      "proteinG": 37.911,
+      "carbohydratesG": 32.451,
+      "fatG": 12.717,
+      "fiberG": 5.568,
+      "sugarsG": 2.075,
+      "sodiumMg": 159.16,
+      "potassiumMg": 1131.159,
+      "calciumMg": 118.899,
+      "ironMg": 3.888,
+      "magnesiumMg": 177.009,
+      "vitaminCMg": 12
+    },
+    "estimatedCostPerServingUsd": 2.54,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

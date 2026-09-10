@@ -1,0 +1,218 @@
+{
+  "seedId": "REC-1230",
+  "candidate": {
+    "sequence": 2024,
+    "seedId": "REC-CAND-2024",
+    "name": "Sesame Salmon Stew"
+  },
+  "name": "Sesame Salmon Stew",
+  "description": "Sesame Salmon Stew is a practical main meal adaptation built around salmon, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://health.clevelandclinic.org/recipe-toasted-quinoa-and-salmon-salad",
+    "domain": "health.clevelandclinic.org",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Jamaican Salmon Salad Bowl source because it provides the closest validated fish and stew structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 60,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "salmon",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0011",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0071",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, salmon, and vegetables for sesame salmon stew.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned salmon and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the sesame salmon stew, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 855,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1402.11,
+      "proteinG": 129.277,
+      "carbohydratesG": 32.511,
+      "fatG": 81.723,
+      "fiberG": 6.293,
+      "sugarsG": 0.289,
+      "sodiumMg": 2366.616,
+      "potassiumMg": 2953.803,
+      "calciumMg": 125.907,
+      "ironMg": 4.033,
+      "magnesiumMg": 218.502,
+      "vitaminCMg": 29.28
+    },
+    "perServing": {
+      "calories": 350.527,
+      "proteinG": 32.319,
+      "carbohydratesG": 8.128,
+      "fatG": 20.431,
+      "fiberG": 1.573,
+      "sugarsG": 0.072,
+      "sodiumMg": 591.654,
+      "potassiumMg": 738.451,
+      "calciumMg": 31.477,
+      "ironMg": 1.008,
+      "magnesiumMg": 54.626,
+      "vitaminCMg": 7.32
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 9.62,
+    "perServingUsd": 2.4,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Carb",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-03-12T10:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.simplyrecipes.com/sesame-salmon-recipe-11736409",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.ZIl3aZ-UiVmgmUFgBYhaSgHaE8&pid=15.1",
+    "discoveredOriginalUrl": "https://www.simplyrecipes.com/thmb/4JDdhBbudCXVg_lGTc9tbSSnAKk=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Sesame-Salmon-LEAD-6-8f8a004f038245f8b14f872c4cebf82e.jpg",
+    "searchQuery": "Sesame Salmon Stew plated recipe food",
+    "searchResultTitle": "Sesame Salmon Recipe (2 Ingredients)",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:14:27.231Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1230",
+    "name": "Sesame Salmon Stew",
+    "description": "Sesame Salmon Stew is a practical main meal adaptation built around salmon, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 350.527,
+      "proteinG": 32.319,
+      "carbohydratesG": 8.128,
+      "fatG": 20.431,
+      "fiberG": 1.573,
+      "sugarsG": 0.072,
+      "sodiumMg": 591.654,
+      "potassiumMg": 738.451,
+      "calciumMg": 31.477,
+      "ironMg": 1.008,
+      "magnesiumMg": 54.626,
+      "vitaminCMg": 7.32
+    },
+    "estimatedCostPerServingUsd": 2.4,
+    "diets": [
+      "Pescatarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Carb",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Meal Prep"
+    ]
+  }
+}

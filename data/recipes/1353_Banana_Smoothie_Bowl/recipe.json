@@ -1,0 +1,205 @@
+{
+  "seedId": "REC-1353",
+  "candidate": {
+    "sequence": 2147,
+    "seedId": "REC-CAND-2147",
+    "name": "Banana Smoothie Bowl"
+  },
+  "name": "Banana Smoothie Bowl",
+  "description": "Banana Smoothie Bowl is a practical small meal adaptation built around banana, fruit, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.skinnytaste.com/berry-cottage-cheese-breakfast-bowl/",
+    "domain": "skinnytaste.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Cottage Cheese Berry Bowls source because it provides the closest validated fruit and bowl/smoothie structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "totalMinutes": 20
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Blender",
+  "primaryProtein": "banana",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0033",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0030",
+      "sourceQuantity": 240,
+      "sourceUnit": "ml",
+      "sourceDisplay": "240 ml",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and chill the ingredients for banana smoothie bowl.",
+    "Add the liquid ingredients to the blender before the thicker ingredients.",
+    "Blend until the banana smoothie bowl is completely smooth and evenly combined.",
+    "Adjust the thickness with a small amount of milk and serve immediately."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1140,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1659.6,
+      "proteinG": 73.888,
+      "carbohydratesG": 302.986,
+      "fatG": 22.702,
+      "fiberG": 32.16,
+      "sugarsG": 110.465,
+      "sodiumMg": 243.984,
+      "potassiumMg": 2743.08,
+      "calciumMg": 770.04,
+      "ironMg": 11.492,
+      "magnesiumMg": 473.592,
+      "vitaminCMg": 26.894
+    },
+    "perServing": {
+      "calories": 414.9,
+      "proteinG": 18.472,
+      "carbohydratesG": 75.746,
+      "fatG": 5.676,
+      "fiberG": 8.04,
+      "sugarsG": 27.616,
+      "sodiumMg": 60.996,
+      "potassiumMg": 685.77,
+      "calciumMg": 192.51,
+      "ironMg": 2.873,
+      "magnesiumMg": 118.398,
+      "vitaminCMg": 6.723
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.13,
+    "perServingUsd": 0.78,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-09-18T01:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.ayleenrecipes.com/banana-smoothie-bowl/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.2b3O2hJMvxmKASEkpJ-wZQHaJ4&pid=15.1",
+    "discoveredOriginalUrl": "https://www.ayleenrecipes.com/wp-content/uploads/2026/01/mdnn8yuw3dvqgb3jbz1t.webp",
+    "searchQuery": "Banana Smoothie Bowl plated recipe food",
+    "searchResultTitle": "Irresistible Banana Smoothie Bowl with Tahini Delight",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:50:28.341Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1353",
+    "name": "Banana Smoothie Bowl",
+    "description": "Banana Smoothie Bowl is a practical small meal adaptation built around banana, fruit, and title-specific supporting ingredients.",
+    "mealType": "Breakfast",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 414.9,
+      "proteinG": 18.472,
+      "carbohydratesG": 75.746,
+      "fatG": 5.676,
+      "fiberG": 8.04,
+      "sugarsG": 27.616,
+      "sodiumMg": 60.996,
+      "potassiumMg": 685.77,
+      "calciumMg": 192.51,
+      "ironMg": 2.873,
+      "magnesiumMg": 118.398,
+      "vitaminCMg": 6.723
+    },
+    "estimatedCostPerServingUsd": 0.78,
+    "diets": [
+      "Vegetarian",
+      "Vegan"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

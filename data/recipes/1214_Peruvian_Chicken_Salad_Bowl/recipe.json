@@ -1,0 +1,202 @@
+{
+  "seedId": "REC-1214",
+  "candidate": {
+    "sequence": 2008,
+    "seedId": "REC-CAND-2008",
+    "name": "Peruvian Chicken Salad Bowl"
+  },
+  "name": "Peruvian Chicken Salad Bowl",
+  "description": "Peruvian Chicken Salad Bowl is a practical main meal adaptation built around chicken, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://usa.lkk.com/en/recipes/peruvian-style-chicken-and-rice-bowl-recipe",
+    "domain": "usa.lkk.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Spanish Chicken Salad Bowl source because it provides the closest validated chicken and bowl/salad structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Peru",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for peruvian chicken salad bowl.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the chicken with the vegetables and remaining ingredients in the intended main meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the peruvian chicken salad bowl into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1050,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1009.332,
+      "proteinG": 140.61,
+      "carbohydratesG": 29.76,
+      "fatG": 40.38,
+      "sodiumMg": 422.346,
+      "potassiumMg": 3324.273,
+      "calciumMg": 74.913,
+      "ironMg": 4.377,
+      "magnesiumMg": 226.2,
+      "fiberG": 9.9,
+      "sugarsG": 20.49,
+      "vitaminCMg": 425.1
+    },
+    "perServing": {
+      "calories": 252.333,
+      "proteinG": 35.153,
+      "carbohydratesG": 7.44,
+      "fatG": 10.095,
+      "sodiumMg": 105.587,
+      "potassiumMg": 831.068,
+      "calciumMg": 18.728,
+      "ironMg": 1.094,
+      "magnesiumMg": 56.55,
+      "fiberG": 2.475,
+      "sugarsG": 5.122,
+      "vitaminCMg": 106.275
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.74,
+    "perServingUsd": 2.19,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Low Carb",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-02-15T18:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.ayleenrecipes.com/peruvian-chicken-salad/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.6TmKQITMUyH8PWIsaL1k1QHaJ4&pid=15.1",
+    "discoveredOriginalUrl": "https://www.ayleenrecipes.com/wp-content/uploads/2026/02/sqeucrnjdmmzk6ldkjvy.webp",
+    "searchQuery": "Peruvian Chicken Salad Bowl plated recipe food",
+    "searchResultTitle": "Ultimate Peruvian Chicken Salad That's Unforgettable",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:13:37.934Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1214",
+    "name": "Peruvian Chicken Salad Bowl",
+    "description": "Peruvian Chicken Salad Bowl is a practical main meal adaptation built around chicken, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 252.333,
+      "proteinG": 35.153,
+      "carbohydratesG": 7.44,
+      "fatG": 10.095,
+      "sodiumMg": 105.587,
+      "potassiumMg": 831.068,
+      "calciumMg": 18.728,
+      "ironMg": 1.094,
+      "magnesiumMg": 56.55,
+      "fiberG": 2.475,
+      "sugarsG": 5.122,
+      "vitaminCMg": 106.275
+    },
+    "estimatedCostPerServingUsd": 2.19,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Low Carb",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

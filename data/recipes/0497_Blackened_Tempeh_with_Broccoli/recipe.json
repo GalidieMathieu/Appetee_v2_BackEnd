@@ -1,0 +1,234 @@
+{
+  "seedId": "REC-0497",
+  "candidate": {
+    "sequence": 697,
+    "seedId": "REC-CAND-0697",
+    "name": "Blackened Tempeh with Broccoli"
+  },
+  "name": "Blackened Tempeh with Broccoli",
+  "description": "Blackened Tempeh with Broccoli is a practical stovetop recipe pairing tempeh with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.thepeskyvegan.com/recipes/jerk-tempeh/",
+    "domain": "thepeskyvegan.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Jamaican Tempeh with Quinoa source while retaining its closest matching dish form, cooking sequence, and applicable tempeh or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Jamaica",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tempeh",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0049",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0013",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tempeh, and vegetables for blackened tempeh with broccoli.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tempeh and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the blackened tempeh with broccoli, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1508,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1769.16,
+      "proteinG": 110.394,
+      "carbohydratesG": 245,
+      "fatG": 50.156,
+      "sodiumMg": 244.72,
+      "potassiumMg": 4654.2,
+      "calciumMg": 717.76,
+      "ironMg": 25.524,
+      "magnesiumMg": 850.68,
+      "vitaminCMg": 609.664,
+      "fiberG": 42.268,
+      "sugarsG": 18.85
+    },
+    "perServing": {
+      "calories": 442.29,
+      "proteinG": 27.599,
+      "carbohydratesG": 61.25,
+      "fatG": 12.539,
+      "sodiumMg": 61.18,
+      "potassiumMg": 1163.55,
+      "calciumMg": 179.44,
+      "ironMg": 6.381,
+      "magnesiumMg": 212.67,
+      "vitaminCMg": 152.416,
+      "fiberG": 10.567,
+      "sugarsG": 4.713
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 16.43,
+    "perServingUsd": 4.11,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber"
+  ],
+  "createdAt": "2026-02-06T09:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://bestofvegan.com/black-rice-and-tempeh-vegetable-bowls/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.E4IoEemw5Rto_4y7Mp0ECwHaKU&pid=15.1",
+    "discoveredOriginalUrl": "https://bestofvegancom.b-cdn.net/wp-content/uploads/2026/02/Black-Rice-Tempeh-Broccoli-Ginger-Scallion-Oil-Gena-Hamshaw-96-scaled.webp",
+    "searchQuery": "Blackened Tempeh with Broccoli plated recipe food",
+    "searchResultTitle": "Black Rice & Tempeh Vegetable Bowl (High Protein)",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:50:56.402Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0497",
+    "name": "Blackened Tempeh with Broccoli",
+    "description": "Blackened Tempeh with Broccoli is a practical stovetop recipe pairing tempeh with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 442.29,
+      "proteinG": 27.599,
+      "carbohydratesG": 61.25,
+      "fatG": 12.539,
+      "sodiumMg": 61.18,
+      "potassiumMg": 1163.55,
+      "calciumMg": 179.44,
+      "ironMg": 6.381,
+      "magnesiumMg": 212.67,
+      "vitaminCMg": 152.416,
+      "fiberG": 10.567,
+      "sugarsG": 4.713
+    },
+    "estimatedCostPerServingUsd": 4.11,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber"
+    ]
+  }
+}

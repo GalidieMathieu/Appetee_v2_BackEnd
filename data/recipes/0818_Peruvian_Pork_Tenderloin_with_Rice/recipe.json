@@ -1,0 +1,224 @@
+{
+  "seedId": "REC-0818",
+  "candidate": {
+    "sequence": 1328,
+    "seedId": "REC-CAND-1328",
+    "name": "Peruvian Pork Tenderloin with Rice"
+  },
+  "name": "Peruvian Pork Tenderloin with Rice",
+  "description": "Peruvian Pork Tenderloin with Rice is a practical stovetop recipe pairing pork tenderloin with rice and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://food.unl.edu/recipe/ground-pork-rice-bowls/",
+    "domain": "food.unl.edu",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Ground Pork Rice Bowls source while retaining its closest matching dish form, cooking sequence, and applicable pork or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 50,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "pork tenderloin",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0069",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups dry rice",
+      "normalizedQuantity": 370,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0019",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups peas and carrots",
+      "normalizedQuantity": 280,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 0.25,
+      "sourceUnit": "cup",
+      "sourceDisplay": "¼ cup soy sauce",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, pork tenderloin, and rice for peruvian pork tenderloin with rice.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned pork tenderloin and cook it until browned or heated through as appropriate.",
+    "Stir in the rice, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the peruvian pork tenderloin with rice, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2215.5,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2545.27,
+      "proteinG": 170.677,
+      "carbohydratesG": 362.696,
+      "fatG": 46.069,
+      "fiberG": 16.643,
+      "sugarsG": 0.428,
+      "sodiumMg": 4368.045,
+      "potassiumMg": 4150.893,
+      "calciumMg": 217.493,
+      "ironMg": 11.707,
+      "magnesiumMg": 392.704,
+      "vitaminCMg": 60.64
+    },
+    "perServing": {
+      "calories": 636.317,
+      "proteinG": 42.669,
+      "carbohydratesG": 90.674,
+      "fatG": 11.517,
+      "fiberG": 4.161,
+      "sugarsG": 0.107,
+      "sodiumMg": 1092.011,
+      "potassiumMg": 1037.723,
+      "calciumMg": 54.373,
+      "ironMg": 2.927,
+      "magnesiumMg": 98.176,
+      "vitaminCMg": 15.16
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.99,
+    "perServingUsd": 2.25,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-06-16T06:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.explicit.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/peruvian-pork-loin-adobo-recipe-with-steamed-rice-and-carrots--619245017532619412/",
+    "originalSourceUrl": "https://ts4.explicit.bing.net/th?id=OIP.nUa6tqaCjI-_hv3bcAhKbQHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/9c/ef/11/9cef119be7e742e1b27c723165d96794.webp",
+    "searchQuery": "Peruvian Pork Tenderloin with Rice plated recipe food",
+    "searchResultTitle": "Peruvian Pork Loin Adobo Recipe with Steamed Rice and Carrots | South ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:07:30.656Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0818",
+    "name": "Peruvian Pork Tenderloin with Rice",
+    "description": "Peruvian Pork Tenderloin with Rice is a practical stovetop recipe pairing pork tenderloin with rice and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 636.317,
+      "proteinG": 42.669,
+      "carbohydratesG": 90.674,
+      "fatG": 11.517,
+      "fiberG": 4.161,
+      "sugarsG": 0.107,
+      "sodiumMg": 1092.011,
+      "potassiumMg": 1037.723,
+      "calciumMg": 54.373,
+      "ironMg": 2.927,
+      "magnesiumMg": 98.176,
+      "vitaminCMg": 15.16
+    },
+    "estimatedCostPerServingUsd": 2.25,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Budget Friendly"
+    ]
+  }
+}

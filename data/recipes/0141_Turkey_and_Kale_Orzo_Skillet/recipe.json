@@ -1,0 +1,214 @@
+{
+  "seedId": "REC-0141",
+  "candidate": {
+    "sequence": 32,
+    "seedId": "REC-CAND-0032",
+    "name": "Turkey and Kale Orzo Skillet"
+  },
+  "name": "Turkey and Kale Orzo Skillet",
+  "description": "Turkey and Kale Orzo Skillet combines turkey with orzo and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+  "source": {
+    "url": "https://broccyourbody.com/one-pan-italian-orzo-skillet/",
+    "domain": "broccyourbody.com",
+    "accessedAt": "2026-08-10T18:00:00-06:00",
+    "adaptation": "The source's defining turkey, orzo, seasoning profile, and core cooking technique are retained; quantities and supporting vegetables are normalized to the canonical Appetee market ingredients."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 20,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "orzo",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0097",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0098",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and prepare every ingredient for turkey and kale orzo skillet before heating the cooking vessel.",
+    "Heat the cooking vessel and soften the aromatics before adding the turkey.",
+    "Cook the orzo until tender while the seasoned turkey develops its intended color and texture.",
+    "Combine the cooked components with the remaining vegetables and sauce, then adjust the consistency and seasoning.",
+    "Portion the finished turkey and kale orzo skillet evenly and serve it warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1744,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2290.77,
+      "proteinG": 148.492,
+      "carbohydratesG": 237.91,
+      "fatG": 85.514,
+      "fiberG": 25.995,
+      "sugarsG": 9.528,
+      "sodiumMg": 1051.7,
+      "potassiumMg": 4266.57,
+      "calciumMg": 1214.25,
+      "ironMg": 24.237,
+      "magnesiumMg": 413.972,
+      "vitaminCMg": 309.48
+    },
+    "perServing": {
+      "calories": 572.692,
+      "proteinG": 37.123,
+      "carbohydratesG": 59.477,
+      "fatG": 21.378,
+      "fiberG": 6.499,
+      "sugarsG": 2.382,
+      "sodiumMg": 262.925,
+      "potassiumMg": 1066.642,
+      "calciumMg": 303.563,
+      "ironMg": 6.059,
+      "magnesiumMg": 103.493,
+      "vitaminCMg": 77.37
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.46,
+    "perServingUsd": 1.86,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-08-06T13:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "broccyourbody.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://broccyourbody.com/one-pan-italian-orzo-skillet/",
+    "originalSourceUrl": "https://broccyourbody.com/wp-content/uploads/2024/03/IMG_3650.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0141",
+    "name": "Turkey and Kale Orzo Skillet",
+    "description": "Turkey and Kale Orzo Skillet combines turkey with orzo and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 572.692,
+      "proteinG": 37.123,
+      "carbohydratesG": 59.477,
+      "fatG": 21.378,
+      "fiberG": 6.499,
+      "sugarsG": 2.382,
+      "sodiumMg": 262.925,
+      "potassiumMg": 1066.642,
+      "calciumMg": 303.563,
+      "ironMg": 6.059,
+      "magnesiumMg": 103.493,
+      "vitaminCMg": 77.37
+    },
+    "estimatedCostPerServingUsd": 1.86,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

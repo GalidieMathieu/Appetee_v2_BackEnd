@@ -1,0 +1,262 @@
+{
+  "seedId": "REC-0369",
+  "candidate": {
+    "sequence": 460,
+    "seedId": "REC-CAND-0460",
+    "name": "Japanese Lentil with Rice"
+  },
+  "name": "Japanese Lentil with Rice",
+  "description": "Japanese Lentil with Rice is a practical stovetop recipe pairing lentils with rice and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/one-pan-coconut-dhal",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Thai Lentil with Rice source while retaining its closest matching dish form, cooking sequence, and applicable lentils or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Thailand",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0042",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 240,
+      "sourceUnit": "ml",
+      "sourceDisplay": "240 ml",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lentils, and rice for japanese lentil with rice.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lentils and cook it until browned or heated through as appropriate.",
+    "Stir in the rice, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the japanese lentil with rice, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1669,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3519.082,
+      "proteinG": 155.39,
+      "carbohydratesG": 555.033,
+      "fatG": 88.655,
+      "fiberG": 70.241,
+      "sugarsG": 13.454,
+      "sodiumMg": 292.485,
+      "potassiumMg": 5749.143,
+      "calciumMg": 717.927,
+      "ironMg": 47.546,
+      "magnesiumMg": 670.35,
+      "vitaminCMg": 101.608
+    },
+    "perServing": {
+      "calories": 879.77,
+      "proteinG": 38.847,
+      "carbohydratesG": 138.758,
+      "fatG": 22.164,
+      "fiberG": 17.56,
+      "sugarsG": 3.364,
+      "sodiumMg": 73.121,
+      "potassiumMg": 1437.286,
+      "calciumMg": 179.482,
+      "ironMg": 11.886,
+      "magnesiumMg": 167.588,
+      "vitaminCMg": 25.402
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.9,
+    "perServingUsd": 1.73,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Quick Meal",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2025-07-24T01:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.reddit.com/r/ShittyVeganFoodPorn/comments/zzg951/lentil_rice_with_japanese_curry_graced_by_a/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.r6j4mlIgj6zv2dT-b5GtWQHaJ4&pid=15.1",
+    "discoveredOriginalUrl": "https://preview.redd.it/lentil-rice-with-japanese-curry-graced-by-a-walmart-v0-jdfkhs4yn49a1.jpg?width=3000&format=pjpg&auto=webp&s=9b9457432b636e3579d607e11b09ba0f950d7b05",
+    "searchQuery": "Japanese Lentil with Rice plated recipe food",
+    "searchResultTitle": "Lentil Rice with Japanese Curry graced by a Walmart GreatValue Veggie ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:44:11.796Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0369",
+    "name": "Japanese Lentil with Rice",
+    "description": "Japanese Lentil with Rice is a practical stovetop recipe pairing lentils with rice and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 879.77,
+      "proteinG": 38.847,
+      "carbohydratesG": 138.758,
+      "fatG": 22.164,
+      "fiberG": 17.56,
+      "sugarsG": 3.364,
+      "sodiumMg": 73.121,
+      "potassiumMg": 1437.286,
+      "calciumMg": 179.482,
+      "ironMg": 11.886,
+      "magnesiumMg": 167.588,
+      "vitaminCMg": 25.402
+    },
+    "estimatedCostPerServingUsd": 1.73,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Quick Meal",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

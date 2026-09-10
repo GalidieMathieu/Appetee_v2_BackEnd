@@ -1,0 +1,196 @@
+{
+  "seedId": "REC-1299",
+  "candidate": {
+    "sequence": 2093,
+    "seedId": "REC-CAND-2093",
+    "name": "Teriyaki Tempeh Stir-Fry"
+  },
+  "name": "Teriyaki Tempeh Stir-Fry",
+  "description": "Teriyaki Tempeh Stir-Fry is a practical main meal adaptation built around tempeh, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.canada.ca/content/dam/hc-sc/documents/services/canada-food-guide/tips-healthy-eating/meal-planning-cooking-healthy-choices/tofu-stir-fry/tofu-vegetable-stir-fry-eng.pdf",
+    "domain": "canada.ca",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched American Tofu Stir-Fry source because it provides the closest validated soy and vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "China",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 50,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tempeh",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0049",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tempeh, and vegetables for teriyaki tempeh stir-fry.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tempeh and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the teriyaki tempeh stir-fry, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 660,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 949.776,
+      "proteinG": 66.223,
+      "carbohydratesG": 50.466,
+      "fatG": 60.048,
+      "sodiumMg": 1941.066,
+      "potassiumMg": 1933.653,
+      "calciumMg": 389.757,
+      "ironMg": 9.598,
+      "magnesiumMg": 295.752,
+      "vitaminCMg": 24.6,
+      "fiberG": 5.978,
+      "sugarsG": 0.139
+    },
+    "perServing": {
+      "calories": 237.444,
+      "proteinG": 16.556,
+      "carbohydratesG": 12.617,
+      "fatG": 15.012,
+      "sodiumMg": 485.267,
+      "potassiumMg": 483.413,
+      "calciumMg": 97.439,
+      "ironMg": 2.4,
+      "magnesiumMg": 73.938,
+      "vitaminCMg": 6.15,
+      "fiberG": 1.494,
+      "sugarsG": 0.035
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.21,
+    "perServingUsd": 2.55,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-06-26T19:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://thepaellarecipes.com/baked-tempeh-recipes/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.lHa0jH1yDCItWcpjv4OZvQHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://thepaellarecipes.com/wp-content/uploads/2026/02/Teriyaki-Baked-Tempeh-StirFry.jpg",
+    "searchQuery": "Teriyaki Tempeh Stir-Fry plated recipe food",
+    "searchResultTitle": "30 Delicious Baked Tempeh Recipes to Try - The Paella Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:17:59.574Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1299",
+    "name": "Teriyaki Tempeh Stir-Fry",
+    "description": "Teriyaki Tempeh Stir-Fry is a practical main meal adaptation built around tempeh, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 237.444,
+      "proteinG": 16.556,
+      "carbohydratesG": 12.617,
+      "fatG": 15.012,
+      "sodiumMg": 485.267,
+      "potassiumMg": 483.413,
+      "calciumMg": 97.439,
+      "ironMg": 2.4,
+      "magnesiumMg": 73.938,
+      "vitaminCMg": 6.15,
+      "fiberG": 1.494,
+      "sugarsG": 0.035
+    },
+    "estimatedCostPerServingUsd": 2.55,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

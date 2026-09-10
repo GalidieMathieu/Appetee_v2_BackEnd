@@ -1,0 +1,218 @@
+{
+  "seedId": "REC-1246",
+  "candidate": {
+    "sequence": 2040,
+    "seedId": "REC-CAND-2040",
+    "name": "Tempeh and Kale Curry"
+  },
+  "name": "Tempeh and Kale Curry",
+  "description": "Tempeh and Kale Curry is a practical main meal adaptation built around tempeh, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.atkins.com/recipes/coconut-curry-tempeh",
+    "domain": "atkins.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Tempeh and Broccoli Curry source because it provides the closest validated soy and curry structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tempeh",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0049",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0097",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tempeh, and vegetables for tempeh and kale curry.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tempeh and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the tempeh and kale curry, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 920,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1074.932,
+      "proteinG": 73.819,
+      "carbohydratesG": 69.765,
+      "fatG": 65.095,
+      "sodiumMg": 194.696,
+      "potassiumMg": 2944.923,
+      "calciumMg": 1193.673,
+      "ironMg": 15.103,
+      "magnesiumMg": 385.5,
+      "vitaminCMg": 309.515,
+      "fiberG": 20.975,
+      "sugarsG": 3.258
+    },
+    "perServing": {
+      "calories": 268.733,
+      "proteinG": 18.455,
+      "carbohydratesG": 17.441,
+      "fatG": 16.274,
+      "sodiumMg": 48.674,
+      "potassiumMg": 736.231,
+      "calciumMg": 298.418,
+      "ironMg": 3.776,
+      "magnesiumMg": 96.375,
+      "vitaminCMg": 77.379,
+      "fiberG": 5.244,
+      "sugarsG": 0.815
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 12.68,
+    "perServingUsd": 3.17,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Quick Meal",
+    "Budget Friendly"
+  ],
+  "createdAt": "2029-04-06T02:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.cannibalnyc.com/yellow-curry-recipes/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.dGFHwpQAd3go7HMHI8LXjgHaJQ&pid=15.1",
+    "discoveredOriginalUrl": "https://www.cannibalnyc.com/wp-content/uploads/2025/06/Yellow-Curry-Tempeh-with-Kale.jpg",
+    "searchQuery": "Tempeh and Kale Curry plated recipe food",
+    "searchResultTitle": "20 Spicy Yellow Curry Recipes Delicious - Cannibal NYC",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:15:17.064Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1246",
+    "name": "Tempeh and Kale Curry",
+    "description": "Tempeh and Kale Curry is a practical main meal adaptation built around tempeh, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 268.733,
+      "proteinG": 18.455,
+      "carbohydratesG": 17.441,
+      "fatG": 16.274,
+      "sodiumMg": 48.674,
+      "potassiumMg": 736.231,
+      "calciumMg": 298.418,
+      "ironMg": 3.776,
+      "magnesiumMg": 96.375,
+      "vitaminCMg": 77.379,
+      "fiberG": 5.244,
+      "sugarsG": 0.815
+    },
+    "estimatedCostPerServingUsd": 3.17,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Quick Meal",
+      "Budget Friendly"
+    ]
+  }
+}

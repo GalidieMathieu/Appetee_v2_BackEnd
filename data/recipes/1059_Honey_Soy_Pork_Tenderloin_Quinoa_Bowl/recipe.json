@@ -1,0 +1,242 @@
+{
+  "seedId": "REC-1059",
+  "candidate": {
+    "sequence": 1768,
+    "seedId": "REC-CAND-1768",
+    "name": "Honey Soy Pork Tenderloin Quinoa Bowl"
+  },
+  "name": "Honey Soy Pork Tenderloin Quinoa Bowl",
+  "description": "Honey Soy Pork Tenderloin Quinoa Bowl is a practical stovetop recipe pairing pork tenderloin with quinoa and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.womanandhome.com/food/everyday-inspiration/japanese-hotdogs-sausage-ragu/",
+    "domain": "womanandhome.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Japanese Sausage Noodle Bowl source while retaining its closest matching dish form, cooking sequence, and applicable pork or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Japan",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 50,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "pork tenderloin",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0069",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0039",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0062",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0071",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 18,
+      "sourceUnit": "g",
+      "sourceDisplay": "18 g",
+      "normalizedQuantity": 18,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, pork tenderloin, and quinoa for honey soy pork tenderloin quinoa bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned pork tenderloin and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the honey soy pork tenderloin quinoa bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1636,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3107.708,
+      "proteinG": 202.389,
+      "carbohydratesG": 431.193,
+      "fatG": 61.463,
+      "fiberG": 37.222,
+      "sugarsG": 27.078,
+      "sodiumMg": 2302.12,
+      "potassiumMg": 6309.42,
+      "calciumMg": 318.924,
+      "ironMg": 28.403,
+      "magnesiumMg": 949.712,
+      "vitaminCMg": 44.954
+    },
+    "perServing": {
+      "calories": 776.927,
+      "proteinG": 50.597,
+      "carbohydratesG": 107.798,
+      "fatG": 15.366,
+      "fiberG": 9.306,
+      "sugarsG": 6.769,
+      "sodiumMg": 575.53,
+      "potassiumMg": 1577.355,
+      "calciumMg": 79.731,
+      "ironMg": 7.101,
+      "magnesiumMg": 237.428,
+      "vitaminCMg": 11.239
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 16.26,
+    "perServingUsd": 4.07,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber"
+  ],
+  "createdAt": "2028-06-21T19:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.weekshoneyfarm.com/blogs/recipes",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.DjwKdCb205RRc_Xd6wc1aAHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://www.weekshoneyfarm.com/cdn/shop/articles/Honey-Soy-Pork-Tenderloin-Rice-Bowls-4_1080x600_crop_center.jpg?v=1726236777",
+    "searchQuery": "Honey Soy Pork Tenderloin Quinoa Bowl plated recipe food",
+    "searchResultTitle": "Recipes – Weeks Honey Farm",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:19:45.972Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1059",
+    "name": "Honey Soy Pork Tenderloin Quinoa Bowl",
+    "description": "Honey Soy Pork Tenderloin Quinoa Bowl is a practical stovetop recipe pairing pork tenderloin with quinoa and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 776.927,
+      "proteinG": 50.597,
+      "carbohydratesG": 107.798,
+      "fatG": 15.366,
+      "fiberG": 9.306,
+      "sugarsG": 6.769,
+      "sodiumMg": 575.53,
+      "potassiumMg": 1577.355,
+      "calciumMg": 79.731,
+      "ironMg": 7.101,
+      "magnesiumMg": 237.428,
+      "vitaminCMg": 11.239
+    },
+    "estimatedCostPerServingUsd": 4.07,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber"
+    ]
+  }
+}

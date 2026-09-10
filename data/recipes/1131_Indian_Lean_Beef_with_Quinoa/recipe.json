@@ -1,0 +1,244 @@
+{
+  "seedId": "REC-1131",
+  "candidate": {
+    "sequence": 1895,
+    "seedId": "REC-CAND-1895",
+    "name": "Indian Lean Beef with Quinoa"
+  },
+  "name": "Indian Lean Beef with Quinoa",
+  "description": "Indian Lean Beef with Quinoa is a practical stovetop recipe pairing lean beef with quinoa and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.frugalnutrition.com/mediterranean-quinoa-bowls/",
+    "domain": "frugalnutrition.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Mediterranean Lean Beef with Quinoa source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Mediterranean",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 20,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lean beef",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0083",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lean beef, and quinoa for indian lean beef with quinoa.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lean beef and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the indian lean beef with quinoa, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1939,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2746.882,
+      "proteinG": 158.696,
+      "carbohydratesG": 226.197,
+      "fatG": 135.113,
+      "fiberG": 37.843,
+      "sugarsG": 28.25,
+      "sodiumMg": 467.176,
+      "potassiumMg": 5901.423,
+      "calciumMg": 395.223,
+      "ironMg": 28.73,
+      "magnesiumMg": 744.75,
+      "vitaminCMg": 508.108
+    },
+    "perServing": {
+      "calories": 686.721,
+      "proteinG": 39.674,
+      "carbohydratesG": 56.549,
+      "fatG": 33.778,
+      "fiberG": 9.461,
+      "sugarsG": 7.063,
+      "sodiumMg": 116.794,
+      "potassiumMg": 1475.356,
+      "calciumMg": 98.806,
+      "ironMg": 7.183,
+      "magnesiumMg": 186.188,
+      "vitaminCMg": 127.027
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 18.36,
+    "perServingUsd": 4.59,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber"
+  ],
+  "createdAt": "2028-10-10T19:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://fitkitcheneats.com/clean-eating-beef-quinoa-bowl-a-fresh-balanced-weeknight-meal/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.lwxva28DDnz65QQAoAVJKAHaE8&pid=15.1",
+    "discoveredOriginalUrl": "https://fitkitcheneats.com/wp-content/uploads/2025/12/tmp6svab781.jpg",
+    "searchQuery": "Indian Lean Beef with Quinoa plated recipe food",
+    "searchResultTitle": "Clean-Eating Beef & Quinoa Bowl – A Fresh, Balanced Weeknight Meal ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:23:32.031Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1131",
+    "name": "Indian Lean Beef with Quinoa",
+    "description": "Indian Lean Beef with Quinoa is a practical stovetop recipe pairing lean beef with quinoa and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 686.721,
+      "proteinG": 39.674,
+      "carbohydratesG": 56.549,
+      "fatG": 33.778,
+      "fiberG": 9.461,
+      "sugarsG": 7.063,
+      "sodiumMg": 116.794,
+      "potassiumMg": 1475.356,
+      "calciumMg": 98.806,
+      "ironMg": 7.183,
+      "magnesiumMg": 186.188,
+      "vitaminCMg": 127.027
+    },
+    "estimatedCostPerServingUsd": 4.59,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber"
+    ]
+  }
+}

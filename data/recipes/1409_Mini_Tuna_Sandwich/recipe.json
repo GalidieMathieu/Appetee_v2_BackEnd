@@ -1,0 +1,198 @@
+{
+  "seedId": "REC-1409",
+  "candidate": {
+    "sequence": 2204,
+    "seedId": "REC-CAND-2204",
+    "name": "Mini Tuna Sandwich"
+  },
+  "name": "Mini Tuna Sandwich",
+  "description": "Mini Tuna Sandwich is a practical small meal adaptation built around tuna, bread, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://realfood.tesco.com/recipes/tuna-and-tomato-toasts.html",
+    "domain": "realfood.tesco.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Tuna Tomato Toasts source because it provides the closest validated fish and sandwich structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United Kingdom",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "totalMinutes": 20
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "tuna",
+  "carbohydrateBase": "bread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0025",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0051",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for mini tuna sandwich.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the tuna with the bread and remaining ingredients in the intended small meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the mini tuna sandwich into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1030,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1575.332,
+      "proteinG": 141.69,
+      "carbohydratesG": 153.93,
+      "fatG": 41.23,
+      "fiberG": 23.7,
+      "sugarsG": 13.02,
+      "sodiumMg": 1568.546,
+      "potassiumMg": 2256.273,
+      "calciumMg": 572.273,
+      "ironMg": 14.523,
+      "magnesiumMg": 360,
+      "vitaminCMg": 24.6
+    },
+    "perServing": {
+      "calories": 393.833,
+      "proteinG": 35.422,
+      "carbohydratesG": 38.483,
+      "fatG": 10.307,
+      "fiberG": 5.925,
+      "sugarsG": 3.255,
+      "sodiumMg": 392.137,
+      "potassiumMg": 564.068,
+      "calciumMg": 143.068,
+      "ironMg": 3.631,
+      "magnesiumMg": 90,
+      "vitaminCMg": 6.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.87,
+    "perServingUsd": 1.22,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-12-13T09:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.girlgonegourmet.com/mini-tuna-salad-sandwiches/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.2JsEQm5EpKg7jX6bV2TSLAHaHA&pid=15.1",
+    "discoveredOriginalUrl": "https://www.girlgonegourmet.com/wp-content/uploads/2025/09/Mini-Tuna-Sandwiches-1.jpg",
+    "searchQuery": "Mini Tuna Sandwich plated recipe food",
+    "searchResultTitle": "Mini Tuna Salad Brioche Sandwiches - Girl Gone Gourmet",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:53:03.522Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1409",
+    "name": "Mini Tuna Sandwich",
+    "description": "Mini Tuna Sandwich is a practical small meal adaptation built around tuna, bread, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 393.833,
+      "proteinG": 35.422,
+      "carbohydratesG": 38.483,
+      "fatG": 10.307,
+      "fiberG": 5.925,
+      "sugarsG": 3.255,
+      "sodiumMg": 392.137,
+      "potassiumMg": 564.068,
+      "calciumMg": 143.068,
+      "ironMg": 3.631,
+      "magnesiumMg": 90,
+      "vitaminCMg": 6.15
+    },
+    "estimatedCostPerServingUsd": 1.22,
+    "diets": [
+      "Pescatarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

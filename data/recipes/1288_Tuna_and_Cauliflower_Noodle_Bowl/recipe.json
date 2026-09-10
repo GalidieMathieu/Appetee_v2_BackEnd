@@ -1,0 +1,208 @@
+{
+  "seedId": "REC-1288",
+  "candidate": {
+    "sequence": 2082,
+    "seedId": "REC-CAND-2082",
+    "name": "Tuna and Cauliflower Noodle Bowl"
+  },
+  "name": "Tuna and Cauliflower Noodle Bowl",
+  "description": "Tuna and Cauliflower Noodle Bowl is a practical main meal adaptation built around tuna, noodles, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://b2b.chickenofthesea.com/recipes/tuna-taco-bowl/",
+    "domain": "b2b.chickenofthesea.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Peruvian Tuna Noodle Bowl source because it provides the closest validated fish and bowl/noodle structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tuna",
+  "carbohydrateBase": "noodles",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0025",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0103",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 2.5,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0102",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tuna, and noodles for tuna and cauliflower noodle bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tuna and cook it until browned or heated through as appropriate.",
+    "Stir in the noodles, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the tuna and cauliflower noodle bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1600,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1812.932,
+      "proteinG": 144.6,
+      "carbohydratesG": 210.99,
+      "fatG": 42.196,
+      "fiberG": 20.52,
+      "sugarsG": 11.172,
+      "sodiumMg": 325.946,
+      "potassiumMg": 2658.873,
+      "calciumMg": 239.273,
+      "ironMg": 18.357,
+      "magnesiumMg": 310.2,
+      "vitaminCMg": 171
+    },
+    "perServing": {
+      "calories": 453.233,
+      "proteinG": 36.15,
+      "carbohydratesG": 52.748,
+      "fatG": 10.549,
+      "fiberG": 5.13,
+      "sugarsG": 2.793,
+      "sodiumMg": 81.487,
+      "potassiumMg": 664.718,
+      "calciumMg": 59.818,
+      "ironMg": 4.589,
+      "magnesiumMg": 77.55,
+      "vitaminCMg": 42.75
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.82,
+    "perServingUsd": 1.46,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-06-09T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse1.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/zesty-tuna-and-cauliflower-rice-power-bowls-recipe--842313936581109249/",
+    "originalSourceUrl": "https://tse1.mm.bing.net/th/id/OIP._k9lcqFpXMWbKopVVze1dAHaJ1?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/ea/ac/74/eaac740094594c476efeef605ced33ce.jpg",
+    "searchQuery": "tuna and cauliflower noodle bowl plated recipe food photograph",
+    "searchResultTitle": "Zesty Tuna and Cauliflower Rice Power Bowls Recipe",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:34.156Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1288",
+    "name": "Tuna and Cauliflower Noodle Bowl",
+    "description": "Tuna and Cauliflower Noodle Bowl is a practical main meal adaptation built around tuna, noodles, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 453.233,
+      "proteinG": 36.15,
+      "carbohydratesG": 52.748,
+      "fatG": 10.549,
+      "fiberG": 5.13,
+      "sugarsG": 2.793,
+      "sodiumMg": 81.487,
+      "potassiumMg": 664.718,
+      "calciumMg": 59.818,
+      "ironMg": 4.589,
+      "magnesiumMg": 77.55,
+      "vitaminCMg": 42.75
+    },
+    "estimatedCostPerServingUsd": 1.46,
+    "diets": [
+      "Pescatarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

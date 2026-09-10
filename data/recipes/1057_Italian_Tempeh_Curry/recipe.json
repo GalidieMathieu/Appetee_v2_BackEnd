@@ -1,0 +1,246 @@
+{
+  "seedId": "REC-1057",
+  "candidate": {
+    "sequence": 1760,
+    "seedId": "REC-CAND-1760",
+    "name": "Italian Tempeh Curry"
+  },
+  "name": "Italian Tempeh Curry",
+  "description": "Italian Tempeh Curry is a practical stovetop recipe pairing tempeh with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.atkins.com/recipes/coconut-curry-tempeh",
+    "domain": "atkins.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Tempeh Sweet Potato Coconut Curry source while retaining its closest matching dish form, cooking sequence, and applicable tempeh or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tempeh",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0049",
+      "sourceQuantity": 1,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1 lb tempeh",
+      "normalizedQuantity": 453.6,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0007",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb sweet potatoes",
+      "normalizedQuantity": 680.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can coconut milk",
+      "normalizedQuantity": 399,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can diced tomatoes",
+      "normalizedQuantity": 411.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp curry powder",
+      "normalizedQuantity": 7,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp cumin",
+      "normalizedQuantity": 2.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tempeh, and vegetables for italian tempeh curry.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tempeh and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the italian tempeh curry, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 2017.8,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2384.871,
+      "proteinG": 118.8,
+      "carbohydratesG": 200.681,
+      "fatG": 140.36,
+      "sodiumMg": 618.907,
+      "potassiumMg": 7402.594,
+      "calciumMg": 1005.886,
+      "ironMg": 34.759,
+      "magnesiumMg": 781.906,
+      "vitaminCMg": 126.92,
+      "fiberG": 7.558,
+      "sugarsG": 0.474
+    },
+    "perServing": {
+      "calories": 596.218,
+      "proteinG": 29.7,
+      "carbohydratesG": 50.17,
+      "fatG": 35.09,
+      "sodiumMg": 154.727,
+      "potassiumMg": 1850.649,
+      "calciumMg": 251.471,
+      "ironMg": 8.69,
+      "magnesiumMg": 195.476,
+      "vitaminCMg": 31.73,
+      "fiberG": 1.889,
+      "sugarsG": 0.118
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 22.58,
+    "perServingUsd": 5.64,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Quick Meal",
+    "Freezer Friendly"
+  ],
+  "createdAt": "2028-06-18T17:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://lolpuns.com/tempeh-dinner-recipes/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.-WKcLhnpGQD104xXU0sbmQHaKx&pid=15.1",
+    "discoveredOriginalUrl": "https://lolpuns.com/wp-content/uploads/2025/12/12-Tempeh-Dinner-Recipes-for-Hearty-Plant-Based-Meals-3.-Tempeh-Curry-0.webp",
+    "searchQuery": "Italian Tempeh Curry plated recipe food",
+    "searchResultTitle": "12 Tempeh Dinner Recipes for Hearty Plant Based Meals - Italian Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:19:29.194Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1057",
+    "name": "Italian Tempeh Curry",
+    "description": "Italian Tempeh Curry is a practical stovetop recipe pairing tempeh with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 596.218,
+      "proteinG": 29.7,
+      "carbohydratesG": 50.17,
+      "fatG": 35.09,
+      "sodiumMg": 154.727,
+      "potassiumMg": 1850.649,
+      "calciumMg": 251.471,
+      "ironMg": 8.69,
+      "magnesiumMg": 195.476,
+      "vitaminCMg": 31.73,
+      "fiberG": 1.889,
+      "sugarsG": 0.118
+    },
+    "estimatedCostPerServingUsd": 5.64,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Quick Meal",
+      "Freezer Friendly"
+    ]
+  }
+}

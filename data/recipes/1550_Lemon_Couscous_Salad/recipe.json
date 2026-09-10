@@ -1,0 +1,198 @@
+{
+  "seedId": "REC-1550",
+  "candidate": {
+    "sequence": 2348,
+    "seedId": "REC-CAND-2348",
+    "name": "Lemon Couscous Salad"
+  },
+  "name": "Lemon Couscous Salad",
+  "description": "Lemon Couscous Salad is a practical side adaptation built around vegetables, couscous, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/153802/algerian-flafla-bell-pepper-salad/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Algerian Flafla Bell Pepper Salad source because it provides the closest validated salad structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Algeria",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "totalMinutes": 20
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Side",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "couscous",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0110",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 2.5,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for lemon couscous salad.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the vegetables with the couscous and remaining ingredients in the intended side form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the lemon couscous salad into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1230,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1284.732,
+      "proteinG": 36.66,
+      "carbohydratesG": 225.39,
+      "fatG": 30.336,
+      "fiberG": 24,
+      "sodiumMg": 45.546,
+      "potassiumMg": 1523.673,
+      "calciumMg": 165.873,
+      "ironMg": 5.355,
+      "magnesiumMg": 162.6,
+      "vitaminCMg": 200.1,
+      "sugarsG": 15.39
+    },
+    "perServing": {
+      "calories": 321.183,
+      "proteinG": 9.165,
+      "carbohydratesG": 56.347,
+      "fatG": 7.584,
+      "fiberG": 6,
+      "sodiumMg": 11.386,
+      "potassiumMg": 380.918,
+      "calciumMg": 41.468,
+      "ironMg": 1.339,
+      "magnesiumMg": 40.65,
+      "vitaminCMg": 50.025,
+      "sugarsG": 3.848
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.58,
+    "perServingUsd": 1.15,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-07-18T18:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.leyarecipes.com/lemon-cucumber-couscous-salad/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.QlM2VGR20o1lonzlhPqz4AHaJ4&pid=15.1",
+    "discoveredOriginalUrl": "https://www.leyarecipes.com/wp-content/uploads/2026/05/ui2ygggjidiza39tyfud.webp",
+    "searchQuery": "Lemon Couscous Salad plated recipe food",
+    "searchResultTitle": "Irresistible Lemon Cucumber Couscous Salad Recipe",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:55:21.298Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1550",
+    "name": "Lemon Couscous Salad",
+    "description": "Lemon Couscous Salad is a practical side adaptation built around vegetables, couscous, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 321.183,
+      "proteinG": 9.165,
+      "carbohydratesG": 56.347,
+      "fatG": 7.584,
+      "fiberG": 6,
+      "sodiumMg": 11.386,
+      "potassiumMg": 380.918,
+      "calciumMg": 41.468,
+      "ironMg": 1.339,
+      "magnesiumMg": 40.65,
+      "vitaminCMg": 50.025,
+      "sugarsG": 3.848
+    },
+    "estimatedCostPerServingUsd": 1.15,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "seedId": "REC-0104",
+  "name": "Quick Greek Moussaka",
+  "description": "Beef, tomato, potato, and eggplant layered beneath a yogurt, egg, and Parmesan topping.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/must-make-moussaka",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Greece",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Microwave + Grill",
+  "primaryProtein": "beef",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 500,
+      "sourceUnit": "g",
+      "sourceDisplay": "500 g ground beef",
+      "normalizedQuantity": 500,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0064",
+      "sourceQuantity": 1,
+      "sourceUnit": "large",
+      "sourceDisplay": "1 large eggplant",
+      "normalizedQuantity": 458,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 150,
+      "sourceUnit": "g",
+      "sourceDisplay": "150 g Greek yogurt",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 1,
+      "sourceUnit": "large",
+      "sourceDisplay": "1 beaten egg",
+      "normalizedQuantity": 50,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0080",
+      "sourceQuantity": 3,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "3 tbsp grated Parmesan",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g canned tomatoes",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0054",
+      "sourceQuantity": 4,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "4 tbsp tomato paste",
+      "normalizedQuantity": 64,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 350,
+      "sourceUnit": "g",
+      "sourceDisplay": "350 g potatoes",
+      "normalizedQuantity": 350,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Brown the beef in a deep oven-safe skillet while the grill heats.",
+    "Prick the eggplant and microwave it until soft enough to slice.",
+    "Mix the yogurt, beaten egg, Parmesan, and seasoning into a topping.",
+    "Heat the tomatoes, tomato paste, and potatoes through with the browned beef.",
+    "Layer the sliced eggplant over the beef and spread the yogurt mixture on top.",
+    "Grill the moussaka until the topping is set and golden."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1776.2,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1813.48,
+      "proteinG": 136.963,
+      "carbohydratesG": 123.501,
+      "fatG": 87.915,
+      "fiberG": 20.914,
+      "sugarsG": 31.201,
+      "sodiumMg": 1289.42,
+      "potassiumMg": 5729.22,
+      "calciumMg": 625.71,
+      "ironMg": 19.754,
+      "magnesiumMg": 328.3,
+      "vitaminCMg": 44.042
+    },
+    "perServing": {
+      "calories": 453.37,
+      "proteinG": 34.241,
+      "carbohydratesG": 30.875,
+      "fatG": 21.979,
+      "fiberG": 5.229,
+      "sugarsG": 7.8,
+      "sodiumMg": 322.355,
+      "potassiumMg": 1432.305,
+      "calciumMg": 156.428,
+      "ironMg": 4.939,
+      "magnesiumMg": 82.075,
+      "vitaminCMg": 11.011
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 12.72,
+    "perServingUsd": 3.18,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-06-10T12:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "images.immediate.co.uk",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.bbcgoodfood.com/recipes/must-make-moussaka",
+    "originalSourceUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-388453_11-793eaac.jpg?resize=440%2C230",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0104",
+    "name": "Quick Greek Moussaka",
+    "description": "Beef, tomato, potato, and eggplant layered beneath a yogurt, egg, and Parmesan topping.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 453.37,
+      "proteinG": 34.241,
+      "carbohydratesG": 30.875,
+      "fatG": 21.979,
+      "fiberG": 5.229,
+      "sugarsG": 7.8,
+      "sodiumMg": 322.355,
+      "potassiumMg": 1432.305,
+      "calciumMg": 156.428,
+      "ironMg": 4.939,
+      "magnesiumMg": 82.075,
+      "vitaminCMg": 11.011
+    },
+    "estimatedCostPerServingUsd": 3.18,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Budget Friendly"
+    ]
+  }
+}

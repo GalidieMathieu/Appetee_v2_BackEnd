@@ -1,0 +1,196 @@
+{
+  "seedId": "REC-1237",
+  "candidate": {
+    "sequence": 2031,
+    "seedId": "REC-CAND-2031",
+    "name": "Caribbean Turkey Noodle Bowl"
+  },
+  "name": "Caribbean Turkey Noodle Bowl",
+  "description": "Caribbean Turkey Noodle Bowl is a practical main meal adaptation built around turkey, noodles, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.eatingwell.com/recipe/250491/turkey-taco-bowls/",
+    "domain": "eatingwell.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Turkey and Kale Noodle Bowl source because it provides the closest validated turkey and bowl/noodle structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Caribbean",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 30,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "noodles",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0103",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 2.5,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, turkey, and noodles for caribbean turkey noodle bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned turkey and cook it until browned or heated through as appropriate.",
+    "Stir in the noodles, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the caribbean turkey noodle bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1380,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2356.932,
+      "proteinG": 137.97,
+      "carbohydratesG": 196.95,
+      "fatG": 113.106,
+      "fiberG": 13.62,
+      "sugarsG": 4.512,
+      "sodiumMg": 377.946,
+      "potassiumMg": 2343.873,
+      "calciumMg": 327.273,
+      "ironMg": 18.537,
+      "magnesiumMg": 280.2,
+      "vitaminCMg": 24.6
+    },
+    "perServing": {
+      "calories": 589.233,
+      "proteinG": 34.492,
+      "carbohydratesG": 49.237,
+      "fatG": 28.276,
+      "fiberG": 3.405,
+      "sugarsG": 1.128,
+      "sodiumMg": 94.487,
+      "potassiumMg": 585.968,
+      "calciumMg": 81.818,
+      "ironMg": 4.634,
+      "magnesiumMg": 70.05,
+      "vitaminCMg": 6.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.71,
+    "perServingUsd": 1.18,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-03-23T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.hellofresh.ca/recipes/caribbean-inspired-turkey-bowls-641912834bb622fea6034be9",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.I_JbYTDWme3WrME9R8tvewHaE8&pid=15.1",
+    "discoveredOriginalUrl": "https://img.hellofresh.com/hellofresh_s3/image/bols-de-dinde-dinspiration-caribeenne-187a3296.jpg",
+    "searchQuery": "Caribbean Turkey Noodle Bowl plated recipe food",
+    "searchResultTitle": "Caribbean-Inspired Turkey Bowls Recipe | HelloFresh",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:14:52.289Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1237",
+    "name": "Caribbean Turkey Noodle Bowl",
+    "description": "Caribbean Turkey Noodle Bowl is a practical main meal adaptation built around turkey, noodles, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 589.233,
+      "proteinG": 34.492,
+      "carbohydratesG": 49.237,
+      "fatG": 28.276,
+      "fiberG": 3.405,
+      "sugarsG": 1.128,
+      "sodiumMg": 94.487,
+      "potassiumMg": 585.968,
+      "calciumMg": 81.818,
+      "ironMg": 4.634,
+      "magnesiumMg": 70.05,
+      "vitaminCMg": 6.15
+    },
+    "estimatedCostPerServingUsd": 1.18,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

@@ -1,0 +1,238 @@
+{
+  "seedId": "REC-0575",
+  "candidate": {
+    "sequence": 848,
+    "seedId": "REC-CAND-0848",
+    "name": "Buffalo Lentil Stir-Fry"
+  },
+  "name": "Buffalo Lentil Stir-Fry",
+  "description": "Buffalo Lentil Stir-Fry is a practical stovetop recipe pairing lentils with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://cookieandkate.com/best-lentil-soup-recipe/",
+    "domain": "cookieandkate.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Tomato Lentil Spinach Soup source while retaining its closest matching dish form, cooking sequence, and applicable lentils or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 50,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups dry lentils",
+      "normalizedQuantity": 384,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 2.5,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans diced tomatoes",
+      "normalizedQuantity": 822.136,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "large",
+      "sourceDisplay": "1 large onion",
+      "normalizedQuantity": 200,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 12,
+      "sourceUnit": "oz",
+      "sourceDisplay": "12 oz spinach",
+      "normalizedQuantity": 340.194,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp olive oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lentils, and legumes for buffalo lentil stir-fry.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lentils and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the buffalo lentil stir-fry, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2304.811,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1839.897,
+      "proteinG": 117.437,
+      "carbohydratesG": 311.406,
+      "fatG": 25.033,
+      "fiberG": 57.857,
+      "sugarsG": 10.856,
+      "sodiumMg": 1424.797,
+      "potassiumMg": 5998.067,
+      "calciumMg": 899.538,
+      "ironMg": 38.542,
+      "magnesiumMg": 551.025,
+      "vitaminCMg": 57.135
+    },
+    "perServing": {
+      "calories": 459.974,
+      "proteinG": 29.359,
+      "carbohydratesG": 77.852,
+      "fatG": 6.258,
+      "fiberG": 14.464,
+      "sugarsG": 2.714,
+      "sodiumMg": 356.199,
+      "potassiumMg": 1499.517,
+      "calciumMg": 224.885,
+      "ironMg": 9.636,
+      "magnesiumMg": 137.756,
+      "vitaminCMg": 14.284
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.65,
+    "perServingUsd": 1.41,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-06-06T15:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://wealleattexas.com/low-fod-map-recipes/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.PglhCQU5oBUHNH4L8l8hBAHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://wealleattexas.com/wp-content/uploads/2025/11/Lentil-and-Vegetable-Stir-Fry.jpg",
+    "searchQuery": "Buffalo Lentil Stir-Fry plated recipe food",
+    "searchResultTitle": "35 Delicious Low FODMAP Recipes for Sensitive Stomachs - We All Eat Texas",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:55:04.857Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0575",
+    "name": "Buffalo Lentil Stir-Fry",
+    "description": "Buffalo Lentil Stir-Fry is a practical stovetop recipe pairing lentils with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 459.974,
+      "proteinG": 29.359,
+      "carbohydratesG": 77.852,
+      "fatG": 6.258,
+      "fiberG": 14.464,
+      "sugarsG": 2.714,
+      "sodiumMg": 356.199,
+      "potassiumMg": 1499.517,
+      "calciumMg": 224.885,
+      "ironMg": 9.636,
+      "magnesiumMg": 137.756,
+      "vitaminCMg": 14.284
+    },
+    "estimatedCostPerServingUsd": 1.41,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

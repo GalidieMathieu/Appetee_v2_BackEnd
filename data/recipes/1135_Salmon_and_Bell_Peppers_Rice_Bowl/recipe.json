@@ -1,0 +1,236 @@
+{
+  "seedId": "REC-1135",
+  "candidate": {
+    "sequence": 1900,
+    "seedId": "REC-CAND-1900",
+    "name": "Salmon and Bell Peppers Rice Bowl"
+  },
+  "name": "Salmon and Bell Peppers Rice Bowl",
+  "description": "Salmon and Bell Peppers Rice Bowl is a practical stovetop recipe pairing salmon with rice and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.kikkoman.com/en/culture/foodforum/japanese-ways-of-cooking/40-2.html",
+    "domain": "kikkoman.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Japanese Salmon Rice Bowls source while retaining its closest matching dish form, cooking sequence, and applicable salmon or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Japan",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "salmon",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0011",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb salmon",
+      "normalizedQuantity": 680.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups dry rice",
+      "normalizedQuantity": 277.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0050",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups shelled edamame",
+      "normalizedQuantity": 310,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups spinach",
+      "normalizedQuantity": 170,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 3,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "3 tbsp soy sauce",
+      "normalizedQuantity": 45,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, salmon, and rice for salmon and bell peppers rice bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned salmon and cook it until browned or heated through as appropriate.",
+    "Stir in the rice, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the salmon and bell peppers rice bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2434.8,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2489.549,
+      "proteinG": 210.572,
+      "carbohydratesG": 305.039,
+      "fatG": 49.85,
+      "fiberG": 32.956,
+      "sugarsG": 21.752,
+      "sodiumMg": 3539.312,
+      "potassiumMg": 6267.266,
+      "calciumMg": 575.68,
+      "ironMg": 15.87,
+      "magnesiumMg": 679.224,
+      "vitaminCMg": 452.7
+    },
+    "perServing": {
+      "calories": 622.387,
+      "proteinG": 52.643,
+      "carbohydratesG": 76.26,
+      "fatG": 12.463,
+      "fiberG": 8.239,
+      "sugarsG": 5.438,
+      "sodiumMg": 884.828,
+      "potassiumMg": 1566.816,
+      "calciumMg": 143.92,
+      "ironMg": 3.967,
+      "magnesiumMg": 169.806,
+      "vitaminCMg": 113.175
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 16.67,
+    "perServingUsd": 4.17,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Quick Meal"
+  ],
+  "createdAt": "2028-10-16T23:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://foreignfoodflog.com/2020/11/26/sugar-glazed-salmon-fillets-with-rice-sauteed-bell-peppers/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.qtO2X8_cHHS5SiCegk4oMAHaFj&pid=15.1",
+    "discoveredOriginalUrl": "https://foreignfoodflog.com/wp-content/uploads/2020/12/IMG-20201201-WA0008.jpg",
+    "searchQuery": "Salmon and Bell Peppers Rice Bowl plated recipe food",
+    "searchResultTitle": "Sugar-glazed Salmon fillets with Rice & sauteed Bell Peppers – Foreign ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:23:50.236Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1135",
+    "name": "Salmon and Bell Peppers Rice Bowl",
+    "description": "Salmon and Bell Peppers Rice Bowl is a practical stovetop recipe pairing salmon with rice and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 622.387,
+      "proteinG": 52.643,
+      "carbohydratesG": 76.26,
+      "fatG": 12.463,
+      "fiberG": 8.239,
+      "sugarsG": 5.438,
+      "sodiumMg": 884.828,
+      "potassiumMg": 1566.816,
+      "calciumMg": 143.92,
+      "ironMg": 3.967,
+      "magnesiumMg": 169.806,
+      "vitaminCMg": 113.175
+    },
+    "estimatedCostPerServingUsd": 4.17,
+    "diets": [
+      "Pescatarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Quick Meal"
+    ]
+  }
+}

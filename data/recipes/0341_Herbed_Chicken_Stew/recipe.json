@@ -1,0 +1,252 @@
+{
+  "seedId": "REC-0341",
+  "candidate": {
+    "sequence": 417,
+    "seedId": "REC-CAND-0417",
+    "name": "Herbed Chicken Stew"
+  },
+  "name": "Herbed Chicken Stew",
+  "description": "Herbed Chicken Stew is a practical stovetop recipe pairing chicken with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.whats4eats.com/soups/hkatenkwan-groundnut-stew-recipe",
+    "domain": "whats4eats.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Ghanaian Groundnut Chicken Stew source while retaining its closest matching dish form, cooking sequence, and applicable chicken or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Ghana",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0036",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0032",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chicken, and vegetables for herbed chicken stew.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chicken and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the herbed chicken stew, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 2016,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3537.422,
+      "proteinG": 330.454,
+      "carbohydratesG": 112.9,
+      "fatG": 213.891,
+      "fiberG": 31.855,
+      "sugarsG": 25.752,
+      "sodiumMg": 3459.566,
+      "potassiumMg": 7255.243,
+      "calciumMg": 473.523,
+      "ironMg": 16.754,
+      "magnesiumMg": 860.852,
+      "vitaminCMg": 34.348
+    },
+    "perServing": {
+      "calories": 884.356,
+      "proteinG": 82.614,
+      "carbohydratesG": 28.225,
+      "fatG": 53.473,
+      "fiberG": 7.964,
+      "sugarsG": 6.438,
+      "sodiumMg": 864.891,
+      "potassiumMg": 1813.811,
+      "calciumMg": 118.381,
+      "ironMg": 4.189,
+      "magnesiumMg": 215.213,
+      "vitaminCMg": 8.587
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 15.05,
+    "perServingUsd": 3.76,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Carb",
+    "High Fiber",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2025-06-10T21:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://therecipecookbook.com/simple-chicken-stew-recipes-easy/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.o0s3ZqEeaUym8_m7sSjqsAHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://therecipecookbook.com/wp-content/uploads/2026/04/Classic-Herbed-Chicken-Stew.jpg",
+    "searchQuery": "Herbed Chicken Stew plated recipe food",
+    "searchResultTitle": "33 Effortless Chicken Stew Creations for Cozy Weeknight Comfort - The ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:42:19.636Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0341",
+    "name": "Herbed Chicken Stew",
+    "description": "Herbed Chicken Stew is a practical stovetop recipe pairing chicken with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 884.356,
+      "proteinG": 82.614,
+      "carbohydratesG": 28.225,
+      "fatG": 53.473,
+      "fiberG": 7.964,
+      "sugarsG": 6.438,
+      "sodiumMg": 864.891,
+      "potassiumMg": 1813.811,
+      "calciumMg": 118.381,
+      "ironMg": 4.189,
+      "magnesiumMg": 215.213,
+      "vitaminCMg": 8.587
+    },
+    "estimatedCostPerServingUsd": 3.76,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Carb",
+      "High Fiber",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "seedId": "REC-0517",
+  "candidate": {
+    "sequence": 733,
+    "seedId": "REC-CAND-0733",
+    "name": "Buffalo Turkey Skillet"
+  },
+  "name": "Buffalo Turkey Skillet",
+  "description": "Buffalo Turkey Skillet is a practical stovetop recipe pairing turkey with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://broccyourbody.com/one-pan-italian-orzo-skillet/",
+    "domain": "broccyourbody.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Turkey and Kale Orzo Skillet source while retaining its closest matching dish form, cooking sequence, and applicable turkey or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 50,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0097",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0098",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, turkey, and vegetables for buffalo turkey skillet.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned turkey and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the buffalo turkey skillet, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1752,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2313.33,
+      "proteinG": 149.596,
+      "carbohydratesG": 242.058,
+      "fatG": 86.602,
+      "fiberG": 28.783,
+      "sugarsG": 10.228,
+      "sodiumMg": 1169.22,
+      "potassiumMg": 4435.77,
+      "calciumMg": 1236.61,
+      "ironMg": 25.773,
+      "magnesiumMg": 427.052,
+      "vitaminCMg": 309.544
+    },
+    "perServing": {
+      "calories": 578.332,
+      "proteinG": 37.399,
+      "carbohydratesG": 60.514,
+      "fatG": 21.651,
+      "fiberG": 7.196,
+      "sugarsG": 2.557,
+      "sodiumMg": 292.305,
+      "potassiumMg": 1108.943,
+      "calciumMg": 309.152,
+      "ironMg": 6.443,
+      "magnesiumMg": 106.763,
+      "vitaminCMg": 77.386
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.57,
+    "perServingUsd": 1.89,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-03-09T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://fooddrinklife.com/recipes-for-when-you-forgot-to-plan-dinner/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.FoLawYejHs3N2xh9z2oNWgHaEo&pid=15.1",
+    "discoveredOriginalUrl": "https://fooddrinklife.com/wp-content/uploads/2023/03/buffalo-turkey-skillet-landscape-1.jpg",
+    "searchQuery": "Buffalo Turkey Skillet plated recipe food",
+    "searchResultTitle": "21 Recipes That Save You When You Forgot To Plan Dinner",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:52:02.511Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0517",
+    "name": "Buffalo Turkey Skillet",
+    "description": "Buffalo Turkey Skillet is a practical stovetop recipe pairing turkey with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 578.332,
+      "proteinG": 37.399,
+      "carbohydratesG": 60.514,
+      "fatG": 21.651,
+      "fiberG": 7.196,
+      "sugarsG": 2.557,
+      "sodiumMg": 292.305,
+      "potassiumMg": 1108.943,
+      "calciumMg": 309.152,
+      "ironMg": 6.443,
+      "magnesiumMg": 106.763,
+      "vitaminCMg": 77.386
+    },
+    "estimatedCostPerServingUsd": 1.89,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

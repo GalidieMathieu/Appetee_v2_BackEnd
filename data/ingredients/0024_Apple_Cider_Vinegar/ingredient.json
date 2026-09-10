@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0024",
+  "name": "Apple Cider Vinegar",
+  "canonicalName": "Apple Cider Vinegar",
+  "description": "Apple cider vinegar diluted to standard table strength.",
+  "measurementType": "liquid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Apple Cider Vinegar, 32 fl oz",
+    "productId": "10451000",
+    "productUrl": "https://www.walmart.com/ip/10451000",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 2.48,
+    "packageQuantity": 946.353,
+    "packageUnit": "ml",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "ml",
+    "values": {
+      "calories": 21.21,
+      "proteinG": 0,
+      "carbohydratesG": 0.939,
+      "fatG": 0,
+      "fiberG": 0,
+      "sugarsG": 0.404,
+      "sodiumMg": 5.05,
+      "potassiumMg": 73.73,
+      "calciumMg": 7.07,
+      "ironMg": 0.202,
+      "magnesiumMg": 5.05,
+      "vitaminCMg": 0
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "ml",
+    "usdPerBasis": 0.2621
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 173469,
+      "dataType": "SR Legacy",
+      "description": "Vinegar, cider",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/173469/nutrients",
+      "searchQuery": "vinegar cider",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": 1.01,
+    "notes": "USDA per-100-g values are converted with a 1.01 g/ml density."
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.vecteezy.com/photo/57795596-fresh-apple-and-homemade-cider-vinegar-on-white-close-up",
+    "originalSourceUrl": "https://static.vecteezy.com/system/resources/previews/057/795/596/non_2x/fresh-apple-and-homemade-cider-vinegar-on-white-close-up-photo.jpeg",
+    "searchQuery": "Apple Cider Vinegar ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0024",
+    "name": "Apple Cider Vinegar",
+    "description": "Apple cider vinegar diluted to standard table strength.",
+    "measurement": {
+      "type": "liquid",
+      "basisQuantity": 100,
+      "basisUnit": "ml"
+    },
+    "nutrition": {
+      "calories": 21.21,
+      "proteinG": 0,
+      "carbohydratesG": 0.939,
+      "fatG": 0,
+      "fiberG": 0,
+      "sugarsG": 0.404,
+      "sodiumMg": 5.05,
+      "potassiumMg": 73.73,
+      "calciumMg": 7.07,
+      "ironMg": 0.202,
+      "magnesiumMg": 5.05,
+      "vitaminCMg": 0
+    },
+    "price": {
+      "usdPerBasis": 0.2621,
+      "basisQuantity": 100,
+      "basisUnit": "ml"
+    },
+    "image": "ingredients/0024_Apple_Cider_Vinegar/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

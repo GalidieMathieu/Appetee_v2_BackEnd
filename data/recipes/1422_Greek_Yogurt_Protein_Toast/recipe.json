@@ -1,0 +1,206 @@
+{
+  "seedId": "REC-1422",
+  "candidate": {
+    "sequence": 2219,
+    "seedId": "REC-CAND-2219",
+    "name": "Greek Yogurt Protein Toast"
+  },
+  "name": "Greek Yogurt Protein Toast",
+  "description": "Greek Yogurt Protein Toast is a practical small meal adaptation built around Greek yogurt, bread, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/cottage-cheese-and-tomato-on-toast-203178",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Cottage Cheese Tomato Toast source because it provides the closest validated dairy and toast structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Greece",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 5,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Breakfast",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Toaster",
+  "primaryProtein": "Greek yogurt",
+  "carbohydrateBase": "bread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0051",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for greek yogurt protein toast.",
+    "Toast the bread until crisp enough to support the toppings.",
+    "Combine the Greek yogurt with the bread and remaining ingredients in the intended small meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the greek yogurt protein toast into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1230,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1375.332,
+      "proteinG": 73.59,
+      "carbohydratesG": 192.69,
+      "fatG": 40.02,
+      "fiberG": 32.1,
+      "sugarsG": 30.24,
+      "sodiumMg": 1482.546,
+      "potassiumMg": 2145.273,
+      "calciumMg": 936.273,
+      "ironMg": 10.413,
+      "magnesiumMg": 309,
+      "vitaminCMg": 183.6
+    },
+    "perServing": {
+      "calories": 343.833,
+      "proteinG": 18.398,
+      "carbohydratesG": 48.172,
+      "fatG": 10.005,
+      "fiberG": 8.025,
+      "sugarsG": 7.56,
+      "sodiumMg": 370.637,
+      "potassiumMg": 536.318,
+      "calciumMg": 234.068,
+      "ironMg": 2.603,
+      "magnesiumMg": 77.25,
+      "vitaminCMg": 45.9
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.54,
+    "perServingUsd": 1.14,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-01-02T10:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse2.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://feelgoodfoodie.net/recipe/fruit-yogurt-parfait/",
+    "originalSourceUrl": "https://tse2.mm.bing.net/th/id/OIP.r3_1irfe7_DUzWcagn-lqgHaLG?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://feelgoodfoodie.net/wp-content/uploads/2021/05/fruit-and-yogurt-parfait-08.jpg",
+    "searchQuery": "fruit yogurt parfait dessert cup food photograph",
+    "searchResultTitle": "Fruit & Yogurt Parfaits {With Granola} - FeelGoodFoodie",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:25:36.180Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1422",
+    "name": "Greek Yogurt Protein Toast",
+    "description": "Greek Yogurt Protein Toast is a practical small meal adaptation built around Greek yogurt, bread, and title-specific supporting ingredients.",
+    "mealType": "Breakfast",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 343.833,
+      "proteinG": 18.398,
+      "carbohydratesG": 48.172,
+      "fatG": 10.005,
+      "fiberG": 8.025,
+      "sugarsG": 7.56,
+      "sodiumMg": 370.637,
+      "potassiumMg": 536.318,
+      "calciumMg": 234.068,
+      "ironMg": 2.603,
+      "magnesiumMg": 77.25,
+      "vitaminCMg": 45.9
+    },
+    "estimatedCostPerServingUsd": 1.14,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "seedId": "REC-0876",
+  "candidate": {
+    "sequence": 1427,
+    "seedId": "REC-CAND-1427",
+    "name": "Herbed Black Bean with Tomatoes"
+  },
+  "name": "Herbed Black Bean with Tomatoes",
+  "description": "Herbed Black Bean with Tomatoes is a practical stovetop recipe pairing black beans with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.food.com/recipe/black-bean-avocado-quinoa-wrap-516928",
+    "domain": "food.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Black Bean Quinoa Wraps source while retaining its closest matching dish form, cooking sequence, and applicable black beans or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 40,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "black beans",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 4,
+      "sourceUnit": "tortillas",
+      "sourceDisplay": "4 whole-wheat tortillas",
+      "normalizedQuantity": 181.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can black beans, drained",
+      "normalizedQuantity": 260,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 0.75,
+      "sourceUnit": "cup",
+      "sourceDisplay": "¾ cup dry quinoa",
+      "normalizedQuantity": 127.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup corn",
+      "normalizedQuantity": 165,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup spinach",
+      "normalizedQuantity": 85,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 0.75,
+      "sourceUnit": "cup",
+      "sourceDisplay": "¾ cup salsa",
+      "normalizedQuantity": 195,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, black beans, and legumes for herbed black bean with tomatoes.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned black beans and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the herbed black bean with tomatoes, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1886.9,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1742.18,
+      "proteinG": 70.715,
+      "carbohydratesG": 308.371,
+      "fatG": 31.711,
+      "fiberG": 46.7,
+      "sugarsG": 18.168,
+      "sodiumMg": 3057.833,
+      "potassiumMg": 4432.293,
+      "calciumMg": 936.031,
+      "ironMg": 20.985,
+      "magnesiumMg": 711.125,
+      "vitaminCMg": 85.87
+    },
+    "perServing": {
+      "calories": 435.545,
+      "proteinG": 17.679,
+      "carbohydratesG": 77.093,
+      "fatG": 7.928,
+      "fiberG": 11.675,
+      "sugarsG": 4.542,
+      "sodiumMg": 764.458,
+      "potassiumMg": 1108.073,
+      "calciumMg": 234.008,
+      "ironMg": 5.246,
+      "magnesiumMg": 177.781,
+      "vitaminCMg": 21.468
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 9.59,
+    "perServingUsd": 2.4,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-09-13T16:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://diabetesfoodhub.org/recipes/black-beans-and-tomatoes-lime",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.i-AWQOF6qAM4titpfcq6AwHaF7&pid=15.1",
+    "discoveredOriginalUrl": "https://diabetesfoodhub.org/sites/foodhub/files/styles/recipe_hero_banner_720w/public/RecId_620_CarbControl_BlackBeanLime__022518.jpg?h=5ed6c3d3&itok=hsppJ1vQ",
+    "searchQuery": "Herbed Black Bean with Tomatoes plated recipe food",
+    "searchResultTitle": "Black Beans And Tomatoes With Lime | American Diabetes Association",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:10:22.981Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0876",
+    "name": "Herbed Black Bean with Tomatoes",
+    "description": "Herbed Black Bean with Tomatoes is a practical stovetop recipe pairing black beans with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 435.545,
+      "proteinG": 17.679,
+      "carbohydratesG": 77.093,
+      "fatG": 7.928,
+      "fiberG": 11.675,
+      "sugarsG": 4.542,
+      "sodiumMg": 764.458,
+      "potassiumMg": 1108.073,
+      "calciumMg": 234.008,
+      "ironMg": 5.246,
+      "magnesiumMg": 177.781,
+      "vitaminCMg": 21.468
+    },
+    "estimatedCostPerServingUsd": 2.4,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

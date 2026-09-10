@@ -1,0 +1,202 @@
+{
+  "seedId": "REC-1496",
+  "candidate": {
+    "sequence": 2293,
+    "seedId": "REC-CAND-2293",
+    "name": "Berry Hummus Cups"
+  },
+  "name": "Berry Hummus Cups",
+  "description": "Berry Hummus Cups is a practical snack adaptation built around berries, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.oldelpaso.co.uk/recipes/black-bean-and-corn-tortilla-cups",
+    "domain": "oldelpaso.co.uk",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Black Bean Salsa Tortilla Cups source because it provides the closest validated fruit and cups structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "berries",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0034",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for berry hummus cups.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the berries with the legumes and remaining ingredients in the intended snack form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the berry hummus cups into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1030,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1016.332,
+      "proteinG": 31.98,
+      "carbohydratesG": 143.22,
+      "fatG": 38.86,
+      "fiberG": 37.6,
+      "sugarsG": 29.72,
+      "sodiumMg": 993.546,
+      "potassiumMg": 1494.273,
+      "calciumMg": 273.273,
+      "ironMg": 7.523,
+      "magnesiumMg": 164,
+      "vitaminCMg": 148.6
+    },
+    "perServing": {
+      "calories": 254.083,
+      "proteinG": 7.995,
+      "carbohydratesG": 35.805,
+      "fatG": 9.715,
+      "fiberG": 9.4,
+      "sugarsG": 7.43,
+      "sodiumMg": 248.387,
+      "potassiumMg": 373.568,
+      "calciumMg": 68.318,
+      "ironMg": 1.881,
+      "magnesiumMg": 41,
+      "vitaminCMg": 37.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.71,
+    "perServingUsd": 0.93,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-04-26T12:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://hopeandhummus.com/paleo-vegan-berry-coconut-cups/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.A4CzOXBkV9XcqHPe4RF60wHaJ4&pid=15.1",
+    "discoveredOriginalUrl": "https://hopeandhummus.com/wp-content/uploads/2025/03/berrycoconutcup1-768x1024.jpg",
+    "searchQuery": "Berry Hummus Cups plated recipe food",
+    "searchResultTitle": "Paleo & Vegan Berry Coconut Cups - Hope and Hummus",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:53:55.445Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1496",
+    "name": "Berry Hummus Cups",
+    "description": "Berry Hummus Cups is a practical snack adaptation built around berries, legumes, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 254.083,
+      "proteinG": 7.995,
+      "carbohydratesG": 35.805,
+      "fatG": 9.715,
+      "fiberG": 9.4,
+      "sugarsG": 7.43,
+      "sodiumMg": 248.387,
+      "potassiumMg": 373.568,
+      "calciumMg": 68.318,
+      "ironMg": 1.881,
+      "magnesiumMg": 41,
+      "vitaminCMg": 37.15
+    },
+    "estimatedCostPerServingUsd": 0.93,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

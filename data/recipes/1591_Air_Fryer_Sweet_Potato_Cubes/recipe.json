@@ -1,0 +1,192 @@
+{
+  "seedId": "REC-1591",
+  "candidate": {
+    "sequence": 2389,
+    "seedId": "REC-CAND-2389",
+    "name": "Air Fryer Sweet Potato Cubes"
+  },
+  "name": "Air Fryer Sweet Potato Cubes",
+  "description": "Air Fryer Sweet Potato Cubes is a practical meal component adaptation built around vegetables, sweet potato, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://cheneetoday.com/air-fryer-sweet-potato-chunks/",
+    "domain": "cheneetoday.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Air Fryer Sweet Potato Chunks source because it provides the closest validated sweet potato structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Meal Component",
+  "cookingMethod": "Air Fryer",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "sweet potato",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0007",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for air fryer sweet potato cubes and preheat the air fryer.",
+    "Coat the vegetables and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the sweet potato and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the air fryer sweet potato cubes briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 829.332,
+      "proteinG": 13.65,
+      "carbohydratesG": 132.03,
+      "fatG": 28.815,
+      "sodiumMg": 18.546,
+      "potassiumMg": 3255.273,
+      "calciumMg": 151.173,
+      "ironMg": 4.767,
+      "magnesiumMg": 153.3,
+      "vitaminCMg": 86.1,
+      "fiberG": 9.6,
+      "sugarsG": 1.86
+    },
+    "perServing": {
+      "calories": 207.333,
+      "proteinG": 3.413,
+      "carbohydratesG": 33.008,
+      "fatG": 7.204,
+      "sodiumMg": 4.636,
+      "potassiumMg": 813.818,
+      "calciumMg": 37.793,
+      "ironMg": 1.192,
+      "magnesiumMg": 38.325,
+      "vitaminCMg": 21.525,
+      "fiberG": 2.4,
+      "sugarsG": 0.465
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.32,
+    "perServingUsd": 0.58,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-09-19T23:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "cheneetoday.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://cheneetoday.com/air-fryer-sweet-potato-chunks/",
+    "originalSourceUrl": "https://cheneetoday.com/wp-content/uploads/2021/11/air-fryer-sweet-potato-chunks.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:09:21.839Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1591",
+    "name": "Air Fryer Sweet Potato Cubes",
+    "description": "Air Fryer Sweet Potato Cubes is a practical meal component adaptation built around vegetables, sweet potato, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Meal Component",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 207.333,
+      "proteinG": 3.413,
+      "carbohydratesG": 33.008,
+      "fatG": 7.204,
+      "sodiumMg": 4.636,
+      "potassiumMg": 813.818,
+      "calciumMg": 37.793,
+      "ironMg": 1.192,
+      "magnesiumMg": 38.325,
+      "vitaminCMg": 21.525,
+      "fiberG": 2.4,
+      "sugarsG": 0.465
+    },
+    "estimatedCostPerServingUsd": 0.58,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

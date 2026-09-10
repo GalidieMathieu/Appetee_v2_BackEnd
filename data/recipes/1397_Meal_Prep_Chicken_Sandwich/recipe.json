@@ -1,0 +1,200 @@
+{
+  "seedId": "REC-1397",
+  "candidate": {
+    "sequence": 2191,
+    "seedId": "REC-CAND-2191",
+    "name": "Meal Prep Chicken Sandwich"
+  },
+  "name": "Meal Prep Chicken Sandwich",
+  "description": "Meal Prep Chicken Sandwich is a practical small meal adaptation built around chicken, bread, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/cottage-cheese-and-tomato-on-toast-203178",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Cottage Cheese Tomato Toast source because it provides the closest validated chicken and sandwich structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Breakfast",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "bread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0051",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for meal prep chicken sandwich.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the chicken with the bread and remaining ingredients in the intended small meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the meal prep chicken sandwich into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1080,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1747.332,
+      "proteinG": 174.69,
+      "carbohydratesG": 153.93,
+      "fatG": 49.53,
+      "sodiumMg": 1763.346,
+      "potassiumMg": 3288.273,
+      "calciumMg": 551.913,
+      "ironMg": 10.527,
+      "magnesiumMg": 409.2,
+      "fiberG": 23.7,
+      "sugarsG": 13.02,
+      "vitaminCMg": 24.6
+    },
+    "perServing": {
+      "calories": 436.833,
+      "proteinG": 43.672,
+      "carbohydratesG": 38.483,
+      "fatG": 12.383,
+      "sodiumMg": 440.837,
+      "potassiumMg": 822.068,
+      "calciumMg": 137.978,
+      "ironMg": 2.632,
+      "magnesiumMg": 102.3,
+      "fiberG": 5.925,
+      "sugarsG": 3.255,
+      "vitaminCMg": 6.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.06,
+    "perServingUsd": 1.51,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-11-24T21:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.kitchenathoskins.com/instant-pot-chicken-parmesan-sandwich-meal-prep/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.evXM00VfUT87eqqCOHx5RQHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://www.kitchenathoskins.com/wp-content/uploads/2019/02/instant-pot-chicken-parmesan-sandwich-meal-prep-2@YUM-1024x1024.jpg",
+    "searchQuery": "Meal Prep Chicken Sandwich plated recipe food",
+    "searchResultTitle": "Instant Pot Chicken Parmesan Sandwich Meal Prep | KITCHEN @ HOSKINS",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:52:57.636Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1397",
+    "name": "Meal Prep Chicken Sandwich",
+    "description": "Meal Prep Chicken Sandwich is a practical small meal adaptation built around chicken, bread, and title-specific supporting ingredients.",
+    "mealType": "Breakfast",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 436.833,
+      "proteinG": 43.672,
+      "carbohydratesG": 38.483,
+      "fatG": 12.383,
+      "sodiumMg": 440.837,
+      "potassiumMg": 822.068,
+      "calciumMg": 137.978,
+      "ironMg": 2.632,
+      "magnesiumMg": 102.3,
+      "fiberG": 5.925,
+      "sugarsG": 3.255,
+      "vitaminCMg": 6.15
+    },
+    "estimatedCostPerServingUsd": 1.51,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

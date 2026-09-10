@@ -1,0 +1,198 @@
+{
+  "seedId": "REC-1653",
+  "candidate": {
+    "sequence": 2452,
+    "seedId": "REC-CAND-2452",
+    "name": "Berry Frozen Bites"
+  },
+  "name": "Berry Frozen Bites",
+  "description": "Berry Frozen Bites is a practical dessert adaptation built around berries, fruit, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.visitaruba.com/aruba-recipes/banana-den-forno/",
+    "domain": "visitaruba.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Aruban Baked Cinnamon Bananas source because it provides the closest validated fruit and bites structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Aruba",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 120,
+    "totalMinutes": 130
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "Freezer",
+  "primaryProtein": "berries",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0034",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0057",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for berry frozen bites.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the berries with the fruit and remaining ingredients in the intended dessert form.",
+    "Arrange the mixture in an even layer and freeze until firm.",
+    "Divide the berry frozen bites into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 630,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1272.946,
+      "proteinG": 33.166,
+      "carbohydratesG": 242.632,
+      "fatG": 15.994,
+      "fiberG": 30.66,
+      "sugarsG": 68.639,
+      "sodiumMg": 25.173,
+      "potassiumMg": 1383.028,
+      "calciumMg": 179.301,
+      "ironMg": 12.733,
+      "magnesiumMg": 368.564,
+      "vitaminCMg": 123.9
+    },
+    "perServing": {
+      "calories": 318.236,
+      "proteinG": 8.291,
+      "carbohydratesG": 60.658,
+      "fatG": 3.998,
+      "fiberG": 7.665,
+      "sugarsG": 17.16,
+      "sodiumMg": 6.293,
+      "potassiumMg": 345.757,
+      "calciumMg": 44.825,
+      "ironMg": 3.183,
+      "magnesiumMg": 92.141,
+      "vitaminCMg": 30.975
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.84,
+    "perServingUsd": 1.71,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-12-24T13:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "www.treatsavvy.com",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.treatsavvy.com/berry-coconut-oat-energy-bites/",
+    "originalSourceUrl": "https://www.treatsavvy.com/wp-content/uploads/2026/04/QRo10U7aQtir4L5jbKNDtw@2k.webp",
+    "discoveredOriginalUrl": "https://www.treatsavvy.com/wp-content/uploads/2026/04/QRo10U7aQtir4L5jbKNDtw@2k.webp",
+    "searchQuery": "berry healthy oat energy bites dessert food photograph",
+    "searchResultTitle": "The Ultimate Guide to Berry Coconut Oat Energy Bites - Treat Savvy",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:28.663Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1653",
+    "name": "Berry Frozen Bites",
+    "description": "Berry Frozen Bites is a practical dessert adaptation built around berries, fruit, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 130,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 318.236,
+      "proteinG": 8.291,
+      "carbohydratesG": 60.658,
+      "fatG": 3.998,
+      "fiberG": 7.665,
+      "sugarsG": 17.16,
+      "sodiumMg": 6.293,
+      "potassiumMg": 345.757,
+      "calciumMg": 44.825,
+      "ironMg": 3.183,
+      "magnesiumMg": 92.141,
+      "vitaminCMg": 30.975
+    },
+    "estimatedCostPerServingUsd": 1.71,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

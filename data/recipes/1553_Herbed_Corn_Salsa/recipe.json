@@ -1,0 +1,198 @@
+{
+  "seedId": "REC-1553",
+  "candidate": {
+    "sequence": 2351,
+    "seedId": "REC-CAND-2351",
+    "name": "Herbed Corn Salsa"
+  },
+  "name": "Herbed Corn Salsa",
+  "description": "Herbed Corn Salsa is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://simplybakings.com/grilled-eggplant-with-coconut-milk/",
+    "domain": "simplybakings.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Filipino Grilled Eggplant with Coconut Milk source because it provides the closest validated salsa structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Philippines",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "totalMinutes": 20
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Side",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for herbed corn salsa.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the vegetables with the vegetables and remaining ingredients in the intended side form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the herbed corn salsa into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 350,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 521.282,
+      "proteinG": 9.934,
+      "carbohydratesG": 65.395,
+      "fatG": 29.659,
+      "fiberG": 8.85,
+      "sugarsG": 9.723,
+      "sodiumMg": 28.696,
+      "potassiumMg": 893.423,
+      "calciumMg": 93.423,
+      "ironMg": 2.918,
+      "magnesiumMg": 107.75,
+      "vitaminCMg": 21.43
+    },
+    "perServing": {
+      "calories": 130.321,
+      "proteinG": 2.483,
+      "carbohydratesG": 16.349,
+      "fatG": 7.415,
+      "fiberG": 2.212,
+      "sugarsG": 2.431,
+      "sodiumMg": 7.174,
+      "potassiumMg": 223.356,
+      "calciumMg": 23.356,
+      "ironMg": 0.73,
+      "magnesiumMg": 26.938,
+      "vitaminCMg": 5.357
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.15,
+    "perServingUsd": 0.54,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-07-23T09:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/coffee-crusted-strip-steak-with-herbed-corn-salsa--290552613479195972/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.6nReUWbsK9uSQ7o-_0LojQHaJr&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/20/dc/d8/20dcd8c6bac6a44d6d1edd9e702ced91.jpg",
+    "searchQuery": "Herbed Corn Salsa plated recipe food",
+    "searchResultTitle": "Coffee Crusted Strip Steak with Herbed Corn Salsa. | Recipe | Corn ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:55:24.730Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1553",
+    "name": "Herbed Corn Salsa",
+    "description": "Herbed Corn Salsa is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 130.321,
+      "proteinG": 2.483,
+      "carbohydratesG": 16.349,
+      "fatG": 7.415,
+      "fiberG": 2.212,
+      "sugarsG": 2.431,
+      "sodiumMg": 7.174,
+      "potassiumMg": 223.356,
+      "calciumMg": 23.356,
+      "ironMg": 0.73,
+      "magnesiumMg": 26.938,
+      "vitaminCMg": 5.357
+    },
+    "estimatedCostPerServingUsd": 0.54,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

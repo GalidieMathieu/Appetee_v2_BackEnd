@@ -1,0 +1,232 @@
+{
+  "seedId": "REC-0437",
+  "candidate": {
+    "sequence": 583,
+    "seedId": "REC-CAND-0583",
+    "name": "Sesame Steak with Cauliflower"
+  },
+  "name": "Sesame Steak with Cauliflower",
+  "description": "Sesame Steak with Cauliflower is a practical stovetop recipe pairing steak with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://panlasangpinoy.com/bistek-tagalog-beefsteak-recipe/",
+    "domain": "panlasangpinoy.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Filipino Bistek source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Philippines",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 50,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "steak",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 1,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1 lb thinly sliced beef",
+      "normalizedQuantity": 453.592,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "5 tbsp soy sauce",
+      "normalizedQuantity": 75,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "juice of 1 lemon",
+      "normalizedQuantity": 58,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 3,
+      "sourceUnit": "cloves",
+      "sourceDisplay": "3 garlic cloves",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 onions, sliced",
+      "normalizedQuantity": 450,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 4,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "4 tbsp olive oil",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0102",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0071",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, steak, and vegetables for sesame steak with cauliflower.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned steak and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the sesame steak with cauliflower, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1277.394,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1630.99,
+      "proteinG": 119.59,
+      "carbohydratesG": 67.445,
+      "fatG": 100.037,
+      "fiberG": 18.085,
+      "sugarsG": 8.608,
+      "sodiumMg": 5111.614,
+      "potassiumMg": 3536.509,
+      "calciumMg": 304.776,
+      "ironMg": 12.353,
+      "magnesiumMg": 253.596,
+      "vitaminCMg": 218.72
+    },
+    "perServing": {
+      "calories": 407.748,
+      "proteinG": 29.898,
+      "carbohydratesG": 16.861,
+      "fatG": 25.009,
+      "fiberG": 4.521,
+      "sugarsG": 2.152,
+      "sodiumMg": 1277.903,
+      "potassiumMg": 884.127,
+      "calciumMg": 76.194,
+      "ironMg": 3.088,
+      "magnesiumMg": 63.399,
+      "vitaminCMg": 54.68
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 18.2,
+    "perServingUsd": 4.55,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Meal Prep"
+  ],
+  "createdAt": "2025-11-05T21:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://nummyrecipes.com/cauliflower-steak-recipes/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.0XQyXqj6srnQRaS0ahP5oQHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://nummyrecipes.com/wp-content/uploads/2025/12/Sesame-Teriyaki-Cauliflower-Steaks.jpg",
+    "searchQuery": "Sesame Steak with Cauliflower plated recipe food",
+    "searchResultTitle": "28 Delicious Cauliflower Steak Flavor Boosts - Nummy Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:47:44.758Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0437",
+    "name": "Sesame Steak with Cauliflower",
+    "description": "Sesame Steak with Cauliflower is a practical stovetop recipe pairing steak with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 407.748,
+      "proteinG": 29.898,
+      "carbohydratesG": 16.861,
+      "fatG": 25.009,
+      "fiberG": 4.521,
+      "sugarsG": 2.152,
+      "sodiumMg": 1277.903,
+      "potassiumMg": 884.127,
+      "calciumMg": 76.194,
+      "ironMg": 3.088,
+      "magnesiumMg": 63.399,
+      "vitaminCMg": 54.68
+    },
+    "estimatedCostPerServingUsd": 4.55,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Meal Prep"
+    ]
+  }
+}

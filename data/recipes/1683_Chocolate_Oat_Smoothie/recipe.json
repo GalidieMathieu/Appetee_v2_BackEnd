@@ -1,0 +1,213 @@
+{
+  "seedId": "REC-1683",
+  "candidate": {
+    "sequence": 2483,
+    "seedId": "REC-CAND-2483",
+    "name": "Chocolate Oat Smoothie"
+  },
+  "name": "Chocolate Oat Smoothie",
+  "description": "Chocolate Oat Smoothie is a practical drink adaptation built around oats, oats, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.oikos.com/greek-yogurt-recipes/smoothies/recipe/berry-banana-smoothie/",
+    "domain": "oikos.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Berry Banana Greek Yogurt Smoothie source because it provides the closest validated grains and smoothie structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "totalMinutes": 20
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Drink",
+  "cookingMethod": "Blender",
+  "primaryProtein": "oats",
+  "carbohydrateBase": "oats",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0105",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0030",
+      "sourceQuantity": 240,
+      "sourceUnit": "ml",
+      "sourceDisplay": "240 ml",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0047",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and chill the ingredients for chocolate oat smoothie.",
+    "Add the liquid ingredients to the blender before the thicker ingredients.",
+    "Blend until the chocolate oat smoothie is completely smooth and evenly combined.",
+    "Adjust the thickness with a small amount of milk and serve immediately."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 965,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1678.55,
+      "proteinG": 94.337,
+      "carbohydratesG": 308.096,
+      "fatG": 38.214,
+      "fiberG": 71.415,
+      "sugarsG": 76.073,
+      "sodiumMg": 266.684,
+      "potassiumMg": 3514.63,
+      "calciumMg": 958.64,
+      "ironMg": 27.808,
+      "magnesiumMg": 994.392,
+      "vitaminCMg": 0.984
+    },
+    "perServing": {
+      "calories": 419.637,
+      "proteinG": 23.584,
+      "carbohydratesG": 77.024,
+      "fatG": 9.553,
+      "fiberG": 17.854,
+      "sugarsG": 19.018,
+      "sodiumMg": 66.671,
+      "potassiumMg": 878.658,
+      "calciumMg": 239.66,
+      "ironMg": 6.952,
+      "magnesiumMg": 248.598,
+      "vitaminCMg": 0.246
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.55,
+    "perServingUsd": 1.39,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly"
+  ],
+  "createdAt": "2031-02-08T19:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://therecipemingle.com/chocolate-oat-smoothie/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.P3fGrA_uFHkx6fUF2UQETQHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://therecipemingle.com/wp-content/uploads/2026/04/chocolate-oat-smoothie-2026-04-25-134938.webp",
+    "searchQuery": "Chocolate Oat Smoothie plated recipe food",
+    "searchResultTitle": "Chocolate Oat Smoothie",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:56:57.900Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1683",
+    "name": "Chocolate Oat Smoothie",
+    "description": "Chocolate Oat Smoothie is a practical drink adaptation built around oats, oats, and title-specific supporting ingredients.",
+    "mealType": "Breakfast",
+    "mealCategory": "Drink",
+    "image": null,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 419.637,
+      "proteinG": 23.584,
+      "carbohydratesG": 77.024,
+      "fatG": 9.553,
+      "fiberG": 17.854,
+      "sugarsG": 19.018,
+      "sodiumMg": 66.671,
+      "potassiumMg": 878.658,
+      "calciumMg": 239.66,
+      "ironMg": 6.952,
+      "magnesiumMg": 248.598,
+      "vitaminCMg": 0.246
+    },
+    "estimatedCostPerServingUsd": 1.39,
+    "diets": [
+      "Vegetarian",
+      "Vegan"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly"
+    ]
+  }
+}

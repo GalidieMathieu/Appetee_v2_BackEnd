@@ -1,0 +1,214 @@
+{
+  "seedId": "REC-0161",
+  "candidate": {
+    "sequence": 53,
+    "seedId": "REC-CAND-0053",
+    "name": "Roasted Lean Beef with Kale"
+  },
+  "name": "Roasted Lean Beef with Kale",
+  "description": "Roasted Lean Beef with Kale combines beef with vegetables and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+  "source": {
+    "url": "https://www.sainsburysmagazine.co.uk/recipes/mains/oregano-roast-beef-with-crispy-kale",
+    "domain": "sainsburysmagazine.co.uk",
+    "accessedAt": "2026-08-10T18:00:00-06:00",
+    "adaptation": "The source's defining beef, vegetables, seasoning profile, and core cooking technique are retained; quantities and supporting vegetables are normalized to the canonical Appetee market ingredients."
+  },
+  "countryOfOrigin": "United Kingdom",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "beef",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0097",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and prepare every ingredient for roasted lean beef with kale before heating the cooking vessel.",
+    "Preheat the oven and coat the beef and vegetables evenly with the recorded seasonings.",
+    "Cook the vegetables until tender while the seasoned beef develops its intended color and texture.",
+    "Combine the cooked components with the remaining vegetables and sauce, then adjust the consistency and seasoning.",
+    "Portion the finished roasted lean beef with kale evenly and serve it warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1144,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1251.412,
+      "proteinG": 146.774,
+      "carbohydratesG": 46.706,
+      "fatG": 53.559,
+      "fiberG": 20.748,
+      "sugarsG": 4.761,
+      "sodiumMg": 517.826,
+      "potassiumMg": 3922.273,
+      "calciumMg": 1000.473,
+      "ironMg": 16.693,
+      "magnesiumMg": 284.8,
+      "vitaminCMg": 341.6
+    },
+    "perServing": {
+      "calories": 312.853,
+      "proteinG": 36.694,
+      "carbohydratesG": 11.677,
+      "fatG": 13.39,
+      "fiberG": 5.187,
+      "sugarsG": 1.19,
+      "sodiumMg": 129.457,
+      "potassiumMg": 980.568,
+      "calciumMg": 250.118,
+      "ironMg": 4.173,
+      "magnesiumMg": 71.2,
+      "vitaminCMg": 85.4
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 22.55,
+    "perServingUsd": 5.64,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Low Carb",
+    "Meal Prep"
+  ],
+  "createdAt": "2024-09-06T09:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "www.sainsburysmagazine.co.uk",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.sainsburysmagazine.co.uk/recipes/mains/oregano-roast-beef-with-crispy-kale",
+    "originalSourceUrl": "https://www.sainsburysmagazine.co.uk/media/9402/download/Oregano_Beef.jpg?v=1",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0161",
+    "name": "Roasted Lean Beef with Kale",
+    "description": "Roasted Lean Beef with Kale combines beef with vegetables and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 312.853,
+      "proteinG": 36.694,
+      "carbohydratesG": 11.677,
+      "fatG": 13.39,
+      "fiberG": 5.187,
+      "sugarsG": 1.19,
+      "sodiumMg": 129.457,
+      "potassiumMg": 980.568,
+      "calciumMg": 250.118,
+      "ironMg": 4.173,
+      "magnesiumMg": 71.2,
+      "vitaminCMg": 85.4
+    },
+    "estimatedCostPerServingUsd": 5.64,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Low Carb",
+      "Meal Prep"
+    ]
+  }
+}

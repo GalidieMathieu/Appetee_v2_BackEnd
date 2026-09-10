@@ -1,0 +1,218 @@
+{
+  "seedId": "REC-0885",
+  "candidate": {
+    "sequence": 1447,
+    "seedId": "REC-CAND-1447",
+    "name": "Italian Egg with Vegetables"
+  },
+  "name": "Italian Egg with Vegetables",
+  "description": "Italian Egg with Vegetables is a practical stovetop recipe pairing eggs with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.sainsburysmagazine.co.uk/recipes/mains/tortang-talong",
+    "domain": "sainsburysmagazine.co.uk",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Filipino Tortang Talong source while retaining its closest matching dish form, cooking sequence, and applicable eggs or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Philippines",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 40,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0064",
+      "sourceQuantity": 4,
+      "sourceUnit": "small",
+      "sourceDisplay": "4 small eggplants",
+      "normalizedQuantity": 908,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 2,
+      "sourceUnit": "large",
+      "sourceDisplay": "2 large eggs",
+      "normalizedQuantity": 100,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 4,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "4 tsp olive oil",
+      "normalizedQuantity": 20,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, eggs, and vegetables for italian egg with vegetables.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned eggs and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the italian egg with vegetables, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1270.2,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 673.678,
+      "proteinG": 25.824,
+      "carbohydratesG": 85.647,
+      "fatG": 29.749,
+      "fiberG": 33.703,
+      "sugarsG": 32.656,
+      "sodiumMg": 167.194,
+      "potassiumMg": 2906.252,
+      "calciumMg": 259.612,
+      "ironMg": 5.923,
+      "magnesiumMg": 187.79,
+      "vitaminCMg": 54.296
+    },
+    "perServing": {
+      "calories": 168.419,
+      "proteinG": 6.456,
+      "carbohydratesG": 21.412,
+      "fatG": 7.437,
+      "fiberG": 8.426,
+      "sugarsG": 8.164,
+      "sodiumMg": 41.798,
+      "potassiumMg": 726.563,
+      "calciumMg": 64.903,
+      "ironMg": 1.481,
+      "magnesiumMg": 46.947,
+      "vitaminCMg": 13.574
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.54,
+    "perServingUsd": 2.13,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-09-27T13:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/736831189009358684/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.KQEQ5RC6lT2r8ofywB05HwHaJQ&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/4e/7d/18/4e7d18e4a6523e583688db9364fd8e97.jpg",
+    "searchQuery": "Italian Egg with Vegetables plated recipe food",
+    "searchResultTitle": "RECIPE: Italian Baked Egg and Vegetables Enjoy",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:10:55.851Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0885",
+    "name": "Italian Egg with Vegetables",
+    "description": "Italian Egg with Vegetables is a practical stovetop recipe pairing eggs with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 168.419,
+      "proteinG": 6.456,
+      "carbohydratesG": 21.412,
+      "fatG": 7.437,
+      "fiberG": 8.426,
+      "sugarsG": 8.164,
+      "sodiumMg": 41.798,
+      "potassiumMg": 726.563,
+      "calciumMg": 64.903,
+      "ironMg": 1.481,
+      "magnesiumMg": 46.947,
+      "vitaminCMg": 13.574
+    },
+    "estimatedCostPerServingUsd": 2.13,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

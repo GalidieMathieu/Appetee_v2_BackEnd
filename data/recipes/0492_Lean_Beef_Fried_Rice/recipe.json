@@ -1,0 +1,260 @@
+{
+  "seedId": "REC-0492",
+  "candidate": {
+    "sequence": 688,
+    "seedId": "REC-CAND-0688",
+    "name": "Lean Beef Fried Rice"
+  },
+  "name": "Lean Beef Fried Rice",
+  "description": "Lean Beef Fried Rice is a practical stovetop recipe pairing lean beef with rice and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://mykoreankitchen.com/korean-ground-beef-rice-bowls/",
+    "domain": "mykoreankitchen.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Korean Ground Beef Rice Bowls source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "South Korea",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 50,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lean beef",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 500,
+      "sourceUnit": "g",
+      "sourceDisplay": "500 g ground beef",
+      "normalizedQuantity": 500,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 0.25,
+      "sourceUnit": "cup",
+      "sourceDisplay": "¼ cup soy sauce",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0052",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp sugar",
+      "normalizedQuantity": 25,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "½ tbsp minced garlic",
+      "normalizedQuantity": 7.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp minced ginger",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0071",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "½ tbsp toasted sesame oil",
+      "normalizedQuantity": 7.5,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0072",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "½ tbsp sesame seeds",
+      "normalizedQuantity": 4.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0062",
+      "sourceQuantity": 2,
+      "sourceUnit": "stalks",
+      "sourceDisplay": "2 sliced green onions",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups cooked",
+      "sourceDisplay": "2 cups cooked rice",
+      "normalizedQuantity": 125,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source cooked rice represented by approximately 125 g dry rice before cooking",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lean beef, and rice for lean beef fried rice.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lean beef and cook it until browned or heated through as appropriate.",
+    "Stir in the rice, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the lean beef fried rice, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 966,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2126.886,
+      "proteinG": 111.99,
+      "carbohydratesG": 160.737,
+      "fatG": 113.92,
+      "fiberG": 8.003,
+      "sugarsG": 26.109,
+      "sodiumMg": 4164.253,
+      "potassiumMg": 2577.683,
+      "calciumMg": 187.741,
+      "ironMg": 13.527,
+      "magnesiumMg": 227.179,
+      "vitaminCMg": 32.83
+    },
+    "perServing": {
+      "calories": 531.721,
+      "proteinG": 27.997,
+      "carbohydratesG": 40.184,
+      "fatG": 28.48,
+      "fiberG": 2.001,
+      "sugarsG": 6.527,
+      "sodiumMg": 1041.063,
+      "potassiumMg": 644.421,
+      "calciumMg": 46.935,
+      "ironMg": 3.382,
+      "magnesiumMg": 56.795,
+      "vitaminCMg": 8.207
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 11.28,
+    "perServingUsd": 2.82,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-01-29T16:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://fitkitcheneats.com/healthy-beef-fried-rice-a-lighter-take-on-a-comfort-classic/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.x7L0BuO1xFDzi09tjQ75BQHaNK&pid=15.1",
+    "discoveredOriginalUrl": "http://fitkitcheneats.com/wp-content/uploads/2025/12/recipe-image-final-plated-overhead-beauty-overhead-shot-of-he-1.jpg",
+    "searchQuery": "Lean Beef Fried Rice plated recipe food",
+    "searchResultTitle": "Healthy Beef Fried Rice – A Lighter Take on a Comfort Classic - Fit ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:50:39.762Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0492",
+    "name": "Lean Beef Fried Rice",
+    "description": "Lean Beef Fried Rice is a practical stovetop recipe pairing lean beef with rice and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 531.721,
+      "proteinG": 27.997,
+      "carbohydratesG": 40.184,
+      "fatG": 28.48,
+      "fiberG": 2.001,
+      "sugarsG": 6.527,
+      "sodiumMg": 1041.063,
+      "potassiumMg": 644.421,
+      "calciumMg": 46.935,
+      "ironMg": 3.382,
+      "magnesiumMg": 56.795,
+      "vitaminCMg": 8.207
+    },
+    "estimatedCostPerServingUsd": 2.82,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Budget Friendly"
+    ]
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "seedId": "REC-0091",
+  "name": "Afghan Bolani with Potato Filling",
+  "description": "Thin flour pockets filled with peppery potato and green onion, then shallow-fried until crisp.",
+  "source": {
+    "url": "https://www.afghanaid.org.uk/brilliant-bolani-with-potato-filling",
+    "domain": "afghanaid.org.uk",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source dough ratio, potato filling, shaping, and shallow-frying method are retained; absorbed frying oil is conservatively modeled as four tablespoons of the validated olive oil product."
+  },
+  "countryOfOrigin": "Afghanistan",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 45,
+    "cookMinutes": 35,
+    "totalMinutes": 80
+  },
+  "servings": 8,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Meal Component",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "potatoes",
+  "carbohydrateBase": "flour",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0067",
+      "sourceQuantity": 450,
+      "sourceUnit": "g",
+      "sourceDisplay": "450 g plain flour",
+      "normalizedQuantity": 450,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 900,
+      "sourceUnit": "g",
+      "sourceDisplay": "900 g potatoes",
+      "normalizedQuantity": 900,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0062",
+      "sourceQuantity": 50,
+      "sourceUnit": "g",
+      "sourceDisplay": "50 g green onions",
+      "normalizedQuantity": 50,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 4,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "4 tbsp vegetable oil absorbed during frying",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source frying oil modeled as 4 tbsp absorbed and represented by the validated olive oil product",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Mix the flour with salt and enough water to form a stiff dough, then knead it until smooth.",
+    "Cover the dough with a damp cloth and let it rest for at least thirty minutes.",
+    "Boil and mash the potatoes, then season them with green onions and black pepper.",
+    "Roll the dough very thinly, cut rounds, and seal a small amount of filling inside each one.",
+    "Shallow-fry the bolani on both sides until crisp and browned, then serve them warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1365,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2847.664,
+      "proteinG": 66.525,
+      "carbohydratesG": 509.92,
+      "fatG": 59.825,
+      "fiberG": 25.15,
+      "sugarsG": 7.96,
+      "sodiumMg": 63.092,
+      "potassiumMg": 4373.046,
+      "calciumMg": 221.046,
+      "ironMg": 29.666,
+      "magnesiumMg": 316,
+      "vitaminCMg": 60.7
+    },
+    "perServing": {
+      "calories": 355.958,
+      "proteinG": 8.316,
+      "carbohydratesG": 63.74,
+      "fatG": 7.478,
+      "fiberG": 3.144,
+      "sugarsG": 0.995,
+      "sodiumMg": 7.886,
+      "potassiumMg": 546.631,
+      "calciumMg": 27.631,
+      "ironMg": 3.708,
+      "magnesiumMg": 39.5,
+      "vitaminCMg": 7.588
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.81,
+    "perServingUsd": 0.48,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-05-21T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "www.afghanaid.org.uk",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.afghanaid.org.uk/brilliant-bolani-with-potato-filling",
+    "originalSourceUrl": "https://www.afghanaid.org.uk/handlers/getimage.ashx?idmf=cd64ed79-6043-425b-a657-bf3b9e3dcf99&w=1200&h=630&f=1",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0091",
+    "name": "Afghan Bolani with Potato Filling",
+    "description": "Thin flour pockets filled with peppery potato and green onion, then shallow-fried until crisp.",
+    "mealType": "Lunch",
+    "mealCategory": "Meal Component",
+    "image": null,
+    "totalTimeMinutes": 80,
+    "servings": 8,
+    "nutritionPerServing": {
+      "calories": 355.958,
+      "proteinG": 8.316,
+      "carbohydratesG": 63.74,
+      "fatG": 7.478,
+      "fiberG": 3.144,
+      "sugarsG": 0.995,
+      "sodiumMg": 7.886,
+      "potassiumMg": 546.631,
+      "calciumMg": 27.631,
+      "ironMg": 3.708,
+      "magnesiumMg": 39.5,
+      "vitaminCMg": 7.588
+    },
+    "estimatedCostPerServingUsd": 0.48,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

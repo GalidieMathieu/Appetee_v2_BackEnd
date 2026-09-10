@@ -1,5 +1,4 @@
 ﻿using Appetee.Application.Abstractions.Auth;
-using Appetee.Application.Abstractions.Users;
 using Appetee.Application.Dtos;
 using Appetee.Application.Models.Auth;
 using Appetee.Application.Requests.Auth;
@@ -13,14 +12,12 @@ namespace Appetee.Application.Services.Auth
     {
         private readonly IAuthRepository _authRepository;
         private readonly IAuthQueries _authQueries;
-
         private readonly IAuthCookieService _cookieService;
         private readonly IPasswordHasher _passwordHasher;
 
         public AuthService(
             IAuthRepository authRepository,
             IAuthQueries authQueries,
-            IUserQueries userQueries,
             IPasswordHasher passwordHasher,
             IAuthCookieService cookieService)
         {
@@ -70,21 +67,33 @@ namespace Appetee.Application.Services.Auth
             if (string.IsNullOrWhiteSpace(request.Email))
                 throw new ValidationException("Email is required.");
 
-            if (!MailAddress.TryCreate(request.Email, out _))
+            var normalizedRequest = request with { Email = request.Email.Trim() };
+
+            if (!MailAddress.TryCreate(normalizedRequest.Email, out _))
                 throw new ValidationException("Email must be valid.");
 
             if (string.IsNullOrWhiteSpace(request.Password))
                 throw new ValidationException("Password is required.");
 
-            AuthResult userAuth = await _authQueries.LoginAsync(request, ct);
+            var loginAttempt = await _authQueries.LoginAsync(normalizedRequest, ct);
 
-            if(userAuth is null)
-            {
-                throw new UnauthorizedException("Invalid credentials.");
-            }
+            if (loginAttempt.Outcome == LoginOutcome.InvalidCredentials)
+                throw new UnauthorizedException("Invalid email or password.");
 
-            if(userAuth.userId > 0)
-                await _cookieService.SignInAsync(http, userAuth.userId, userAuth.userName);
+            if (loginAttempt.Outcome == LoginOutcome.EmailVerificationRequired)
+                throw new EmailVerificationRequiredException();
+
+            var userAuth = loginAttempt.AuthResult
+                ?? throw new InternalServerException();
+
+            if (userAuth.userId <= 0 || string.IsNullOrWhiteSpace(userAuth.userName))
+                throw new InternalServerException();
+
+            await _cookieService.SignInAsync(
+                http,
+                userAuth.userId,
+                userAuth.userName,
+                request.RememberMe);
 
             return userAuth;
         }
@@ -92,11 +101,49 @@ namespace Appetee.Application.Services.Auth
         public Task LogOutAsync(HttpContext http, CancellationToken ct) =>
             _cookieService.SignOutAsync(http);
 
+        public async Task<EmailExistsDto> ExistsByEmailAsync(
+            string email,
+            CancellationToken ct)
+        {
+            if (string.IsNullOrWhiteSpace(email))
+                throw new ValidationException("Email is required.");
+
+            var normalizedEmail = email.Trim();
+
+            if (!MailAddress.TryCreate(normalizedEmail, out _))
+                throw new ValidationException("Email must be valid.");
+
+            var exists = await _authQueries.ExistsByEmailAsync(
+                normalizedEmail,
+                ct);
+
+            return new EmailExistsDto(exists);
+        }
+
         public UserSessionDto? GetSession(HttpContext context)
         {
+            if (context.Items.ContainsKey(AuthSessionContext.ExpiredSessionItemKey))
+                throw new SessionExpiredException();
+
             var userSess = context?.User;
             if (userSess is null) throw new UnauthorizedException();
             return _cookieService.GetSession(userSess);
         }
+
+        public UserSessionDto GetRequiredSession(HttpContext context)
+        {
+            var session = GetSession(context);
+
+            if (session is null || session.userId <= 0)
+            {
+                throw new UnauthorizedException(
+                    "Missing or invalid authentication cookie.");
+            }
+
+            return session;
+        }
+
+        public int GetRequiredUserId(HttpContext context) =>
+            GetRequiredSession(context).userId;
     }
 }

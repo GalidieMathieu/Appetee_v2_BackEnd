@@ -1,0 +1,194 @@
+{
+  "seedId": "REC-1210",
+  "candidate": {
+    "sequence": 2004,
+    "seedId": "REC-CAND-2004",
+    "name": "Spanish Black Bean Flatbread"
+  },
+  "name": "Spanish Black Bean Flatbread",
+  "description": "Spanish Black Bean Flatbread is a practical main meal adaptation built around black beans, flatbread, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://feelgoodfoodie.net/recipe/bean-cheese-wonton-quesadillas/",
+    "domain": "feelgoodfoodie.net",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Black Bean Breakfast Quesadillas source because it provides the closest validated beans and flatbread structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Spain",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 60,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "black beans",
+  "carbohydrateBase": "flatbread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0067",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, black beans, and flatbread for spanish black bean flatbread.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned black beans and cook it until browned or heated through as appropriate.",
+    "Stir in the flatbread, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the spanish black bean flatbread, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1030,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1907.332,
+      "proteinG": 61.03,
+      "carbohydratesG": 333.93,
+      "fatG": 35.47,
+      "sodiumMg": 881.546,
+      "potassiumMg": 1879.273,
+      "calciumMg": 263.473,
+      "ironMg": 21.673,
+      "magnesiumMg": 223,
+      "fiberG": 13.8,
+      "sugarsG": 0.81,
+      "vitaminCMg": 24.6
+    },
+    "perServing": {
+      "calories": 476.833,
+      "proteinG": 15.258,
+      "carbohydratesG": 83.483,
+      "fatG": 8.867,
+      "sodiumMg": 220.387,
+      "potassiumMg": 469.818,
+      "calciumMg": 65.868,
+      "ironMg": 5.418,
+      "magnesiumMg": 55.75,
+      "fiberG": 3.45,
+      "sugarsG": 0.203,
+      "vitaminCMg": 6.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.29,
+    "perServingUsd": 0.57,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-02-09T14:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.chefsresource.com/recipes/flatbread-with-white-bean-hummus-caramelized-onions-black-olives-and-spanish-white-anchovies-recipe/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.rbDXCNplmuYAHo_kyDLO6QHaFj&pid=15.1",
+    "discoveredOriginalUrl": "https://food.fnr.sndimg.com/content/dam/images/food/fullset/2006/7/10/0/gl0613_flatbread1.jpg.rend.hgtvcom.616.462.suffix/1385153638576.webp",
+    "searchQuery": "Spanish Black Bean Flatbread plated recipe food",
+    "searchResultTitle": "Flatbread with White Bean Hummus, Caramelized Onions, Black Olives and ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:13:24.049Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1210",
+    "name": "Spanish Black Bean Flatbread",
+    "description": "Spanish Black Bean Flatbread is a practical main meal adaptation built around black beans, flatbread, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 476.833,
+      "proteinG": 15.258,
+      "carbohydratesG": 83.483,
+      "fatG": 8.867,
+      "sodiumMg": 220.387,
+      "potassiumMg": 469.818,
+      "calciumMg": 65.868,
+      "ironMg": 5.418,
+      "magnesiumMg": 55.75,
+      "fiberG": 3.45,
+      "sugarsG": 0.203,
+      "vitaminCMg": 6.15
+    },
+    "estimatedCostPerServingUsd": 0.57,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "seedId": "REC-0268",
+  "candidate": {
+    "sequence": 283,
+    "seedId": "REC-CAND-0283",
+    "name": "Mediterranean Chicken with Quinoa"
+  },
+  "name": "Mediterranean Chicken with Quinoa",
+  "description": "Mediterranean Chicken with Quinoa is a practical stovetop recipe pairing chicken with quinoa and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.eatingwell.com/recipe/254609/chipotle-chicken-quinoa-burrito-bowl/",
+    "domain": "eatingwell.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Chicken Quinoa Burrito Bowls source while retaining its closest matching dish form, cooking sequence, and applicable chicken or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 50,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 1,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1 lb chicken breast",
+      "normalizedQuantity": 453.592,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup dry quinoa",
+      "normalizedQuantity": 170,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can black beans",
+      "normalizedQuantity": 425.243,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup frozen corn",
+      "normalizedQuantity": 165,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup salsa",
+      "normalizedQuantity": 260,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chicken, and quinoa for mediterranean chicken with quinoa.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chicken and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the mediterranean chicken with quinoa, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2058.937,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1958.237,
+      "proteinG": 167.468,
+      "carbohydratesG": 279.094,
+      "fatG": 26.478,
+      "sodiumMg": 2947.993,
+      "potassiumMg": 5274.018,
+      "calciumMg": 447.402,
+      "ironMg": 19.884,
+      "magnesiumMg": 713.215,
+      "fiberG": 28.235,
+      "sugarsG": 6.715,
+      "vitaminCMg": 66.855
+    },
+    "perServing": {
+      "calories": 489.559,
+      "proteinG": 41.867,
+      "carbohydratesG": 69.773,
+      "fatG": 6.62,
+      "sodiumMg": 736.998,
+      "potassiumMg": 1318.505,
+      "calciumMg": 111.85,
+      "ironMg": 4.971,
+      "magnesiumMg": 178.304,
+      "fiberG": 7.059,
+      "sugarsG": 1.679,
+      "vitaminCMg": 16.714
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.05,
+    "perServingUsd": 2.01,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2025-02-18T08:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://gotoslim.com/mediterranean-chicken-quinoa-bowl/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.hJHjza2cVxKtmSUQM706KAHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://www.cookedandloved.com/wp-content/uploads/2023/07/mediterranean-chicken-quinoa-bowl-4.jpg",
+    "searchQuery": "Mediterranean Chicken with Quinoa plated recipe food",
+    "searchResultTitle": "Mediterranean Chicken Quinoa Bowl - Recipe Ocean",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:38:34.636Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0268",
+    "name": "Mediterranean Chicken with Quinoa",
+    "description": "Mediterranean Chicken with Quinoa is a practical stovetop recipe pairing chicken with quinoa and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 489.559,
+      "proteinG": 41.867,
+      "carbohydratesG": 69.773,
+      "fatG": 6.62,
+      "sodiumMg": 736.998,
+      "potassiumMg": 1318.505,
+      "calciumMg": 111.85,
+      "ironMg": 4.971,
+      "magnesiumMg": 178.304,
+      "fiberG": 7.059,
+      "sugarsG": 1.679,
+      "vitaminCMg": 16.714
+    },
+    "estimatedCostPerServingUsd": 2.01,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

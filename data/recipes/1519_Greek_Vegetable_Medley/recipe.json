@@ -1,0 +1,198 @@
+{
+  "seedId": "REC-1519",
+  "candidate": {
+    "sequence": 2317,
+    "seedId": "REC-CAND-2317",
+    "name": "Greek Vegetable Medley"
+  },
+  "name": "Greek Vegetable Medley",
+  "description": "Greek Vegetable Medley is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/56161/fasoliyyeh-bi-z-zayt-syrian-green-beans-with-olive-oil/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Syrian Green Beans with Olive Oil source because it provides the closest validated vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Greece",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Side",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, vegetables, and vegetables for greek vegetable medley.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned vegetables and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the greek vegetable medley, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 496.332,
+      "proteinG": 8.43,
+      "carbohydratesG": 65.46,
+      "fatG": 28.95,
+      "fiberG": 17.7,
+      "sugarsG": 15.39,
+      "sodiumMg": 24.546,
+      "potassiumMg": 1671.273,
+      "calciumMg": 153.273,
+      "ironMg": 3.603,
+      "magnesiumMg": 84,
+      "vitaminCMg": 224.7
+    },
+    "perServing": {
+      "calories": 124.083,
+      "proteinG": 2.107,
+      "carbohydratesG": 16.365,
+      "fatG": 7.237,
+      "fiberG": 4.425,
+      "sugarsG": 3.848,
+      "sodiumMg": 6.136,
+      "potassiumMg": 417.818,
+      "calciumMg": 38.318,
+      "ironMg": 0.901,
+      "magnesiumMg": 21,
+      "vitaminCMg": 56.175
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.21,
+    "perServingUsd": 0.8,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-05-31T23:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse3.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.shebasrecipes.com/vegetable-medley-recipe/",
+    "originalSourceUrl": "https://tse3.mm.bing.net/th/id/OIP.qTt0vQhgri4CuRi6rx9tkQHaHa?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://mydelightrecipes.com/wp-content/uploads/2025/02/foodmacronutrients_Spring_Vegetable_Medley_Recipe_in_a_white_pl_50f6a01c-53b0-4566-85e8-16a3e407773b.png",
+    "searchQuery": "vegetable medley plated recipe food photograph",
+    "searchResultTitle": "vegetable medley recipe - Shebas Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:59.927Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1519",
+    "name": "Greek Vegetable Medley",
+    "description": "Greek Vegetable Medley is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 124.083,
+      "proteinG": 2.107,
+      "carbohydratesG": 16.365,
+      "fatG": 7.237,
+      "fiberG": 4.425,
+      "sugarsG": 3.848,
+      "sodiumMg": 6.136,
+      "potassiumMg": 417.818,
+      "calciumMg": 38.318,
+      "ironMg": 0.901,
+      "magnesiumMg": 21,
+      "vitaminCMg": 56.175
+    },
+    "estimatedCostPerServingUsd": 0.8,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "seedId": "REC-0099",
+  "name": "Egyptian Ful Medames",
+  "description": "Slow-simmered fava beans crushed with lemon, garlic, cumin, parsley, and olive oil.",
+  "source": {
+    "url": "https://www.epicurious.com/recipes/food/views/ful-medames-352993",
+    "domain": "epicurious.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source bean cookery and table dressing are retained; dried parsley replaces fresh parsley to use a validated shelf-stable product."
+  },
+  "countryOfOrigin": "Egypt",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 150,
+    "totalMinutes": 165
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "fava beans",
+  "carbohydrateBase": "beans",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0075",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups dried fava beans",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "dried parsley replacing ⅓ cup fresh parsley",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "olive oil for serving",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 lemons",
+      "normalizedQuantity": 174,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 4,
+      "sourceUnit": "cloves",
+      "sourceDisplay": "4 garlic cloves",
+      "normalizedQuantity": 20,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "ground cumin for serving",
+      "normalizedQuantity": 3.15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Soak the fava beans, drain them, and cover them with fresh unsalted water.",
+    "Simmer the beans gently until completely tender, adding water as needed to keep them covered.",
+    "Mash a portion of the beans with cooking liquid and stir it back into the pot to thicken the broth.",
+    "Serve the beans in bowls with parsley, olive oil, lemon, crushed garlic, and cumin."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 614.75,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1712.004,
+      "proteinG": 109.477,
+      "carbohydratesG": 259.959,
+      "fatG": 35.018,
+      "fiberG": 106.958,
+      "sugarsG": 27.784,
+      "sodiumMg": 87.318,
+      "potassiumMg": 4750.978,
+      "calciumMg": 580.04,
+      "ironMg": 31.529,
+      "magnesiumMg": 818.449,
+      "vitaminCMg": 110.553
+    },
+    "perServing": {
+      "calories": 285.334,
+      "proteinG": 18.246,
+      "carbohydratesG": 43.327,
+      "fatG": 5.836,
+      "fiberG": 17.826,
+      "sugarsG": 4.631,
+      "sodiumMg": 14.553,
+      "potassiumMg": 791.83,
+      "calciumMg": 96.673,
+      "ironMg": 5.255,
+      "magnesiumMg": 136.408,
+      "vitaminCMg": 18.425
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.77,
+    "perServingUsd": 1.13,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-06-02T19:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "assets.epicurious.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.epicurious.com/recipes/food/views/ful-medames-352993",
+    "originalSourceUrl": "https://assets.epicurious.com/photos/57b33744fd214db6472a3143/16:9/w_1280,c_limit/ful-medames.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0099",
+    "name": "Egyptian Ful Medames",
+    "description": "Slow-simmered fava beans crushed with lemon, garlic, cumin, parsley, and olive oil.",
+    "mealType": "Breakfast",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 165,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 285.334,
+      "proteinG": 18.246,
+      "carbohydratesG": 43.327,
+      "fatG": 5.836,
+      "fiberG": 17.826,
+      "sugarsG": 4.631,
+      "sodiumMg": 14.553,
+      "potassiumMg": 791.83,
+      "calciumMg": 96.673,
+      "ironMg": 5.255,
+      "magnesiumMg": 136.408,
+      "vitaminCMg": 18.425
+    },
+    "estimatedCostPerServingUsd": 1.13,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

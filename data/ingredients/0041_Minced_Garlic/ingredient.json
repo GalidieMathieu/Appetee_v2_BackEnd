@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0041",
+  "name": "Minced Garlic",
+  "canonicalName": "Minced Garlic",
+  "description": "Prepared minced garlic packed in water.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Minced Garlic, 32 oz",
+    "productId": "974453128",
+    "productUrl": "https://www.walmart.com/ip/974453128",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 5.96,
+    "packageQuantity": 907.185,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 149,
+      "proteinG": 6.36,
+      "carbohydratesG": 33.1,
+      "fatG": 0.5,
+      "fiberG": 2.1,
+      "sugarsG": 1,
+      "sodiumMg": 17,
+      "potassiumMg": 401,
+      "calciumMg": 181,
+      "ironMg": 1.7,
+      "magnesiumMg": 25,
+      "vitaminCMg": 31.2
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.657
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 169230,
+      "dataType": "SR Legacy",
+      "description": "Garlic, raw",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/169230/nutrients",
+      "searchQuery": "garlic raw",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.freepik.com/premium-vector/close-up-minced-garlic_369002046.htm",
+    "originalSourceUrl": "https://img.freepik.com/premium-vector/close-up-minced-garlic_967242-19125.jpg",
+    "searchQuery": "Minced Garlic ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0041",
+    "name": "Minced Garlic",
+    "description": "Prepared minced garlic packed in water.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 149,
+      "proteinG": 6.36,
+      "carbohydratesG": 33.1,
+      "fatG": 0.5,
+      "fiberG": 2.1,
+      "sugarsG": 1,
+      "sodiumMg": 17,
+      "potassiumMg": 401,
+      "calciumMg": 181,
+      "ironMg": 1.7,
+      "magnesiumMg": 25,
+      "vitaminCMg": 31.2
+    },
+    "price": {
+      "usdPerBasis": 0.657,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0041_Minced_Garlic/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

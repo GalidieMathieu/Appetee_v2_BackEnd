@@ -1,0 +1,260 @@
+{
+  "seedId": "REC-0377",
+  "candidate": {
+    "sequence": 475,
+    "seedId": "REC-CAND-0475",
+    "name": "Lean Beef and Kale Baked Potatoes"
+  },
+  "name": "Lean Beef and Kale Baked Potatoes",
+  "description": "Lean Beef and Kale Baked Potatoes is a practical oven recipe pairing lean beef with potatoes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.ricardocuisine.com/en/recipes/5541-pate-chinois-shepherd--s-pie-",
+    "domain": "ricardocuisine.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Canadian Pâté Chinois source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Canada",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 20,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "lean beef",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 4,
+      "sourceUnit": "cups",
+      "sourceDisplay": "4 cups potatoes",
+      "normalizedQuantity": 900,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0056",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g butter",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0030",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "cup",
+      "sourceDisplay": "½ cup milk",
+      "normalizedQuantity": 125,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 450,
+      "sourceUnit": "g",
+      "sourceDisplay": "450 g ground beef",
+      "normalizedQuantity": 450,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 finely chopped onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0081",
+      "sourceQuantity": 500,
+      "sourceUnit": "ml",
+      "sourceDisplay": "500 ml creamed corn",
+      "normalizedQuantity": 500,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "paprika for the top",
+      "normalizedQuantity": 2.3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "parsley for the top",
+      "normalizedQuantity": 0.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0097",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for lean beef and kale baked potatoes.",
+    "Season the lean beef and vegetables evenly while the oven reaches temperature.",
+    "Arrange the lean beef, potatoes, and vegetables so heat can circulate around each component.",
+    "Bake until the lean beef is safely cooked and the vegetables or grain base are tender.",
+    "Rest the lean beef and kale baked potatoes briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 2285.3,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2725.371,
+      "proteinG": 127.835,
+      "carbohydratesG": 292.251,
+      "fatG": 126.473,
+      "fiberG": 34.101,
+      "sugarsG": 31.674,
+      "sodiumMg": 1880.986,
+      "potassiumMg": 7388.14,
+      "calciumMg": 1191.017,
+      "ironMg": 25.154,
+      "magnesiumMg": 510.706,
+      "vitaminCMg": 372.383
+    },
+    "perServing": {
+      "calories": 681.343,
+      "proteinG": 31.959,
+      "carbohydratesG": 73.063,
+      "fatG": 31.618,
+      "fiberG": 8.525,
+      "sugarsG": 7.918,
+      "sodiumMg": 470.247,
+      "potassiumMg": 1847.035,
+      "calciumMg": 297.754,
+      "ironMg": 6.288,
+      "magnesiumMg": 127.677,
+      "vitaminCMg": 93.096
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 12.96,
+    "perServingUsd": 3.24,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2025-08-05T09:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.solin.stream/recipes/263708/crispy-baked-potatoes-with-lean-ground-beef-and-roasted-broccoli",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.D0v37Tk6-VX7QKwT4A6MdAHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://res.cloudinary.com/solin-fitness/image/upload/c_scale,w_800,q_auto,f_auto/single-meal-images/yimp2h1mw3pzq0iua55v",
+    "searchQuery": "Lean Beef and Kale Baked Potatoes plated recipe food",
+    "searchResultTitle": "Crispy Baked Potatoes with Lean Ground Beef and Roasted Broccoli",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:44:25.739Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0377",
+    "name": "Lean Beef and Kale Baked Potatoes",
+    "description": "Lean Beef and Kale Baked Potatoes is a practical oven recipe pairing lean beef with potatoes and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 681.343,
+      "proteinG": 31.959,
+      "carbohydratesG": 73.063,
+      "fatG": 31.618,
+      "fiberG": 8.525,
+      "sugarsG": 7.918,
+      "sodiumMg": 470.247,
+      "potassiumMg": 1847.035,
+      "calciumMg": 297.754,
+      "ironMg": 6.288,
+      "magnesiumMg": 127.677,
+      "vitaminCMg": 93.096
+    },
+    "estimatedCostPerServingUsd": 3.24,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

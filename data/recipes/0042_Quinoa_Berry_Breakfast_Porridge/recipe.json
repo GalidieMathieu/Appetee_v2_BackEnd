@@ -1,0 +1,196 @@
+{
+  "seedId": "REC-0042",
+  "name": "Quinoa Berry Breakfast Porridge",
+  "description": "Warm quinoa simmered with milk, berries, banana, and cinnamon.",
+  "source": {
+    "url": "https://www.goya.com/en/recipes/breakfast-quinoa-with-blueberries/",
+    "domain": "goya.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 5,
+    "cookMinutes": 20,
+    "totalMinutes": 25
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "milk",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup dry quinoa",
+      "normalizedQuantity": 170,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0030",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups milk",
+      "normalizedQuantity": 480,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0034",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups berries",
+      "normalizedQuantity": 210,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0033",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 banana",
+      "normalizedQuantity": 118,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0047",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp cinnamon",
+      "normalizedQuantity": 2.6,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Rinse the quinoa until the water runs clear.",
+    "Simmer the quinoa with milk and water until tender and creamy.",
+    "Stir in the berries, sliced banana, and cinnamon.",
+    "Cook until the fruit is hot and divide among four bowls."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1287.8,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1057.742,
+      "proteinG": 42.578,
+      "carbohydratesG": 181.044,
+      "fatG": 20.759,
+      "fiberG": 20.759,
+      "sodiumMg": 246.508,
+      "potassiumMg": 2393.706,
+      "calciumMg": 738.68,
+      "ironMg": 9.968,
+      "magnesiumMg": 445.804,
+      "sugarsG": 49.046,
+      "vitaminCMg": 97.874
+    },
+    "perServing": {
+      "calories": 264.435,
+      "proteinG": 10.645,
+      "carbohydratesG": 45.261,
+      "fatG": 5.19,
+      "fiberG": 5.19,
+      "sodiumMg": 61.627,
+      "potassiumMg": 598.427,
+      "calciumMg": 184.67,
+      "ironMg": 2.492,
+      "magnesiumMg": 111.451,
+      "sugarsG": 12.261,
+      "vitaminCMg": 24.468
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.18,
+    "perServingUsd": 0.8,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-03-06T22:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "www.goya.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.goya.com/en/recipes/breakfast-quinoa-with-blueberries/",
+    "originalSourceUrl": "https://www.goya.com/wp-content/uploads/2023/10/breakfast-quinoa-with-blueberries.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0042",
+    "name": "Quinoa Berry Breakfast Porridge",
+    "description": "Warm quinoa simmered with milk, berries, banana, and cinnamon.",
+    "mealType": "Breakfast",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 264.435,
+      "proteinG": 10.645,
+      "carbohydratesG": 45.261,
+      "fatG": 5.19,
+      "fiberG": 5.19,
+      "sodiumMg": 61.627,
+      "potassiumMg": 598.427,
+      "calciumMg": 184.67,
+      "ironMg": 2.492,
+      "magnesiumMg": 111.451,
+      "sugarsG": 12.261,
+      "vitaminCMg": 24.468
+    },
+    "estimatedCostPerServingUsd": 0.8,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

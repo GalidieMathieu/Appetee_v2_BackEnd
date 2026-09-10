@@ -1,0 +1,238 @@
+{
+  "seedId": "REC-1117",
+  "candidate": {
+    "sequence": 1869,
+    "seedId": "REC-CAND-1869",
+    "name": "Chickpea and Spinach Grain Bowl"
+  },
+  "name": "Chickpea and Spinach Grain Bowl",
+  "description": "Chickpea and Spinach Grain Bowl is a practical stovetop recipe pairing chickpeas with quinoa and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.eatingwell.com/recipe/259996/quinoa-chickpea-salad-with-roasted-red-pepper-hummus-dressing/",
+    "domain": "eatingwell.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Chickpea Quinoa Spinach Salad source while retaining its closest matching dish form, cooking sequence, and applicable chickpeas or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can chickpeas, drained",
+      "normalizedQuantity": 260,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup dry quinoa",
+      "normalizedQuantity": 170,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 2,
+      "sourceUnit": "medium",
+      "sourceDisplay": "2 Roma tomatoes",
+      "normalizedQuantity": 124,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 6,
+      "sourceUnit": "oz",
+      "sourceDisplay": "6 oz spinach",
+      "normalizedQuantity": 170.097,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp olive oil",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp cider vinegar",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chickpeas, and quinoa for chickpea and spinach grain bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chickpeas and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the chickpea and spinach grain bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1409.687,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1442.693,
+      "proteinG": 53.01,
+      "carbohydratesG": 210.701,
+      "fatG": 46.264,
+      "fiberG": 40.976,
+      "sugarsG": 15.064,
+      "sodiumMg": 787.783,
+      "potassiumMg": 2795.658,
+      "calciumMg": 503.269,
+      "ironMg": 15.409,
+      "magnesiumMg": 575.978,
+      "vitaminCMg": 55.883
+    },
+    "perServing": {
+      "calories": 360.673,
+      "proteinG": 13.252,
+      "carbohydratesG": 52.675,
+      "fatG": 11.566,
+      "fiberG": 10.244,
+      "sugarsG": 3.766,
+      "sodiumMg": 196.946,
+      "potassiumMg": 698.914,
+      "calciumMg": 125.817,
+      "ironMg": 3.852,
+      "magnesiumMg": 143.994,
+      "vitaminCMg": 13.971
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.96,
+    "perServingUsd": 0.99,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-09-19T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://recipeflame.com/chickpea-spinach-grain-bowl/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.ny3Oj5inzNs-iVnEFArVhQHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://recipeflame.com/wp-content/uploads/2025/04/Chickpea-Spinach-Grain-Bowl.webp",
+    "searchQuery": "Chickpea and Spinach Grain Bowl plated recipe food",
+    "searchResultTitle": "Chickpea Spinach Grain Bowl - Recipe Flame",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:22:48.142Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1117",
+    "name": "Chickpea and Spinach Grain Bowl",
+    "description": "Chickpea and Spinach Grain Bowl is a practical stovetop recipe pairing chickpeas with quinoa and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 360.673,
+      "proteinG": 13.252,
+      "carbohydratesG": 52.675,
+      "fatG": 11.566,
+      "fiberG": 10.244,
+      "sugarsG": 3.766,
+      "sodiumMg": 196.946,
+      "potassiumMg": 698.914,
+      "calciumMg": 125.817,
+      "ironMg": 3.852,
+      "magnesiumMg": 143.994,
+      "vitaminCMg": 13.971
+    },
+    "estimatedCostPerServingUsd": 0.99,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

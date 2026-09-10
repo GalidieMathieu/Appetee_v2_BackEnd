@@ -1,164 +1,387 @@
+using Appetee.Api.Tests.Infrastructure;
 using Appetee.Application.Dtos;
 using Appetee.Application.Requests;
-using Appetee.Api.Tests.Infrastructure;
+using Microsoft.AspNetCore.Mvc;
 using System.Net;
 using System.Net.Http.Json;
+using System.Text.Json;
 
 namespace Appetee.Api.Tests.Integration;
 
 public sealed class UsersEndpointsTests : IntegrationTestBase
 {
-    public UsersEndpointsTests(AppeteeWebApplicationFactory factory) : base(factory) { }
+    private const string DisabledRouteDetail =
+        "This account route is not available.";
 
-    [Fact]
-    public async Task GetById_ReturnsSeededUser_WithPreferences()
+    public UsersEndpointsTests(AppeteeWebApplicationFactory factory)
+        : base(factory) { }
+
+    public static TheoryData<string, string> AnonymousAccountRoutes => new()
     {
-        var user = await Client.GetFromJsonAsync<UserDto>("/api/users/1");
+        { HttpMethod.Get.Method, "/api/users" },
+        { HttpMethod.Get.Method, "/api/users/1" },
+        {
+            HttpMethod.Get.Method,
+            "/api/users/exists-by-email?email=ava.seed@appetee.test"
+        },
+        { HttpMethod.Put.Method, "/api/users/1" },
+        { HttpMethod.Put.Method, "/api/users/me" },
+        { HttpMethod.Delete.Method, "/api/users/1" },
+    };
 
-        Assert.NotNull(user);
-        Assert.Equal(1, user!.id);
-        Assert.Equal("ava_seed", user.username);
-        Assert.Equal("ava.seed@appetee.test", user.email);
-        Assert.Equal(new[] { 1, 2 }, user.dietIds);
-        Assert.Equal(new[] { 4 }, user.ingredientRestrictionIds);
+    [Theory]
+    [MemberData(nameof(AnonymousAccountRoutes))]
+    public async Task AccountRoutes_ReturnProblemDetails401_WhenAnonymous(
+        string method,
+        string path)
+    {
+        using var request = CreateRequest(method, path);
+        using var response = await Client.SendAsync(request);
+
+        var problem = await AssertProblemDetailsAsync(
+            response,
+            HttpStatusCode.Unauthorized,
+            "Unauthorized");
+
+        Assert.Equal(
+            "Authentication is required to access this resource.",
+            problem.Detail);
     }
 
     [Fact]
-    public async Task GetById_ReturnsBadRequest_WhenIdIsZero()
+    public async Task GetMe_ReturnsProblemDetails401_WhenAnonymous()
     {
-        var response = await Client.GetAsync("/api/users/0");
-        var body = await response.Content.ReadAsStringAsync();
+        using var response = await Client.GetAsync("/api/users/me");
 
-        Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
-        Assert.Contains("id must be > 0", body, StringComparison.OrdinalIgnoreCase);
-    }
-
-    [Fact]
-    public async Task GetById_ReturnsNotFound_WhenUserDoesNotExist()
-    {
-        var response = await Client.GetAsync("/api/users/999");
-
-        Assert.Equal(HttpStatusCode.NotFound, response.StatusCode);
-    }
-
-    [Fact]
-    public async Task ExistsByEmail_ReturnsTrue_ForSeededUser()
-    {
-        var response = await Client.GetFromJsonAsync<EmailExistsResponse>("/api/users/exists-by-email?email=ava.seed@appetee.test");
-
-        Assert.NotNull(response);
-        Assert.True(response!.exists);
-    }
-
-    [Fact]
-    public async Task ExistsByEmail_ValidatesTheQueryString()
-    {
-        var invalidResponse = await Client.GetAsync("/api/users/exists-by-email?email=not-an-email");
-        var missingResponse = await Client.GetAsync("/api/users/exists-by-email?email=");
-
-        Assert.Equal(HttpStatusCode.BadRequest, invalidResponse.StatusCode);
-        Assert.Equal(HttpStatusCode.BadRequest, missingResponse.StatusCode);
-    }
-
-    [Fact]
-    public async Task GetMe_RequiresAuthentication()
-    {
-        var response = await Client.GetAsync("/api/users/me");
-
-        Assert.Equal(HttpStatusCode.Unauthorized, response.StatusCode);
+        await AssertProblemDetailsAsync(
+            response,
+            HttpStatusCode.Unauthorized,
+            "Unauthorized");
     }
 
     [Fact]
     public async Task GetMe_ReturnsTheAuthenticatedUser()
     {
-        var (authClient, authResult) = await CreateAuthenticatedClientAsync();
+        var (authClient, authResult) =
+            await CreateAuthenticatedClientAsync();
         using var client = authClient;
 
-        var response = await client.GetAsync("/api/users/me");
-        var user = await response.Content.ReadFromJsonAsync<UserDto>();
+        using var response = await client.GetAsync("/api/users/me");
+        var body = await response.Content.ReadAsStringAsync();
+        var profile = JsonSerializer.Deserialize<CurrentUserProfileDto>(
+            body,
+            new JsonSerializerOptions(JsonSerializerDefaults.Web));
+        using var document = JsonDocument.Parse(body);
+        var properties = document.RootElement
+            .EnumerateObject()
+            .Select(property => property.Name)
+            .OrderBy(name => name)
+            .ToArray();
 
         Assert.Equal(HttpStatusCode.OK, response.StatusCode);
-        Assert.NotNull(user);
-        Assert.Equal(authResult.userId, user!.id);
-        Assert.Equal(authResult.userName, user.username);
-    }
-
-    [Fact]
-    public async Task List_ClampsTake_AndReturnsUsers()
-    {
-        var response = await Client.GetAsync("/api/users?skip=-5&take=0");
-        if (!response.IsSuccessStatusCode)
-        {
-            var body = await response.Content.ReadAsStringAsync();
-            throw new InvalidOperationException(
-                $"List users failed with {(int)response.StatusCode} {response.StatusCode}: {body}");
-        }
-
-        var users = await response.Content.ReadFromJsonAsync<IReadOnlyList<UserDto>>();
-
-        Assert.NotNull(users);
-        Assert.Single(users!);
-        Assert.Equal(2, users[0].id);
-    }
-
-    [Fact]
-    public async Task Update_ReturnsUpdatedUser_AndPersistsUsernameAndImageUrl()
-    {
-        var response = await Client.PutAsJsonAsync("/api/users/1", new UpdateUserRequest("updated_ava", "https://cdn.test/users/ava-updated.png"));
-        var user = await response.Content.ReadFromJsonAsync<UserDto>();
-        var profile = await Factory.Database.QuerySingleOrDefaultAsync<UserProfileRow>(
-            "SELECT username AS Username, image_url AS ImageUrl FROM users WHERE id = @id;",
-            new { id = 1 });
-
-        Assert.Equal(HttpStatusCode.OK, response.StatusCode);
-        Assert.NotNull(user);
         Assert.NotNull(profile);
-        Assert.Equal("updated_ava", profile!.Username);
-        Assert.Equal("https://cdn.test/users/ava-updated.png", profile.ImageUrl);
+        Assert.Equal(authResult.userName, profile!.Username);
+        Assert.Null(profile.ImageUrl);
+        Assert.Equal(new[] { "imageUrl", "username" }, properties);
     }
 
     [Fact]
-    public async Task Update_ReturnsBadRequest_WhenBodyIsNull()
+    public async Task UpdateMe_UpdatesOnlyTheAuthenticatedAccount()
     {
-        using var content = JsonContent.Create<object?>(null);
-        var response = await Client.PutAsync("/api/users/1", content);
+        var (userAClient, userA) = await CreateAuthenticatedClientAsync(
+            username: "phase2_user_a",
+            email: "phase2_user_a@appetee.test");
+        var (userBClient, userB) = await CreateAuthenticatedClientAsync(
+            username: "phase2_user_b",
+            email: "phase2_user_b@appetee.test");
+        using var clientA = userAClient;
+        using var clientB = userBClient;
 
-        Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
+        var request = new UpdateCurrentUserProfileRequest(
+            "  phase2_user_a_updated  ",
+            "https://cdn.test/users/phase2-a.png");
+        using var response = await clientA.PutAsJsonAsync(
+            "/api/users/me",
+            request);
+        var profile = await response.Content
+            .ReadFromJsonAsync<CurrentUserProfileDto>();
+
+        Assert.Equal(HttpStatusCode.OK, response.StatusCode);
+        Assert.NotNull(profile);
+        Assert.Equal("phase2_user_a_updated", profile!.Username);
+        Assert.Equal(
+            "https://cdn.test/users/phase2-a.png",
+            profile.ImageUrl);
+
+        var storedA = await Factory.Database.QuerySingleOrDefaultAsync<UserRow>(
+            "SELECT id AS Id, username AS Username, image_url AS ImageUrl " +
+            "FROM users WHERE id = @id;",
+            new { id = userA.userId });
+        var storedB = await Factory.Database.QuerySingleOrDefaultAsync<UserRow>(
+            "SELECT id AS Id, username AS Username, image_url AS ImageUrl " +
+            "FROM users WHERE id = @id;",
+            new { id = userB.userId });
+
+        Assert.NotNull(storedA);
+        Assert.Equal("phase2_user_a_updated", storedA!.Username);
+        Assert.Equal(
+            "https://cdn.test/users/phase2-a.png",
+            storedA.ImageUrl);
+        Assert.NotNull(storedB);
+        Assert.Equal("phase2_user_b", storedB!.Username);
+        Assert.Null(storedB.ImageUrl);
+    }
+
+    [Theory]
+    [InlineData(null, null, "At least one profile field is required.")]
+    [InlineData("   ", null, "Username is required.")]
+    public async Task UpdateMe_ReturnsProblemDetails400_ForInvalidInput(
+        string? username,
+        string? imageUrl,
+        string expectedDetail)
+    {
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
+
+        using var response = await client.PutAsJsonAsync(
+            "/api/users/me",
+            new UpdateCurrentUserProfileRequest(username, imageUrl));
+        var problem = await AssertProblemDetailsAsync(
+            response,
+            HttpStatusCode.BadRequest,
+            "Bad Request");
+
+        Assert.Equal(expectedDetail, problem.Detail);
     }
 
     [Fact]
-    public async Task Update_ReturnsBadRequest_WhenImageUrlIsTooLong()
+    public async Task UpdateMe_ReturnsProblemDetails400_WhenImageUrlIsTooLong()
     {
-        var tooLongUrl = $"https://cdn.test/{new string('a', 260)}";
-        var response = await Client.PutAsJsonAsync("/api/users/1", new UpdateUserRequest(null, tooLongUrl));
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
+
+        using var response = await client.PutAsJsonAsync(
+            "/api/users/me",
+            new UpdateCurrentUserProfileRequest(
+                null,
+                $"https://cdn.test/{new string('a', 260)}"));
+        var problem = await AssertProblemDetailsAsync(
+            response,
+            HttpStatusCode.BadRequest,
+            "Bad Request");
+
+        Assert.Contains("ImageUrl too long", problem.Detail);
+    }
+
+    [Fact]
+    public async Task UpdateMe_RejectsOverpostingAndIdentityTampering()
+    {
+        var (userAClient, userA) = await CreateAuthenticatedClientAsync(
+            username: "phase2_overpost_a",
+            email: "phase2_overpost_a@appetee.test");
+        var (userBClient, userB) = await CreateAuthenticatedClientAsync(
+            username: "phase2_overpost_b",
+            email: "phase2_overpost_b@appetee.test");
+        using var clientA = userAClient;
+        using var clientB = userBClient;
+
+        using var response = await clientA.PutAsJsonAsync(
+            "/api/users/me",
+            new
+            {
+                username = "tampered",
+                userId = userB.userId,
+                ownerId = userB.userId,
+                email = "tampered@appetee.test",
+                dietIds = new[] { 3 }
+            });
+
         var problem = await response.ReadProblemDetailsAsync();
 
         Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
+        Assert.Equal(
+            "application/problem+json",
+            response.Content.Headers.ContentType?.MediaType);
         Assert.NotNull(problem);
-        Assert.Contains("ImageUrl too long", problem!.Detail, StringComparison.OrdinalIgnoreCase);
+        Assert.Equal(StatusCodes.Status400BadRequest, problem!.Status);
+        Assert.Equal(
+            "One or more validation errors occurred.",
+            problem.Title);
+        Assert.True(problem.Extensions.ContainsKey("errors"));
+
+        var storedA = await Factory.Database.QuerySingleOrDefaultAsync<UserRow>(
+            "SELECT id AS Id, username AS Username, image_url AS ImageUrl " +
+            "FROM users WHERE id = @id;",
+            new { id = userA.userId });
+        var storedB = await Factory.Database.QuerySingleOrDefaultAsync<UserRow>(
+            "SELECT id AS Id, username AS Username, image_url AS ImageUrl " +
+            "FROM users WHERE id = @id;",
+            new { id = userB.userId });
+
+        Assert.Equal("phase2_overpost_a", storedA!.Username);
+        Assert.Equal("phase2_overpost_b", storedB!.Username);
     }
 
     [Fact]
-    public async Task Delete_RemovesTheUser()
+    public async Task LegacyReads_ReturnTheSame404_ForOwnCrossUserAndMissingIds()
     {
-        var response = await Client.DeleteAsync("/api/users/2");
-        var deletedUser = await Factory.Database.QuerySingleOrDefaultAsync<int?>(
-            "SELECT id FROM users WHERE id = @id;",
-            new { id = 2 });
+        var (userAClient, userA) = await CreateAuthenticatedClientAsync(
+            username: "phase1_user_a",
+            email: "phase1_user_a@appetee.test");
+        var (userBClient, userB) = await CreateAuthenticatedClientAsync(
+            username: "phase1_user_b",
+            email: "phase1_user_b@appetee.test");
+        using var clientA = userAClient;
+        using var clientB = userBClient;
 
-        Assert.Equal(HttpStatusCode.NoContent, response.StatusCode);
-        Assert.Null(deletedUser);
+        var responses = new[]
+        {
+            await clientA.GetAsync($"/api/users/{userA.userId}"),
+            await clientA.GetAsync($"/api/users/{userB.userId}"),
+            await clientB.GetAsync($"/api/users/{userA.userId}"),
+            await clientA.GetAsync("/api/users/999999"),
+        };
+
+        try
+        {
+            foreach (var response in responses)
+            {
+                var problem = await AssertProblemDetailsAsync(
+                    response,
+                    HttpStatusCode.NotFound,
+                    "Not Found");
+
+                Assert.Equal(DisabledRouteDetail, problem.Detail);
+            }
+        }
+        finally
+        {
+            foreach (var response in responses)
+            {
+                response.Dispose();
+            }
+        }
     }
 
     [Fact]
-    public async Task Delete_ReturnsNotFound_WhenUserDoesNotExist()
+    public async Task LegacyCrossUserMutations_Return404_AndDoNotChangeTarget()
     {
-        var response = await Client.DeleteAsync("/api/users/999");
+        var (userAClient, _) = await CreateAuthenticatedClientAsync(
+            username: "phase1_mutator",
+            email: "phase1_mutator@appetee.test");
+        var (userBClient, userB) = await CreateAuthenticatedClientAsync(
+            username: "phase1_target",
+            email: "phase1_target@appetee.test");
+        using var clientA = userAClient;
+        using var clientB = userBClient;
 
-        Assert.Equal(HttpStatusCode.NotFound, response.StatusCode);
+        using var updateResponse = await clientA.PutAsJsonAsync(
+            $"/api/users/{userB.userId}",
+            new
+            {
+                username = "compromised",
+                imageUrl = "https://cdn.test/compromised.png"
+            });
+        using var deleteResponse = await clientA.DeleteAsync(
+            $"/api/users/{userB.userId}");
+
+        await AssertProblemDetailsAsync(
+            updateResponse,
+            HttpStatusCode.NotFound,
+            "Not Found");
+        await AssertProblemDetailsAsync(
+            deleteResponse,
+            HttpStatusCode.NotFound,
+            "Not Found");
+
+        var target = await Factory.Database.QuerySingleOrDefaultAsync<UserRow>(
+            "SELECT id AS Id, username AS Username, image_url AS ImageUrl " +
+            "FROM users WHERE id = @id;",
+            new { id = userB.userId });
+
+        Assert.NotNull(target);
+        Assert.Equal("phase1_target", target!.Username);
+
+        // The target's existing authenticated session is still usable too.
+        using var meResponse = await clientB.GetAsync("/api/users/me");
+        Assert.Equal(HttpStatusCode.OK, meResponse.StatusCode);
     }
 
-    private sealed record EmailExistsResponse(bool exists);
+    [Fact]
+    public async Task GeneralUserDiscoveryRoutes_Return404_WhenAuthenticated()
+    {
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
 
-    private sealed record UserProfileRow(string? Username, string? ImageUrl);
+        using var listResponse = await client.GetAsync("/api/users");
+        using var emailResponse = await client.GetAsync(
+            "/api/users/exists-by-email?email=ava.seed@appetee.test");
+
+        var listProblem = await AssertProblemDetailsAsync(
+            listResponse,
+            HttpStatusCode.NotFound,
+            "Not Found");
+        var emailProblem = await AssertProblemDetailsAsync(
+            emailResponse,
+            HttpStatusCode.NotFound,
+            "Not Found");
+
+        Assert.Equal(DisabledRouteDetail, listProblem.Detail);
+        Assert.Equal(DisabledRouteDetail, emailProblem.Detail);
+    }
+
+    [Fact]
+    public async Task OpenApi_OnlyPublishesTheCurrentUserAccountRoute()
+    {
+        using var response = await Client.GetAsync("/swagger/v1/swagger.json");
+        response.EnsureSuccessStatusCode();
+
+        using var document = JsonDocument.Parse(
+            await response.Content.ReadAsStreamAsync());
+        var paths = document.RootElement.GetProperty("paths");
+
+        Assert.True(paths.TryGetProperty("/api/users/me", out _));
+        Assert.False(paths.TryGetProperty("/api/users", out _));
+        Assert.False(paths.TryGetProperty("/api/users/{id}", out _));
+        Assert.False(
+            paths.TryGetProperty("/api/users/exists-by-email", out _));
+    }
+
+    private static HttpRequestMessage CreateRequest(
+        string method,
+        string path)
+    {
+        var request = new HttpRequestMessage(new HttpMethod(method), path);
+
+        if (method == HttpMethod.Put.Method)
+        {
+            request.Content = JsonContent.Create(new { username = "blocked" });
+        }
+
+        return request;
+    }
+
+    private static async Task<ProblemDetails> AssertProblemDetailsAsync(
+        HttpResponseMessage response,
+        HttpStatusCode expectedStatus,
+        string expectedTitle)
+    {
+        var problem = await response.ReadProblemDetailsAsync();
+
+        Assert.Equal(expectedStatus, response.StatusCode);
+        Assert.Equal(
+            "application/problem+json",
+            response.Content.Headers.ContentType?.MediaType);
+        Assert.NotNull(problem);
+        Assert.Equal((int)expectedStatus, problem!.Status);
+        Assert.Equal(expectedTitle, problem.Title);
+        Assert.False(string.IsNullOrWhiteSpace(problem.Detail));
+
+        return problem;
+    }
+
+    private sealed record UserRow(
+        int Id,
+        string Username,
+        string? ImageUrl = null);
 }

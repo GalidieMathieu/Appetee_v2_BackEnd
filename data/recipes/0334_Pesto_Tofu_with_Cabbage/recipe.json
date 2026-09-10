@@ -1,0 +1,244 @@
+{
+  "seedId": "REC-0334",
+  "candidate": {
+    "sequence": 407,
+    "seedId": "REC-CAND-0407",
+    "name": "Pesto Tofu with Cabbage"
+  },
+  "name": "Pesto Tofu with Cabbage",
+  "description": "Pesto Tofu with Cabbage is a practical stovetop recipe pairing tofu with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.peta.org/recipes/buffalo-tofu-scramble-breakfast-tacos/",
+    "domain": "peta.org",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Tofu Scramble Breakfast Tacos source while retaining its closest matching dish form, cooking sequence, and applicable tofu or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 40,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tofu",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0018",
+      "sourceQuantity": 14,
+      "sourceUnit": "oz",
+      "sourceDisplay": "14 oz extra-firm tofu",
+      "normalizedQuantity": 396.9,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 8,
+      "sourceUnit": "tortillas",
+      "sourceDisplay": "8 whole-wheat tortillas",
+      "normalizedQuantity": 362.9,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups spinach",
+      "normalizedQuantity": 127.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup salsa",
+      "normalizedQuantity": 260,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp curry powder",
+      "normalizedQuantity": 2.3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0100",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0096",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0080",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tofu, and vegetables for pesto tofu with cabbage.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tofu and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the pesto tofu with cabbage, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2025.16,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 4632.862,
+      "proteinG": 233.522,
+      "carbohydratesG": 326.7,
+      "fatG": 287.092,
+      "fiberG": 94.185,
+      "sugarsG": 35.072,
+      "sodiumMg": 9545.987,
+      "potassiumMg": 6008.67,
+      "calciumMg": 5468.155,
+      "ironMg": 34.773,
+      "magnesiumMg": 1562.248,
+      "vitaminCMg": 122.662
+    },
+    "perServing": {
+      "calories": 1158.216,
+      "proteinG": 58.38,
+      "carbohydratesG": 81.675,
+      "fatG": 71.773,
+      "fiberG": 23.546,
+      "sugarsG": 8.768,
+      "sodiumMg": 2386.497,
+      "potassiumMg": 1502.168,
+      "calciumMg": 1367.039,
+      "ironMg": 8.693,
+      "magnesiumMg": 390.562,
+      "vitaminCMg": 30.666
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 20.08,
+    "perServingUsd": 5.02,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Meal Prep"
+  ],
+  "createdAt": "2025-05-31T02:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/pesto-tofu-with-balsamic-vegetables--420664421459030568/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.Bp-mSZJj3dbO73GDqI6_AwHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/28/ce/25/28ce2540a31042fcc80d4ea2999664be.jpg",
+    "searchQuery": "Pesto Tofu with Cabbage plated recipe food",
+    "searchResultTitle": "Pesto Tofu with Balsamic Vegetables | How to cook tofu with basil ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:41:56.662Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0334",
+    "name": "Pesto Tofu with Cabbage",
+    "description": "Pesto Tofu with Cabbage is a practical stovetop recipe pairing tofu with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 1158.216,
+      "proteinG": 58.38,
+      "carbohydratesG": 81.675,
+      "fatG": 71.773,
+      "fiberG": 23.546,
+      "sugarsG": 8.768,
+      "sodiumMg": 2386.497,
+      "potassiumMg": 1502.168,
+      "calciumMg": 1367.039,
+      "ironMg": 8.693,
+      "magnesiumMg": 390.562,
+      "vitaminCMg": 30.666
+    },
+    "estimatedCostPerServingUsd": 5.02,
+    "diets": [
+      "Vegetarian",
+      "Vegan"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Meal Prep"
+    ]
+  }
+}

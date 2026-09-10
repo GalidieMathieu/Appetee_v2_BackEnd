@@ -1,0 +1,200 @@
+{
+  "seedId": "REC-1548",
+  "candidate": {
+    "sequence": 2346,
+    "seedId": "REC-CAND-2346",
+    "name": "Mexican Slaw"
+  },
+  "name": "Mexican Slaw",
+  "description": "Mexican Slaw is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/153802/algerian-flafla-bell-pepper-salad/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Algerian Flafla Bell Pepper Salad source because it provides the closest validated slaw structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Side",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for mexican slaw.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the vegetables with the vegetables and remaining ingredients in the intended side form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the mexican slaw into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 340,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 323.532,
+      "proteinG": 4.02,
+      "carbohydratesG": 16.855,
+      "fatG": 29.26,
+      "fiberG": 7.085,
+      "sugarsG": 8.764,
+      "sodiumMg": 162.446,
+      "potassiumMg": 922.773,
+      "calciumMg": 58.223,
+      "ironMg": 2.883,
+      "magnesiumMg": 49.35,
+      "vitaminCMg": 41.18
+    },
+    "perServing": {
+      "calories": 80.883,
+      "proteinG": 1.005,
+      "carbohydratesG": 4.214,
+      "fatG": 7.315,
+      "fiberG": 1.771,
+      "sugarsG": 2.191,
+      "sodiumMg": 40.611,
+      "potassiumMg": 230.693,
+      "calciumMg": 14.556,
+      "ironMg": 0.721,
+      "magnesiumMg": 12.338,
+      "vitaminCMg": 10.295
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 1.26,
+    "perServingUsd": 0.32,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-07-15T16:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://wendypolisi.com/mexican-slaw/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.cPx86hkZrQaayS4FVflbFgHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://wendypolisi.com/wp-content/uploads/2023/05/mexican-slaw-h2-1024x1536.jpg",
+    "searchQuery": "Mexican Slaw plated recipe food",
+    "searchResultTitle": "15-Minute Mexican Slaw for Tacos - Wendy Polisi",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:55:20.690Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1548",
+    "name": "Mexican Slaw",
+    "description": "Mexican Slaw is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 80.883,
+      "proteinG": 1.005,
+      "carbohydratesG": 4.214,
+      "fatG": 7.315,
+      "fiberG": 1.771,
+      "sugarsG": 2.191,
+      "sodiumMg": 40.611,
+      "potassiumMg": 230.693,
+      "calciumMg": 14.556,
+      "ironMg": 0.721,
+      "magnesiumMg": 12.338,
+      "vitaminCMg": 10.295
+    },
+    "estimatedCostPerServingUsd": 0.32,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

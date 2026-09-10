@@ -1,0 +1,200 @@
+{
+  "seedId": "REC-1572",
+  "candidate": {
+    "sequence": 2370,
+    "seedId": "REC-CAND-2370",
+    "name": "Lemon Quinoa Pilaf"
+  },
+  "name": "Lemon Quinoa Pilaf",
+  "description": "Lemon Quinoa Pilaf is a practical side adaptation built around quinoa, quinoa, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://kosherworldkitchen.com/morogo-curried-spinach/#recipe",
+    "domain": "kosherworldkitchen.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Botswana Curried Spinach source because it provides the closest validated pilaf structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Botswana",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Side",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "quinoa",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, quinoa, and quinoa for lemon quinoa pilaf.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned quinoa and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the lemon quinoa pilaf, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1350,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1325.532,
+      "proteinG": 39.63,
+      "carbohydratesG": 207.87,
+      "fatG": 42.918,
+      "fiberG": 30.9,
+      "sodiumMg": 21.546,
+      "potassiumMg": 2311.473,
+      "calciumMg": 236.073,
+      "ironMg": 13.761,
+      "magnesiumMg": 523.8,
+      "sugarsG": 7.5,
+      "vitaminCMg": 183.6
+    },
+    "perServing": {
+      "calories": 331.383,
+      "proteinG": 9.908,
+      "carbohydratesG": 51.968,
+      "fatG": 10.729,
+      "fiberG": 7.725,
+      "sodiumMg": 5.386,
+      "potassiumMg": 577.868,
+      "calciumMg": 59.018,
+      "ironMg": 3.44,
+      "magnesiumMg": 130.95,
+      "sugarsG": 1.875,
+      "vitaminCMg": 45.9
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.11,
+    "perServingUsd": 1.03,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2030-08-21T16:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse4.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://nextdishdaily.com/lemon-herb-quinoa-pilaf-tasty-and-fresh-recipe/",
+    "originalSourceUrl": "https://tse4.mm.bing.net/th/id/OIP.v7Aktgeqv2TSHIUwVXDh4AHaHa?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://nextdishdaily.com/wp-content/uploads/2026/02/hkucushom52tq1sijvku.webp",
+    "searchQuery": "lemon quinoa pilaf plated recipe food photograph",
+    "searchResultTitle": "Zesty Lemon Herb Quinoa Pilaf for a Fresh Flavor Boost - nextdishdaily.com",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:25:42.062Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1572",
+    "name": "Lemon Quinoa Pilaf",
+    "description": "Lemon Quinoa Pilaf is a practical side adaptation built around quinoa, quinoa, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 331.383,
+      "proteinG": 9.908,
+      "carbohydratesG": 51.968,
+      "fatG": 10.729,
+      "fiberG": 7.725,
+      "sodiumMg": 5.386,
+      "potassiumMg": 577.868,
+      "calciumMg": 59.018,
+      "ironMg": 3.44,
+      "magnesiumMg": 130.95,
+      "sugarsG": 1.875,
+      "vitaminCMg": 45.9
+    },
+    "estimatedCostPerServingUsd": 1.03,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

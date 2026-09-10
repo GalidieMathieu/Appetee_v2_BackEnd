@@ -1,0 +1,248 @@
+{
+  "seedId": "REC-0312",
+  "candidate": {
+    "sequence": 365,
+    "seedId": "REC-CAND-0365",
+    "name": "French Chicken with Potatoes"
+  },
+  "name": "French Chicken with Potatoes",
+  "description": "French Chicken with Potatoes is a practical stovetop recipe pairing chicken with potatoes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://apnews.com/article/4781453a1e32d0ba5fcd551f491ced6a",
+    "domain": "apnews.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Caribbean Chicken with Potatoes source while retaining its closest matching dish form, cooking sequence, and applicable chicken or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Caribbean",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "totalMinutes": 35
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0036",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chicken, and potatoes for french chicken with potatoes.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chicken and cook it until browned or heated through as appropriate.",
+    "Stir in the potatoes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the french chicken with potatoes, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2288,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2124.382,
+      "proteinG": 267.006,
+      "carbohydratesG": 130.434,
+      "fatG": 64.619,
+      "fiberG": 19.383,
+      "sugarsG": 16.521,
+      "sodiumMg": 2125.726,
+      "potassiumMg": 7177.843,
+      "calciumMg": 459.363,
+      "ironMg": 13.834,
+      "magnesiumMg": 477.972,
+      "vitaminCMg": 69.08
+    },
+    "perServing": {
+      "calories": 531.096,
+      "proteinG": 66.751,
+      "carbohydratesG": 32.608,
+      "fatG": 16.155,
+      "fiberG": 4.846,
+      "sugarsG": 4.13,
+      "sodiumMg": 531.432,
+      "potassiumMg": 1794.461,
+      "calciumMg": 114.841,
+      "ironMg": 3.458,
+      "magnesiumMg": 119.493,
+      "vitaminCMg": 17.27
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 12.06,
+    "perServingUsd": 3.02,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2025-04-27T04:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.ayleenrecipes.com/french-style-chicken-and-potatoes-2/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP._V19MMUtECTrjaUEBZgkAwHaJ4&pid=15.1",
+    "discoveredOriginalUrl": "https://www.ayleenrecipes.com/wp-content/uploads/2025/12/qqmue9i0p6hlysm23ird.webp",
+    "searchQuery": "French Chicken with Potatoes plated recipe food",
+    "searchResultTitle": "Delicious French-Style Chicken and Potatoes for Cozy Nights",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:40:55.795Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0312",
+    "name": "French Chicken with Potatoes",
+    "description": "French Chicken with Potatoes is a practical stovetop recipe pairing chicken with potatoes and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 531.096,
+      "proteinG": 66.751,
+      "carbohydratesG": 32.608,
+      "fatG": 16.155,
+      "fiberG": 4.846,
+      "sugarsG": 4.13,
+      "sodiumMg": 531.432,
+      "potassiumMg": 1794.461,
+      "calciumMg": 114.841,
+      "ironMg": 3.458,
+      "magnesiumMg": 119.493,
+      "vitaminCMg": 17.27
+    },
+    "estimatedCostPerServingUsd": 3.02,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

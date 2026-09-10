@@ -1,0 +1,204 @@
+{
+  "seedId": "REC-1198",
+  "candidate": {
+    "sequence": 1992,
+    "seedId": "REC-CAND-1992",
+    "name": "Chinese Lean Beef Flatbread"
+  },
+  "name": "Chinese Lean Beef Flatbread",
+  "description": "Chinese Lean Beef Flatbread is a practical main meal adaptation built around lean beef, flatbread, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://panlasangpinoy.com/bistek-tagalog-beefsteak-recipe/",
+    "domain": "panlasangpinoy.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Chinese Lean Beef Stir-Fry source because it provides the closest validated beef and flatbread structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "China",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 40,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lean beef",
+  "carbohydrateBase": "flatbread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0067",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lean beef, and flatbread for chinese lean beef flatbread.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lean beef and cook it until browned or heated through as appropriate.",
+    "Stir in the flatbread, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the chinese lean beef flatbread, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1110,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2755.776,
+      "proteinG": 147.823,
+      "carbohydratesG": 256.446,
+      "fatG": 120.588,
+      "fiberG": 14.078,
+      "sugarsG": 0.949,
+      "sodiumMg": 2316.066,
+      "potassiumMg": 2788.653,
+      "calciumMg": 191.757,
+      "ironMg": 27.958,
+      "magnesiumMg": 226.752,
+      "vitaminCMg": 24.6
+    },
+    "perServing": {
+      "calories": 688.944,
+      "proteinG": 36.956,
+      "carbohydratesG": 64.112,
+      "fatG": 30.147,
+      "fiberG": 3.519,
+      "sugarsG": 0.237,
+      "sodiumMg": 579.016,
+      "potassiumMg": 697.163,
+      "calciumMg": 47.939,
+      "ironMg": 6.989,
+      "magnesiumMg": 56.688,
+      "vitaminCMg": 6.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 11.42,
+    "perServingUsd": 2.85,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-01-22T02:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.1stdumplingnnoodleanaheim.com/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.ujVJHHQvdHggXHzIlZ4lbQHaFj&pid=15.1",
+    "discoveredOriginalUrl": "https://www.1stdumplingnnoodleanaheim.com/wp-content/uploads/1stdumplingnnoodleanaheim.com/2026/05/Beef-wrapped-in-crispy-flatbread-with-fresh-vegetables-at-1st-Dumpling-N-Noodle-a-Chinese-Restaurant-in-CA.jpg",
+    "searchQuery": "Chinese Lean Beef Flatbread plated recipe food",
+    "searchResultTitle": "Home | 1st Dumpling N Noodle- Chinese Restaurant | Online Order ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:12:36.787Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1198",
+    "name": "Chinese Lean Beef Flatbread",
+    "description": "Chinese Lean Beef Flatbread is a practical main meal adaptation built around lean beef, flatbread, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 688.944,
+      "proteinG": 36.956,
+      "carbohydratesG": 64.112,
+      "fatG": 30.147,
+      "fiberG": 3.519,
+      "sugarsG": 0.237,
+      "sodiumMg": 579.016,
+      "potassiumMg": 697.163,
+      "calciumMg": 47.939,
+      "ironMg": 6.989,
+      "magnesiumMg": 56.688,
+      "vitaminCMg": 6.15
+    },
+    "estimatedCostPerServingUsd": 2.85,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

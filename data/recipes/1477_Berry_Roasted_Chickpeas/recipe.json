@@ -1,0 +1,210 @@
+{
+  "seedId": "REC-1477",
+  "candidate": {
+    "sequence": 2274,
+    "seedId": "REC-CAND-2274",
+    "name": "Berry Roasted Chickpeas"
+  },
+  "name": "Berry Roasted Chickpeas",
+  "description": "Berry Roasted Chickpeas is a practical snack adaptation built around chickpeas, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://nutritionsource.hsph.harvard.edu/crunchy-roasted-chickpeas/",
+    "domain": "nutritionsource.hsph.harvard.edu",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Chili Cumin Roasted Chickpeas source because it provides the closest validated beans and legumes structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 60,
+    "totalMinutes": 80
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "Oven",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0034",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for berry roasted chickpeas and preheat the oven.",
+    "Coat the chickpeas and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the legumes and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the berry roasted chickpeas briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1045,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1038.682,
+      "proteinG": 32.934,
+      "carbohydratesG": 148.185,
+      "fatG": 38.935,
+      "fiberG": 37.915,
+      "sugarsG": 29.87,
+      "sodiumMg": 996.096,
+      "potassiumMg": 1554.423,
+      "calciumMg": 300.423,
+      "ironMg": 7.778,
+      "magnesiumMg": 167.75,
+      "vitaminCMg": 153.28
+    },
+    "perServing": {
+      "calories": 259.671,
+      "proteinG": 8.233,
+      "carbohydratesG": 37.046,
+      "fatG": 9.734,
+      "fiberG": 9.479,
+      "sugarsG": 7.468,
+      "sodiumMg": 249.024,
+      "potassiumMg": 388.606,
+      "calciumMg": 75.106,
+      "ironMg": 1.944,
+      "magnesiumMg": 41.938,
+      "vitaminCMg": 38.32
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.81,
+    "perServingUsd": 0.95,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-03-28T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://ivysrecipes.com/roasted-chickpea-salad-with-blackberry-feta-dressing-recipe/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.6y3nMDIM7vVh8H-jm6LaewHaJQ&pid=15.1",
+    "discoveredOriginalUrl": "https://ivysrecipes.com/wp-content/uploads/2025/12/0_1-1766049880213.jpeg",
+    "searchQuery": "Berry Roasted Chickpeas plated recipe food",
+    "searchResultTitle": "Roasted Chickpea Salad with Blackberry Feta Dressing – Fresh & Flavorful",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:53:45.125Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1477",
+    "name": "Berry Roasted Chickpeas",
+    "description": "Berry Roasted Chickpeas is a practical snack adaptation built around chickpeas, legumes, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 80,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 259.671,
+      "proteinG": 8.233,
+      "carbohydratesG": 37.046,
+      "fatG": 9.734,
+      "fiberG": 9.479,
+      "sugarsG": 7.468,
+      "sodiumMg": 249.024,
+      "potassiumMg": 388.606,
+      "calciumMg": 75.106,
+      "ironMg": 1.944,
+      "magnesiumMg": 41.938,
+      "vitaminCMg": 38.32
+    },
+    "estimatedCostPerServingUsd": 0.95,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

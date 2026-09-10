@@ -1,0 +1,108 @@
+{
+  "seedId": "ING-0008",
+  "name": "Canned Diced Tomatoes",
+  "canonicalName": "Canned Diced Tomatoes",
+  "description": "Canned diced tomatoes with juice.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Diced Tomatoes, 14.5 oz",
+    "productId": "10450990",
+    "productUrl": "https://www.walmart.com/ip/10450990",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 0.92,
+    "packageQuantity": 411.068,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 18,
+      "proteinG": 0.84,
+      "carbohydratesG": 3.32,
+      "fatG": 0.5,
+      "sodiumMg": 125,
+      "potassiumMg": 198,
+      "calciumMg": 30,
+      "ironMg": 0.57,
+      "magnesiumMg": 9.8
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.2238
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 333281,
+      "dataType": "Foundation",
+      "description": "Tomatoes, canned, red, ripe, diced",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/333281/nutrients",
+      "searchQuery": "tomatoes red ripe canned with juice",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://api.nal.usda.gov/fdc/v1/foods/search?api_key=REDACTED&query=tomatoes+red+ripe+canned+with+juice&pageSize=25"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://infoupdate.org/pasta-sauce-recipe-with-canned-diced-tomatoes/",
+    "originalSourceUrl": "https://www.jessicagavin.com/wp-content/uploads/2020/08/types-of-canned-tomatoes-9.jpg",
+    "searchQuery": "Canned Diced Tomatoes ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0008",
+    "name": "Canned Diced Tomatoes",
+    "description": "Canned diced tomatoes with juice.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 18,
+      "proteinG": 0.84,
+      "carbohydratesG": 3.32,
+      "fatG": 0.5,
+      "sodiumMg": 125,
+      "potassiumMg": 198,
+      "calciumMg": 30,
+      "ironMg": 0.57,
+      "magnesiumMg": 9.8
+    },
+    "price": {
+      "usdPerBasis": 0.2238,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0008_Canned_Diced_Tomatoes/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

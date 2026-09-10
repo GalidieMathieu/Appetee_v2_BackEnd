@@ -1,0 +1,210 @@
+{
+  "seedId": "REC-0166",
+  "candidate": {
+    "sequence": 61,
+    "seedId": "REC-CAND-0061",
+    "name": "Crispy Cod Sweet Potato Hash"
+  },
+  "name": "Crispy Cod Sweet Potato Hash",
+  "description": "Crispy Cod Sweet Potato Hash combines cod with sweet potato and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+  "source": {
+    "url": "https://donnadundas.co.uk/baked-cod-with-sweet-potato-hash/",
+    "domain": "donnadundas.co.uk",
+    "accessedAt": "2026-08-10T18:00:00-06:00",
+    "adaptation": "The source's defining cod, sweet potato, seasoning profile, and core cooking technique are retained; quantities and supporting vegetables are normalized to the canonical Appetee market ingredients."
+  },
+  "countryOfOrigin": "United Kingdom",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven + Stovetop",
+  "primaryProtein": "cod",
+  "carbohydrateBase": "sweet potato",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0044",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0007",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and prepare every ingredient for crispy cod sweet potato hash before heating the cooking vessel.",
+    "Preheat the oven and coat the cod and vegetables evenly with the recorded seasonings.",
+    "Cook the sweet potato until tender while the seasoned cod develops its intended color and texture.",
+    "Combine the cooked components with the remaining vegetables and sauce, then adjust the consistency and seasoning.",
+    "Portion the finished crispy cod sweet potato hash evenly and serve it warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1384,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1095.612,
+      "proteinG": 102.564,
+      "carbohydratesG": 97.98,
+      "fatG": 32.451,
+      "fiberG": 13.396,
+      "sugarsG": 13.012,
+      "sodiumMg": 1836.266,
+      "potassiumMg": 4138.473,
+      "calciumMg": 190.333,
+      "ironMg": 5.281,
+      "magnesiumMg": 247.42,
+      "vitaminCMg": 453.036
+    },
+    "perServing": {
+      "calories": 273.903,
+      "proteinG": 25.641,
+      "carbohydratesG": 24.495,
+      "fatG": 8.113,
+      "fiberG": 3.349,
+      "sugarsG": 3.253,
+      "sodiumMg": 459.067,
+      "potassiumMg": 1034.618,
+      "calciumMg": 47.583,
+      "ironMg": 1.32,
+      "magnesiumMg": 61.855,
+      "vitaminCMg": 113.259
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 18,
+    "perServingUsd": 4.5,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb"
+  ],
+  "createdAt": "2024-09-14T02:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "donnadundas.co.uk",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://donnadundas.co.uk/baked-cod-with-sweet-potato-hash/",
+    "originalSourceUrl": "https://donnadundas.co.uk/wp-content/uploads/2021/02/cod-sweet-potato-feature.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0166",
+    "name": "Crispy Cod Sweet Potato Hash",
+    "description": "Crispy Cod Sweet Potato Hash combines cod with sweet potato and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 273.903,
+      "proteinG": 25.641,
+      "carbohydratesG": 24.495,
+      "fatG": 8.113,
+      "fiberG": 3.349,
+      "sugarsG": 3.253,
+      "sodiumMg": 459.067,
+      "potassiumMg": 1034.618,
+      "calciumMg": 47.583,
+      "ironMg": 1.32,
+      "magnesiumMg": 61.855,
+      "vitaminCMg": 113.259
+    },
+    "estimatedCostPerServingUsd": 4.5,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb"
+    ]
+  }
+}

@@ -1,0 +1,274 @@
+{
+  "seedId": "REC-0514",
+  "candidate": {
+    "sequence": 724,
+    "seedId": "REC-CAND-0724",
+    "name": "Pesto Chickpea with Cabbage"
+  },
+  "name": "Pesto Chickpea with Cabbage",
+  "description": "Pesto Chickpea with Cabbage is a practical stovetop recipe pairing chickpeas with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.seriouseats.com/2014/09/one-pot-wonders-stovetop-eggplant-harissa-chickpeas-cumin.html",
+    "domain": "seriouseats.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Harissa Eggplant with Chickpeas and Cumin Yogurt source while retaining its closest matching dish form, cooking sequence, and applicable chickpeas or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 60,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 4,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "4 tbsp olive oil",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0064",
+      "sourceQuantity": 6,
+      "sourceUnit": "small",
+      "sourceDisplay": "6 small eggplants",
+      "normalizedQuantity": 1362,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0088",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "½ tbsp harissa paste",
+      "normalizedQuantity": 8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can chickpeas",
+      "normalizedQuantity": 439.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups tomatoes",
+      "normalizedQuantity": 372,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups Greek yogurt",
+      "normalizedQuantity": 340,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp ground cumin",
+      "normalizedQuantity": 6.3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "parsley for serving",
+      "normalizedQuantity": 1.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0100",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0096",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0080",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chickpeas, and legumes for pesto chickpea with cabbage.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chickpeas and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the pesto chickpea with cabbage, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 3343.8,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 4815.375,
+      "proteinG": 237.476,
+      "carbohydratesG": 335.383,
+      "fatG": 306.434,
+      "fiberG": 120.132,
+      "sugarsG": 110.901,
+      "sodiumMg": 6895.34,
+      "potassiumMg": 8544.46,
+      "calciumMg": 4344.809,
+      "ironMg": 28.925,
+      "magnesiumMg": 1379.502,
+      "vitaminCMg": 200.72
+    },
+    "perServing": {
+      "calories": 1203.844,
+      "proteinG": 59.369,
+      "carbohydratesG": 83.846,
+      "fatG": 76.609,
+      "fiberG": 30.033,
+      "sugarsG": 27.725,
+      "sodiumMg": 1723.835,
+      "potassiumMg": 2136.115,
+      "calciumMg": 1086.202,
+      "ironMg": 7.231,
+      "magnesiumMg": 344.875,
+      "vitaminCMg": 50.18
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 22.88,
+    "perServingUsd": 5.72,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber"
+  ],
+  "createdAt": "2026-03-04T14:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://epicyummybites.com/recipes/pesto-chickpeas-mediterranean-dish",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.DXI6QqX4miMglRsvGtnwEwHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://epicyummybites.com/assets/images/1755544156568-8vcral48.jpg",
+    "searchQuery": "Pesto Chickpea with Cabbage plated recipe food",
+    "searchResultTitle": "Pesto Chickpeas with Fresh Mediterranean Flavors - epicyummybites",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:51:41.205Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0514",
+    "name": "Pesto Chickpea with Cabbage",
+    "description": "Pesto Chickpea with Cabbage is a practical stovetop recipe pairing chickpeas with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 1203.844,
+      "proteinG": 59.369,
+      "carbohydratesG": 83.846,
+      "fatG": 76.609,
+      "fiberG": 30.033,
+      "sugarsG": 27.725,
+      "sodiumMg": 1723.835,
+      "potassiumMg": 2136.115,
+      "calciumMg": 1086.202,
+      "ironMg": 7.231,
+      "magnesiumMg": 344.875,
+      "vitaminCMg": 50.18
+    },
+    "estimatedCostPerServingUsd": 5.72,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber"
+    ]
+  }
+}

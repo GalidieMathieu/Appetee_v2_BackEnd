@@ -1,0 +1,256 @@
+{
+  "seedId": "REC-0458",
+  "candidate": {
+    "sequence": 621,
+    "seedId": "REC-CAND-0621",
+    "name": "Japanese Tempeh with Vegetables"
+  },
+  "name": "Japanese Tempeh with Vegetables",
+  "description": "Japanese Tempeh with Vegetables is a practical stovetop recipe pairing tempeh with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.atkins.com/recipes/coconut-curry-tempeh",
+    "domain": "atkins.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Tempeh Sweet Potato Coconut Curry source while retaining its closest matching dish form, cooking sequence, and applicable tempeh or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tempeh",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0049",
+      "sourceQuantity": 1,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1 lb tempeh",
+      "normalizedQuantity": 453.6,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0007",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb sweet potatoes",
+      "normalizedQuantity": 680.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can coconut milk",
+      "normalizedQuantity": 399,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can diced tomatoes",
+      "normalizedQuantity": 411.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp curry powder",
+      "normalizedQuantity": 7,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp cumin",
+      "normalizedQuantity": 2.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tempeh, and vegetables for japanese tempeh with vegetables.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tempeh and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the japanese tempeh with vegetables, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2319.8,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2673.763,
+      "proteinG": 120.558,
+      "carbohydratesG": 211.609,
+      "fatG": 168.081,
+      "sodiumMg": 633.333,
+      "potassiumMg": 8031.267,
+      "calciumMg": 986.599,
+      "ironMg": 34.835,
+      "magnesiumMg": 796.986,
+      "vitaminCMg": 162.98,
+      "fiberG": 10.71,
+      "sugarsG": 8.28
+    },
+    "perServing": {
+      "calories": 668.441,
+      "proteinG": 30.14,
+      "carbohydratesG": 52.902,
+      "fatG": 42.02,
+      "sodiumMg": 158.333,
+      "potassiumMg": 2007.817,
+      "calciumMg": 246.65,
+      "ironMg": 8.709,
+      "magnesiumMg": 199.246,
+      "vitaminCMg": 40.745,
+      "fiberG": 2.678,
+      "sugarsG": 2.07
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 20.18,
+    "perServingUsd": 5.04,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Meal Prep"
+  ],
+  "createdAt": "2025-12-08T06:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/japanese-tempeh-skillet-recipe--20125529575050935/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.rQztgYHtqdyC7QoUdp8IzwHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/bf/38/84/bf3884441ea20ce3d48894dbfcee6dd3.png",
+    "searchQuery": "Japanese Tempeh with Vegetables plated recipe food",
+    "searchResultTitle": "Japanese Tempeh Skillet Recipe - | Recipe | Clean eating recipes ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:48:57.672Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0458",
+    "name": "Japanese Tempeh with Vegetables",
+    "description": "Japanese Tempeh with Vegetables is a practical stovetop recipe pairing tempeh with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 668.441,
+      "proteinG": 30.14,
+      "carbohydratesG": 52.902,
+      "fatG": 42.02,
+      "sodiumMg": 158.333,
+      "potassiumMg": 2007.817,
+      "calciumMg": 246.65,
+      "ironMg": 8.709,
+      "magnesiumMg": 199.246,
+      "vitaminCMg": 40.745,
+      "fiberG": 2.678,
+      "sugarsG": 2.07
+    },
+    "estimatedCostPerServingUsd": 5.04,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Meal Prep"
+    ]
+  }
+}

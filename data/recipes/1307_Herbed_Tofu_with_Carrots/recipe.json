@@ -1,0 +1,218 @@
+{
+  "seedId": "REC-1307",
+  "candidate": {
+    "sequence": 2101,
+    "seedId": "REC-CAND-2101",
+    "name": "Herbed Tofu with Carrots"
+  },
+  "name": "Herbed Tofu with Carrots",
+  "description": "Herbed Tofu with Carrots is a practical main meal adaptation built around tofu, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.peta.org/recipes/buffalo-tofu-scramble-breakfast-tacos/",
+    "domain": "peta.org",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Ginger Tofu with Mushrooms source because it provides the closest validated soy and vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tofu",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0018",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tofu, and vegetables for herbed tofu with carrots.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tofu and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the herbed tofu with carrots, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 920,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 749.282,
+      "proteinG": 34.684,
+      "carbohydratesG": 70.615,
+      "fatG": 41.029,
+      "fiberG": 18.45,
+      "sugarsG": 16.533,
+      "sodiumMg": 271.696,
+      "potassiumMg": 2144.423,
+      "calciumMg": 831.423,
+      "ironMg": 8.078,
+      "magnesiumMg": 197.75,
+      "vitaminCMg": 53.83
+    },
+    "perServing": {
+      "calories": 187.321,
+      "proteinG": 8.671,
+      "carbohydratesG": 17.654,
+      "fatG": 10.257,
+      "fiberG": 4.612,
+      "sugarsG": 4.133,
+      "sodiumMg": 67.924,
+      "potassiumMg": 536.106,
+      "calciumMg": 207.856,
+      "ironMg": 2.019,
+      "magnesiumMg": 49.438,
+      "vitaminCMg": 13.457
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.7,
+    "perServingUsd": 1.18,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly"
+  ],
+  "createdAt": "2029-07-09T03:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/roasted-carrots-and-tofu-bathed-in-a-tangy-toasted-sesame-vinaigrette-and-finished-with-bright-herbs-make-a-lovely-h--616078424004580850/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.wPD8FevNenBiDlXnd1_2uwHaFj&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/9b/c7/b1/9bc7b19bc520cd17eacea8e698e6815f.jpg",
+    "searchQuery": "Herbed Tofu with Carrots plated recipe food",
+    "searchResultTitle": "Roasted carrots and tofu, bathed in a tangy, toasted sesame vinaigrette ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:18:22.778Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1307",
+    "name": "Herbed Tofu with Carrots",
+    "description": "Herbed Tofu with Carrots is a practical main meal adaptation built around tofu, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 187.321,
+      "proteinG": 8.671,
+      "carbohydratesG": 17.654,
+      "fatG": 10.257,
+      "fiberG": 4.612,
+      "sugarsG": 4.133,
+      "sodiumMg": 67.924,
+      "potassiumMg": 536.106,
+      "calciumMg": 207.856,
+      "ironMg": 2.019,
+      "magnesiumMg": 49.438,
+      "vitaminCMg": 13.457
+    },
+    "estimatedCostPerServingUsd": 1.18,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly"
+    ]
+  }
+}

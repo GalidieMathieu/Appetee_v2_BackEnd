@@ -1,0 +1,204 @@
+{
+  "seedId": "REC-0124",
+  "candidate": {
+    "sequence": 12,
+    "seedId": "REC-CAND-0012",
+    "name": "Lebanese Mujadara Bowl"
+  },
+  "name": "Lebanese Mujadara Bowl",
+  "description": "Lebanese Mujadara Bowl combines lentils with rice and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+  "source": {
+    "url": "https://feelgoodfoodie.net/recipe/mujadara/",
+    "domain": "feelgoodfoodie.net",
+    "accessedAt": "2026-08-10T18:00:00-06:00",
+    "adaptation": "The source's defining lentils, rice, seasoning profile, and core cooking technique are retained; quantities and supporting vegetables are normalized to the canonical Appetee market ingredients."
+  },
+  "countryOfOrigin": "Lebanon",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 50,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and prepare every ingredient for lebanese mujadara bowl before heating the cooking vessel.",
+    "Heat the cooking vessel and soften the aromatics before adding the lentils.",
+    "Cook the rice until tender while the seasoned lentils develops its intended color and texture.",
+    "Combine the cooked components with the remaining vegetables and sauce, then adjust the consistency and seasoning.",
+    "Portion the finished lebanese mujadara bowl evenly and serve it warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 814,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2076.732,
+      "proteinG": 79.138,
+      "carbohydratesG": 372.478,
+      "fatG": 33.358,
+      "fiberG": 32.158,
+      "sugarsG": 4.962,
+      "sodiumMg": 25.775,
+      "potassiumMg": 2440.193,
+      "calciumMg": 177.217,
+      "ironMg": 19.609,
+      "magnesiumMg": 218.04,
+      "vitaminCMg": 35.708
+    },
+    "perServing": {
+      "calories": 519.183,
+      "proteinG": 19.785,
+      "carbohydratesG": 93.12,
+      "fatG": 8.339,
+      "fiberG": 8.04,
+      "sugarsG": 1.24,
+      "sodiumMg": 6.444,
+      "potassiumMg": 610.048,
+      "calciumMg": 44.304,
+      "ironMg": 4.902,
+      "magnesiumMg": 54.51,
+      "vitaminCMg": 8.927
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.03,
+    "perServingUsd": 0.76,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-07-11T08:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "feelgoodfoodie.net",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://feelgoodfoodie.net/recipe/mujadara/",
+    "originalSourceUrl": "https://feelgoodfoodie.net/wp-content/uploads/2019/04/Mujadara-13.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0124",
+    "name": "Lebanese Mujadara Bowl",
+    "description": "Lebanese Mujadara Bowl combines lentils with rice and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 519.183,
+      "proteinG": 19.785,
+      "carbohydratesG": 93.12,
+      "fatG": 8.339,
+      "fiberG": 8.04,
+      "sugarsG": 1.24,
+      "sodiumMg": 6.444,
+      "potassiumMg": 610.048,
+      "calciumMg": 44.304,
+      "ironMg": 4.902,
+      "magnesiumMg": 54.51,
+      "vitaminCMg": 8.927
+    },
+    "estimatedCostPerServingUsd": 0.76,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

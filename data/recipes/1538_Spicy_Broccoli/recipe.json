@@ -1,0 +1,208 @@
+{
+  "seedId": "REC-1538",
+  "candidate": {
+    "sequence": 2336,
+    "seedId": "REC-CAND-2336",
+    "name": "Spicy Broccoli"
+  },
+  "name": "Spicy Broccoli",
+  "description": "Spicy Broccoli is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://kosherworldkitchen.com/morogo-curried-spinach/#recipe",
+    "domain": "kosherworldkitchen.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Botswana Curried Spinach source because it provides the closest validated vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Botswana",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Side",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0013",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, vegetables, and vegetables for spicy broccoli.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned vegetables and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the spicy broccoli, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 610,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 461.532,
+      "proteinG": 12.3,
+      "carbohydratesG": 45.355,
+      "fatG": 29.68,
+      "fiberG": 18.185,
+      "sugarsG": 4.925,
+      "sodiumMg": 222.446,
+      "potassiumMg": 1393.773,
+      "calciumMg": 241.223,
+      "ironMg": 5.343,
+      "magnesiumMg": 97.35,
+      "vitaminCMg": 193.88
+    },
+    "perServing": {
+      "calories": 115.383,
+      "proteinG": 3.075,
+      "carbohydratesG": 11.339,
+      "fatG": 7.42,
+      "fiberG": 4.546,
+      "sugarsG": 1.231,
+      "sodiumMg": 55.611,
+      "potassiumMg": 348.443,
+      "calciumMg": 60.306,
+      "ironMg": 1.336,
+      "magnesiumMg": 24.337,
+      "vitaminCMg": 48.47
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.26,
+    "perServingUsd": 0.56,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-06-30T06:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://lusciousrecipes.com/roasted-soy-sauce-spicy-broccoli/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.X08cMTjy_K-QmNe2ga0SGAHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://lusciousrecipes.com/wp-content/uploads/2026/01/roasted-soy-sauce-spicy-broccoli-2026-01-13-172857.webp",
+    "searchQuery": "Spicy Broccoli plated recipe food",
+    "searchResultTitle": "Roasted Soy Sauce Spicy Broccoli",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:55:15.011Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1538",
+    "name": "Spicy Broccoli",
+    "description": "Spicy Broccoli is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 115.383,
+      "proteinG": 3.075,
+      "carbohydratesG": 11.339,
+      "fatG": 7.42,
+      "fiberG": 4.546,
+      "sugarsG": 1.231,
+      "sodiumMg": 55.611,
+      "potassiumMg": 348.443,
+      "calciumMg": 60.306,
+      "ironMg": 1.336,
+      "magnesiumMg": 24.337,
+      "vitaminCMg": 48.47
+    },
+    "estimatedCostPerServingUsd": 0.56,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

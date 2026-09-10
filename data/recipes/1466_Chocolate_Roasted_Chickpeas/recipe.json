@@ -1,0 +1,208 @@
+{
+  "seedId": "REC-1466",
+  "candidate": {
+    "sequence": 2263,
+    "seedId": "REC-CAND-2263",
+    "name": "Chocolate Roasted Chickpeas"
+  },
+  "name": "Chocolate Roasted Chickpeas",
+  "description": "Chocolate Roasted Chickpeas is a practical snack adaptation built around chickpeas, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://nutritionsource.hsph.harvard.edu/crunchy-roasted-chickpeas/",
+    "domain": "nutritionsource.hsph.harvard.edu",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Chili Cumin Roasted Chickpeas source because it provides the closest validated beans and legumes structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 50,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "Oven",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0105",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for chocolate roasted chickpeas and preheat the oven.",
+    "Coat the chickpeas and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the legumes and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the chocolate roasted chickpeas briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 865,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1207.282,
+      "proteinG": 55.164,
+      "carbohydratesG": 190.275,
+      "fatG": 55.045,
+      "fiberG": 76.015,
+      "sugarsG": 18.29,
+      "sodiumMg": 1015.296,
+      "potassiumMg": 2934.423,
+      "calciumMg": 406.023,
+      "ironMg": 22.208,
+      "magnesiumMg": 733.55,
+      "vitaminCMg": 29.68
+    },
+    "perServing": {
+      "calories": 301.82,
+      "proteinG": 13.791,
+      "carbohydratesG": 47.569,
+      "fatG": 13.761,
+      "fiberG": 19.004,
+      "sugarsG": 4.572,
+      "sodiumMg": 253.824,
+      "potassiumMg": 733.606,
+      "calciumMg": 101.506,
+      "ironMg": 5.552,
+      "magnesiumMg": 183.387,
+      "vitaminCMg": 7.42
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.63,
+    "perServingUsd": 1.16,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-03-11T06:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/chocolate-covered-roasted-chickpeas--531706299775505162/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.4LxeSNcPi7AwQ0ej_pFJGQHaKx&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/f4/49/95/f449953de690a6a9d392f5b6c039b3ae.jpg",
+    "searchQuery": "Chocolate Roasted Chickpeas plated recipe food",
+    "searchResultTitle": "Chocolate Covered Roasted Chickpeas | Recipe | Roasted chickpeas, Dry ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:53:36.181Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1466",
+    "name": "Chocolate Roasted Chickpeas",
+    "description": "Chocolate Roasted Chickpeas is a practical snack adaptation built around chickpeas, legumes, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 301.82,
+      "proteinG": 13.791,
+      "carbohydratesG": 47.569,
+      "fatG": 13.761,
+      "fiberG": 19.004,
+      "sugarsG": 4.572,
+      "sodiumMg": 253.824,
+      "potassiumMg": 733.606,
+      "calciumMg": 101.506,
+      "ironMg": 5.552,
+      "magnesiumMg": 183.387,
+      "vitaminCMg": 7.42
+    },
+    "estimatedCostPerServingUsd": 1.16,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

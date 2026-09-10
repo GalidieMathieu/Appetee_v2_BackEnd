@@ -1,0 +1,193 @@
+{
+  "seedId": "REC-1682",
+  "candidate": {
+    "sequence": 2482,
+    "seedId": "REC-CAND-2482",
+    "name": "Mocha Protein Smoothie"
+  },
+  "name": "Mocha Protein Smoothie",
+  "description": "Mocha Protein Smoothie is a practical drink adaptation built around vegetables, fruit, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.oikos.com/greek-yogurt-recipes/smoothies/recipe/berry-banana-smoothie/",
+    "domain": "oikos.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Berry Banana Greek Yogurt Smoothie source because it provides the closest validated smoothie structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Drink",
+  "cookingMethod": "Blender",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0030",
+      "sourceQuantity": 240,
+      "sourceUnit": "ml",
+      "sourceDisplay": "240 ml",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and chill the ingredients for mocha protein smoothie.",
+    "Add the liquid ingredients to the blender before the thicker ingredients.",
+    "Blend until the mocha protein smoothie is completely smooth and evenly combined.",
+    "Adjust the thickness with a small amount of milk and serve immediately."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 840,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1392.6,
+      "proteinG": 70.618,
+      "carbohydratesG": 234.586,
+      "fatG": 21.712,
+      "fiberG": 24.36,
+      "sugarsG": 73.865,
+      "sodiumMg": 240.984,
+      "potassiumMg": 1669.08,
+      "calciumMg": 755.04,
+      "ironMg": 10.712,
+      "magnesiumMg": 392.592,
+      "vitaminCMg": 0.794
+    },
+    "perServing": {
+      "calories": 348.15,
+      "proteinG": 17.654,
+      "carbohydratesG": 58.647,
+      "fatG": 5.428,
+      "fiberG": 6.09,
+      "sugarsG": 18.466,
+      "sodiumMg": 60.246,
+      "potassiumMg": 417.27,
+      "calciumMg": 188.76,
+      "ironMg": 2.678,
+      "magnesiumMg": 98.148,
+      "vitaminCMg": 0.199
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.79,
+    "perServingUsd": 0.7,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2031-02-07T06:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse4.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://chefol.com/15-easy-smoothie-recipes/",
+    "originalSourceUrl": "https://tse4.mm.bing.net/th/id/OIP.OYP4TO10IY8Iljo64pMqIgHaLH?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://www.chefol.com/wp-content/uploads/2025/01/Mocha-Smoothie-10.jpg",
+    "searchQuery": "mocha smoothie drink in a glass food photograph",
+    "searchResultTitle": "15 Easy Smoothie Recipes - Chef Olu",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:43.480Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1682",
+    "name": "Mocha Protein Smoothie",
+    "description": "Mocha Protein Smoothie is a practical drink adaptation built around vegetables, fruit, and title-specific supporting ingredients.",
+    "mealType": "Breakfast",
+    "mealCategory": "Drink",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 348.15,
+      "proteinG": 17.654,
+      "carbohydratesG": 58.647,
+      "fatG": 5.428,
+      "fiberG": 6.09,
+      "sugarsG": 18.466,
+      "sodiumMg": 60.246,
+      "potassiumMg": 417.27,
+      "calciumMg": 188.76,
+      "ironMg": 2.678,
+      "magnesiumMg": 98.148,
+      "vitaminCMg": 0.199
+    },
+    "estimatedCostPerServingUsd": 0.7,
+    "diets": [
+      "Flexitarian"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

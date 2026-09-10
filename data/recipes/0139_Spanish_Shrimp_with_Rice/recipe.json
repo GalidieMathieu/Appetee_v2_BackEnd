@@ -1,0 +1,214 @@
+{
+  "seedId": "REC-0139",
+  "candidate": {
+    "sequence": 29,
+    "seedId": "REC-CAND-0029",
+    "name": "Spanish Shrimp with Rice"
+  },
+  "name": "Spanish Shrimp with Rice",
+  "description": "Spanish Shrimp with Rice combines shrimp with rice and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/spanish-rice-prawn-one-pot",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T18:00:00-06:00",
+    "adaptation": "The source's defining shrimp, rice, seasoning profile, and core cooking technique are retained; quantities and supporting vegetables are normalized to the canonical Appetee market ingredients."
+  },
+  "countryOfOrigin": "Spain",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "shrimp",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0038",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and prepare every ingredient for spanish shrimp with rice before heating the cooking vessel.",
+    "Heat the cooking vessel and soften the aromatics before adding the shrimp.",
+    "Cook the rice until tender while the seasoned shrimp develops its intended color and texture.",
+    "Combine the cooked components with the remaining vegetables and sauce, then adjust the consistency and seasoning.",
+    "Portion the finished spanish shrimp with rice evenly and serve it warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1733,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1569.9,
+      "proteinG": 108.208,
+      "carbohydratesG": 258.835,
+      "fatG": 12.293,
+      "fiberG": 13.754,
+      "sugarsG": 13.012,
+      "sodiumMg": 3963.579,
+      "potassiumMg": 3014.94,
+      "calciumMg": 541.564,
+      "ironMg": 7.072,
+      "magnesiumMg": 308.742,
+      "vitaminCMg": 408.636
+    },
+    "perServing": {
+      "calories": 392.475,
+      "proteinG": 27.052,
+      "carbohydratesG": 64.709,
+      "fatG": 3.073,
+      "fiberG": 3.438,
+      "sugarsG": 3.253,
+      "sodiumMg": 990.895,
+      "potassiumMg": 753.735,
+      "calciumMg": 135.391,
+      "ironMg": 1.768,
+      "magnesiumMg": 77.186,
+      "vitaminCMg": 102.159
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 18.26,
+    "perServingUsd": 4.57,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Freezer Friendly"
+  ],
+  "createdAt": "2024-08-03T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "justlovecooking.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://justlovecooking.com/spanish-shrimp-rice-recipe/",
+    "originalSourceUrl": "https://justlovecooking.com/wp-content/uploads/2025/10/Spanish-Shrimp-Rice-Recipe.jpg",
+    "discoveredOriginalUrl": "https://justlovecooking.com/wp-content/uploads/2025/10/Spanish-Shrimp-Rice-Recipe.jpg",
+    "searchQuery": "Spanish Shrimp with Rice plated recipe food",
+    "searchResultTitle": "Spanish Shrimp Rice Recipe - A Mediterranean Delight - Just Love Cooking",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:09:46.762Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0139",
+    "name": "Spanish Shrimp with Rice",
+    "description": "Spanish Shrimp with Rice combines shrimp with rice and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 392.475,
+      "proteinG": 27.052,
+      "carbohydratesG": 64.709,
+      "fatG": 3.073,
+      "fiberG": 3.438,
+      "sugarsG": 3.253,
+      "sodiumMg": 990.895,
+      "potassiumMg": 753.735,
+      "calciumMg": 135.391,
+      "ironMg": 1.768,
+      "magnesiumMg": 77.186,
+      "vitaminCMg": 102.159
+    },
+    "estimatedCostPerServingUsd": 4.57,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Freezer Friendly"
+    ]
+  }
+}

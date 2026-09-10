@@ -1,0 +1,252 @@
+{
+  "seedId": "REC-1144",
+  "candidate": {
+    "sequence": 1914,
+    "seedId": "REC-CAND-1914",
+    "name": "Pesto Turkey with Spinach"
+  },
+  "name": "Pesto Turkey with Spinach",
+  "description": "Pesto Turkey with Spinach is a practical stovetop recipe pairing turkey with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.healthline.com/recipes/low-calorie-recipe-5",
+    "domain": "healthline.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Turkey Taco Spinach Salad source while retaining its closest matching dish form, cooking sequence, and applicable turkey or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 60,
+    "totalMinutes": 80
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 1.25,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1¼ lb ground turkey",
+      "normalizedQuantity": 567,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can black beans, drained",
+      "normalizedQuantity": 260,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups corn",
+      "normalizedQuantity": 247.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 4,
+      "sourceUnit": "cups",
+      "sourceDisplay": "4 cups spinach",
+      "normalizedQuantity": 340,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 4,
+      "sourceUnit": "medium",
+      "sourceDisplay": "4 Roma tomatoes",
+      "normalizedQuantity": 248,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup salsa",
+      "normalizedQuantity": 260,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp chili powder",
+      "normalizedQuantity": 8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0096",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0080",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, turkey, and vegetables for pesto turkey with spinach.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned turkey and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the pesto turkey with spinach, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2333.2,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 4764.715,
+      "proteinG": 289.131,
+      "carbohydratesG": 251.951,
+      "fatG": 313.186,
+      "fiberG": 64.188,
+      "sugarsG": 30.25,
+      "sodiumMg": 8478.775,
+      "potassiumMg": 7792.375,
+      "calciumMg": 4285.275,
+      "ironMg": 36.101,
+      "magnesiumMg": 1525.17,
+      "vitaminCMg": 66.434
+    },
+    "perServing": {
+      "calories": 1191.179,
+      "proteinG": 72.283,
+      "carbohydratesG": 62.988,
+      "fatG": 78.296,
+      "fiberG": 16.047,
+      "sugarsG": 7.563,
+      "sodiumMg": 2119.694,
+      "potassiumMg": 1948.094,
+      "calciumMg": 1071.319,
+      "ironMg": 9.025,
+      "magnesiumMg": 381.293,
+      "vitaminCMg": 16.608
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 19.82,
+    "perServingUsd": 4.96,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber"
+  ],
+  "createdAt": "2028-10-30T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/18084835997981441/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.bmEfCUEKCtbMTtdwp8gu4AHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/e8/c0/00/e8c000177a090c0c0dba86c71ba03e0c.jpg",
+    "searchQuery": "Pesto Turkey with Spinach plated recipe food",
+    "searchResultTitle": "Grilled Turkey Pesto Sandwich | Recipe | Turkey sandwich with spinach ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:24:05.839Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1144",
+    "name": "Pesto Turkey with Spinach",
+    "description": "Pesto Turkey with Spinach is a practical stovetop recipe pairing turkey with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 80,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 1191.179,
+      "proteinG": 72.283,
+      "carbohydratesG": 62.988,
+      "fatG": 78.296,
+      "fiberG": 16.047,
+      "sugarsG": 7.563,
+      "sodiumMg": 2119.694,
+      "potassiumMg": 1948.094,
+      "calciumMg": 1071.319,
+      "ironMg": 9.025,
+      "magnesiumMg": 381.293,
+      "vitaminCMg": 16.608
+    },
+    "estimatedCostPerServingUsd": 4.96,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber"
+    ]
+  }
+}

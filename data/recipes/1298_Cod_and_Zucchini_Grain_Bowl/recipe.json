@@ -1,0 +1,210 @@
+{
+  "seedId": "REC-1298",
+  "candidate": {
+    "sequence": 2092,
+    "seedId": "REC-CAND-2092",
+    "name": "Cod and Zucchini Grain Bowl"
+  },
+  "name": "Cod and Zucchini Grain Bowl",
+  "description": "Cod and Zucchini Grain Bowl is a practical main meal adaptation built around cod, quinoa, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://health.clevelandclinic.org/recipe-toasted-quinoa-and-salmon-salad",
+    "domain": "health.clevelandclinic.org",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Japanese Salmon Grain Bowl source because it provides the closest validated fish and bowl structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 40,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "cod",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0044",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0083",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, cod, and quinoa for cod and zucchini grain bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned cod and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the cod and zucchini grain bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1770,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1703.532,
+      "proteinG": 131.76,
+      "carbohydratesG": 189.24,
+      "fatG": 45.438,
+      "fiberG": 25.5,
+      "sugarsG": 7.5,
+      "sodiumMg": 1857.546,
+      "potassiumMg": 4090.473,
+      "calciumMg": 254.073,
+      "ironMg": 14.031,
+      "magnesiumMg": 673.8,
+      "vitaminCMg": 78.3
+    },
+    "perServing": {
+      "calories": 425.883,
+      "proteinG": 32.94,
+      "carbohydratesG": 47.31,
+      "fatG": 11.36,
+      "fiberG": 6.375,
+      "sugarsG": 1.875,
+      "sodiumMg": 464.387,
+      "potassiumMg": 1022.618,
+      "calciumMg": 63.518,
+      "ironMg": 3.508,
+      "magnesiumMg": 168.45,
+      "vitaminCMg": 19.575
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 16.15,
+    "perServingUsd": 4.04,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-06-25T06:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://bridalrecipes.com/roasted-zucchini-and-chickpea-grain-bowl-recipe/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.f1BQLhz7Rnem7VY3xF7jlQHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://bridalrecipes.com/wp-content/uploads/2026/01/0_0-1769726949817.webp",
+    "searchQuery": "Cod and Zucchini Grain Bowl plated recipe food",
+    "searchResultTitle": "Roasted Zucchini & Chickpea Grain Bowl Recipe – BridalRecipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:17:57.516Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1298",
+    "name": "Cod and Zucchini Grain Bowl",
+    "description": "Cod and Zucchini Grain Bowl is a practical main meal adaptation built around cod, quinoa, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 425.883,
+      "proteinG": 32.94,
+      "carbohydratesG": 47.31,
+      "fatG": 11.36,
+      "fiberG": 6.375,
+      "sugarsG": 1.875,
+      "sodiumMg": 464.387,
+      "potassiumMg": 1022.618,
+      "calciumMg": 63.518,
+      "ironMg": 3.508,
+      "magnesiumMg": 168.45,
+      "vitaminCMg": 19.575
+    },
+    "estimatedCostPerServingUsd": 4.04,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

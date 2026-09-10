@@ -1,0 +1,222 @@
+{
+  "seedId": "REC-0155",
+  "candidate": {
+    "sequence": 46,
+    "seedId": "REC-CAND-0046",
+    "name": "Lemon Chickpea with Zucchini"
+  },
+  "name": "Lemon Chickpea with Zucchini",
+  "description": "Lemon Chickpea with Zucchini combines chickpeas with vegetables and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+  "source": {
+    "url": "https://bewitchingkitchen.com/wp-content/uploads/2019/09/chickpeaszucchini.pdf",
+    "domain": "bewitchingkitchen.com",
+    "accessedAt": "2026-08-10T18:00:00-06:00",
+    "adaptation": "The source's defining chickpeas, vegetables, seasoning profile, and core cooking technique are retained; quantities and supporting vegetables are normalized to the canonical Appetee market ingredients."
+  },
+  "countryOfOrigin": "Mediterranean",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0083",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and prepare every ingredient for lemon chickpea with zucchini before heating the cooking vessel.",
+    "Heat the cooking vessel and soften the aromatics before adding the chickpeas.",
+    "Cook the vegetables until tender while the seasoned chickpeas develops its intended color and texture.",
+    "Combine the cooked components with the remaining vegetables and sauce, then adjust the consistency and seasoning.",
+    "Portion the finished lemon chickpea with zucchini evenly and serve it warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 872,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 948.732,
+      "proteinG": 36.79,
+      "carbohydratesG": 119.69,
+      "fatG": 40.821,
+      "fiberG": 33.875,
+      "sugarsG": 26.997,
+      "sodiumMg": 1121.116,
+      "potassiumMg": 1625.243,
+      "calciumMg": 307.333,
+      "ironMg": 7.071,
+      "magnesiumMg": 183.97,
+      "vitaminCMg": 98.179
+    },
+    "perServing": {
+      "calories": 237.183,
+      "proteinG": 9.197,
+      "carbohydratesG": 29.922,
+      "fatG": 10.205,
+      "fiberG": 8.469,
+      "sugarsG": 6.749,
+      "sodiumMg": 280.279,
+      "potassiumMg": 406.311,
+      "calciumMg": 76.833,
+      "ironMg": 1.768,
+      "magnesiumMg": 45.992,
+      "vitaminCMg": 24.545
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.93,
+    "perServingUsd": 0.73,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "High Fiber",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-08-28T03:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://derecipe.com/lemony-grilled-zucchini-crispy-chickpeas-over-tzatziki/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.KBfOTbxieKFs7QWavWH8cgHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://derecipe.com/wp-content/uploads/2025/07/Lemony_Grilled_Zucchini__Crispy_Chickpeas_Over_Tzatziki_1.png",
+    "searchQuery": "Lemon Chickpea with Zucchini plated recipe food",
+    "searchResultTitle": "Amazing Lemony Grilled Zucchini & Crispy Chickpeas Over Tzatziki",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:10:15.063Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0155",
+    "name": "Lemon Chickpea with Zucchini",
+    "description": "Lemon Chickpea with Zucchini combines chickpeas with vegetables and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+    "mealType": "Dinner",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 237.183,
+      "proteinG": 9.197,
+      "carbohydratesG": 29.922,
+      "fatG": 10.205,
+      "fiberG": 8.469,
+      "sugarsG": 6.749,
+      "sodiumMg": 280.279,
+      "potassiumMg": 406.311,
+      "calciumMg": 76.833,
+      "ironMg": 1.768,
+      "magnesiumMg": 45.992,
+      "vitaminCMg": 24.545
+    },
+    "estimatedCostPerServingUsd": 0.73,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "High Fiber",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

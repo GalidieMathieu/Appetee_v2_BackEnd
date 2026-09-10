@@ -1,0 +1,194 @@
+{
+  "seedId": "REC-1640",
+  "candidate": {
+    "sequence": 2439,
+    "seedId": "REC-CAND-2439",
+    "name": "Pumpkin Crumble Cups"
+  },
+  "name": "Pumpkin Crumble Cups",
+  "description": "Pumpkin Crumble Cups is a practical dessert adaptation built around oats, oats, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/banana-oatmeal-bites-514723",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Banana Oatmeal Bites source because it provides the closest validated cups/crumble structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 60,
+    "totalMinutes": 85
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "Oven",
+  "primaryProtein": "oats",
+  "carbohydrateBase": "oats",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0112",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0047",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for pumpkin crumble cups and preheat the oven.",
+    "Coat the oats and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the oats and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the pumpkin crumble cups briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 605,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1206.35,
+      "proteinG": 35.359,
+      "carbohydratesG": 240.22,
+      "fatG": 16.55,
+      "fiberG": 35.715,
+      "sugarsG": 61.644,
+      "sodiumMg": 32.3,
+      "potassiumMg": 1539.55,
+      "calciumMg": 256.4,
+      "ironMg": 15.038,
+      "magnesiumMg": 404.4,
+      "vitaminCMg": 13.09
+    },
+    "perServing": {
+      "calories": 301.587,
+      "proteinG": 8.84,
+      "carbohydratesG": 60.055,
+      "fatG": 4.138,
+      "fiberG": 8.929,
+      "sugarsG": 15.411,
+      "sodiumMg": 8.075,
+      "potassiumMg": 384.887,
+      "calciumMg": 64.1,
+      "ironMg": 3.76,
+      "magnesiumMg": 101.1,
+      "vitaminCMg": 3.272
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.99,
+    "perServingUsd": 0.75,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-12-04T12:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://rippedrecipes.com/recipe/pumpkin-crumble-cups-1777.html",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.DNBs7J0ie2bplzG2Sd8VRQHaHc&pid=15.1",
+    "discoveredOriginalUrl": "https://www.rippedrecipes.com/images/snaps/full_pumpkin-crumble-cups_I4dCInPHNbWbK.jpg",
+    "searchQuery": "Pumpkin Crumble Cups plated recipe food",
+    "searchResultTitle": "Ripped Recipes - Pumpkin Crumble Cups",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:56:34.967Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1640",
+    "name": "Pumpkin Crumble Cups",
+    "description": "Pumpkin Crumble Cups is a practical dessert adaptation built around oats, oats, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 85,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 301.587,
+      "proteinG": 8.84,
+      "carbohydratesG": 60.055,
+      "fatG": 4.138,
+      "fiberG": 8.929,
+      "sugarsG": 15.411,
+      "sodiumMg": 8.075,
+      "potassiumMg": 384.887,
+      "calciumMg": 64.1,
+      "ironMg": 3.76,
+      "magnesiumMg": 101.1,
+      "vitaminCMg": 3.272
+    },
+    "estimatedCostPerServingUsd": 0.75,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

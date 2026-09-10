@@ -1,0 +1,258 @@
+{
+  "seedId": "REC-1170",
+  "candidate": {
+    "sequence": 1964,
+    "seedId": "REC-CAND-1964",
+    "name": "Peruvian Chickpea with Vegetables"
+  },
+  "name": "Peruvian Chickpea with Vegetables",
+  "description": "Peruvian Chickpea with Vegetables is a practical stovetop recipe pairing chickpeas with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/lentil-sweet-potato-curry/",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Chickpea Sweet Potato Curry source while retaining its closest matching dish form, cooking sequence, and applicable chickpeas or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "India",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 60,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans chickpeas",
+      "normalizedQuantity": 878.835,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0007",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb sweet potatoes",
+      "normalizedQuantity": 680.389,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 13.5,
+      "sourceUnit": "fl oz",
+      "sourceDisplay": "13½ fl oz coconut milk",
+      "normalizedQuantity": 399.243,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can diced tomatoes",
+      "normalizedQuantity": 411.068,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 8,
+      "sourceUnit": "oz",
+      "sourceDisplay": "8 oz spinach",
+      "normalizedQuantity": 226.796,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1½ tbsp curry powder",
+      "normalizedQuantity": 10.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chickpeas, and legumes for peruvian chickpea with vegetables.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chickpeas and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the peruvian chickpea with vegetables, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 3161.113,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3151.167,
+      "proteinG": 100.044,
+      "carbohydratesG": 398.183,
+      "fatG": 144.877,
+      "fiberG": 78.024,
+      "sugarsG": 45.045,
+      "sodiumMg": 2922.056,
+      "potassiumMg": 8331.259,
+      "calciumMg": 1192.501,
+      "ironMg": 35.98,
+      "magnesiumMg": 843.01,
+      "vitaminCMg": 188.496
+    },
+    "perServing": {
+      "calories": 787.792,
+      "proteinG": 25.011,
+      "carbohydratesG": 99.546,
+      "fatG": 36.219,
+      "fiberG": 19.506,
+      "sugarsG": 11.261,
+      "sodiumMg": 730.514,
+      "potassiumMg": 2082.815,
+      "calciumMg": 298.125,
+      "ironMg": 8.995,
+      "magnesiumMg": 210.752,
+      "vitaminCMg": 47.124
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 9.73,
+    "perServingUsd": 2.43,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-12-09T22:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.thegeneticchef.com/category/vegetables/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.Q7xUpuL58pYZtkheXHdbfgAAAA&pid=15.1",
+    "discoveredOriginalUrl": "https://www.thegeneticchef.com/wp-content/uploads/2021/02/Peruvian-Chickpea-Salad-featsq-360x480.jpg",
+    "searchQuery": "Peruvian Chickpea with Vegetables plated recipe food",
+    "searchResultTitle": "Vegetables Archives - The Genetic Chef",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:25:17.891Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1170",
+    "name": "Peruvian Chickpea with Vegetables",
+    "description": "Peruvian Chickpea with Vegetables is a practical stovetop recipe pairing chickpeas with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 787.792,
+      "proteinG": 25.011,
+      "carbohydratesG": 99.546,
+      "fatG": 36.219,
+      "fiberG": 19.506,
+      "sugarsG": 11.261,
+      "sodiumMg": 730.514,
+      "potassiumMg": 2082.815,
+      "calciumMg": 298.125,
+      "ironMg": 8.995,
+      "magnesiumMg": 210.752,
+      "vitaminCMg": 47.124
+    },
+    "estimatedCostPerServingUsd": 2.43,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

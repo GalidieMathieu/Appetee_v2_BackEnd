@@ -1,0 +1,252 @@
+{
+  "seedId": "REC-0180",
+  "candidate": {
+    "sequence": 88,
+    "seedId": "REC-CAND-0088",
+    "name": "Chickpea Curry Bowl"
+  },
+  "name": "Chickpea Curry Bowl",
+  "description": "Chickpea Curry Bowl is a practical stovetop recipe pairing chickpeas with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/lentil-sweet-potato-curry/",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Chickpea Sweet Potato Curry source while retaining its closest matching dish form, cooking sequence, and applicable chickpeas or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "India",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 50,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans chickpeas",
+      "normalizedQuantity": 878.835,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0007",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb sweet potatoes",
+      "normalizedQuantity": 680.389,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 13.5,
+      "sourceUnit": "fl oz",
+      "sourceDisplay": "13½ fl oz coconut milk",
+      "normalizedQuantity": 399.243,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can diced tomatoes",
+      "normalizedQuantity": 411.068,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 8,
+      "sourceUnit": "oz",
+      "sourceDisplay": "8 oz spinach",
+      "normalizedQuantity": 226.796,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1½ tbsp curry powder",
+      "normalizedQuantity": 10.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chickpeas, and legumes for chickpea curry bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chickpeas and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the chickpea curry bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 2861.113,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3097.167,
+      "proteinG": 97.404,
+      "carbohydratesG": 386.513,
+      "fatG": 144.277,
+      "fiberG": 74.424,
+      "sugarsG": 37.155,
+      "sodiumMg": 2907.056,
+      "potassiumMg": 7620.259,
+      "calciumMg": 1162.501,
+      "ironMg": 35.17,
+      "magnesiumMg": 810.01,
+      "vitaminCMg": 147.396
+    },
+    "perServing": {
+      "calories": 774.292,
+      "proteinG": 24.351,
+      "carbohydratesG": 96.628,
+      "fatG": 36.069,
+      "fiberG": 18.606,
+      "sugarsG": 9.289,
+      "sodiumMg": 726.764,
+      "potassiumMg": 1905.065,
+      "calciumMg": 290.625,
+      "ironMg": 8.793,
+      "magnesiumMg": 202.502,
+      "vitaminCMg": 36.849
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.98,
+    "perServingUsd": 2.25,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-10-05T16:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "theindiespiritualist.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://theindiespiritualist.com/cheap-healthy-dinner-recipes/",
+    "originalSourceUrl": "https://theindiespiritualist.com/wp-content/uploads/2024/12/chickpea_curry_served_bowl-1.jpg",
+    "discoveredOriginalUrl": "https://theindiespiritualist.com/wp-content/uploads/2024/12/chickpea_curry_served_bowl-1.jpg",
+    "searchQuery": "Chickpea Curry Bowl plated recipe food",
+    "searchResultTitle": "14 Cheap Healthy Dinner Recipes — The Indie Spiritualist",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:11:10.463Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0180",
+    "name": "Chickpea Curry Bowl",
+    "description": "Chickpea Curry Bowl is a practical stovetop recipe pairing chickpeas with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 774.292,
+      "proteinG": 24.351,
+      "carbohydratesG": 96.628,
+      "fatG": 36.069,
+      "fiberG": 18.606,
+      "sugarsG": 9.289,
+      "sodiumMg": 726.764,
+      "potassiumMg": 1905.065,
+      "calciumMg": 290.625,
+      "ironMg": 8.793,
+      "magnesiumMg": 202.502,
+      "vitaminCMg": 36.849
+    },
+    "estimatedCostPerServingUsd": 2.25,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

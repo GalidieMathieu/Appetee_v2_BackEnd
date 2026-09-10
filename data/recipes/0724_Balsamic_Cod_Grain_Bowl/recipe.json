@@ -1,0 +1,234 @@
+{
+  "seedId": "REC-0724",
+  "candidate": {
+    "sequence": 1146,
+    "seedId": "REC-CAND-1146",
+    "name": "Balsamic Cod Grain Bowl"
+  },
+  "name": "Balsamic Cod Grain Bowl",
+  "description": "Balsamic Cod Grain Bowl is a practical stovetop recipe pairing cod with quinoa and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://diet.mayoclinic.org/us/motivational-tips/recipe-collections/one-pan-meals/pan-seared-fish-with-garlicky-green-beans-quinoa/",
+    "domain": "diet.mayoclinic.org",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Cod and Green Beans Quinoa Bowl source while retaining its closest matching dish form, cooking sequence, and applicable cod or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "cod",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0044",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0037",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0093",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, cod, and quinoa for balsamic cod grain bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned cod and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the balsamic cod grain bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1425,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1819.002,
+      "proteinG": 135.268,
+      "carbohydratesG": 218.442,
+      "fatG": 45.363,
+      "fiberG": 32.295,
+      "sugarsG": 13.005,
+      "sodiumMg": 1853.541,
+      "potassiumMg": 4043.703,
+      "calciumMg": 383.328,
+      "ironMg": 16.313,
+      "magnesiumMg": 698.13,
+      "vitaminCMg": 99.78
+    },
+    "perServing": {
+      "calories": 454.75,
+      "proteinG": 33.817,
+      "carbohydratesG": 54.611,
+      "fatG": 11.341,
+      "fiberG": 8.074,
+      "sugarsG": 3.251,
+      "sodiumMg": 463.385,
+      "potassiumMg": 1010.926,
+      "calciumMg": 95.832,
+      "ironMg": 4.078,
+      "magnesiumMg": 174.532,
+      "vitaminCMg": 24.945
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 16.86,
+    "perServingUsd": 4.21,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber"
+  ],
+  "createdAt": "2027-01-22T08:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.seriouseats.com/8-seafood-bowls-to-jumpstart-a-healthier-lifestyle-5213699",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.izBrRNMMf1XDqc7WLzcKjQHaE8&pid=15.1",
+    "discoveredOriginalUrl": "https://www.seriouseats.com/thmb/3KE-_0suVr9MJ3hacW_ItED7Jes=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/HarissaBakedCodBulgurWheatChickpeaGrainBowl11-185dd14144824650a43851f4efc571b4.jpg",
+    "searchQuery": "Balsamic Cod Grain Bowl plated recipe food",
+    "searchResultTitle": "8 Seafood Bowls to Jumpstart a Healthier Lifestyle",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:02:36.805Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0724",
+    "name": "Balsamic Cod Grain Bowl",
+    "description": "Balsamic Cod Grain Bowl is a practical stovetop recipe pairing cod with quinoa and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 454.75,
+      "proteinG": 33.817,
+      "carbohydratesG": 54.611,
+      "fatG": 11.341,
+      "fiberG": 8.074,
+      "sugarsG": 3.251,
+      "sodiumMg": 463.385,
+      "potassiumMg": 1010.926,
+      "calciumMg": 95.832,
+      "ironMg": 4.078,
+      "magnesiumMg": 174.532,
+      "vitaminCMg": 24.945
+    },
+    "estimatedCostPerServingUsd": 4.21,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber"
+    ]
+  }
+}

@@ -10,6 +10,7 @@ namespace Appetee.Api.Controllers
     [ApiExplorerSettings(IgnoreApi = true)]
     public sealed class ErrorsController : ControllerBase
     {
+        private const int ClientClosedRequestStatusCode = 499;
         private readonly ILogger<ErrorsController> _logger;
         private readonly IHostEnvironment _env;
 
@@ -71,6 +72,22 @@ namespace Appetee.Api.Controllers
                     HttpContext.TraceIdentifier;
             }
 
+            if (exception is OperationCanceledException
+                && HttpContext.RequestAborted.IsCancellationRequested)
+            {
+                _logger.LogDebug(
+                    "Request was canceled by the client. " +
+                    "HTTP {HttpMethod} {RequestPath}; " +
+                    "StatusCode {StatusCode}; " +
+                    "TraceId {TraceId}",
+                    method,
+                    originalPath,
+                    ClientClosedRequestStatusCode,
+                    traceId);
+
+                return StatusCode(ClientClosedRequestStatusCode);
+            }
+
             if (exception is ApiException apiException)
             {
                 var statusCode =
@@ -104,6 +121,12 @@ namespace Appetee.Api.Controllers
 
                 problemDetails.Extensions["traceId"] =
                     traceId;
+
+                if (!string.IsNullOrWhiteSpace(apiException.Code))
+                {
+                    problemDetails.Extensions["code"] =
+                        apiException.Code;
+                }
 
                 return StatusCode(
                     statusCode,

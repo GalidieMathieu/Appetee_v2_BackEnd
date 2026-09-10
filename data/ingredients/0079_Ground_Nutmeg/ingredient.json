@@ -1,0 +1,122 @@
+{
+  "seedId": "ING-0079",
+  "name": "Ground Nutmeg",
+  "canonicalName": "Ground Nutmeg",
+  "description": "Finely ground nutmeg spice.",
+  "measurementType": "solid",
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  },
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Ground Nutmeg, 1.5 oz",
+    "productId": "344742144",
+    "productUrl": "https://www.walmart.com/ip/344742144",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 2.24,
+    "packageQuantity": 42.524,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 525,
+      "proteinG": 5.84,
+      "carbohydratesG": 49.3,
+      "fatG": 36.3,
+      "fiberG": 20.8,
+      "sugarsG": 2.99,
+      "sodiumMg": 16,
+      "potassiumMg": 350,
+      "calciumMg": 184,
+      "ironMg": 3.04,
+      "magnesiumMg": 183,
+      "vitaminCMg": 3
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 5.2676
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 171326,
+      "dataType": "SR Legacy",
+      "description": "Spices, nutmeg, ground",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171326/nutrients",
+      "searchQuery": "spices nutmeg ground",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "imageType": "external-real-product-photograph",
+    "aiGenerated": false,
+    "provider": "i5.walmartimages.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/344742144",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Great-Value-Ground-Nutmeg-1-5-oz_12b7cfac-239f-4c93-b774-bf1c362cdf03.7282e88e84c0eea6fde1136b7e9ce978.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:42:23.244Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0079",
+    "name": "Ground Nutmeg",
+    "description": "Finely ground nutmeg spice.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 525,
+      "proteinG": 5.84,
+      "carbohydratesG": 49.3,
+      "fatG": 36.3,
+      "fiberG": 20.8,
+      "sugarsG": 2.99,
+      "sodiumMg": 16,
+      "potassiumMg": 350,
+      "calciumMg": 184,
+      "ironMg": 3.04,
+      "magnesiumMg": 183,
+      "vitaminCMg": 3
+    },
+    "price": {
+      "usdPerBasis": 5.2676,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": null
+  }
+}

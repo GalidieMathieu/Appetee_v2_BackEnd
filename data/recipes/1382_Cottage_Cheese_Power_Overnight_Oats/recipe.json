@@ -1,0 +1,196 @@
+{
+  "seedId": "REC-1382",
+  "candidate": {
+    "sequence": 2176,
+    "seedId": "REC-CAND-2176",
+    "name": "Cottage Cheese Power Overnight Oats"
+  },
+  "name": "Cottage Cheese Power Overnight Oats",
+  "description": "Cottage Cheese Power Overnight Oats is a practical small meal adaptation built around cottage cheese, oats, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.skinnytaste.com/berry-cottage-cheese-breakfast-bowl/",
+    "domain": "skinnytaste.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Cottage Cheese Berry Bowls source because it provides the closest validated dairy and oats structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "cottage cheese",
+  "carbohydrateBase": "oats",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0035",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0047",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for cottage cheese power overnight oats.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the cottage cheese with the oats and remaining ingredients in the intended small meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the cottage cheese power overnight oats into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 605,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1320.35,
+      "proteinG": 69.26,
+      "carbohydratesG": 224.11,
+      "fatG": 18.77,
+      "fiberG": 27.015,
+      "sugarsG": 59.904,
+      "sodiumMg": 1235.3,
+      "potassiumMg": 1179.55,
+      "calciumMg": 361.4,
+      "ironMg": 11.288,
+      "magnesiumMg": 350.4,
+      "vitaminCMg": 0.49
+    },
+    "perServing": {
+      "calories": 330.087,
+      "proteinG": 17.315,
+      "carbohydratesG": 56.028,
+      "fatG": 4.692,
+      "fiberG": 6.754,
+      "sugarsG": 14.976,
+      "sodiumMg": 308.825,
+      "potassiumMg": 294.887,
+      "calciumMg": 90.35,
+      "ironMg": 2.822,
+      "magnesiumMg": 87.6,
+      "vitaminCMg": 0.122
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.88,
+    "perServingUsd": 0.72,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-11-01T18:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/cottage-cheese-overnight-oats-5-powerful-benefits-youll-love-in-2025--46443439902333275/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.4L58mQFPAWk6XnkARkRNOwHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/a7/db/8c/a7db8c9d9c3b81d3df9b9602d07cf5ca.png",
+    "searchQuery": "Cottage Cheese Power Overnight Oats plated recipe food",
+    "searchResultTitle": "Cottage Cheese Overnight Oats: 5 Powerful Benefits You’ll Love | Recipe ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:51:42.788Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1382",
+    "name": "Cottage Cheese Power Overnight Oats",
+    "description": "Cottage Cheese Power Overnight Oats is a practical small meal adaptation built around cottage cheese, oats, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 330.087,
+      "proteinG": 17.315,
+      "carbohydratesG": 56.028,
+      "fatG": 4.692,
+      "fiberG": 6.754,
+      "sugarsG": 14.976,
+      "sodiumMg": 308.825,
+      "potassiumMg": 294.887,
+      "calciumMg": 90.35,
+      "ironMg": 2.822,
+      "magnesiumMg": 87.6,
+      "vitaminCMg": 0.122
+    },
+    "estimatedCostPerServingUsd": 0.72,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

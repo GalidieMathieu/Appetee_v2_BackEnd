@@ -1,0 +1,232 @@
+{
+  "seedId": "REC-1123",
+  "candidate": {
+    "sequence": 1878,
+    "seedId": "REC-CAND-1878",
+    "name": "Brazilian Steak with Rice"
+  },
+  "name": "Brazilian Steak with Rice",
+  "description": "Brazilian Steak with Rice is a practical stovetop recipe pairing steak with rice and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.myalbanianfood.com/recipe/albanian-stuffed-peppers/",
+    "domain": "myalbanianfood.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Albanian Baked Pepper and Rice Plate source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Albania",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 50,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "steak",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, steak, and rice for brazilian steak with rice.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned steak and cook it until browned or heated through as appropriate.",
+    "Stir in the rice, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the brazilian steak with rice, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1778,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2169.982,
+      "proteinG": 161.862,
+      "carbohydratesG": 258.204,
+      "fatG": 54.551,
+      "fiberG": 13.741,
+      "sugarsG": 13.041,
+      "sodiumMg": 922.035,
+      "potassiumMg": 4555.363,
+      "calciumMg": 413.427,
+      "ironMg": 15.916,
+      "magnesiumMg": 327.372,
+      "vitaminCMg": 418.28
+    },
+    "perServing": {
+      "calories": 542.495,
+      "proteinG": 40.465,
+      "carbohydratesG": 64.551,
+      "fatG": 13.638,
+      "fiberG": 3.435,
+      "sugarsG": 3.26,
+      "sodiumMg": 230.509,
+      "potassiumMg": 1138.841,
+      "calciumMg": 103.357,
+      "ironMg": 3.979,
+      "magnesiumMg": 81.843,
+      "vitaminCMg": 104.57
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 25.57,
+    "perServingUsd": 6.39,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein"
+  ],
+  "createdAt": "2028-09-28T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://metsminorleagueblog.com/brazilian-steak-plate-recipe-with-rice-and-flavorful-sides/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.L3gwb-LkwFa6l2kp_em8GgHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://gekcdn.b-cdn.net/images/f05632500fa0476785ee51a5e180e0f9.png",
+    "searchQuery": "Brazilian Steak with Rice plated recipe food",
+    "searchResultTitle": "Brazilian Steak Plate Recipe with Rice and Flavorful Sides",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:23:11.628Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1123",
+    "name": "Brazilian Steak with Rice",
+    "description": "Brazilian Steak with Rice is a practical stovetop recipe pairing steak with rice and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 542.495,
+      "proteinG": 40.465,
+      "carbohydratesG": 64.551,
+      "fatG": 13.638,
+      "fiberG": 3.435,
+      "sugarsG": 3.26,
+      "sodiumMg": 230.509,
+      "potassiumMg": 1138.841,
+      "calciumMg": 103.357,
+      "ironMg": 3.979,
+      "magnesiumMg": 81.843,
+      "vitaminCMg": 104.57
+    },
+    "estimatedCostPerServingUsd": 6.39,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein"
+    ]
+  }
+}

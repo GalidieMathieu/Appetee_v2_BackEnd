@@ -1,0 +1,274 @@
+{
+  "seedId": "REC-0728",
+  "candidate": {
+    "sequence": 1151,
+    "seedId": "REC-CAND-1151",
+    "name": "French Pork Tenderloin Stir-Fry"
+  },
+  "name": "French Pork Tenderloin Stir-Fry",
+  "description": "French Pork Tenderloin Stir-Fry is a practical stovetop recipe pairing pork tenderloin with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.chinahighlights.com/travelguide/chinese-food/cooking/sweet-sour-pork.htm",
+    "domain": "chinahighlights.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Chinese Sweet-and-Sour Pork source while retaining its closest matching dish form, cooking sequence, and applicable pork or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "China",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 30,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "pork tenderloin",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0069",
+      "sourceQuantity": 200,
+      "sourceUnit": "g",
+      "sourceDisplay": "200 g pork tenderloin",
+      "normalizedQuantity": 200,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 1,
+      "sourceUnit": "large",
+      "sourceDisplay": "1 large egg",
+      "normalizedQuantity": 50,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0052",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp granulated sugar",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 2,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "2 tsp soy sauce",
+      "normalizedQuantity": 10,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0066",
+      "sourceQuantity": 10,
+      "sourceUnit": "g",
+      "sourceDisplay": "10 g cornstarch",
+      "normalizedQuantity": 10,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0054",
+      "sourceQuantity": 30,
+      "sourceUnit": "g",
+      "sourceDisplay": "30 g tomato paste",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 2,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "2 tsp vinegar",
+      "normalizedQuantity": 10,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp cilantro leaves",
+      "normalizedQuantity": 3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp frying oil absorbed",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Unspecified source frying oil conservatively modeled as 2 tbsp absorbed and represented by the validated olive oil product",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, pork tenderloin, and vegetables for french pork tenderloin stir-fry.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned pork tenderloin and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the french pork tenderloin stir-fry, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 906.7,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 808.321,
+      "proteinG": 56.714,
+      "carbohydratesG": 62.401,
+      "fatG": 37.448,
+      "fiberG": 11.112,
+      "sugarsG": 15.99,
+      "sodiumMg": 855.461,
+      "potassiumMg": 2561.266,
+      "calciumMg": 158.008,
+      "ironMg": 6.077,
+      "magnesiumMg": 146.519,
+      "vitaminCMg": 77.76
+    },
+    "perServing": {
+      "calories": 202.08,
+      "proteinG": 14.178,
+      "carbohydratesG": 15.6,
+      "fatG": 9.362,
+      "fiberG": 2.778,
+      "sugarsG": 3.998,
+      "sodiumMg": 213.865,
+      "potassiumMg": 640.317,
+      "calciumMg": 39.502,
+      "ironMg": 1.519,
+      "magnesiumMg": 36.63,
+      "vitaminCMg": 19.44
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.33,
+    "perServingUsd": 1.08,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-01-28T12:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://debsdailydish.com/pork-tenderloin-stir-fry/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.-05378EFhpqZAy1_ZkU-3QHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://debsdailydish.com/wp-content/uploads/2025/01/Pork-Tenderloin-Stir-Fry-FI2-1.jpg",
+    "searchQuery": "French Pork Tenderloin Stir-Fry plated recipe food",
+    "searchResultTitle": "Easy Pork Tenderloin Stir Fry (Ready in 25 minutes) ⋆",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:02:49.064Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0728",
+    "name": "French Pork Tenderloin Stir-Fry",
+    "description": "French Pork Tenderloin Stir-Fry is a practical stovetop recipe pairing pork tenderloin with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 202.08,
+      "proteinG": 14.178,
+      "carbohydratesG": 15.6,
+      "fatG": 9.362,
+      "fiberG": 2.778,
+      "sugarsG": 3.998,
+      "sodiumMg": 213.865,
+      "potassiumMg": 640.317,
+      "calciumMg": 39.502,
+      "ironMg": 1.519,
+      "magnesiumMg": 36.63,
+      "vitaminCMg": 19.44
+    },
+    "estimatedCostPerServingUsd": 1.08,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly"
+    ]
+  }
+}

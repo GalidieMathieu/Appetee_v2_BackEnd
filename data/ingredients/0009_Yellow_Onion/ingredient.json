@@ -1,0 +1,112 @@
+{
+  "seedId": "ING-0009",
+  "name": "Yellow Onion",
+  "canonicalName": "Yellow Onion",
+  "description": "Raw yellow onion.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Yellow Onions, 3 lb Bag",
+    "productId": "10447842",
+    "productUrl": "https://www.walmart.com/ip/10447842",
+    "brand": "Fresh Produce",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 3.64,
+    "packageQuantity": 1360.777,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 38,
+      "proteinG": 0.83,
+      "carbohydratesG": 8.61,
+      "fatG": 0.05,
+      "fiberG": 1.9,
+      "sodiumMg": 1,
+      "potassiumMg": 182,
+      "calciumMg": 15,
+      "ironMg": 0.28,
+      "magnesiumMg": 9,
+      "vitaminCMg": 8.2
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.2675
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 790646,
+      "dataType": "Foundation",
+      "description": "Onions, yellow, raw",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/790646/nutrients",
+      "searchQuery": "onions yellow raw",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://api.nal.usda.gov/fdc/v1/foods/search?api_key=REDACTED&query=onions+yellow+raw&pageSize=25"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.freepik.com/premium-ai-image/raw-yellow-onion-garlic-bowl-close-up-healthy-eating_132784441.htm",
+    "originalSourceUrl": "https://img.freepik.com/premium-photo/raw-yellow-onion-garlic-bowl-close-up-healthy-eating_221128-41852.jpg?w=996",
+    "searchQuery": "Yellow Onion ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0009",
+    "name": "Yellow Onion",
+    "description": "Raw yellow onion.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 38,
+      "proteinG": 0.83,
+      "carbohydratesG": 8.61,
+      "fatG": 0.05,
+      "fiberG": 1.9,
+      "sodiumMg": 1,
+      "potassiumMg": 182,
+      "calciumMg": 15,
+      "ironMg": 0.28,
+      "magnesiumMg": 9,
+      "vitaminCMg": 8.2
+    },
+    "price": {
+      "usdPerBasis": 0.2675,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0009_Yellow_Onion/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

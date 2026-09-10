@@ -1,0 +1,238 @@
+{
+  "seedId": "REC-1132",
+  "candidate": {
+    "sequence": 1896,
+    "seedId": "REC-CAND-1896",
+    "name": "Egg and Cabbage Tray Bake"
+  },
+  "name": "Egg and Cabbage Tray Bake",
+  "description": "Egg and Cabbage Tray Bake is a practical oven recipe pairing eggs with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://ifoodreal.com/cottage-cheese-egg-bake/",
+    "domain": "ifoodreal.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Cottage Cheese Spinach Egg Bake source while retaining its closest matching dish form, cooking sequence, and applicable eggs or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 10,
+      "sourceUnit": "large",
+      "sourceDisplay": "10 eggs",
+      "normalizedQuantity": 500,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0035",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups cottage cheese",
+      "normalizedQuantity": 452,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups frozen spinach",
+      "normalizedQuantity": 170,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 Roma tomatoes",
+      "normalizedQuantity": 186,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "medium",
+      "sourceDisplay": "½ onion",
+      "normalizedQuantity": 75,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0100",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for egg and cabbage tray bake.",
+    "Season the eggs and vegetables evenly while the oven reaches temperature.",
+    "Arrange the eggs, vegetables, and vegetables so heat can circulate around each component.",
+    "Bake until the eggs is safely cooked and the vegetables or grain base are tender.",
+    "Rest the egg and cabbage tray bake briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1634.9,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1490.402,
+      "proteinG": 132.272,
+      "carbohydratesG": 59.109,
+      "fatG": 81.214,
+      "fiberG": 16.402,
+      "sugarsG": 29.891,
+      "sodiumMg": 2738.066,
+      "potassiumMg": 2814.663,
+      "calciumMg": 952.293,
+      "ironMg": 15.126,
+      "magnesiumMg": 277.06,
+      "vitaminCMg": 155.462
+    },
+    "perServing": {
+      "calories": 372.601,
+      "proteinG": 33.068,
+      "carbohydratesG": 14.777,
+      "fatG": 20.303,
+      "fiberG": 4.101,
+      "sugarsG": 7.473,
+      "sodiumMg": 684.516,
+      "potassiumMg": 703.666,
+      "calciumMg": 238.073,
+      "ironMg": 3.781,
+      "magnesiumMg": 69.265,
+      "vitaminCMg": 38.865
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.43,
+    "perServingUsd": 1.36,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Low Carb",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-10-12T08:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.greenku.com/healthy-cabbage-and-egg-bake/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.v3y_hXjYM6YtF0BW6dQ4FAHaJQ&pid=15.1",
+    "discoveredOriginalUrl": "https://www.greenku.com/wp-content/uploads/2025/01/anne-2025-01-20T142930.525.jpg",
+    "searchQuery": "Egg and Cabbage Tray Bake plated recipe food",
+    "searchResultTitle": "Healthy Cabbage and Egg Bake",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:23:32.032Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1132",
+    "name": "Egg and Cabbage Tray Bake",
+    "description": "Egg and Cabbage Tray Bake is a practical oven recipe pairing eggs with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 372.601,
+      "proteinG": 33.068,
+      "carbohydratesG": 14.777,
+      "fatG": 20.303,
+      "fiberG": 4.101,
+      "sugarsG": 7.473,
+      "sodiumMg": 684.516,
+      "potassiumMg": 703.666,
+      "calciumMg": 238.073,
+      "ironMg": 3.781,
+      "magnesiumMg": 69.265,
+      "vitaminCMg": 38.865
+    },
+    "estimatedCostPerServingUsd": 1.36,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Low Carb",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

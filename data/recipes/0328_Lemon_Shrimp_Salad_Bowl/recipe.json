@@ -1,0 +1,246 @@
+{
+  "seedId": "REC-0328",
+  "candidate": {
+    "sequence": 395,
+    "seedId": "REC-CAND-0395",
+    "name": "Lemon Shrimp Salad Bowl"
+  },
+  "name": "Lemon Shrimp Salad Bowl",
+  "description": "Lemon Shrimp Salad Bowl is a practical stovetop recipe pairing shrimp with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.delish.com/cooking/recipe-ideas/a19624080/blackened-shrimp-bowl-recipe/",
+    "domain": "delish.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Blackened Shrimp Rice Bowl source while retaining its closest matching dish form, cooking sequence, and applicable shrimp or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 20,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "shrimp",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0038",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, shrimp, and vegetables for lemon shrimp salad bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned shrimp and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the lemon shrimp salad bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1699,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2014.962,
+      "proteinG": 113.784,
+      "carbohydratesG": 312.717,
+      "fatG": 39.663,
+      "fiberG": 22.949,
+      "sugarsG": 23.872,
+      "sodiumMg": 3422.125,
+      "potassiumMg": 2987.943,
+      "calciumMg": 461.887,
+      "ironMg": 6.748,
+      "magnesiumMg": 358.27,
+      "vitaminCMg": 455.616
+    },
+    "perServing": {
+      "calories": 503.74,
+      "proteinG": 28.446,
+      "carbohydratesG": 78.179,
+      "fatG": 9.916,
+      "fiberG": 5.737,
+      "sugarsG": 5.968,
+      "sodiumMg": 855.531,
+      "potassiumMg": 746.986,
+      "calciumMg": 115.472,
+      "ironMg": 1.687,
+      "magnesiumMg": 89.567,
+      "vitaminCMg": 113.904
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 19.21,
+    "perServingUsd": 4.8,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Meal Prep"
+  ],
+  "createdAt": "2025-05-21T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://quickplatevibes.com/shrimp-salad-zesty-lemon-dill-shrimp-salad-bowl/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.-Nw9gTDAcxDXf-_i7-E_qwHaLG&pid=15.1",
+    "discoveredOriginalUrl": "https://quickplatevibes.com/wp-content/uploads/2026/03/2-11.png",
+    "searchQuery": "Lemon Shrimp Salad Bowl plated recipe food",
+    "searchResultTitle": "Shrimp Salad, Zesty Lemon Dill Shrimp Salad Bowl",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:41:48.819Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0328",
+    "name": "Lemon Shrimp Salad Bowl",
+    "description": "Lemon Shrimp Salad Bowl is a practical stovetop recipe pairing shrimp with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 503.74,
+      "proteinG": 28.446,
+      "carbohydratesG": 78.179,
+      "fatG": 9.916,
+      "fiberG": 5.737,
+      "sugarsG": 5.968,
+      "sodiumMg": 855.531,
+      "potassiumMg": 746.986,
+      "calciumMg": 115.472,
+      "ironMg": 1.687,
+      "magnesiumMg": 89.567,
+      "vitaminCMg": 113.904
+    },
+    "estimatedCostPerServingUsd": 4.8,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Meal Prep"
+    ]
+  }
+}

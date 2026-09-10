@@ -1,0 +1,198 @@
+{
+  "seedId": "REC-1618",
+  "candidate": {
+    "sequence": 2416,
+    "seedId": "REC-CAND-2416",
+    "name": "Garlic Steamed Quinoa"
+  },
+  "name": "Garlic Steamed Quinoa",
+  "description": "Garlic Steamed Quinoa is a practical meal component adaptation built around quinoa, quinoa, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.afghanaid.org.uk/brilliant-bolani-with-potato-filling",
+    "domain": "afghanaid.org.uk",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Afghan Bolani with Potato Filling source because it provides the closest validated quinoa structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Afghanistan",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Meal Component",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "quinoa",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, quinoa, and quinoa for garlic steamed quinoa.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned quinoa and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the garlic steamed quinoa, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1065,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1260.882,
+      "proteinG": 37.284,
+      "carbohydratesG": 184.875,
+      "fatG": 42.093,
+      "fiberG": 22.815,
+      "sodiumMg": 18.096,
+      "potassiumMg": 1957.623,
+      "calciumMg": 185.223,
+      "ironMg": 12.216,
+      "magnesiumMg": 503.55,
+      "sugarsG": 0.15,
+      "vitaminCMg": 29.28
+    },
+    "perServing": {
+      "calories": 315.221,
+      "proteinG": 9.321,
+      "carbohydratesG": 46.219,
+      "fatG": 10.523,
+      "fiberG": 5.704,
+      "sodiumMg": 4.524,
+      "potassiumMg": 489.406,
+      "calciumMg": 46.306,
+      "ironMg": 3.054,
+      "magnesiumMg": 125.888,
+      "sugarsG": 0.037,
+      "vitaminCMg": 7.32
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.91,
+    "perServingUsd": 0.73,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-10-31T14:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/26951297766913649/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.O1MEpNWsiDO5gwR5qLUbygHaLB&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/a9/03/c6/a903c6a3c7295c55dcc98ff6727bb71b.jpg",
+    "searchQuery": "Garlic Steamed Quinoa plated recipe food",
+    "searchResultTitle": "Herb and Garlic Quinoa Recipe - Perfect Side Dish | How to cook quinoa ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:56:20.678Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1618",
+    "name": "Garlic Steamed Quinoa",
+    "description": "Garlic Steamed Quinoa is a practical meal component adaptation built around quinoa, quinoa, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Meal Component",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 315.221,
+      "proteinG": 9.321,
+      "carbohydratesG": 46.219,
+      "fatG": 10.523,
+      "fiberG": 5.704,
+      "sodiumMg": 4.524,
+      "potassiumMg": 489.406,
+      "calciumMg": 46.306,
+      "ironMg": 3.054,
+      "magnesiumMg": 125.888,
+      "sugarsG": 0.037,
+      "vitaminCMg": 7.32
+    },
+    "estimatedCostPerServingUsd": 0.73,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "seedId": "REC-0112",
+  "name": "Harissa Eggplant with Chickpeas and Cumin Yogurt",
+  "description": "Whole eggplants browned with harissa chickpeas and tomatoes, served with cumin yogurt.",
+  "source": {
+    "url": "https://www.seriouseats.com/2014/09/one-pot-wonders-stovetop-eggplant-harissa-chickpeas-cumin.html",
+    "domain": "seriouseats.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source quantities and one-pan technique are retained; Roma tomatoes replace cherry tomatoes and dried parsley replaces fresh parsley."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "totalMinutes": 45
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 4,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "4 tbsp olive oil",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0064",
+      "sourceQuantity": 6,
+      "sourceUnit": "small",
+      "sourceDisplay": "6 small eggplants",
+      "normalizedQuantity": 1362,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0088",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "½ tbsp harissa paste",
+      "normalizedQuantity": 8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can chickpeas",
+      "normalizedQuantity": 439.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups tomatoes",
+      "normalizedQuantity": 372,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups Greek yogurt",
+      "normalizedQuantity": 340,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp ground cumin",
+      "normalizedQuantity": 6.3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "parsley for serving",
+      "normalizedQuantity": 1.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Brown the whole small eggplants in olive oil, turning them regularly until completely tender.",
+    "Mix the harissa with the chickpeas and tomatoes and add the mixture to the skillet.",
+    "Cook until the tomatoes blister and form a loose sauce around the eggplants.",
+    "Season the yogurt with cumin, salt, and pepper.",
+    "Finish the eggplant mixture with parsley and serve the cumin yogurt alongside."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2415.8,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1736.935,
+      "proteinG": 83.954,
+      "carbohydratesG": 210.741,
+      "fatG": 72.854,
+      "fiberG": 74.684,
+      "sugarsG": 87.957,
+      "sodiumMg": 1437.22,
+      "potassiumMg": 5212.86,
+      "calciumMg": 809.249,
+      "ironMg": 14.027,
+      "magnesiumMg": 413.582,
+      "vitaminCMg": 85.879
+    },
+    "perServing": {
+      "calories": 289.489,
+      "proteinG": 13.992,
+      "carbohydratesG": 35.123,
+      "fatG": 12.142,
+      "fiberG": 12.447,
+      "sugarsG": 14.659,
+      "sodiumMg": 239.537,
+      "potassiumMg": 868.81,
+      "calciumMg": 134.875,
+      "ironMg": 2.338,
+      "magnesiumMg": 68.93,
+      "vitaminCMg": 14.313
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 9.73,
+    "perServingUsd": 1.62,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-06-22T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "luminarecipes.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://luminarecipes.com/stovetop-eggplant-with-harissa-chickpeas-and-cumin-yogurt-recipe/",
+    "originalSourceUrl": "https://luminarecipes.com/wp-content/uploads/2025/04/stovetop-eggplant-with-harissa-chickpeas-and-cumin-yogurt-recipe.jpg",
+    "discoveredOriginalUrl": "https://luminarecipes.com/wp-content/uploads/2025/04/stovetop-eggplant-with-harissa-chickpeas-and-cumin-yogurt-recipe.jpg",
+    "searchQuery": "Harissa Eggplant with Chickpeas and Cumin Yogurt plated recipe food",
+    "searchResultTitle": "Smoky Stovetop Eggplant with Harissa & Cumin Yogurt Recipe - Lumina Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:09:08.909Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0112",
+    "name": "Harissa Eggplant with Chickpeas and Cumin Yogurt",
+    "description": "Whole eggplants browned with harissa chickpeas and tomatoes, served with cumin yogurt.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 289.489,
+      "proteinG": 13.992,
+      "carbohydratesG": 35.123,
+      "fatG": 12.142,
+      "fiberG": 12.447,
+      "sugarsG": 14.659,
+      "sodiumMg": 239.537,
+      "potassiumMg": 868.81,
+      "calciumMg": 134.875,
+      "ironMg": 2.338,
+      "magnesiumMg": 68.93,
+      "vitaminCMg": 14.313
+    },
+    "estimatedCostPerServingUsd": 1.62,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

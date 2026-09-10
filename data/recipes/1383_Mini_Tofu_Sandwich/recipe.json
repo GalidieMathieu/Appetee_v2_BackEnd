@@ -1,0 +1,198 @@
+{
+  "seedId": "REC-1383",
+  "candidate": {
+    "sequence": 2177,
+    "seedId": "REC-CAND-2177",
+    "name": "Mini Tofu Sandwich"
+  },
+  "name": "Mini Tofu Sandwich",
+  "description": "Mini Tofu Sandwich is a practical small meal adaptation built around tofu, bread, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://realfood.tesco.com/recipes/tuna-and-tomato-toasts.html",
+    "domain": "realfood.tesco.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Tuna Tomato Toasts source because it provides the closest validated soy and sandwich structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United Kingdom",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "totalMinutes": 20
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "tofu",
+  "carbohydrateBase": "bread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0018",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0051",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for mini tofu sandwich.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the tofu with the bread and remaining ingredients in the intended small meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the mini tofu sandwich into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1345.332,
+      "proteinG": 66.81,
+      "carbohydratesG": 162.48,
+      "fatG": 50.46,
+      "fiberG": 26.4,
+      "sugarsG": 14.82,
+      "sodiumMg": 1404.546,
+      "potassiumMg": 1752.273,
+      "calciumMg": 1131.273,
+      "ironMg": 13.233,
+      "magnesiumMg": 363,
+      "vitaminCMg": 25.2
+    },
+    "perServing": {
+      "calories": 336.333,
+      "proteinG": 16.703,
+      "carbohydratesG": 40.62,
+      "fatG": 12.615,
+      "fiberG": 6.6,
+      "sugarsG": 3.705,
+      "sodiumMg": 351.137,
+      "potassiumMg": 438.068,
+      "calciumMg": 282.818,
+      "ironMg": 3.308,
+      "magnesiumMg": 90.75,
+      "vitaminCMg": 6.3
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.37,
+    "perServingUsd": 1.09,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-11-03T07:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/mini-paneertofu-corn-sandwich-relish-the-bite--972355375775350953/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.iURt609w8XwkPutyqSqqmwHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/56/4a/12/564a12476ff97a0b0e636f8c490814c4.jpg",
+    "searchQuery": "Mini Tofu Sandwich plated recipe food",
+    "searchResultTitle": "Mini Paneer/Tofu Corn Sandwich - Relish The Bite | Recipe | Indian food ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:51:51.045Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1383",
+    "name": "Mini Tofu Sandwich",
+    "description": "Mini Tofu Sandwich is a practical small meal adaptation built around tofu, bread, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 336.333,
+      "proteinG": 16.703,
+      "carbohydratesG": 40.62,
+      "fatG": 12.615,
+      "fiberG": 6.6,
+      "sugarsG": 3.705,
+      "sodiumMg": 351.137,
+      "potassiumMg": 438.068,
+      "calciumMg": 282.818,
+      "ironMg": 3.308,
+      "magnesiumMg": 90.75,
+      "vitaminCMg": 6.3
+    },
+    "estimatedCostPerServingUsd": 1.09,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

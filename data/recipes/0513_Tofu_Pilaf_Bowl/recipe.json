@@ -1,0 +1,236 @@
+{
+  "seedId": "REC-0513",
+  "candidate": {
+    "sequence": 723,
+    "seedId": "REC-CAND-0723",
+    "name": "Tofu Pilaf Bowl"
+  },
+  "name": "Tofu Pilaf Bowl",
+  "description": "Tofu Pilaf Bowl is a practical stovetop recipe pairing tofu with rice and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.unileverfoodsolutions.co.id/en/recipe/egg-tofu-rice-R0078842.html",
+    "domain": "unileverfoodsolutions.co.id",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Indonesian Tofu Kecap-Style Rice source while retaining its closest matching dish form, cooking sequence, and applicable tofu or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Indonesia",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 50,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tofu",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0018",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb tofu",
+      "normalizedQuantity": 680.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups dry rice",
+      "normalizedQuantity": 277.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0019",
+      "sourceQuantity": 3,
+      "sourceUnit": "cups",
+      "sourceDisplay": "3 cups peas and carrots",
+      "normalizedQuantity": 420,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 0.25,
+      "sourceUnit": "cup",
+      "sourceDisplay": "¼ cup soy sauce",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0032",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp peanut butter",
+      "normalizedQuantity": 32,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tofu, and rice for tofu pilaf bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tofu and cook it until browned or heated through as appropriate.",
+    "Stir in the rice, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the tofu pilaf bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2258.36,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2352.587,
+      "proteinG": 112.145,
+      "carbohydratesG": 330.402,
+      "fatG": 77.095,
+      "fiberG": 29.949,
+      "sugarsG": 7.202,
+      "sodiumMg": 4397.386,
+      "potassiumMg": 3197.758,
+      "calciumMg": 1603.172,
+      "ironMg": 18.786,
+      "magnesiumMg": 534.34,
+      "vitaminCMg": 77.681
+    },
+    "perServing": {
+      "calories": 588.147,
+      "proteinG": 28.036,
+      "carbohydratesG": 82.6,
+      "fatG": 19.274,
+      "fiberG": 7.487,
+      "sugarsG": 1.8,
+      "sodiumMg": 1099.347,
+      "potassiumMg": 799.439,
+      "calciumMg": 400.793,
+      "ironMg": 4.697,
+      "magnesiumMg": 133.585,
+      "vitaminCMg": 19.42
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.71,
+    "perServingUsd": 2.18,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-03-03T01:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://myquietkitchen.com/sweet-mustard-tofu-bowl/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.uPb6pkAeRpa2buYhv_dQxAHaE8&pid=15.1",
+    "discoveredOriginalUrl": "https://myquietkitchen.com/wp-content/uploads/2018/10/Sweet-Mustard-Tofu-with-Millet-and-Greens-4.jpg",
+    "searchQuery": "Tofu Pilaf Bowl plated recipe food",
+    "searchResultTitle": "Sweet Mustard Tofu Bowl With Millet Pilaf and Greens - My Quiet Kitchen",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:51:40.768Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0513",
+    "name": "Tofu Pilaf Bowl",
+    "description": "Tofu Pilaf Bowl is a practical stovetop recipe pairing tofu with rice and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 588.147,
+      "proteinG": 28.036,
+      "carbohydratesG": 82.6,
+      "fatG": 19.274,
+      "fiberG": 7.487,
+      "sugarsG": 1.8,
+      "sodiumMg": 1099.347,
+      "potassiumMg": 799.439,
+      "calciumMg": 400.793,
+      "ironMg": 4.697,
+      "magnesiumMg": 133.585,
+      "vitaminCMg": 19.42
+    },
+    "estimatedCostPerServingUsd": 2.18,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

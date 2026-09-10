@@ -1,0 +1,200 @@
+{
+  "seedId": "REC-1362",
+  "candidate": {
+    "sequence": 2156,
+    "seedId": "REC-CAND-2156",
+    "name": "Tuna Protein Rice Bowl"
+  },
+  "name": "Tuna Protein Rice Bowl",
+  "description": "Tuna Protein Rice Bowl is a practical small meal adaptation built around tuna, rice, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://b2b.chickenofthesea.com/recipes/tuna-taco-bowl/",
+    "domain": "b2b.chickenofthesea.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Mediterranean Tuna Rice Bowl source because it provides the closest validated fish and bowl/rice structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Breakfast",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tuna",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0025",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tuna, and rice for tuna protein rice bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tuna and cook it until browned or heated through as appropriate.",
+    "Stir in the rice, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the tuna protein rice bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1450,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1680.932,
+      "proteinG": 121.386,
+      "carbohydratesG": 218.55,
+      "fatG": 33.202,
+      "fiberG": 6.058,
+      "sugarsG": 0,
+      "sodiumMg": 204.655,
+      "potassiumMg": 1691.793,
+      "calciumMg": 99.977,
+      "ironMg": 7.449,
+      "magnesiumMg": 198.6,
+      "vitaminCMg": 24.6
+    },
+    "perServing": {
+      "calories": 420.233,
+      "proteinG": 30.346,
+      "carbohydratesG": 54.638,
+      "fatG": 8.3,
+      "fiberG": 1.514,
+      "sugarsG": 0,
+      "sodiumMg": 51.164,
+      "potassiumMg": 422.948,
+      "calciumMg": 24.994,
+      "ironMg": 1.862,
+      "magnesiumMg": 49.65,
+      "vitaminCMg": 6.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.64,
+    "perServingUsd": 1.16,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-10-01T22:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse4.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://ladysavor.com/tuna-rice-bowl-recipe/",
+    "originalSourceUrl": "https://tse4.mm.bing.net/th/id/OIP.CZRqe15NrWZKRvL9RWQOCwHaJQ?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://ladysavor.com/wp-content/uploads/2025/04/Tuna-Rice-Bowl-Recipe.jpg",
+    "searchQuery": "tuna rice bowl plated recipe food photograph",
+    "searchResultTitle": "Tuna Rice Bowl Recipe",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:25:37.755Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1362",
+    "name": "Tuna Protein Rice Bowl",
+    "description": "Tuna Protein Rice Bowl is a practical small meal adaptation built around tuna, rice, and title-specific supporting ingredients.",
+    "mealType": "Breakfast",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 420.233,
+      "proteinG": 30.346,
+      "carbohydratesG": 54.638,
+      "fatG": 8.3,
+      "fiberG": 1.514,
+      "sugarsG": 0,
+      "sodiumMg": 51.164,
+      "potassiumMg": 422.948,
+      "calciumMg": 24.994,
+      "ironMg": 1.862,
+      "magnesiumMg": 49.65,
+      "vitaminCMg": 6.15
+    },
+    "estimatedCostPerServingUsd": 1.16,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

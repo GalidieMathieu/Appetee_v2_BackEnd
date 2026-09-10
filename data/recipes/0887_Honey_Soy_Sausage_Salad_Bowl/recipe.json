@@ -1,0 +1,242 @@
+{
+  "seedId": "REC-0887",
+  "candidate": {
+    "sequence": 1449,
+    "seedId": "REC-CAND-1449",
+    "name": "Honey Soy Sausage Salad Bowl"
+  },
+  "name": "Honey Soy Sausage Salad Bowl",
+  "description": "Honey Soy Sausage Salad Bowl is a practical stovetop recipe pairing sausage with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.womanandhome.com/food/everyday-inspiration/japanese-hotdogs-sausage-ragu/",
+    "domain": "womanandhome.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Japanese Sausage Noodle Bowl source while retaining its closest matching dish form, cooking sequence, and applicable pork or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Japan",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "sausage",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0085",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0039",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0062",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0071",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 18,
+      "sourceUnit": "g",
+      "sourceDisplay": "18 g",
+      "normalizedQuantity": 18,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, sausage, and vegetables for honey soy sausage salad bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned sausage and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the honey soy sausage salad bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1411,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3368.858,
+      "proteinG": 125.103,
+      "carbohydratesG": 304.758,
+      "fatG": 184.55,
+      "fiberG": 20.737,
+      "sugarsG": 27.228,
+      "sodiumMg": 6702.67,
+      "potassiumMg": 4472.37,
+      "calciumMg": 317.274,
+      "ironMg": 20.27,
+      "magnesiumMg": 438.662,
+      "vitaminCMg": 49.634
+    },
+    "perServing": {
+      "calories": 842.215,
+      "proteinG": 31.276,
+      "carbohydratesG": 76.189,
+      "fatG": 46.138,
+      "fiberG": 5.184,
+      "sugarsG": 6.807,
+      "sodiumMg": 1675.668,
+      "potassiumMg": 1118.092,
+      "calciumMg": 79.319,
+      "ironMg": 5.067,
+      "magnesiumMg": 109.665,
+      "vitaminCMg": 12.409
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 12.74,
+    "perServingUsd": 3.19,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-09-30T15:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.hellofresh.co.nz/recipes/honey-soy-pork-and-eggplant-salad-bowl-66fe06e7966ea033d562d55b",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.t8qulP4Xxp55h4fyh6rorQHaE8&pid=15.1",
+    "discoveredOriginalUrl": "https://img.hellofresh.com/hellofresh_s3/image/66fe06e7966ea033d562d55b-5b69d533.jpeg",
+    "searchQuery": "Honey Soy Sausage Salad Bowl plated recipe food",
+    "searchResultTitle": "Honey-Soy Pork & Eggplant Salad Bowl Recipe | HelloFresh",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:10:56.608Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0887",
+    "name": "Honey Soy Sausage Salad Bowl",
+    "description": "Honey Soy Sausage Salad Bowl is a practical stovetop recipe pairing sausage with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 842.215,
+      "proteinG": 31.276,
+      "carbohydratesG": 76.189,
+      "fatG": 46.138,
+      "fiberG": 5.184,
+      "sugarsG": 6.807,
+      "sodiumMg": 1675.668,
+      "potassiumMg": 1118.092,
+      "calciumMg": 79.319,
+      "ironMg": 5.067,
+      "magnesiumMg": 109.665,
+      "vitaminCMg": 12.409
+    },
+    "estimatedCostPerServingUsd": 3.19,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Budget Friendly"
+    ]
+  }
+}

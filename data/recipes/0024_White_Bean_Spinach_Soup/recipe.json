@@ -1,0 +1,204 @@
+{
+  "seedId": "REC-0024",
+  "name": "White Bean Spinach Soup",
+  "description": "A one-pot cannellini bean soup with tomato, spinach, onion, and garlic.",
+  "source": {
+    "url": "https://www.loveandlemons.com/white-bean-soup/",
+    "domain": "loveandlemons.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Italy",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "totalMinutes": 50
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "white beans",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0026",
+      "sourceQuantity": 3,
+      "sourceUnit": "cans",
+      "sourceDisplay": "3 cans cannellini beans",
+      "normalizedQuantity": 1318.252,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can diced tomatoes",
+      "normalizedQuantity": 411.068,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 12,
+      "sourceUnit": "oz",
+      "sourceDisplay": "12 oz spinach",
+      "normalizedQuantity": 340.194,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "large",
+      "sourceDisplay": "1 large onion",
+      "normalizedQuantity": 200,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp olive oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Soften diced onion in olive oil in a soup pot.",
+    "Add garlic and tomatoes and simmer for several minutes.",
+    "Stir in beans and enough water for a spoonable soup; simmer for 20 minutes.",
+    "Mash some beans against the side of the pot, then stir in spinach until hot."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 2243.995,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1894.472,
+      "proteinG": 114.121,
+      "carbohydratesG": 329.624,
+      "fatG": 21.642,
+      "fiberG": 77.257,
+      "sugarsG": 6.184,
+      "sodiumMg": 5252.458,
+      "potassiumMg": 8400.136,
+      "calciumMg": 1581.781,
+      "ironMg": 49.08,
+      "magnesiumMg": 989.489,
+      "vitaminCMg": 39.791
+    },
+    "perServing": {
+      "calories": 315.745,
+      "proteinG": 19.02,
+      "carbohydratesG": 54.937,
+      "fatG": 3.607,
+      "fiberG": 12.876,
+      "sugarsG": 1.031,
+      "sodiumMg": 875.41,
+      "potassiumMg": 1400.023,
+      "calciumMg": 263.63,
+      "ironMg": 8.18,
+      "magnesiumMg": 164.915,
+      "vitaminCMg": 6.632
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.58,
+    "perServingUsd": 0.93,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-02-08T04:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "provenance": "Public source-page image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.loveandlemons.com/white-bean-soup/",
+    "originalSourceUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2025/12/white-bean-soup-social.jpg",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0024",
+    "name": "White Bean Spinach Soup",
+    "description": "A one-pot cannellini bean soup with tomato, spinach, onion, and garlic.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": {
+      "main": "recipes/0024_White_Bean_Spinach_Soup/assets/main.avif",
+      "card": "recipes/0024_White_Bean_Spinach_Soup/assets/card.avif"
+    },
+    "totalTimeMinutes": 50,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 315.745,
+      "proteinG": 19.02,
+      "carbohydratesG": 54.937,
+      "fatG": 3.607,
+      "fiberG": 12.876,
+      "sugarsG": 1.031,
+      "sodiumMg": 875.41,
+      "potassiumMg": 1400.023,
+      "calciumMg": 263.63,
+      "ironMg": 8.18,
+      "magnesiumMg": 164.915,
+      "vitaminCMg": 6.632
+    },
+    "estimatedCostPerServingUsd": 0.93,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

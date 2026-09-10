@@ -1,0 +1,237 @@
+{
+  "seedId": "REC-0105",
+  "name": "Indian Peanut Chicken Curry",
+  "description": "Chicken simmered in a creamy peanut, yogurt, ginger, garlic, and cilantro curry sauce.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/11753/nutty-chicken-curry",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source curry structure and quantities are retained; chili powder replaces the fresh red chili."
+  },
+  "countryOfOrigin": "India",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 15,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "chili powder replacing 1 fresh red chili",
+      "normalizedQuantity": 1.35,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g fresh ginger",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 2,
+      "sourceUnit": "cloves",
+      "sourceDisplay": "2 garlic cloves",
+      "normalizedQuantity": 10,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 1,
+      "sourceUnit": "bunch",
+      "sourceDisplay": "1 bunch cilantro",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 4,
+      "sourceUnit": "breasts",
+      "sourceDisplay": "4 chicken breasts",
+      "normalizedQuantity": 680.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0032",
+      "sourceQuantity": 5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "5 tbsp peanut butter",
+      "normalizedQuantity": 80,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0055",
+      "sourceQuantity": 150,
+      "sourceUnit": "ml",
+      "sourceDisplay": "150 ml chicken broth",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 200,
+      "sourceUnit": "g",
+      "sourceDisplay": "200 g Greek yogurt",
+      "normalizedQuantity": 200,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Blend the ginger, garlic, cilantro stems, some leaves, chili powder, and water into a rough paste.",
+    "Brown the chicken pieces briefly in hot oil.",
+    "Stir the aromatic paste into the chicken and cook it for one minute.",
+    "Add the peanut butter, broth, and yogurt and bring the sauce to a gentle simmer.",
+    "Cook until the chicken reaches 165°F and the sauce thickens, then fold in the remaining cilantro."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1005.35,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1478.737,
+      "proteinG": 196.498,
+      "carbohydratesG": 32.729,
+      "fatG": 67.983,
+      "fiberG": 8.164,
+      "sugarsG": 14.234,
+      "sodiumMg": 1310.551,
+      "potassiumMg": 3525.511,
+      "calciumMg": 338.659,
+      "ironMg": 5.524,
+      "magnesiumMg": 348.006,
+      "vitaminCMg": 12.039
+    },
+    "perServing": {
+      "calories": 369.684,
+      "proteinG": 49.124,
+      "carbohydratesG": 8.182,
+      "fatG": 16.996,
+      "fiberG": 2.041,
+      "sugarsG": 3.558,
+      "sodiumMg": 327.638,
+      "potassiumMg": 881.378,
+      "calciumMg": 84.665,
+      "ironMg": 1.381,
+      "magnesiumMg": 87.001,
+      "vitaminCMg": 3.01
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.54,
+    "perServingUsd": 1.64,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Carb",
+    "Quick Meal",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-06-12T01:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "images.immediate.co.uk",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.bbcgoodfood.com/recipes/11753/nutty-chicken-curry",
+    "originalSourceUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-488723_10-7f16505.jpg?resize=440%2C230",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0105",
+    "name": "Indian Peanut Chicken Curry",
+    "description": "Chicken simmered in a creamy peanut, yogurt, ginger, garlic, and cilantro curry sauce.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 369.684,
+      "proteinG": 49.124,
+      "carbohydratesG": 8.182,
+      "fatG": 16.996,
+      "fiberG": 2.041,
+      "sugarsG": 3.558,
+      "sodiumMg": 327.638,
+      "potassiumMg": 881.378,
+      "calciumMg": 84.665,
+      "ironMg": 1.381,
+      "magnesiumMg": 87.001,
+      "vitaminCMg": 3.01
+    },
+    "estimatedCostPerServingUsd": 1.64,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Carb",
+      "Quick Meal",
+      "Budget Friendly"
+    ]
+  }
+}

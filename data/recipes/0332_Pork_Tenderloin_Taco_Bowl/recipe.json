@@ -1,0 +1,254 @@
+{
+  "seedId": "REC-0332",
+  "candidate": {
+    "sequence": 401,
+    "seedId": "REC-CAND-0401",
+    "name": "Pork Tenderloin Taco Bowl"
+  },
+  "name": "Pork Tenderloin Taco Bowl",
+  "description": "Pork Tenderloin Taco Bowl is a practical stovetop recipe pairing pork tenderloin with tortilla and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.womanandhome.com/food/everyday-inspiration/japanese-hotdogs-sausage-ragu/",
+    "domain": "womanandhome.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Japanese Sausage Noodle Bowl source while retaining its closest matching dish form, cooking sequence, and applicable pork or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Japan",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "pork tenderloin",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0069",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0039",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0062",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0071",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, pork tenderloin, and tortilla for pork tenderloin taco bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned pork tenderloin and cook it until browned or heated through as appropriate.",
+    "Stir in the tortilla, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the pork tenderloin taco bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1723,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3363.47,
+      "proteinG": 198.729,
+      "carbohydratesG": 404.946,
+      "fatG": 103.55,
+      "fiberG": 50.101,
+      "sugarsG": 19.77,
+      "sodiumMg": 4143.496,
+      "potassiumMg": 5795.283,
+      "calciumMg": 964.467,
+      "ironMg": 25.657,
+      "magnesiumMg": 735.302,
+      "vitaminCMg": 49.544
+    },
+    "perServing": {
+      "calories": 840.867,
+      "proteinG": 49.682,
+      "carbohydratesG": 101.237,
+      "fatG": 25.887,
+      "fiberG": 12.525,
+      "sugarsG": 4.942,
+      "sodiumMg": 1035.874,
+      "potassiumMg": 1448.821,
+      "calciumMg": 241.117,
+      "ironMg": 6.414,
+      "magnesiumMg": 183.826,
+      "vitaminCMg": 12.386
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 16.74,
+    "perServingUsd": 4.18,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Meal Prep"
+  ],
+  "createdAt": "2025-05-28T00:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/pork-tenderloin-carnitas-taco-bowl--34551122131192020/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.HhvogjAM7jxdZ-5WCjEQhAHaJ4&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/48/b5/21/48b52117a56d29105f5c45f1d7aa17dd.jpg",
+    "searchQuery": "Pork Tenderloin Taco Bowl plated recipe food",
+    "searchResultTitle": "Pork Tenderloin Carnitas Taco Bowl",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:41:56.642Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0332",
+    "name": "Pork Tenderloin Taco Bowl",
+    "description": "Pork Tenderloin Taco Bowl is a practical stovetop recipe pairing pork tenderloin with tortilla and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 840.867,
+      "proteinG": 49.682,
+      "carbohydratesG": 101.237,
+      "fatG": 25.887,
+      "fiberG": 12.525,
+      "sugarsG": 4.942,
+      "sodiumMg": 1035.874,
+      "potassiumMg": 1448.821,
+      "calciumMg": 241.117,
+      "ironMg": 6.414,
+      "magnesiumMg": 183.826,
+      "vitaminCMg": 12.386
+    },
+    "estimatedCostPerServingUsd": 4.18,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Meal Prep"
+    ]
+  }
+}

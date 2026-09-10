@@ -1,0 +1,122 @@
+{
+  "seedId": "ING-0115",
+  "name": "Pitted Deglet Noor Dates",
+  "canonicalName": "Pitted Deglet Noor Dates",
+  "description": "Pitted dried dates for bites and dessert squares.",
+  "measurementType": "solid",
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": "The exact product is a single-ingredient food without gluten- or lactose-bearing ingredients."
+  },
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Pitted Deglet Noor Dates, 8 oz",
+    "productId": "578393789",
+    "productUrl": "https://www.walmart.com/ip/578393789",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 2.97,
+    "packageQuantity": 226.796,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-11T19:50:49.978Z",
+    "priceEvidence": "Current Walmart product-page listing price and package weight."
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 282,
+      "proteinG": 2.45,
+      "carbohydratesG": 75,
+      "fatG": 0.39,
+      "fiberG": 8,
+      "sugarsG": 63.4,
+      "sodiumMg": 2,
+      "potassiumMg": 656,
+      "calciumMg": 39,
+      "ironMg": 1.02,
+      "magnesiumMg": 43,
+      "vitaminCMg": 0.4
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 1.3095
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 171726,
+      "dataType": "SR Legacy",
+      "description": "Dates, deglet noor",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171726/nutrients",
+      "searchQuery": "dates deglet noor",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "imageType": "external-real-product-photograph",
+    "aiGenerated": false,
+    "provider": "i5.walmartimages.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/578393789",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Great-Value-Pitted-Deglet-Noor-Dates-Dried-Fruit-8-oz_646f5c04-3688-4ecd-b35a-4d813c182f60.b8ee6ea916aee8115e9b0aa493a16f75.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:01:23.923Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0115",
+    "name": "Pitted Deglet Noor Dates",
+    "description": "Pitted dried dates for bites and dessert squares.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 282,
+      "proteinG": 2.45,
+      "carbohydratesG": 75,
+      "fatG": 0.39,
+      "fiberG": 8,
+      "sugarsG": 63.4,
+      "sodiumMg": 2,
+      "potassiumMg": 656,
+      "calciumMg": 39,
+      "ironMg": 1.02,
+      "magnesiumMg": 43,
+      "vitaminCMg": 0.4
+    },
+    "price": {
+      "usdPerBasis": 1.3095,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": null
+  }
+}

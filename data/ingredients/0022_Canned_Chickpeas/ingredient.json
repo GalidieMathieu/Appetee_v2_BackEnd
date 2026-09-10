@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0022",
+  "name": "Canned Chickpeas",
+  "canonicalName": "Canned Chickpeas",
+  "description": "Canned chickpeas with their packing liquid unless a recipe says to drain them.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Chick Peas, 15.5 oz",
+    "productId": "10534041",
+    "productUrl": "https://www.walmart.com/ip/10534041",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 0.86,
+    "packageQuantity": 439.418,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 139,
+      "proteinG": 7.05,
+      "carbohydratesG": 22.5,
+      "fatG": 2.77,
+      "fiberG": 6.4,
+      "sugarsG": 4.01,
+      "sodiumMg": 246,
+      "potassiumMg": 126,
+      "calciumMg": 45,
+      "ironMg": 1.07,
+      "magnesiumMg": 26,
+      "vitaminCMg": 0.1
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.1957
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 173800,
+      "dataType": "SR Legacy",
+      "description": "Chickpeas (garbanzo beans, bengal gram), mature seeds, canned, drained solids",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/173800/nutrients",
+      "searchQuery": "chickpeas garbanzo beans canned",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": "Package basis is labeled net weight; draining changes edible yield and is recorded at recipe use."
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.freepik.com/premium-photo/canned-chickpeas-close-up-protein-containing-food_420608197.htm",
+    "originalSourceUrl": "https://img.freepik.com/premium-photo/canned-chickpeas-close-up-protein-containing-food_143127-6936.jpg",
+    "searchQuery": "Canned Chickpeas ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0022",
+    "name": "Canned Chickpeas",
+    "description": "Canned chickpeas with their packing liquid unless a recipe says to drain them.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 139,
+      "proteinG": 7.05,
+      "carbohydratesG": 22.5,
+      "fatG": 2.77,
+      "fiberG": 6.4,
+      "sugarsG": 4.01,
+      "sodiumMg": 246,
+      "potassiumMg": 126,
+      "calciumMg": 45,
+      "ironMg": 1.07,
+      "magnesiumMg": 26,
+      "vitaminCMg": 0.1
+    },
+    "price": {
+      "usdPerBasis": 0.1957,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0022_Canned_Chickpeas/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "seedId": "REC-0253",
+  "candidate": {
+    "sequence": 249,
+    "seedId": "REC-CAND-0249",
+    "name": "Caribbean Egg Noodle Bowl"
+  },
+  "name": "Caribbean Egg Noodle Bowl",
+  "description": "Caribbean Egg Noodle Bowl is a practical stovetop recipe pairing eggs with noodles and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.loveandlemons.com/farro-bowl/",
+    "domain": "loveandlemons.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Roasted Egg Grain Bowl source while retaining its closest matching dish form, cooking sequence, and applicable eggs or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "noodles",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0103",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0007",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, eggs, and noodles for caribbean egg noodle bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned eggs and cook it until browned or heated through as appropriate.",
+    "Stir in the noodles, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the caribbean egg noodle bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1785,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2175.282,
+      "proteinG": 93.744,
+      "carbohydratesG": 297.345,
+      "fatG": 70.266,
+      "fiberG": 31.035,
+      "sugarsG": 21.942,
+      "sodiumMg": 911.496,
+      "potassiumMg": 5062.023,
+      "calciumMg": 877.323,
+      "ironMg": 23.886,
+      "magnesiumMg": 524.25,
+      "vitaminCMg": 107.88
+    },
+    "perServing": {
+      "calories": 543.821,
+      "proteinG": 23.436,
+      "carbohydratesG": 74.336,
+      "fatG": 17.567,
+      "fiberG": 7.759,
+      "sugarsG": 5.486,
+      "sodiumMg": 227.874,
+      "potassiumMg": 1265.506,
+      "calciumMg": 219.331,
+      "ironMg": 5.971,
+      "magnesiumMg": 131.063,
+      "vitaminCMg": 26.97
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.48,
+    "perServingUsd": 1.37,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2025-01-26T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://storage.googleapis.com/dkkrzunmcceqhe/egg-noodle-bowl-recipe.html",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.xqJKbf7E5cGxN1l6aMtArQHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://showmetheyummy.com/wp-content/uploads/2019/01/Egg-Roll-Noodle-Bowl-Show-Me-the-Yummy-2.jpg",
+    "searchQuery": "Caribbean Egg Noodle Bowl plated recipe food",
+    "searchResultTitle": "Egg Noodle Bowl Recipe at Everett Reynolds blog",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:37:38.900Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0253",
+    "name": "Caribbean Egg Noodle Bowl",
+    "description": "Caribbean Egg Noodle Bowl is a practical stovetop recipe pairing eggs with noodles and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 543.821,
+      "proteinG": 23.436,
+      "carbohydratesG": 74.336,
+      "fatG": 17.567,
+      "fiberG": 7.759,
+      "sugarsG": 5.486,
+      "sodiumMg": 227.874,
+      "potassiumMg": 1265.506,
+      "calciumMg": 219.331,
+      "ironMg": 5.971,
+      "magnesiumMg": 131.063,
+      "vitaminCMg": 26.97
+    },
+    "estimatedCostPerServingUsd": 1.37,
+    "diets": [
+      "Vegetarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

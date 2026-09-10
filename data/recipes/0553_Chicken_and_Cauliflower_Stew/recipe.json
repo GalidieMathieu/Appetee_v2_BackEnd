@@ -1,0 +1,248 @@
+{
+  "seedId": "REC-0553",
+  "candidate": {
+    "sequence": 812,
+    "seedId": "REC-CAND-0812",
+    "name": "Chicken and Cauliflower Stew"
+  },
+  "name": "Chicken and Cauliflower Stew",
+  "description": "Chicken and Cauliflower Stew is a practical stovetop recipe pairing chicken with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.whats4eats.com/soups/hkatenkwan-groundnut-stew-recipe",
+    "domain": "whats4eats.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Ghanaian Groundnut Chicken Stew source while retaining its closest matching dish form, cooking sequence, and applicable chicken or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Ghana",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 40,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0036",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0032",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0102",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chicken, and vegetables for chicken and cauliflower stew.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chicken and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the chicken and cauliflower stew, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 2288,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3602.982,
+      "proteinG": 335.602,
+      "carbohydratesG": 126.198,
+      "fatG": 214.522,
+      "fiberG": 38.307,
+      "sugarsG": 32.328,
+      "sodiumMg": 3530.446,
+      "potassiumMg": 7751.643,
+      "calciumMg": 489.963,
+      "ironMg": 17.486,
+      "magnesiumMg": 878.932,
+      "vitaminCMg": 175.708
+    },
+    "perServing": {
+      "calories": 900.745,
+      "proteinG": 83.9,
+      "carbohydratesG": 31.549,
+      "fatG": 53.63,
+      "fiberG": 9.577,
+      "sugarsG": 8.082,
+      "sodiumMg": 882.611,
+      "potassiumMg": 1937.911,
+      "calciumMg": 122.491,
+      "ironMg": 4.372,
+      "magnesiumMg": 219.733,
+      "vitaminCMg": 43.927
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 12.56,
+    "perServingUsd": 3.14,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-05-03T17:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.taylorrecipes.com/greek-chicken-stew-with-cauliflower-and-olives/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.qjPk9u2dk76yFOwP5sSHAAHaJ4&pid=15.1",
+    "discoveredOriginalUrl": "https://www.taylorrecipes.com/wp-content/uploads/2025/12/htjmqfqrh53jsldqhkcm.webp",
+    "searchQuery": "Chicken and Cauliflower Stew plated recipe food",
+    "searchResultTitle": "Greek Chicken Stew with Cauliflower and Olives for Comfort Food Bliss ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:54:00.667Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0553",
+    "name": "Chicken and Cauliflower Stew",
+    "description": "Chicken and Cauliflower Stew is a practical stovetop recipe pairing chicken with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 900.745,
+      "proteinG": 83.9,
+      "carbohydratesG": 31.549,
+      "fatG": 53.63,
+      "fiberG": 9.577,
+      "sugarsG": 8.082,
+      "sodiumMg": 882.611,
+      "potassiumMg": 1937.911,
+      "calciumMg": 122.491,
+      "ironMg": 4.372,
+      "magnesiumMg": 219.733,
+      "vitaminCMg": 43.927
+    },
+    "estimatedCostPerServingUsd": 3.14,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

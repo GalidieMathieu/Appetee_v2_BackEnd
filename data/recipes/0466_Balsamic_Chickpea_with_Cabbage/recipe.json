@@ -1,0 +1,276 @@
+{
+  "seedId": "REC-0466",
+  "candidate": {
+    "sequence": 634,
+    "seedId": "REC-CAND-0634",
+    "name": "Balsamic Chickpea with Cabbage"
+  },
+  "name": "Balsamic Chickpea with Cabbage",
+  "description": "Balsamic Chickpea with Cabbage is a practical stovetop recipe pairing chickpeas with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.seriouseats.com/2014/09/one-pot-wonders-stovetop-eggplant-harissa-chickpeas-cumin.html",
+    "domain": "seriouseats.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Harissa Eggplant with Chickpeas and Cumin Yogurt source while retaining its closest matching dish form, cooking sequence, and applicable chickpeas or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 60,
+    "totalMinutes": 80
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 4,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "4 tbsp olive oil",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0064",
+      "sourceQuantity": 6,
+      "sourceUnit": "small",
+      "sourceDisplay": "6 small eggplants",
+      "normalizedQuantity": 1362,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0088",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "½ tbsp harissa paste",
+      "normalizedQuantity": 8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can chickpeas",
+      "normalizedQuantity": 439.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups tomatoes",
+      "normalizedQuantity": 372,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups Greek yogurt",
+      "normalizedQuantity": 340,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp ground cumin",
+      "normalizedQuantity": 6.3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "parsley for serving",
+      "normalizedQuantity": 1.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0100",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0093",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chickpeas, and legumes for balsamic chickpea with cabbage.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chickpeas and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the balsamic chickpea with cabbage, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 3060.8,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1976.005,
+      "proteinG": 91.392,
+      "carbohydratesG": 264.291,
+      "fatG": 73.379,
+      "fiberG": 88.199,
+      "sugarsG": 102.432,
+      "sodiumMg": 1504.015,
+      "potassiumMg": 6364.29,
+      "calciumMg": 1009.904,
+      "ironMg": 16.759,
+      "magnesiumMg": 484.112,
+      "vitaminCMg": 224.96
+    },
+    "perServing": {
+      "calories": 494.001,
+      "proteinG": 22.848,
+      "carbohydratesG": 66.073,
+      "fatG": 18.345,
+      "fiberG": 22.05,
+      "sugarsG": 25.608,
+      "sodiumMg": 376.004,
+      "potassiumMg": 1591.072,
+      "calciumMg": 252.476,
+      "ironMg": 4.19,
+      "magnesiumMg": 121.028,
+      "vitaminCMg": 56.24
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 11.69,
+    "perServingUsd": 2.92,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2025-12-20T14:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://nummyrecipes.com/easy-cabbage-recipes/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.baLS9DSXiOOnPkGTJIr41QHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://nummyrecipes.com/wp-content/uploads/2025/08/Cabbage-and-Chickpea-Curry-1.jpg",
+    "searchQuery": "Balsamic Chickpea with Cabbage plated recipe food",
+    "searchResultTitle": "18 Simple Easy Cabbage Recipes Delicious - Nummy Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:49:26.257Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0466",
+    "name": "Balsamic Chickpea with Cabbage",
+    "description": "Balsamic Chickpea with Cabbage is a practical stovetop recipe pairing chickpeas with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 80,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 494.001,
+      "proteinG": 22.848,
+      "carbohydratesG": 66.073,
+      "fatG": 18.345,
+      "fiberG": 22.05,
+      "sugarsG": 25.608,
+      "sodiumMg": 376.004,
+      "potassiumMg": 1591.072,
+      "calciumMg": 252.476,
+      "ironMg": 4.19,
+      "magnesiumMg": 121.028,
+      "vitaminCMg": 56.24
+    },
+    "estimatedCostPerServingUsd": 2.92,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

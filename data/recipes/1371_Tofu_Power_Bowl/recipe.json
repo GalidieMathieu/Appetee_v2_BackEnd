@@ -1,0 +1,200 @@
+{
+  "seedId": "REC-1371",
+  "candidate": {
+    "sequence": 2165,
+    "seedId": "REC-CAND-2165",
+    "name": "Tofu Power Bowl"
+  },
+  "name": "Tofu Power Bowl",
+  "description": "Tofu Power Bowl is a practical small meal adaptation built around tofu, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/mark-bittmans-qunioa-salad-with-tempeh-379312",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Coconut Tempeh Salad Bowl source because it provides the closest validated soy and bowl structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "totalMinutes": 35
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tofu",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0018",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tofu, and vegetables for tofu power bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tofu and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the tofu power bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 643.332,
+      "proteinG": 32.25,
+      "carbohydratesG": 46.05,
+      "fatG": 40.56,
+      "fiberG": 12,
+      "sugarsG": 9.69,
+      "sodiumMg": 54.546,
+      "potassiumMg": 1701.273,
+      "calciumMg": 678.273,
+      "ironMg": 6.633,
+      "magnesiumMg": 171,
+      "vitaminCMg": 66.3
+    },
+    "perServing": {
+      "calories": 160.833,
+      "proteinG": 8.063,
+      "carbohydratesG": 11.512,
+      "fatG": 10.14,
+      "fiberG": 3,
+      "sugarsG": 2.422,
+      "sodiumMg": 13.636,
+      "potassiumMg": 425.318,
+      "calciumMg": 169.568,
+      "ironMg": 1.658,
+      "magnesiumMg": 42.75,
+      "vitaminCMg": 16.575
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.13,
+    "perServingUsd": 1.03,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-10-15T19:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://recipeflame.com/baked-tofu-power-bowl/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.iCombGdADN_PhKOpfgu8rgHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://recipeflame.com/wp-content/uploads/2025/04/Baked-Tofu-Power-Bowl.webp",
+    "searchQuery": "Tofu Power Bowl plated recipe food",
+    "searchResultTitle": "Baked Tofu Power Bowl - Recipe Flame",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:51:14.615Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1371",
+    "name": "Tofu Power Bowl",
+    "description": "Tofu Power Bowl is a practical small meal adaptation built around tofu, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 160.833,
+      "proteinG": 8.063,
+      "carbohydratesG": 11.512,
+      "fatG": 10.14,
+      "fiberG": 3,
+      "sugarsG": 2.422,
+      "sodiumMg": 13.636,
+      "potassiumMg": 425.318,
+      "calciumMg": 169.568,
+      "ironMg": 1.658,
+      "magnesiumMg": 42.75,
+      "vitaminCMg": 16.575
+    },
+    "estimatedCostPerServingUsd": 1.03,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

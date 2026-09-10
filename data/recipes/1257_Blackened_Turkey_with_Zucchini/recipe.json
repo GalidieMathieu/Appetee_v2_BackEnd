@@ -1,0 +1,214 @@
+{
+  "seedId": "REC-1257",
+  "candidate": {
+    "sequence": 2051,
+    "seedId": "REC-CAND-2051",
+    "name": "Blackened Turkey with Zucchini"
+  },
+  "name": "Blackened Turkey with Zucchini",
+  "description": "Blackened Turkey with Zucchini is a practical main meal adaptation built around turkey, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.healthline.com/recipes/low-calorie-recipe-5",
+    "domain": "healthline.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Pesto Turkey with Cucumber source because it provides the closest validated turkey and vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 30,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0083",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, turkey, and vegetables for blackened turkey with zucchini.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned turkey and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the blackened turkey with zucchini, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1060,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1514.532,
+      "proteinG": 108.9,
+      "carbohydratesG": 40.345,
+      "fatG": 104.77,
+      "fiberG": 12.185,
+      "sugarsG": 8.374,
+      "sodiumMg": 498.446,
+      "potassiumMg": 2752.773,
+      "calciumMg": 319.223,
+      "ironMg": 11.943,
+      "magnesiumMg": 211.35,
+      "vitaminCMg": 78.38
+    },
+    "perServing": {
+      "calories": 378.633,
+      "proteinG": 27.225,
+      "carbohydratesG": 10.086,
+      "fatG": 26.192,
+      "fiberG": 3.046,
+      "sugarsG": 2.094,
+      "sodiumMg": 124.612,
+      "potassiumMg": 688.193,
+      "calciumMg": 79.806,
+      "ironMg": 2.986,
+      "magnesiumMg": 52.837,
+      "vitaminCMg": 19.595
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.93,
+    "perServingUsd": 1.23,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Budget Friendly"
+  ],
+  "createdAt": "2029-04-23T01:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.goergie.me/2025/04/ground-turkey-zucchini-skillet_18.html",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.roWJReY9O-esP0_LswHJ5gHaJ4&pid=15.1",
+    "discoveredOriginalUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhYnzEArTNFIezEqHiVooF2SKEAK1mEPU6yT-BfYSlomw8p1hR6dadbEWYbKmzlufJLf-__9OrA3xPDu0PSabIat_jI7AbFV_YFsimbFzQpIPXMyTru99uVjVuqe4UVJvTSnYSEY4djFVW9ZkntTgaq6lrt5UaBXSMlqxlTZH_MgmnFH7eZ8tCHdZPsbPcB/s1440/WhatsApp Image 2025-04-19 at 00.52.49 (1).jpeg",
+    "searchQuery": "Blackened Turkey with Zucchini plated recipe food",
+    "searchResultTitle": "Ground Turkey Zucchini Skillet",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:02:59.468Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1257",
+    "name": "Blackened Turkey with Zucchini",
+    "description": "Blackened Turkey with Zucchini is a practical main meal adaptation built around turkey, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 378.633,
+      "proteinG": 27.225,
+      "carbohydratesG": 10.086,
+      "fatG": 26.192,
+      "fiberG": 3.046,
+      "sugarsG": 2.094,
+      "sodiumMg": 124.612,
+      "potassiumMg": 688.193,
+      "calciumMg": 79.806,
+      "ironMg": 2.986,
+      "magnesiumMg": 52.837,
+      "vitaminCMg": 19.595
+    },
+    "estimatedCostPerServingUsd": 1.23,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Budget Friendly"
+    ]
+  }
+}

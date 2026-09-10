@@ -1,0 +1,206 @@
+{
+  "seedId": "REC-1586",
+  "candidate": {
+    "sequence": 2384,
+    "seedId": "REC-CAND-2384",
+    "name": "Seasoned Roasted Sweet Potatoes"
+  },
+  "name": "Seasoned Roasted Sweet Potatoes",
+  "description": "Seasoned Roasted Sweet Potatoes is a practical meal component adaptation built around vegetables, sweet potato, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://cookieandkate.com/how-to-make-crispy-baked-tofu/",
+    "domain": "cookieandkate.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Crispy Baked Tofu Bites source because it provides the closest validated potatoes structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 60,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Meal Component",
+  "cookingMethod": "Oven",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "sweet potato",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0007",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for seasoned roasted sweet potatoes and preheat the oven.",
+    "Coat the vegetables and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the sweet potato and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the seasoned roasted sweet potatoes briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 945,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 851.682,
+      "proteinG": 14.604,
+      "carbohydratesG": 136.995,
+      "fatG": 28.89,
+      "sodiumMg": 21.096,
+      "potassiumMg": 3315.423,
+      "calciumMg": 178.323,
+      "ironMg": 5.022,
+      "magnesiumMg": 157.05,
+      "vitaminCMg": 90.78,
+      "fiberG": 9.915,
+      "sugarsG": 2.01
+    },
+    "perServing": {
+      "calories": 212.921,
+      "proteinG": 3.651,
+      "carbohydratesG": 34.249,
+      "fatG": 7.223,
+      "sodiumMg": 5.274,
+      "potassiumMg": 828.856,
+      "calciumMg": 44.581,
+      "ironMg": 1.256,
+      "magnesiumMg": 39.263,
+      "vitaminCMg": 22.695,
+      "fiberG": 2.479,
+      "sugarsG": 0.502
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.41,
+    "perServingUsd": 0.6,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-09-12T06:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.etsy.com/listing/4299525513/seasoned-roasted-sweet-potatoes-recipe",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.JwdYradwc9b4z9iPQ25PPQHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://i.etsystatic.com/58257181/r/il/e48590/6880518011/il_1140xN.6880518011_jmlz.jpg",
+    "searchQuery": "Seasoned Roasted Sweet Potatoes plated recipe food",
+    "searchResultTitle": "Seasoned Roasted Sweet Potatoes Recipe - Etsy",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:55:45.813Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1586",
+    "name": "Seasoned Roasted Sweet Potatoes",
+    "description": "Seasoned Roasted Sweet Potatoes is a practical meal component adaptation built around vegetables, sweet potato, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Meal Component",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 212.921,
+      "proteinG": 3.651,
+      "carbohydratesG": 34.249,
+      "fatG": 7.223,
+      "sodiumMg": 5.274,
+      "potassiumMg": 828.856,
+      "calciumMg": 44.581,
+      "ironMg": 1.256,
+      "magnesiumMg": 39.263,
+      "vitaminCMg": 22.695,
+      "fiberG": 2.479,
+      "sugarsG": 0.502
+    },
+    "estimatedCostPerServingUsd": 0.6,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

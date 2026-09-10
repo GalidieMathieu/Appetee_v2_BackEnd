@@ -1,0 +1,238 @@
+{
+  "seedId": "REC-0200",
+  "candidate": {
+    "sequence": 132,
+    "seedId": "REC-CAND-0132",
+    "name": "Sausage Stuffed Sweet Potatoes"
+  },
+  "name": "Sausage Stuffed Sweet Potatoes",
+  "description": "Sausage Stuffed Sweet Potatoes is a practical oven recipe pairing sausage with sweet potato and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.bylena.com/recipe/502/Rice-and-Meat-Stuffed-Peppers/",
+    "domain": "bylena.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Romanian Stuffed Pepper Bowl source while retaining its closest matching dish form, cooking sequence, and applicable pork or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Romania",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 40,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "sausage",
+  "carbohydrateBase": "sweet potato",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0085",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0007",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for sausage stuffed sweet potatoes.",
+    "Season the sausage and vegetables evenly while the oven reaches temperature.",
+    "Arrange the sausage, sweet potato, and vegetables so heat can circulate around each component.",
+    "Bake until the sausage is safely cooked and the vegetables or grain base are tender.",
+    "Rest the sausage stuffed sweet potatoes briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2404,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2666.37,
+      "proteinG": 105.652,
+      "carbohydratesG": 221.08,
+      "fatG": 156.005,
+      "fiberG": 24.615,
+      "sugarsG": 28.83,
+      "sodiumMg": 5516.3,
+      "potassiumMg": 7625.37,
+      "calciumMg": 543.75,
+      "ironMg": 18.021,
+      "magnesiumMg": 392.072,
+      "vitaminCMg": 492.48
+    },
+    "perServing": {
+      "calories": 666.592,
+      "proteinG": 26.413,
+      "carbohydratesG": 55.27,
+      "fatG": 39.001,
+      "fiberG": 6.154,
+      "sugarsG": 7.207,
+      "sodiumMg": 1379.075,
+      "potassiumMg": 1906.342,
+      "calciumMg": 135.938,
+      "ironMg": 4.505,
+      "magnesiumMg": 98.018,
+      "vitaminCMg": 123.12
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 11.04,
+    "perServingUsd": 2.76,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-11-05T12:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://recipefact.com/italian-sausage-stuffed-sweet-potatoes/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.rEzNN0VT2BiDgPk9kpE4swHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://recipefact.com/wp-content/uploads/2025/09/Italian_Sausage_Stuffed_Sweet_upscaled_68d31a7f420a1.webp",
+    "searchQuery": "Sausage Stuffed Sweet Potatoes plated recipe food",
+    "searchResultTitle": "Delicious Italian Sausage Stuffed Sweet Potatoes Recipe",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:34:43.496Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0200",
+    "name": "Sausage Stuffed Sweet Potatoes",
+    "description": "Sausage Stuffed Sweet Potatoes is a practical oven recipe pairing sausage with sweet potato and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 666.592,
+      "proteinG": 26.413,
+      "carbohydratesG": 55.27,
+      "fatG": 39.001,
+      "fiberG": 6.154,
+      "sugarsG": 7.207,
+      "sodiumMg": 1379.075,
+      "potassiumMg": 1906.342,
+      "calciumMg": 135.938,
+      "ironMg": 4.505,
+      "magnesiumMg": 98.018,
+      "vitaminCMg": 123.12
+    },
+    "estimatedCostPerServingUsd": 2.76,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

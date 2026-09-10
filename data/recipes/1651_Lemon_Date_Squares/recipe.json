@@ -1,0 +1,190 @@
+{
+  "seedId": "REC-1651",
+  "candidate": {
+    "sequence": 2450,
+    "seedId": "REC-CAND-2450",
+    "name": "Lemon Date Squares"
+  },
+  "name": "Lemon Date Squares",
+  "description": "Lemon Date Squares is a practical dessert adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.kingarthurbaking.com/recipes/date-squares-recipe",
+    "domain": "kingarthurbaking.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Date Squares source because it provides the closest validated vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Canada",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "Oven",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0115",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0034",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for lemon date squares and preheat the oven.",
+    "Coat the vegetables and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the vegetables and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the lemon date squares briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 720,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1535.4,
+      "proteinG": 36.09,
+      "carbohydratesG": 329.31,
+      "fatG": 16.446,
+      "fiberG": 40.26,
+      "sugarsG": 141.396,
+      "sodiumMg": 25.2,
+      "potassiumMg": 2131.2,
+      "calciumMg": 223.2,
+      "ironMg": 13.926,
+      "magnesiumMg": 417,
+      "vitaminCMg": 124.38
+    },
+    "perServing": {
+      "calories": 383.85,
+      "proteinG": 9.023,
+      "carbohydratesG": 82.328,
+      "fatG": 4.112,
+      "fiberG": 10.065,
+      "sugarsG": 35.349,
+      "sodiumMg": 6.3,
+      "potassiumMg": 532.8,
+      "calciumMg": 55.8,
+      "ironMg": 3.482,
+      "magnesiumMg": 104.25,
+      "vitaminCMg": 31.095
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.77,
+    "perServingUsd": 1.19,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-12-21T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "www.kingarthurbaking.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.kingarthurbaking.com/recipes/date-squares-recipe",
+    "originalSourceUrl": "https://www.kingarthurbaking.com/sites/default/files/2021-06/KABC-Date-Squares-01.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:09:21.839Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1651",
+    "name": "Lemon Date Squares",
+    "description": "Lemon Date Squares is a practical dessert adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 383.85,
+      "proteinG": 9.023,
+      "carbohydratesG": 82.328,
+      "fatG": 4.112,
+      "fiberG": 10.065,
+      "sugarsG": 35.349,
+      "sodiumMg": 6.3,
+      "potassiumMg": 532.8,
+      "calciumMg": 55.8,
+      "ironMg": 3.482,
+      "magnesiumMg": 104.25,
+      "vitaminCMg": 31.095
+    },
+    "estimatedCostPerServingUsd": 1.19,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "seedId": "REC-0577",
+  "candidate": {
+    "sequence": 853,
+    "seedId": "REC-CAND-0853",
+    "name": "Tomato Basil Black Bean Salad Bowl"
+  },
+  "name": "Tomato Basil Black Bean Salad Bowl",
+  "description": "Tomato Basil Black Bean Salad Bowl is a practical no-cook recipe pairing black beans with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://cookieandkate.com/black-bean-burrito-bowl-recipe/",
+    "domain": "cookieandkate.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Black Bean Burrito Bowl source while retaining its closest matching dish form, cooking sequence, and applicable black beans or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "black beans",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Drain, rinse, chop, and measure the ingredients for tomato basil black bean salad bowl.",
+    "Whisk the dressing ingredients until they form an even, well-seasoned mixture.",
+    "Fold the black beans together with the vegetables and dressing without crushing the ingredients.",
+    "Arrange the legumes and dressed mixture evenly in four portions.",
+    "Serve the tomato basil black bean salad bowl immediately or refrigerate it in sealed meal-prep containers."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1950,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1899.68,
+      "proteinG": 66.763,
+      "carbohydratesG": 401.997,
+      "fatG": 11.777,
+      "sodiumMg": 2963.679,
+      "potassiumMg": 4326.82,
+      "calciumMg": 464.261,
+      "ironMg": 13.713,
+      "magnesiumMg": 424.825,
+      "fiberG": 23.805,
+      "sugarsG": 17.578,
+      "vitaminCMg": 93.48
+    },
+    "perServing": {
+      "calories": 474.92,
+      "proteinG": 16.691,
+      "carbohydratesG": 100.499,
+      "fatG": 2.944,
+      "sodiumMg": 740.92,
+      "potassiumMg": 1081.705,
+      "calciumMg": 116.065,
+      "ironMg": 3.428,
+      "magnesiumMg": 106.206,
+      "fiberG": 5.951,
+      "sugarsG": 4.394,
+      "vitaminCMg": 23.37
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 9.81,
+    "perServingUsd": 2.45,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-06-09T17:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://storage.googleapis.com/duchbbblgihlwe/black-bean-salad-with-basil.html",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.7oU2x3aSXPq_rjzKtZ8vggHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://ethnicspoon.com/wp-content/uploads/2019/05/black-bean-tomato-basil-salad-sq.jpg",
+    "searchQuery": "Tomato Basil Black Bean Salad Bowl plated recipe food",
+    "searchResultTitle": "Black Bean Salad With Basil at Kurt Riddle blog",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:55:08.978Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0577",
+    "name": "Tomato Basil Black Bean Salad Bowl",
+    "description": "Tomato Basil Black Bean Salad Bowl is a practical no-cook recipe pairing black beans with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 474.92,
+      "proteinG": 16.691,
+      "carbohydratesG": 100.499,
+      "fatG": 2.944,
+      "sodiumMg": 740.92,
+      "potassiumMg": 1081.705,
+      "calciumMg": 116.065,
+      "ironMg": 3.428,
+      "magnesiumMg": 106.206,
+      "fiberG": 5.951,
+      "sugarsG": 4.394,
+      "vitaminCMg": 23.37
+    },
+    "estimatedCostPerServingUsd": 2.45,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly"
+    ]
+  }
+}

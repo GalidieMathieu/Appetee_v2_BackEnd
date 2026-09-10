@@ -94,15 +94,20 @@ VALUES
 INSERT INTO recipes (
     id,
     name,
+    description,
     image_blob_name,
     instructions,
     prep_time_minutes,
+    cook_time_minutes,
+    total_time_minutes,
     servings,
     difficulty,
     estimated_cost_per_serving,
     calories_total,
     protein_total,
     carbs_total,
+    calories_per_serving,
+    protein_per_serving,
     created_at,
     updated_at
 )
@@ -110,19 +115,33 @@ VALUES
     (
         1,
         'Chicken Rice Bowl',
+        'A simple chicken, rice, and broccoli bowl.',
         'recipes/chicken-rice-bowl-seed.avif',
         JSON_ARRAY(
-            'Season and sear the chicken.',
-            'Cook the rice and steam the broccoli.',
-            'Slice the chicken and serve everything together.'
+            JSON_OBJECT(
+                'title', 'Season the chicken',
+                'instruction', 'Season and sear the chicken.'
+            ),
+            JSON_OBJECT(
+                'title', 'Cook the sides',
+                'instruction', 'Cook the rice and steam the broccoli.'
+            ),
+            JSON_OBJECT(
+                'title', 'Assemble the bowl',
+                'instruction', 'Slice the chicken and serve everything together.'
+            )
         ),
+        10,
+        15,
         25,
         2,
         'Medium',
-        6.75,
-        620.00,
-        45.00,
-        58.00,
+        4.13,
+        674.70,
+        85.72,
+        54.00,
+        337.35,
+        42.86,
         UTC_TIMESTAMP(),
         UTC_TIMESTAMP()
     );
@@ -134,11 +153,11 @@ VALUES
 
 INSERT INTO recipe_badges (recipe_id, badge)
 VALUES
-    (1, 'budget-focused'),
-    (1, 'high-protein');
+    (1, 'Budget Friendly'),
+    (1, 'High Protein');
 
-INSERT INTO recipe_ingredients (recipe_id, ingredient_id, quantity, unit, note)
+INSERT INTO recipe_ingredients (recipe_id, ingredient_id, quantity, unit, display_order, featured_order, note)
 VALUES
-    (1, 1, 250.000, 'g', 'thinly sliced'),
-    (1, 2, 180.000, 'g', NULL),
-    (1, 3, 120.000, 'g', 'steamed');
+    (1, 1, 250.000, 'g', 1, 1, 'thinly sliced'),
+    (1, 2, 180.000, 'g', 2, 2, NULL),
+    (1, 3, 120.000, 'g', 3, 3, 'steamed');

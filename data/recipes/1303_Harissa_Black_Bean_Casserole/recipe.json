@@ -1,0 +1,202 @@
+{
+  "seedId": "REC-1303",
+  "candidate": {
+    "sequence": 2097,
+    "seedId": "REC-CAND-2097",
+    "name": "Harissa Black Bean Casserole"
+  },
+  "name": "Harissa Black Bean Casserole",
+  "description": "Harissa Black Bean Casserole is a practical main meal adaptation built around black beans, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://nutritionsource.hsph.harvard.edu/crunchy-roasted-chickpeas/",
+    "domain": "nutritionsource.hsph.harvard.edu",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Roasted Chickpea with Bell Peppers source because it provides the closest validated beans and casserole structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "black beans",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0088",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for harissa black bean casserole and preheat the oven.",
+    "Coat the black beans and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the legumes and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the harissa black bean casserole briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1030,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1094.332,
+      "proteinG": 35.92,
+      "carbohydratesG": 162.63,
+      "fatG": 35.32,
+      "sodiumMg": 7235.546,
+      "potassiumMg": 2521.273,
+      "calciumMg": 272.473,
+      "ironMg": 12.673,
+      "magnesiumMg": 205,
+      "fiberG": 12.3,
+      "sugarsG": 45.3,
+      "vitaminCMg": 105.3
+    },
+    "perServing": {
+      "calories": 273.583,
+      "proteinG": 8.98,
+      "carbohydratesG": 40.657,
+      "fatG": 8.83,
+      "sodiumMg": 1808.887,
+      "potassiumMg": 630.318,
+      "calciumMg": 68.118,
+      "ironMg": 3.168,
+      "magnesiumMg": 51.25,
+      "fiberG": 3.075,
+      "sugarsG": 11.325,
+      "vitaminCMg": 26.325
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 11.13,
+    "perServingUsd": 2.78,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-07-02T23:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.allrecipes.com/black-bean-casserole-recipe-8653811",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.EkNl1w8tED4oXufKidpl9AHaFj&pid=15.1",
+    "discoveredOriginalUrl": "https://www.allrecipes.com/thmb/7uEjZPTEeJjlQsRpVhYupR9m86A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/8653811-black-bean-casserole-ddmfs-hero-4x3-42344-c6606125057f4fc6a833872ad2520c97.jpg",
+    "searchQuery": "Harissa Black Bean Casserole plated recipe food",
+    "searchResultTitle": "Black Bean Casserole Recipe",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:18:11.743Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1303",
+    "name": "Harissa Black Bean Casserole",
+    "description": "Harissa Black Bean Casserole is a practical main meal adaptation built around black beans, legumes, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 273.583,
+      "proteinG": 8.98,
+      "carbohydratesG": 40.657,
+      "fatG": 8.83,
+      "sodiumMg": 1808.887,
+      "potassiumMg": 630.318,
+      "calciumMg": 68.118,
+      "ironMg": 3.168,
+      "magnesiumMg": 51.25,
+      "fiberG": 3.075,
+      "sugarsG": 11.325,
+      "vitaminCMg": 26.325
+    },
+    "estimatedCostPerServingUsd": 2.78,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

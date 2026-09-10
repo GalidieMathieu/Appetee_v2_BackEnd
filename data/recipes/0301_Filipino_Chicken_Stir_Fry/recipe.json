@@ -1,0 +1,266 @@
+{
+  "seedId": "REC-0301",
+  "candidate": {
+    "sequence": 338,
+    "seedId": "REC-CAND-0338",
+    "name": "Filipino Chicken Stir-Fry"
+  },
+  "name": "Filipino Chicken Stir-Fry",
+  "description": "Filipino Chicken Stir-Fry is a practical stovetop recipe pairing chicken with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.reluctantgourmet.com/venezuelan-coconut-chicken/#recipe",
+    "domain": "reluctantgourmet.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Venezuelan Coconut Chicken source while retaining its closest matching dish form, cooking sequence, and applicable chicken or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Venezuela",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 50,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 2,
+      "sourceUnit": "breasts",
+      "sourceDisplay": "2 chicken breasts",
+      "normalizedQuantity": 340.2,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 2,
+      "sourceUnit": "medium",
+      "sourceDisplay": "2 chopped onions",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "clove",
+      "sourceDisplay": "1 crushed garlic clove",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0065",
+      "sourceQuantity": 4,
+      "sourceUnit": "leaves",
+      "sourceDisplay": "4 bay leaves",
+      "normalizedQuantity": 0.8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0091",
+      "sourceQuantity": 1,
+      "sourceUnit": "pinch",
+      "sourceDisplay": "1 pinch turmeric",
+      "normalizedQuantity": 0.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 1,
+      "sourceUnit": "pinch",
+      "sourceDisplay": "1 pinch cumin",
+      "normalizedQuantity": 0.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0052",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp sugar",
+      "normalizedQuantity": 12.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 tomatoes",
+      "normalizedQuantity": 186,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp ginger",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 0.33,
+      "sourceUnit": "cup",
+      "sourceDisplay": "⅓ cup olive oil",
+      "normalizedQuantity": 80,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can coconut milk",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chicken, and vegetables for filipino chicken stir-fry.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chicken and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the filipino chicken stir-fry, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1205.35,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2013.408,
+      "proteinG": 89.541,
+      "carbohydratesG": 62.287,
+      "fatG": 165.42,
+      "sodiumMg": 293.692,
+      "potassiumMg": 3096.34,
+      "calciumMg": 173.474,
+      "ironMg": 17.287,
+      "magnesiumMg": 332.122,
+      "fiberG": 8.713,
+      "vitaminCMg": 56.806,
+      "sugarsG": 17.699
+    },
+    "perServing": {
+      "calories": 503.352,
+      "proteinG": 22.385,
+      "carbohydratesG": 15.572,
+      "fatG": 41.355,
+      "sodiumMg": 73.423,
+      "potassiumMg": 774.085,
+      "calciumMg": 43.368,
+      "ironMg": 4.322,
+      "magnesiumMg": 83.031,
+      "fiberG": 2.178,
+      "vitaminCMg": 14.201,
+      "sugarsG": 4.425
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.77,
+    "perServingUsd": 1.94,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2025-04-10T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.familyplate.ai/recipes/filipino-chicken-and-veggie-stir-fry-with-rice",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.9JPmTaaW6bcV-MQ6ClT8ygHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://www.familyplate.ai/_next/image?url=https:%2F%2Fw7eapv1yguqn6kdi.public.blob.vercel-storage.com%2Frecipes%2Ffilipino-chicken-and-veggie-stir-fry-with-rice.webp&w=3840&q=75",
+    "searchQuery": "Filipino Chicken Stir-Fry plated recipe food",
+    "searchResultTitle": "Filipino Chicken and Veggie Stir-Fry with Rice | FamilyPlate Recipe ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:40:14.748Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0301",
+    "name": "Filipino Chicken Stir-Fry",
+    "description": "Filipino Chicken Stir-Fry is a practical stovetop recipe pairing chicken with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 503.352,
+      "proteinG": 22.385,
+      "carbohydratesG": 15.572,
+      "fatG": 41.355,
+      "sodiumMg": 73.423,
+      "potassiumMg": 774.085,
+      "calciumMg": 43.368,
+      "ironMg": 4.322,
+      "magnesiumMg": 83.031,
+      "fiberG": 2.178,
+      "vitaminCMg": 14.201,
+      "sugarsG": 4.425
+    },
+    "estimatedCostPerServingUsd": 1.94,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

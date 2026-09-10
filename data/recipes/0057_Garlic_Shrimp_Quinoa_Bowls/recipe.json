@@ -1,0 +1,218 @@
+{
+  "seedId": "REC-0057",
+  "name": "Garlic Shrimp Quinoa Bowls",
+  "description": "Quick quinoa bowls with garlic shrimp, broccoli, tomato, and spinach.",
+  "source": {
+    "url": "https://onedishkitchen.com/shrimp-quinoa-bowl-recipe/",
+    "domain": "onedishkitchen.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "shrimp",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0038",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb shrimp",
+      "normalizedQuantity": 680.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 1.25,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1¼ cups dry quinoa",
+      "normalizedQuantity": 212.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0013",
+      "sourceQuantity": 3,
+      "sourceUnit": "cups",
+      "sourceDisplay": "3 cups broccoli",
+      "normalizedQuantity": 273,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 Roma tomatoes",
+      "normalizedQuantity": 186,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups spinach",
+      "normalizedQuantity": 170,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp olive oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Cook the quinoa until tender and keep it covered.",
+    "Steam the broccoli until crisp-tender.",
+    "Cook the shrimp with oil and garlic until opaque and curled.",
+    "Layer quinoa, spinach, tomato, broccoli, and shrimp in four bowls."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1742.4,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1561.86,
+      "proteinG": 138.93,
+      "carbohydratesG": 175.023,
+      "fatG": 35.628,
+      "fiberG": 30.542,
+      "sugarsG": 9.832,
+      "sodiumMg": 4065.132,
+      "potassiumMg": 3633.294,
+      "calciumMg": 885.357,
+      "ironMg": 17.398,
+      "magnesiumMg": 769.163,
+      "vitaminCMg": 193.484
+    },
+    "perServing": {
+      "calories": 390.465,
+      "proteinG": 34.733,
+      "carbohydratesG": 43.756,
+      "fatG": 8.907,
+      "fiberG": 7.636,
+      "sugarsG": 2.458,
+      "sodiumMg": 1016.283,
+      "potassiumMg": 908.323,
+      "calciumMg": 221.339,
+      "ironMg": 4.349,
+      "magnesiumMg": 192.291,
+      "vitaminCMg": 48.371
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 17.22,
+    "perServingUsd": 4.3,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Quick Meal"
+  ],
+  "createdAt": "2024-03-30T01:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "onedishkitchen.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://onedishkitchen.com/shrimp-quinoa-bowl-recipe/",
+    "originalSourceUrl": "https://onedishkitchen.com/wp-content/uploads/2024/05/shrimp-quinoa-bowl-one-dish-kitchen-square-2.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0057",
+    "name": "Garlic Shrimp Quinoa Bowls",
+    "description": "Quick quinoa bowls with garlic shrimp, broccoli, tomato, and spinach.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 390.465,
+      "proteinG": 34.733,
+      "carbohydratesG": 43.756,
+      "fatG": 8.907,
+      "fiberG": 7.636,
+      "sugarsG": 2.458,
+      "sodiumMg": 1016.283,
+      "potassiumMg": 908.323,
+      "calciumMg": 221.339,
+      "ironMg": 4.349,
+      "magnesiumMg": 192.291,
+      "vitaminCMg": 48.371
+    },
+    "estimatedCostPerServingUsd": 4.3,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Quick Meal"
+    ]
+  }
+}

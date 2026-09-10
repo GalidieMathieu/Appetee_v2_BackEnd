@@ -1,0 +1,240 @@
+{
+  "seedId": "REC-0681",
+  "candidate": {
+    "sequence": 1060,
+    "seedId": "REC-CAND-1060",
+    "name": "Roasted Steak with Bell Peppers"
+  },
+  "name": "Roasted Steak with Bell Peppers",
+  "description": "Roasted Steak with Bell Peppers is a practical oven recipe pairing steak with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.sainsburysmagazine.co.uk/recipes/mains/oregano-roast-beef-with-crispy-kale",
+    "domain": "sainsburysmagazine.co.uk",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Roasted Lean Beef with Kale source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United Kingdom",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "steak",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0097",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for roasted steak with bell peppers.",
+    "Season the steak and vegetables evenly while the oven reaches temperature.",
+    "Arrange the steak, vegetables, and vegetables so heat can circulate around each component.",
+    "Bake until the steak is safely cooked and the vegetables or grain base are tender.",
+    "Rest the roasted steak with bell peppers briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1459,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1351.762,
+      "proteinG": 150.698,
+      "carbohydratesG": 69.761,
+      "fatG": 54.534,
+      "fiberG": 27.363,
+      "sugarsG": 17.511,
+      "sodiumMg": 532.376,
+      "potassiumMg": 4615.423,
+      "calciumMg": 1048.623,
+      "ironMg": 18.238,
+      "magnesiumMg": 324.55,
+      "vitaminCMg": 730.28
+    },
+    "perServing": {
+      "calories": 337.94,
+      "proteinG": 37.675,
+      "carbohydratesG": 17.44,
+      "fatG": 13.633,
+      "fiberG": 6.841,
+      "sugarsG": 4.378,
+      "sodiumMg": 133.094,
+      "potassiumMg": 1153.856,
+      "calciumMg": 262.156,
+      "ironMg": 4.559,
+      "magnesiumMg": 81.138,
+      "vitaminCMg": 182.57
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 26.38,
+    "perServingUsd": 6.59,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Low Carb",
+    "High Fiber",
+    "Quick Meal"
+  ],
+  "createdAt": "2026-11-17T01:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://buenosairesrunway.com/pepper-steak-with-bell-peppers-cooking-guide/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.rjIFvlBhj8vEDvjxapq7LQHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://i.ibb.co/TBVY1wCQ/attachment-13120.webp",
+    "searchQuery": "Roasted Steak with Bell Peppers plated recipe food",
+    "searchResultTitle": "Pepper Steak with Bell Peppers Cooking Guide",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:00:28.166Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0681",
+    "name": "Roasted Steak with Bell Peppers",
+    "description": "Roasted Steak with Bell Peppers is a practical oven recipe pairing steak with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 337.94,
+      "proteinG": 37.675,
+      "carbohydratesG": 17.44,
+      "fatG": 13.633,
+      "fiberG": 6.841,
+      "sugarsG": 4.378,
+      "sodiumMg": 133.094,
+      "potassiumMg": 1153.856,
+      "calciumMg": 262.156,
+      "ironMg": 4.559,
+      "magnesiumMg": 81.138,
+      "vitaminCMg": 182.57
+    },
+    "estimatedCostPerServingUsd": 6.59,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Low Carb",
+      "High Fiber",
+      "Quick Meal"
+    ]
+  }
+}

@@ -1,0 +1,276 @@
+{
+  "seedId": "REC-0571",
+  "candidate": {
+    "sequence": 844,
+    "seedId": "REC-CAND-0844",
+    "name": "Pesto Egg Soup"
+  },
+  "name": "Pesto Egg Soup",
+  "description": "Pesto Egg Soup is a practical stovetop recipe pairing eggs with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://sueandgambo.com/pages/egg-drop-soup",
+    "domain": "sueandgambo.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Chinese Egg Drop Soup source while retaining its closest matching dish form, cooking sequence, and applicable eggs or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "China",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 60,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0055",
+      "sourceQuantity": 3,
+      "sourceUnit": "cups",
+      "sourceDisplay": "3 cups chicken broth",
+      "normalizedQuantity": 710,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0052",
+      "sourceQuantity": 0.25,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "¼ tsp sugar",
+      "normalizedQuantity": 1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0071",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp sesame oil",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0019",
+      "sourceQuantity": 0.33,
+      "sourceUnit": "cup",
+      "sourceDisplay": "⅓ cup peas",
+      "normalizedQuantity": 50,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0074",
+      "sourceQuantity": 0.33,
+      "sourceUnit": "cup",
+      "sourceDisplay": "⅓ cup sliced mushrooms",
+      "normalizedQuantity": 50,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0066",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp cornstarch",
+      "normalizedQuantity": 8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0062",
+      "sourceQuantity": 0.25,
+      "sourceUnit": "cup",
+      "sourceDisplay": "¼ cup green onions",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 1,
+      "sourceUnit": "large",
+      "sourceDisplay": "1 large egg",
+      "normalizedQuantity": 50,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0096",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0080",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, eggs, and vegetables for pesto egg soup.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned eggs and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the pesto egg soup, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1805.5,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3355.954,
+      "proteinG": 171.668,
+      "carbohydratesG": 152.765,
+      "fatG": 243.222,
+      "fiberG": 46.31,
+      "sugarsG": 17.428,
+      "sodiumMg": 7163.35,
+      "potassiumMg": 4337.76,
+      "calciumMg": 3571.33,
+      "ironMg": 18.104,
+      "magnesiumMg": 986.76,
+      "vitaminCMg": 41.95
+    },
+    "perServing": {
+      "calories": 838.989,
+      "proteinG": 42.917,
+      "carbohydratesG": 38.191,
+      "fatG": 60.806,
+      "fiberG": 11.578,
+      "sugarsG": 4.357,
+      "sodiumMg": 1790.838,
+      "potassiumMg": 1084.44,
+      "calciumMg": 892.832,
+      "ironMg": 4.526,
+      "magnesiumMg": 246.69,
+      "vitaminCMg": 10.488
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 15.74,
+    "perServingUsd": 3.94,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-05-31T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://elianarecipes.com/pesto-eggs-recipe/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.ve2f1bO3AqOs8VKYzF5EBQHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://elianarecipes.com/wp-content/uploads/2024/07/Pesto-Eggs-Recipe-1.png",
+    "searchQuery": "Pesto Egg Soup plated recipe food",
+    "searchResultTitle": "Pesto Eggs Recipe - elianarecipes.com",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:54:48.259Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0571",
+    "name": "Pesto Egg Soup",
+    "description": "Pesto Egg Soup is a practical stovetop recipe pairing eggs with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 838.989,
+      "proteinG": 42.917,
+      "carbohydratesG": 38.191,
+      "fatG": 60.806,
+      "fiberG": 11.578,
+      "sugarsG": 4.357,
+      "sodiumMg": 1790.838,
+      "potassiumMg": 1084.44,
+      "calciumMg": 892.832,
+      "ironMg": 4.526,
+      "magnesiumMg": 246.69,
+      "vitaminCMg": 10.488
+    },
+    "estimatedCostPerServingUsd": 3.94,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

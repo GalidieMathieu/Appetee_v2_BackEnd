@@ -1,0 +1,200 @@
+{
+  "seedId": "REC-1557",
+  "candidate": {
+    "sequence": 2355,
+    "seedId": "REC-CAND-2355",
+    "name": "Lemon Corn Salsa"
+  },
+  "name": "Lemon Corn Salsa",
+  "description": "Lemon Corn Salsa is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://simplybakings.com/grilled-eggplant-with-coconut-milk/",
+    "domain": "simplybakings.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Filipino Grilled Eggplant with Coconut Milk source because it provides the closest validated salsa structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Philippines",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Side",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for lemon corn salsa.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the vegetables with the vegetables and remaining ingredients in the intended side form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the lemon corn salsa into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 625.332,
+      "proteinG": 13.59,
+      "carbohydratesG": 97.53,
+      "fatG": 30.81,
+      "fiberG": 19.2,
+      "sugarsG": 24.6,
+      "sodiumMg": 24.546,
+      "potassiumMg": 1824.273,
+      "calciumMg": 117.273,
+      "ironMg": 4.173,
+      "magnesiumMg": 141,
+      "vitaminCMg": 210.6
+    },
+    "perServing": {
+      "calories": 156.333,
+      "proteinG": 3.397,
+      "carbohydratesG": 24.383,
+      "fatG": 7.702,
+      "fiberG": 4.8,
+      "sugarsG": 6.15,
+      "sodiumMg": 6.136,
+      "potassiumMg": 456.068,
+      "calciumMg": 29.318,
+      "ironMg": 1.043,
+      "magnesiumMg": 35.25,
+      "vitaminCMg": 52.65
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.62,
+    "perServingUsd": 0.91,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-07-29T13:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://strong-nights.today/corn-salsa/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.o7eJ6uYIFJd_WJkHQE9rpAHaKM&pid=15.1",
+    "discoveredOriginalUrl": "https://cdn.loveandlemons.com/wp-content/uploads/2019/08/corn-salsa-recipe.jpg",
+    "searchQuery": "Lemon Corn Salsa plated recipe food",
+    "searchResultTitle": "Corn Salsa Recipe - Love and Lemons",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:55:25.560Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1557",
+    "name": "Lemon Corn Salsa",
+    "description": "Lemon Corn Salsa is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 156.333,
+      "proteinG": 3.397,
+      "carbohydratesG": 24.383,
+      "fatG": 7.702,
+      "fiberG": 4.8,
+      "sugarsG": 6.15,
+      "sodiumMg": 6.136,
+      "potassiumMg": 456.068,
+      "calciumMg": 29.318,
+      "ironMg": 1.043,
+      "magnesiumMg": 35.25,
+      "vitaminCMg": 52.65
+    },
+    "estimatedCostPerServingUsd": 0.91,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

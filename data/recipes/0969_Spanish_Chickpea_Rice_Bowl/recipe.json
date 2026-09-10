@@ -1,0 +1,248 @@
+{
+  "seedId": "REC-0969",
+  "candidate": {
+    "sequence": 1608,
+    "seedId": "REC-CAND-1608",
+    "name": "Spanish Chickpea Rice Bowl"
+  },
+  "name": "Spanish Chickpea Rice Bowl",
+  "description": "Spanish Chickpea Rice Bowl is a practical stovetop recipe pairing chickpeas with rice and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://thehappyfoodie.co.uk/recipes/caribbean-chickpea-curry-with-coconut-rice",
+    "domain": "thehappyfoodie.co.uk",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Caribbean Coconut Chickpea Rice source while retaining its closest matching dish form, cooking sequence, and applicable chickpeas or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Jamaica",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 50,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans chickpeas",
+      "normalizedQuantity": 879.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can black beans",
+      "normalizedQuantity": 425.2,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups dry rice",
+      "normalizedQuantity": 370,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can coconut milk",
+      "normalizedQuantity": 399,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can diced tomatoes",
+      "normalizedQuantity": 411.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp curry powder",
+      "normalizedQuantity": 7,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chickpeas, and rice for spanish chickpea rice bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chickpeas and cook it until browned or heated through as appropriate.",
+    "Stir in the rice, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the spanish chickpea rice bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 3411.7,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 4243.106,
+      "proteinG": 132.14,
+      "carbohydratesG": 625.811,
+      "fatG": 149.043,
+      "fiberG": 63.722,
+      "sugarsG": 35.607,
+      "sodiumMg": 3665.95,
+      "potassiumMg": 4595.411,
+      "calciumMg": 878.167,
+      "ironMg": 34.789,
+      "magnesiumMg": 723.812,
+      "vitaminCMg": 21.898
+    },
+    "perServing": {
+      "calories": 1060.776,
+      "proteinG": 33.035,
+      "carbohydratesG": 156.453,
+      "fatG": 37.261,
+      "fiberG": 15.931,
+      "sugarsG": 8.902,
+      "sodiumMg": 916.487,
+      "potassiumMg": 1148.853,
+      "calciumMg": 219.542,
+      "ironMg": 8.697,
+      "magnesiumMg": 180.953,
+      "vitaminCMg": 5.474
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.03,
+    "perServingUsd": 2.01,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-02-04T01:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://desinggayo.vercel.app/posts/spanish-chicken-and-rice-recipe-budget-bytes",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.GfZemNDMRjQG7vVdx0y-7AHaHH&pid=15.1",
+    "discoveredOriginalUrl": "https://www.budgetbytes.com/wp-content/uploads/2015/06/Spanish-Chickpeas-and-Rice-bowl-above-500x480.jpg",
+    "searchQuery": "Spanish Chickpea Rice Bowl plated recipe food",
+    "searchResultTitle": "Easiest Way to Make Spanish Chicken And Rice Recipe Budget Bytes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:15:03.829Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0969",
+    "name": "Spanish Chickpea Rice Bowl",
+    "description": "Spanish Chickpea Rice Bowl is a practical stovetop recipe pairing chickpeas with rice and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 1060.776,
+      "proteinG": 33.035,
+      "carbohydratesG": 156.453,
+      "fatG": 37.261,
+      "fiberG": 15.931,
+      "sugarsG": 8.902,
+      "sodiumMg": 916.487,
+      "potassiumMg": 1148.853,
+      "calciumMg": 219.542,
+      "ironMg": 8.697,
+      "magnesiumMg": 180.953,
+      "vitaminCMg": 5.474
+    },
+    "estimatedCostPerServingUsd": 2.01,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

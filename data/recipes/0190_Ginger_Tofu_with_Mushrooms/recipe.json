@@ -1,0 +1,246 @@
+{
+  "seedId": "REC-0190",
+  "candidate": {
+    "sequence": 112,
+    "seedId": "REC-CAND-0112",
+    "name": "Ginger Tofu with Mushrooms"
+  },
+  "name": "Ginger Tofu with Mushrooms",
+  "description": "Ginger Tofu with Mushrooms is a practical stovetop recipe pairing tofu with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.peta.org/recipes/buffalo-tofu-scramble-breakfast-tacos/",
+    "domain": "peta.org",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Tofu Scramble Breakfast Tacos source while retaining its closest matching dish form, cooking sequence, and applicable tofu or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 40,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tofu",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0018",
+      "sourceQuantity": 14,
+      "sourceUnit": "oz",
+      "sourceDisplay": "14 oz extra-firm tofu",
+      "normalizedQuantity": 396.9,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 8,
+      "sourceUnit": "tortillas",
+      "sourceDisplay": "8 whole-wheat tortillas",
+      "normalizedQuantity": 362.9,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups spinach",
+      "normalizedQuantity": 127.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup salsa",
+      "normalizedQuantity": 260,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp curry powder",
+      "normalizedQuantity": 2.3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0074",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tofu, and vegetables for ginger tofu with mushrooms.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tofu and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the ginger tofu with mushrooms, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2012.16,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1996.772,
+      "proteinG": 98.174,
+      "carbohydratesG": 296.033,
+      "fatG": 57.008,
+      "fiberG": 63.752,
+      "sugarsG": 23.318,
+      "sodiumMg": 4147.417,
+      "potassiumMg": 5482.22,
+      "calciumMg": 2061.745,
+      "ironMg": 24.27,
+      "magnesiumMg": 783.078,
+      "vitaminCMg": 58.402
+    },
+    "perServing": {
+      "calories": 499.193,
+      "proteinG": 24.544,
+      "carbohydratesG": 74.008,
+      "fatG": 14.252,
+      "fiberG": 15.938,
+      "sugarsG": 5.83,
+      "sodiumMg": 1036.854,
+      "potassiumMg": 1370.555,
+      "calciumMg": 515.436,
+      "ironMg": 6.067,
+      "magnesiumMg": 195.769,
+      "vitaminCMg": 14.601
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 16.38,
+    "perServingUsd": 4.09,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Meal Prep"
+  ],
+  "createdAt": "2024-10-21T02:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "www.washingtonpost.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.washingtonpost.com/recipes/ginger-scallion-tofu-mushrooms/",
+    "originalSourceUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ALL47TMN3T3XYMICBMZXVGAY2U.jpg&w=1100",
+    "discoveredOriginalUrl": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/ALL47TMN3T3XYMICBMZXVGAY2U.jpg&w=1100",
+    "searchQuery": "Ginger Tofu with Mushrooms plated recipe food",
+    "searchResultTitle": "Ginger-Scallion Tofu With Mushrooms Recipe - The Washington Post",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:11:53.969Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0190",
+    "name": "Ginger Tofu with Mushrooms",
+    "description": "Ginger Tofu with Mushrooms is a practical stovetop recipe pairing tofu with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 499.193,
+      "proteinG": 24.544,
+      "carbohydratesG": 74.008,
+      "fatG": 14.252,
+      "fiberG": 15.938,
+      "sugarsG": 5.83,
+      "sodiumMg": 1036.854,
+      "potassiumMg": 1370.555,
+      "calciumMg": 515.436,
+      "ironMg": 6.067,
+      "magnesiumMg": 195.769,
+      "vitaminCMg": 14.601
+    },
+    "estimatedCostPerServingUsd": 4.09,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Meal Prep"
+    ]
+  }
+}

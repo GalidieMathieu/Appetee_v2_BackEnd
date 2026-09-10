@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0036",
+  "name": "Boneless Skinless Chicken Thighs",
+  "canonicalName": "Boneless Skinless Chicken Thighs",
+  "description": "Raw boneless, skinless chicken thighs.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Frozen Boneless Skinless Chicken Thighs, 3 lb",
+    "productId": "51259017",
+    "productUrl": "https://www.walmart.com/ip/51259017",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 9.87,
+    "packageQuantity": 1360.777,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 110,
+      "proteinG": 19.1,
+      "carbohydratesG": 0,
+      "fatG": 3.69,
+      "fiberG": 0,
+      "sugarsG": 0,
+      "sodiumMg": 156,
+      "potassiumMg": 234,
+      "calciumMg": 8,
+      "ironMg": 0.6,
+      "magnesiumMg": 21,
+      "vitaminCMg": 0
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.7253
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 172859,
+      "dataType": "SR Legacy",
+      "description": "Chicken, dark meat, thigh, meat only, with added solution, raw",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/172859/nutrients",
+      "searchQuery": "chicken thigh meat only raw",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.dreamstime.com/free-range-raw-organic-boneless-skinless-chicken-thighs-ready-to-cook-image401258838",
+    "originalSourceUrl": "https://thumbs.dreamstime.com/b/free-range-raw-organic-boneless-skinless-chicken-thighs-ready-to-cook-401258838.jpg",
+    "searchQuery": "Boneless Skinless Chicken Thighs ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0036",
+    "name": "Boneless Skinless Chicken Thighs",
+    "description": "Raw boneless, skinless chicken thighs.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 110,
+      "proteinG": 19.1,
+      "carbohydratesG": 0,
+      "fatG": 3.69,
+      "fiberG": 0,
+      "sugarsG": 0,
+      "sodiumMg": 156,
+      "potassiumMg": 234,
+      "calciumMg": 8,
+      "ironMg": 0.6,
+      "magnesiumMg": 21,
+      "vitaminCMg": 0
+    },
+    "price": {
+      "usdPerBasis": 0.7253,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0036_Boneless_Skinless_Chicken_Thighs/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

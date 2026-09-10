@@ -1,0 +1,206 @@
+{
+  "seedId": "REC-1590",
+  "candidate": {
+    "sequence": 2388,
+    "seedId": "REC-CAND-2388",
+    "name": "Chipotle Ground Turkey"
+  },
+  "name": "Chipotle Ground Turkey",
+  "description": "Chipotle Ground Turkey is a practical meal component adaptation built around turkey, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/turkey-kale-and-brown-rice-soup-recipe-2121147",
+    "domain": "foodnetwork.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Chipotle Turkey with Kale source because it provides the closest validated turkey and vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 50,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Meal Component",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, turkey, and vegetables for chipotle ground turkey.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned turkey and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the chipotle ground turkey, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 790,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1463.532,
+      "proteinG": 105.27,
+      "carbohydratesG": 31.015,
+      "fatG": 103.81,
+      "fiberG": 9.185,
+      "sugarsG": 0.875,
+      "sodiumMg": 474.446,
+      "potassiumMg": 1969.773,
+      "calciumMg": 271.223,
+      "ironMg": 10.833,
+      "magnesiumMg": 157.35,
+      "vitaminCMg": 24.68
+    },
+    "perServing": {
+      "calories": 365.883,
+      "proteinG": 26.317,
+      "carbohydratesG": 7.754,
+      "fatG": 25.953,
+      "fiberG": 2.296,
+      "sugarsG": 0.219,
+      "sodiumMg": 118.612,
+      "potassiumMg": 492.443,
+      "calciumMg": 67.806,
+      "ironMg": 2.708,
+      "magnesiumMg": 39.337,
+      "vitaminCMg": 6.17
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.93,
+    "perServingUsd": 0.98,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-09-18T10:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse1.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.platedwithlove.com/recipes/low-carb-italian-ground-turkey-skillet",
+    "originalSourceUrl": "https://tse1.mm.bing.net/th/id/OIP.xBvPyq6iznUbwuMe9G0G4AHaHa?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://platedwithlove.com/uploads/recipes/low-carb-italian-ground-turkey-skillet-occasion-1769686533439-8025-1769686533683.webp",
+    "searchQuery": "ground turkey plated recipe food photograph",
+    "searchResultTitle": "Low-Carb Italian Ground Turkey Skillet Recipe - Easy Dinner | Delicious Recipes - Plated With ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:06.977Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1590",
+    "name": "Chipotle Ground Turkey",
+    "description": "Chipotle Ground Turkey is a practical meal component adaptation built around turkey, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Meal Component",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 365.883,
+      "proteinG": 26.317,
+      "carbohydratesG": 7.754,
+      "fatG": 25.953,
+      "fiberG": 2.296,
+      "sugarsG": 0.219,
+      "sodiumMg": 118.612,
+      "potassiumMg": 492.443,
+      "calciumMg": 67.806,
+      "ironMg": 2.708,
+      "magnesiumMg": 39.337,
+      "vitaminCMg": 6.17
+    },
+    "estimatedCostPerServingUsd": 0.98,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "seedId": "REC-1268",
+  "candidate": {
+    "sequence": 2062,
+    "seedId": "REC-CAND-2062",
+    "name": "Caribbean Salmon Pasta"
+  },
+  "name": "Caribbean Salmon Pasta",
+  "description": "Caribbean Salmon Pasta is a practical main meal adaptation built around salmon, pasta, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.epicurious.com/recipes/food/views/fish-chermoula-12485",
+    "domain": "epicurious.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Cod Pasta Bake source because it provides the closest validated fish and pasta structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Caribbean",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "salmon",
+  "carbohydrateBase": "pasta",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0011",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0039",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 2.5,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, salmon, and pasta for caribbean salmon pasta.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned salmon and cook it until browned or heated through as appropriate.",
+    "Stir in the pasta, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the caribbean salmon pasta, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1380,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2007.732,
+      "proteinG": 156.69,
+      "carbohydratesG": 205.11,
+      "fatG": 57.474,
+      "fiberG": 13.38,
+      "sugarsG": 6.408,
+      "sodiumMg": 467.946,
+      "potassiumMg": 3277.473,
+      "calciumMg": 137.673,
+      "ironMg": 11.193,
+      "magnesiumMg": 316.2,
+      "vitaminCMg": 24.6
+    },
+    "perServing": {
+      "calories": 501.933,
+      "proteinG": 39.172,
+      "carbohydratesG": 51.278,
+      "fatG": 14.368,
+      "fiberG": 3.345,
+      "sugarsG": 1.602,
+      "sodiumMg": 116.987,
+      "potassiumMg": 819.368,
+      "calciumMg": 34.418,
+      "ironMg": 2.798,
+      "magnesiumMg": 79.05,
+      "vitaminCMg": 6.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 9.4,
+    "perServingUsd": 2.35,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-05-10T00:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse4.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://platedwithlove.com/recipes/creamy-salmon-pasta-recipe-with-mixed-greens",
+    "originalSourceUrl": "https://tse4.mm.bing.net/th/id/OIP.-ERT2QjFGo_0sSQiv38B-gHaHa?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://platedwithlove.com/uploads/recipes/pin_output-184.webp",
+    "searchQuery": "salmon pasta plated recipe food photograph",
+    "searchResultTitle": "Creamy Salmon Pasta Recipe with Mixed Greens | Delicious Recipes - Plated With Love Food Blog",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:38.322Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1268",
+    "name": "Caribbean Salmon Pasta",
+    "description": "Caribbean Salmon Pasta is a practical main meal adaptation built around salmon, pasta, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 501.933,
+      "proteinG": 39.172,
+      "carbohydratesG": 51.278,
+      "fatG": 14.368,
+      "fiberG": 3.345,
+      "sugarsG": 1.602,
+      "sodiumMg": 116.987,
+      "potassiumMg": 819.368,
+      "calciumMg": 34.418,
+      "ironMg": 2.798,
+      "magnesiumMg": 79.05,
+      "vitaminCMg": 6.15
+    },
+    "estimatedCostPerServingUsd": 2.35,
+    "diets": [
+      "Pescatarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

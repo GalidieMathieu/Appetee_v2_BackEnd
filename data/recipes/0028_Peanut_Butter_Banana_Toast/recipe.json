@@ -1,0 +1,186 @@
+{
+  "seedId": "REC-0028",
+  "name": "Peanut Butter Banana Toast",
+  "description": "Whole-wheat toast layered with peanut butter, banana, and cinnamon.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/peanut-butter-banana-toast",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United Kingdom",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 5,
+    "cookMinutes": 5,
+    "totalMinutes": 10
+  },
+  "servings": 2,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Toaster",
+  "primaryProtein": "peanut butter",
+  "carbohydrateBase": "bread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0051",
+      "sourceQuantity": 4,
+      "sourceUnit": "slices",
+      "sourceDisplay": "4 slices whole-wheat bread",
+      "normalizedQuantity": 113.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0032",
+      "sourceQuantity": 4,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "4 tbsp peanut butter",
+      "normalizedQuantity": 64,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0033",
+      "sourceQuantity": 2,
+      "sourceUnit": "medium",
+      "sourceDisplay": "2 bananas",
+      "normalizedQuantity": 236,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0047",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "½ tsp cinnamon",
+      "normalizedQuantity": 1.3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Toast the bread until crisp at the edges.",
+    "Spread each slice evenly with peanut butter.",
+    "Slice the bananas and arrange them over the toast.",
+    "Dust with cinnamon and serve immediately."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 379.76,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 875.979,
+      "proteinG": 32.11,
+      "carbohydratesG": 117.102,
+      "fatG": 36.7,
+      "fiberG": 18.75,
+      "sugarsG": 39.124,
+      "sodiumMg": 829.5,
+      "potassiumMg": 1615.319,
+      "calciumMg": 236.174,
+      "ironMg": 4.739,
+      "magnesiumMg": 251.95,
+      "vitaminCMg": 20.581
+    },
+    "perServing": {
+      "calories": 437.99,
+      "proteinG": 16.055,
+      "carbohydratesG": 58.551,
+      "fatG": 18.35,
+      "fiberG": 9.375,
+      "sugarsG": 19.562,
+      "sodiumMg": 414.75,
+      "potassiumMg": 807.659,
+      "calciumMg": 118.087,
+      "ironMg": 2.369,
+      "magnesiumMg": 125.975,
+      "vitaminCMg": 10.29
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 0.89,
+    "perServingUsd": 0.45,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-02-14T08:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "images.immediate.co.uk",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.bbcgoodfood.com/recipes/peanut-butter-banana-toast",
+    "originalSourceUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-870456_11-1305649.jpg?resize=440%2C230",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0028",
+    "name": "Peanut Butter Banana Toast",
+    "description": "Whole-wheat toast layered with peanut butter, banana, and cinnamon.",
+    "mealType": "Breakfast",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 2,
+    "nutritionPerServing": {
+      "calories": 437.99,
+      "proteinG": 16.055,
+      "carbohydratesG": 58.551,
+      "fatG": 18.35,
+      "fiberG": 9.375,
+      "sugarsG": 19.562,
+      "sodiumMg": 414.75,
+      "potassiumMg": 807.659,
+      "calciumMg": 118.087,
+      "ironMg": 2.369,
+      "magnesiumMg": 125.975,
+      "vitaminCMg": 10.29
+    },
+    "estimatedCostPerServingUsd": 0.45,
+    "diets": [
+      "Vegetarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

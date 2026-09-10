@@ -1,0 +1,212 @@
+{
+  "seedId": "REC-0129",
+  "candidate": {
+    "sequence": 17,
+    "seedId": "REC-CAND-0017",
+    "name": "Romanian Stuffed Pepper Bowl"
+  },
+  "name": "Romanian Stuffed Pepper Bowl",
+  "description": "Romanian Stuffed Pepper Bowl combines pork with rice and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+  "source": {
+    "url": "https://www.bylena.com/recipe/502/Rice-and-Meat-Stuffed-Peppers/",
+    "domain": "bylena.com",
+    "accessedAt": "2026-08-10T18:00:00-06:00",
+    "adaptation": "The source's defining pork, rice, seasoning profile, and core cooking technique are retained; quantities and supporting vegetables are normalized to the canonical Appetee market ingredients."
+  },
+  "countryOfOrigin": "Romania",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 20,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "pork",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0048",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and prepare every ingredient for romanian stuffed pepper bowl before heating the cooking vessel.",
+    "Preheat the oven and coat the pork and vegetables evenly with the recorded seasonings.",
+    "Cook the rice until tender while the seasoned pork develops its intended color and texture.",
+    "Combine the cooked components with the remaining vegetables and sauce, then adjust the consistency and seasoning.",
+    "Portion the finished romanian stuffed pepper bowl evenly and serve it warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2029,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2833.62,
+      "proteinG": 130.234,
+      "carbohydratesG": 279.955,
+      "fatG": 133.637,
+      "fiberG": 20.758,
+      "sodiumMg": 1107.859,
+      "potassiumMg": 4927.74,
+      "calciumMg": 391.404,
+      "ironMg": 11.148,
+      "magnesiumMg": 319.622,
+      "vitaminCMg": 430.5,
+      "sugarsG": 26.82
+    },
+    "perServing": {
+      "calories": 708.405,
+      "proteinG": 32.559,
+      "carbohydratesG": 69.989,
+      "fatG": 33.409,
+      "fiberG": 5.189,
+      "sodiumMg": 276.965,
+      "potassiumMg": 1231.935,
+      "calciumMg": 97.851,
+      "ironMg": 2.787,
+      "magnesiumMg": 79.906,
+      "vitaminCMg": 107.625,
+      "sugarsG": 6.705
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 11.28,
+    "perServingUsd": 2.82,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-07-19T01:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "www.bylena.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.bylena.com/recipe/502/Rice-and-Meat-Stuffed-Peppers/",
+    "originalSourceUrl": "https://www.bylena.com/images/uploaded/1920x_ardei-umpluti-312.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0129",
+    "name": "Romanian Stuffed Pepper Bowl",
+    "description": "Romanian Stuffed Pepper Bowl combines pork with rice and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 708.405,
+      "proteinG": 32.559,
+      "carbohydratesG": 69.989,
+      "fatG": 33.409,
+      "fiberG": 5.189,
+      "sodiumMg": 276.965,
+      "potassiumMg": 1231.935,
+      "calciumMg": 97.851,
+      "ironMg": 2.787,
+      "magnesiumMg": 79.906,
+      "vitaminCMg": 107.625,
+      "sugarsG": 6.705
+    },
+    "estimatedCostPerServingUsd": 2.82,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

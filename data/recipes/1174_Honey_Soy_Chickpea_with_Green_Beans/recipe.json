@@ -1,0 +1,216 @@
+{
+  "seedId": "REC-1174",
+  "candidate": {
+    "sequence": 1968,
+    "seedId": "REC-CAND-1968",
+    "name": "Honey Soy Chickpea with Green Beans"
+  },
+  "name": "Honey Soy Chickpea with Green Beans",
+  "description": "Honey Soy Chickpea with Green Beans is a practical main meal adaptation built around chickpeas, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.tastingtable.com/2106318/mediterranean-chickpea-skillet-recipe/",
+    "domain": "tastingtable.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Honey Soy Chickpea with Bell Peppers source because it provides the closest validated beans and legumes structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Mediterranean",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 50,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0037",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chickpeas, and legumes for honey soy chickpea with green beans.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chickpeas and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the honey soy chickpea with green beans, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1090,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1211.176,
+      "proteinG": 39.073,
+      "carbohydratesG": 189.606,
+      "fatG": 39.358,
+      "fiberG": 39.498,
+      "sugarsG": 72.069,
+      "sodiumMg": 2909.466,
+      "potassiumMg": 1790.853,
+      "calciumMg": 366.357,
+      "ironMg": 8.58,
+      "magnesiumMg": 223.952,
+      "vitaminCMg": 64
+    },
+    "perServing": {
+      "calories": 302.794,
+      "proteinG": 9.768,
+      "carbohydratesG": 47.401,
+      "fatG": 9.839,
+      "fiberG": 9.874,
+      "sugarsG": 18.017,
+      "sodiumMg": 727.366,
+      "potassiumMg": 447.713,
+      "calciumMg": 91.589,
+      "ironMg": 2.145,
+      "magnesiumMg": 55.988,
+      "vitaminCMg": 16
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.48,
+    "perServingUsd": 0.87,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-12-16T02:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.hellofresh.co.uk/recipes/soy-and-honey-chicken-5fd75e703906db6b296b6823",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.BLfKdnxAR-RpodUtjnQ5RQHaE8&pid=15.1",
+    "discoveredOriginalUrl": "https://img.hellofresh.com/hellofresh_s3/image/soy-and-honey-chicken-922b17fc-5539623c.jpg",
+    "searchQuery": "Honey Soy Chickpea with Green Beans plated recipe food",
+    "searchResultTitle": "Soy & Honey Chicken, Green Beans & Rice Recipe | HelloFresh",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:11:25.122Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1174",
+    "name": "Honey Soy Chickpea with Green Beans",
+    "description": "Honey Soy Chickpea with Green Beans is a practical main meal adaptation built around chickpeas, legumes, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 302.794,
+      "proteinG": 9.768,
+      "carbohydratesG": 47.401,
+      "fatG": 9.839,
+      "fiberG": 9.874,
+      "sugarsG": 18.017,
+      "sodiumMg": 727.366,
+      "potassiumMg": 447.713,
+      "calciumMg": 91.589,
+      "ironMg": 2.145,
+      "magnesiumMg": 55.988,
+      "vitaminCMg": 16
+    },
+    "estimatedCostPerServingUsd": 0.87,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

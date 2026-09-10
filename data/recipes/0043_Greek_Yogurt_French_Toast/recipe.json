@@ -1,0 +1,216 @@
+{
+  "seedId": "REC-0043",
+  "name": "Greek Yogurt French Toast",
+  "description": "Whole-wheat French toast served with Greek yogurt, berries, and banana.",
+  "source": {
+    "url": "https://www.youtube.com/watch?v=mXlO9HHjjkY",
+    "domain": "youtube.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 15,
+    "totalMinutes": 25
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "bread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0051",
+      "sourceQuantity": 8,
+      "sourceUnit": "slices",
+      "sourceDisplay": "8 slices whole-wheat bread",
+      "normalizedQuantity": 226.8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 4,
+      "sourceUnit": "large",
+      "sourceDisplay": "4 eggs",
+      "normalizedQuantity": 200,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0030",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup milk",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups Greek yogurt",
+      "normalizedQuantity": 367.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0034",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup berries",
+      "normalizedQuantity": 140,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0033",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 banana",
+      "normalizedQuantity": 118,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0047",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp cinnamon",
+      "normalizedQuantity": 2.6,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Whisk the eggs, milk, and cinnamon in a shallow dish.",
+    "Dip each bread slice briefly so both sides absorb the custard.",
+    "Cook the slices in a heated nonstick skillet until browned on both sides.",
+    "Top with Greek yogurt, berries, and sliced banana before serving."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1226.42,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1358.403,
+      "proteinG": 100.958,
+      "carbohydratesG": 165.161,
+      "fatG": 33.86,
+      "fiberG": 20.997,
+      "sugarsG": 55.835,
+      "sodiumMg": 1568.664,
+      "potassiumMg": 2357.173,
+      "calciumMg": 1232.338,
+      "ironMg": 10.983,
+      "magnesiumMg": 310.537,
+      "vitaminCMg": 68.539
+    },
+    "perServing": {
+      "calories": 339.601,
+      "proteinG": 25.239,
+      "carbohydratesG": 41.29,
+      "fatG": 8.465,
+      "fiberG": 5.249,
+      "sugarsG": 13.959,
+      "sodiumMg": 392.166,
+      "potassiumMg": 589.293,
+      "calciumMg": 308.084,
+      "ironMg": 2.746,
+      "magnesiumMg": 77.634,
+      "vitaminCMg": 17.135
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.88,
+    "perServingUsd": 0.97,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Quick Meal",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-03-08T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "i.pinimg.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/protein-french-toast-w-greek-yogurt-26-grams--161777811609215674/",
+    "originalSourceUrl": "https://i.pinimg.com/originals/24/fe/8d/24fe8dcf56deb1ced7a0d5f60b32e743.jpg",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/24/fe/8d/24fe8dcf56deb1ced7a0d5f60b32e743.jpg",
+    "searchQuery": "Greek Yogurt French Toast plated recipe food",
+    "searchResultTitle": "Protein French Toast w/ Greek Yogurt (26 grams) | Recipe | Awesome ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:06:32.757Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0043",
+    "name": "Greek Yogurt French Toast",
+    "description": "Whole-wheat French toast served with Greek yogurt, berries, and banana.",
+    "mealType": "Breakfast",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 339.601,
+      "proteinG": 25.239,
+      "carbohydratesG": 41.29,
+      "fatG": 8.465,
+      "fiberG": 5.249,
+      "sugarsG": 13.959,
+      "sodiumMg": 392.166,
+      "potassiumMg": 589.293,
+      "calciumMg": 308.084,
+      "ironMg": 2.746,
+      "magnesiumMg": 77.634,
+      "vitaminCMg": 17.135
+    },
+    "estimatedCostPerServingUsd": 0.97,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Quick Meal",
+      "Budget Friendly"
+    ]
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "seedId": "REC-0194",
+  "candidate": {
+    "sequence": 120,
+    "seedId": "REC-CAND-0120",
+    "name": "Roasted Lean Beef Salad Bowl"
+  },
+  "name": "Roasted Lean Beef Salad Bowl",
+  "description": "Roasted Lean Beef Salad Bowl is a practical oven recipe pairing lean beef with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://recipecenter.stopandshop.com/recipes/236647/pulled-buffalo-beef-salad-with-parmesan-croutons",
+    "domain": "recipecenter.stopandshop.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Buffalo Lean Beef Salad Bowl source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "lean beef",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for roasted lean beef salad bowl.",
+    "Season the lean beef and vegetables evenly while the oven reaches temperature.",
+    "Arrange the lean beef, vegetables, and vegetables so heat can circulate around each component.",
+    "Bake until the lean beef is safely cooked and the vegetables or grain base are tender.",
+    "Rest the roasted lean beef salad bowl briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1999,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2119.962,
+      "proteinG": 162.504,
+      "carbohydratesG": 96.623,
+      "fatG": 122.297,
+      "fiberG": 28.107,
+      "sugarsG": 34.218,
+      "sodiumMg": 1068.896,
+      "potassiumMg": 5586.423,
+      "calciumMg": 1021.623,
+      "ironMg": 22.07,
+      "magnesiumMg": 471.71,
+      "vitaminCMg": 104.608
+    },
+    "perServing": {
+      "calories": 529.99,
+      "proteinG": 40.626,
+      "carbohydratesG": 24.156,
+      "fatG": 30.574,
+      "fiberG": 7.027,
+      "sugarsG": 8.555,
+      "sodiumMg": 267.224,
+      "potassiumMg": 1396.606,
+      "calciumMg": 255.406,
+      "ironMg": 5.518,
+      "magnesiumMg": 117.927,
+      "vitaminCMg": 26.152
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 14.83,
+    "perServingUsd": 3.71,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Low Carb",
+    "High Fiber",
+    "Quick Meal",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-10-27T06:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://thebesttraditionalfamilyrecipes.com/recipe-for-roast-beef-salad/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.yESSPS-MFLvCxYjakjNnRAHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://thebesttraditionalfamilyrecipes.com/wp-content/uploads/2025/12/Recipe-For-Roast-Beef-Salad.jpg",
+    "searchQuery": "Roasted Lean Beef Salad Bowl plated recipe food",
+    "searchResultTitle": "Roast Beef Salad Recipe: A Protein-Packed Power Bowl - The Best ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:34:08.515Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0194",
+    "name": "Roasted Lean Beef Salad Bowl",
+    "description": "Roasted Lean Beef Salad Bowl is a practical oven recipe pairing lean beef with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 529.99,
+      "proteinG": 40.626,
+      "carbohydratesG": 24.156,
+      "fatG": 30.574,
+      "fiberG": 7.027,
+      "sugarsG": 8.555,
+      "sodiumMg": 267.224,
+      "potassiumMg": 1396.606,
+      "calciumMg": 255.406,
+      "ironMg": 5.518,
+      "magnesiumMg": 117.927,
+      "vitaminCMg": 26.152
+    },
+    "estimatedCostPerServingUsd": 3.71,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Low Carb",
+      "High Fiber",
+      "Quick Meal",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

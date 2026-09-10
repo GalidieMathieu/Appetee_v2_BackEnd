@@ -1,0 +1,194 @@
+{
+  "seedId": "REC-1241",
+  "candidate": {
+    "sequence": 2035,
+    "seedId": "REC-CAND-2035",
+    "name": "Jamaican Tofu Flatbread"
+  },
+  "name": "Jamaican Tofu Flatbread",
+  "description": "Jamaican Tofu Flatbread is a practical main meal adaptation built around tofu, flatbread, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.canada.ca/content/dam/hc-sc/documents/services/canada-food-guide/tips-healthy-eating/meal-planning-cooking-healthy-choices/tofu-stir-fry/tofu-vegetable-stir-fry-eng.pdf",
+    "domain": "canada.ca",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Tofu Vegetable Stir-Fry source because it provides the closest validated soy and flatbread structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Jamaica",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 20,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tofu",
+  "carbohydrateBase": "flatbread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0018",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0067",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tofu, and flatbread for jamaican tofu flatbread.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tofu and cook it until browned or heated through as appropriate.",
+    "Stir in the flatbread, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the jamaican tofu flatbread, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1681.332,
+      "proteinG": 60.51,
+      "carbohydratesG": 263.28,
+      "fatG": 42.9,
+      "fiberG": 16.5,
+      "sugarsG": 2.61,
+      "sodiumMg": 45.546,
+      "potassiumMg": 1311.273,
+      "calciumMg": 693.273,
+      "ironMg": 19.743,
+      "magnesiumMg": 204,
+      "vitaminCMg": 25.2
+    },
+    "perServing": {
+      "calories": 420.333,
+      "proteinG": 15.127,
+      "carbohydratesG": 65.82,
+      "fatG": 10.725,
+      "fiberG": 4.125,
+      "sugarsG": 0.652,
+      "sodiumMg": 11.386,
+      "potassiumMg": 327.818,
+      "calciumMg": 173.318,
+      "ironMg": 4.936,
+      "magnesiumMg": 51,
+      "vitaminCMg": 6.3
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.69,
+    "perServingUsd": 0.92,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-03-29T09:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse1.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.veganeshkitchen.com/recipes/tandoori-tofu-flatbread",
+    "originalSourceUrl": "https://tse1.mm.bing.net/th/id/OIP.pGEPtTSIvll9nLG-nNgUfwHaNK?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://images.squarespace-cdn.com/content/v1/63f2fdfbe54b412120ffd0fe/7159166a-7430-4515-8260-78fbde908991/IMG_9692.jpg",
+    "searchQuery": "tofu flatbread plated recipe food photograph",
+    "searchResultTitle": "Tandoori Tofu Flatbread — Veganesh Kitchen",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:34.005Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1241",
+    "name": "Jamaican Tofu Flatbread",
+    "description": "Jamaican Tofu Flatbread is a practical main meal adaptation built around tofu, flatbread, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 420.333,
+      "proteinG": 15.127,
+      "carbohydratesG": 65.82,
+      "fatG": 10.725,
+      "fiberG": 4.125,
+      "sugarsG": 0.652,
+      "sodiumMg": 11.386,
+      "potassiumMg": 327.818,
+      "calciumMg": 173.318,
+      "ironMg": 4.936,
+      "magnesiumMg": 51,
+      "vitaminCMg": 6.3
+    },
+    "estimatedCostPerServingUsd": 0.92,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

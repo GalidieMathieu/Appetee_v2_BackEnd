@@ -1,0 +1,256 @@
+{
+  "seedId": "REC-1076",
+  "candidate": {
+    "sequence": 1801,
+    "seedId": "REC-CAND-1801",
+    "name": "Lemon Black Bean with Bell Peppers"
+  },
+  "name": "Lemon Black Bean with Bell Peppers",
+  "description": "Lemon Black Bean with Bell Peppers is a practical stovetop recipe pairing black beans with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://feelgoodfoodie.net/recipe/bean-cheese-wonton-quesadillas/",
+    "domain": "feelgoodfoodie.net",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Black Bean Breakfast Quesadillas source while retaining its closest matching dish form, cooking sequence, and applicable black beans or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "black beans",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 4,
+      "sourceUnit": "tortillas",
+      "sourceDisplay": "4 whole-wheat tortillas",
+      "normalizedQuantity": 181.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can black beans, drained",
+      "normalizedQuantity": 260,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 4,
+      "sourceUnit": "large",
+      "sourceDisplay": "4 eggs",
+      "normalizedQuantity": 200,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup spinach",
+      "normalizedQuantity": 85,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup corn",
+      "normalizedQuantity": 165,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "medium",
+      "sourceDisplay": "½ onion",
+      "normalizedQuantity": 75,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "cup",
+      "sourceDisplay": "½ cup salsa",
+      "normalizedQuantity": 130,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, black beans, and legumes for lemon black bean with bell peppers.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned black beans and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the lemon black bean with bell peppers, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1418.9,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1489.59,
+      "proteinG": 75.242,
+      "carbohydratesG": 215.473,
+      "fatG": 43.056,
+      "fiberG": 36.262,
+      "sugarsG": 25.034,
+      "sodiumMg": 2903.888,
+      "potassiumMg": 3335.468,
+      "calciumMg": 893.196,
+      "ironMg": 17.708,
+      "magnesiumMg": 443.7,
+      "vitaminCMg": 437.08
+    },
+    "perServing": {
+      "calories": 372.397,
+      "proteinG": 18.811,
+      "carbohydratesG": 53.868,
+      "fatG": 10.764,
+      "fiberG": 9.066,
+      "sugarsG": 6.258,
+      "sodiumMg": 725.972,
+      "potassiumMg": 833.867,
+      "calciumMg": 223.299,
+      "ironMg": 4.427,
+      "magnesiumMg": 110.925,
+      "vitaminCMg": 109.27
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.01,
+    "perServingUsd": 2,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-07-18T00:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://itsonly.recipes/view/southwestern-black-bean-stuffed-bell-peppers",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.KjUYDyGB-wEuTJ5IbRHK8gHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://itsonly.recipes/images/recipeimages/southwestern-black-bean-stuffed-bell-peppers.webp",
+    "searchQuery": "Lemon Black Bean with Bell Peppers plated recipe food",
+    "searchResultTitle": "Southwestern Black Bean Stuffed Bell Peppers Recipe | ItsOnly.Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:20:38.517Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1076",
+    "name": "Lemon Black Bean with Bell Peppers",
+    "description": "Lemon Black Bean with Bell Peppers is a practical stovetop recipe pairing black beans with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 372.397,
+      "proteinG": 18.811,
+      "carbohydratesG": 53.868,
+      "fatG": 10.764,
+      "fiberG": 9.066,
+      "sugarsG": 6.258,
+      "sodiumMg": 725.972,
+      "potassiumMg": 833.867,
+      "calciumMg": 223.299,
+      "ironMg": 4.427,
+      "magnesiumMg": 110.925,
+      "vitaminCMg": 109.27
+    },
+    "estimatedCostPerServingUsd": 2,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "seedId": "REC-0445",
+  "candidate": {
+    "sequence": 603,
+    "seedId": "REC-CAND-0603",
+    "name": "Lean Beef and Tomatoes Orzo Skillet"
+  },
+  "name": "Lean Beef and Tomatoes Orzo Skillet",
+  "description": "Lean Beef and Tomatoes Orzo Skillet is a practical stovetop recipe pairing lean beef with orzo and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.oliviascuisine.com/feijoada-recipe/",
+    "domain": "oliviascuisine.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Brazilian Black Bean Beef Skillet source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Brazil",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 50,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lean beef",
+  "carbohydrateBase": "orzo",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0098",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lean beef, and orzo for lean beef and tomatoes orzo skillet.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lean beef and cook it until browned or heated through as appropriate.",
+    "Stir in the orzo, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the lean beef and tomatoes orzo skillet, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1776,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2893.32,
+      "proteinG": 180.379,
+      "carbohydratesG": 311.855,
+      "fatG": 100.686,
+      "fiberG": 19.475,
+      "sugarsG": 15.104,
+      "sodiumMg": 1403.57,
+      "potassiumMg": 4970.1,
+      "calciumMg": 460.557,
+      "ironMg": 31.124,
+      "magnesiumMg": 456.025,
+      "vitaminCMg": 77.976
+    },
+    "perServing": {
+      "calories": 723.33,
+      "proteinG": 45.095,
+      "carbohydratesG": 77.964,
+      "fatG": 25.172,
+      "fiberG": 4.869,
+      "sugarsG": 3.776,
+      "sodiumMg": 350.892,
+      "potassiumMg": 1242.525,
+      "calciumMg": 115.139,
+      "ironMg": 7.781,
+      "magnesiumMg": 114.006,
+      "vitaminCMg": 19.494
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 13.41,
+    "perServingUsd": 3.35,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2025-11-18T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://stellarcrust.com/recipes/ground-beef-orzo-dinner",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.nLw4nxaXV4gcfI9yI85YFgHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://stellarcrust.com/assets/images/1769995932835-91k4hild.webp",
+    "searchQuery": "Lean Beef and Tomatoes Orzo Skillet plated recipe food",
+    "searchResultTitle": "Savory Ground Beef Orzo Skillet with Tomatoes and Parmesan",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:48:06.456Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0445",
+    "name": "Lean Beef and Tomatoes Orzo Skillet",
+    "description": "Lean Beef and Tomatoes Orzo Skillet is a practical stovetop recipe pairing lean beef with orzo and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 723.33,
+      "proteinG": 45.095,
+      "carbohydratesG": 77.964,
+      "fatG": 25.172,
+      "fiberG": 4.869,
+      "sugarsG": 3.776,
+      "sodiumMg": 350.892,
+      "potassiumMg": 1242.525,
+      "calciumMg": 115.139,
+      "ironMg": 7.781,
+      "magnesiumMg": 114.006,
+      "vitaminCMg": 19.494
+    },
+    "estimatedCostPerServingUsd": 3.35,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

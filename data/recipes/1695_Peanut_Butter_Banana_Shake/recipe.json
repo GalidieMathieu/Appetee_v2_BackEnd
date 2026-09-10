@@ -1,0 +1,211 @@
+{
+  "seedId": "REC-1695",
+  "candidate": {
+    "sequence": 2496,
+    "seedId": "REC-CAND-2496",
+    "name": "Peanut Butter Banana Shake"
+  },
+  "name": "Peanut Butter Banana Shake",
+  "description": "Peanut Butter Banana Shake is a practical drink adaptation built around peanut butter, fruit, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.oikos.com/greek-yogurt-recipes/smoothies/recipe/berry-banana-smoothie/",
+    "domain": "oikos.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Berry Banana Greek Yogurt Smoothie source because it provides the closest validated nuts and shake structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Drink",
+  "cookingMethod": "Blender",
+  "primaryProtein": "peanut butter",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0032",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0033",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0030",
+      "sourceQuantity": 240,
+      "sourceUnit": "ml",
+      "sourceDisplay": "240 ml",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and chill the ingredients for peanut butter banana shake.",
+    "Add the liquid ingredients to the blender before the thicker ingredients.",
+    "Blend until the peanut butter banana shake is completely smooth and evenly combined.",
+    "Adjust the thickness with a small amount of milk and serve immediately."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1260,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2366.4,
+      "proteinG": 102.808,
+      "carbohydratesG": 328.906,
+      "fatG": 82.582,
+      "fiberG": 41.76,
+      "sugarsG": 120.557,
+      "sodiumMg": 827.184,
+      "potassiumMg": 3637.08,
+      "calciumMg": 824.04,
+      "ironMg": 13.772,
+      "magnesiumMg": 665.592,
+      "vitaminCMg": 26.894
+    },
+    "perServing": {
+      "calories": 591.6,
+      "proteinG": 25.702,
+      "carbohydratesG": 82.227,
+      "fatG": 20.645,
+      "fiberG": 10.44,
+      "sugarsG": 30.139,
+      "sodiumMg": 206.796,
+      "potassiumMg": 909.27,
+      "calciumMg": 206.01,
+      "ironMg": 3.443,
+      "magnesiumMg": 166.398,
+      "vitaminCMg": 6.723
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.52,
+    "perServingUsd": 0.88,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly"
+  ],
+  "createdAt": "2031-02-27T07:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse3.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://pngtree.com/freepng/nutritious-peanut-smoothie-drink-in-glass_21129730.html",
+    "originalSourceUrl": "https://tse3.mm.bing.net/th/id/OIP.WpFNiKYlQAne2ZanXW3ZugHaHa?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://png.pngtree.com/png-clipart/20250606/original/pngtree-nutritious-peanut-smoothie-drink-in-glass-png-image_21129730.png",
+    "searchQuery": "peanut butter smoothie drink in a glass food photograph",
+    "searchResultTitle": "Nutritious Peanut Smoothie Drink In Glass, Nutritious, Peanut, Smoothie PNG Transparent Image ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:49.334Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1695",
+    "name": "Peanut Butter Banana Shake",
+    "description": "Peanut Butter Banana Shake is a practical drink adaptation built around peanut butter, fruit, and title-specific supporting ingredients.",
+    "mealType": "Breakfast",
+    "mealCategory": "Drink",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 591.6,
+      "proteinG": 25.702,
+      "carbohydratesG": 82.227,
+      "fatG": 20.645,
+      "fiberG": 10.44,
+      "sugarsG": 30.139,
+      "sodiumMg": 206.796,
+      "potassiumMg": 909.27,
+      "calciumMg": 206.01,
+      "ironMg": 3.443,
+      "magnesiumMg": 166.398,
+      "vitaminCMg": 6.723
+    },
+    "estimatedCostPerServingUsd": 0.88,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly"
+    ]
+  }
+}

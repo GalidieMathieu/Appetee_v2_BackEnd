@@ -1,0 +1,206 @@
+{
+  "seedId": "REC-1619",
+  "candidate": {
+    "sequence": 2417,
+    "seedId": "REC-CAND-2417",
+    "name": "Roasted Sweet Potato Cubes"
+  },
+  "name": "Roasted Sweet Potato Cubes",
+  "description": "Roasted Sweet Potato Cubes is a practical meal component adaptation built around vegetables, sweet potato, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://cookieandkate.com/how-to-make-crispy-baked-tofu/",
+    "domain": "cookieandkate.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Crispy Baked Tofu Bites source because it provides the closest validated sweet potato structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Meal Component",
+  "cookingMethod": "Oven",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "sweet potato",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0007",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for roasted sweet potato cubes and preheat the oven.",
+    "Coat the vegetables and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the sweet potato and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the roasted sweet potato cubes briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 945,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 851.682,
+      "proteinG": 14.604,
+      "carbohydratesG": 136.995,
+      "fatG": 28.89,
+      "sodiumMg": 21.096,
+      "potassiumMg": 3315.423,
+      "calciumMg": 178.323,
+      "ironMg": 5.022,
+      "magnesiumMg": 157.05,
+      "vitaminCMg": 90.78,
+      "fiberG": 9.915,
+      "sugarsG": 2.01
+    },
+    "perServing": {
+      "calories": 212.921,
+      "proteinG": 3.651,
+      "carbohydratesG": 34.249,
+      "fatG": 7.223,
+      "sodiumMg": 5.274,
+      "potassiumMg": 828.856,
+      "calciumMg": 44.581,
+      "ironMg": 1.256,
+      "magnesiumMg": 39.263,
+      "vitaminCMg": 22.695,
+      "fiberG": 2.479,
+      "sugarsG": 0.502
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.41,
+    "perServingUsd": 0.6,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-11-02T03:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse1.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://cookrita.com/crispy-roasted-sweet-potato-cubes/",
+    "originalSourceUrl": "https://tse1.mm.bing.net/th/id/OIP.YmQJHTJQ2vNW_bW3r19LNwHaLH?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://cookrita.com/wp-content/uploads/2023/09/roasted-sweet-potato-cubes-3.jpg",
+    "searchQuery": "sweet potato cubes plated recipe food photograph",
+    "searchResultTitle": "Perfectly Crispy Roasted Sweet Potato Cubes - Cookrita",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:11.669Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1619",
+    "name": "Roasted Sweet Potato Cubes",
+    "description": "Roasted Sweet Potato Cubes is a practical meal component adaptation built around vegetables, sweet potato, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Meal Component",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 212.921,
+      "proteinG": 3.651,
+      "carbohydratesG": 34.249,
+      "fatG": 7.223,
+      "sodiumMg": 5.274,
+      "potassiumMg": 828.856,
+      "calciumMg": 44.581,
+      "ironMg": 1.256,
+      "magnesiumMg": 39.263,
+      "vitaminCMg": 22.695,
+      "fiberG": 2.479,
+      "sugarsG": 0.502
+    },
+    "estimatedCostPerServingUsd": 0.6,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

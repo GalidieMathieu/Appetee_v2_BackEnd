@@ -1,0 +1,188 @@
+{
+  "seedId": "REC-0030",
+  "name": "Chili Cumin Roasted Chickpeas",
+  "description": "Crunchy roasted chickpeas seasoned with chili powder and cumin.",
+  "source": {
+    "url": "https://nutritionsource.hsph.harvard.edu/crunchy-roasted-chickpeas/",
+    "domain": "nutritionsource.hsph.harvard.edu",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "totalMinutes": 40
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "Oven",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans chickpeas, drained",
+      "normalizedQuantity": 500,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp olive oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp chili powder",
+      "normalizedQuantity": 2.7,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp cumin",
+      "normalizedQuantity": 2.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Heat the oven to 400°F and dry the drained chickpeas thoroughly.",
+    "Toss the chickpeas with oil, chili powder, and cumin.",
+    "Spread them in one layer on a rimmed pan.",
+    "Roast until crisp, shaking the pan halfway through, then cool."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 519.8,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 831.155,
+      "proteinG": 35.988,
+      "carbohydratesG": 114.77,
+      "fatG": 28.354,
+      "fiberG": 33.16,
+      "sugarsG": 20.291,
+      "sodiumMg": 1311.291,
+      "potassiumMg": 720.376,
+      "calciumMg": 253.598,
+      "ironMg": 7.288,
+      "magnesiumMg": 141.709,
+      "vitaminCMg": 0.681
+    },
+    "perServing": {
+      "calories": 138.526,
+      "proteinG": 5.998,
+      "carbohydratesG": 19.128,
+      "fatG": 4.726,
+      "fiberG": 5.527,
+      "sugarsG": 3.382,
+      "sodiumMg": 218.548,
+      "potassiumMg": 120.063,
+      "calciumMg": 42.266,
+      "ironMg": 1.215,
+      "magnesiumMg": 23.618,
+      "vitaminCMg": 0.114
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 1.24,
+    "perServingUsd": 0.21,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-02-17T10:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "nutritionsource.hsph.harvard.edu",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://nutritionsource.hsph.harvard.edu/crunchy-roasted-chickpeas/",
+    "originalSourceUrl": "https://nutritionsource.hsph.harvard.edu/wp-content/uploads/2016/09/Chickpeas-Roasted.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0030",
+    "name": "Chili Cumin Roasted Chickpeas",
+    "description": "Crunchy roasted chickpeas seasoned with chili powder and cumin.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 138.526,
+      "proteinG": 5.998,
+      "carbohydratesG": 19.128,
+      "fatG": 4.726,
+      "fiberG": 5.527,
+      "sugarsG": 3.382,
+      "sodiumMg": 218.548,
+      "potassiumMg": 120.063,
+      "calciumMg": 42.266,
+      "ironMg": 1.215,
+      "magnesiumMg": 23.618,
+      "vitaminCMg": 0.114
+    },
+    "estimatedCostPerServingUsd": 0.21,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

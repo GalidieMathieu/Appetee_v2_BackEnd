@@ -1,0 +1,244 @@
+{
+  "seedId": "REC-0480",
+  "candidate": {
+    "sequence": 664,
+    "seedId": "REC-CAND-0664",
+    "name": "French Tuna Wraps"
+  },
+  "name": "French Tuna Wraps",
+  "description": "French Tuna Wraps is a practical no-cook recipe pairing tuna with tortilla and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.food.com/recipe/tuna-and-white-bean-wraps-251930",
+    "domain": "food.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Tuna White Bean Wraps source while retaining its closest matching dish form, cooking sequence, and applicable tuna or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "tuna",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0025",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans tuna, drained",
+      "normalizedQuantity": 226,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0026",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can cannellini beans, drained",
+      "normalizedQuantity": 260,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 4,
+      "sourceUnit": "pieces",
+      "sourceDisplay": "4 whole-wheat tortillas",
+      "normalizedQuantity": 181.437,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 4,
+      "sourceUnit": "oz",
+      "sourceDisplay": "4 oz spinach",
+      "normalizedQuantity": 113.398,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 2,
+      "sourceUnit": "medium",
+      "sourceDisplay": "2 Roma tomatoes",
+      "normalizedQuantity": 124,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp cider vinegar",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Drain, rinse, chop, and measure the ingredients for french tuna wraps.",
+    "Whisk the dressing ingredients until they form an even, well-seasoned mixture.",
+    "Fold the tuna together with the vegetables and dressing without crushing the ingredients.",
+    "Arrange the tortilla and dressed mixture evenly in four portions.",
+    "Serve the french tuna wraps immediately or refrigerate it in sealed meal-prep containers."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1241.095,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1557.084,
+      "proteinG": 102.866,
+      "carbohydratesG": 178.933,
+      "fatG": 48.735,
+      "fiberG": 41.052,
+      "sugarsG": 9.39,
+      "sodiumMg": 2213.434,
+      "potassiumMg": 3495.105,
+      "calciumMg": 889.533,
+      "ironMg": 19.76,
+      "magnesiumMg": 478.037,
+      "vitaminCMg": 52.505
+    },
+    "perServing": {
+      "calories": 389.271,
+      "proteinG": 25.716,
+      "carbohydratesG": 44.733,
+      "fatG": 12.184,
+      "fiberG": 10.263,
+      "sugarsG": 2.348,
+      "sodiumMg": 553.359,
+      "potassiumMg": 873.776,
+      "calciumMg": 222.383,
+      "ironMg": 4.94,
+      "magnesiumMg": 119.509,
+      "vitaminCMg": 13.126
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.18,
+    "perServingUsd": 1.29,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-01-11T04:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.explicit.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/grandmas-french-tuna-salad-wraps--11118330300225100/",
+    "originalSourceUrl": "https://ts2.explicit.bing.net/th?id=OIP.j1Vv8nY_6N4o4_tv9IjVdQAAAA&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/cb/fd/55/cbfd5556f093fe151247f2ea3d9c29ef.jpg",
+    "searchQuery": "French Tuna Wraps plated recipe food",
+    "searchResultTitle": "Grandma’s French Tuna Salad Wraps | Recipes, Easy flatbread, Wrap recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:49:57.233Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0480",
+    "name": "French Tuna Wraps",
+    "description": "French Tuna Wraps is a practical no-cook recipe pairing tuna with tortilla and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 389.271,
+      "proteinG": 25.716,
+      "carbohydratesG": 44.733,
+      "fatG": 12.184,
+      "fiberG": 10.263,
+      "sugarsG": 2.348,
+      "sodiumMg": 553.359,
+      "potassiumMg": 873.776,
+      "calciumMg": 222.383,
+      "ironMg": 4.94,
+      "magnesiumMg": 119.509,
+      "vitaminCMg": 13.126
+    },
+    "estimatedCostPerServingUsd": 1.29,
+    "diets": [
+      "Pescatarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly"
+    ]
+  }
+}

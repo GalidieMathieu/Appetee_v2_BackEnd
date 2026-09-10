@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0039",
+  "name": "Dry Penne Pasta",
+  "canonicalName": "Dry Penne Pasta",
+  "description": "Dry enriched penne pasta.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Penne Pasta, 16 oz",
+    "productId": "10534084",
+    "productUrl": "https://www.walmart.com/ip/10534084",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 1.24,
+    "packageQuantity": 453.592,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 371,
+      "proteinG": 13,
+      "carbohydratesG": 74.7,
+      "fatG": 1.51,
+      "fiberG": 3.2,
+      "sugarsG": 2.67,
+      "sodiumMg": 6,
+      "potassiumMg": 223,
+      "calciumMg": 21,
+      "ironMg": 3.3,
+      "magnesiumMg": 53,
+      "vitaminCMg": 0
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.2734
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 169736,
+      "dataType": "SR Legacy",
+      "description": "Pasta, dry, enriched",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/169736/nutrients",
+      "searchQuery": "pasta dry enriched",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.vecteezy.com/photo/69821664-dry-yellow-penne-pasta-traditional-italian-ingredient-close-up",
+    "originalSourceUrl": "https://static.vecteezy.com/system/resources/previews/069/821/664/large_2x/dry-yellow-penne-pasta-traditional-italian-ingredient-close-up-photo.jpg",
+    "searchQuery": "Dry Penne Pasta ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0039",
+    "name": "Dry Penne Pasta",
+    "description": "Dry enriched penne pasta.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 371,
+      "proteinG": 13,
+      "carbohydratesG": 74.7,
+      "fatG": 1.51,
+      "fiberG": 3.2,
+      "sugarsG": 2.67,
+      "sodiumMg": 6,
+      "potassiumMg": 223,
+      "calciumMg": 21,
+      "ironMg": 3.3,
+      "magnesiumMg": 53,
+      "vitaminCMg": 0
+    },
+    "price": {
+      "usdPerBasis": 0.2734,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0039_Dry_Penne_Pasta/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": false,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

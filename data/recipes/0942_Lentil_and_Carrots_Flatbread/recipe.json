@@ -1,0 +1,256 @@
+{
+  "seedId": "REC-0942",
+  "candidate": {
+    "sequence": 1541,
+    "seedId": "REC-CAND-1541",
+    "name": "Lentil and Carrots Flatbread"
+  },
+  "name": "Lentil and Carrots Flatbread",
+  "description": "Lentil and Carrots Flatbread is a practical oven recipe pairing lentils with flatbread and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/8542186/red-lentil-flatbread/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Thai Lentil Flatbread source while retaining its closest matching dish form, cooking sequence, and applicable lentils or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Thailand",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "flatbread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0042",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 240,
+      "sourceUnit": "ml",
+      "sourceDisplay": "240 ml",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0082",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0067",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for lentil and carrots flatbread.",
+    "Season the lentils and vegetables evenly while the oven reaches temperature.",
+    "Arrange the lentils, flatbread, and vegetables so heat can circulate around each component.",
+    "Bake until the lentils is safely cooked and the vegetables or grain base are tender.",
+    "Rest the lentil and carrots flatbread briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1963,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 4294.19,
+      "proteinG": 198.038,
+      "carbohydratesG": 727.739,
+      "fatG": 101.831,
+      "fiberG": 234.319,
+      "sugarsG": 34.786,
+      "sodiumMg": 447.43,
+      "potassiumMg": 9339.23,
+      "calciumMg": 2027.71,
+      "ironMg": 110.455,
+      "magnesiumMg": 1232.63,
+      "vitaminCMg": 112.44
+    },
+    "perServing": {
+      "calories": 1073.547,
+      "proteinG": 49.51,
+      "carbohydratesG": 181.935,
+      "fatG": 25.458,
+      "fiberG": 58.58,
+      "sugarsG": 8.697,
+      "sodiumMg": 111.858,
+      "potassiumMg": 2334.807,
+      "calciumMg": 506.928,
+      "ironMg": 27.614,
+      "magnesiumMg": 308.158,
+      "vitaminCMg": 28.11
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.63,
+    "perServingUsd": 2.66,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-12-24T10:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.themediterraneandish.com/lentil-stuffed-flatbread-recipe/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.JbgZOekKdDb73vM4XQvb5QHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://www.themediterraneandish.com/wp-content/uploads/2025/01/Whole-Wheat-Flatbread-Pins-2025-1.jpg",
+    "searchQuery": "Lentil and Carrots Flatbread plated recipe food",
+    "searchResultTitle": "Lentil Stuffed Flatbread Recipe | The Mediterranean Dish",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:13:48.169Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0942",
+    "name": "Lentil and Carrots Flatbread",
+    "description": "Lentil and Carrots Flatbread is a practical oven recipe pairing lentils with flatbread and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 1073.547,
+      "proteinG": 49.51,
+      "carbohydratesG": 181.935,
+      "fatG": 25.458,
+      "fiberG": 58.58,
+      "sugarsG": 8.697,
+      "sodiumMg": 111.858,
+      "potassiumMg": 2334.807,
+      "calciumMg": 506.928,
+      "ironMg": 27.614,
+      "magnesiumMg": 308.158,
+      "vitaminCMg": 28.11
+    },
+    "estimatedCostPerServingUsd": 2.66,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

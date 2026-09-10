@@ -1,0 +1,238 @@
+{
+  "seedId": "REC-0985",
+  "candidate": {
+    "sequence": 1631,
+    "seedId": "REC-CAND-1631",
+    "name": "Ginger Black Bean Rice Bowl"
+  },
+  "name": "Ginger Black Bean Rice Bowl",
+  "description": "Ginger Black Bean Rice Bowl is a practical stovetop recipe pairing black beans with rice and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://cookieandkate.com/black-bean-burrito-bowl-recipe/",
+    "domain": "cookieandkate.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Black Bean Burrito Bowl source while retaining its closest matching dish form, cooking sequence, and applicable black beans or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 30,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "black beans",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, black beans, and rice for ginger black bean rice bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned black beans and cook it until browned or heated through as appropriate.",
+    "Stir in the rice, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the ginger black bean rice bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1922,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2079.24,
+      "proteinG": 68.701,
+      "carbohydratesG": 442.985,
+      "fatG": 13.248,
+      "sodiumMg": 2986.559,
+      "potassiumMg": 4778.22,
+      "calciumMg": 432.701,
+      "ironMg": 13.816,
+      "magnesiumMg": 502.905,
+      "fiberG": 25.757,
+      "sugarsG": 14.704,
+      "vitaminCMg": 62.34
+    },
+    "perServing": {
+      "calories": 519.81,
+      "proteinG": 17.175,
+      "carbohydratesG": 110.746,
+      "fatG": 3.312,
+      "sodiumMg": 746.64,
+      "potassiumMg": 1194.555,
+      "calciumMg": 108.175,
+      "ironMg": 3.454,
+      "magnesiumMg": 125.726,
+      "fiberG": 6.439,
+      "sugarsG": 3.676,
+      "vitaminCMg": 15.585
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 11.53,
+    "perServingUsd": 2.88,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-02-28T17:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://skinnytasted.com/mango-black-bean-rice-bowl-ginger-lime-dressing-recipe/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.OBpq8cu5IuXL6BiMFNSaCwHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://skinnytasted.com/wp-content/uploads/2025/07/Mango_Black_Bean_Rice_Bowl_with_Ginger_-1.webp",
+    "searchQuery": "Ginger Black Bean Rice Bowl plated recipe food",
+    "searchResultTitle": "Mango Black Bean Rice Bowl with Ginger Lime Dressing delights! - Skinny ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:15:58.103Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0985",
+    "name": "Ginger Black Bean Rice Bowl",
+    "description": "Ginger Black Bean Rice Bowl is a practical stovetop recipe pairing black beans with rice and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 519.81,
+      "proteinG": 17.175,
+      "carbohydratesG": 110.746,
+      "fatG": 3.312,
+      "sodiumMg": 746.64,
+      "potassiumMg": 1194.555,
+      "calciumMg": 108.175,
+      "ironMg": 3.454,
+      "magnesiumMg": 125.726,
+      "fiberG": 6.439,
+      "sugarsG": 3.676,
+      "vitaminCMg": 15.585
+    },
+    "estimatedCostPerServingUsd": 2.88,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

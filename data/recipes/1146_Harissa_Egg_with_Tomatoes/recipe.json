@@ -1,0 +1,266 @@
+{
+  "seedId": "REC-1146",
+  "candidate": {
+    "sequence": 1918,
+    "seedId": "REC-CAND-1918",
+    "name": "Harissa Egg with Tomatoes"
+  },
+  "name": "Harissa Egg with Tomatoes",
+  "description": "Harissa Egg with Tomatoes is a practical stovetop recipe pairing eggs with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.curiouscuisiniere.com/chakchouka/",
+    "domain": "curiouscuisiniere.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Tunisian Chakchouka source while retaining its closest matching dish form, cooking sequence, and applicable eggs or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Tunisia",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 50,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 4,
+      "sourceUnit": "medium",
+      "sourceDisplay": "4 medium tomatoes",
+      "normalizedQuantity": 248,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp olive oil",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 diced onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 sliced red bell pepper",
+      "normalizedQuantity": 119,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0061",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 sliced green bell pepper",
+      "normalizedQuantity": 119,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 3,
+      "sourceUnit": "cloves",
+      "sourceDisplay": "3 crushed garlic cloves",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp ground cumin",
+      "normalizedQuantity": 2.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp paprika",
+      "normalizedQuantity": 2.3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "½ tsp chili powder",
+      "normalizedQuantity": 1.35,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 4,
+      "sourceUnit": "large",
+      "sourceDisplay": "4 large eggs",
+      "normalizedQuantity": 200,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0088",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, eggs, and vegetables for harissa egg with tomatoes.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned eggs and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the harissa egg with tomatoes, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1103.15,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1003.23,
+      "proteinG": 38.453,
+      "carbohydratesG": 102.106,
+      "fatG": 51.273,
+      "fiberG": 18.756,
+      "sugarsG": 60.948,
+      "sodiumMg": 6713.163,
+      "potassiumMg": 2735.878,
+      "calciumMg": 290.226,
+      "ironMg": 12.947,
+      "magnesiumMg": 156.502,
+      "vitaminCMg": 379.844
+    },
+    "perServing": {
+      "calories": 250.808,
+      "proteinG": 9.613,
+      "carbohydratesG": 25.526,
+      "fatG": 12.818,
+      "fiberG": 4.689,
+      "sugarsG": 15.237,
+      "sodiumMg": 1678.291,
+      "potassiumMg": 683.97,
+      "calciumMg": 72.556,
+      "ironMg": 3.237,
+      "magnesiumMg": 39.126,
+      "vitaminCMg": 94.961
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 13.52,
+    "perServingUsd": 3.38,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-11-02T22:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.reddit.com/r/glutenfreerecipes/comments/zhhipl/turkish_eggs_with_harissa_cherry_tomatoes_and/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.s4Mncq69XWdXj6Cf1aO7tAHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://external-preview.redd.it/turkish-eggs-with-harissa-cherry-tomatoes-and-toasted-pitta-v0-qkBkfYTFPvkqs95MYhr1e_1ckU6ALi3IQag6rrQd2Qc.jpg?width=640&crop=smart&auto=webp&s=9140af01bba2feca56f5ecb6f578d8afb1e883a0",
+    "searchQuery": "Harissa Egg with Tomatoes plated recipe food",
+    "searchResultTitle": "Turkish eggs with harissa cherry tomatoes and toasted pitta bread : r ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:24:05.839Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1146",
+    "name": "Harissa Egg with Tomatoes",
+    "description": "Harissa Egg with Tomatoes is a practical stovetop recipe pairing eggs with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 250.808,
+      "proteinG": 9.613,
+      "carbohydratesG": 25.526,
+      "fatG": 12.818,
+      "fiberG": 4.689,
+      "sugarsG": 15.237,
+      "sodiumMg": 1678.291,
+      "potassiumMg": 683.97,
+      "calciumMg": 72.556,
+      "ironMg": 3.237,
+      "magnesiumMg": 39.126,
+      "vitaminCMg": 94.961
+    },
+    "estimatedCostPerServingUsd": 3.38,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly"
+    ]
+  }
+}

@@ -1,0 +1,244 @@
+{
+  "seedId": "REC-1102",
+  "candidate": {
+    "sequence": 1842,
+    "seedId": "REC-CAND-1842",
+    "name": "Harissa Tofu with Bell Peppers"
+  },
+  "name": "Harissa Tofu with Bell Peppers",
+  "description": "Harissa Tofu with Bell Peppers is a practical stovetop recipe pairing tofu with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.peta.org/recipes/buffalo-tofu-scramble-breakfast-tacos/",
+    "domain": "peta.org",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Tofu Scramble Breakfast Tacos source while retaining its closest matching dish form, cooking sequence, and applicable tofu or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tofu",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0018",
+      "sourceQuantity": 14,
+      "sourceUnit": "oz",
+      "sourceDisplay": "14 oz extra-firm tofu",
+      "normalizedQuantity": 396.9,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 8,
+      "sourceUnit": "tortillas",
+      "sourceDisplay": "8 whole-wheat tortillas",
+      "normalizedQuantity": 362.9,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups spinach",
+      "normalizedQuantity": 127.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup salsa",
+      "normalizedQuantity": 260,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp curry powder",
+      "normalizedQuantity": 2.3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0088",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tofu, and vegetables for harissa tofu with bell peppers.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tofu and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the harissa tofu with bell peppers, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2012.16,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2047.772,
+      "proteinG": 92.204,
+      "carbohydratesG": 308.543,
+      "fatG": 57.428,
+      "fiberG": 67.652,
+      "sugarsG": 70.178,
+      "sodiumMg": 10465.417,
+      "potassiumMg": 4879.22,
+      "calciumMg": 2079.745,
+      "ironMg": 27.18,
+      "magnesiumMg": 711.078,
+      "vitaminCMg": 501.802
+    },
+    "perServing": {
+      "calories": 511.943,
+      "proteinG": 23.051,
+      "carbohydratesG": 77.136,
+      "fatG": 14.357,
+      "fiberG": 16.913,
+      "sugarsG": 17.544,
+      "sodiumMg": 2616.354,
+      "potassiumMg": 1219.805,
+      "calciumMg": 519.936,
+      "ironMg": 6.795,
+      "magnesiumMg": 177.769,
+      "vitaminCMg": 125.451
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 20.72,
+    "perServingUsd": 5.18,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber"
+  ],
+  "createdAt": "2028-08-27T02:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "spoonandsip.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://spoonandsip.com/15-delicious-protein-packed-tofu-dinners-that-will-wow-meat-eaters/",
+    "originalSourceUrl": "https://spoonandsip.com/wp-content/uploads/2025/03/stuffed_bell_peppers_with_tofu_and_rice.jpg",
+    "discoveredOriginalUrl": "https://spoonandsip.com/wp-content/uploads/2025/03/stuffed_bell_peppers_with_tofu_and_rice.jpg",
+    "searchQuery": "Harissa Tofu with Bell Peppers plated recipe food",
+    "searchResultTitle": "15 Delicious Protein-Packed Tofu Dinners That Will Wow Meat Eaters ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:22:05.984Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1102",
+    "name": "Harissa Tofu with Bell Peppers",
+    "description": "Harissa Tofu with Bell Peppers is a practical stovetop recipe pairing tofu with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 511.943,
+      "proteinG": 23.051,
+      "carbohydratesG": 77.136,
+      "fatG": 14.357,
+      "fiberG": 16.913,
+      "sugarsG": 17.544,
+      "sodiumMg": 2616.354,
+      "potassiumMg": 1219.805,
+      "calciumMg": 519.936,
+      "ironMg": 6.795,
+      "magnesiumMg": 177.769,
+      "vitaminCMg": 125.451
+    },
+    "estimatedCostPerServingUsd": 5.18,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber"
+    ]
+  }
+}

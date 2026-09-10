@@ -1,0 +1,196 @@
+{
+  "seedId": "REC-1317",
+  "candidate": {
+    "sequence": 2111,
+    "seedId": "REC-CAND-2111",
+    "name": "American Sausage with Quinoa"
+  },
+  "name": "American Sausage with Quinoa",
+  "description": "American Sausage with Quinoa is a practical main meal adaptation built around sausage, quinoa, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.womanandhome.com/food/everyday-inspiration/japanese-hotdogs-sausage-ragu/",
+    "domain": "womanandhome.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Honey Soy Pork Tenderloin Quinoa Bowl source because it provides the closest validated pork and quinoa structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Japan",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 30,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "sausage",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0085",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, sausage, and quinoa for american sausage with quinoa.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned sausage and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the american sausage with quinoa, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1500,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3014.532,
+      "proteinG": 117.93,
+      "carbohydratesG": 202.59,
+      "fatG": 192.618,
+      "fiberG": 22.5,
+      "sugarsG": 0,
+      "sodiumMg": 4743.546,
+      "potassiumMg": 3745.473,
+      "calciumMg": 272.073,
+      "ironMg": 20.421,
+      "magnesiumMg": 619.8,
+      "vitaminCMg": 24.6
+    },
+    "perServing": {
+      "calories": 753.633,
+      "proteinG": 29.483,
+      "carbohydratesG": 50.648,
+      "fatG": 48.154,
+      "fiberG": 5.625,
+      "sugarsG": 0,
+      "sodiumMg": 1185.887,
+      "potassiumMg": 936.368,
+      "calciumMg": 68.018,
+      "ironMg": 5.105,
+      "magnesiumMg": 154.95,
+      "vitaminCMg": 6.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.34,
+    "perServingUsd": 1.58,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-07-24T13:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse2.explicit.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/355151120637743480/",
+    "originalSourceUrl": "https://tse2.explicit.bing.net/th/id/OIP.qAkt7JDH1q89r-G8vaBMNwHaLH?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/30/71/3a/30713a0d21fccd49aca9071a2b90ed41.jpg",
+    "searchQuery": "sausage with quinoa plated recipe food photograph",
+    "searchResultTitle": "Protein-Packed Italian Chicken Sausage Quinoa Casserole Recipe | Italian sausage and quinoa ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:38.599Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1317",
+    "name": "American Sausage with Quinoa",
+    "description": "American Sausage with Quinoa is a practical main meal adaptation built around sausage, quinoa, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 753.633,
+      "proteinG": 29.483,
+      "carbohydratesG": 50.648,
+      "fatG": 48.154,
+      "fiberG": 5.625,
+      "sugarsG": 0,
+      "sodiumMg": 1185.887,
+      "potassiumMg": 936.368,
+      "calciumMg": 68.018,
+      "ironMg": 5.105,
+      "magnesiumMg": 154.95,
+      "vitaminCMg": 6.15
+    },
+    "estimatedCostPerServingUsd": 1.58,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

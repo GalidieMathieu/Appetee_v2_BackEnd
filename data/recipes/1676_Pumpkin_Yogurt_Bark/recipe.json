@@ -1,0 +1,204 @@
+{
+  "seedId": "REC-1676",
+  "candidate": {
+    "sequence": 2475,
+    "seedId": "REC-CAND-2475",
+    "name": "Pumpkin Yogurt Bark"
+  },
+  "name": "Pumpkin Yogurt Bark",
+  "description": "Pumpkin Yogurt Bark is a practical dessert adaptation built around Greek yogurt, fruit, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.eatingwell.com/recipe/259080/strawberry-chocolate-greek-yogurt-bark/",
+    "domain": "eatingwell.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Greek Yogurt Berry Bark source because it provides the closest validated dairy and fruit structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 120,
+    "totalMinutes": 145
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "Freezer",
+  "primaryProtein": "Greek yogurt",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0112",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0057",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for pumpkin yogurt bark.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the Greek yogurt with the fruit and remaining ingredients in the intended dessert form.",
+    "Arrange the mixture in an even layer and freeze until firm.",
+    "Divide the pumpkin yogurt bark into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1446.946,
+      "proteinG": 65.776,
+      "carbohydratesG": 250.312,
+      "fatG": 17.674,
+      "fiberG": 33.06,
+      "sugarsG": 74.579,
+      "sodiumMg": 142.173,
+      "potassiumMg": 1980.028,
+      "calciumMg": 539.301,
+      "ironMg": 14.863,
+      "magnesiumMg": 437.564,
+      "vitaminCMg": 12.9
+    },
+    "perServing": {
+      "calories": 361.736,
+      "proteinG": 16.444,
+      "carbohydratesG": 62.578,
+      "fatG": 4.418,
+      "fiberG": 8.265,
+      "sugarsG": 18.645,
+      "sodiumMg": 35.543,
+      "potassiumMg": 495.007,
+      "calciumMg": 134.825,
+      "ironMg": 3.716,
+      "magnesiumMg": 109.391,
+      "vitaminCMg": 3.225
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.54,
+    "perServingUsd": 1.89,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2031-01-29T00:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse1.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://arkerecipes.com/yogurt-cup-layered-fall-sweets/",
+    "originalSourceUrl": "https://tse1.mm.bing.net/th/id/OIP.dUNRXXPIHE9HGRXpaty8xQHaNK?pid=Api",
+    "discoveredOriginalUrl": "https://arkerecipes.com/wp-content/uploads/2025/07/pumpkin_spice_yogurt_parfait_lhhm8.jpg",
+    "searchQuery": "pumpkin yogurt parfait dessert cup food photograph",
+    "searchResultTitle": "11 Yogurt Cup Layered Fall Sweets",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:40.227Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1676",
+    "name": "Pumpkin Yogurt Bark",
+    "description": "Pumpkin Yogurt Bark is a practical dessert adaptation built around Greek yogurt, fruit, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 145,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 361.736,
+      "proteinG": 16.444,
+      "carbohydratesG": 62.578,
+      "fatG": 4.418,
+      "fiberG": 8.265,
+      "sugarsG": 18.645,
+      "sodiumMg": 35.543,
+      "potassiumMg": 495.007,
+      "calciumMg": 134.825,
+      "ironMg": 3.716,
+      "magnesiumMg": 109.391,
+      "vitaminCMg": 3.225
+    },
+    "estimatedCostPerServingUsd": 1.89,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "High Fiber",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

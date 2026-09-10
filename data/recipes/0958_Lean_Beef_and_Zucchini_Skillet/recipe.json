@@ -1,0 +1,234 @@
+{
+  "seedId": "REC-0958",
+  "candidate": {
+    "sequence": 1573,
+    "seedId": "REC-CAND-1573",
+    "name": "Lean Beef and Zucchini Skillet"
+  },
+  "name": "Lean Beef and Zucchini Skillet",
+  "description": "Lean Beef and Zucchini Skillet is a practical stovetop recipe pairing lean beef with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.oliviascuisine.com/feijoada-recipe/",
+    "domain": "oliviascuisine.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Brazilian Black Bean Beef Skillet source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Brazil",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 50,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lean beef",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0083",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lean beef, and vegetables for lean beef and zucchini skillet.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lean beef and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the lean beef and zucchini skillet, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1566,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2241.252,
+      "proteinG": 150.169,
+      "carbohydratesG": 130.235,
+      "fatG": 124.722,
+      "fiberG": 11.195,
+      "sugarsG": 8.306,
+      "sodiumMg": 1398.716,
+      "potassiumMg": 4507.173,
+      "calciumMg": 428.43,
+      "ironMg": 23.657,
+      "magnesiumMg": 349.825,
+      "vitaminCMg": 90.576
+    },
+    "perServing": {
+      "calories": 560.313,
+      "proteinG": 37.542,
+      "carbohydratesG": 32.559,
+      "fatG": 31.18,
+      "fiberG": 2.799,
+      "sugarsG": 2.076,
+      "sodiumMg": 349.679,
+      "potassiumMg": 1126.793,
+      "calciumMg": 107.108,
+      "ironMg": 5.914,
+      "magnesiumMg": 87.456,
+      "vitaminCMg": 22.644
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 13.37,
+    "perServingUsd": 3.34,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-01-18T02:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://cleanfoodcrush.com/beef-and-zucchini-skillet/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.xF9fXuzli8BNhgvmS1r6VwHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://cleanfoodcrush.com/wp-content/uploads/2023/05/Beef-and-zucchini-skillet-6-800x800.jpg",
+    "searchQuery": "Lean Beef and Zucchini Skillet plated recipe food",
+    "searchResultTitle": "Beef and Zucchini Skillet | Clean Food Crush",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:14:35.289Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0958",
+    "name": "Lean Beef and Zucchini Skillet",
+    "description": "Lean Beef and Zucchini Skillet is a practical stovetop recipe pairing lean beef with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 560.313,
+      "proteinG": 37.542,
+      "carbohydratesG": 32.559,
+      "fatG": 31.18,
+      "fiberG": 2.799,
+      "sugarsG": 2.076,
+      "sodiumMg": 349.679,
+      "potassiumMg": 1126.793,
+      "calciumMg": 107.108,
+      "ironMg": 5.914,
+      "magnesiumMg": 87.456,
+      "vitaminCMg": 22.644
+    },
+    "estimatedCostPerServingUsd": 3.34,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Budget Friendly"
+    ]
+  }
+}

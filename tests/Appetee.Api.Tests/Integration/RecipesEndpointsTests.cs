@@ -2,6 +2,7 @@ using Appetee.Application.Dtos;
 using Appetee.Api.Tests.Infrastructure;
 using System.Net;
 using System.Net.Http.Json;
+using System.Text.Json;
 
 namespace Appetee.Api.Tests.Integration;
 
@@ -24,7 +25,10 @@ public sealed class RecipesEndpointsTests : IntegrationTestBase
         using var client = authClient;
 
         var response = await client.GetAsync("/api/recipes/1");
-        var recipe = await response.Content.ReadFromJsonAsync<RecipeDetailDto>();
+        var json = await response.Content.ReadAsStringAsync();
+        var recipe = JsonSerializer.Deserialize<RecipeDetailDto>(
+            json,
+            new JsonSerializerOptions(JsonSerializerDefaults.Web));
 
         Assert.Equal(HttpStatusCode.OK, response.StatusCode);
         Assert.NotNull(recipe);
@@ -32,11 +36,49 @@ public sealed class RecipesEndpointsTests : IntegrationTestBase
         Assert.Equal("Chicken Rice Bowl", recipe.Name);
         Assert.Equal("Medium", recipe.Difficulty);
         Assert.Equal(3, recipe.Instructions.Count);
+        Assert.Equal("Season the chicken", recipe.Instructions[0].Title);
+        Assert.Equal("Season and sear the chicken.", recipe.Instructions[0].Instruction);
+        Assert.Equal("Cook the sides", recipe.Instructions[1].Title);
+        Assert.Equal("Assemble the bowl", recipe.Instructions[2].Title);
         Assert.Equal(3, recipe.Ingredients.Count);
-        Assert.Contains(recipe.Badges!, badge => badge == "high-protein");
+        Assert.Contains(recipe.Badges!, badge => badge == "High Protein");
         Assert.Contains(recipe.Diets!, diet => diet.id == 2);
         Assert.Equal("Chicken Breast", recipe.Ingredients[0].Ingredient.Name);
-        Assert.StartsWith("https://test.local/recipes/", recipe.ImageUrl, StringComparison.Ordinal);
+        Assert.StartsWith("https://test.local/recipes/", recipe.PreviewImageUrl, StringComparison.Ordinal);
+
+        using var document = JsonDocument.Parse(json);
+        Assert.True(document.RootElement.TryGetProperty("previewImageUrl", out _));
+        Assert.False(document.RootElement.TryGetProperty("imageUrl", out _));
+        Assert.False(document.RootElement.TryGetProperty("cardImageUrl", out _));
+    }
+
+    [Fact]
+    public async Task GetRecipes_UsesCardImageAndFallsBackToMainImage()
+    {
+        var (authClient, _) = await CreateAuthenticatedClientAsync(
+            dietIds: new[] { 2 },
+            ingredientRestrictionIds: Array.Empty<int>());
+        using var client = authClient;
+        const string cardBlobName = "dataset/recipes/REC-0001/card.avif";
+        var mainBlobName = await Factory.Database.QuerySingleOrDefaultAsync<string>(
+            "SELECT image_blob_name FROM recipes WHERE id = 1;");
+
+        await Factory.Database.ExecuteAsync(
+            "UPDATE recipes SET card_image_blob_name = @cardBlobName WHERE id = 1;",
+            new { cardBlobName });
+
+        var withCard = await client.GetFromJsonAsync<RecipeDiscoveryPageDto>("/api/recipes");
+
+        Assert.NotNull(withCard);
+        Assert.Equal($"https://test.local/{cardBlobName}", withCard!.Items.Single(recipe => recipe.Id == 1).CardImageUrl);
+
+        await Factory.Database.ExecuteAsync(
+            "UPDATE recipes SET card_image_blob_name = NULL WHERE id = 1;");
+
+        var withoutCard = await client.GetFromJsonAsync<RecipeDiscoveryPageDto>("/api/recipes");
+
+        Assert.NotNull(withoutCard);
+        Assert.Equal($"https://test.local/{mainBlobName}", withoutCard!.Items.Single(recipe => recipe.Id == 1).CardImageUrl);
     }
 
     [Fact]

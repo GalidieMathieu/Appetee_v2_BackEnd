@@ -1,0 +1,236 @@
+{
+  "seedId": "REC-0645",
+  "candidate": {
+    "sequence": 984,
+    "seedId": "REC-CAND-0984",
+    "name": "Peruvian Steak with Quinoa"
+  },
+  "name": "Peruvian Steak with Quinoa",
+  "description": "Peruvian Steak with Quinoa is a practical stovetop recipe pairing steak with quinoa and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.frugalnutrition.com/mediterranean-quinoa-bowls/",
+    "domain": "frugalnutrition.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Mediterranean Lean Beef with Quinoa source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Mediterranean",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 60,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "steak",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0083",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, steak, and quinoa for peruvian steak with quinoa.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned steak and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the peruvian steak with quinoa, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1935,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2205.882,
+      "proteinG": 180.324,
+      "carbohydratesG": 223.965,
+      "fatG": 65.793,
+      "fiberG": 35.715,
+      "sugarsG": 28.14,
+      "sodiumMg": 405.096,
+      "potassiumMg": 6226.623,
+      "calciumMg": 416.223,
+      "ironMg": 25.086,
+      "magnesiumMg": 764.55,
+      "vitaminCMg": 508.08
+    },
+    "perServing": {
+      "calories": 551.471,
+      "proteinG": 45.081,
+      "carbohydratesG": 55.991,
+      "fatG": 16.448,
+      "fiberG": 8.929,
+      "sugarsG": 7.035,
+      "sodiumMg": 101.274,
+      "potassiumMg": 1556.656,
+      "calciumMg": 104.056,
+      "ironMg": 6.271,
+      "magnesiumMg": 191.137,
+      "vitaminCMg": 127.02
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 26.84,
+    "perServingUsd": 6.71,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber"
+  ],
+  "createdAt": "2026-09-22T13:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/482025966363306026/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.Usm8v0-AT1J8UD4Tn9PfjwHaJQ&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/4b/35/fe/4b35fe2409d323113ea811f71fb4458a.jpg",
+    "searchQuery": "Peruvian Steak with Quinoa plated recipe food",
+    "searchResultTitle": "Peruvian Quinoa Salad with Grilled Skirt Steak | Grilled skirt steak ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:58:38.346Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0645",
+    "name": "Peruvian Steak with Quinoa",
+    "description": "Peruvian Steak with Quinoa is a practical stovetop recipe pairing steak with quinoa and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 551.471,
+      "proteinG": 45.081,
+      "carbohydratesG": 55.991,
+      "fatG": 16.448,
+      "fiberG": 8.929,
+      "sugarsG": 7.035,
+      "sodiumMg": 101.274,
+      "potassiumMg": 1556.656,
+      "calciumMg": 104.056,
+      "ironMg": 6.271,
+      "magnesiumMg": 191.137,
+      "vitaminCMg": 127.02
+    },
+    "estimatedCostPerServingUsd": 6.71,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber"
+    ]
+  }
+}

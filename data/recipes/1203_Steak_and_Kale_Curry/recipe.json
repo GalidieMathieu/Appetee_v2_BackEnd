@@ -1,0 +1,216 @@
+{
+  "seedId": "REC-1203",
+  "candidate": {
+    "sequence": 1997,
+    "seedId": "REC-CAND-1997",
+    "name": "Steak and Kale Curry"
+  },
+  "name": "Steak and Kale Curry",
+  "description": "Steak and Kale Curry is a practical main meal adaptation built around steak, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://dinnerthendessert.com/mongolian-beef/",
+    "domain": "dinnerthendessert.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Lean Beef Curry Bowl source because it provides the closest validated beef and curry structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Mongolia",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "steak",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0097",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, steak, and vegetables for steak and kale curry.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned steak and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the steak and kale curry, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1070,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1260.932,
+      "proteinG": 146.719,
+      "carbohydratesG": 46.845,
+      "fatG": 53.935,
+      "fiberG": 20.975,
+      "sugarsG": 3.258,
+      "sodiumMg": 503.696,
+      "potassiumMg": 3850.923,
+      "calciumMg": 992.673,
+      "ironMg": 16.663,
+      "magnesiumMg": 280.5,
+      "vitaminCMg": 309.515
+    },
+    "perServing": {
+      "calories": 315.233,
+      "proteinG": 36.68,
+      "carbohydratesG": 11.711,
+      "fatG": 13.484,
+      "fiberG": 5.244,
+      "sugarsG": 0.815,
+      "sodiumMg": 125.924,
+      "potassiumMg": 962.731,
+      "calciumMg": 248.168,
+      "ironMg": 4.166,
+      "magnesiumMg": 70.125,
+      "vitaminCMg": 77.379
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 22.19,
+    "perServingUsd": 5.55,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Low Carb"
+  ],
+  "createdAt": "2029-01-29T19:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://churchfarmoxford.com/blogs/recipes/venison-steak-sweet-potato-and-kale-curry",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.MSKCT00P5cD2Rje9qhbMQwHaHa&pid=15.1",
+    "discoveredOriginalUrl": "http://churchfarmoxford.com/cdn/shop/articles/Copy_of_Venison_Steak_Sweet_Potato_Kale_Curry_Instagram_Post_Square_1200x1200.png?v=1667225901",
+    "searchQuery": "Steak and Kale Curry plated recipe food",
+    "searchResultTitle": "Venison Steak, Sweet Potato and Kale Curry – Church Farm Oxford",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:12:57.019Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1203",
+    "name": "Steak and Kale Curry",
+    "description": "Steak and Kale Curry is a practical main meal adaptation built around steak, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 315.233,
+      "proteinG": 36.68,
+      "carbohydratesG": 11.711,
+      "fatG": 13.484,
+      "fiberG": 5.244,
+      "sugarsG": 0.815,
+      "sodiumMg": 125.924,
+      "potassiumMg": 962.731,
+      "calciumMg": 248.168,
+      "ironMg": 4.166,
+      "magnesiumMg": 70.125,
+      "vitaminCMg": 77.379
+    },
+    "estimatedCostPerServingUsd": 5.55,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Low Carb"
+    ]
+  }
+}

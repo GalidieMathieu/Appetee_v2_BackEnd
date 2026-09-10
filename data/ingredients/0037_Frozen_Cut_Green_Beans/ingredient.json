@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0037",
+  "name": "Frozen Cut Green Beans",
+  "canonicalName": "Frozen Cut Green Beans",
+  "description": "Frozen cut green beans.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Frozen Cut Green Beans, 12 oz",
+    "productId": "576704015",
+    "productUrl": "https://www.walmart.com/ip/576704015",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 0.98,
+    "packageQuantity": 340.194,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 33,
+      "proteinG": 1.79,
+      "carbohydratesG": 7.54,
+      "fatG": 0.21,
+      "fiberG": 2.6,
+      "sugarsG": 2.21,
+      "sodiumMg": 3,
+      "potassiumMg": 186,
+      "calciumMg": 42,
+      "ironMg": 0.85,
+      "magnesiumMg": 22,
+      "vitaminCMg": 12.9
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.2881
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 169962,
+      "dataType": "SR Legacy",
+      "description": "Beans, snap, green, frozen, all styles, unprepared (Includes foods for USDA's Food Distribution Program)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/169962/nutrients",
+      "searchQuery": "beans snap green frozen unprepared",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.alamy.com/frozen-cut-green-string-beans-close-up-as-background-organic-healthy-vegetables-retain-all-vitamins-frozen-vegetables-for-reserve-real-food-sustai-image550000685.html",
+    "originalSourceUrl": "https://c8.alamy.com/comp/2PXPKDH/frozen-cut-green-string-beans-close-up-as-background-organic-healthy-vegetables-retain-all-vitamins-frozen-vegetables-for-reserve-real-food-sustai-2PXPKDH.jpg",
+    "searchQuery": "Frozen Cut Green Beans ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0037",
+    "name": "Frozen Cut Green Beans",
+    "description": "Frozen cut green beans.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 33,
+      "proteinG": 1.79,
+      "carbohydratesG": 7.54,
+      "fatG": 0.21,
+      "fiberG": 2.6,
+      "sugarsG": 2.21,
+      "sodiumMg": 3,
+      "potassiumMg": 186,
+      "calciumMg": 42,
+      "ironMg": 0.85,
+      "magnesiumMg": 22,
+      "vitaminCMg": 12.9
+    },
+    "price": {
+      "usdPerBasis": 0.2881,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0037_Frozen_Cut_Green_Beans/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "seedId": "REC-0270",
+  "candidate": {
+    "sequence": 288,
+    "seedId": "REC-CAND-0288",
+    "name": "Blackened Chicken with Corn"
+  },
+  "name": "Blackened Chicken with Corn",
+  "description": "Blackened Chicken with Corn is a practical stovetop recipe pairing chicken with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.reluctantgourmet.com/venezuelan-coconut-chicken/#recipe",
+    "domain": "reluctantgourmet.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Venezuelan Coconut Chicken source while retaining its closest matching dish form, cooking sequence, and applicable chicken or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Venezuela",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 50,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 2,
+      "sourceUnit": "breasts",
+      "sourceDisplay": "2 chicken breasts",
+      "normalizedQuantity": 340.2,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 2,
+      "sourceUnit": "medium",
+      "sourceDisplay": "2 chopped onions",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "clove",
+      "sourceDisplay": "1 crushed garlic clove",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0065",
+      "sourceQuantity": 4,
+      "sourceUnit": "leaves",
+      "sourceDisplay": "4 bay leaves",
+      "normalizedQuantity": 0.8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0091",
+      "sourceQuantity": 1,
+      "sourceUnit": "pinch",
+      "sourceDisplay": "1 pinch turmeric",
+      "normalizedQuantity": 0.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 1,
+      "sourceUnit": "pinch",
+      "sourceDisplay": "1 pinch cumin",
+      "normalizedQuantity": 0.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0052",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp sugar",
+      "normalizedQuantity": 12.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 tomatoes",
+      "normalizedQuantity": 186,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp ginger",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 0.33,
+      "sourceUnit": "cup",
+      "sourceDisplay": "⅓ cup olive oil",
+      "normalizedQuantity": 80,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can coconut milk",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chicken, and vegetables for blackened chicken with corn.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chicken and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the blackened chicken with corn, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1513.35,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2278.968,
+      "proteinG": 98.295,
+      "carbohydratesG": 124.335,
+      "fatG": 168.518,
+      "sodiumMg": 414.212,
+      "potassiumMg": 3964.54,
+      "calciumMg": 204.834,
+      "ironMg": 20.233,
+      "magnesiumMg": 429.202,
+      "fiberG": 18.701,
+      "vitaminCMg": 67.37,
+      "sugarsG": 27.609
+    },
+    "perServing": {
+      "calories": 569.742,
+      "proteinG": 24.574,
+      "carbohydratesG": 31.084,
+      "fatG": 42.13,
+      "sodiumMg": 103.553,
+      "potassiumMg": 991.135,
+      "calciumMg": 51.209,
+      "ironMg": 5.058,
+      "magnesiumMg": 107.3,
+      "fiberG": 4.675,
+      "vitaminCMg": 16.843,
+      "sugarsG": 6.902
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 9.09,
+    "perServingUsd": 2.27,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2025-02-21T10:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://cleanfoodcrush.com/blackened-chicken-with-creamy-corn/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.aHXKrRNyNx_mBAsMHOpg3wHaJQ&pid=15.1",
+    "discoveredOriginalUrl": "https://cleanfoodcrush.com/wp-content/uploads/2019/10/CleanFoodCrush-Blackened-Chicken-with-Creamy-Corn-480x600.jpg",
+    "searchQuery": "Blackened Chicken with Corn plated recipe food",
+    "searchResultTitle": "Blackened Chicken with Creamy Corn + Ripe Cherry Tomatoes! | Clean Food ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:38:34.637Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0270",
+    "name": "Blackened Chicken with Corn",
+    "description": "Blackened Chicken with Corn is a practical stovetop recipe pairing chicken with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 569.742,
+      "proteinG": 24.574,
+      "carbohydratesG": 31.084,
+      "fatG": 42.13,
+      "sodiumMg": 103.553,
+      "potassiumMg": 991.135,
+      "calciumMg": 51.209,
+      "ironMg": 5.058,
+      "magnesiumMg": 107.3,
+      "fiberG": 4.675,
+      "vitaminCMg": 16.843,
+      "sugarsG": 6.902
+    },
+    "estimatedCostPerServingUsd": 2.27,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

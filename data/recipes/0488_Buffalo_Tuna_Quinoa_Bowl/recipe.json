@@ -1,0 +1,248 @@
+{
+  "seedId": "REC-0488",
+  "candidate": {
+    "sequence": 682,
+    "seedId": "REC-CAND-0682",
+    "name": "Buffalo Tuna Quinoa Bowl"
+  },
+  "name": "Buffalo Tuna Quinoa Bowl",
+  "description": "Buffalo Tuna Quinoa Bowl is a practical stovetop recipe pairing tuna with quinoa and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://b2b.chickenofthesea.com/recipes/tuna-taco-bowl/",
+    "domain": "b2b.chickenofthesea.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Tuna Taco Bowl source while retaining its closest matching dish form, cooking sequence, and applicable tuna or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tuna",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0025",
+      "sourceQuantity": 340,
+      "sourceUnit": "g",
+      "sourceDisplay": "340 g",
+      "normalizedQuantity": 340,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tuna, and quinoa for buffalo tuna quinoa bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tuna and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the buffalo tuna quinoa bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1955,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2255.45,
+      "proteinG": 167.035,
+      "carbohydratesG": 350.128,
+      "fatG": 26.895,
+      "fiberG": 38.672,
+      "sugarsG": 10.153,
+      "sodiumMg": 3243.42,
+      "potassiumMg": 5601.75,
+      "calciumMg": 519.407,
+      "ironMg": 29.131,
+      "magnesiumMg": 884.235,
+      "vitaminCMg": 42.724
+    },
+    "perServing": {
+      "calories": 563.862,
+      "proteinG": 41.759,
+      "carbohydratesG": 87.532,
+      "fatG": 6.724,
+      "fiberG": 9.668,
+      "sugarsG": 2.538,
+      "sodiumMg": 810.855,
+      "potassiumMg": 1400.438,
+      "calciumMg": 129.852,
+      "ironMg": 7.283,
+      "magnesiumMg": 221.059,
+      "vitaminCMg": 10.681
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.74,
+    "perServingUsd": 2.19,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-01-23T12:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://divecrave.com/tuna-quinoa-bowl-recipe/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.OG7cYA8SNBSycDCDQd8KMQHaDt&pid=15.1",
+    "discoveredOriginalUrl": "https://divecrave.com/wp-content/uploads/2026/04/Tuna-Quinoa-Bowl-Recipe.jpg",
+    "searchQuery": "Buffalo Tuna Quinoa Bowl plated recipe food",
+    "searchResultTitle": "Tuna Quinoa Bowl Recipe - Dive Crave",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:50:24.801Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0488",
+    "name": "Buffalo Tuna Quinoa Bowl",
+    "description": "Buffalo Tuna Quinoa Bowl is a practical stovetop recipe pairing tuna with quinoa and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 563.862,
+      "proteinG": 41.759,
+      "carbohydratesG": 87.532,
+      "fatG": 6.724,
+      "fiberG": 9.668,
+      "sugarsG": 2.538,
+      "sodiumMg": 810.855,
+      "potassiumMg": 1400.438,
+      "calciumMg": 129.852,
+      "ironMg": 7.283,
+      "magnesiumMg": 221.059,
+      "vitaminCMg": 10.681
+    },
+    "estimatedCostPerServingUsd": 2.19,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

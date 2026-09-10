@@ -1,0 +1,232 @@
+{
+  "seedId": "REC-0686",
+  "candidate": {
+    "sequence": 1069,
+    "seedId": "REC-CAND-1069",
+    "name": "Moroccan Egg Wraps"
+  },
+  "name": "Moroccan Egg Wraps",
+  "description": "Moroccan Egg Wraps is a practical no-cook recipe pairing eggs with tortilla and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.thekitchn.com/recipe-spinach-feta-breakfast-wraps-recipes-from-the-kitchn-210526",
+    "domain": "thekitchn.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Spinach Egg Breakfast Wraps source while retaining its closest matching dish form, cooking sequence, and applicable eggs or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 4,
+      "sourceUnit": "tortillas",
+      "sourceDisplay": "4 whole-wheat tortillas",
+      "normalizedQuantity": 181.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 8,
+      "sourceUnit": "large",
+      "sourceDisplay": "8 eggs",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups spinach",
+      "normalizedQuantity": 170,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 2,
+      "sourceUnit": "medium",
+      "sourceDisplay": "2 Roma tomatoes",
+      "normalizedQuantity": 124,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0035",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup cottage cheese",
+      "normalizedQuantity": 226,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Drain, rinse, chop, and measure the ingredients for moroccan egg wraps.",
+    "Whisk the dressing ingredients until they form an even, well-seasoned mixture.",
+    "Fold the eggs together with the vegetables and dressing without crushing the ingredients.",
+    "Arrange the tortilla and dressed mixture evenly in four portions.",
+    "Serve the moroccan egg wraps immediately or refrigerate it in sealed meal-prep containers."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1377,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1746.362,
+      "proteinG": 106.835,
+      "carbohydratesG": 135.065,
+      "fatG": 86.792,
+      "fiberG": 30.21,
+      "sugarsG": 16.57,
+      "sodiumMg": 2742.894,
+      "potassiumMg": 2710.131,
+      "calciumMg": 1108.599,
+      "ironMg": 16.883,
+      "magnesiumMg": 385.38,
+      "vitaminCMg": 55.618
+    },
+    "perServing": {
+      "calories": 436.591,
+      "proteinG": 26.709,
+      "carbohydratesG": 33.766,
+      "fatG": 21.698,
+      "fiberG": 7.553,
+      "sugarsG": 4.143,
+      "sodiumMg": 685.723,
+      "potassiumMg": 677.533,
+      "calciumMg": 277.15,
+      "ironMg": 4.221,
+      "magnesiumMg": 96.345,
+      "vitaminCMg": 13.905
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.23,
+    "perServingUsd": 1.31,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-11-24T18:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.telegraph.co.uk/foodanddrink/recipes/10288637/Moroccan-egg-potato-and-olive-pitta-wraps-recipe.html",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.Y7TcMZbSu92M0-cvCsreiQHaEo&pid=15.1",
+    "discoveredOriginalUrl": "https://www.telegraph.co.uk/multimedia/archive/02662/steviegg_2662358b.jpg",
+    "searchQuery": "Moroccan Egg Wraps plated recipe food",
+    "searchResultTitle": "Moroccan egg, potato and olive pitta wraps recipe",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:00:43.284Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0686",
+    "name": "Moroccan Egg Wraps",
+    "description": "Moroccan Egg Wraps is a practical no-cook recipe pairing eggs with tortilla and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 436.591,
+      "proteinG": 26.709,
+      "carbohydratesG": 33.766,
+      "fatG": 21.698,
+      "fiberG": 7.553,
+      "sugarsG": 4.143,
+      "sodiumMg": 685.723,
+      "potassiumMg": 677.533,
+      "calciumMg": 277.15,
+      "ironMg": 4.221,
+      "magnesiumMg": 96.345,
+      "vitaminCMg": 13.905
+    },
+    "estimatedCostPerServingUsd": 1.31,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly"
+    ]
+  }
+}

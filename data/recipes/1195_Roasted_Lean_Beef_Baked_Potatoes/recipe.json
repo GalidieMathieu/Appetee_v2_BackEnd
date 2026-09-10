@@ -1,0 +1,210 @@
+{
+  "seedId": "REC-1195",
+  "candidate": {
+    "sequence": 1989,
+    "seedId": "REC-CAND-1989",
+    "name": "Roasted Lean Beef Baked Potatoes"
+  },
+  "name": "Roasted Lean Beef Baked Potatoes",
+  "description": "Roasted Lean Beef Baked Potatoes is a practical main meal adaptation built around lean beef, potatoes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/must-make-moussaka",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Spicy Lean Beef Baked Potatoes source because it provides the closest validated beef and potatoes structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Greece",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "lean beef",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for roasted lean beef baked potatoes and preheat the oven.",
+    "Coat the lean beef and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the potatoes and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the roasted lean beef baked potatoes briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1095,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1904.682,
+      "proteinG": 121.464,
+      "carbohydratesG": 85.095,
+      "fatG": 117.765,
+      "fiberG": 9.915,
+      "sugarsG": 2.01,
+      "sodiumMg": 417.096,
+      "potassiumMg": 3627.423,
+      "calciumMg": 201.423,
+      "ironMg": 16.368,
+      "magnesiumMg": 207.75,
+      "vitaminCMg": 46.38
+    },
+    "perServing": {
+      "calories": 476.171,
+      "proteinG": 30.366,
+      "carbohydratesG": 21.274,
+      "fatG": 29.441,
+      "fiberG": 2.479,
+      "sugarsG": 0.502,
+      "sodiumMg": 104.274,
+      "potassiumMg": 906.856,
+      "calciumMg": 50.356,
+      "ironMg": 4.092,
+      "magnesiumMg": 51.938,
+      "vitaminCMg": 11.595
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 11.51,
+    "perServingUsd": 2.88,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-01-17T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.solin.stream/recipes/254882/crispy-baked-potato-with-lean-ground-beef-and-roasted-vegetables",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.3ODreX1bo8jFyNscn8P3DQHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://res.cloudinary.com/solin-fitness/image/upload/c_scale,w_500,q_auto,f_auto/single-meal-images/euenhal5fyofdxxq9dnk",
+    "searchQuery": "Roasted Lean Beef Baked Potatoes plated recipe food",
+    "searchResultTitle": "Crispy Baked Potato with Lean Ground Beef and Roasted Vegetables",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:12:32.220Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1195",
+    "name": "Roasted Lean Beef Baked Potatoes",
+    "description": "Roasted Lean Beef Baked Potatoes is a practical main meal adaptation built around lean beef, potatoes, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 476.171,
+      "proteinG": 30.366,
+      "carbohydratesG": 21.274,
+      "fatG": 29.441,
+      "fiberG": 2.479,
+      "sugarsG": 0.502,
+      "sodiumMg": 104.274,
+      "potassiumMg": 906.856,
+      "calciumMg": 50.356,
+      "ironMg": 4.092,
+      "magnesiumMg": 51.938,
+      "vitaminCMg": 11.595
+    },
+    "estimatedCostPerServingUsd": 2.88,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

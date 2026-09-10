@@ -1,0 +1,109 @@
+{
+  "seedId": "ING-0002",
+  "name": "Jasmine Rice",
+  "canonicalName": "Jasmine Rice",
+  "description": "Dry long-grain jasmine rice.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Jasmine Rice, 5 lb",
+    "productId": "36874821",
+    "productUrl": "https://www.walmart.com/ip/36874821",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 7.23,
+    "packageQuantity": 2267.962,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 359,
+      "proteinG": 7.04,
+      "carbohydratesG": 80.3,
+      "fatG": 1.03,
+      "fiberG": 0.149,
+      "sodiumMg": 0.462,
+      "potassiumMg": 82.3,
+      "calciumMg": 4.46,
+      "ironMg": 0.14,
+      "magnesiumMg": 26.5
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.3188
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 2512381,
+      "dataType": "Foundation",
+      "description": "Rice, white, long grain, unenriched, raw",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2512381/nutrients",
+      "searchQuery": "rice white long-grain regular raw unenriched",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://api.nal.usda.gov/fdc/v1/foods/search?api_key=REDACTED&query=rice+white+long-grain+regular+raw+unenriched&pageSize=25"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/36874821",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Great-Value-Jasmine-Rice-5-lb_3343fbcb-8fdc-4b38-9fb5-61e59881d4d3.5dce4c5cef7f4e008db2f48898daa234.jpeg",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0002",
+    "name": "Jasmine Rice",
+    "description": "Dry long-grain jasmine rice.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 359,
+      "proteinG": 7.04,
+      "carbohydratesG": 80.3,
+      "fatG": 1.03,
+      "fiberG": 0.149,
+      "sodiumMg": 0.462,
+      "potassiumMg": 82.3,
+      "calciumMg": 4.46,
+      "ironMg": 0.14,
+      "magnesiumMg": 26.5
+    },
+    "price": {
+      "usdPerBasis": 0.3188,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0002_Jasmine_Rice/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

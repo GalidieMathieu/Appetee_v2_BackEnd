@@ -1,0 +1,242 @@
+{
+  "seedId": "REC-0068",
+  "name": "Egyptian Koshari-Style Lentil Rice",
+  "description": "A streamlined Egyptian-inspired bowl of lentils, chickpeas, rice, pasta, tomato, and browned onion.",
+  "source": {
+    "url": "https://www.saveur.com/recipes/egyptian-koshari/",
+    "domain": "saveur.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Egypt",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 45,
+    "totalMinutes": 65
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "rice and pasta",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup dry lentils",
+      "normalizedQuantity": 192,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 2.5,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 1.25,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1¼ cups dry rice",
+      "normalizedQuantity": 231.3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0039",
+      "sourceQuantity": 8,
+      "sourceUnit": "oz",
+      "sourceDisplay": "8 oz dry penne",
+      "normalizedQuantity": 226.8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 2.5,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can chickpeas, drained",
+      "normalizedQuantity": 250,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans diced tomatoes",
+      "normalizedQuantity": 822.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 2,
+      "sourceUnit": "medium",
+      "sourceDisplay": "2 onions",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 2,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "2 tsp cumin",
+      "normalizedQuantity": 4.2,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp vinegar",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Cook the lentils, rice, and pasta separately until each is tender.",
+    "Brown the sliced onions slowly in a wide skillet.",
+    "Simmer tomatoes with garlic, cumin, and vinegar into a thick sauce.",
+    "Layer grains, lentils, chickpeas, sauce, and browned onions in bowls."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 3130.7,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3001.576,
+      "proteinG": 121.722,
+      "carbohydratesG": 593.358,
+      "fatG": 20.039,
+      "fiberG": 50.602,
+      "sugarsG": 20.344,
+      "sodiumMg": 1682.943,
+      "potassiumMg": 4642.171,
+      "calciumMg": 597.647,
+      "ironMg": 31.613,
+      "magnesiumMg": 464.941,
+      "vitaminCMg": 38.493
+    },
+    "perServing": {
+      "calories": 500.263,
+      "proteinG": 20.287,
+      "carbohydratesG": 98.893,
+      "fatG": 3.34,
+      "fiberG": 8.434,
+      "sugarsG": 3.391,
+      "sodiumMg": 280.49,
+      "potassiumMg": 773.695,
+      "calciumMg": 99.608,
+      "ironMg": 5.269,
+      "magnesiumMg": 77.49,
+      "vitaminCMg": 6.416
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.57,
+    "perServingUsd": 0.93,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-04-16T00:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "www.jacklinrecipes.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.jacklinrecipes.com/koshari-egyptian-lentils-pasta-and-rice/",
+    "originalSourceUrl": "https://www.jacklinrecipes.com/wp-content/uploads/2026/01/azqmuq2qk8ifcnjjmraw.webp",
+    "discoveredOriginalUrl": "https://www.jacklinrecipes.com/wp-content/uploads/2026/01/azqmuq2qk8ifcnjjmraw.webp",
+    "searchQuery": "Egyptian Koshari-Style Lentil Rice plated recipe food",
+    "searchResultTitle": "Koshari: Easy Egyptian Lentils, Pasta, and Rice Comfort Dish - Jacklin ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:08:13.008Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0068",
+    "name": "Egyptian Koshari-Style Lentil Rice",
+    "description": "A streamlined Egyptian-inspired bowl of lentils, chickpeas, rice, pasta, tomato, and browned onion.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 500.263,
+      "proteinG": 20.287,
+      "carbohydratesG": 98.893,
+      "fatG": 3.34,
+      "fiberG": 8.434,
+      "sugarsG": 3.391,
+      "sodiumMg": 280.49,
+      "potassiumMg": 773.695,
+      "calciumMg": 99.608,
+      "ironMg": 5.269,
+      "magnesiumMg": 77.49,
+      "vitaminCMg": 6.416
+    },
+    "estimatedCostPerServingUsd": 0.93,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

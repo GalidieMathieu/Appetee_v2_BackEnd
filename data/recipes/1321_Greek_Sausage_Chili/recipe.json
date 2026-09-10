@@ -1,0 +1,228 @@
+{
+  "seedId": "REC-1321",
+  "candidate": {
+    "sequence": 2115,
+    "seedId": "REC-CAND-2115",
+    "name": "Greek Sausage Chili"
+  },
+  "name": "Greek Sausage Chili",
+  "description": "Greek Sausage Chili is a practical main meal adaptation built around sausage, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://omnivorescookbook.com/pork-fried-rice/",
+    "domain": "omnivorescookbook.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Pesto Pork Tenderloin with Green Beans source because it provides the closest validated pork and chili structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Greece",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 20,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "sausage",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0085",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, sausage, and legumes for greek sausage chili.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned sausage and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the greek sausage chili, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1105,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2268.882,
+      "proteinG": 89.724,
+      "carbohydratesG": 86.62,
+      "fatG": 180.385,
+      "fiberG": 17.9,
+      "sugarsG": 8.524,
+      "sodiumMg": 4886.996,
+      "potassiumMg": 3079.923,
+      "calciumMg": 292.373,
+      "ironMg": 13.428,
+      "magnesiumMg": 191.1,
+      "vitaminCMg": 188.36
+    },
+    "perServing": {
+      "calories": 567.221,
+      "proteinG": 22.431,
+      "carbohydratesG": 21.655,
+      "fatG": 45.096,
+      "fiberG": 4.475,
+      "sugarsG": 2.131,
+      "sodiumMg": 1221.749,
+      "potassiumMg": 769.981,
+      "calciumMg": 73.093,
+      "ironMg": 3.357,
+      "magnesiumMg": 47.775,
+      "vitaminCMg": 47.09
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.23,
+    "perServingUsd": 1.56,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-07-30T17:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.explicit.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://makethebestofeverything.com/2022/08/the-best-greek-chili-recipe-authentic-and-delicious/",
+    "originalSourceUrl": "https://ts3.explicit.bing.net/th?id=OIP.GzsEMqVxPwef8-FAacUFYwHaK0&pid=15.1",
+    "discoveredOriginalUrl": "https://b2534847.smushcdn.com/2534847/wp-content/uploads/2022/08/Greek-Chili-17-scaled.jpg?lossy=0&strip=1&webp=1",
+    "searchQuery": "Greek Sausage Chili plated recipe food",
+    "searchResultTitle": "The Best Greek Chili Recipe (Authentic And Delicious) - Make the Best ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:18:56.416Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1321",
+    "name": "Greek Sausage Chili",
+    "description": "Greek Sausage Chili is a practical main meal adaptation built around sausage, legumes, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 567.221,
+      "proteinG": 22.431,
+      "carbohydratesG": 21.655,
+      "fatG": 45.096,
+      "fiberG": 4.475,
+      "sugarsG": 2.131,
+      "sodiumMg": 1221.749,
+      "potassiumMg": 769.981,
+      "calciumMg": 73.093,
+      "ironMg": 3.357,
+      "magnesiumMg": 47.775,
+      "vitaminCMg": 47.09
+    },
+    "estimatedCostPerServingUsd": 1.56,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Meal Prep"
+    ]
+  }
+}

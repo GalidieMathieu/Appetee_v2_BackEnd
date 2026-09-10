@@ -1,0 +1,200 @@
+{
+  "seedId": "REC-1549",
+  "candidate": {
+    "sequence": 2347,
+    "seedId": "REC-CAND-2347",
+    "name": "Lemon Cucumber Salad"
+  },
+  "name": "Lemon Cucumber Salad",
+  "description": "Lemon Cucumber Salad is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/153802/algerian-flafla-bell-pepper-salad/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Algerian Flafla Bell Pepper Salad source because it provides the closest validated salad structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Algeria",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Side",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0101",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for lemon cucumber salad.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the vegetables with the vegetables and remaining ingredients in the intended side form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the lemon cucumber salad into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 900,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 427.332,
+      "proteinG": 7.89,
+      "carbohydratesG": 50.52,
+      "fatG": 29.13,
+      "fiberG": 13.5,
+      "sugarsG": 20.4,
+      "sodiumMg": 27.546,
+      "potassiumMg": 1566.273,
+      "calciumMg": 156.273,
+      "ironMg": 3.603,
+      "magnesiumMg": 96,
+      "vitaminCMg": 208.5
+    },
+    "perServing": {
+      "calories": 106.833,
+      "proteinG": 1.972,
+      "carbohydratesG": 12.63,
+      "fatG": 7.282,
+      "fiberG": 3.375,
+      "sugarsG": 5.1,
+      "sodiumMg": 6.886,
+      "potassiumMg": 391.568,
+      "calciumMg": 39.068,
+      "ironMg": 0.901,
+      "magnesiumMg": 24,
+      "vitaminCMg": 52.125
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.17,
+    "perServingUsd": 0.79,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-07-17T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse3.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://homecookyummy.com/creamy-lemon-cucumber-salad/",
+    "originalSourceUrl": "https://tse3.mm.bing.net/th/id/OIP._taJLTIiwPro7cMqoPbX6gHaLG?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://homecookyummy.com/wp-content/uploads/2026/02/2-19.png",
+    "searchQuery": "lemon cucumber salad plated recipe food photograph",
+    "searchResultTitle": "Creamy Lemon Cucumber Salad",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:05.510Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1549",
+    "name": "Lemon Cucumber Salad",
+    "description": "Lemon Cucumber Salad is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 106.833,
+      "proteinG": 1.972,
+      "carbohydratesG": 12.63,
+      "fatG": 7.282,
+      "fiberG": 3.375,
+      "sugarsG": 5.1,
+      "sodiumMg": 6.886,
+      "potassiumMg": 391.568,
+      "calciumMg": 39.068,
+      "ironMg": 0.901,
+      "magnesiumMg": 24,
+      "vitaminCMg": 52.125
+    },
+    "estimatedCostPerServingUsd": 0.79,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

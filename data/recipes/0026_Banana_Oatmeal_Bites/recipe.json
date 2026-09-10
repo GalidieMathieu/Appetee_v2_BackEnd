@@ -1,0 +1,178 @@
+{
+  "seedId": "REC-0026",
+  "name": "Banana Oatmeal Bites",
+  "description": "Soft portable oat bites sweetened with banana and cinnamon.",
+  "source": {
+    "url": "https://www.food.com/recipe/banana-oatmeal-bites-514723",
+    "domain": "food.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 12,
+    "totalMinutes": 22
+  },
+  "servings": 8,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Snack",
+  "cookingMethod": "Oven",
+  "primaryProtein": "oats",
+  "carbohydrateBase": "oats",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups quick oats",
+      "normalizedQuantity": 160,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0033",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 ripe bananas",
+      "normalizedQuantity": 354,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0047",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp ground cinnamon",
+      "normalizedQuantity": 2.6,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    }
+  ],
+  "instructions": [
+    "Heat the oven to 350°F and line a baking sheet.",
+    "Mash the bananas, then stir in the oats and cinnamon.",
+    "Scoop eight mounds onto the sheet and flatten them slightly.",
+    "Bake until the edges are set and cool before packing."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 481.2,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 927.882,
+      "proteinG": 25.082,
+      "carbohydratesG": 191.128,
+      "fatG": 11.632,
+      "fiberG": 26.745,
+      "sugarsG": 44.828,
+      "sodiumMg": 13.4,
+      "potassiumMg": 1857.726,
+      "calciumMg": 126.9,
+      "ironMg": 7.937,
+      "magnesiumMg": 317.94,
+      "vitaminCMg": 30.897
+    },
+    "perServing": {
+      "calories": 115.985,
+      "proteinG": 3.135,
+      "carbohydratesG": 23.891,
+      "fatG": 1.454,
+      "fiberG": 3.343,
+      "sugarsG": 5.604,
+      "sodiumMg": 1.675,
+      "potassiumMg": 232.216,
+      "calciumMg": 15.863,
+      "ironMg": 0.992,
+      "magnesiumMg": 39.742,
+      "vitaminCMg": 3.862
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 1.07,
+    "perServingUsd": 0.13,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Quick Meal",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-02-11T06:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "img.sndimg.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.food.com/recipe/banana-oatmeal-bites-514723",
+    "originalSourceUrl": "https://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/51/47/23/QAqAa8R3Q9CtNeOOBbtu-PAC-2014-005.JPG",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0026",
+    "name": "Banana Oatmeal Bites",
+    "description": "Soft portable oat bites sweetened with banana and cinnamon.",
+    "mealType": "Breakfast",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 22,
+    "servings": 8,
+    "nutritionPerServing": {
+      "calories": 115.985,
+      "proteinG": 3.135,
+      "carbohydratesG": 23.891,
+      "fatG": 1.454,
+      "fiberG": 3.343,
+      "sugarsG": 5.604,
+      "sodiumMg": 1.675,
+      "potassiumMg": 232.216,
+      "calciumMg": 15.863,
+      "ironMg": 0.992,
+      "magnesiumMg": 39.742,
+      "vitaminCMg": 3.862
+    },
+    "estimatedCostPerServingUsd": 0.13,
+    "diets": [
+      "Vegetarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Quick Meal",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

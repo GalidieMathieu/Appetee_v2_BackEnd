@@ -1,0 +1,206 @@
+{
+  "seedId": "REC-0016",
+  "name": "Tomato Lentil Spinach Soup",
+  "description": "A simple lentil soup with tomatoes, onion, spinach, and garlic.",
+  "source": {
+    "url": "https://cookieandkate.com/best-lentil-soup-recipe/",
+    "domain": "cookieandkate.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups dry lentils",
+      "normalizedQuantity": 384,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 2.5,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans diced tomatoes",
+      "normalizedQuantity": 822.136,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "large",
+      "sourceDisplay": "1 large onion",
+      "normalizedQuantity": 200,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 12,
+      "sourceUnit": "oz",
+      "sourceDisplay": "12 oz spinach",
+      "normalizedQuantity": 340.194,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp olive oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Soften diced onion in olive oil in a soup pot.",
+    "Stir in garlic, lentils, tomatoes, and enough water to cover by several inches.",
+    "Simmer until lentils are tender, adding water if the soup becomes too thick.",
+    "Stir in spinach and cook until evenly hot."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 2296.811,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1817.337,
+      "proteinG": 116.333,
+      "carbohydratesG": 307.258,
+      "fatG": 23.945,
+      "fiberG": 55.069,
+      "sugarsG": 10.156,
+      "sodiumMg": 1307.277,
+      "potassiumMg": 5828.867,
+      "calciumMg": 877.178,
+      "ironMg": 37.006,
+      "magnesiumMg": 537.945,
+      "vitaminCMg": 57.071
+    },
+    "perServing": {
+      "calories": 302.889,
+      "proteinG": 19.389,
+      "carbohydratesG": 51.21,
+      "fatG": 3.991,
+      "fiberG": 9.178,
+      "sugarsG": 1.693,
+      "sodiumMg": 217.88,
+      "potassiumMg": 971.478,
+      "calciumMg": 146.196,
+      "ironMg": 6.168,
+      "magnesiumMg": 89.658,
+      "vitaminCMg": 9.512
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.54,
+    "perServingUsd": 0.92,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-01-26T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "provenance": "Public source-page image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://cookieandkate.com/best-lentil-soup-recipe/",
+    "originalSourceUrl": "https://cookieandkate.com/images/2019/01/best-lentil-soup-recipe-4.jpg",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0016",
+    "name": "Tomato Lentil Spinach Soup",
+    "description": "A simple lentil soup with tomatoes, onion, spinach, and garlic.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": {
+      "main": "recipes/0016_Tomato_Lentil_Spinach_Soup/assets/main.avif",
+      "card": "recipes/0016_Tomato_Lentil_Spinach_Soup/assets/card.avif"
+    },
+    "totalTimeMinutes": 55,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 302.889,
+      "proteinG": 19.389,
+      "carbohydratesG": 51.21,
+      "fatG": 3.991,
+      "fiberG": 9.178,
+      "sugarsG": 1.693,
+      "sodiumMg": 217.88,
+      "potassiumMg": 971.478,
+      "calciumMg": 146.196,
+      "ironMg": 6.168,
+      "magnesiumMg": 89.658,
+      "vitaminCMg": 9.512
+    },
+    "estimatedCostPerServingUsd": 0.92,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

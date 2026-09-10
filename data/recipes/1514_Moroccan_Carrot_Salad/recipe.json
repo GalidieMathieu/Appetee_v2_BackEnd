@@ -1,0 +1,200 @@
+{
+  "seedId": "REC-1514",
+  "candidate": {
+    "sequence": 2312,
+    "seedId": "REC-CAND-2312",
+    "name": "Moroccan Carrot Salad"
+  },
+  "name": "Moroccan Carrot Salad",
+  "description": "Moroccan Carrot Salad is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/153802/algerian-flafla-bell-pepper-salad/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Algerian Flafla Bell Pepper Salad source because it provides the closest validated salad structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Morocco",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "totalMinutes": 20
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Side",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0088",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for moroccan carrot salad.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the vegetables with the vegetables and remaining ingredients in the intended side form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the moroccan carrot salad into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 900,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 652.332,
+      "proteinG": 11.4,
+      "carbohydratesG": 87.36,
+      "fatG": 31.59,
+      "fiberG": 16.5,
+      "sugarsG": 65.79,
+      "sodiumMg": 6387.546,
+      "potassiumMg": 2307.273,
+      "calciumMg": 105.273,
+      "ironMg": 7.173,
+      "magnesiumMg": 117,
+      "vitaminCMg": 505.8
+    },
+    "perServing": {
+      "calories": 163.083,
+      "proteinG": 2.85,
+      "carbohydratesG": 21.84,
+      "fatG": 7.897,
+      "fiberG": 4.125,
+      "sugarsG": 16.448,
+      "sodiumMg": 1596.887,
+      "potassiumMg": 576.818,
+      "calciumMg": 26.318,
+      "ironMg": 1.793,
+      "magnesiumMg": 29.25,
+      "vitaminCMg": 126.45
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 14,
+    "perServingUsd": 3.5,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-05-24T06:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://recipesbynatalie.com/moroccan-carrot-salad/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.5XGiY8uY_Itd_uYqRf29JwHaJQ&pid=15.1",
+    "discoveredOriginalUrl": "https://www.recipesbynatalie.com/wp-content/uploads/2025/04/chini1_39852_This_Moroccan_Carrot_Salad_is_a_vibrant_and_flavor_41c825c9-b725-4526-b47f-64d500c73962.jpg",
+    "searchQuery": "Moroccan Carrot Salad plated recipe food",
+    "searchResultTitle": "Moroccan Carrot Salad",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:54:56.657Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1514",
+    "name": "Moroccan Carrot Salad",
+    "description": "Moroccan Carrot Salad is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 163.083,
+      "proteinG": 2.85,
+      "carbohydratesG": 21.84,
+      "fatG": 7.897,
+      "fiberG": 4.125,
+      "sugarsG": 16.448,
+      "sodiumMg": 1596.887,
+      "potassiumMg": 576.818,
+      "calciumMg": 26.318,
+      "ironMg": 1.793,
+      "magnesiumMg": 29.25,
+      "vitaminCMg": 126.45
+    },
+    "estimatedCostPerServingUsd": 3.5,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

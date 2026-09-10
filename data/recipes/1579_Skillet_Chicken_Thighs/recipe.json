@@ -1,0 +1,198 @@
+{
+  "seedId": "REC-1579",
+  "candidate": {
+    "sequence": 2377,
+    "seedId": "REC-CAND-2377",
+    "name": "Skillet Chicken Thighs"
+  },
+  "name": "Skillet Chicken Thighs",
+  "description": "Skillet Chicken Thighs is a practical meal component adaptation built around chicken, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://norecipes.com/karaage-recipe",
+    "domain": "norecipes.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Japanese Chicken Karaage source because it provides the closest validated chicken and skillet structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Japan",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Meal Component",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chicken, and vegetables for skillet chicken thighs.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chicken and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the skillet chicken thighs, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 795,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1013.682,
+      "proteinG": 138.444,
+      "carbohydratesG": 30.795,
+      "fatG": 39.105,
+      "sodiumMg": 400.896,
+      "potassiumMg": 2586.423,
+      "calciumMg": 96.063,
+      "ironMg": 3.372,
+      "magnesiumMg": 187.95,
+      "fiberG": 6.015,
+      "sugarsG": 0.15,
+      "vitaminCMg": 29.28
+    },
+    "perServing": {
+      "calories": 253.421,
+      "proteinG": 34.611,
+      "carbohydratesG": 7.699,
+      "fatG": 9.776,
+      "sodiumMg": 100.224,
+      "potassiumMg": 646.606,
+      "calciumMg": 24.016,
+      "ironMg": 0.843,
+      "magnesiumMg": 46.987,
+      "fiberG": 1.504,
+      "sugarsG": 0.037,
+      "vitaminCMg": 7.32
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.16,
+    "perServingUsd": 1.29,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-09-01T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.kitchenmomy.com/skillet-chicken-thighs/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.C5n8uM2TeqXTFpVCyQ3UJQHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://www.kitchenmomy.com/wp-content/uploads/2025/11/Skillet-Chicken-Thighs.jpg",
+    "searchQuery": "Skillet Chicken Thighs plated recipe food",
+    "searchResultTitle": "Irresistible Skillet Chicken Thighs",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:55:42.204Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1579",
+    "name": "Skillet Chicken Thighs",
+    "description": "Skillet Chicken Thighs is a practical meal component adaptation built around chicken, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Meal Component",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 253.421,
+      "proteinG": 34.611,
+      "carbohydratesG": 7.699,
+      "fatG": 9.776,
+      "sodiumMg": 100.224,
+      "potassiumMg": 646.606,
+      "calciumMg": 24.016,
+      "ironMg": 0.843,
+      "magnesiumMg": 46.987,
+      "fiberG": 1.504,
+      "sugarsG": 0.037,
+      "vitaminCMg": 7.32
+    },
+    "estimatedCostPerServingUsd": 1.29,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

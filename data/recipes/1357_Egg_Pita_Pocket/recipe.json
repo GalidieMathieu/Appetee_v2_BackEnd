@@ -1,0 +1,194 @@
+{
+  "seedId": "REC-1357",
+  "candidate": {
+    "sequence": 2151,
+    "seedId": "REC-CAND-2151",
+    "name": "Egg Pita Pocket"
+  },
+  "name": "Egg Pita Pocket",
+  "description": "Egg Pita Pocket is a practical small meal adaptation built around eggs, pita, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.sainsburysmagazine.co.uk/recipes/mains/tortang-talong",
+    "domain": "sainsburysmagazine.co.uk",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Filipino Tortang Talong source because it provides the closest validated eggs and pita structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Philippines",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 30,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "pita",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0106",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, eggs, and pita for egg pita pocket.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned eggs and cook it until browned or heated through as appropriate.",
+    "Stir in the pita, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the egg pita pocket, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1570.332,
+      "proteinG": 69.69,
+      "carbohydratesG": 195.69,
+      "fatG": 61.11,
+      "fiberG": 24,
+      "sugarsG": 9.72,
+      "sodiumMg": 1692.546,
+      "potassiumMg": 1470.273,
+      "calciumMg": 258.273,
+      "ironMg": 15.423,
+      "magnesiumMg": 270,
+      "vitaminCMg": 24.6
+    },
+    "perServing": {
+      "calories": 392.583,
+      "proteinG": 17.422,
+      "carbohydratesG": 48.922,
+      "fatG": 15.277,
+      "fiberG": 6,
+      "sugarsG": 2.43,
+      "sodiumMg": 423.137,
+      "potassiumMg": 367.568,
+      "calciumMg": 64.568,
+      "ironMg": 3.856,
+      "magnesiumMg": 67.5,
+      "vitaminCMg": 6.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.98,
+    "perServingUsd": 2.25,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-09-24T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/680747299897836821/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.SZy82ohea2tq1n8ZecSEHgHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/de/f6/a9/def6a900ccec2714bebee97dcb29b97a.jpg",
+    "searchQuery": "Egg Pita Pocket plated recipe food",
+    "searchResultTitle": "Scrambled Egg and Vegetable Pita Pockets | Recipe | Healthy breakfast ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:50:42.138Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1357",
+    "name": "Egg Pita Pocket",
+    "description": "Egg Pita Pocket is a practical small meal adaptation built around eggs, pita, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 392.583,
+      "proteinG": 17.422,
+      "carbohydratesG": 48.922,
+      "fatG": 15.277,
+      "fiberG": 6,
+      "sugarsG": 2.43,
+      "sodiumMg": 423.137,
+      "potassiumMg": 367.568,
+      "calciumMg": 64.568,
+      "ironMg": 3.856,
+      "magnesiumMg": 67.5,
+      "vitaminCMg": 6.15
+    },
+    "estimatedCostPerServingUsd": 2.25,
+    "diets": [
+      "Vegetarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

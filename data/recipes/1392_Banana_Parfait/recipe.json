@@ -1,0 +1,196 @@
+{
+  "seedId": "REC-1392",
+  "candidate": {
+    "sequence": 2186,
+    "seedId": "REC-CAND-2186",
+    "name": "Banana Parfait"
+  },
+  "name": "Banana Parfait",
+  "description": "Banana Parfait is a practical small meal adaptation built around banana, fruit, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.skinnytaste.com/berry-cottage-cheese-breakfast-bowl/",
+    "domain": "skinnytaste.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Cottage Cheese Berry Bowls source because it provides the closest validated fruit and parfait structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "totalMinutes": 20
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "banana",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0033",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for banana parfait.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the banana with the fruit and remaining ingredients in the intended small meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the banana parfait into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 900,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1536,
+      "proteinG": 65.73,
+      "carbohydratesG": 291.12,
+      "fatG": 17.808,
+      "fiberG": 32.16,
+      "sugarsG": 97.956,
+      "sodiumMg": 127.8,
+      "potassiumMg": 2397,
+      "calciumMg": 473.4,
+      "ironMg": 11.442,
+      "magnesiumMg": 446.4,
+      "vitaminCMg": 26.4
+    },
+    "perServing": {
+      "calories": 384,
+      "proteinG": 16.433,
+      "carbohydratesG": 72.78,
+      "fatG": 4.452,
+      "fiberG": 8.04,
+      "sugarsG": 24.489,
+      "sodiumMg": 31.95,
+      "potassiumMg": 599.25,
+      "calciumMg": 118.35,
+      "ironMg": 2.861,
+      "magnesiumMg": 111.6,
+      "vitaminCMg": 6.6
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.85,
+    "perServingUsd": 0.71,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-11-17T04:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse1.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://cookaifood.com/recipe/banana-yogurt-parfait",
+    "originalSourceUrl": "https://tse1.mm.bing.net/th/id/OIP.ERFAH4o-mQNQVNaO_TeYKAHaHa?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://cookaifood.com/bundles/project/images/recipes/3261_1_1714688922.png",
+    "searchQuery": "banana yogurt parfait dessert cup food photograph",
+    "searchResultTitle": "Banana Yogurt Parfait Recipe | cookAIfood",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:42.692Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1392",
+    "name": "Banana Parfait",
+    "description": "Banana Parfait is a practical small meal adaptation built around banana, fruit, and title-specific supporting ingredients.",
+    "mealType": "Breakfast",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 384,
+      "proteinG": 16.433,
+      "carbohydratesG": 72.78,
+      "fatG": 4.452,
+      "fiberG": 8.04,
+      "sugarsG": 24.489,
+      "sodiumMg": 31.95,
+      "potassiumMg": 599.25,
+      "calciumMg": 118.35,
+      "ironMg": 2.861,
+      "magnesiumMg": 111.6,
+      "vitaminCMg": 6.6
+    },
+    "estimatedCostPerServingUsd": 0.71,
+    "diets": [
+      "Vegetarian",
+      "Vegan"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

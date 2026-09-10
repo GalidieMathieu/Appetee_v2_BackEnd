@@ -1,0 +1,120 @@
+{
+  "seedId": "ING-0099",
+  "name": "Fresh Basil",
+  "canonicalName": "Fresh Basil",
+  "description": "Fresh basil leaves, rinsed and chopped as needed.",
+  "measurementType": "solid",
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": "Single-ingredient product has no expected gluten- or lactose-bearing ingredient."
+  },
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Fresh Basil, 0.5 oz Clamshell",
+    "productId": "3757188318",
+    "productUrl": "https://www.walmart.com/ip/3757188318",
+    "brand": "Fresh Produce",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 1.78,
+    "packageQuantity": 14.175,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T18:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 23,
+      "proteinG": 3.15,
+      "carbohydratesG": 2.65,
+      "fatG": 0.64,
+      "fiberG": 1.6,
+      "sugarsG": 0.3,
+      "sodiumMg": 4,
+      "potassiumMg": 295,
+      "calciumMg": 177,
+      "ironMg": 3.17,
+      "magnesiumMg": 64,
+      "vitaminCMg": 18
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 12.5573
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 172232,
+      "dataType": "SR Legacy",
+      "description": "Basil, fresh",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/172232/nutrients",
+      "searchQuery": "basil fresh",
+      "accessedAt": "2026-08-10T12:00:00-06:00"
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "imageType": "external-real-product-photograph",
+    "aiGenerated": false,
+    "provider": "i5.walmartimages.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/3757188318",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Fresh-Basil-0-5-oz-Clamshell_128d0434-e4df-41f5-8913-064dc5791551.13a7f8ad3d23e109db5235aa5746feb9.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:42:23.244Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0099",
+    "name": "Fresh Basil",
+    "description": "Fresh basil leaves, rinsed and chopped as needed.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 23,
+      "proteinG": 3.15,
+      "carbohydratesG": 2.65,
+      "fatG": 0.64,
+      "fiberG": 1.6,
+      "sugarsG": 0.3,
+      "sodiumMg": 4,
+      "potassiumMg": 295,
+      "calciumMg": 177,
+      "ironMg": 3.17,
+      "magnesiumMg": 64,
+      "vitaminCMg": 18
+    },
+    "price": {
+      "usdPerBasis": 12.5573,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": null
+  }
+}

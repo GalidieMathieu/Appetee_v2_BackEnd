@@ -1,0 +1,196 @@
+{
+  "seedId": "REC-1225",
+  "candidate": {
+    "sequence": 2019,
+    "seedId": "REC-CAND-2019",
+    "name": "Jamaican Sausage Skillet"
+  },
+  "name": "Jamaican Sausage Skillet",
+  "description": "Jamaican Sausage Skillet is a practical main meal adaptation built around sausage, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://time.com/5066819/sweet-potato-hash-recipe/",
+    "domain": "time.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Sausage and Tomatoes Skillet source because it provides the closest validated pork and skillet structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Jamaica",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 60,
+    "totalMinutes": 85
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "sausage",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0085",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, sausage, and vegetables for jamaican sausage skillet.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned sausage and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the jamaican sausage skillet, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 795,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2153.682,
+      "proteinG": 85.044,
+      "carbohydratesG": 53.475,
+      "fatG": 178.125,
+      "fiberG": 6.015,
+      "sugarsG": 0.15,
+      "sodiumMg": 4734.096,
+      "potassiumMg": 2454.423,
+      "calciumMg": 186.423,
+      "ironMg": 9.708,
+      "magnesiumMg": 150.75,
+      "vitaminCMg": 29.28
+    },
+    "perServing": {
+      "calories": 538.42,
+      "proteinG": 21.261,
+      "carbohydratesG": 13.369,
+      "fatG": 44.531,
+      "fiberG": 1.504,
+      "sugarsG": 0.037,
+      "sodiumMg": 1183.524,
+      "potassiumMg": 613.606,
+      "calciumMg": 46.606,
+      "ironMg": 2.427,
+      "magnesiumMg": 37.688,
+      "vitaminCMg": 7.32
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.79,
+    "perServingUsd": 1.2,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-03-04T17:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/sausage-rice-skillet--303430093668871662/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.zCxMjo5mJu9c3VbAZGRq3gHaNK&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/75/9f/27/759f27d0ad15d32a0c1289370a4bcd59.jpg",
+    "searchQuery": "Jamaican Sausage Skillet plated recipe food",
+    "searchResultTitle": "sausage & rice skillet🤩 | Seafood jambalaya recipe, Jamaican recipes ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:14:08.468Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1225",
+    "name": "Jamaican Sausage Skillet",
+    "description": "Jamaican Sausage Skillet is a practical main meal adaptation built around sausage, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 85,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 538.42,
+      "proteinG": 21.261,
+      "carbohydratesG": 13.369,
+      "fatG": 44.531,
+      "fiberG": 1.504,
+      "sugarsG": 0.037,
+      "sodiumMg": 1183.524,
+      "potassiumMg": 613.606,
+      "calciumMg": 46.606,
+      "ironMg": 2.427,
+      "magnesiumMg": 37.688,
+      "vitaminCMg": 7.32
+    },
+    "estimatedCostPerServingUsd": 1.2,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

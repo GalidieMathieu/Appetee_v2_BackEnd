@@ -1,0 +1,210 @@
+{
+  "seedId": "REC-1617",
+  "candidate": {
+    "sequence": 2415,
+    "seedId": "REC-CAND-2415",
+    "name": "Chipotle Baked Tofu Cubes"
+  },
+  "name": "Chipotle Baked Tofu Cubes",
+  "description": "Chipotle Baked Tofu Cubes is a practical meal component adaptation built around tofu, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://cookieandkate.com/how-to-make-crispy-baked-tofu/",
+    "domain": "cookieandkate.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Crispy Baked Tofu Bites source because it provides the closest validated soy and vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 20,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Meal Component",
+  "cookingMethod": "Oven",
+  "primaryProtein": "tofu",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0018",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for chipotle baked tofu cubes and preheat the oven.",
+    "Coat the tofu and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the vegetables and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the chipotle baked tofu cubes briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 640,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 617.532,
+      "proteinG": 30.99,
+      "carbohydratesG": 39.565,
+      "fatG": 41.32,
+      "fiberG": 11.885,
+      "sugarsG": 2.675,
+      "sodiumMg": 186.446,
+      "potassiumMg": 1201.773,
+      "calciumMg": 676.223,
+      "ironMg": 7.743,
+      "magnesiumMg": 154.35,
+      "vitaminCMg": 25.28
+    },
+    "perServing": {
+      "calories": 154.383,
+      "proteinG": 7.747,
+      "carbohydratesG": 9.891,
+      "fatG": 10.33,
+      "fiberG": 2.971,
+      "sugarsG": 0.669,
+      "sodiumMg": 46.611,
+      "potassiumMg": 300.443,
+      "calciumMg": 169.056,
+      "ironMg": 1.936,
+      "magnesiumMg": 38.587,
+      "vitaminCMg": 6.32
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.51,
+    "perServingUsd": 0.88,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-10-30T01:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "thefamilycooking.com",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://thefamilycooking.com/baked-tofu-cubes/",
+    "originalSourceUrl": "https://thefamilycooking.com/wp-content/uploads/2025/10/10-Baked-Tofu-Cubes.png",
+    "discoveredOriginalUrl": "https://thefamilycooking.com/wp-content/uploads/2025/10/10-Baked-Tofu-Cubes.png",
+    "searchQuery": "baked tofu cubes plated recipe food photograph",
+    "searchResultTitle": "Baked Tofu Cubes | TheFamilyCooking",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:13.055Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1617",
+    "name": "Chipotle Baked Tofu Cubes",
+    "description": "Chipotle Baked Tofu Cubes is a practical meal component adaptation built around tofu, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Meal Component",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 154.383,
+      "proteinG": 7.747,
+      "carbohydratesG": 9.891,
+      "fatG": 10.33,
+      "fiberG": 2.971,
+      "sugarsG": 0.669,
+      "sodiumMg": 46.611,
+      "potassiumMg": 300.443,
+      "calciumMg": 169.056,
+      "ironMg": 1.936,
+      "magnesiumMg": 38.587,
+      "vitaminCMg": 6.32
+    },
+    "estimatedCostPerServingUsd": 0.88,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

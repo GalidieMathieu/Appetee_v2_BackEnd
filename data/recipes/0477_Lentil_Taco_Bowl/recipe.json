@@ -1,0 +1,214 @@
+{
+  "seedId": "REC-0477",
+  "candidate": {
+    "sequence": 657,
+    "seedId": "REC-CAND-0657",
+    "name": "Lentil Taco Bowl"
+  },
+  "name": "Lentil Taco Bowl",
+  "description": "Lentil Taco Bowl is a practical stovetop recipe pairing lentils with tortilla and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://feelgoodfoodie.net/recipe/mujadara/",
+    "domain": "feelgoodfoodie.net",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Lebanese Mujadara Bowl source while retaining its closest matching dish form, cooking sequence, and applicable lentils or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Lebanon",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lentils, and tortilla for lentil taco bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lentils and cook it until browned or heated through as appropriate.",
+    "Stir in the tortilla, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the lentil taco bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 889,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2167.482,
+      "proteinG": 92.476,
+      "carbohydratesG": 322.423,
+      "fatG": 60.241,
+      "fiberG": 61.515,
+      "sugarsG": 12.432,
+      "sodiumMg": 1878.216,
+      "potassiumMg": 3088.823,
+      "calciumMg": 925.663,
+      "ironMg": 27.418,
+      "magnesiumMg": 413.19,
+      "vitaminCMg": 40.388
+    },
+    "perServing": {
+      "calories": 541.87,
+      "proteinG": 23.119,
+      "carbohydratesG": 80.606,
+      "fatG": 15.06,
+      "fiberG": 15.379,
+      "sugarsG": 3.108,
+      "sodiumMg": 469.554,
+      "potassiumMg": 772.206,
+      "calciumMg": 231.416,
+      "ironMg": 6.854,
+      "magnesiumMg": 103.297,
+      "vitaminCMg": 10.097
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.19,
+    "perServingUsd": 1.05,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-01-06T13:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://peasandcrayons.com/lentil-taco-bowls/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.SeUi2z0FhUljbS3sIqhyDgHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://peasandcrayons.com/wp-content/uploads/2023/02/lentil-taco-bowls-recipe--800x1200.jpg",
+    "searchQuery": "Lentil Taco Bowl plated recipe food",
+    "searchResultTitle": "Lentil Taco Bowls - Peas and Crayons",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:49:52.709Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0477",
+    "name": "Lentil Taco Bowl",
+    "description": "Lentil Taco Bowl is a practical stovetop recipe pairing lentils with tortilla and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 541.87,
+      "proteinG": 23.119,
+      "carbohydratesG": 80.606,
+      "fatG": 15.06,
+      "fiberG": 15.379,
+      "sugarsG": 3.108,
+      "sodiumMg": 469.554,
+      "potassiumMg": 772.206,
+      "calciumMg": 231.416,
+      "ironMg": 6.854,
+      "magnesiumMg": 103.297,
+      "vitaminCMg": 10.097
+    },
+    "estimatedCostPerServingUsd": 1.05,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

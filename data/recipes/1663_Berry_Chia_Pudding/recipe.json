@@ -1,0 +1,198 @@
+{
+  "seedId": "REC-1663",
+  "candidate": {
+    "sequence": 2462,
+    "seedId": "REC-CAND-2462",
+    "name": "Berry Chia Pudding"
+  },
+  "name": "Berry Chia Pudding",
+  "description": "Berry Chia Pudding is a practical dessert adaptation built around berries, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.visitaruba.com/aruba-recipes/banana-den-forno/",
+    "domain": "visitaruba.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Aruban Baked Cinnamon Bananas source because it provides the closest validated fruit and vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Aruba",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "totalMinutes": 20
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "berries",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0034",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0119",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for berry chia pudding.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the berries with the vegetables and remaining ingredients in the intended dessert form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the berry chia pudding into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 720,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1780.2,
+      "proteinG": 52.95,
+      "carbohydratesG": 289.83,
+      "fatG": 52.818,
+      "fiberG": 71.94,
+      "sugarsG": 65.316,
+      "sodiumMg": 42,
+      "potassiumMg": 1832.4,
+      "calciumMg": 933.6,
+      "ironMg": 21.966,
+      "magnesiumMg": 767.4,
+      "vitaminCMg": 125.82
+    },
+    "perServing": {
+      "calories": 445.05,
+      "proteinG": 13.238,
+      "carbohydratesG": 72.457,
+      "fatG": 13.204,
+      "fiberG": 17.985,
+      "sugarsG": 16.329,
+      "sodiumMg": 10.5,
+      "potassiumMg": 458.1,
+      "calciumMg": 233.4,
+      "ironMg": 5.492,
+      "magnesiumMg": 191.85,
+      "vitaminCMg": 31.455
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.22,
+    "perServingUsd": 1.8,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2031-01-08T23:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse1.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://wineflavorguru.com/parfait-cups-recipes/",
+    "originalSourceUrl": "https://tse1.mm.bing.net/th/id/OIP.Y8E7sNtJIO9Z6W19YxuBuQHaHa?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://wineflavorguru.com/wp-content/uploads/2025/11/Berry-and-Yogurt-Parfait-Cups.jpg",
+    "searchQuery": "berry yogurt parfait dessert cup food photograph",
+    "searchResultTitle": "30 Delicious Parfait Cups Recipes for Every Occasion",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:31.961Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1663",
+    "name": "Berry Chia Pudding",
+    "description": "Berry Chia Pudding is a practical dessert adaptation built around berries, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 445.05,
+      "proteinG": 13.238,
+      "carbohydratesG": 72.457,
+      "fatG": 13.204,
+      "fiberG": 17.985,
+      "sugarsG": 16.329,
+      "sodiumMg": 10.5,
+      "potassiumMg": 458.1,
+      "calciumMg": 233.4,
+      "ironMg": 5.492,
+      "magnesiumMg": 191.85,
+      "vitaminCMg": 31.455
+    },
+    "estimatedCostPerServingUsd": 1.8,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

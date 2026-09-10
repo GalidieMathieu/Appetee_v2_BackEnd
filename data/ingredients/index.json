@@ -1,0 +1,1212 @@
+[
+  {
+    "seedId": "ING-0001",
+    "name": "Boneless Skinless Chicken Breast",
+    "normalizedName": "boneless skinless chicken breast",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.649,
+    "walmartProductId": "36179444",
+    "path": "ingredients/0001_Boneless_Skinless_Chicken_Breast/ingredient.json"
+  },
+  {
+    "seedId": "ING-0002",
+    "name": "Jasmine Rice",
+    "normalizedName": "jasmine rice",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.3188,
+    "walmartProductId": "36874821",
+    "path": "ingredients/0002_Jasmine_Rice/ingredient.json"
+  },
+  {
+    "seedId": "ING-0003",
+    "name": "Canned Black Beans",
+    "normalizedName": "canned black beans",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.2022,
+    "walmartProductId": "39778876",
+    "path": "ingredients/0003_Canned_Black_Beans/ingredient.json"
+  },
+  {
+    "seedId": "ING-0004",
+    "name": "Frozen Corn",
+    "normalizedName": "frozen corn",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.4027,
+    "walmartProductId": "187236313",
+    "path": "ingredients/0004_Frozen_Corn/ingredient.json"
+  },
+  {
+    "seedId": "ING-0005",
+    "name": "Chunky Salsa",
+    "normalizedName": "chunky salsa",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.4821,
+    "walmartProductId": "153037419",
+    "path": "ingredients/0005_Chunky_Salsa/ingredient.json"
+  },
+  {
+    "seedId": "ING-0006",
+    "name": "Ground Turkey 87% Lean",
+    "normalizedName": "ground turkey 87% lean",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.4365,
+    "walmartProductId": "22210558",
+    "path": "ingredients/0006_Ground_Turkey_87_Lean/ingredient.json"
+  },
+  {
+    "seedId": "ING-0007",
+    "name": "Sweet Potatoes",
+    "normalizedName": "sweet potatoes",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.2381,
+    "walmartProductId": "132720824",
+    "path": "ingredients/0007_Sweet_Potatoes/ingredient.json"
+  },
+  {
+    "seedId": "ING-0008",
+    "name": "Canned Diced Tomatoes",
+    "normalizedName": "canned diced tomatoes",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.2238,
+    "walmartProductId": "10450990",
+    "path": "ingredients/0008_Canned_Diced_Tomatoes/ingredient.json"
+  },
+  {
+    "seedId": "ING-0009",
+    "name": "Yellow Onion",
+    "normalizedName": "yellow onion",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.2675,
+    "walmartProductId": "10447842",
+    "path": "ingredients/0009_Yellow_Onion/ingredient.json"
+  },
+  {
+    "seedId": "ING-0010",
+    "name": "Chili Powder",
+    "normalizedName": "chili powder",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 1.2699,
+    "walmartProductId": "157643393",
+    "path": "ingredients/0010_Chili_Powder/ingredient.json"
+  },
+  {
+    "seedId": "ING-0011",
+    "name": "Pink Salmon Fillet",
+    "normalizedName": "pink salmon fillet",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 1.2632,
+    "walmartProductId": "21656993",
+    "path": "ingredients/0011_Pink_Salmon_Fillet/ingredient.json"
+  },
+  {
+    "seedId": "ING-0012",
+    "name": "White Quinoa",
+    "normalizedName": "white quinoa",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.6856,
+    "walmartProductId": "51258806",
+    "path": "ingredients/0012_White_Quinoa/ingredient.json"
+  },
+  {
+    "seedId": "ING-0013",
+    "name": "Frozen Broccoli Florets",
+    "normalizedName": "frozen broccoli florets",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.3175,
+    "walmartProductId": "745725724",
+    "path": "ingredients/0013_Frozen_Broccoli_Florets/ingredient.json"
+  },
+  {
+    "seedId": "ING-0014",
+    "name": "Extra Virgin Olive Oil",
+    "normalizedName": "extra virgin olive oil",
+    "measurementType": "liquid",
+    "basisUnit": "ml",
+    "normalizedPriceUsd": 1.2173,
+    "walmartProductId": "10315102",
+    "path": "ingredients/0014_Extra_Virgin_Olive_Oil/ingredient.json"
+  },
+  {
+    "seedId": "ING-0015",
+    "name": "Brown Lentils",
+    "normalizedName": "brown lentils",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.4233,
+    "walmartProductId": "545884744",
+    "path": "ingredients/0015_Brown_Lentils/ingredient.json"
+  },
+  {
+    "seedId": "ING-0016",
+    "name": "Frozen Chopped Spinach",
+    "normalizedName": "frozen chopped spinach",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.3704,
+    "walmartProductId": "431513547",
+    "path": "ingredients/0016_Frozen_Chopped_Spinach/ingredient.json"
+  },
+  {
+    "seedId": "ING-0017",
+    "name": "Curry Powder",
+    "normalizedName": "curry powder",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 3.6685,
+    "walmartProductId": "15962115906",
+    "path": "ingredients/0017_Curry_Powder/ingredient.json"
+  },
+  {
+    "seedId": "ING-0018",
+    "name": "Extra-Firm Tofu",
+    "normalizedName": "extra-firm tofu",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.7357,
+    "walmartProductId": "10898817",
+    "path": "ingredients/0018_Extra_Firm_Tofu/ingredient.json"
+  },
+  {
+    "seedId": "ING-0019",
+    "name": "Frozen Peas and Carrots",
+    "normalizedName": "frozen peas and carrots",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.2881,
+    "walmartProductId": "994038828",
+    "path": "ingredients/0019_Frozen_Peas_and_Carrots/ingredient.json"
+  },
+  {
+    "seedId": "ING-0020",
+    "name": "Soy Sauce",
+    "normalizedName": "soy sauce",
+    "measurementType": "liquid",
+    "basisUnit": "ml",
+    "normalizedPriceUsd": 0.3968,
+    "walmartProductId": "10315653",
+    "path": "ingredients/0020_Soy_Sauce/ingredient.json"
+  },
+  {
+    "seedId": "ING-0021",
+    "name": "Ground Beef 85% Lean",
+    "normalizedName": "ground beef 85% lean",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 1.6358,
+    "walmartProductId": "44001563",
+    "path": "ingredients/0021_Ground_Beef_85_Lean/ingredient.json"
+  },
+  {
+    "seedId": "ING-0022",
+    "name": "Canned Chickpeas",
+    "normalizedName": "canned chickpeas",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.1957,
+    "walmartProductId": "10534041",
+    "path": "ingredients/0022_Canned_Chickpeas/ingredient.json"
+  },
+  {
+    "seedId": "ING-0023",
+    "name": "Roma Tomatoes",
+    "normalizedName": "roma tomatoes",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.2502,
+    "walmartProductId": "44391236",
+    "path": "ingredients/0023_Roma_Tomatoes/ingredient.json"
+  },
+  {
+    "seedId": "ING-0024",
+    "name": "Apple Cider Vinegar",
+    "normalizedName": "apple cider vinegar",
+    "measurementType": "liquid",
+    "basisUnit": "ml",
+    "normalizedPriceUsd": 0.2621,
+    "walmartProductId": "10451000",
+    "path": "ingredients/0024_Apple_Cider_Vinegar/ingredient.json"
+  },
+  {
+    "seedId": "ING-0025",
+    "name": "Canned Chunk Light Tuna",
+    "normalizedName": "canned chunk light tuna",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.6773,
+    "walmartProductId": "11965048",
+    "path": "ingredients/0025_Canned_Chunk_Light_Tuna/ingredient.json"
+  },
+  {
+    "seedId": "ING-0026",
+    "name": "Canned Cannellini Beans",
+    "normalizedName": "canned cannellini beans",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.1957,
+    "walmartProductId": "22002645",
+    "path": "ingredients/0026_Canned_Cannellini_Beans/ingredient.json"
+  },
+  {
+    "seedId": "ING-0027",
+    "name": "Whole-Wheat Flour Tortillas",
+    "normalizedName": "whole-wheat flour tortillas",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.6085,
+    "walmartProductId": "230561953",
+    "path": "ingredients/0027_Whole_Wheat_Flour_Tortillas/ingredient.json"
+  },
+  {
+    "seedId": "ING-0028",
+    "name": "Large Eggs",
+    "normalizedName": "large eggs",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.2411,
+    "walmartProductId": "100966386",
+    "path": "ingredients/0028_Large_Eggs/ingredient.json"
+  },
+  {
+    "seedId": "ING-0029",
+    "name": "Quick Oats",
+    "normalizedName": "quick oats",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.3679,
+    "walmartProductId": "10314926",
+    "path": "ingredients/0029_Quick_Oats/ingredient.json"
+  },
+  {
+    "seedId": "ING-0030",
+    "name": "2% Milk",
+    "normalizedName": "2% milk",
+    "measurementType": "liquid",
+    "basisUnit": "ml",
+    "normalizedPriceUsd": 0.1152,
+    "walmartProductId": "10450119",
+    "path": "ingredients/0030_2_Milk/ingredient.json"
+  },
+  {
+    "seedId": "ING-0031",
+    "name": "Plain Nonfat Greek Yogurt",
+    "normalizedName": "plain nonfat greek yogurt",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.3616,
+    "walmartProductId": "26559565",
+    "path": "ingredients/0031_Plain_Nonfat_Greek_Yogurt/ingredient.json"
+  },
+  {
+    "seedId": "ING-0032",
+    "name": "Crunchy Peanut Butter",
+    "normalizedName": "crunchy peanut butter",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.3298,
+    "walmartProductId": "10315478",
+    "path": "ingredients/0032_Crunchy_Peanut_Butter/ingredient.json"
+  },
+  {
+    "seedId": "ING-0033",
+    "name": "Bananas",
+    "normalizedName": "bananas",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.1102,
+    "walmartProductId": "44390948",
+    "path": "ingredients/0033_Bananas/ingredient.json"
+  },
+  {
+    "seedId": "ING-0034",
+    "name": "Frozen Mixed Berries",
+    "normalizedName": "frozen mixed berries",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.5879,
+    "walmartProductId": "46491742",
+    "path": "ingredients/0034_Frozen_Mixed_Berries/ingredient.json"
+  },
+  {
+    "seedId": "ING-0035",
+    "name": "Low-Fat Cottage Cheese",
+    "normalizedName": "low-fat cottage cheese",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.4218,
+    "walmartProductId": "10315024",
+    "path": "ingredients/0035_Low_Fat_Cottage_Cheese/ingredient.json"
+  },
+  {
+    "seedId": "ING-0036",
+    "name": "Boneless Skinless Chicken Thighs",
+    "normalizedName": "boneless skinless chicken thighs",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.7253,
+    "walmartProductId": "51259017",
+    "path": "ingredients/0036_Boneless_Skinless_Chicken_Thighs/ingredient.json"
+  },
+  {
+    "seedId": "ING-0037",
+    "name": "Frozen Cut Green Beans",
+    "normalizedName": "frozen cut green beans",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.2881,
+    "walmartProductId": "576704015",
+    "path": "ingredients/0037_Frozen_Cut_Green_Beans/ingredient.json"
+  },
+  {
+    "seedId": "ING-0038",
+    "name": "Raw Peeled Shrimp",
+    "normalizedName": "raw peeled shrimp",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 1.9871,
+    "walmartProductId": "44391062",
+    "path": "ingredients/0038_Raw_Peeled_Shrimp/ingredient.json"
+  },
+  {
+    "seedId": "ING-0039",
+    "name": "Dry Penne Pasta",
+    "normalizedName": "dry penne pasta",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.2734,
+    "walmartProductId": "10534084",
+    "path": "ingredients/0039_Dry_Penne_Pasta/ingredient.json"
+  },
+  {
+    "seedId": "ING-0040",
+    "name": "Canned Coconut Milk",
+    "normalizedName": "canned coconut milk",
+    "measurementType": "liquid",
+    "basisUnit": "ml",
+    "normalizedPriceUsd": 0.5586,
+    "walmartProductId": "1522874513",
+    "path": "ingredients/0040_Canned_Coconut_Milk/ingredient.json"
+  },
+  {
+    "seedId": "ING-0041",
+    "name": "Minced Garlic",
+    "normalizedName": "minced garlic",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.657,
+    "walmartProductId": "974453128",
+    "path": "ingredients/0041_Minced_Garlic/ingredient.json"
+  },
+  {
+    "seedId": "ING-0042",
+    "name": "Red Lentils",
+    "normalizedName": "red lentils",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.4145,
+    "walmartProductId": "188236630",
+    "path": "ingredients/0042_Red_Lentils/ingredient.json"
+  },
+  {
+    "seedId": "ING-0043",
+    "name": "Berbere Spice Blend",
+    "normalizedName": "berbere spice blend",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 17.61,
+    "walmartProductId": "2493531788",
+    "path": "ingredients/0043_Berbere_Spice_Blend/ingredient.json"
+  },
+  {
+    "seedId": "ING-0044",
+    "name": "Cod Fillets",
+    "normalizedName": "cod fillets",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 2.0547,
+    "walmartProductId": "49914105",
+    "path": "ingredients/0044_Cod_Fillets/ingredient.json"
+  },
+  {
+    "seedId": "ING-0045",
+    "name": "Russet Potatoes",
+    "normalizedName": "russet potatoes",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.1446,
+    "walmartProductId": "10447837",
+    "path": "ingredients/0045_Russet_Potatoes/ingredient.json"
+  },
+  {
+    "seedId": "ING-0046",
+    "name": "Ground Cumin",
+    "normalizedName": "ground cumin",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 2.0882,
+    "walmartProductId": "985501095",
+    "path": "ingredients/0046_Ground_Cumin/ingredient.json"
+  },
+  {
+    "seedId": "ING-0047",
+    "name": "Ground Cinnamon",
+    "normalizedName": "ground cinnamon",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 3.5442,
+    "walmartProductId": "349500889",
+    "path": "ingredients/0047_Ground_Cinnamon/ingredient.json"
+  },
+  {
+    "seedId": "ING-0048",
+    "name": "Ground Pork",
+    "normalizedName": "ground pork",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.7084,
+    "walmartProductId": "168039751",
+    "path": "ingredients/0048_Ground_Pork/ingredient.json"
+  },
+  {
+    "seedId": "ING-0049",
+    "name": "Five-Grain Tempeh",
+    "normalizedName": "five-grain tempeh",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 2.9748,
+    "walmartProductId": "5515966462",
+    "path": "ingredients/0049_Five_Grain_Tempeh/ingredient.json"
+  },
+  {
+    "seedId": "ING-0050",
+    "name": "Frozen Edamame",
+    "normalizedName": "frozen edamame",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.5644,
+    "walmartProductId": "328567678",
+    "path": "ingredients/0050_Frozen_Edamame/ingredient.json"
+  },
+  {
+    "seedId": "ING-0051",
+    "name": "Whole-Wheat Bread",
+    "normalizedName": "whole-wheat bread",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.3316,
+    "walmartProductId": "10804551",
+    "path": "ingredients/0051_Whole_Wheat_Bread/ingredient.json"
+  },
+  {
+    "seedId": "ING-0052",
+    "name": "Granulated Sugar",
+    "normalizedName": "granulated sugar",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.1802,
+    "walmartProductId": "10315162",
+    "path": "ingredients/0052_Granulated_Sugar/ingredient.json"
+  },
+  {
+    "seedId": "ING-0053",
+    "name": "Ground Paprika",
+    "normalizedName": "ground paprika",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 1.5238,
+    "walmartProductId": "559839182",
+    "path": "ingredients/0053_Ground_Paprika/ingredient.json"
+  },
+  {
+    "seedId": "ING-0054",
+    "name": "Tomato Paste",
+    "normalizedName": "tomato paste",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.6878,
+    "walmartProductId": "110163784",
+    "path": "ingredients/0054_Tomato_Paste/ingredient.json"
+  },
+  {
+    "seedId": "ING-0055",
+    "name": "Chicken Broth",
+    "normalizedName": "chicken broth",
+    "measurementType": "liquid",
+    "basisUnit": "ml",
+    "normalizedPriceUsd": 0.1585,
+    "walmartProductId": "10899013",
+    "path": "ingredients/0055_Chicken_Broth/ingredient.json"
+  },
+  {
+    "seedId": "ING-0056",
+    "name": "Unsalted Butter",
+    "normalizedName": "unsalted butter",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.6746,
+    "walmartProductId": "26954459",
+    "path": "ingredients/0056_Unsalted_Butter/ingredient.json"
+  },
+  {
+    "seedId": "ING-0057",
+    "name": "Pure Vanilla Extract",
+    "normalizedName": "pure vanilla extract",
+    "measurementType": "liquid",
+    "basisUnit": "ml",
+    "normalizedPriceUsd": 12.1392,
+    "walmartProductId": "10308891",
+    "path": "ingredients/0057_Pure_Vanilla_Extract/ingredient.json"
+  },
+  {
+    "seedId": "ING-0058",
+    "name": "Dried Parsley",
+    "normalizedName": "dried parsley",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 9.5238,
+    "walmartProductId": "861014617",
+    "path": "ingredients/0058_Dried_Parsley/ingredient.json"
+  },
+  {
+    "seedId": "ING-0059",
+    "name": "Fresh Lemons",
+    "normalizedName": "fresh lemons",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.4321,
+    "walmartProductId": "44391659",
+    "path": "ingredients/0059_Fresh_Lemons/ingredient.json"
+  },
+  {
+    "seedId": "ING-0060",
+    "name": "Red Bell Pepper",
+    "normalizedName": "red bell pepper",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 1.2437,
+    "walmartProductId": "44391581",
+    "path": "ingredients/0060_Red_Bell_Pepper/ingredient.json"
+  },
+  {
+    "seedId": "ING-0061",
+    "name": "Green Bell Pepper",
+    "normalizedName": "green bell pepper",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.6891,
+    "walmartProductId": "44390945",
+    "path": "ingredients/0061_Green_Bell_Pepper/ingredient.json"
+  },
+  {
+    "seedId": "ING-0062",
+    "name": "Green Onions",
+    "normalizedName": "green onions",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 2.6191,
+    "walmartProductId": "15556486",
+    "path": "ingredients/0062_Green_Onions/ingredient.json"
+  },
+  {
+    "seedId": "ING-0063",
+    "name": "Fresh Cilantro",
+    "normalizedName": "fresh cilantro",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 1.2134,
+    "walmartProductId": "160597260",
+    "path": "ingredients/0063_Fresh_Cilantro/ingredient.json"
+  },
+  {
+    "seedId": "ING-0064",
+    "name": "Eggplant",
+    "normalizedName": "eggplant",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.4012,
+    "walmartProductId": "44391086",
+    "path": "ingredients/0064_Eggplant/ingredient.json"
+  },
+  {
+    "seedId": "ING-0065",
+    "name": "Bay Leaves",
+    "normalizedName": "bay leaves",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 87.5955,
+    "walmartProductId": "10315300",
+    "path": "ingredients/0065_Bay_Leaves/ingredient.json"
+  },
+  {
+    "seedId": "ING-0066",
+    "name": "Cornstarch",
+    "normalizedName": "cornstarch",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.4233,
+    "walmartProductId": "664106906",
+    "path": "ingredients/0066_Cornstarch/ingredient.json"
+  },
+  {
+    "seedId": "ING-0067",
+    "name": "All-Purpose Flour",
+    "normalizedName": "all-purpose flour",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.1049,
+    "walmartProductId": "178921158",
+    "path": "ingredients/0067_All_Purpose_Flour/ingredient.json"
+  },
+  {
+    "seedId": "ING-0068",
+    "name": "Top Sirloin Steak",
+    "normalizedName": "top sirloin steak",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 3.0733,
+    "walmartProductId": "44391338",
+    "path": "ingredients/0068_Top_Sirloin_Steak/ingredient.json"
+  },
+  {
+    "seedId": "ING-0069",
+    "name": "Pork Tenderloin",
+    "normalizedName": "pork tenderloin",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.9173,
+    "walmartProductId": "525690561",
+    "path": "ingredients/0069_Pork_Tenderloin/ingredient.json"
+  },
+  {
+    "seedId": "ING-0070",
+    "name": "Fresh Ginger",
+    "normalizedName": "fresh ginger",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 1.993,
+    "walmartProductId": "468313248",
+    "path": "ingredients/0070_Fresh_Ginger/ingredient.json"
+  },
+  {
+    "seedId": "ING-0071",
+    "name": "Toasted Sesame Oil",
+    "normalizedName": "toasted sesame oil",
+    "measurementType": "liquid",
+    "basisUnit": "ml",
+    "normalizedPriceUsd": 2.192,
+    "walmartProductId": "145525537",
+    "path": "ingredients/0071_Toasted_Sesame_Oil/ingredient.json"
+  },
+  {
+    "seedId": "ING-0072",
+    "name": "Sesame Seeds",
+    "normalizedName": "sesame seeds",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 3.4953,
+    "walmartProductId": "15942152423",
+    "path": "ingredients/0072_Sesame_Seeds/ingredient.json"
+  },
+  {
+    "seedId": "ING-0073",
+    "name": "Gochujang",
+    "normalizedName": "gochujang",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 2.06,
+    "walmartProductId": "1569008183",
+    "path": "ingredients/0073_Gochujang/ingredient.json"
+  },
+  {
+    "seedId": "ING-0074",
+    "name": "White Mushrooms",
+    "normalizedName": "white mushrooms",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.8554,
+    "walmartProductId": "10312229",
+    "path": "ingredients/0074_White_Mushrooms/ingredient.json"
+  },
+  {
+    "seedId": "ING-0075",
+    "name": "Dried Fava Beans",
+    "normalizedName": "dried fava beans",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 1.2447,
+    "walmartProductId": "185156642",
+    "path": "ingredients/0075_Dried_Fava_Beans/ingredient.json"
+  },
+  {
+    "seedId": "ING-0076",
+    "name": "Dry Black Beans",
+    "normalizedName": "dry black beans",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.3307,
+    "walmartProductId": "11204116278",
+    "path": "ingredients/0076_Dry_Black_Beans/ingredient.json"
+  },
+  {
+    "seedId": "ING-0077",
+    "name": "Garam Masala",
+    "normalizedName": "garam masala",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 4.0263,
+    "walmartProductId": "633089689",
+    "path": "ingredients/0077_Garam_Masala/ingredient.json"
+  },
+  {
+    "seedId": "ING-0078",
+    "name": "Canned Kidney Beans",
+    "normalizedName": "canned kidney beans",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.1957,
+    "walmartProductId": "32250872",
+    "path": "ingredients/0078_Canned_Kidney_Beans/ingredient.json"
+  },
+  {
+    "seedId": "ING-0079",
+    "name": "Ground Nutmeg",
+    "normalizedName": "ground nutmeg",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 5.2676,
+    "walmartProductId": "344742144",
+    "path": "ingredients/0079_Ground_Nutmeg/ingredient.json"
+  },
+  {
+    "seedId": "ING-0080",
+    "name": "Grated Parmesan Cheese",
+    "normalizedName": "grated parmesan cheese",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 1.314,
+    "walmartProductId": "10315402",
+    "path": "ingredients/0080_Grated_Parmesan_Cheese/ingredient.json"
+  },
+  {
+    "seedId": "ING-0081",
+    "name": "Creamed Corn",
+    "normalizedName": "creamed corn",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.1721,
+    "walmartProductId": "10448549",
+    "path": "ingredients/0081_Creamed_Corn/ingredient.json"
+  },
+  {
+    "seedId": "ING-0082",
+    "name": "Thai Red Curry Paste",
+    "normalizedName": "thai red curry paste",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 1.5924,
+    "walmartProductId": "10543601",
+    "path": "ingredients/0082_Thai_Red_Curry_Paste/ingredient.json"
+  },
+  {
+    "seedId": "ING-0083",
+    "name": "Zucchini",
+    "normalizedName": "zucchini",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.3351,
+    "walmartProductId": "44390947",
+    "path": "ingredients/0083_Zucchini/ingredient.json"
+  },
+  {
+    "seedId": "ING-0084",
+    "name": "Green Olives",
+    "normalizedName": "green olives",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 2.5256,
+    "walmartProductId": "922662949",
+    "path": "ingredients/0084_Green_Olives/ingredient.json"
+  },
+  {
+    "seedId": "ING-0085",
+    "name": "Pork Chorizo",
+    "normalizedName": "pork chorizo",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.5879,
+    "walmartProductId": "11027816",
+    "path": "ingredients/0085_Pork_Chorizo/ingredient.json"
+  },
+  {
+    "seedId": "ING-0086",
+    "name": "Fresh Rosemary",
+    "normalizedName": "fresh rosemary",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 12.5573,
+    "walmartProductId": "3325006363",
+    "path": "ingredients/0086_Fresh_Rosemary/ingredient.json"
+  },
+  {
+    "seedId": "ING-0087",
+    "name": "Dried Thyme",
+    "normalizedName": "dried thyme",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 7.0043,
+    "walmartProductId": "829145644",
+    "path": "ingredients/0087_Dried_Thyme/ingredient.json"
+  },
+  {
+    "seedId": "ING-0088",
+    "name": "Harissa Paste",
+    "normalizedName": "harissa paste",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 3.0512,
+    "walmartProductId": "773599552",
+    "path": "ingredients/0088_Harissa_Paste/ingredient.json"
+  },
+  {
+    "seedId": "ING-0089",
+    "name": "Red Cooking Wine",
+    "normalizedName": "red cooking wine",
+    "measurementType": "liquid",
+    "basisUnit": "ml",
+    "normalizedPriceUsd": 0.9052,
+    "walmartProductId": "397904418",
+    "path": "ingredients/0089_Red_Cooking_Wine/ingredient.json"
+  },
+  {
+    "seedId": "ING-0090",
+    "name": "Dijon Mustard",
+    "normalizedName": "dijon mustard",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.5056,
+    "walmartProductId": "10315545",
+    "path": "ingredients/0090_Dijon_Mustard/ingredient.json"
+  },
+  {
+    "seedId": "ING-0091",
+    "name": "Ground Turmeric",
+    "normalizedName": "ground turmeric",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 3.4745,
+    "walmartProductId": "446901861",
+    "path": "ingredients/0091_Ground_Turmeric/ingredient.json"
+  },
+  {
+    "seedId": "ING-0092",
+    "name": "Honey",
+    "normalizedName": "honey",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.9171,
+    "walmartProductId": "20647992",
+    "path": "ingredients/0092_Honey/ingredient.json"
+  },
+  {
+    "seedId": "ING-0093",
+    "name": "Balsamic Vinegar",
+    "normalizedName": "balsamic vinegar",
+    "measurementType": "liquid",
+    "basisUnit": "ml",
+    "normalizedPriceUsd": 1.6488,
+    "walmartProductId": "128822499",
+    "path": "ingredients/0093_Balsamic_Vinegar/ingredient.json"
+  },
+  {
+    "seedId": "ING-0094",
+    "name": "Fresh Carrots",
+    "normalizedName": "fresh carrots",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.2491,
+    "walmartProductId": "10535757",
+    "path": "ingredients/0094_Fresh_Carrots/ingredient.json"
+  },
+  {
+    "seedId": "ING-0095",
+    "name": "Seedless Raisins",
+    "normalizedName": "seedless raisins",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.8407,
+    "walmartProductId": "20925296",
+    "path": "ingredients/0095_Seedless_Raisins/ingredient.json"
+  },
+  {
+    "seedId": "ING-0096",
+    "name": "Whole Natural Almonds",
+    "normalizedName": "whole natural almonds",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 1.7083,
+    "walmartProductId": "5295229969",
+    "path": "ingredients/0096_Whole_Natural_Almonds/ingredient.json"
+  },
+  {
+    "seedId": "ING-0097",
+    "name": "Fresh Green Kale",
+    "normalizedName": "fresh green kale",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.7672,
+    "walmartProductId": "20631705",
+    "path": "ingredients/0097_Fresh_Green_Kale/ingredient.json"
+  },
+  {
+    "seedId": "ING-0098",
+    "name": "Dry Orzo Pasta",
+    "normalizedName": "dry orzo pasta",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.2734,
+    "walmartProductId": "5144705713",
+    "path": "ingredients/0098_Dry_Orzo_Pasta/ingredient.json"
+  },
+  {
+    "seedId": "ING-0099",
+    "name": "Fresh Basil",
+    "normalizedName": "fresh basil",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 12.5573,
+    "walmartProductId": "3757188318",
+    "path": "ingredients/0099_Fresh_Basil/ingredient.json"
+  },
+  {
+    "seedId": "ING-0100",
+    "name": "Fresh Green Cabbage",
+    "normalizedName": "fresh green cabbage",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.1874,
+    "walmartProductId": "44391042",
+    "path": "ingredients/0100_Fresh_Green_Cabbage/ingredient.json"
+  },
+  {
+    "seedId": "ING-0101",
+    "name": "Fresh Cucumber",
+    "normalizedName": "fresh cucumber",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.2525,
+    "walmartProductId": "44390954",
+    "path": "ingredients/0101_Fresh_Cucumber/ingredient.json"
+  },
+  {
+    "seedId": "ING-0102",
+    "name": "Frozen Cauliflower",
+    "normalizedName": "frozen cauliflower",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.341,
+    "walmartProductId": "242699420",
+    "path": "ingredients/0102_Frozen_Cauliflower/ingredient.json"
+  },
+  {
+    "seedId": "ING-0103",
+    "name": "Dry Egg Noodles",
+    "normalizedName": "dry egg noodles",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.3836,
+    "walmartProductId": "10534091",
+    "path": "ingredients/0103_Dry_Egg_Noodles/ingredient.json"
+  },
+  {
+    "seedId": "ING-0104",
+    "name": "Fresh Apples",
+    "normalizedName": "fresh apples",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.3946,
+    "walmartProductId": "978115165",
+    "path": "ingredients/0104_Fresh_Apples/ingredient.json"
+  },
+  {
+    "seedId": "ING-0105",
+    "name": "Unsweetened Cocoa Powder",
+    "normalizedName": "unsweetened cocoa powder",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 2.1517,
+    "walmartProductId": "110307843",
+    "path": "ingredients/0105_Unsweetened_Cocoa_Powder/ingredient.json"
+  },
+  {
+    "seedId": "ING-0106",
+    "name": "Whole-Wheat Pita Bread",
+    "normalizedName": "whole-wheat pita bread",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 2.3625,
+    "walmartProductId": "18719012482",
+    "path": "ingredients/0106_Whole_Wheat_Pita_Bread/ingredient.json"
+  },
+  {
+    "seedId": "ING-0107",
+    "name": "Frozen Mango Chunks",
+    "normalizedName": "frozen mango chunks",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.754,
+    "walmartProductId": "31712522",
+    "path": "ingredients/0107_Frozen_Mango_Chunks/ingredient.json"
+  },
+  {
+    "seedId": "ING-0108",
+    "name": "Frozen Sliced Peaches",
+    "normalizedName": "frozen sliced peaches",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.6305,
+    "walmartProductId": "10543667",
+    "path": "ingredients/0108_Frozen_Sliced_Peaches/ingredient.json"
+  },
+  {
+    "seedId": "ING-0109",
+    "name": "Fresh Asparagus",
+    "normalizedName": "fresh asparagus",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.7848,
+    "walmartProductId": "44390952",
+    "path": "ingredients/0109_Fresh_Asparagus/ingredient.json"
+  },
+  {
+    "seedId": "ING-0110",
+    "name": "Dry Couscous",
+    "normalizedName": "dry couscous",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.9046,
+    "walmartProductId": "358772293",
+    "path": "ingredients/0110_Dry_Couscous/ingredient.json"
+  },
+  {
+    "seedId": "ING-0111",
+    "name": "Frozen Dark Sweet Cherries",
+    "normalizedName": "frozen dark sweet cherries",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.8422,
+    "walmartProductId": "13045006",
+    "path": "ingredients/0111_Frozen_Dark_Sweet_Cherries/ingredient.json"
+  },
+  {
+    "seedId": "ING-0112",
+    "name": "Canned Pumpkin Puree",
+    "normalizedName": "canned pumpkin puree",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.4609,
+    "walmartProductId": "24538777",
+    "path": "ingredients/0112_Canned_Pumpkin_Puree/ingredient.json"
+  },
+  {
+    "seedId": "ING-0113",
+    "name": "Frozen Pineapple Chunks",
+    "normalizedName": "frozen pineapple chunks",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.6217,
+    "walmartProductId": "115159456",
+    "path": "ingredients/0113_Frozen_Pineapple_Chunks/ingredient.json"
+  },
+  {
+    "seedId": "ING-0114",
+    "name": "Fresh Avocado",
+    "normalizedName": "fresh avocado",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.73,
+    "walmartProductId": "37295421",
+    "path": "ingredients/0114_Fresh_Avocado/ingredient.json"
+  },
+  {
+    "seedId": "ING-0115",
+    "name": "Pitted Deglet Noor Dates",
+    "normalizedName": "pitted deglet noor dates",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 1.3095,
+    "walmartProductId": "578393789",
+    "path": "ingredients/0115_Pitted_Deglet_Noor_Dates/ingredient.json"
+  },
+  {
+    "seedId": "ING-0116",
+    "name": "Pure Maple Syrup",
+    "normalizedName": "pure maple syrup",
+    "measurementType": "liquid",
+    "basisUnit": "ml",
+    "normalizedPriceUsd": 2.1587,
+    "walmartProductId": "13925187",
+    "path": "ingredients/0116_Pure_Maple_Syrup/ingredient.json"
+  },
+  {
+    "seedId": "ING-0117",
+    "name": "Plain Low-Fat Kefir",
+    "normalizedName": "plain low-fat kefir",
+    "measurementType": "liquid",
+    "basisUnit": "ml",
+    "normalizedPriceUsd": 0.4059,
+    "walmartProductId": "198295609",
+    "path": "ingredients/0117_Plain_Low_Fat_Kefir/ingredient.json"
+  },
+  {
+    "seedId": "ING-0118",
+    "name": "Fresh Bartlett Pears",
+    "normalizedName": "fresh bartlett pears",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.4387,
+    "walmartProductId": "47197248",
+    "path": "ingredients/0118_Fresh_Bartlett_Pears/ingredient.json"
+  },
+  {
+    "seedId": "ING-0119",
+    "name": "Dried Chia Seeds",
+    "normalizedName": "dried chia seeds",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 3.354,
+    "walmartProductId": "26968734",
+    "path": "ingredients/0119_Dried_Chia_Seeds/ingredient.json"
+  },
+  {
+    "seedId": "ING-0120",
+    "name": "Semolina Flour",
+    "normalizedName": "semolina flour",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 0.5409,
+    "walmartProductId": "1994651989",
+    "path": "ingredients/0120_Semolina_Flour/ingredient.json"
+  },
+  {
+    "seedId": "ING-0121",
+    "name": "Tahini",
+    "normalizedName": "tahini",
+    "measurementType": "solid",
+    "basisUnit": "g",
+    "normalizedPriceUsd": 3.3047,
+    "walmartProductId": "340131211",
+    "path": "ingredients/0121_Tahini/ingredient.json"
+  }
+]

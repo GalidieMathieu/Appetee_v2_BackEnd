@@ -1,0 +1,224 @@
+{
+  "seedId": "REC-1000",
+  "candidate": {
+    "sequence": 1664,
+    "seedId": "REC-CAND-1664",
+    "name": "Chicken and Tomatoes Tacos"
+  },
+  "name": "Chicken and Tomatoes Tacos",
+  "description": "Chicken and Tomatoes Tacos is a practical stovetop recipe pairing chicken with tortilla and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://apnews.com/article/9837eca3d7d2f03e0a669b64caf20e27",
+    "domain": "apnews.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Chicken Spinach Yogurt Wraps source while retaining its closest matching dish form, cooking sequence, and applicable chicken or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 60,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 1.25,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1¼ lb chicken breast",
+      "normalizedQuantity": 567,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 4,
+      "sourceUnit": "tortillas",
+      "sourceDisplay": "4 whole-wheat tortillas",
+      "normalizedQuantity": 181.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup Greek yogurt",
+      "normalizedQuantity": 245,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups spinach",
+      "normalizedQuantity": 127.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 Roma tomatoes",
+      "normalizedQuantity": 186,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp minced garlic",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chicken, and tortilla for chicken and tomatoes tacos.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chicken and cook it until browned or heated through as appropriate.",
+    "Stir in the tortilla, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the chicken and tomatoes tacos, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1438.3,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1499.815,
+      "proteinG": 179.343,
+      "carbohydratesG": 132.171,
+      "fatG": 30.877,
+      "sodiumMg": 1688.024,
+      "potassiumMg": 4139.838,
+      "calciumMg": 971.581,
+      "ironMg": 10.786,
+      "magnesiumMg": 474.029,
+      "fiberG": 29.512,
+      "sugarsG": 18.135,
+      "vitaminCMg": 58.654
+    },
+    "perServing": {
+      "calories": 374.954,
+      "proteinG": 44.836,
+      "carbohydratesG": 33.043,
+      "fatG": 7.719,
+      "sodiumMg": 422.006,
+      "potassiumMg": 1034.959,
+      "calciumMg": 242.895,
+      "ironMg": 2.696,
+      "magnesiumMg": 118.507,
+      "fiberG": 7.378,
+      "sugarsG": 4.534,
+      "vitaminCMg": 14.664
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.44,
+    "perServingUsd": 1.86,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-03-22T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/chicken-tacos-with-charred-tomatoes-recipe-delishcom--208080445253994531/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.e5DTwiO5rf_7TT642ZNz3AAAAA&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/fd/a1/c1/fda1c1729305f3179429caaeb92db06a.jpg",
+    "searchQuery": "Chicken and Tomatoes Tacos plated recipe food",
+    "searchResultTitle": "Chicken Tacos with Charred Tomatoes Recipe - Delish.com | Healthy ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:16:37.364Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1000",
+    "name": "Chicken and Tomatoes Tacos",
+    "description": "Chicken and Tomatoes Tacos is a practical stovetop recipe pairing chicken with tortilla and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 374.954,
+      "proteinG": 44.836,
+      "carbohydratesG": 33.043,
+      "fatG": 7.719,
+      "sodiumMg": 422.006,
+      "potassiumMg": 1034.959,
+      "calciumMg": 242.895,
+      "ironMg": 2.696,
+      "magnesiumMg": 118.507,
+      "fiberG": 7.378,
+      "sugarsG": 4.534,
+      "vitaminCMg": 14.664
+    },
+    "estimatedCostPerServingUsd": 1.86,
+    "diets": [
+      "Flexitarian"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

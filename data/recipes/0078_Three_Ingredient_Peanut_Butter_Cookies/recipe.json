@@ -1,0 +1,180 @@
+{
+  "seedId": "REC-0078",
+  "name": "Three-Ingredient Peanut Butter Cookies",
+  "description": "Soft peanut butter cookies made with sugar and egg in one bowl.",
+  "source": {
+    "url": "https://tasty.co/recipe/3-ingredient-peanut-butter-cookies",
+    "domain": "tasty.co",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 10,
+    "totalMinutes": 20
+  },
+  "servings": 12,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "Oven",
+  "primaryProtein": "peanut butter",
+  "carbohydrateBase": "peanut butter",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0032",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup peanut butter",
+      "normalizedQuantity": 256,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0052",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "cup",
+      "sourceDisplay": "½ cup granulated sugar",
+      "normalizedQuantity": 100,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 1,
+      "sourceUnit": "large",
+      "sourceDisplay": "1 large egg",
+      "normalizedQuantity": 50,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    }
+  ],
+  "instructions": [
+    "Heat the oven to 350°F and prepare a baking sheet.",
+    "Mix the peanut butter, sugar, and egg into a uniform dough.",
+    "Roll the dough into twelve balls and flatten each one with a fork.",
+    "Bake until the bottoms are golden, then cool the cookies on the sheet."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 401,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1966.34,
+      "proteinG": 67.996,
+      "carbohydratesG": 155.656,
+      "fatG": 132.499,
+      "fiberG": 20.48,
+      "sugarsG": 121.515,
+      "sodiumMg": 1316.16,
+      "potassiumMg": 1978.2,
+      "calciumMg": 144.2,
+      "ironMg": 5.789,
+      "magnesiumMg": 415.6,
+      "vitaminCMg": 0
+    },
+    "perServing": {
+      "calories": 163.862,
+      "proteinG": 5.666,
+      "carbohydratesG": 12.971,
+      "fatG": 11.042,
+      "fiberG": 1.707,
+      "sugarsG": 10.126,
+      "sodiumMg": 109.68,
+      "potassiumMg": 164.85,
+      "calciumMg": 12.017,
+      "ironMg": 0.482,
+      "magnesiumMg": 34.633,
+      "vitaminCMg": 0
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 1.15,
+    "perServingUsd": 0.1,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Quick Meal",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-05-01T10:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "img.buzzfeed.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://tasty.co/recipe/3-ingredient-peanut-butter-cookies",
+    "originalSourceUrl": "https://img.buzzfeed.com/video-api-prod/assets/334c9eee7f37412fba5111e291dd6cb1/YT_Thumb.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0078",
+    "name": "Three-Ingredient Peanut Butter Cookies",
+    "description": "Soft peanut butter cookies made with sugar and egg in one bowl.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 20,
+    "servings": 12,
+    "nutritionPerServing": {
+      "calories": 163.862,
+      "proteinG": 5.666,
+      "carbohydratesG": 12.971,
+      "fatG": 11.042,
+      "fiberG": 1.707,
+      "sugarsG": 10.126,
+      "sodiumMg": 109.68,
+      "potassiumMg": 164.85,
+      "calciumMg": 12.017,
+      "ironMg": 0.482,
+      "magnesiumMg": 34.633,
+      "vitaminCMg": 0
+    },
+    "estimatedCostPerServingUsd": 0.1,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Quick Meal",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

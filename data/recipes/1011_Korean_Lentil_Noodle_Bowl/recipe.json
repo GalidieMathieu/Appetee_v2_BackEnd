@@ -1,0 +1,214 @@
+{
+  "seedId": "REC-1011",
+  "candidate": {
+    "sequence": 1686,
+    "seedId": "REC-CAND-1686",
+    "name": "Korean Lentil Noodle Bowl"
+  },
+  "name": "Korean Lentil Noodle Bowl",
+  "description": "Korean Lentil Noodle Bowl is a practical stovetop recipe pairing lentils with noodles and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://feelgoodfoodie.net/recipe/mujadara/",
+    "domain": "feelgoodfoodie.net",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Lebanese Mujadara Bowl source while retaining its closest matching dish form, cooking sequence, and applicable lentils or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Lebanon",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "noodles",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0103",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lentils, and noodles for korean lentil noodle bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lentils and cook it until browned or heated through as appropriate.",
+    "Stir in the noodles, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the korean lentil noodle bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 829,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2159.082,
+      "proteinG": 97.276,
+      "carbohydratesG": 355.843,
+      "fatG": 41.617,
+      "fiberG": 40.035,
+      "sugarsG": 9.624,
+      "sodiumMg": 77.616,
+      "potassiumMg": 2888.423,
+      "calciumMg": 277.663,
+      "ironMg": 29.152,
+      "magnesiumMg": 297.39,
+      "vitaminCMg": 40.388
+    },
+    "perServing": {
+      "calories": 539.77,
+      "proteinG": 24.319,
+      "carbohydratesG": 88.961,
+      "fatG": 10.404,
+      "fiberG": 10.009,
+      "sugarsG": 2.406,
+      "sodiumMg": 19.404,
+      "potassiumMg": 722.106,
+      "calciumMg": 69.416,
+      "ironMg": 7.288,
+      "magnesiumMg": 74.347,
+      "vitaminCMg": 10.097
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.29,
+    "perServingUsd": 0.82,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-04-08T19:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.rachelphipps.com/2018/03/recipe-cold-korean-noodle-bowl.html",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.6CoNXR2x0n6P2wm4ax0w_wHaE8&pid=15.1",
+    "discoveredOriginalUrl": "http://www.rachelphipps.com/wp-content/uploads/2018/03/28339168029_79b6d86265_z.jpg",
+    "searchQuery": "Korean Lentil Noodle Bowl plated recipe food",
+    "searchResultTitle": "Recipe: Cold Korean Noodle Bowl | Rachel Phipps",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:17:18.972Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1011",
+    "name": "Korean Lentil Noodle Bowl",
+    "description": "Korean Lentil Noodle Bowl is a practical stovetop recipe pairing lentils with noodles and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 539.77,
+      "proteinG": 24.319,
+      "carbohydratesG": 88.961,
+      "fatG": 10.404,
+      "fiberG": 10.009,
+      "sugarsG": 2.406,
+      "sodiumMg": 19.404,
+      "potassiumMg": 722.106,
+      "calciumMg": 69.416,
+      "ironMg": 7.288,
+      "magnesiumMg": 74.347,
+      "vitaminCMg": 10.097
+    },
+    "estimatedCostPerServingUsd": 0.82,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

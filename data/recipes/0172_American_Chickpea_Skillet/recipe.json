@@ -1,0 +1,230 @@
+{
+  "seedId": "REC-0172",
+  "candidate": {
+    "sequence": 70,
+    "seedId": "REC-CAND-0070",
+    "name": "American Chickpea Skillet"
+  },
+  "name": "American Chickpea Skillet",
+  "description": "American Chickpea Skillet is a practical stovetop recipe pairing chickpeas with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.tastingtable.com/2106318/mediterranean-chickpea-skillet-recipe/",
+    "domain": "tastingtable.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Chickpea Skillet source while retaining its closest matching dish form, cooking sequence, and applicable chickpeas or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Mediterranean",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 20,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chickpeas, and legumes for american chickpea skillet.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chickpeas and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the american chickpea skillet, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1823,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1207.912,
+      "proteinG": 51.611,
+      "carbohydratesG": 168.445,
+      "fatG": 44.19,
+      "fiberG": 46.411,
+      "sugarsG": 27.594,
+      "sodiumMg": 1871.786,
+      "potassiumMg": 3777.783,
+      "calciumMg": 818.673,
+      "ironMg": 14.928,
+      "magnesiumMg": 445.912,
+      "vitaminCMg": 87.319
+    },
+    "perServing": {
+      "calories": 301.978,
+      "proteinG": 12.903,
+      "carbohydratesG": 42.111,
+      "fatG": 11.047,
+      "fiberG": 11.603,
+      "sugarsG": 6.899,
+      "sodiumMg": 467.947,
+      "potassiumMg": 944.446,
+      "calciumMg": 204.668,
+      "ironMg": 3.732,
+      "magnesiumMg": 111.478,
+      "vitaminCMg": 21.83
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.97,
+    "perServingUsd": 1.24,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-09-23T08:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "americanhomecook.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://americanhomecook.com/skillet-chickpeas-spinach-lemon/",
+    "originalSourceUrl": "http://americanhomecook.com/wp-content/uploads/2023/01/Skillet-Chickpeas-with-Spinach-Tomatoes11-scaled.jpg",
+    "discoveredOriginalUrl": "http://americanhomecook.com/wp-content/uploads/2023/01/Skillet-Chickpeas-with-Spinach-Tomatoes11-scaled.jpg",
+    "searchQuery": "American Chickpea Skillet plated recipe food",
+    "searchResultTitle": "Skillet Chickpeas with Spinach and Tomatoes - American Home Cook",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:10:51.003Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0172",
+    "name": "American Chickpea Skillet",
+    "description": "American Chickpea Skillet is a practical stovetop recipe pairing chickpeas with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 301.978,
+      "proteinG": 12.903,
+      "carbohydratesG": 42.111,
+      "fatG": 11.047,
+      "fiberG": 11.603,
+      "sugarsG": 6.899,
+      "sodiumMg": 467.947,
+      "potassiumMg": 944.446,
+      "calciumMg": 204.668,
+      "ironMg": 3.732,
+      "magnesiumMg": 111.478,
+      "vitaminCMg": 21.83
+    },
+    "estimatedCostPerServingUsd": 1.24,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

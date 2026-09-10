@@ -1,0 +1,228 @@
+{
+  "seedId": "REC-1178",
+  "candidate": {
+    "sequence": 1972,
+    "seedId": "REC-CAND-1972",
+    "name": "Coconut Tempeh Chili"
+  },
+  "name": "Coconut Tempeh Chili",
+  "description": "Coconut Tempeh Chili is a practical main meal adaptation built around tempeh, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://cooktogether.com/recipe-items/rice-salad-with-edamame-and-crispy-tofu/",
+    "domain": "cooktogether.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Caribbean Tofu Salad Bowl source because it provides the closest validated soy and chili structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Japan",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 40,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tempeh",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0049",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 240,
+      "sourceUnit": "ml",
+      "sourceDisplay": "240 ml",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tempeh, and legumes for coconut tempeh chili.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tempeh and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the coconut tempeh chili, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 895,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1454.682,
+      "proteinG": 70.572,
+      "carbohydratesG": 65.644,
+      "fatG": 112.405,
+      "sodiumMg": 211.196,
+      "potassiumMg": 2581.923,
+      "calciumMg": 476.573,
+      "ironMg": 19.188,
+      "magnesiumMg": 400.5,
+      "vitaminCMg": 31.76,
+      "fiberG": 9.5,
+      "sugarsG": 1.025
+    },
+    "perServing": {
+      "calories": 363.671,
+      "proteinG": 17.643,
+      "carbohydratesG": 16.411,
+      "fatG": 28.101,
+      "sodiumMg": 52.799,
+      "potassiumMg": 645.481,
+      "calciumMg": 119.143,
+      "ironMg": 4.797,
+      "magnesiumMg": 100.125,
+      "vitaminCMg": 7.94,
+      "fiberG": 2.375,
+      "sugarsG": 0.256
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 11.67,
+    "perServingUsd": 2.92,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Meal Prep"
+  ],
+  "createdAt": "2028-12-22T06:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://animalia-life.club/qa/pictures/tempeh-recipes-easy",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.MuHj3CwYqXblxKPkUcut0gHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://simple-veganista.com/wp-content/uploads/2013/11/tempeh-chili-3.jpg",
+    "searchQuery": "Coconut Tempeh Chili plated recipe food",
+    "searchResultTitle": "Tempeh Recipes Easy",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:11:38.081Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1178",
+    "name": "Coconut Tempeh Chili",
+    "description": "Coconut Tempeh Chili is a practical main meal adaptation built around tempeh, legumes, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 363.671,
+      "proteinG": 17.643,
+      "carbohydratesG": 16.411,
+      "fatG": 28.101,
+      "sodiumMg": 52.799,
+      "potassiumMg": 645.481,
+      "calciumMg": 119.143,
+      "ironMg": 4.797,
+      "magnesiumMg": 100.125,
+      "vitaminCMg": 7.94,
+      "fiberG": 2.375,
+      "sugarsG": 0.256
+    },
+    "estimatedCostPerServingUsd": 2.92,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Meal Prep"
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0029",
+  "name": "Quick Oats",
+  "canonicalName": "Quick Oats",
+  "description": "Dry quick-cooking rolled oats.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Quick Oats, 42 oz",
+    "productId": "10314926",
+    "productUrl": "https://www.walmart.com/ip/10314926",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 4.38,
+    "packageQuantity": 1190.68,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 379,
+      "proteinG": 13.2,
+      "carbohydratesG": 67.7,
+      "fatG": 6.52,
+      "fiberG": 10.1,
+      "sugarsG": 0.99,
+      "sodiumMg": 6,
+      "potassiumMg": 362,
+      "calciumMg": 52,
+      "ironMg": 4.25,
+      "magnesiumMg": 138,
+      "vitaminCMg": 0
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.3679
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 173904,
+      "dataType": "SR Legacy",
+      "description": "Cereals, oats, regular and quick, not fortified, dry",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/173904/nutrients",
+      "searchQuery": "oats regular and quick unenriched dry",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.istockphoto.com/photos/quick-oats",
+    "originalSourceUrl": "https://media.istockphoto.com/id/1253984792/photo/oats-bg.jpg?s=612x612&w=0&k=20&c=TxU6RFUgyJ_pQVHMA9-IN2SqFakRwj7E7j20ke_nnec=",
+    "searchQuery": "Quick Oats ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0029",
+    "name": "Quick Oats",
+    "description": "Dry quick-cooking rolled oats.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 379,
+      "proteinG": 13.2,
+      "carbohydratesG": 67.7,
+      "fatG": 6.52,
+      "fiberG": 10.1,
+      "sugarsG": 0.99,
+      "sodiumMg": 6,
+      "potassiumMg": 362,
+      "calciumMg": 52,
+      "ironMg": 4.25,
+      "magnesiumMg": 138,
+      "vitaminCMg": 0
+    },
+    "price": {
+      "usdPerBasis": 0.3679,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0029_Quick_Oats/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": false,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": "Not labeled Gluten Free because the selected oat product is not documented as certified gluten free."
+  }
+}

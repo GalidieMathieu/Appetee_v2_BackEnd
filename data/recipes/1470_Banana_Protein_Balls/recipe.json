@@ -1,0 +1,196 @@
+{
+  "seedId": "REC-1470",
+  "candidate": {
+    "sequence": 2267,
+    "seedId": "REC-CAND-2267",
+    "name": "Banana Protein Balls"
+  },
+  "name": "Banana Protein Balls",
+  "description": "Banana Protein Balls is a practical snack adaptation built around banana, oats, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/banana-oatmeal-bites-514723",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Banana Oatmeal Bites source because it provides the closest validated fruit and oats structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "totalMinutes": 20
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "banana",
+  "carbohydrateBase": "oats",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0033",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for banana protein balls.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the banana with the oats and remaining ingredients in the intended snack form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the banana protein balls into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 900,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1536,
+      "proteinG": 65.73,
+      "carbohydratesG": 291.12,
+      "fatG": 17.808,
+      "fiberG": 32.16,
+      "sugarsG": 97.956,
+      "sodiumMg": 127.8,
+      "potassiumMg": 2397,
+      "calciumMg": 473.4,
+      "ironMg": 11.442,
+      "magnesiumMg": 446.4,
+      "vitaminCMg": 26.4
+    },
+    "perServing": {
+      "calories": 384,
+      "proteinG": 16.433,
+      "carbohydratesG": 72.78,
+      "fatG": 4.452,
+      "fiberG": 8.04,
+      "sugarsG": 24.489,
+      "sodiumMg": 31.95,
+      "potassiumMg": 599.25,
+      "calciumMg": 118.35,
+      "ironMg": 2.861,
+      "magnesiumMg": 111.6,
+      "vitaminCMg": 6.6
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.85,
+    "perServingUsd": 0.71,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-03-17T10:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://mybudgetrecipes.com/healthy-banana-protein-balls-recipe/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.LqA9zRDfnuzomjLfjK_hRwHaNM&pid=15.1",
+    "discoveredOriginalUrl": "https://mybudgetrecipes.com/wp-content/uploads/2025/08/public-2.jpg",
+    "searchQuery": "Banana Protein Balls plated recipe food",
+    "searchResultTitle": "Healthy Banana Protein Balls Recipe – My Budget Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:53:41.355Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1470",
+    "name": "Banana Protein Balls",
+    "description": "Banana Protein Balls is a practical snack adaptation built around banana, oats, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 384,
+      "proteinG": 16.433,
+      "carbohydratesG": 72.78,
+      "fatG": 4.452,
+      "fiberG": 8.04,
+      "sugarsG": 24.489,
+      "sodiumMg": 31.95,
+      "potassiumMg": 599.25,
+      "calciumMg": 118.35,
+      "ironMg": 2.861,
+      "magnesiumMg": 111.6,
+      "vitaminCMg": 6.6
+    },
+    "estimatedCostPerServingUsd": 0.71,
+    "diets": [
+      "Vegetarian",
+      "Vegan"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

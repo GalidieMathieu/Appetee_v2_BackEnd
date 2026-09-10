@@ -1,0 +1,244 @@
+{
+  "seedId": "REC-0857",
+  "candidate": {
+    "sequence": 1401,
+    "seedId": "REC-CAND-1401",
+    "name": "Indian Chickpea Salad Bowl"
+  },
+  "name": "Indian Chickpea Salad Bowl",
+  "description": "Indian Chickpea Salad Bowl is a practical no-cook recipe pairing chickpeas with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.foodnetwork.com/recipes/food-network-kitchen/chickpea-salad-sandwiches-8811083",
+    "domain": "foodnetwork.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Chickpea Yogurt Salad Sandwiches source while retaining its closest matching dish form, cooking sequence, and applicable chickpeas or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans chickpeas, drained",
+      "normalizedQuantity": 500,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0051",
+      "sourceQuantity": 8,
+      "sourceUnit": "slices",
+      "sourceDisplay": "8 slices whole-wheat bread",
+      "normalizedQuantity": 226.8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 0.75,
+      "sourceUnit": "cup",
+      "sourceDisplay": "¾ cup Greek yogurt",
+      "normalizedQuantity": 183.8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup spinach",
+      "normalizedQuantity": 85,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp vinegar",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Drain, rinse, chop, and measure the ingredients for indian chickpea salad bowl.",
+    "Whisk the dressing ingredients until they form an even, well-seasoned mixture.",
+    "Fold the chickpeas together with the vegetables and dressing without crushing the ingredients.",
+    "Arrange the legumes and dressed mixture evenly in four portions.",
+    "Serve the indian chickpea salad bowl immediately or refrigerate it in sealed meal-prep containers."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1328.42,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1793.492,
+      "proteinG": 89.222,
+      "carbohydratesG": 252.707,
+      "fatG": 51.074,
+      "fiberG": 56.216,
+      "sugarsG": 36.722,
+      "sodiumMg": 2399.942,
+      "potassiumMg": 2423.613,
+      "calciumMg": 996.462,
+      "ironMg": 14.729,
+      "magnesiumMg": 425.776,
+      "vitaminCMg": 34.483
+    },
+    "perServing": {
+      "calories": 448.373,
+      "proteinG": 22.305,
+      "carbohydratesG": 63.177,
+      "fatG": 12.768,
+      "fiberG": 14.054,
+      "sugarsG": 9.181,
+      "sodiumMg": 599.986,
+      "potassiumMg": 605.903,
+      "calciumMg": 249.115,
+      "ironMg": 3.682,
+      "magnesiumMg": 106.444,
+      "vitaminCMg": 8.621
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.16,
+    "perServingUsd": 1.04,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-08-15T09:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pepperbowl.com/indian-chickpea-salad/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.9RHa8KEFNMxyzX166HOGtAHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://www.pepperbowl.com/wp-content/uploads/2025/04/indian-chickpea-salad-recipe.jpg",
+    "searchQuery": "Indian Chickpea Salad Bowl plated recipe food",
+    "searchResultTitle": "Indian Chickpea Salad - Pepper Bowl",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:09:44.049Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0857",
+    "name": "Indian Chickpea Salad Bowl",
+    "description": "Indian Chickpea Salad Bowl is a practical no-cook recipe pairing chickpeas with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 448.373,
+      "proteinG": 22.305,
+      "carbohydratesG": 63.177,
+      "fatG": 12.768,
+      "fiberG": 14.054,
+      "sugarsG": 9.181,
+      "sodiumMg": 599.986,
+      "potassiumMg": 605.903,
+      "calciumMg": 249.115,
+      "ironMg": 3.682,
+      "magnesiumMg": 106.444,
+      "vitaminCMg": 8.621
+    },
+    "estimatedCostPerServingUsd": 1.04,
+    "diets": [
+      "Vegetarian",
+      "Vegan"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly"
+    ]
+  }
+}

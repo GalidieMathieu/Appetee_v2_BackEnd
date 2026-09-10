@@ -1,0 +1,238 @@
+{
+  "seedId": "REC-0960",
+  "candidate": {
+    "sequence": 1589,
+    "seedId": "REC-CAND-1589",
+    "name": "Sheet Pan Tuna and Cauliflower"
+  },
+  "name": "Sheet Pan Tuna and Cauliflower",
+  "description": "Sheet Pan Tuna and Cauliflower is a practical oven recipe pairing tuna with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.hungryroot.com/recipes/garlic-sheet-pan-tuna-bell-peppers-1036722838/",
+    "domain": "hungryroot.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Sheet Pan Tuna and Bell Peppers source while retaining its closest matching dish form, cooking sequence, and applicable tuna or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "tuna",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0025",
+      "sourceQuantity": 340,
+      "sourceUnit": "g",
+      "sourceDisplay": "340 g",
+      "normalizedQuantity": 340,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0061",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0102",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for sheet pan tuna and cauliflower.",
+    "Season the tuna and vegetables evenly while the oven reaches temperature.",
+    "Arrange the tuna, vegetables, and vegetables so heat can circulate around each component.",
+    "Bake until the tuna is safely cooked and the vegetables or grain base are tender.",
+    "Rest the sheet pan tuna and cauliflower briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1645,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 999.482,
+      "proteinG": 102.384,
+      "carbohydratesG": 82.437,
+      "fatG": 32.713,
+      "fiberG": 25.995,
+      "sugarsG": 28.11,
+      "sodiumMg": 270.296,
+      "potassiumMg": 3232.023,
+      "calciumMg": 242.423,
+      "ironMg": 10.74,
+      "magnesiumMg": 229.35,
+      "vitaminCMg": 832.68
+    },
+    "perServing": {
+      "calories": 249.87,
+      "proteinG": 25.596,
+      "carbohydratesG": 20.609,
+      "fatG": 8.178,
+      "fiberG": 6.499,
+      "sugarsG": 7.027,
+      "sodiumMg": 67.574,
+      "potassiumMg": 808.006,
+      "calciumMg": 60.606,
+      "ironMg": 2.685,
+      "magnesiumMg": 57.337,
+      "vitaminCMg": 208.17
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.65,
+    "perServingUsd": 2.66,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-01-21T04:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://tarateaspoon.com/chicken-and-cauliflower-roast/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.8ZVqaS6z5D_aECy4Y2QNxQHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://tarateaspoon.com/wp-content/uploads/2022/01/Sheet-Pan-Chicken-and-Cauliflower-Pin2.png",
+    "searchQuery": "Sheet Pan Tuna and Cauliflower plated recipe food",
+    "searchResultTitle": "Chicken and Cauliflower Sheet Pan Dinner - Tara Teaspoon",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:14:50.327Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0960",
+    "name": "Sheet Pan Tuna and Cauliflower",
+    "description": "Sheet Pan Tuna and Cauliflower is a practical oven recipe pairing tuna with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 249.87,
+      "proteinG": 25.596,
+      "carbohydratesG": 20.609,
+      "fatG": 8.178,
+      "fiberG": 6.499,
+      "sugarsG": 7.027,
+      "sodiumMg": 67.574,
+      "potassiumMg": 808.006,
+      "calciumMg": 60.606,
+      "ironMg": 2.685,
+      "magnesiumMg": 57.337,
+      "vitaminCMg": 208.17
+    },
+    "estimatedCostPerServingUsd": 2.66,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

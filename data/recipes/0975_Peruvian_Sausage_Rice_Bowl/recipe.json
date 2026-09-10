@@ -1,0 +1,232 @@
+{
+  "seedId": "REC-0975",
+  "candidate": {
+    "sequence": 1619,
+    "seedId": "REC-CAND-1619",
+    "name": "Peruvian Sausage Rice Bowl"
+  },
+  "name": "Peruvian Sausage Rice Bowl",
+  "description": "Peruvian Sausage Rice Bowl is a practical stovetop recipe pairing sausage with rice and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.bylena.com/recipe/502/Rice-and-Meat-Stuffed-Peppers/",
+    "domain": "bylena.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Romanian Stuffed Pepper Bowl source while retaining its closest matching dish form, cooking sequence, and applicable pork or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Romania",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 60,
+    "totalMinutes": 85
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "sausage",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0085",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, sausage, and rice for peruvian sausage rice bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned sausage and cook it until browned or heated through as appropriate.",
+    "Stir in the rice, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the peruvian sausage rice bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2074,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3295.302,
+      "proteinG": 111.388,
+      "carbohydratesG": 307.6,
+      "fatG": 184.412,
+      "fiberG": 21.073,
+      "sugarsG": 26.97,
+      "sodiumMg": 5502.955,
+      "potassiumMg": 5114.163,
+      "calciumMg": 448.827,
+      "ironMg": 14.736,
+      "magnesiumMg": 329.372,
+      "vitaminCMg": 430.98
+    },
+    "perServing": {
+      "calories": 823.826,
+      "proteinG": 27.847,
+      "carbohydratesG": 76.9,
+      "fatG": 46.103,
+      "fiberG": 5.268,
+      "sugarsG": 6.742,
+      "sodiumMg": 1375.739,
+      "potassiumMg": 1278.541,
+      "calciumMg": 112.207,
+      "ironMg": 3.684,
+      "magnesiumMg": 82.343,
+      "vitaminCMg": 107.745
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 11.02,
+    "perServingUsd": 2.75,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-02-13T07:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.freepik.com/premium-photo/arroz-chaufa-amazonico-peruvian-chinese-fried-rice-fusion-food-with-sausage-cecina-green-onion_86316492.htm",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.sCmvC-HJ8B_qBs1cXjBozAHaE7&pid=15.1",
+    "discoveredOriginalUrl": "https://img.freepik.com/premium-photo/arroz-chaufa-amazonico-peruvian-chinese-fried-rice-fusion-food-with-sausage-cecina-green-onion_637279-3984.jpg?w=2000",
+    "searchQuery": "Peruvian Sausage Rice Bowl plated recipe food",
+    "searchResultTitle": "Premium Photo | Arroz chaufa amazonico peruvian chinese fried rice ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:15:18.937Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0975",
+    "name": "Peruvian Sausage Rice Bowl",
+    "description": "Peruvian Sausage Rice Bowl is a practical stovetop recipe pairing sausage with rice and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 85,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 823.826,
+      "proteinG": 27.847,
+      "carbohydratesG": 76.9,
+      "fatG": 46.103,
+      "fiberG": 5.268,
+      "sugarsG": 6.742,
+      "sodiumMg": 1375.739,
+      "potassiumMg": 1278.541,
+      "calciumMg": 112.207,
+      "ironMg": 3.684,
+      "magnesiumMg": 82.343,
+      "vitaminCMg": 107.745
+    },
+    "estimatedCostPerServingUsd": 2.75,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Budget Friendly"
+    ]
+  }
+}

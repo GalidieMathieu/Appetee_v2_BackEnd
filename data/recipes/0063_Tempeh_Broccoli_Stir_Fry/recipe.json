@@ -1,0 +1,206 @@
+{
+  "seedId": "REC-0063",
+  "name": "Tempeh Broccoli Stir-Fry",
+  "description": "Soy-garlic tempeh and broccoli stir-fry served over rice.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/chilli-tempeh-stir-fry",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Indonesia",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tempeh",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0049",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb tempeh",
+      "normalizedQuantity": 680.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0013",
+      "sourceQuantity": 5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "5 cups broccoli",
+      "normalizedQuantity": 455,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups dry rice",
+      "normalizedQuantity": 277.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 3,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "3 tbsp soy sauce",
+      "normalizedQuantity": 45,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp olive oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Cook the rice until tender and keep it covered.",
+    "Cube and brown the tempeh in oil in a wide skillet.",
+    "Add broccoli and garlic and stir-fry until crisp-tender.",
+    "Pour in soy sauce, toss until glazed, and serve over rice."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1927.86,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2591.575,
+      "proteinG": 175.646,
+      "carbohydratesG": 304.103,
+      "fatG": 91.683,
+      "sodiumMg": 3040.321,
+      "potassiumMg": 4283.587,
+      "calciumMg": 1066.933,
+      "ironMg": 23.533,
+      "magnesiumMg": 748.939,
+      "vitaminCMg": 261.3,
+      "fiberG": 14.796,
+      "sugarsG": 6.501
+    },
+    "perServing": {
+      "calories": 647.894,
+      "proteinG": 43.911,
+      "carbohydratesG": 76.026,
+      "fatG": 22.921,
+      "sodiumMg": 760.08,
+      "potassiumMg": 1070.897,
+      "calciumMg": 266.733,
+      "ironMg": 5.883,
+      "magnesiumMg": 187.235,
+      "vitaminCMg": 65.325,
+      "fiberG": 3.699,
+      "sugarsG": 1.625
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 23.03,
+    "perServingUsd": 5.76,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Quick Meal",
+    "Meal Prep"
+  ],
+  "createdAt": "2024-04-08T07:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "images.immediate.co.uk",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.bbcgoodfood.com/recipes/chilli-tempeh-stir-fry",
+    "originalSourceUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/tempeh-32fc95d.jpg?resize=440%2C230",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0063",
+    "name": "Tempeh Broccoli Stir-Fry",
+    "description": "Soy-garlic tempeh and broccoli stir-fry served over rice.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 647.894,
+      "proteinG": 43.911,
+      "carbohydratesG": 76.026,
+      "fatG": 22.921,
+      "sodiumMg": 760.08,
+      "potassiumMg": 1070.897,
+      "calciumMg": 266.733,
+      "ironMg": 5.883,
+      "magnesiumMg": 187.235,
+      "vitaminCMg": 65.325,
+      "fiberG": 3.699,
+      "sugarsG": 1.625
+    },
+    "estimatedCostPerServingUsd": 5.76,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Quick Meal",
+      "Meal Prep"
+    ]
+  }
+}

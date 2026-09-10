@@ -1,0 +1,230 @@
+{
+  "seedId": "REC-1188",
+  "candidate": {
+    "sequence": 1982,
+    "seedId": "REC-CAND-1982",
+    "name": "Lemon Tuna Chili"
+  },
+  "name": "Lemon Tuna Chili",
+  "description": "Lemon Tuna Chili is a practical main meal adaptation built around tuna, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.foodnetwork.com/recipes/robin-miller/edamame-rice-salad-with-teriyaki-tuna-recipe-1946418",
+    "domain": "foodnetwork.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Crispy Tuna with Green Beans source because it provides the closest validated fish and chili structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tuna",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0025",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tuna, and legumes for lemon tuna chili.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tuna and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the lemon tuna chili, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1055,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 956.882,
+      "proteinG": 110.124,
+      "carbohydratesG": 63.94,
+      "fatG": 33.065,
+      "fiberG": 17.9,
+      "sugarsG": 8.524,
+      "sodiumMg": 358.996,
+      "potassiumMg": 2179.923,
+      "calciumMg": 222.373,
+      "ironMg": 11.088,
+      "magnesiumMg": 179.1,
+      "vitaminCMg": 188.36
+    },
+    "perServing": {
+      "calories": 239.22,
+      "proteinG": 27.531,
+      "carbohydratesG": 15.985,
+      "fatG": 8.266,
+      "fiberG": 4.475,
+      "sugarsG": 2.131,
+      "sodiumMg": 89.749,
+      "potassiumMg": 544.981,
+      "calciumMg": 55.593,
+      "ironMg": 2.772,
+      "magnesiumMg": 44.775,
+      "vitaminCMg": 47.09
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.41,
+    "perServingUsd": 1.35,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-01-06T16:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://usa.taipi.org/sweet-chili-lime-tuna-salad-recipe/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.O9WBPAlBeB6rcxZLJJwlzQHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://usa.taipi.org/wp-content/uploads/2025/11/Sweet-Chili-Lime-Tuna-Salad.jpg",
+    "searchQuery": "Lemon Tuna Chili plated recipe food",
+    "searchResultTitle": "10-Minute Sweet Chili Lime Tuna Salad That’s Irresistible – taipi",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:12:13.977Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1188",
+    "name": "Lemon Tuna Chili",
+    "description": "Lemon Tuna Chili is a practical main meal adaptation built around tuna, legumes, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 239.22,
+      "proteinG": 27.531,
+      "carbohydratesG": 15.985,
+      "fatG": 8.266,
+      "fiberG": 4.475,
+      "sugarsG": 2.131,
+      "sodiumMg": 89.749,
+      "potassiumMg": 544.981,
+      "calciumMg": 55.593,
+      "ironMg": 2.772,
+      "magnesiumMg": 44.775,
+      "vitaminCMg": 47.09
+    },
+    "estimatedCostPerServingUsd": 1.35,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Meal Prep"
+    ]
+  }
+}

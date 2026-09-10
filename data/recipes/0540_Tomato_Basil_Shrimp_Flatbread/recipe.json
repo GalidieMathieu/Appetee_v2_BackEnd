@@ -1,0 +1,230 @@
+{
+  "seedId": "REC-0540",
+  "candidate": {
+    "sequence": 782,
+    "seedId": "REC-CAND-0782",
+    "name": "Tomato Basil Shrimp Flatbread"
+  },
+  "name": "Tomato Basil Shrimp Flatbread",
+  "description": "Tomato Basil Shrimp Flatbread is a practical oven recipe pairing shrimp with flatbread and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.foodnetwork.com/recipes/giada-de-laurentiis/mini-shrimp-calzones-recipe-1947170",
+    "domain": "foodnetwork.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Italian Shrimp Flatbread source while retaining its closest matching dish form, cooking sequence, and applicable shrimp or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Italy",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "shrimp",
+  "carbohydrateBase": "flatbread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0038",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0067",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for tomato basil shrimp flatbread.",
+    "Season the shrimp and vegetables evenly while the oven reaches temperature.",
+    "Arrange the shrimp, flatbread, and vegetables so heat can circulate around each component.",
+    "Bake until the shrimp is safely cooked and the vegetables or grain base are tender.",
+    "Rest the tomato basil shrimp flatbread briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1802,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1816.742,
+      "proteinG": 116.974,
+      "carbohydratesG": 246.362,
+      "fatG": 38.911,
+      "fiberG": 16.543,
+      "sugarsG": 8.772,
+      "sodiumMg": 3971.766,
+      "potassiumMg": 3204.043,
+      "calciumMg": 643.683,
+      "ironMg": 17.844,
+      "magnesiumMg": 309.492,
+      "vitaminCMg": 75.42
+    },
+    "perServing": {
+      "calories": 454.185,
+      "proteinG": 29.244,
+      "carbohydratesG": 61.59,
+      "fatG": 9.728,
+      "fiberG": 4.136,
+      "sugarsG": 2.193,
+      "sodiumMg": 992.942,
+      "potassiumMg": 801.011,
+      "calciumMg": 160.921,
+      "ironMg": 4.461,
+      "magnesiumMg": 77.373,
+      "vitaminCMg": 18.855
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 18.69,
+    "perServingUsd": 4.67,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie"
+  ],
+  "createdAt": "2026-04-13T16:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.tasteofhome.com/recipes/ingredients/vegetables/tomatoes/sun-dried-tomatoes/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.V5WhSbK5YXvz5O_xMgQvWwHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://www.tasteofhome.com/wp-content/uploads/2025/03/Speedy-Shrimp-Flatbreads_EXPS_FT25_68538_JR_0321_1.jpg",
+    "searchQuery": "Tomato Basil Shrimp Flatbread plated recipe food",
+    "searchResultTitle": "Recipes With Sun-Dried Tomatoes | Taste of Home",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:53:20.132Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0540",
+    "name": "Tomato Basil Shrimp Flatbread",
+    "description": "Tomato Basil Shrimp Flatbread is a practical oven recipe pairing shrimp with flatbread and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 454.185,
+      "proteinG": 29.244,
+      "carbohydratesG": 61.59,
+      "fatG": 9.728,
+      "fiberG": 4.136,
+      "sugarsG": 2.193,
+      "sodiumMg": 992.942,
+      "potassiumMg": 801.011,
+      "calciumMg": 160.921,
+      "ironMg": 4.461,
+      "magnesiumMg": 77.373,
+      "vitaminCMg": 18.855
+    },
+    "estimatedCostPerServingUsd": 4.67,
+    "diets": [
+      "Pescatarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie"
+    ]
+  }
+}

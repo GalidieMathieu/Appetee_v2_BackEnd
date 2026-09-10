@@ -1,0 +1,218 @@
+{
+  "seedId": "REC-1330",
+  "candidate": {
+    "sequence": 2124,
+    "seedId": "REC-CAND-2124",
+    "name": "Tomato Basil Chickpea Casserole"
+  },
+  "name": "Tomato Basil Chickpea Casserole",
+  "description": "Tomato Basil Chickpea Casserole is a practical main meal adaptation built around chickpeas, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://nutritionsource.hsph.harvard.edu/crunchy-roasted-chickpeas/",
+    "domain": "nutritionsource.hsph.harvard.edu",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Roasted Chickpea with Green Beans source because it provides the closest validated beans and casserole structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 60,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0080",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for tomato basil chickpea casserole and preheat the oven.",
+    "Coat the chickpeas and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the legumes and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the tomato basil chickpea casserole briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1630,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2294.332,
+      "proteinG": 127.98,
+      "carbohydratesG": 177.15,
+      "fatG": 124.45,
+      "fiberG": 39.7,
+      "sugarsG": 25.04,
+      "sodiumMg": 6414.546,
+      "potassiumMg": 3186.273,
+      "calciumMg": 3345.273,
+      "ironMg": 17.063,
+      "magnesiumMg": 458,
+      "vitaminCMg": 120.1
+    },
+    "perServing": {
+      "calories": 573.583,
+      "proteinG": 31.995,
+      "carbohydratesG": 44.288,
+      "fatG": 31.113,
+      "fiberG": 9.925,
+      "sugarsG": 6.26,
+      "sodiumMg": 1603.637,
+      "potassiumMg": 796.568,
+      "calciumMg": 836.318,
+      "ironMg": 4.266,
+      "magnesiumMg": 114.5,
+      "vitaminCMg": 30.025
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 44.31,
+    "perServingUsd": 11.08,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Freezer Friendly",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-08-13T14:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/808325833107200276/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.Xw92hnupHp4iV-IDmWOMVwHaO0&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/f2/c0/66/f2c066870e50a171829c753c1ef7fe42.jpg",
+    "searchQuery": "Tomato Basil Chickpea Casserole plated recipe food",
+    "searchResultTitle": "Chickpea Casserole with Tomatoes & Thai Basil (Vegan) | Vegan recipes ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:19:30.386Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1330",
+    "name": "Tomato Basil Chickpea Casserole",
+    "description": "Tomato Basil Chickpea Casserole is a practical main meal adaptation built around chickpeas, legumes, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 573.583,
+      "proteinG": 31.995,
+      "carbohydratesG": 44.288,
+      "fatG": 31.113,
+      "fiberG": 9.925,
+      "sugarsG": 6.26,
+      "sodiumMg": 1603.637,
+      "potassiumMg": 796.568,
+      "calciumMg": 836.318,
+      "ironMg": 4.266,
+      "magnesiumMg": 114.5,
+      "vitaminCMg": 30.025
+    },
+    "estimatedCostPerServingUsd": 11.08,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Freezer Friendly",
+      "Meal Prep"
+    ]
+  }
+}

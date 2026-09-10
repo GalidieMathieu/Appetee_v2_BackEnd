@@ -1,9 +1,8 @@
 ﻿using Appetee.Application.Dtos;
 using Appetee.Application.Models.Auth;
-using Appetee.Application.Requests;
 using Appetee.Application.Requests.Auth;
 using Appetee.Application.Services.Auth;
-using Appetee.Application.utils;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Appetee.Api.Controllers
@@ -13,23 +12,58 @@ namespace Appetee.Api.Controllers
     public sealed class AuthController : ControllerBase
     {
         private readonly IAuthService _authService;
+        private readonly IPasswordRecoveryService _passwordRecoveryService;
 
-        public AuthController(IAuthService authService) => _authService = authService;
+        public AuthController(
+            IAuthService authService,
+            IPasswordRecoveryService passwordRecoveryService)
+        {
+            _authService = authService;
+            _passwordRecoveryService = passwordRecoveryService;
+        }
 
         [HttpPost("sign-up")]
         public async Task<ActionResult<AuthResult>> SignUp([FromBody] SignUpRequest request, CancellationToken ct)
         {
-            Console.WriteLine(request);
             var authResult = await _authService.SignUpAsync(HttpContext, request, ct);
             return Ok(authResult);
         }
 
         [HttpPost("login")]
-        public async Task<ActionResult<AuthResult>> login([FromBody] LoginRequest request, CancellationToken ct)
+        public async Task<ActionResult<AuthResult>> Login([FromBody] LoginRequest request, CancellationToken ct)
         {
-            Console.WriteLine(request);
             var authResult = await _authService.LogInAsync(HttpContext, request, ct);
             return Ok(authResult);
+        }
+
+        [AllowAnonymous]
+        [HttpGet("exists-by-email")]
+        public async Task<ActionResult<EmailExistsDto>> CheckUserExist(
+            [FromQuery] string email,
+            CancellationToken ct)
+        {
+            var result = await _authService.ExistsByEmailAsync(email, ct);
+            return Ok(result);
+        }
+
+        [AllowAnonymous]
+        [HttpPost("password-recovery/request")]
+        public async Task<ActionResult<PasswordRecoveryRequestDto>> RequestPasswordRecovery(
+            [FromBody] PasswordRecoveryRequest request,
+            CancellationToken ct)
+        {
+            var result = await _passwordRecoveryService.RequestAsync(request, ct);
+            return Accepted(result);
+        }
+
+        [AllowAnonymous]
+        [HttpPost("password-recovery/confirm")]
+        public async Task<IActionResult> ConfirmPasswordRecovery(
+            [FromBody] PasswordRecoveryConfirmRequest request,
+            CancellationToken ct)
+        {
+            await _passwordRecoveryService.ConfirmAsync(request, ct);
+            return NoContent();
         }
 
         [HttpPost("logout")]
@@ -42,47 +76,8 @@ namespace Appetee.Api.Controllers
         [HttpGet("session")]
         public async Task<ActionResult<UserSessionDto>> session(CancellationToken ct)
         {
-            var session = _authService.GetSession(HttpContext);
-            if (session is null)
-            {
-                throw new UnauthorizedException("Missing or invalid authentication cookie.");
-            }
-            int userId = session.userId;
-            if (userId <= 0)
-            {
-                throw new UnauthorizedException("Missing or invalid authentication cookie.");
-            }
+            var session = _authService.GetRequiredSession(HttpContext);
             return Ok(session);
         }
-        /*
-        // GET /api/users?skip=0&take=20
-        [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<UserDto>>> List([FromQuery] int skip = 0, [FromQuery] int take = 20, CancellationToken ct = default)
-        {
-            take = Math.Clamp(take, 1, 100);
-            skip = Math.Max(skip, 0);
-
-            var users = await _users.ListAsync(skip, take, ct);
-            return Ok(users);
-        }
-
-        [HttpPut("{id:int}")]
-        public async Task<ActionResult<UserDto>> Update(int id, [FromBody] UpdateUserRequest request, CancellationToken ct)
-        {
-            if (id <= 0) return BadRequest("id must be > 0");
-            if (request is null) return BadRequest("body is required");
-
-            var updated = await _users.UpdateAsync(id, request, ct);
-            return updated is null ? NotFound() : Ok(updated);
-        }
-
-        [HttpDelete("{id:int}")]
-        public async Task<IActionResult> Delete(int id, CancellationToken ct)
-        {
-            if (id <= 0) return BadRequest("id must be > 0");
-
-            var deleted = await _users.DeleteAsync(id, ct);
-            return deleted ? NoContent() : NotFound();
-        }*/
     }
 }

@@ -1,0 +1,208 @@
+{
+  "seedId": "REC-1523",
+  "candidate": {
+    "sequence": 2321,
+    "seedId": "REC-CAND-2321",
+    "name": "Spicy Potatoes"
+  },
+  "name": "Spicy Potatoes",
+  "description": "Spicy Potatoes is a practical side adaptation built around vegetables, potatoes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-patatas-bravas",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Air-Fryer Patatas Bravas source because it provides the closest validated potatoes structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Spain",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Side",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, vegetables, and potatoes for spicy potatoes.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned vegetables and cook it until browned or heated through as appropriate.",
+    "Stir in the potatoes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the spicy potatoes, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 640,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 620.532,
+      "proteinG": 10.29,
+      "carbohydratesG": 85.315,
+      "fatG": 29.05,
+      "fiberG": 13.085,
+      "sugarsG": 2.735,
+      "sodiumMg": 165.446,
+      "potassiumMg": 2008.773,
+      "calciumMg": 112.223,
+      "ironMg": 5.493,
+      "magnesiumMg": 112.35,
+      "vitaminCMg": 41.78
+    },
+    "perServing": {
+      "calories": 155.133,
+      "proteinG": 2.572,
+      "carbohydratesG": 21.329,
+      "fatG": 7.263,
+      "fiberG": 3.271,
+      "sugarsG": 0.684,
+      "sodiumMg": 41.361,
+      "potassiumMg": 502.193,
+      "calciumMg": 28.056,
+      "ironMg": 1.373,
+      "magnesiumMg": 28.087,
+      "vitaminCMg": 10.445
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 1.74,
+    "perServingUsd": 0.43,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-06-07T03:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.slamrecipes.com/spicy-potatoes-recipe/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.19RYR9tkbDasYJmoHsrUZQHaFl&pid=15.1",
+    "discoveredOriginalUrl": "https://www.slamrecipes.com/wp-content/uploads/2025/08/Spicy-Potatoes-2.jpg",
+    "searchQuery": "Spicy Potatoes plated recipe food",
+    "searchResultTitle": "Spicy Potatoes: Flavorful Kick in Under 1 Hour - Slam Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:55:01.785Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1523",
+    "name": "Spicy Potatoes",
+    "description": "Spicy Potatoes is a practical side adaptation built around vegetables, potatoes, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 155.133,
+      "proteinG": 2.572,
+      "carbohydratesG": 21.329,
+      "fatG": 7.263,
+      "fiberG": 3.271,
+      "sugarsG": 0.684,
+      "sodiumMg": 41.361,
+      "potassiumMg": 502.193,
+      "calciumMg": 28.056,
+      "ironMg": 1.373,
+      "magnesiumMg": 28.087,
+      "vitaminCMg": 10.445
+    },
+    "estimatedCostPerServingUsd": 0.43,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

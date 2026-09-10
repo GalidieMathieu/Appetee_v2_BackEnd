@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0011",
+  "name": "Pink Salmon Fillet",
+  "canonicalName": "Pink Salmon Fillet",
+  "description": "Raw frozen skin-on pink salmon fillet portions.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Frozen Wild Caught Pink Salmon Skin-on Fillets, 2 lb",
+    "productId": "21656993",
+    "productUrl": "https://www.walmart.com/ip/21656993",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 11.46,
+    "packageQuantity": 907.185,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 127,
+      "proteinG": 20.5,
+      "carbohydratesG": 0,
+      "fatG": 4.4,
+      "fiberG": 0,
+      "sugarsG": 0,
+      "sodiumMg": 75,
+      "potassiumMg": 366,
+      "calciumMg": 7,
+      "ironMg": 0.38,
+      "magnesiumMg": 27,
+      "vitaminCMg": 0
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 1.2632
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 175138,
+      "dataType": "SR Legacy",
+      "description": "Fish, salmon, pink, raw",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/175138/nutrients",
+      "searchQuery": "salmon pink raw",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://stock.adobe.com/images/close-up-of-natural-salmon-fillet-texture-highlighting-the-rich-pink-color-and-smooth-fatty-layers-of-the-meat/908392777",
+    "originalSourceUrl": "https://as2.ftcdn.net/jpg/09/08/39/27/1000_F_908392777_aLMJ5D8vj4k4KH8zQUvsJyI3nbLqLwwm.jpg",
+    "searchQuery": "Pink Salmon Fillet ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0011",
+    "name": "Pink Salmon Fillet",
+    "description": "Raw frozen skin-on pink salmon fillet portions.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 127,
+      "proteinG": 20.5,
+      "carbohydratesG": 0,
+      "fatG": 4.4,
+      "fiberG": 0,
+      "sugarsG": 0,
+      "sodiumMg": 75,
+      "potassiumMg": 366,
+      "calciumMg": 7,
+      "ironMg": 0.38,
+      "magnesiumMg": 27,
+      "vitaminCMg": 0
+    },
+    "price": {
+      "usdPerBasis": 1.2632,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0011_Pink_Salmon_Fillet/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

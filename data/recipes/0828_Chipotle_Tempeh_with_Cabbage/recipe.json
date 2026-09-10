@@ -1,0 +1,272 @@
+{
+  "seedId": "REC-0828",
+  "candidate": {
+    "sequence": 1349,
+    "seedId": "REC-CAND-1349",
+    "name": "Chipotle Tempeh with Cabbage"
+  },
+  "name": "Chipotle Tempeh with Cabbage",
+  "description": "Chipotle Tempeh with Cabbage is a practical stovetop recipe pairing tempeh with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.sbs.com.au/food/recipe/tempeh-penyet-smashed-tempeh-with-sambal/be0lbvihq",
+    "domain": "sbs.com.au",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Indonesian Tempeh Sambal Rice source while retaining its closest matching dish form, cooking sequence, and applicable tempeh or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Indonesia",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tempeh",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0049",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g sliced tempeh",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "cup",
+      "sourceDisplay": "½ cup cooking oil",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 11,
+      "sourceUnit": "cloves",
+      "sourceDisplay": "11 garlic cloves, divided",
+      "normalizedQuantity": 55,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 350,
+      "sourceUnit": "g",
+      "sourceDisplay": "350 g sliced onion",
+      "normalizedQuantity": 350,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "chili powder replacing 10 fresh long chiles",
+      "normalizedQuantity": 14,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 420,
+      "sourceUnit": "g",
+      "sourceDisplay": "420 g sliced tomatoes",
+      "normalizedQuantity": 420,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "juice of 1 lemon",
+      "normalizedQuantity": 58,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1½ tbsp soy sauce",
+      "normalizedQuantity": 22.5,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0052",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp sugar",
+      "normalizedQuantity": 12.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 250,
+      "sourceUnit": "g dry",
+      "sourceDisplay": "rice yielding about 500 g cooked",
+      "normalizedQuantity": 250,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0100",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tempeh, and vegetables for chipotle tempeh with cabbage.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tempeh and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the chipotle tempeh with cabbage, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1923.2,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3126.166,
+      "proteinG": 117.955,
+      "carbohydratesG": 341.698,
+      "fatG": 159.406,
+      "sodiumMg": 1965.884,
+      "potassiumMg": 4775.817,
+      "calciumMg": 849.47,
+      "ironMg": 20.22,
+      "magnesiumMg": 569.634,
+      "vitaminCMg": 244.074,
+      "fiberG": 28.818,
+      "sugarsG": 36.644
+    },
+    "perServing": {
+      "calories": 781.542,
+      "proteinG": 29.489,
+      "carbohydratesG": 85.424,
+      "fatG": 39.852,
+      "sodiumMg": 491.471,
+      "potassiumMg": 1193.954,
+      "calciumMg": 212.368,
+      "ironMg": 5.055,
+      "magnesiumMg": 142.409,
+      "vitaminCMg": 61.019,
+      "fiberG": 7.205,
+      "sugarsG": 9.161
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 17.67,
+    "perServingUsd": 4.42,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber"
+  ],
+  "createdAt": "2027-07-01T16:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.connoisseurusveg.com/tempeh-tacos/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.XZ1U7H4y4E6k3JD2AsieUQHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://www.connoisseurusveg.com/wp-content/uploads/2023/06/tempeh-tacos-sq-1024x1024.jpg",
+    "searchQuery": "Chipotle Tempeh with Cabbage plated recipe food",
+    "searchResultTitle": "Chipotle Tempeh Tacos - Connoisseurus Veg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:08:09.660Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0828",
+    "name": "Chipotle Tempeh with Cabbage",
+    "description": "Chipotle Tempeh with Cabbage is a practical stovetop recipe pairing tempeh with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 781.542,
+      "proteinG": 29.489,
+      "carbohydratesG": 85.424,
+      "fatG": 39.852,
+      "sodiumMg": 491.471,
+      "potassiumMg": 1193.954,
+      "calciumMg": 212.368,
+      "ironMg": 5.055,
+      "magnesiumMg": 142.409,
+      "vitaminCMg": 61.019,
+      "fiberG": 7.205,
+      "sugarsG": 9.161
+    },
+    "estimatedCostPerServingUsd": 4.42,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber"
+    ]
+  }
+}

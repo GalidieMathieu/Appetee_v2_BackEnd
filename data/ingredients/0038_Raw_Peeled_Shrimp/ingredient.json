@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0038",
+  "name": "Raw Peeled Shrimp",
+  "canonicalName": "Raw Peeled Shrimp",
+  "description": "Raw frozen peeled and deveined shrimp.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Raw Peeled Tail-Off Shrimp, 12 oz",
+    "productId": "44391062",
+    "productUrl": "https://www.walmart.com/ip/44391062",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 6.76,
+    "packageQuantity": 340.194,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 71,
+      "proteinG": 13.6,
+      "carbohydratesG": 0.91,
+      "fatG": 1.01,
+      "fiberG": 0,
+      "sugarsG": 0,
+      "sodiumMg": 566,
+      "potassiumMg": 113,
+      "calciumMg": 54,
+      "ironMg": 0.21,
+      "magnesiumMg": 22,
+      "vitaminCMg": 0
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 1.9871
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 174210,
+      "dataType": "SR Legacy",
+      "description": "Crustaceans, shrimp, mixed species, raw (may contain additives to retain moisture)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/174210/nutrients",
+      "searchQuery": "crustaceans shrimp mixed species raw",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.freepik.com/premium-photo/close-up-raw-peeled-shrimp-brown-butcher-paper_21608483.htm",
+    "originalSourceUrl": "https://img.freepik.com/premium-photo/close-up-raw-peeled-shrimp-brown-butcher-paper_198639-63192.jpg",
+    "searchQuery": "Raw Peeled Shrimp ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0038",
+    "name": "Raw Peeled Shrimp",
+    "description": "Raw frozen peeled and deveined shrimp.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 71,
+      "proteinG": 13.6,
+      "carbohydratesG": 0.91,
+      "fatG": 1.01,
+      "fiberG": 0,
+      "sugarsG": 0,
+      "sodiumMg": 566,
+      "potassiumMg": 113,
+      "calciumMg": 54,
+      "ironMg": 0.21,
+      "magnesiumMg": 22,
+      "vitaminCMg": 0
+    },
+    "price": {
+      "usdPerBasis": 1.9871,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0038_Raw_Peeled_Shrimp/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

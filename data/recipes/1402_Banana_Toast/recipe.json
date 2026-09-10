@@ -1,0 +1,198 @@
+{
+  "seedId": "REC-1402",
+  "candidate": {
+    "sequence": 2196,
+    "seedId": "REC-CAND-2196",
+    "name": "Banana Toast"
+  },
+  "name": "Banana Toast",
+  "description": "Banana Toast is a practical small meal adaptation built around banana, bread, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/peanut-butter-banana-toast",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Peanut Butter Banana Toast source because it provides the closest validated fruit and toast structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United Kingdom",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 5,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Toaster",
+  "primaryProtein": "banana",
+  "carbohydrateBase": "bread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0033",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0051",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for banana toast.",
+    "Toast the bread until crisp enough to support the toppings.",
+    "Combine the banana with the bread and remaining ingredients in the intended small meal form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the banana toast into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1378.332,
+      "proteinG": 42.96,
+      "carbohydratesG": 222.33,
+      "fatG": 38.94,
+      "fiberG": 31.5,
+      "sugarsG": 49.62,
+      "sodiumMg": 1371.546,
+      "potassiumMg": 2382.273,
+      "calciumMg": 543.273,
+      "ironMg": 9.183,
+      "magnesiumMg": 333,
+      "vitaminCMg": 50.7
+    },
+    "perServing": {
+      "calories": 344.583,
+      "proteinG": 10.74,
+      "carbohydratesG": 55.583,
+      "fatG": 9.735,
+      "fiberG": 7.875,
+      "sugarsG": 12.405,
+      "sodiumMg": 342.887,
+      "potassiumMg": 595.568,
+      "calciumMg": 135.818,
+      "ironMg": 2.296,
+      "magnesiumMg": 83.25,
+      "vitaminCMg": 12.675
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.49,
+    "perServingUsd": 0.62,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-12-02T14:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse4.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://platedelish.com/perfectly-irresistible-caramelized-banana-breakfast-toast/",
+    "originalSourceUrl": "https://tse4.mm.bing.net/th/id/OIP.OSHQHUjDdF7xwgFj0mBvvQHaHa?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://platedelish.com/wp-content/uploads/2025/11/Caramelized-Banana-Breakfast-Toast-768x768.jpeg",
+    "searchQuery": "banana toast plated recipe food photograph",
+    "searchResultTitle": "Perfectly Irresistible Caramelized Banana Breakfast Toast - PlateDelish",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:42.693Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1402",
+    "name": "Banana Toast",
+    "description": "Banana Toast is a practical small meal adaptation built around banana, bread, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 344.583,
+      "proteinG": 10.74,
+      "carbohydratesG": 55.583,
+      "fatG": 9.735,
+      "fiberG": 7.875,
+      "sugarsG": 12.405,
+      "sodiumMg": 342.887,
+      "potassiumMg": 595.568,
+      "calciumMg": 135.818,
+      "ironMg": 2.296,
+      "magnesiumMg": 83.25,
+      "vitaminCMg": 12.675
+    },
+    "estimatedCostPerServingUsd": 0.62,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

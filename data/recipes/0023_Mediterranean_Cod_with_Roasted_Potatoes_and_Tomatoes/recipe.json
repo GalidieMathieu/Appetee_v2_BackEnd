@@ -1,0 +1,199 @@
+{
+  "seedId": "REC-0023",
+  "name": "Mediterranean Cod with Roasted Potatoes and Tomatoes",
+  "description": "Oven-roasted cod with russet potatoes, tomatoes, spinach, garlic, and olive oil.",
+  "source": {
+    "url": "https://www.eatingwell.com/recipe/266298/mediterranean-cod-with-roasted-tomatoes/",
+    "domain": "eatingwell.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Greece",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "cod",
+  "carbohydrateBase": "potato",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0044",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb cod fillets",
+      "normalizedQuantity": 680.389,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb russet potatoes",
+      "normalizedQuantity": 680.389,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 4,
+      "sourceUnit": "medium",
+      "sourceDisplay": "4 Roma tomatoes",
+      "normalizedQuantity": 248,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 6,
+      "sourceUnit": "oz",
+      "sourceDisplay": "6 oz spinach",
+      "normalizedQuantity": 170.097,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp olive oil",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Heat the oven to 425°F and cut potatoes into small wedges.",
+    "Toss potatoes with half the oil and roast for 20 minutes.",
+    "Add tomatoes and spinach to the pan, then place cod on top.",
+    "Brush cod with remaining oil and garlic and roast until it flakes and reaches 145°F."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1542.429,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1364.626,
+      "proteinG": 127.971,
+      "carbohydratesG": 144.924,
+      "fatG": 32.174,
+      "fiberG": 17.069,
+      "sugarsG": 11.996,
+      "sodiumMg": 2236.966,
+      "potassiumMg": 5672.855,
+      "calciumMg": 414.53,
+      "ironMg": 11.232,
+      "magnesiumMg": 451.17,
+      "vitaminCMg": 86.794
+    },
+    "perServing": {
+      "calories": 341.156,
+      "proteinG": 31.993,
+      "carbohydratesG": 36.231,
+      "fatG": 8.043,
+      "fiberG": 4.267,
+      "sugarsG": 2.999,
+      "sodiumMg": 559.241,
+      "potassiumMg": 1418.214,
+      "calciumMg": 103.632,
+      "ironMg": 2.808,
+      "magnesiumMg": 112.793,
+      "vitaminCMg": 21.698
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 16.68,
+    "perServingUsd": 4.17,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie"
+  ],
+  "createdAt": "2024-02-06T15:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://famillyrecipes.com/baked-cod-with-roasted-potatoes/",
+    "originalSourceUrl": "https://famillyrecipes.com/wp-content/uploads/2025/12/Mediterranean-Baked-Cod-with-Roasted-Potatoes-and-Olives-One-Pan-Dinner-1.webp",
+    "searchQuery": "Mediterranean Cod with Roasted Potatoes and Tomatoes plated recipe food photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0023",
+    "name": "Mediterranean Cod with Roasted Potatoes and Tomatoes",
+    "description": "Oven-roasted cod with russet potatoes, tomatoes, spinach, garlic, and olive oil.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": {
+      "main": "recipes/0023_Mediterranean_Cod_with_Roasted_Potatoes_and_Tomatoes/assets/main.avif",
+      "card": "recipes/0023_Mediterranean_Cod_with_Roasted_Potatoes_and_Tomatoes/assets/card.avif"
+    },
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 341.156,
+      "proteinG": 31.993,
+      "carbohydratesG": 36.231,
+      "fatG": 8.043,
+      "fiberG": 4.267,
+      "sugarsG": 2.999,
+      "sodiumMg": 559.241,
+      "potassiumMg": 1418.214,
+      "calciumMg": 103.632,
+      "ironMg": 2.808,
+      "magnesiumMg": 112.793,
+      "vitaminCMg": 21.698
+    },
+    "estimatedCostPerServingUsd": 4.17,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie"
+    ]
+  }
+}

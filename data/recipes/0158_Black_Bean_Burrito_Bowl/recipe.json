@@ -1,0 +1,212 @@
+{
+  "seedId": "REC-0158",
+  "candidate": {
+    "sequence": 49,
+    "seedId": "REC-CAND-0049",
+    "name": "Black Bean Burrito Bowl"
+  },
+  "name": "Black Bean Burrito Bowl",
+  "description": "Black Bean Burrito Bowl combines black beans with rice and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+  "source": {
+    "url": "https://cookieandkate.com/black-bean-burrito-bowl-recipe/",
+    "domain": "cookieandkate.com",
+    "accessedAt": "2026-08-10T18:00:00-06:00",
+    "adaptation": "The source's defining black beans, rice, seasoning profile, and core cooking technique are retained; quantities and supporting vegetables are normalized to the canonical Appetee market ingredients."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "black beans",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and prepare every ingredient for black bean burrito bowl before heating the cooking vessel.",
+    "Heat the cooking vessel and soften the aromatics before adding the black beans.",
+    "Cook the rice until tender while the seasoned black beans develops its intended color and texture.",
+    "Combine the cooked components with the remaining vegetables and sauce, then adjust the consistency and seasoning.",
+    "Portion the finished black bean burrito bowl evenly and serve it warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1607,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1816.89,
+      "proteinG": 62.287,
+      "carbohydratesG": 384.62,
+      "fatG": 10.923,
+      "sodiumMg": 2945.009,
+      "potassiumMg": 3473.07,
+      "calciumMg": 357.551,
+      "ironMg": 11.761,
+      "magnesiumMg": 370.155,
+      "fiberG": 19.442,
+      "sugarsG": 9.454,
+      "vitaminCMg": 42.66
+    },
+    "perServing": {
+      "calories": 454.223,
+      "proteinG": 15.572,
+      "carbohydratesG": 96.155,
+      "fatG": 2.731,
+      "sodiumMg": 736.252,
+      "potassiumMg": 868.268,
+      "calciumMg": 89.388,
+      "ironMg": 2.94,
+      "magnesiumMg": 92.539,
+      "fiberG": 4.861,
+      "sugarsG": 2.364,
+      "vitaminCMg": 10.665
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.45,
+    "perServingUsd": 1.36,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-09-01T18:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "cookieandkate.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://cookieandkate.com/black-bean-burrito-bowl-recipe/",
+    "originalSourceUrl": "https://cookieandkate.com/images/2020/07/best-burrito-bowl-recipe-3.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0158",
+    "name": "Black Bean Burrito Bowl",
+    "description": "Black Bean Burrito Bowl combines black beans with rice and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 454.223,
+      "proteinG": 15.572,
+      "carbohydratesG": 96.155,
+      "fatG": 2.731,
+      "sodiumMg": 736.252,
+      "potassiumMg": 868.268,
+      "calciumMg": 89.388,
+      "ironMg": 2.94,
+      "magnesiumMg": 92.539,
+      "fiberG": 4.861,
+      "sugarsG": 2.364,
+      "vitaminCMg": 10.665
+    },
+    "estimatedCostPerServingUsd": 1.36,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Budget Friendly"
+    ]
+  }
+}

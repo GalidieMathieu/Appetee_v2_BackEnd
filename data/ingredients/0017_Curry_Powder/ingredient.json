@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0017",
+  "name": "Curry Powder",
+  "canonicalName": "Curry Powder",
+  "description": "Ground curry spice blend.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Curry Powder, 2 oz, 3 Pack",
+    "productId": "15962115906",
+    "productUrl": "https://www.walmart.com/ip/15962115906",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 6.24,
+    "packageQuantity": 170.097,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 325,
+      "proteinG": 14.3,
+      "carbohydratesG": 55.8,
+      "fatG": 14,
+      "fiberG": 53.2,
+      "sugarsG": 2.76,
+      "sodiumMg": 52,
+      "potassiumMg": 1170,
+      "calciumMg": 525,
+      "ironMg": 19.1,
+      "magnesiumMg": 255,
+      "vitaminCMg": 0.7
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 3.6685
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 170924,
+      "dataType": "SR Legacy",
+      "description": "Spices, curry powder",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/170924/nutrients",
+      "searchQuery": "spices curry powder",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.shutterstock.com/image-photo/powder-curry-close-image-2186505963",
+    "originalSourceUrl": "https://image.shutterstock.com/shutterstock/photos/2186505963/display_1500/stock-photo-powder-curry-close-up-image-2186505963.jpg",
+    "searchQuery": "Curry Powder ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0017",
+    "name": "Curry Powder",
+    "description": "Ground curry spice blend.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 325,
+      "proteinG": 14.3,
+      "carbohydratesG": 55.8,
+      "fatG": 14,
+      "fiberG": 53.2,
+      "sugarsG": 2.76,
+      "sodiumMg": 52,
+      "potassiumMg": 1170,
+      "calciumMg": 525,
+      "ironMg": 19.1,
+      "magnesiumMg": 255,
+      "vitaminCMg": 0.7
+    },
+    "price": {
+      "usdPerBasis": 3.6685,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0017_Curry_Powder/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

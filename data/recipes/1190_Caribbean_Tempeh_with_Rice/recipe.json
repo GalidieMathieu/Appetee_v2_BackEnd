@@ -1,0 +1,194 @@
+{
+  "seedId": "REC-1190",
+  "candidate": {
+    "sequence": 1984,
+    "seedId": "REC-CAND-1984",
+    "name": "Caribbean Tempeh with Rice"
+  },
+  "name": "Caribbean Tempeh with Rice",
+  "description": "Caribbean Tempeh with Rice is a practical main meal adaptation built around tempeh, rice, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/chilli-tempeh-stir-fry",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Coconut Tempeh Rice Bowl source because it provides the closest validated soy and rice structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Caribbean",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 60,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tempeh",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0049",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tempeh, and rice for caribbean tempeh with rice.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tempeh and cook it until browned or heated through as appropriate.",
+    "Stir in the rice, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the caribbean tempeh with rice, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1350,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1792.932,
+      "proteinG": 80.286,
+      "carbohydratesG": 241.47,
+      "fatG": 62.322,
+      "sodiumMg": 31.655,
+      "potassiumMg": 1979.793,
+      "calciumMg": 388.977,
+      "ironMg": 9.429,
+      "magnesiumMg": 333.6,
+      "vitaminCMg": 24.6,
+      "fiberG": 6.058,
+      "sugarsG": 0
+    },
+    "perServing": {
+      "calories": 448.233,
+      "proteinG": 20.072,
+      "carbohydratesG": 60.367,
+      "fatG": 15.581,
+      "sodiumMg": 7.914,
+      "potassiumMg": 494.948,
+      "calciumMg": 97.244,
+      "ironMg": 2.357,
+      "magnesiumMg": 83.4,
+      "vitaminCMg": 6.15,
+      "fiberG": 1.514,
+      "sugarsG": 0
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.86,
+    "perServingUsd": 2.71,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-01-09T18:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/cajun-rice-and-fried-tempeh-skillet--6192518230473037/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.61IsgAqfkif1xji6anKI2wHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/2a/f1/ca/2af1ca7f804c75ac766f8f02ac18799e.jpg",
+    "searchQuery": "Caribbean Tempeh with Rice plated recipe food",
+    "searchResultTitle": "Cajun Rice and Fried Tempeh Skillet | Recipe | Tempeh recipes ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:12:15.436Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1190",
+    "name": "Caribbean Tempeh with Rice",
+    "description": "Caribbean Tempeh with Rice is a practical main meal adaptation built around tempeh, rice, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 448.233,
+      "proteinG": 20.072,
+      "carbohydratesG": 60.367,
+      "fatG": 15.581,
+      "sodiumMg": 7.914,
+      "potassiumMg": 494.948,
+      "calciumMg": 97.244,
+      "ironMg": 2.357,
+      "magnesiumMg": 83.4,
+      "vitaminCMg": 6.15,
+      "fiberG": 1.514,
+      "sugarsG": 0
+    },
+    "estimatedCostPerServingUsd": 2.71,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

@@ -362,5 +362,8 @@ MigrationBackup/
 #.dot net core tools
 .dotnet/
 
+# Local Appetee dataset image assets (JSON metadata remains tracked)
+data/**/assets/
+
 # Fody - auto-generated XML schema
 FodyWeavers.xsd

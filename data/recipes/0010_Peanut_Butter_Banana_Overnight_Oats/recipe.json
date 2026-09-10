@@ -1,0 +1,199 @@
+{
+  "seedId": "REC-0010",
+  "name": "Peanut Butter Banana Overnight Oats",
+  "description": "Creamy overnight oats with Greek yogurt, peanut butter, banana, and berries.",
+  "source": {
+    "url": "https://www.eatingwell.com/high-protein-peanut-butter-banana-blueberry-overnight-oats-8678793",
+    "domain": "eatingwell.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "Greek yogurt",
+  "carbohydrateBase": "oats",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups oats",
+      "normalizedQuantity": 160,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0030",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups milk",
+      "normalizedQuantity": 480,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup Greek yogurt",
+      "normalizedQuantity": 245,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0032",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "cup",
+      "sourceDisplay": "½ cup peanut butter",
+      "normalizedQuantity": 128,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0033",
+      "sourceQuantity": 2,
+      "sourceUnit": "medium",
+      "sourceDisplay": "2 bananas",
+      "normalizedQuantity": 236,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0034",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup frozen berries",
+      "normalizedQuantity": 140,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Whisk milk, yogurt, and peanut butter until mostly smooth.",
+    "Stir in oats and divide among four covered jars.",
+    "Top with sliced banana and frozen berries.",
+    "Refrigerate at least 6 hours before eating cold or gently warmed."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1351.4,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2011.11,
+      "proteinG": 96.448,
+      "carbohydratesG": 235.109,
+      "fatG": 85.98,
+      "fiberG": 35.476,
+      "sugarsG": 80.48,
+      "sodiumMg": 957.408,
+      "potassiumMg": 3622.49,
+      "calciumMg": 1037.78,
+      "ironMg": 11.168,
+      "magnesiumMg": 586.054,
+      "vitaminCMg": 79.201
+    },
+    "perServing": {
+      "calories": 502.777,
+      "proteinG": 24.112,
+      "carbohydratesG": 58.777,
+      "fatG": 21.495,
+      "fiberG": 8.869,
+      "sugarsG": 20.12,
+      "sodiumMg": 239.352,
+      "potassiumMg": 905.622,
+      "calciumMg": 259.445,
+      "ironMg": 2.792,
+      "magnesiumMg": 146.513,
+      "vitaminCMg": 19.8
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.53,
+    "perServingUsd": 0.88,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-01-17T14:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.sophiarecipe.com/peanut-butter-banana-overnight-oats/",
+    "originalSourceUrl": "https://www.sophiarecipe.com/wp-content/uploads/2026/01/huyvoecjzt4l0zavqrsg.webp",
+    "searchQuery": "Peanut Butter Banana Overnight Oats plated recipe food photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0010",
+    "name": "Peanut Butter Banana Overnight Oats",
+    "description": "Creamy overnight oats with Greek yogurt, peanut butter, banana, and berries.",
+    "mealType": "Breakfast",
+    "mealCategory": "Main Meal",
+    "image": {
+      "main": "recipes/0010_Peanut_Butter_Banana_Overnight_Oats/assets/main.avif",
+      "card": "recipes/0010_Peanut_Butter_Banana_Overnight_Oats/assets/card.avif"
+    },
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 502.777,
+      "proteinG": 24.112,
+      "carbohydratesG": 58.777,
+      "fatG": 21.495,
+      "fiberG": 8.869,
+      "sugarsG": 20.12,
+      "sodiumMg": 239.352,
+      "potassiumMg": 905.622,
+      "calciumMg": 259.445,
+      "ironMg": 2.792,
+      "magnesiumMg": 146.513,
+      "vitaminCMg": 19.8
+    },
+    "estimatedCostPerServingUsd": 0.88,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

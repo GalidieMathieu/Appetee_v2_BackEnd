@@ -1,0 +1,256 @@
+{
+  "seedId": "REC-0380",
+  "candidate": {
+    "sequence": 479,
+    "seedId": "REC-CAND-0479",
+    "name": "Harissa Tuna with Kale"
+  },
+  "name": "Harissa Tuna with Kale",
+  "description": "Harissa Tuna with Kale is a practical stovetop recipe pairing tuna with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.foodnetwork.com/recipes/robin-miller/edamame-rice-salad-with-teriyaki-tuna-recipe-1946418",
+    "domain": "foodnetwork.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Edamame Tuna Rice Salad source while retaining its closest matching dish form, cooking sequence, and applicable tuna or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 60,
+    "totalMinutes": 85
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tuna",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0025",
+      "sourceQuantity": 4,
+      "sourceUnit": "cans",
+      "sourceDisplay": "4 cans tuna, drained",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0050",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups shelled edamame",
+      "normalizedQuantity": 310,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups dry rice",
+      "normalizedQuantity": 277.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0019",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "cups",
+      "sourceDisplay": "1½ cups peas and carrots",
+      "normalizedQuantity": 210,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp soy sauce",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp vinegar",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0097",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0088",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tuna, and vegetables for harissa tuna with kale.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tuna and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the harissa tuna with kale, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2660.5,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2451.4,
+      "proteinG": 184.223,
+      "carbohydratesG": 373.455,
+      "fatG": 29.472,
+      "fiberG": 47.627,
+      "sugarsG": 56.308,
+      "sodiumMg": 8821.61,
+      "potassiumMg": 5853.572,
+      "calciumMg": 1199.771,
+      "ironMg": 26.688,
+      "magnesiumMg": 612.697,
+      "vitaminCMg": 443.77
+    },
+    "perServing": {
+      "calories": 612.85,
+      "proteinG": 46.056,
+      "carbohydratesG": 93.364,
+      "fatG": 7.368,
+      "fiberG": 11.907,
+      "sugarsG": 14.077,
+      "sodiumMg": 2205.403,
+      "potassiumMg": 1463.393,
+      "calciumMg": 299.943,
+      "ironMg": 6.672,
+      "magnesiumMg": 153.174,
+      "vitaminCMg": 110.942
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 18.46,
+    "perServingUsd": 4.62,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Meal Prep"
+  ],
+  "createdAt": "2025-08-10T00:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.explicit.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.recipefiction.com/2015/04/avocado-tuna-salad-w-harissa-and-kale-no-mayo.html",
+    "originalSourceUrl": "https://ts1.explicit.bing.net/th?id=OIP.2T4YVD0cLaifqLMwKmw6AwHaE8&pid=15.1",
+    "discoveredOriginalUrl": "https://www.recipefiction.com/wp-content/uploads/2015/04/kale-harissa-tuna-salad-1024x683.jpg",
+    "searchQuery": "Harissa Tuna with Kale plated recipe food",
+    "searchResultTitle": "Avocado Tuna Salad w/ harissa and kale (no mayo) — Recipe Fiction",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:44:25.739Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0380",
+    "name": "Harissa Tuna with Kale",
+    "description": "Harissa Tuna with Kale is a practical stovetop recipe pairing tuna with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 85,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 612.85,
+      "proteinG": 46.056,
+      "carbohydratesG": 93.364,
+      "fatG": 7.368,
+      "fiberG": 11.907,
+      "sugarsG": 14.077,
+      "sodiumMg": 2205.403,
+      "potassiumMg": 1463.393,
+      "calciumMg": 299.943,
+      "ironMg": 6.672,
+      "magnesiumMg": 153.174,
+      "vitaminCMg": 110.942
+    },
+    "estimatedCostPerServingUsd": 4.62,
+    "diets": [
+      "Pescatarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Meal Prep"
+    ]
+  }
+}

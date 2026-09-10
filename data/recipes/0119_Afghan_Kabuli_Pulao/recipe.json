@@ -1,0 +1,269 @@
+{
+  "seedId": "REC-0119",
+  "candidate": {
+    "sequence": 3,
+    "seedId": "REC-CAND-0003",
+    "name": "Afghan Kabuli Pulao"
+  },
+  "name": "Afghan Kabuli Pulao",
+  "description": "Afghan beef and basmati-style rice layered with sweet carrots, raisins, almonds, and warm spices.",
+  "source": {
+    "url": "https://www.afghanaid.org.uk/qabuli-pulao-recipe",
+    "domain": "afghanaid.org.uk",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source's beef, rice, onion, carrot-raisin-almond topping, aromatics, spices, staged stock cookery, and final layering are retained; jasmine rice is the validated long-grain canonical product."
+  },
+  "countryOfOrigin": "Afghanistan",
+  "discovery": true,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 30,
+    "cookMinutes": 120,
+    "totalMinutes": 150
+  },
+  "servings": 8,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "beef",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 750,
+      "sourceUnit": "g",
+      "sourceDisplay": "750 g long-grain rice",
+      "normalizedQuantity": 750,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0068",
+      "sourceQuantity": 1,
+      "sourceUnit": "kg",
+      "sourceDisplay": "1 kg beef cut in cubes",
+      "normalizedQuantity": 1000,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 onions",
+      "normalizedQuantity": 450,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 3,
+      "sourceUnit": "large",
+      "sourceDisplay": "3 julienned carrots",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0095",
+      "sourceQuantity": 125,
+      "sourceUnit": "g",
+      "sourceDisplay": "125 g raisins",
+      "normalizedQuantity": 125,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0096",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "cup",
+      "sourceDisplay": "½ cup almonds",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0052",
+      "sourceQuantity": 3,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "3 tsp sugar",
+      "normalizedQuantity": 12,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp ground cumin",
+      "normalizedQuantity": 2.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0077",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp garam masala",
+      "normalizedQuantity": 2,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 50,
+      "sourceUnit": "g",
+      "sourceDisplay": "50 g minced ginger",
+      "normalizedQuantity": 50,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 75,
+      "sourceUnit": "g",
+      "sourceDisplay": "75 g minced garlic",
+      "normalizedQuantity": 75,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 4,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "4 tbsp cooking oil",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Rinse the rice thoroughly and soak it in cool water while preparing the beef.",
+    "Brown two onions with the beef, then add ginger, garlic, salt, and water and simmer until the meat is tender.",
+    "Lift out the beef, reduce the stock, and season it with cumin, garam masala, and sugar.",
+    "Parboil the rice separately until al dente, drain it, and briefly fry the remaining onion with the beef and a little stock.",
+    "Sauté the carrots, raisins, and almonds until glossy and lightly softened.",
+    "Layer the rice, beef, carrot mixture, and seasoned stock and steam them over very low heat for fifteen minutes."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2556.1,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 5672.879,
+      "proteinG": 305.51,
+      "carbohydratesG": 829.589,
+      "fatG": 130.421,
+      "fiberG": 35.052,
+      "sodiumMg": 833.095,
+      "potassiumMg": 7906.076,
+      "calciumMg": 833.317,
+      "ironMg": 27.437,
+      "magnesiumMg": 765.286,
+      "sugarsG": 112.008,
+      "vitaminCMg": 83.551
+    },
+    "perServing": {
+      "calories": 709.11,
+      "proteinG": 38.189,
+      "carbohydratesG": 103.699,
+      "fatG": 16.303,
+      "fiberG": 4.381,
+      "sodiumMg": 104.137,
+      "potassiumMg": 988.26,
+      "calciumMg": 104.165,
+      "ironMg": 3.43,
+      "magnesiumMg": 95.661,
+      "sugarsG": 14.001,
+      "vitaminCMg": 10.444
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 39.52,
+    "perServingUsd": 4.94,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein"
+  ],
+  "createdAt": "2024-07-03T15:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "www.afghanaid.org.uk",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.afghanaid.org.uk/qabuli-pulao-recipe",
+    "originalSourceUrl": "https://www.afghanaid.org.uk/handlers/getimage.ashx?idmf=616d21b7-2476-4ba2-84cf-4112621100b1&w=1200&h=630&f=1",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0119",
+    "name": "Afghan Kabuli Pulao",
+    "description": "Afghan beef and basmati-style rice layered with sweet carrots, raisins, almonds, and warm spices.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 150,
+    "servings": 8,
+    "nutritionPerServing": {
+      "calories": 709.11,
+      "proteinG": 38.189,
+      "carbohydratesG": 103.699,
+      "fatG": 16.303,
+      "fiberG": 4.381,
+      "sodiumMg": 104.137,
+      "potassiumMg": 988.26,
+      "calciumMg": 104.165,
+      "ironMg": 3.43,
+      "magnesiumMg": 95.661,
+      "sugarsG": 14.001,
+      "vitaminCMg": 10.444
+    },
+    "estimatedCostPerServingUsd": 4.94,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein"
+    ]
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "seedId": "REC-1659",
+  "candidate": {
+    "sequence": 2458,
+    "seedId": "REC-CAND-2458",
+    "name": "Peach Chia Pudding"
+  },
+  "name": "Peach Chia Pudding",
+  "description": "Peach Chia Pudding is a practical dessert adaptation built around chia seeds, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://medical.gerber.com/recipes/peach-chia-seed-pudding-for-parents",
+    "domain": "medical.gerber.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Peach Chia Seed Pudding source because it provides the closest validated seeds and vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "chia seeds",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0119",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0108",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for peach chia pudding.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the chia seeds with the vegetables and remaining ingredients in the intended dessert form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the peach chia pudding into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 720,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1792.2,
+      "proteinG": 54.39,
+      "carbohydratesG": 291.06,
+      "fatG": 53.238,
+      "fiberG": 70.14,
+      "sodiumMg": 36,
+      "potassiumMg": 1958.4,
+      "calciumMg": 903.6,
+      "ironMg": 20.466,
+      "magnesiumMg": 761.4,
+      "vitaminCMg": 22.02,
+      "sugarsG": 76.806
+    },
+    "perServing": {
+      "calories": 448.05,
+      "proteinG": 13.598,
+      "carbohydratesG": 72.765,
+      "fatG": 13.309,
+      "fiberG": 17.535,
+      "sodiumMg": 9,
+      "potassiumMg": 489.6,
+      "calciumMg": 225.9,
+      "ironMg": 5.117,
+      "magnesiumMg": 190.35,
+      "vitaminCMg": 5.505,
+      "sugarsG": 19.201
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.35,
+    "perServingUsd": 1.84,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2031-01-02T19:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse1.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://nummyrecipes.com/parfait-cups-recipes/",
+    "originalSourceUrl": "https://tse1.mm.bing.net/th/id/OIP.2HnEKiJzK0S-98t5OgSoFQHaFj?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://nummyrecipes.com/wp-content/uploads/2025/03/Peach-and-Honey-Yogurt-Parfait-Cups.jpg",
+    "searchQuery": "peach yogurt parfait dessert cup food photograph",
+    "searchResultTitle": "18 Delicious Parfait Cups Recipes for Every Occasion - Nummy Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:18:28.620Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1659",
+    "name": "Peach Chia Pudding",
+    "description": "Peach Chia Pudding is a practical dessert adaptation built around chia seeds, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 448.05,
+      "proteinG": 13.598,
+      "carbohydratesG": 72.765,
+      "fatG": 13.309,
+      "fiberG": 17.535,
+      "sodiumMg": 9,
+      "potassiumMg": 489.6,
+      "calciumMg": 225.9,
+      "ironMg": 5.117,
+      "magnesiumMg": 190.35,
+      "vitaminCMg": 5.505,
+      "sugarsG": 19.201
+    },
+    "estimatedCostPerServingUsd": 1.84,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

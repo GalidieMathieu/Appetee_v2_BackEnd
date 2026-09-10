@@ -1,0 +1,248 @@
+{
+  "seedId": "REC-0617",
+  "candidate": {
+    "sequence": 926,
+    "seedId": "REC-CAND-0926",
+    "name": "Indian Black Bean Wraps"
+  },
+  "name": "Indian Black Bean Wraps",
+  "description": "Indian Black Bean Wraps is a practical no-cook recipe pairing black beans with tortilla and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.food.com/recipe/black-bean-avocado-quinoa-wrap-516928",
+    "domain": "food.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Black Bean Quinoa Wraps source while retaining its closest matching dish form, cooking sequence, and applicable black beans or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "totalMinutes": 20
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "black beans",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 4,
+      "sourceUnit": "tortillas",
+      "sourceDisplay": "4 whole-wheat tortillas",
+      "normalizedQuantity": 181.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can black beans, drained",
+      "normalizedQuantity": 260,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 0.75,
+      "sourceUnit": "cup",
+      "sourceDisplay": "¾ cup dry quinoa",
+      "normalizedQuantity": 127.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup corn",
+      "normalizedQuantity": 165,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup spinach",
+      "normalizedQuantity": 85,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 0.75,
+      "sourceUnit": "cup",
+      "sourceDisplay": "¾ cup salsa",
+      "normalizedQuantity": 195,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Drain, rinse, chop, and measure the ingredients for indian black bean wraps.",
+    "Whisk the dressing ingredients until they form an even, well-seasoned mixture.",
+    "Fold the black beans together with the vegetables and dressing without crushing the ingredients.",
+    "Arrange the tortilla and dressed mixture evenly in four portions.",
+    "Serve the indian black bean wraps immediately or refrigerate it in sealed meal-prep containers."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1562.9,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1694.74,
+      "proteinG": 67.765,
+      "carbohydratesG": 298.191,
+      "fatG": 31.491,
+      "fiberG": 44.78,
+      "sugarsG": 10.305,
+      "sodiumMg": 3043.793,
+      "potassiumMg": 3685.493,
+      "calciumMg": 877.471,
+      "ironMg": 20.052,
+      "magnesiumMg": 670.405,
+      "vitaminCMg": 39.758
+    },
+    "perServing": {
+      "calories": 423.685,
+      "proteinG": 16.941,
+      "carbohydratesG": 74.548,
+      "fatG": 7.873,
+      "fiberG": 11.195,
+      "sugarsG": 2.576,
+      "sodiumMg": 760.948,
+      "potassiumMg": 921.373,
+      "calciumMg": 219.368,
+      "ironMg": 5.013,
+      "magnesiumMg": 167.601,
+      "vitaminCMg": 9.94
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.47,
+    "perServingUsd": 1.37,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-08-10T09:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://recipeflame.com/zesty-black-bean-wraps/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.ZdWnoDAntielHkd98YxsawHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://recipeflame.com/wp-content/uploads/2025/04/Zesty-Black-Bean-Wraps.webp",
+    "searchQuery": "Indian Black Bean Wraps plated recipe food",
+    "searchResultTitle": "Zesty Black Bean Wraps - Recipe Flame",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:57:21.000Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0617",
+    "name": "Indian Black Bean Wraps",
+    "description": "Indian Black Bean Wraps is a practical no-cook recipe pairing black beans with tortilla and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 423.685,
+      "proteinG": 16.941,
+      "carbohydratesG": 74.548,
+      "fatG": 7.873,
+      "fiberG": 11.195,
+      "sugarsG": 2.576,
+      "sodiumMg": 760.948,
+      "potassiumMg": 921.373,
+      "calciumMg": 219.368,
+      "ironMg": 5.013,
+      "magnesiumMg": 167.601,
+      "vitaminCMg": 9.94
+    },
+    "estimatedCostPerServingUsd": 1.37,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly"
+    ]
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "seedId": "REC-0971",
+  "candidate": {
+    "sequence": 1611,
+    "seedId": "REC-CAND-1611",
+    "name": "Buffalo Tuna Wraps"
+  },
+  "name": "Buffalo Tuna Wraps",
+  "description": "Buffalo Tuna Wraps is a practical no-cook recipe pairing tuna with tortilla and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.food.com/recipe/tuna-and-white-bean-wraps-251930",
+    "domain": "food.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Tuna White Bean Wraps source while retaining its closest matching dish form, cooking sequence, and applicable tuna or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 0,
+    "totalMinutes": 25
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "tuna",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0025",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans tuna, drained",
+      "normalizedQuantity": 226,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0026",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can cannellini beans, drained",
+      "normalizedQuantity": 260,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 4,
+      "sourceUnit": "pieces",
+      "sourceDisplay": "4 whole-wheat tortillas",
+      "normalizedQuantity": 181.437,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 4,
+      "sourceUnit": "oz",
+      "sourceDisplay": "4 oz spinach",
+      "normalizedQuantity": 113.398,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 2,
+      "sourceUnit": "medium",
+      "sourceDisplay": "2 Roma tomatoes",
+      "normalizedQuantity": 124,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp cider vinegar",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Drain, rinse, chop, and measure the ingredients for buffalo tuna wraps.",
+    "Whisk the dressing ingredients until they form an even, well-seasoned mixture.",
+    "Fold the tuna together with the vegetables and dressing without crushing the ingredients.",
+    "Arrange the tortilla and dressed mixture evenly in four portions.",
+    "Serve the buffalo tuna wraps immediately or refrigerate it in sealed meal-prep containers."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1204.095,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1315.962,
+      "proteinG": 103.016,
+      "carbohydratesG": 178.116,
+      "fatG": 22.448,
+      "fiberG": 43.525,
+      "sugarsG": 9.94,
+      "sodiumMg": 2327.858,
+      "potassiumMg": 3603.882,
+      "calciumMg": 884.47,
+      "ironMg": 20.888,
+      "magnesiumMg": 487.367,
+      "vitaminCMg": 47.889
+    },
+    "perServing": {
+      "calories": 328.99,
+      "proteinG": 25.754,
+      "carbohydratesG": 44.529,
+      "fatG": 5.612,
+      "fiberG": 10.881,
+      "sugarsG": 2.485,
+      "sodiumMg": 581.965,
+      "potassiumMg": 900.971,
+      "calciumMg": 221.118,
+      "ironMg": 5.222,
+      "magnesiumMg": 121.842,
+      "vitaminCMg": 11.972
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.83,
+    "perServingUsd": 1.21,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-02-07T03:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/buffalo-tuna-wraps--562457440937259889/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.D9-IxvWAaAECkSZdpDqPXAHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/25/97/84/25978409ff06fcc05e55838402d29f98.jpg",
+    "searchQuery": "Buffalo Tuna Wraps plated recipe food",
+    "searchResultTitle": "Buffalo Tuna Wraps | StarKist® | Recipe | Tuna recipes, Buffalo tuna ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:15:21.762Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0971",
+    "name": "Buffalo Tuna Wraps",
+    "description": "Buffalo Tuna Wraps is a practical no-cook recipe pairing tuna with tortilla and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 328.99,
+      "proteinG": 25.754,
+      "carbohydratesG": 44.529,
+      "fatG": 5.612,
+      "fiberG": 10.881,
+      "sugarsG": 2.485,
+      "sodiumMg": 581.965,
+      "potassiumMg": 900.971,
+      "calciumMg": 221.118,
+      "ironMg": 5.222,
+      "magnesiumMg": 121.842,
+      "vitaminCMg": 11.972
+    },
+    "estimatedCostPerServingUsd": 1.21,
+    "diets": [
+      "Pescatarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly"
+    ]
+  }
+}

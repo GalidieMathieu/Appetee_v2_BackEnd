@@ -1,0 +1,244 @@
+{
+  "seedId": "REC-1120",
+  "candidate": {
+    "sequence": 1874,
+    "seedId": "REC-CAND-1874",
+    "name": "Pesto Pork Tenderloin Stew"
+  },
+  "name": "Pesto Pork Tenderloin Stew",
+  "description": "Pesto Pork Tenderloin Stew is a practical stovetop recipe pairing pork tenderloin with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.globaleducationcenter.org/uploads/5/4/4/6/54461425/manna_cookbook_reduced.pdf",
+    "domain": "globaleducationcenter.org",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Croatian Bean and Sausage Stew source while retaining its closest matching dish form, cooking sequence, and applicable pork or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Croatia",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 60,
+    "totalMinutes": 80
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "pork tenderloin",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0069",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0078",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0096",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0080",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, pork tenderloin, and vegetables for pesto pork tenderloin stew.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned pork tenderloin and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the pesto pork tenderloin stew, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 2560,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 4340.33,
+      "proteinG": 308.129,
+      "carbohydratesG": 243.519,
+      "fatG": 251.461,
+      "fiberG": 76.711,
+      "sugarsG": 36.097,
+      "sodiumMg": 6997.22,
+      "potassiumMg": 8823.42,
+      "calciumMg": 3857.73,
+      "ironMg": 29.941,
+      "magnesiumMg": 1336.762,
+      "vitaminCMg": 50.888
+    },
+    "perServing": {
+      "calories": 1085.082,
+      "proteinG": 77.032,
+      "carbohydratesG": 60.88,
+      "fatG": 62.865,
+      "fiberG": 19.178,
+      "sugarsG": 9.024,
+      "sodiumMg": 1749.305,
+      "potassiumMg": 2205.855,
+      "calciumMg": 964.433,
+      "ironMg": 7.485,
+      "magnesiumMg": 334.19,
+      "vitaminCMg": 12.722
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 21.54,
+    "perServingUsd": 5.38,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Freezer Friendly"
+  ],
+  "createdAt": "2028-09-23T20:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "diabetesfoodhub.org",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://diabetesfoodhub.org/recipes/classic-beef-stew",
+    "originalSourceUrl": "https://diabetesfoodhub.org/sites/foodhub/files/styles/program_card_392x560_/public/2025-07/pesto_pork_tenderloin.jpg.webp?itok=gFZPE5Xs",
+    "discoveredOriginalUrl": "https://diabetesfoodhub.org/sites/foodhub/files/styles/program_card_392x560_/public/2025-07/pesto_pork_tenderloin.jpg.webp?itok=gFZPE5Xs",
+    "searchQuery": "Pesto Pork Tenderloin Stew plated recipe food",
+    "searchResultTitle": "Classic Beef Stew | American Diabetes Association",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:22:52.041Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1120",
+    "name": "Pesto Pork Tenderloin Stew",
+    "description": "Pesto Pork Tenderloin Stew is a practical stovetop recipe pairing pork tenderloin with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 80,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 1085.082,
+      "proteinG": 77.032,
+      "carbohydratesG": 60.88,
+      "fatG": 62.865,
+      "fiberG": 19.178,
+      "sugarsG": 9.024,
+      "sodiumMg": 1749.305,
+      "potassiumMg": 2205.855,
+      "calciumMg": 964.433,
+      "ironMg": 7.485,
+      "magnesiumMg": 334.19,
+      "vitaminCMg": 12.722
+    },
+    "estimatedCostPerServingUsd": 5.38,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Freezer Friendly"
+    ]
+  }
+}

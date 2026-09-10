@@ -1,0 +1,205 @@
+{
+  "seedId": "REC-0022",
+  "name": "Ethiopian Misir Wot",
+  "description": "Red lentils slowly simmered with onion, tomato, garlic, and berbere.",
+  "source": {
+    "url": "https://www.food.com/recipe/misr-wot-ethiopian-lentil-soup-398786",
+    "domain": "food.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Ethiopia",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 55,
+    "totalMinutes": 70
+  },
+  "servings": 6,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0042",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups red lentils",
+      "normalizedQuantity": 384,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 2.5,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 2,
+      "sourceUnit": "medium",
+      "sourceDisplay": "2 medium onions",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can diced tomatoes",
+      "normalizedQuantity": 411.068,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 3,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "3 tbsp olive oil",
+      "normalizedQuantity": 45,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0043",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp berbere",
+      "normalizedQuantity": 8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Rinse the red lentils until the water runs mostly clear.",
+    "Cook finely diced onion slowly in olive oil until deeply softened.",
+    "Add garlic and berbere and stir for 30 seconds.",
+    "Add tomatoes, lentils, and enough water for a thick stew.",
+    "Simmer, stirring often, until the lentils break down and become creamy."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1707.568,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1946.58,
+      "proteinG": 102.489,
+      "carbohydratesG": 292.218,
+      "fatG": 48.333,
+      "fiberG": 49.895,
+      "sugarsG": 8.769,
+      "sodiumMg": 548.684,
+      "potassiumMg": 4202.554,
+      "calciumMg": 348.6,
+      "ironMg": 30.354,
+      "magnesiumMg": 265.755,
+      "vitaminCMg": 46.632
+    },
+    "perServing": {
+      "calories": 324.43,
+      "proteinG": 17.082,
+      "carbohydratesG": 48.703,
+      "fatG": 8.056,
+      "fiberG": 8.316,
+      "sugarsG": 1.462,
+      "sodiumMg": 91.447,
+      "potassiumMg": 700.426,
+      "calciumMg": 58.1,
+      "ironMg": 5.059,
+      "magnesiumMg": 44.292,
+      "vitaminCMg": 7.772
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.37,
+    "perServingUsd": 0.89,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-02-05T02:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "provenance": "Public source-page image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.food.com/recipe/misr-wot-ethiopian-lentil-soup-398786",
+    "originalSourceUrl": "https://img.sndimg.com/food/image/upload/w_555,h_416,c_fit,fl_progressive,q_95/v1/img/recipes/39/87/86/pic4yrTmB.jpg",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0022",
+    "name": "Ethiopian Misir Wot",
+    "description": "Red lentils slowly simmered with onion, tomato, garlic, and berbere.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": {
+      "main": "recipes/0022_Ethiopian_Misir_Wot/assets/main.avif",
+      "card": "recipes/0022_Ethiopian_Misir_Wot/assets/card.avif"
+    },
+    "totalTimeMinutes": 70,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 324.43,
+      "proteinG": 17.082,
+      "carbohydratesG": 48.703,
+      "fatG": 8.056,
+      "fiberG": 8.316,
+      "sugarsG": 1.462,
+      "sodiumMg": 91.447,
+      "potassiumMg": 700.426,
+      "calciumMg": 58.1,
+      "ironMg": 5.059,
+      "magnesiumMg": 44.292,
+      "vitaminCMg": 7.772
+    },
+    "estimatedCostPerServingUsd": 0.89,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

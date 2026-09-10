@@ -1,0 +1,190 @@
+{
+  "seedId": "REC-1652",
+  "candidate": {
+    "sequence": 2451,
+    "seedId": "REC-CAND-2451",
+    "name": "Pumpkin Protein Pudding"
+  },
+  "name": "Pumpkin Protein Pudding",
+  "description": "Pumpkin Protein Pudding is a practical dessert adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://theproteinchef.co/pumpkin-protein-pudding-recipe/",
+    "domain": "theproteinchef.co",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Pumpkin Protein Pudding source because it provides the closest validated vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0112",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for pumpkin protein pudding.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the vegetables with the vegetables and remaining ingredients in the intended dessert form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the pumpkin protein pudding into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 900,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1371,
+      "proteinG": 65.76,
+      "carbohydratesG": 246.99,
+      "fatG": 17.658,
+      "fiberG": 33.06,
+      "sugarsG": 71.256,
+      "sodiumMg": 139.8,
+      "potassiumMg": 1941,
+      "calciumMg": 536.4,
+      "ironMg": 14.832,
+      "magnesiumMg": 434.4,
+      "vitaminCMg": 12.9
+    },
+    "perServing": {
+      "calories": 342.75,
+      "proteinG": 16.44,
+      "carbohydratesG": 61.748,
+      "fatG": 4.415,
+      "fiberG": 8.265,
+      "sugarsG": 17.814,
+      "sodiumMg": 34.95,
+      "potassiumMg": 485.25,
+      "calciumMg": 134.1,
+      "ironMg": 3.708,
+      "magnesiumMg": 108.6,
+      "vitaminCMg": 3.225
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.9,
+    "perServingUsd": 0.97,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-12-23T00:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "media.theproteinchef.co",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://theproteinchef.co/pumpkin-protein-pudding-recipe/",
+    "originalSourceUrl": "https://media.theproteinchef.co/wp-content/uploads/2013/11/Pumpkin-Protein-Pudding-Recipe.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:09:21.839Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1652",
+    "name": "Pumpkin Protein Pudding",
+    "description": "Pumpkin Protein Pudding is a practical dessert adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 342.75,
+      "proteinG": 16.44,
+      "carbohydratesG": 61.748,
+      "fatG": 4.415,
+      "fiberG": 8.265,
+      "sugarsG": 17.814,
+      "sodiumMg": 34.95,
+      "potassiumMg": 485.25,
+      "calciumMg": 134.1,
+      "ironMg": 3.708,
+      "magnesiumMg": 108.6,
+      "vitaminCMg": 3.225
+    },
+    "estimatedCostPerServingUsd": 0.97,
+    "diets": [
+      "Flexitarian"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

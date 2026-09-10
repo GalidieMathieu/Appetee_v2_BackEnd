@@ -1,0 +1,204 @@
+{
+  "seedId": "REC-1472",
+  "candidate": {
+    "sequence": 2269,
+    "seedId": "REC-CAND-2269",
+    "name": "Cocoa Seed Clusters"
+  },
+  "name": "Cocoa Seed Clusters",
+  "description": "Cocoa Seed Clusters is a practical snack adaptation built around oats, oats, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/banana-oatmeal-bites-514723",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Banana Oatmeal Bites source because it provides the closest validated oats structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "Oven",
+  "primaryProtein": "oats",
+  "carbohydrateBase": "oats",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0105",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0095",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0096",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for cocoa seed clusters and preheat the oven.",
+    "Coat the oats and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the oats and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the cocoa seed clusters briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 660,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2419.2,
+      "proteinG": 84.78,
+      "carbohydratesG": 402.48,
+      "fatG": 92.268,
+      "fiberG": 89.16,
+      "sugarsG": 137.196,
+      "sodiumMg": 74.4,
+      "potassiumMg": 4496.4,
+      "calciumMg": 679.2,
+      "ironMg": 33.732,
+      "magnesiumMg": 1298.4,
+      "vitaminCMg": 3.06
+    },
+    "perServing": {
+      "calories": 604.8,
+      "proteinG": 21.195,
+      "carbohydratesG": 100.62,
+      "fatG": 23.067,
+      "fiberG": 22.29,
+      "sugarsG": 34.299,
+      "sodiumMg": 18.6,
+      "potassiumMg": 1124.1,
+      "calciumMg": 169.8,
+      "ironMg": 8.433,
+      "magnesiumMg": 324.6,
+      "vitaminCMg": 0.765
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.07,
+    "perServingUsd": 1.77,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-03-20T12:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.onegreenplanet.org/vegan-recipe/chocolate-nut-seed-clusters-vegan/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.JZlWAvpho4KnlEpO9Be6-gHaFj&pid=15.1",
+    "discoveredOriginalUrl": "https://www.onegreenplanet.org/wp-content/uploads/2019/01/chocolate-nut-and-seed-clusters-39.jpg",
+    "searchQuery": "Cocoa Seed Clusters plated recipe food",
+    "searchResultTitle": "Chocolate Nut Seed Clusters [Vegan] – One Green Planet",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:53:41.357Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1472",
+    "name": "Cocoa Seed Clusters",
+    "description": "Cocoa Seed Clusters is a practical snack adaptation built around oats, oats, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 604.8,
+      "proteinG": 21.195,
+      "carbohydratesG": 100.62,
+      "fatG": 23.067,
+      "fiberG": 22.29,
+      "sugarsG": 34.299,
+      "sodiumMg": 18.6,
+      "potassiumMg": 1124.1,
+      "calciumMg": 169.8,
+      "ironMg": 8.433,
+      "magnesiumMg": 324.6,
+      "vitaminCMg": 0.765
+    },
+    "estimatedCostPerServingUsd": 1.77,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

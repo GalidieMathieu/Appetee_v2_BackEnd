@@ -1,0 +1,252 @@
+{
+  "seedId": "REC-0431",
+  "candidate": {
+    "sequence": 569,
+    "seedId": "REC-CAND-0569",
+    "name": "Peruvian Lean Beef with Potatoes"
+  },
+  "name": "Peruvian Lean Beef with Potatoes",
+  "description": "Peruvian Lean Beef with Potatoes is a practical stovetop recipe pairing lean beef with potatoes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.ricardocuisine.com/en/recipes/5541-pate-chinois-shepherd--s-pie-",
+    "domain": "ricardocuisine.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Canadian Pâté Chinois source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Canada",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 60,
+    "totalMinutes": 75
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lean beef",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 4,
+      "sourceUnit": "cups",
+      "sourceDisplay": "4 cups potatoes",
+      "normalizedQuantity": 900,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0056",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g butter",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0030",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "cup",
+      "sourceDisplay": "½ cup milk",
+      "normalizedQuantity": 125,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 450,
+      "sourceUnit": "g",
+      "sourceDisplay": "450 g ground beef",
+      "normalizedQuantity": 450,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 finely chopped onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0081",
+      "sourceQuantity": 500,
+      "sourceUnit": "ml",
+      "sourceDisplay": "500 ml creamed corn",
+      "normalizedQuantity": 500,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "paprika for the top",
+      "normalizedQuantity": 2.3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "parsley for the top",
+      "normalizedQuantity": 0.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lean beef, and potatoes for peruvian lean beef with potatoes.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lean beef and cook it until browned or heated through as appropriate.",
+    "Stir in the potatoes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the peruvian lean beef with potatoes, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2015.3,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2861.703,
+      "proteinG": 119.075,
+      "carbohydratesG": 278.991,
+      "fatG": 149.303,
+      "fiberG": 21.801,
+      "sugarsG": 28.704,
+      "sodiumMg": 1722.533,
+      "potassiumMg": 6344.413,
+      "calciumMg": 429.29,
+      "ironMg": 20.507,
+      "magnesiumMg": 411.706,
+      "vitaminCMg": 92.183
+    },
+    "perServing": {
+      "calories": 715.426,
+      "proteinG": 29.769,
+      "carbohydratesG": 69.748,
+      "fatG": 37.326,
+      "fiberG": 5.45,
+      "sugarsG": 7.176,
+      "sodiumMg": 430.633,
+      "potassiumMg": 1586.103,
+      "calciumMg": 107.323,
+      "ironMg": 5.127,
+      "magnesiumMg": 102.927,
+      "vitaminCMg": 23.046
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 11.02,
+    "perServingUsd": 2.75,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2025-10-27T15:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.freepik.com/premium-ai-image/peruvianstyle-beef-tenderloin-with-roasted-potatoes_196590389.htm",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.m1PN7TmqauPgCkkpoEjzxwHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://img.freepik.com/premium-photo/peruvianstyle-beef-tenderloin-with-roasted-potatoes_1114710-13539.jpg",
+    "searchQuery": "Peruvian Lean Beef with Potatoes plated recipe food",
+    "searchResultTitle": "Premium Photo | Peruvianstyle beef tenderloin with roasted potatoes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:47:27.675Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0431",
+    "name": "Peruvian Lean Beef with Potatoes",
+    "description": "Peruvian Lean Beef with Potatoes is a practical stovetop recipe pairing lean beef with potatoes and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 75,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 715.426,
+      "proteinG": 29.769,
+      "carbohydratesG": 69.748,
+      "fatG": 37.326,
+      "fiberG": 5.45,
+      "sugarsG": 7.176,
+      "sodiumMg": 430.633,
+      "potassiumMg": 1586.103,
+      "calciumMg": 107.323,
+      "ironMg": 5.127,
+      "magnesiumMg": 102.927,
+      "vitaminCMg": 23.046
+    },
+    "estimatedCostPerServingUsd": 2.75,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

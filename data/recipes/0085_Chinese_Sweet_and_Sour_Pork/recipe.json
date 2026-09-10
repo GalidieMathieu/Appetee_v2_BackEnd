@@ -1,0 +1,237 @@
+{
+  "seedId": "REC-0085",
+  "name": "Chinese Sweet-and-Sour Pork",
+  "description": "Crisp pork tenderloin strips glazed with a bright tomato, vinegar, and sugar sauce.",
+  "source": {
+    "url": "https://www.chinahighlights.com/travelguide/chinese-food/cooking/sweet-sour-pork.htm",
+    "domain": "chinahighlights.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source technique and measured sauce structure are retained; a whole beaten egg replaces the separated egg white, tomato paste represents the listed tomato purée, and apple cider vinegar represents the unspecified vinegar."
+  },
+  "countryOfOrigin": "China",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 20,
+    "totalMinutes": 45
+  },
+  "servings": 2,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "pork",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0069",
+      "sourceQuantity": 200,
+      "sourceUnit": "g",
+      "sourceDisplay": "200 g pork tenderloin",
+      "normalizedQuantity": 200,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 1,
+      "sourceUnit": "large",
+      "sourceDisplay": "1 large egg",
+      "normalizedQuantity": 50,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0052",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp granulated sugar",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 2,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "2 tsp soy sauce",
+      "normalizedQuantity": 10,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0066",
+      "sourceQuantity": 10,
+      "sourceUnit": "g",
+      "sourceDisplay": "10 g cornstarch",
+      "normalizedQuantity": 10,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0054",
+      "sourceQuantity": 30,
+      "sourceUnit": "g",
+      "sourceDisplay": "30 g tomato paste",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 2,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "2 tsp vinegar",
+      "normalizedQuantity": 10,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp cilantro leaves",
+      "normalizedQuantity": 3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp frying oil absorbed",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Unspecified source frying oil conservatively modeled as 2 tbsp absorbed and represented by the validated olive oil product",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Slice the pork into strips and marinate it with egg, soy sauce, and part of the cornstarch.",
+    "Mix the remaining cornstarch with water and vinegar to make a slurry.",
+    "Fry the marinated pork in hot oil until browned and cooked through, then drain it.",
+    "Cook the tomato paste and sugar until glossy, then loosen the sauce with water.",
+    "Return the pork to the wok, stir in the slurry, and finish the glazed strips with cilantro."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 291.7,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 617.971,
+      "proteinG": 50.63,
+      "carbohydratesG": 19.936,
+      "fatG": 36.623,
+      "fiberG": 1.497,
+      "sugarsG": 7.95,
+      "sodiumMg": 834.911,
+      "potassiumMg": 1244.116,
+      "calciumMg": 55.858,
+      "ironMg": 4.172,
+      "magnesiumMg": 82.769,
+      "vitaminCMg": 7.38
+    },
+    "perServing": {
+      "calories": 308.986,
+      "proteinG": 25.315,
+      "carbohydratesG": 9.968,
+      "fatG": 18.311,
+      "fiberG": 0.749,
+      "sugarsG": 3.975,
+      "sodiumMg": 417.455,
+      "potassiumMg": 622.058,
+      "calciumMg": 27.929,
+      "ironMg": 2.086,
+      "magnesiumMg": 41.385,
+      "vitaminCMg": 3.69
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.68,
+    "perServingUsd": 1.34,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-05-12T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "i0.wp.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://cookingfollowme.com/chinese-sweet-and-sour-pork/",
+    "originalSourceUrl": "https://i0.wp.com/cookingfollowme.com/wp-content/uploads/2020/11/CHINESE-SWEET-AND-SOUR-PORK.jpg?resize=768%2C1152&ssl=1",
+    "discoveredOriginalUrl": "https://i0.wp.com/cookingfollowme.com/wp-content/uploads/2020/11/CHINESE-SWEET-AND-SOUR-PORK.jpg?resize=768%2C1152&ssl=1",
+    "searchQuery": "Chinese Sweet-and-Sour Pork plated recipe food",
+    "searchResultTitle": "Chinese Sweet and Sour Pork » CookingFollowMe",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:08:36.586Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0085",
+    "name": "Chinese Sweet-and-Sour Pork",
+    "description": "Crisp pork tenderloin strips glazed with a bright tomato, vinegar, and sugar sauce.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 2,
+    "nutritionPerServing": {
+      "calories": 308.986,
+      "proteinG": 25.315,
+      "carbohydratesG": 9.968,
+      "fatG": 18.311,
+      "fiberG": 0.749,
+      "sugarsG": 3.975,
+      "sodiumMg": 417.455,
+      "potassiumMg": 622.058,
+      "calciumMg": 27.929,
+      "ironMg": 2.086,
+      "magnesiumMg": 41.385,
+      "vitaminCMg": 3.69
+    },
+    "estimatedCostPerServingUsd": 1.34,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Budget Friendly"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "datasetVersion": "0.6.0",
+  "status": "development-dataset-ready",
+  "generatedAt": "2026-08-11T21:47:02.154Z",
+  "recipeCount": 1699,
+  "ingredientCount": 121,
+  "dietCount": 8,
+  "badgeCount": 9,
+  "walmartStoreNumber": 3789,
+  "walmartStoreAddress": "1959 Wall Ave, Ogden, UT 84401",
+  "priceSnapshotStartedAt": "2026-08-10T12:00:00-06:00",
+  "schemaVersion": "current-backend-development plus canonical dataset badge constraint",
+  "validationStatus": "valid",
+  "validationErrors": 0
+}

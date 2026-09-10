@@ -1,0 +1,270 @@
+{
+  "seedId": "REC-0456",
+  "candidate": {
+    "sequence": 618,
+    "seedId": "REC-CAND-0618",
+    "name": "Crispy Egg with Kale"
+  },
+  "name": "Crispy Egg with Kale",
+  "description": "Crispy Egg with Kale is a practical stovetop recipe pairing eggs with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.curiouscuisiniere.com/chakchouka/",
+    "domain": "curiouscuisiniere.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Tunisian Chakchouka source while retaining its closest matching dish form, cooking sequence, and applicable eggs or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Tunisia",
+  "discovery": true,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 50,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 4,
+      "sourceUnit": "medium",
+      "sourceDisplay": "4 medium tomatoes",
+      "normalizedQuantity": 248,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp olive oil",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 diced onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 sliced red bell pepper",
+      "normalizedQuantity": 119,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0061",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 sliced green bell pepper",
+      "normalizedQuantity": 119,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 3,
+      "sourceUnit": "cloves",
+      "sourceDisplay": "3 crushed garlic cloves",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp ground cumin",
+      "normalizedQuantity": 2.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp paprika",
+      "normalizedQuantity": 2.3,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "½ tsp chili powder",
+      "normalizedQuantity": 1.35,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 4,
+      "sourceUnit": "large",
+      "sourceDisplay": "4 large eggs",
+      "normalizedQuantity": 200,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0097",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, eggs, and vegetables for crispy egg with kale.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned eggs and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the crispy egg with kale, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1103.15,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 829.23,
+      "proteinG": 41.423,
+      "carbohydratesG": 57.766,
+      "fatG": 52.953,
+      "fiberG": 24.456,
+      "sugarsG": 18.618,
+      "sodiumMg": 512.163,
+      "potassiumMg": 2816.878,
+      "calciumMg": 998.226,
+      "ironMg": 12.827,
+      "magnesiumMg": 207.502,
+      "vitaminCMg": 579.344
+    },
+    "perServing": {
+      "calories": 207.308,
+      "proteinG": 10.356,
+      "carbohydratesG": 14.441,
+      "fatG": 13.238,
+      "fiberG": 6.114,
+      "sugarsG": 4.654,
+      "sodiumMg": 128.041,
+      "potassiumMg": 704.22,
+      "calciumMg": 249.556,
+      "ironMg": 3.207,
+      "magnesiumMg": 51.876,
+      "vitaminCMg": 144.836
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.67,
+    "perServingUsd": 1.67,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "High Fiber",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2025-12-05T04:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.melinarecipes.com/crispy-kale-and-egg-skillet/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP._z-h3eKfOYlYOy1fSOk95wHaJ4&pid=15.1",
+    "discoveredOriginalUrl": "https://www.melinarecipes.com/wp-content/uploads/2026/02/hdjxgghmjblpwtsvguhi.webp",
+    "searchQuery": "Crispy Egg with Kale plated recipe food",
+    "searchResultTitle": "Ultimate Crispy Kale and Egg Skillet: A Delicious 15-Minute Meal",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:48:49.211Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0456",
+    "name": "Crispy Egg with Kale",
+    "description": "Crispy Egg with Kale is a practical stovetop recipe pairing eggs with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 207.308,
+      "proteinG": 10.356,
+      "carbohydratesG": 14.441,
+      "fatG": 13.238,
+      "fiberG": 6.114,
+      "sugarsG": 4.654,
+      "sodiumMg": 128.041,
+      "potassiumMg": 704.22,
+      "calciumMg": 249.556,
+      "ironMg": 3.207,
+      "magnesiumMg": 51.876,
+      "vitaminCMg": 144.836
+    },
+    "estimatedCostPerServingUsd": 1.67,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "High Fiber",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

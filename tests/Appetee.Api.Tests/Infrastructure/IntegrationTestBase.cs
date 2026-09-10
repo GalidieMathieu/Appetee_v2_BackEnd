@@ -18,6 +18,7 @@ public abstract class IntegrationTestBase : IClassFixture<AppeteeWebApplicationF
     public virtual async Task InitializeAsync()
     {
         await Factory.Database.ResetAsync();
+        Factory.RecoveryEmailSender.Reset();
         Client = Factory.CreateApiClient();
     }
 
@@ -32,7 +33,9 @@ public abstract class IntegrationTestBase : IClassFixture<AppeteeWebApplicationF
     protected async Task<(HttpClient Client, AuthResult Result)> CreateAuthenticatedClientAsync(
         string? username = null,
         string? email = null,
-        string password = "Password123!")
+        string password = "Password123!",
+        IReadOnlyList<int>? dietIds = null,
+        IReadOnlyList<int>? ingredientRestrictionIds = null)
     {
         var client = CreateClient();
         var suffix = Guid.NewGuid().ToString("N")[..8];
@@ -40,8 +43,8 @@ public abstract class IntegrationTestBase : IClassFixture<AppeteeWebApplicationF
             Username: username ?? $"integration_{suffix}",
             Email: email ?? $"integration_{suffix}@appetee.test",
             Password: password,
-            DietIds: new[] { 1, 2 },
-            IngredientRestrictionIds: new[] { 4 });
+            DietIds: dietIds ?? new[] { 1, 2 },
+            IngredientRestrictionIds: ingredientRestrictionIds ?? new[] { 4 });
 
         var response = await client.PostAsJsonAsync("/api/auth/sign-up", request);
         if (!response.IsSuccessStatusCode)

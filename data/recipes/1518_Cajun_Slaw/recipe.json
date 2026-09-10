@@ -1,0 +1,200 @@
+{
+  "seedId": "REC-1518",
+  "candidate": {
+    "sequence": 2316,
+    "seedId": "REC-CAND-2316",
+    "name": "Cajun Slaw"
+  },
+  "name": "Cajun Slaw",
+  "description": "Cajun Slaw is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://kosherworldkitchen.com/morogo-curried-spinach/#recipe",
+    "domain": "kosherworldkitchen.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Botswana Curried Spinach source because it provides the closest validated slaw structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Botswana",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Side",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for cajun slaw.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the vegetables with the vegetables and remaining ingredients in the intended side form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the cajun slaw into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 340,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 323.532,
+      "proteinG": 4.02,
+      "carbohydratesG": 16.855,
+      "fatG": 29.26,
+      "fiberG": 7.085,
+      "sugarsG": 8.764,
+      "sodiumMg": 162.446,
+      "potassiumMg": 922.773,
+      "calciumMg": 58.223,
+      "ironMg": 2.883,
+      "magnesiumMg": 49.35,
+      "vitaminCMg": 41.18
+    },
+    "perServing": {
+      "calories": 80.883,
+      "proteinG": 1.005,
+      "carbohydratesG": 4.214,
+      "fatG": 7.315,
+      "fiberG": 1.771,
+      "sugarsG": 2.191,
+      "sodiumMg": 40.611,
+      "potassiumMg": 230.693,
+      "calciumMg": 14.556,
+      "ironMg": 0.721,
+      "magnesiumMg": 12.338,
+      "vitaminCMg": 10.295
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 1.26,
+    "perServingUsd": 0.32,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-05-30T10:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse1.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://smart.dhgate.com/the-ultimate-guide-to-making-tangy-and-crisp-vinegar-coleslaw-at-home/",
+    "originalSourceUrl": "https://tse1.mm.bing.net/th/id/OIP.H2oX42EhE6nhrxjyaIeUawHaHa?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_1:1/k/Photo/Recipes/2025-03-vinegar-slaw/vinegar-slaw-0422_4c5780-crop2",
+    "searchQuery": "slaw plated recipe food photograph",
+    "searchResultTitle": "The Ultimate Guide to Making Tangy and Crisp Vinegar Coleslaw at Home - Smart.DHgate - Trusted ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:59.949Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1518",
+    "name": "Cajun Slaw",
+    "description": "Cajun Slaw is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 80.883,
+      "proteinG": 1.005,
+      "carbohydratesG": 4.214,
+      "fatG": 7.315,
+      "fiberG": 1.771,
+      "sugarsG": 2.191,
+      "sodiumMg": 40.611,
+      "potassiumMg": 230.693,
+      "calciumMg": 14.556,
+      "ironMg": 0.721,
+      "magnesiumMg": 12.338,
+      "vitaminCMg": 10.295
+    },
+    "estimatedCostPerServingUsd": 0.32,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

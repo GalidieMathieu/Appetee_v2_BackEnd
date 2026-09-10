@@ -1,0 +1,196 @@
+{
+  "seedId": "REC-1435",
+  "candidate": {
+    "sequence": 2232,
+    "seedId": "REC-CAND-2232",
+    "name": "Tuna Fresh Pita Pocket"
+  },
+  "name": "Tuna Fresh Pita Pocket",
+  "description": "Tuna Fresh Pita Pocket is a practical small meal adaptation built around tuna, pita, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://realfood.tesco.com/recipes/tuna-and-tomato-toasts.html",
+    "domain": "realfood.tesco.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Tuna Tomato Toasts source because it provides the closest validated fish and pita structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United Kingdom",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 40,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tuna",
+  "carbohydrateBase": "pita",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0025",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0106",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tuna, and pita for tuna fresh pita pocket.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tuna and cook it until browned or heated through as appropriate.",
+    "Stir in the pita, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the tuna fresh pita pocket, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1030,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1605.332,
+      "proteinG": 133.89,
+      "carbohydratesG": 193.53,
+      "fatG": 35.86,
+      "fiberG": 24,
+      "sugarsG": 8.61,
+      "sodiumMg": 1466.546,
+      "potassiumMg": 2004.273,
+      "calciumMg": 134.273,
+      "ironMg": 16.293,
+      "magnesiumMg": 342,
+      "vitaminCMg": 24.6
+    },
+    "perServing": {
+      "calories": 401.333,
+      "proteinG": 33.472,
+      "carbohydratesG": 48.383,
+      "fatG": 8.965,
+      "fiberG": 6,
+      "sugarsG": 2.152,
+      "sodiumMg": 366.637,
+      "potassiumMg": 501.068,
+      "calciumMg": 33.568,
+      "ironMg": 4.073,
+      "magnesiumMg": 85.5,
+      "vitaminCMg": 6.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.96,
+    "perServingUsd": 2.74,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-01-22T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://cookessence.com/tuna-salad-pita/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.6L0MwRg57bbNmFs8INZNiAHaEK&pid=15.1",
+    "discoveredOriginalUrl": "https://cookessence.com/wp-content/uploads/2025/10/featured-img-4170.jpg",
+    "searchQuery": "Tuna Fresh Pita Pocket plated recipe food",
+    "searchResultTitle": "Zesty Tuna Salad Pita Pockets (Fresh Twist) for Busy Lunches | Best ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:53:19.139Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1435",
+    "name": "Tuna Fresh Pita Pocket",
+    "description": "Tuna Fresh Pita Pocket is a practical small meal adaptation built around tuna, pita, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 401.333,
+      "proteinG": 33.472,
+      "carbohydratesG": 48.383,
+      "fatG": 8.965,
+      "fiberG": 6,
+      "sugarsG": 2.152,
+      "sodiumMg": 366.637,
+      "potassiumMg": 501.068,
+      "calciumMg": 33.568,
+      "ironMg": 4.073,
+      "magnesiumMg": 85.5,
+      "vitaminCMg": 6.15
+    },
+    "estimatedCostPerServingUsd": 2.74,
+    "diets": [
+      "Pescatarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

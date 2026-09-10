@@ -20,5 +20,15 @@ namespace Appetee.Infrastructure.Auth
         WHERE email = @email
         LIMIT 1;
         """;
+
+        public const string EmailExists = """
+        SELECT EXISTS(
+            SELECT 1
+            FROM users
+            WHERE email = @email
+            LIMIT 1
+        );
+        """;
+
     }
 }

@@ -1,0 +1,203 @@
+{
+  "seedId": "REC-0095",
+  "name": "Chinese Chicken Congee",
+  "description": "Comforting rice porridge simmered with ginger-marinated chicken, green onions, and cilantro.",
+  "source": {
+    "url": "https://sueandgambo.com/pages/chicken-congee",
+    "domain": "sueandgambo.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source chicken, rice, ginger, scallion, and cilantro structure is retained; fresh grated ginger represents both listed ginger juice and sliced ginger."
+  },
+  "countryOfOrigin": "China",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 40,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 8,
+      "sourceUnit": "oz",
+      "sourceDisplay": "8 oz chicken breast",
+      "normalizedQuantity": 226.796,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 2,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "2 tsp ginger, divided",
+      "normalizedQuantity": 10,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0062",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp sliced green onions",
+      "normalizedQuantity": 6,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "cup",
+      "sourceDisplay": "½ cup rice",
+      "normalizedQuantity": 100,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 2,
+      "sourceUnit": "oz",
+      "sourceDisplay": "2 oz cilantro for garnish",
+      "normalizedQuantity": 56.699,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Season the chicken with part of the ginger, salt, and pepper and let it stand while the rice is rinsed.",
+    "Bring the rice and water to a boil, then simmer gently until the grains break down into porridge.",
+    "Stir the marinated chicken into the porridge and simmer until it reaches 165°F.",
+    "Add the remaining ginger and green onions and stir briefly.",
+    "Ladle the congee into bowls and finish each serving with cilantro."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 335.526,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 622.365,
+      "proteinG": 59.569,
+      "carbohydratesG": 84.601,
+      "fatG": 5.788,
+      "sodiumMg": 178.035,
+      "potassiumMg": 1184.189,
+      "calciumMg": 57.304,
+      "ironMg": 2.095,
+      "magnesiumMg": 106.162,
+      "fiberG": 2.093,
+      "sugarsG": 0.803,
+      "vitaminCMg": 16.937
+    },
+    "perServing": {
+      "calories": 155.591,
+      "proteinG": 14.892,
+      "carbohydratesG": 21.15,
+      "fatG": 1.447,
+      "sodiumMg": 44.509,
+      "potassiumMg": 296.047,
+      "calciumMg": 14.326,
+      "ironMg": 0.524,
+      "magnesiumMg": 26.541,
+      "fiberG": 0.523,
+      "sugarsG": 0.201,
+      "vitaminCMg": 4.234
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.84,
+    "perServingUsd": 0.71,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Meal Prep",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-05-27T15:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "pupswithchopsticks.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://fity.club/lists/suggestions/Chinese-Congee/",
+    "originalSourceUrl": "https://pupswithchopsticks.com/wp-content/uploads/chicken-congee-tn.jpg",
+    "discoveredOriginalUrl": "https://pupswithchopsticks.com/wp-content/uploads/chicken-congee-tn.jpg",
+    "searchQuery": "Chinese Chicken Congee plated recipe food",
+    "searchResultTitle": "Chinese Congee Chicken Congee (Rice Porridge)",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:08:47.956Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0095",
+    "name": "Chinese Chicken Congee",
+    "description": "Comforting rice porridge simmered with ginger-marinated chicken, green onions, and cilantro.",
+    "mealType": "Breakfast",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 155.591,
+      "proteinG": 14.892,
+      "carbohydratesG": 21.15,
+      "fatG": 1.447,
+      "sodiumMg": 44.509,
+      "potassiumMg": 296.047,
+      "calciumMg": 14.326,
+      "ironMg": 0.524,
+      "magnesiumMg": 26.541,
+      "fiberG": 0.523,
+      "sugarsG": 0.201,
+      "vitaminCMg": 4.234
+    },
+    "estimatedCostPerServingUsd": 0.71,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Meal Prep",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

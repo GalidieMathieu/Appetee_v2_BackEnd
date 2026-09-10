@@ -1,0 +1,198 @@
+{
+  "seedId": "REC-1445",
+  "candidate": {
+    "sequence": 2242,
+    "seedId": "REC-CAND-2242",
+    "name": "Peanut Butter Roasted Chickpeas"
+  },
+  "name": "Peanut Butter Roasted Chickpeas",
+  "description": "Peanut Butter Roasted Chickpeas is a practical snack adaptation built around chickpeas, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://nutritionsource.hsph.harvard.edu/crunchy-roasted-chickpeas/",
+    "domain": "nutritionsource.hsph.harvard.edu",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Chili Cumin Roasted Chickpeas source because it provides the closest validated beans and legumes structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "Oven",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for peanut butter roasted chickpeas and preheat the oven.",
+    "Coat the chickpeas and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the legumes and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the peanut butter roasted chickpeas briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 745,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 933.682,
+      "proteinG": 31.644,
+      "carbohydratesG": 120.795,
+      "fatG": 38.605,
+      "fiberG": 31.615,
+      "sugarsG": 16.19,
+      "sodiumMg": 990.096,
+      "potassiumMg": 1110.423,
+      "calciumMg": 252.423,
+      "ironMg": 5.528,
+      "magnesiumMg": 134.75,
+      "vitaminCMg": 29.68
+    },
+    "perServing": {
+      "calories": 233.421,
+      "proteinG": 7.911,
+      "carbohydratesG": 30.199,
+      "fatG": 9.651,
+      "fiberG": 7.904,
+      "sugarsG": 4.048,
+      "sodiumMg": 247.524,
+      "potassiumMg": 277.606,
+      "calciumMg": 63.106,
+      "ironMg": 1.382,
+      "magnesiumMg": 33.688,
+      "vitaminCMg": 7.42
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 2.05,
+    "perServingUsd": 0.51,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-02-06T21:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse2.explicit.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.shelikesfood.com/peanut-butter-chickpeas/",
+    "originalSourceUrl": "https://tse2.explicit.bing.net/th/id/OIP.VqgvTWMq4aL9OV4KLYqwPAHaLG?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://www.shelikesfood.com/wp-content/uploads/2025/06/peanut-butter-chickpeas-0093.jpg",
+    "searchQuery": "peanut butter chickpeas plated recipe food photograph",
+    "searchResultTitle": "Quick and Easy Peanut Butter Chickpeas - She Likes Food",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:51.281Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1445",
+    "name": "Peanut Butter Roasted Chickpeas",
+    "description": "Peanut Butter Roasted Chickpeas is a practical snack adaptation built around chickpeas, legumes, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 233.421,
+      "proteinG": 7.911,
+      "carbohydratesG": 30.199,
+      "fatG": 9.651,
+      "fiberG": 7.904,
+      "sugarsG": 4.048,
+      "sodiumMg": 247.524,
+      "potassiumMg": 277.606,
+      "calciumMg": 63.106,
+      "ironMg": 1.382,
+      "magnesiumMg": 33.688,
+      "vitaminCMg": 7.42
+    },
+    "estimatedCostPerServingUsd": 0.51,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

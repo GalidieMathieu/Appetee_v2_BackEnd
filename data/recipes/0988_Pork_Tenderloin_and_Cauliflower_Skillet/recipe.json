@@ -1,0 +1,246 @@
+{
+  "seedId": "REC-0988",
+  "candidate": {
+    "sequence": 1639,
+    "seedId": "REC-CAND-1639",
+    "name": "Pork Tenderloin and Cauliflower Skillet"
+  },
+  "name": "Pork Tenderloin and Cauliflower Skillet",
+  "description": "Pork Tenderloin and Cauliflower Skillet is a practical stovetop recipe pairing pork tenderloin with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://time.com/5066819/sweet-potato-hash-recipe/",
+    "domain": "time.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Pork Sweet Potato Skillet source while retaining its closest matching dish form, cooking sequence, and applicable pork or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 60,
+    "totalMinutes": 85
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "pork tenderloin",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0069",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0007",
+      "sourceQuantity": 2,
+      "sourceUnit": "lb",
+      "sourceDisplay": "2 lb sweet potatoes",
+      "normalizedQuantity": 907.2,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can black beans",
+      "normalizedQuantity": 425.2,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can diced tomatoes",
+      "normalizedQuantity": 411.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp chili powder",
+      "normalizedQuantity": 8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0102",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, pork tenderloin, and vegetables for pork tenderloin and cauliflower skillet.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned pork tenderloin and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the pork tenderloin and cauliflower skillet, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2590.78,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2348.908,
+      "proteinG": 182.477,
+      "carbohydratesG": 290.68,
+      "fatG": 53.282,
+      "fiberG": 12.849,
+      "sugarsG": 7.385,
+      "sodiumMg": 2065.007,
+      "potassiumMg": 9761.149,
+      "calciumMg": 682.07,
+      "ironMg": 22.852,
+      "magnesiumMg": 578.923,
+      "vitaminCMg": 297.702
+    },
+    "perServing": {
+      "calories": 587.227,
+      "proteinG": 45.619,
+      "carbohydratesG": 72.67,
+      "fatG": 13.32,
+      "fiberG": 3.212,
+      "sugarsG": 1.846,
+      "sodiumMg": 516.252,
+      "potassiumMg": 2440.287,
+      "calciumMg": 170.518,
+      "ironMg": 5.713,
+      "magnesiumMg": 144.731,
+      "vitaminCMg": 74.425
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 11.43,
+    "perServingUsd": 2.86,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-03-04T08:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/252131279127743463/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.CKsRjx8I957P0Q8HwzXJlQHaGB&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/a8/4d/85/a84d85d0322d47de00fbb174452ea951.jpg",
+    "searchQuery": "Pork Tenderloin and Cauliflower Skillet plated recipe food",
+    "searchResultTitle": "Sheet Pan Pork Tenderloin with Cauliflower and Kale | Easy pork ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:15:59.610Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0988",
+    "name": "Pork Tenderloin and Cauliflower Skillet",
+    "description": "Pork Tenderloin and Cauliflower Skillet is a practical stovetop recipe pairing pork tenderloin with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 85,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 587.227,
+      "proteinG": 45.619,
+      "carbohydratesG": 72.67,
+      "fatG": 13.32,
+      "fiberG": 3.212,
+      "sugarsG": 1.846,
+      "sodiumMg": 516.252,
+      "potassiumMg": 2440.287,
+      "calciumMg": 170.518,
+      "ironMg": 5.713,
+      "magnesiumMg": 144.731,
+      "vitaminCMg": 74.425
+    },
+    "estimatedCostPerServingUsd": 2.86,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "Budget Friendly"
+    ]
+  }
+}

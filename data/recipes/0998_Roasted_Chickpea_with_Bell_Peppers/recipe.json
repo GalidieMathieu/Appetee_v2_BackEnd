@@ -1,0 +1,228 @@
+{
+  "seedId": "REC-0998",
+  "candidate": {
+    "sequence": 1659,
+    "seedId": "REC-CAND-1659",
+    "name": "Roasted Chickpea with Bell Peppers"
+  },
+  "name": "Roasted Chickpea with Bell Peppers",
+  "description": "Roasted Chickpea with Bell Peppers is a practical oven recipe pairing chickpeas with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://nutritionsource.hsph.harvard.edu/crunchy-roasted-chickpeas/",
+    "domain": "nutritionsource.hsph.harvard.edu",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Chili Cumin Roasted Chickpeas source while retaining its closest matching dish form, cooking sequence, and applicable chickpeas or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 60,
+    "totalMinutes": 85
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans chickpeas, drained",
+      "normalizedQuantity": 500,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp olive oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp chili powder",
+      "normalizedQuantity": 2.7,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp cumin",
+      "normalizedQuantity": 2.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for roasted chickpea with bell peppers.",
+    "Season the chickpeas and vegetables evenly while the oven reaches temperature.",
+    "Arrange the chickpeas, legumes, and vegetables so heat can circulate around each component.",
+    "Bake until the chickpeas is safely cooked and the vegetables or grain base are tender.",
+    "Rest the roasted chickpea with bell peppers briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1134.8,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1045.505,
+      "proteinG": 42.402,
+      "carbohydratesG": 163.655,
+      "fatG": 29.479,
+      "fiberG": 45.475,
+      "sugarsG": 33.041,
+      "sodiumMg": 1328.841,
+      "potassiumMg": 1959.526,
+      "calciumMg": 346.748,
+      "ironMg": 9.673,
+      "magnesiumMg": 208.459,
+      "vitaminCMg": 413.961
+    },
+    "perServing": {
+      "calories": 261.376,
+      "proteinG": 10.601,
+      "carbohydratesG": 40.914,
+      "fatG": 7.37,
+      "fiberG": 11.369,
+      "sugarsG": 8.26,
+      "sodiumMg": 332.21,
+      "potassiumMg": 489.882,
+      "calciumMg": 86.687,
+      "ironMg": 2.418,
+      "magnesiumMg": 52.115,
+      "vitaminCMg": 103.49
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.87,
+    "perServingUsd": 1.47,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-03-19T18:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/roasted-chickpeas-and-quinoa-stuffed-bell-peppers--114701121745833231/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.Tb0pDUscZaWy3_DSYYSOygHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/2f/ea/c0/2feac05412c3a8dfb639b7aef6f74368.jpg",
+    "searchQuery": "Roasted Chickpea with Bell Peppers plated recipe food",
+    "searchResultTitle": "Roasted Chickpeas and Quinoa Stuffed Bell Peppers",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:16:37.293Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0998",
+    "name": "Roasted Chickpea with Bell Peppers",
+    "description": "Roasted Chickpea with Bell Peppers is a practical oven recipe pairing chickpeas with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 85,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 261.376,
+      "proteinG": 10.601,
+      "carbohydratesG": 40.914,
+      "fatG": 7.37,
+      "fiberG": 11.369,
+      "sugarsG": 8.26,
+      "sodiumMg": 332.21,
+      "potassiumMg": 489.882,
+      "calciumMg": 86.687,
+      "ironMg": 2.418,
+      "magnesiumMg": 52.115,
+      "vitaminCMg": 103.49
+    },
+    "estimatedCostPerServingUsd": 1.47,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

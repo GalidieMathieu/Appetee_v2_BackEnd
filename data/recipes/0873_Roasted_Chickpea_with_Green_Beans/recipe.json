@@ -1,0 +1,228 @@
+{
+  "seedId": "REC-0873",
+  "candidate": {
+    "sequence": 1424,
+    "seedId": "REC-CAND-1424",
+    "name": "Roasted Chickpea with Green Beans"
+  },
+  "name": "Roasted Chickpea with Green Beans",
+  "description": "Roasted Chickpea with Green Beans is a practical oven recipe pairing chickpeas with legumes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://nutritionsource.hsph.harvard.edu/crunchy-roasted-chickpeas/",
+    "domain": "nutritionsource.hsph.harvard.edu",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Chili Cumin Roasted Chickpeas source while retaining its closest matching dish form, cooking sequence, and applicable chickpeas or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 60,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans chickpeas, drained",
+      "normalizedQuantity": 500,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp olive oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp chili powder",
+      "normalizedQuantity": 2.7,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp cumin",
+      "normalizedQuantity": 2.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0037",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for roasted chickpea with green beans.",
+    "Season the chickpeas and vegetables evenly while the oven reaches temperature.",
+    "Arrange the chickpeas, legumes, and vegetables so heat can circulate around each component.",
+    "Bake until the chickpeas is safely cooked and the vegetables or grain base are tender.",
+    "Rest the roasted chickpea with green beans briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1134.8,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1066.505,
+      "proteinG": 44.802,
+      "carbohydratesG": 168.185,
+      "fatG": 29.209,
+      "fiberG": 46.975,
+      "sugarsG": 27.071,
+      "sodiumMg": 1325.841,
+      "potassiumMg": 1884.526,
+      "calciumMg": 451.748,
+      "ironMg": 10.933,
+      "magnesiumMg": 238.459,
+      "vitaminCMg": 68.661
+    },
+    "perServing": {
+      "calories": 266.626,
+      "proteinG": 11.2,
+      "carbohydratesG": 42.046,
+      "fatG": 7.302,
+      "fiberG": 11.744,
+      "sugarsG": 6.768,
+      "sodiumMg": 331.46,
+      "potassiumMg": 471.132,
+      "calciumMg": 112.937,
+      "ironMg": 2.733,
+      "magnesiumMg": 59.615,
+      "vitaminCMg": 17.165
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3,
+    "perServingUsd": 0.75,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-09-09T01:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://teriskitchen.com/vegetables-recipes/roasted-green-beans-and-chickpeas.html",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.9ZKoC72X8U2TOEBnRoxRIQAAAA&pid=15.1",
+    "discoveredOriginalUrl": "http://teriskitchen.com/foodpics/vegetables/roasted-green-beans-and-chickpeas.jpg",
+    "searchQuery": "Roasted Chickpea with Green Beans plated recipe food",
+    "searchResultTitle": "Roasted Green Beans and Chickpeas Recipe | TerisKitchen.com",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:10:22.978Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0873",
+    "name": "Roasted Chickpea with Green Beans",
+    "description": "Roasted Chickpea with Green Beans is a practical oven recipe pairing chickpeas with legumes and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 266.626,
+      "proteinG": 11.2,
+      "carbohydratesG": 42.046,
+      "fatG": 7.302,
+      "fiberG": 11.744,
+      "sugarsG": 6.768,
+      "sodiumMg": 331.46,
+      "potassiumMg": 471.132,
+      "calciumMg": 112.937,
+      "ironMg": 2.733,
+      "magnesiumMg": 59.615,
+      "vitaminCMg": 17.165
+    },
+    "estimatedCostPerServingUsd": 0.75,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

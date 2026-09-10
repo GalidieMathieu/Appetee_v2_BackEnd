@@ -1,0 +1,216 @@
+{
+  "seedId": "REC-0164",
+  "candidate": {
+    "sequence": 57,
+    "seedId": "REC-CAND-0057",
+    "name": "Sheet Pan Tuna and Bell Peppers"
+  },
+  "name": "Sheet Pan Tuna and Bell Peppers",
+  "description": "Sheet Pan Tuna and Bell Peppers combines tuna with vegetables and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+  "source": {
+    "url": "https://www.hungryroot.com/recipes/garlic-sheet-pan-tuna-bell-peppers-1036722838/",
+    "domain": "hungryroot.com",
+    "accessedAt": "2026-08-10T18:00:00-06:00",
+    "adaptation": "The source's defining tuna, vegetables, seasoning profile, and core cooking technique are retained; quantities and supporting vegetables are normalized to the canonical Appetee market ingredients."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 50,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "tuna",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0025",
+      "sourceQuantity": 340,
+      "sourceUnit": "g",
+      "sourceDisplay": "340 g",
+      "normalizedQuantity": 340,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0061",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and prepare every ingredient for sheet pan tuna and bell peppers before heating the cooking vessel.",
+    "Preheat the oven and coat the tuna and vegetables evenly with the recorded seasonings.",
+    "Cook the vegetables until tender while the seasoned tuna develops its intended color and texture.",
+    "Combine the cooked components with the remaining vegetables and sauce, then adjust the consistency and seasoning.",
+    "Portion the finished sheet pan tuna and bell peppers evenly and serve it warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1045,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 813.482,
+      "proteinG": 93.864,
+      "carbohydratesG": 42.567,
+      "fatG": 31.753,
+      "fiberG": 13.395,
+      "sugarsG": 21.45,
+      "sodiumMg": 195.296,
+      "potassiumMg": 2107.023,
+      "calciumMg": 131.423,
+      "ironMg": 8.28,
+      "magnesiumMg": 166.35,
+      "vitaminCMg": 661.68
+    },
+    "perServing": {
+      "calories": 203.37,
+      "proteinG": 23.466,
+      "carbohydratesG": 10.642,
+      "fatG": 7.938,
+      "fiberG": 3.349,
+      "sugarsG": 5.362,
+      "sodiumMg": 48.824,
+      "potassiumMg": 526.756,
+      "calciumMg": 32.856,
+      "ironMg": 2.07,
+      "magnesiumMg": 41.587,
+      "vitaminCMg": 165.42
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 8.82,
+    "perServingUsd": 2.21,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-09-11T00:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ketogenic.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://ketogenic.com/recipes/one-pan-tuna-steak-and-bell-peppers/",
+    "originalSourceUrl": "https://ketogenic.com/wp-content/uploads/2023/05/Keto-one-pan-tuna-steak-bell-peppers.png",
+    "discoveredOriginalUrl": "https://ketogenic.com/wp-content/uploads/2023/05/Keto-one-pan-tuna-steak-bell-peppers.png",
+    "searchQuery": "Sheet Pan Tuna and Bell Peppers plated recipe food",
+    "searchResultTitle": "One-Pan Tuna Steak and Bell Peppers Recipe - Keto-Friendly Dinner",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:10:29.498Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0164",
+    "name": "Sheet Pan Tuna and Bell Peppers",
+    "description": "Sheet Pan Tuna and Bell Peppers combines tuna with vegetables and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 203.37,
+      "proteinG": 23.466,
+      "carbohydratesG": 10.642,
+      "fatG": 7.938,
+      "fiberG": 3.349,
+      "sugarsG": 5.362,
+      "sodiumMg": 48.824,
+      "potassiumMg": 526.756,
+      "calciumMg": 32.856,
+      "ironMg": 2.07,
+      "magnesiumMg": 41.587,
+      "vitaminCMg": 165.42
+    },
+    "estimatedCostPerServingUsd": 2.21,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly"
+    ]
+  }
+}

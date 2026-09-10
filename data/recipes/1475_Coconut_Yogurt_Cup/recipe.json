@@ -1,0 +1,192 @@
+{
+  "seedId": "REC-1475",
+  "candidate": {
+    "sequence": 2272,
+    "seedId": "REC-CAND-2272",
+    "name": "Coconut Yogurt Cup"
+  },
+  "name": "Coconut Yogurt Cup",
+  "description": "Coconut Yogurt Cup is a practical snack adaptation built around Greek yogurt, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://eatsimplefood.com/tamari-ginger-edamame/",
+    "domain": "eatsimplefood.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Soy Sauce Edamame Snack source because it provides the closest validated dairy and vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Japan",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 40,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "Greek yogurt",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 240,
+      "sourceUnit": "ml",
+      "sourceDisplay": "240 ml",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, Greek yogurt, and vegetables for coconut yogurt cup.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned Greek yogurt and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the coconut yogurt cup, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 840,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1741.8,
+      "proteinG": 67.308,
+      "carbohydratesG": 229.464,
+      "fatG": 67.938,
+      "fiberG": 24.36,
+      "sugarsG": 61.356,
+      "sodiumMg": 156,
+      "potassiumMg": 1851,
+      "calciumMg": 501.6,
+      "ironMg": 18.582,
+      "magnesiumMg": 475.8,
+      "vitaminCMg": 2.7
+    },
+    "perServing": {
+      "calories": 435.45,
+      "proteinG": 16.827,
+      "carbohydratesG": 57.366,
+      "fatG": 16.985,
+      "fiberG": 6.09,
+      "sugarsG": 15.339,
+      "sodiumMg": 39,
+      "potassiumMg": 462.75,
+      "calciumMg": 125.4,
+      "ironMg": 4.646,
+      "magnesiumMg": 118.95,
+      "vitaminCMg": 0.675
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.86,
+    "perServingUsd": 0.96,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-03-25T03:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse4.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://melissarecipe.com/coconut-yogurt-parfait-with-nuts-seeds/",
+    "originalSourceUrl": "https://tse4.mm.bing.net/th/id/OIP.Neu8DzmVc1jv6sBs10P-1AHaJQ?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://www.melissarecipe.com/wp-content/uploads/2025/06/6.1-16.png",
+    "searchQuery": "coconut yogurt parfait dessert cup food photograph",
+    "searchResultTitle": "Coconut Yogurt Parfait with Nuts & Seeds - Melissa Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:17:55.088Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1475",
+    "name": "Coconut Yogurt Cup",
+    "description": "Coconut Yogurt Cup is a practical snack adaptation built around Greek yogurt, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 435.45,
+      "proteinG": 16.827,
+      "carbohydratesG": 57.366,
+      "fatG": 16.985,
+      "fiberG": 6.09,
+      "sugarsG": 15.339,
+      "sodiumMg": 39,
+      "potassiumMg": 462.75,
+      "calciumMg": 125.4,
+      "ironMg": 4.646,
+      "magnesiumMg": 118.95,
+      "vitaminCMg": 0.675
+    },
+    "estimatedCostPerServingUsd": 0.96,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

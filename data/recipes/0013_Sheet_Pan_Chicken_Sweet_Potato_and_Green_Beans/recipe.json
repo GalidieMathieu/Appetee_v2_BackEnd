@@ -1,0 +1,194 @@
+{
+  "seedId": "REC-0013",
+  "name": "Sheet-Pan Chicken, Sweet Potato, and Green Beans",
+  "description": "Roasted chicken thighs with sweet potato, green beans, garlic, and olive oil.",
+  "source": {
+    "url": "https://www.jocooks.com/recipes/chicken-with-green-beans-and-sweet-potatoes/",
+    "domain": "jocooks.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "sweet potato",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0036",
+      "sourceQuantity": 2,
+      "sourceUnit": "lb",
+      "sourceDisplay": "2 lb chicken thighs",
+      "normalizedQuantity": 907.185,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0007",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb sweet potatoes",
+      "normalizedQuantity": 680.389,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0037",
+      "sourceQuantity": 12,
+      "sourceUnit": "oz",
+      "sourceDisplay": "12 oz green beans",
+      "normalizedQuantity": 340.194,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 3,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "3 tbsp olive oil",
+      "normalizedQuantity": 45,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp minced garlic",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Heat the oven to 425°F and cut the sweet potato into small cubes.",
+    "Toss sweet potato and green beans with two-thirds of the oil and roast for 10 minutes.",
+    "Coat chicken with remaining oil and garlic, then place it among the vegetables.",
+    "Roast until vegetables are tender and chicken reaches 165°F."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Paleo",
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1657.413,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2032.023,
+      "proteinG": 191.066,
+      "carbohydratesG": 148.323,
+      "fatG": 77.766,
+      "fiberG": 9.16,
+      "sugarsG": 7.668,
+      "sodiumMg": 1428.783,
+      "potassiumMg": 6122.824,
+      "calciumMg": 394.743,
+      "ironMg": 11.527,
+      "magnesiumMg": 399.056,
+      "vitaminCMg": 149.263
+    },
+    "perServing": {
+      "calories": 338.671,
+      "proteinG": 31.844,
+      "carbohydratesG": 24.721,
+      "fatG": 12.961,
+      "fiberG": 1.527,
+      "sugarsG": 1.278,
+      "sodiumMg": 238.13,
+      "potassiumMg": 1020.471,
+      "calciumMg": 65.79,
+      "ironMg": 1.921,
+      "magnesiumMg": 66.509,
+      "vitaminCMg": 24.877
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 9.83,
+    "perServingUsd": 1.64,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-01-22T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "provenance": "Public source-page image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.jocooks.com/recipes/chicken-with-green-beans-and-sweet-potatoes/",
+    "originalSourceUrl": "https://www.jocooks.com/wp-content/uploads/2026/06/chicken-with-green-beans-and-sweet-potatoes-1-2.jpg",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0013",
+    "name": "Sheet-Pan Chicken, Sweet Potato, and Green Beans",
+    "description": "Roasted chicken thighs with sweet potato, green beans, garlic, and olive oil.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": {
+      "main": "recipes/0013_Sheet_Pan_Chicken_Sweet_Potato_and_Green_Beans/assets/main.avif",
+      "card": "recipes/0013_Sheet_Pan_Chicken_Sweet_Potato_and_Green_Beans/assets/card.avif"
+    },
+    "totalTimeMinutes": 55,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 338.671,
+      "proteinG": 31.844,
+      "carbohydratesG": 24.721,
+      "fatG": 12.961,
+      "fiberG": 1.527,
+      "sugarsG": 1.278,
+      "sodiumMg": 238.13,
+      "potassiumMg": 1020.471,
+      "calciumMg": 65.79,
+      "ironMg": 1.921,
+      "magnesiumMg": 66.509,
+      "vitaminCMg": 24.877
+    },
+    "estimatedCostPerServingUsd": 1.64,
+    "diets": [
+      "Paleo",
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

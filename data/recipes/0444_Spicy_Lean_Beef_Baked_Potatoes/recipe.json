@@ -1,0 +1,270 @@
+{
+  "seedId": "REC-0444",
+  "candidate": {
+    "sequence": 602,
+    "seedId": "REC-CAND-0602",
+    "name": "Spicy Lean Beef Baked Potatoes"
+  },
+  "name": "Spicy Lean Beef Baked Potatoes",
+  "description": "Spicy Lean Beef Baked Potatoes is a practical oven recipe pairing lean beef with potatoes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/must-make-moussaka",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Quick Greek Moussaka source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Greece",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 40,
+    "totalMinutes": 60
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "lean beef",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 500,
+      "sourceUnit": "g",
+      "sourceDisplay": "500 g ground beef",
+      "normalizedQuantity": 500,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0064",
+      "sourceQuantity": 1,
+      "sourceUnit": "large",
+      "sourceDisplay": "1 large eggplant",
+      "normalizedQuantity": 458,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 150,
+      "sourceUnit": "g",
+      "sourceDisplay": "150 g Greek yogurt",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 1,
+      "sourceUnit": "large",
+      "sourceDisplay": "1 beaten egg",
+      "normalizedQuantity": 50,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0080",
+      "sourceQuantity": 3,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "3 tbsp grated Parmesan",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g canned tomatoes",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0054",
+      "sourceQuantity": 4,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "4 tbsp tomato paste",
+      "normalizedQuantity": 64,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 350,
+      "sourceUnit": "g",
+      "sourceDisplay": "350 g potatoes",
+      "normalizedQuantity": 350,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for spicy lean beef baked potatoes.",
+    "Season the lean beef and vegetables evenly while the oven reaches temperature.",
+    "Arrange the lean beef, potatoes, and vegetables so heat can circulate around each component.",
+    "Bake until the lean beef is safely cooked and the vegetables or grain base are tender.",
+    "Rest the spicy lean beef baked potatoes briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 2084.2,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1950.04,
+      "proteinG": 140.557,
+      "carbohydratesG": 153.479,
+      "fatG": 89.153,
+      "fiberG": 29.402,
+      "sugarsG": 31.9,
+      "sodiumMg": 1409.94,
+      "potassiumMg": 6444.42,
+      "calciumMg": 693.07,
+      "ironMg": 22.13,
+      "magnesiumMg": 368.38,
+      "vitaminCMg": 68.706
+    },
+    "perServing": {
+      "calories": 487.51,
+      "proteinG": 35.139,
+      "carbohydratesG": 38.37,
+      "fatG": 22.288,
+      "fiberG": 7.351,
+      "sugarsG": 7.975,
+      "sodiumMg": 352.485,
+      "potassiumMg": 1611.105,
+      "calciumMg": 173.268,
+      "ironMg": 5.532,
+      "magnesiumMg": 92.095,
+      "vitaminCMg": 17.177
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 13.63,
+    "perServingUsd": 3.41,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2025-11-16T16:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.dreamstime.com/delicious-loaded-baked-potatoes-spicy-ground-beef-melted-cheese-fresh-cilantro-close-up-three-topped-seasoned-image379949572",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.lEL7i7pHwR3akbjjWUnYkAHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://thumbs.dreamstime.com/b/delicious-loaded-baked-potatoes-spicy-ground-beef-melted-cheese-fresh-cilantro-close-up-three-topped-seasoned-379949572.jpg",
+    "searchQuery": "Spicy Lean Beef Baked Potatoes plated recipe food",
+    "searchResultTitle": "Delicious Loaded Baked Potatoes with Spicy Ground Beef, Melted Cheese ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:48:06.456Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0444",
+    "name": "Spicy Lean Beef Baked Potatoes",
+    "description": "Spicy Lean Beef Baked Potatoes is a practical oven recipe pairing lean beef with potatoes and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 60,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 487.51,
+      "proteinG": 35.139,
+      "carbohydratesG": 38.37,
+      "fatG": 22.288,
+      "fiberG": 7.351,
+      "sugarsG": 7.975,
+      "sodiumMg": 352.485,
+      "potassiumMg": 1611.105,
+      "calciumMg": 173.268,
+      "ironMg": 5.532,
+      "magnesiumMg": 92.095,
+      "vitaminCMg": 17.177
+    },
+    "estimatedCostPerServingUsd": 3.41,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

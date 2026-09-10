@@ -1,0 +1,264 @@
+{
+  "seedId": "REC-0854",
+  "candidate": {
+    "sequence": 1396,
+    "seedId": "REC-CAND-1396",
+    "name": "Jamaican Chicken with Vegetables"
+  },
+  "name": "Jamaican Chicken with Vegetables",
+  "description": "Jamaican Chicken with Vegetables is a practical stovetop recipe pairing chicken with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://norecipes.com/karaage-recipe",
+    "domain": "norecipes.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Japanese Chicken Karaage source while retaining its closest matching dish form, cooking sequence, and applicable chicken or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Japan",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0036",
+      "sourceQuantity": 450,
+      "sourceUnit": "g",
+      "sourceDisplay": "450 g boneless chicken thighs",
+      "normalizedQuantity": 450,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp grated ginger",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "clove",
+      "sourceDisplay": "1 garlic clove",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp soy sauce",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0052",
+      "sourceQuantity": 2,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "2 tsp sugar",
+      "normalizedQuantity": 8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0066",
+      "sourceQuantity": 0.33,
+      "sourceUnit": "cup",
+      "sourceDisplay": "⅓ cup starch",
+      "normalizedQuantity": 50,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 0.33,
+      "sourceUnit": "cup",
+      "sourceDisplay": "⅓ cup frying oil",
+      "normalizedQuantity": 40,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source frying oil conservatively modeled as 40 ml absorbed and represented by olive oil",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 0.33,
+      "sourceUnit": "medium",
+      "sourceDisplay": "lemon wedges",
+      "normalizedQuantity": 40,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chicken, and vegetables for jamaican chicken with vegetables.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chicken and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the jamaican chicken with vegetables, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1570,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1891.73,
+      "proteinG": 230.074,
+      "carbohydratesG": 100.919,
+      "fatG": 65.816,
+      "fiberG": 11.553,
+      "sugarsG": 17.318,
+      "sodiumMg": 3034.228,
+      "potassiumMg": 4580.904,
+      "calciumMg": 169.418,
+      "ironMg": 7.837,
+      "magnesiumMg": 349.852,
+      "vitaminCMg": 89.21
+    },
+    "perServing": {
+      "calories": 472.933,
+      "proteinG": 57.519,
+      "carbohydratesG": 25.23,
+      "fatG": 16.454,
+      "fiberG": 2.888,
+      "sugarsG": 4.33,
+      "sodiumMg": 758.557,
+      "potassiumMg": 1145.226,
+      "calciumMg": 42.355,
+      "ironMg": 1.959,
+      "magnesiumMg": 87.463,
+      "vitaminCMg": 22.302
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.05,
+    "perServingUsd": 2.51,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Carb",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-08-10T18:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://storage.googleapis.com/dfcfndstngqmge/jamaican-jerk-chicken-vegetables.html",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.oAqKkRhagd6Burs1syx78QHaFj&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/5a/64/0d/5a640da886c0d7eb87e1bb69f6512259.jpg",
+    "searchQuery": "Jamaican Chicken with Vegetables plated recipe food",
+    "searchResultTitle": "Jamaican Jerk Chicken Vegetables at Caitlin Hume blog",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:09:17.702Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0854",
+    "name": "Jamaican Chicken with Vegetables",
+    "description": "Jamaican Chicken with Vegetables is a practical stovetop recipe pairing chicken with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 472.933,
+      "proteinG": 57.519,
+      "carbohydratesG": 25.23,
+      "fatG": 16.454,
+      "fiberG": 2.888,
+      "sugarsG": 4.33,
+      "sodiumMg": 758.557,
+      "potassiumMg": 1145.226,
+      "calciumMg": 42.355,
+      "ironMg": 1.959,
+      "magnesiumMg": 87.463,
+      "vitaminCMg": 22.302
+    },
+    "estimatedCostPerServingUsd": 2.51,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Carb",
+      "Budget Friendly"
+    ]
+  }
+}

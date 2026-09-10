@@ -1,0 +1,218 @@
+{
+  "seedId": "REC-1271",
+  "candidate": {
+    "sequence": 2065,
+    "seedId": "REC-CAND-2065",
+    "name": "Blackened Tempeh Stew"
+  },
+  "name": "Blackened Tempeh Stew",
+  "description": "Blackened Tempeh Stew is a practical main meal adaptation built around tempeh, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.sbs.com.au/food/recipe/tempeh-penyet-smashed-tempeh-with-sambal/be0lbvihq",
+    "domain": "sbs.com.au",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Blackened Tempeh with Corn source because it provides the closest validated soy and stew structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Indonesia",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "totalMinutes": 35
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tempeh",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0049",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tempeh, and vegetables for blackened tempeh stew.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tempeh and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the blackened tempeh stew, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 655,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 981.882,
+      "proteinG": 65.724,
+      "carbohydratesG": 58.9,
+      "fatG": 61.285,
+      "sodiumMg": 179.996,
+      "potassiumMg": 2053.923,
+      "calciumMg": 433.373,
+      "ironMg": 11.268,
+      "magnesiumMg": 290.1,
+      "vitaminCMg": 29.36,
+      "fiberG": 9.5,
+      "sugarsG": 1.025
+    },
+    "perServing": {
+      "calories": 245.47,
+      "proteinG": 16.431,
+      "carbohydratesG": 14.725,
+      "fatG": 15.321,
+      "sodiumMg": 44.999,
+      "potassiumMg": 513.481,
+      "calciumMg": 108.343,
+      "ironMg": 2.817,
+      "magnesiumMg": 72.525,
+      "vitaminCMg": 7.34,
+      "fiberG": 2.375,
+      "sugarsG": 0.256
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.33,
+    "perServingUsd": 2.58,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Freezer Friendly",
+    "Budget Friendly",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-05-14T15:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://tofoo.co.uk/recipes/vietnamese-tempeh-stew/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.Rb0jkhDmIY0lJWcBm4BICQHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://tofoo.co.uk/wp-content/uploads/2020/06/vietnamese-tempeh-stew.jpg",
+    "searchQuery": "Blackened Tempeh Stew plated recipe food",
+    "searchResultTitle": "Vietnamese Tempeh Stew - Tofoo",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:16:34.049Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1271",
+    "name": "Blackened Tempeh Stew",
+    "description": "Blackened Tempeh Stew is a practical main meal adaptation built around tempeh, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 245.47,
+      "proteinG": 16.431,
+      "carbohydratesG": 14.725,
+      "fatG": 15.321,
+      "sodiumMg": 44.999,
+      "potassiumMg": 513.481,
+      "calciumMg": 108.343,
+      "ironMg": 2.817,
+      "magnesiumMg": 72.525,
+      "vitaminCMg": 7.34,
+      "fiberG": 2.375,
+      "sugarsG": 0.256
+    },
+    "estimatedCostPerServingUsd": 2.58,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Freezer Friendly",
+      "Budget Friendly",
+      "Meal Prep"
+    ]
+  }
+}

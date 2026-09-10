@@ -1,0 +1,122 @@
+{
+  "seedId": "ING-0111",
+  "name": "Frozen Dark Sweet Cherries",
+  "canonicalName": "Frozen Dark Sweet Cherries",
+  "description": "Pitted frozen dark sweet cherries for crisps, bites, bark, and smoothies.",
+  "measurementType": "solid",
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": "The exact product is a single-ingredient food without gluten- or lactose-bearing ingredients."
+  },
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Pitted Dark Sweet Cherries, 16 oz Frozen",
+    "productId": "13045006",
+    "productUrl": "https://www.walmart.com/ip/13045006",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 3.82,
+    "packageQuantity": 453.592,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-11T19:50:49.978Z",
+    "priceEvidence": "Current Walmart listing price and package weight."
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 63,
+      "proteinG": 1.06,
+      "carbohydratesG": 16,
+      "fatG": 0.2,
+      "fiberG": 2.1,
+      "sugarsG": 12.8,
+      "sodiumMg": 0,
+      "potassiumMg": 222,
+      "calciumMg": 13,
+      "ironMg": 0.36,
+      "magnesiumMg": 11,
+      "vitaminCMg": 7
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.8422
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 171719,
+      "dataType": "SR Legacy",
+      "description": "Cherries, sweet, raw",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/171719/nutrients",
+      "searchQuery": "cherries sweet raw",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "imageType": "external-real-product-photograph",
+    "aiGenerated": false,
+    "provider": "i5.walmartimages.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/13045006",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Great-Value-Pitted-Dark-Sweet-Cherries-16-oz-Frozen_cd32ac69-1573-418e-b460-4b84d5451250.2fee4b67b2cda33f78e0d5fedf93b96f.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:01:23.923Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0111",
+    "name": "Frozen Dark Sweet Cherries",
+    "description": "Pitted frozen dark sweet cherries for crisps, bites, bark, and smoothies.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 63,
+      "proteinG": 1.06,
+      "carbohydratesG": 16,
+      "fatG": 0.2,
+      "fiberG": 2.1,
+      "sugarsG": 12.8,
+      "sodiumMg": 0,
+      "potassiumMg": 222,
+      "calciumMg": 13,
+      "ironMg": 0.36,
+      "magnesiumMg": 11,
+      "vitaminCMg": 7
+    },
+    "price": {
+      "usdPerBasis": 0.8422,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": null
+  }
+}

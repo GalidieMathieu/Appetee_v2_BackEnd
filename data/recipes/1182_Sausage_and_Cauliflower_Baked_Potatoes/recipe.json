@@ -1,0 +1,208 @@
+{
+  "seedId": "REC-1182",
+  "candidate": {
+    "sequence": 1976,
+    "seedId": "REC-CAND-1976",
+    "name": "Sausage and Cauliflower Baked Potatoes"
+  },
+  "name": "Sausage and Cauliflower Baked Potatoes",
+  "description": "Sausage and Cauliflower Baked Potatoes is a practical main meal adaptation built around sausage, potatoes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.tastelife.tv/recipe/stir-fry-potato-with-chinese-sausage_12578.html",
+    "domain": "tastelife.tv",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Sausage and Kale Baked Potatoes source because it provides the closest validated pork and potatoes structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "China",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 30,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "sausage",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0085",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0102",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare every ingredient for sausage and cauliflower baked potatoes and preheat the oven.",
+    "Coat the sausage and supporting ingredients evenly with the recorded seasonings.",
+    "Arrange the potatoes and seasoned components so heat can circulate around them.",
+    "Cook until the ingredients are browned, tender, and safely cooked where applicable.",
+    "Rest the sausage and cauliflower baked potatoes briefly, adjust the seasoning, and divide it into portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1350,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2440.332,
+      "proteinG": 96.54,
+      "carbohydratesG": 116.85,
+      "fatG": 179.1,
+      "fiberG": 16.5,
+      "sugarsG": 8.52,
+      "sodiumMg": 4818.546,
+      "potassiumMg": 4224.273,
+      "calciumMg": 264.273,
+      "ironMg": 13.653,
+      "magnesiumMg": 252,
+      "vitaminCMg": 188.1
+    },
+    "perServing": {
+      "calories": 610.083,
+      "proteinG": 24.135,
+      "carbohydratesG": 29.212,
+      "fatG": 44.775,
+      "fiberG": 4.125,
+      "sugarsG": 2.13,
+      "sodiumMg": 1204.637,
+      "potassiumMg": 1056.068,
+      "calciumMg": 66.068,
+      "ironMg": 3.413,
+      "magnesiumMg": 63,
+      "vitaminCMg": 47.025
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.15,
+    "perServingUsd": 1.54,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2028-12-28T10:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.realthekitchenandbeyond.com/baked-sausage-sweet-potato-cauliflower-recipe/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.NtC2nKsb2SxAoio0mf_O5wHaD4&pid=15.1",
+    "discoveredOriginalUrl": "https://www.realthekitchenandbeyond.com/wp-content/uploads/2019/08/Baked-Sausage-Sweet-Potato-Cauliflower-Recipe-3.jpg",
+    "searchQuery": "Sausage and Cauliflower Baked Potatoes plated recipe food",
+    "searchResultTitle": "Baked Sausage, Sweet Potato, and Cauliflower",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:11:53.594Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1182",
+    "name": "Sausage and Cauliflower Baked Potatoes",
+    "description": "Sausage and Cauliflower Baked Potatoes is a practical main meal adaptation built around sausage, potatoes, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 610.083,
+      "proteinG": 24.135,
+      "carbohydratesG": 29.212,
+      "fatG": 44.775,
+      "fiberG": 4.125,
+      "sugarsG": 2.13,
+      "sodiumMg": 1204.637,
+      "potassiumMg": 1056.068,
+      "calciumMg": 66.068,
+      "ironMg": 3.413,
+      "magnesiumMg": 63,
+      "vitaminCMg": 47.025
+    },
+    "estimatedCostPerServingUsd": 1.54,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

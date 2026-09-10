@@ -1,0 +1,188 @@
+{
+  "seedId": "REC-0033",
+  "name": "Crispy Baked Tofu Bites",
+  "description": "Savory soy-glazed tofu cubes baked until browned at the edges.",
+  "source": {
+    "url": "https://cookieandkate.com/how-to-make-crispy-baked-tofu/",
+    "domain": "cookieandkate.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 25,
+    "totalMinutes": 35
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Meal Component",
+  "cookingMethod": "Oven",
+  "primaryProtein": "tofu",
+  "carbohydrateBase": "soy",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0018",
+      "sourceQuantity": 14,
+      "sourceUnit": "oz",
+      "sourceDisplay": "14 oz extra-firm tofu",
+      "normalizedQuantity": 396.9,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp soy sauce",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp olive oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp minced garlic",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Heat the oven to 400°F and press the tofu dry.",
+    "Cut the tofu into bite-size cubes and toss with soy sauce, oil, and garlic.",
+    "Spread the cubes apart on a lined baking sheet.",
+    "Bake until browned, turning the cubes once midway through."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 406.71,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 456.142,
+      "proteinG": 39.03,
+      "carbohydratesG": 14.682,
+      "fatG": 30.424,
+      "fiberG": 3.955,
+      "sugarsG": 2.571,
+      "sodiumMg": 1959.271,
+      "potassiumMg": 758.978,
+      "calciumMg": 818.439,
+      "ironMg": 7.056,
+      "magnesiumMg": 173.855,
+      "vitaminCMg": 2.354
+    },
+    "perServing": {
+      "calories": 114.035,
+      "proteinG": 9.758,
+      "carbohydratesG": 3.671,
+      "fatG": 7.606,
+      "fiberG": 0.989,
+      "sugarsG": 0.643,
+      "sodiumMg": 489.818,
+      "potassiumMg": 189.744,
+      "calciumMg": 204.61,
+      "ironMg": 1.764,
+      "magnesiumMg": 43.464,
+      "vitaminCMg": 0.589
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.25,
+    "perServingUsd": 0.81,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2024-02-22T01:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "cookieandkate.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://cookieandkate.com/how-to-make-crispy-baked-tofu/",
+    "originalSourceUrl": "https://cookieandkate.com/images/2016/06/crispy-baked-tofu-recipe-5.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0033",
+    "name": "Crispy Baked Tofu Bites",
+    "description": "Savory soy-glazed tofu cubes baked until browned at the edges.",
+    "mealType": "Lunch",
+    "mealCategory": "Meal Component",
+    "image": null,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 114.035,
+      "proteinG": 9.758,
+      "carbohydratesG": 3.671,
+      "fatG": 7.606,
+      "fiberG": 0.989,
+      "sugarsG": 0.643,
+      "sodiumMg": 489.818,
+      "potassiumMg": 189.744,
+      "calciumMg": 204.61,
+      "ironMg": 1.764,
+      "magnesiumMg": 43.464,
+      "vitaminCMg": 0.589
+    },
+    "estimatedCostPerServingUsd": 0.81,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

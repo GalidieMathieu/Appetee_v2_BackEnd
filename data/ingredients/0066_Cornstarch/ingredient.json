@@ -1,0 +1,122 @@
+{
+  "seedId": "ING-0066",
+  "name": "Cornstarch",
+  "canonicalName": "Cornstarch",
+  "description": "Fine corn starch used for coating and thickening sauces.",
+  "measurementType": "solid",
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  },
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Corn Starch, 16 oz",
+    "productId": "664106906",
+    "productUrl": "https://www.walmart.com/ip/664106906",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 1.92,
+    "packageQuantity": 453.592,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 381,
+      "proteinG": 0.26,
+      "carbohydratesG": 91.3,
+      "fatG": 0.05,
+      "fiberG": 0.9,
+      "sugarsG": 0,
+      "sodiumMg": 9,
+      "potassiumMg": 3,
+      "calciumMg": 2,
+      "ironMg": 0.47,
+      "magnesiumMg": 3,
+      "vitaminCMg": 0
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.4233
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 169698,
+      "dataType": "SR Legacy",
+      "description": "Cornstarch",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/169698/nutrients",
+      "searchQuery": "cornstarch",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "imageType": "external-real-product-photograph",
+    "aiGenerated": false,
+    "provider": "i5.walmartimages.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/664106906",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Great-Value-Corn-Starch-16-oz_bfa9870c-59e8-4216-934f-737fbbec788f.5ccd122f2ea75b49afb73f95997a8f8c.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:42:23.244Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0066",
+    "name": "Cornstarch",
+    "description": "Fine corn starch used for coating and thickening sauces.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 381,
+      "proteinG": 0.26,
+      "carbohydratesG": 91.3,
+      "fatG": 0.05,
+      "fiberG": 0.9,
+      "sugarsG": 0,
+      "sodiumMg": 9,
+      "potassiumMg": 3,
+      "calciumMg": 2,
+      "ironMg": 0.47,
+      "magnesiumMg": 3,
+      "vitaminCMg": 0
+    },
+    "price": {
+      "usdPerBasis": 0.4233,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": null
+  }
+}

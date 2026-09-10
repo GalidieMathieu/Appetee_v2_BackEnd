@@ -76,6 +76,76 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
         Assert.Contains("Image", body, StringComparison.OrdinalIgnoreCase);
     }
 
+    [Theory]
+    [InlineData("price")]
+    [InlineData("calories")]
+    [InlineData("protein")]
+    [InlineData("carbs")]
+    public async Task CreateIngredientDetails_RequiresEveryCoreCalculationValue(string missingField)
+    {
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
+        using var content = MultipartContentBuilder.CreateIngredientRequest(
+            price: missingField == "price" ? null : 3.25m,
+            caloriesKcal: missingField == "calories" ? null : 210m,
+            proteinG: missingField == "protein" ? null : 12m,
+            carbsG: missingField == "carbs" ? null : 5m);
+
+        var response = await client.PostAsync("/api/admin/ingredient-details", content);
+
+        Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
+        Assert.Equal(4, await Factory.Database.QuerySingleOrDefaultAsync<int>(
+            "SELECT COUNT(*) FROM ingredients;"));
+    }
+
+    [Theory]
+    [InlineData("price")]
+    [InlineData("calories")]
+    [InlineData("protein")]
+    [InlineData("carbs")]
+    public async Task CreateIngredientDetails_RejectsNegativeCoreCalculationValue(string negativeField)
+    {
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
+        using var content = MultipartContentBuilder.CreateIngredientRequest(
+            price: negativeField == "price" ? -1m : 3.25m,
+            caloriesKcal: negativeField == "calories" ? -1m : 210m,
+            proteinG: negativeField == "protein" ? -1m : 12m,
+            carbsG: negativeField == "carbs" ? -1m : 5m);
+
+        var response = await client.PostAsync("/api/admin/ingredient-details", content);
+        var problem = await response.ReadProblemDetailsAsync();
+
+        Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
+        Assert.NotNull(problem);
+        Assert.Contains("negative", problem!.Detail, StringComparison.OrdinalIgnoreCase);
+        Assert.Equal(4, await Factory.Database.QuerySingleOrDefaultAsync<int>(
+            "SELECT COUNT(*) FROM ingredients;"));
+    }
+
+    [Fact]
+    public async Task CreateIngredientDetails_AcceptsZeroCoreCalculationValues()
+    {
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
+        using var content = MultipartContentBuilder.CreateIngredientRequest(
+            name: "Zero Core Ingredient",
+            price: 0m,
+            caloriesKcal: 0m,
+            proteinG: 0m,
+            carbsG: 0m);
+
+        var response = await client.PostAsync("/api/admin/ingredient-details", content);
+        var ingredient = await response.Content.ReadFromJsonAsync<IngredientAdminDetailDto>();
+
+        Assert.Equal(HttpStatusCode.OK, response.StatusCode);
+        Assert.NotNull(ingredient);
+        Assert.Equal(0m, ingredient!.Price);
+        Assert.Equal(0m, ingredient.CaloriesKcal);
+        Assert.Equal(0m, ingredient.ProteinG);
+        Assert.Equal(0m, ingredient.CarbsG);
+    }
+
     [Fact]
     public async Task CreateRecipeDetails_ReturnsCreatedRecipe()
     {
@@ -90,7 +160,17 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
         Assert.NotNull(recipe);
         Assert.True(recipe!.Id > 1);
         Assert.Equal("Weeknight Chicken Tray Bake", recipe.Name);
-        Assert.StartsWith("https://test.local/recipes/", recipe.ImageUrl, StringComparison.Ordinal);
+        Assert.Equal("A practical sheet-pan chicken recipe.", recipe.Description);
+        Assert.StartsWith("https://test.local/recipes/", recipe.PreviewImageUrl, StringComparison.Ordinal);
+        Assert.Equal(35, recipe.PrepTimeMinutes);
+        Assert.Equal(20, recipe.CookTimeMinutes);
+        Assert.Equal(55, recipe.TotalTimeMinutes);
+        Assert.Equal(584.40m, recipe.CaloriesTotal);
+        Assert.Equal(73.06m, recipe.ProteinTotal);
+        Assert.Equal(46.08m, recipe.CarbsTotal);
+        Assert.Equal(194.80m, recipe.CaloriesPerServing);
+        Assert.Equal(24.35m, recipe.ProteinPerServing);
+        Assert.Equal(2.15m, recipe.EstimatedCostPerServing);
 
         var getResponse = await client.GetAsync($"/api/recipes/{recipe.Id}");
         var detail = await getResponse.Content.ReadFromJsonAsync<RecipeDetailDto>();
@@ -99,6 +179,73 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
         Assert.NotNull(detail);
         Assert.Equal(recipe.Id, detail!.Id);
         Assert.Equal(recipe.Name, detail.Name);
+        Assert.Equal(recipe.Description, detail.Description);
+        Assert.Equal(recipe.CookTimeMinutes, detail.CookTimeMinutes);
+        Assert.Equal(recipe.TotalTimeMinutes, detail.TotalTimeMinutes);
+        Assert.Equal(recipe.CaloriesTotal, detail.CaloriesTotal);
+        Assert.Equal(recipe.ProteinTotal, detail.ProteinTotal);
+        Assert.Equal(recipe.CarbsTotal, detail.CarbsTotal);
+        Assert.Equal(recipe.CaloriesPerServing, detail.CaloriesPerServing);
+        Assert.Equal(recipe.ProteinPerServing, detail.ProteinPerServing);
+        Assert.Equal(recipe.EstimatedCostPerServing, detail.EstimatedCostPerServing);
+        Assert.Collection(
+            detail.Ingredients,
+            ingredient =>
+            {
+                Assert.Equal(1, ingredient.DisplayOrder);
+                Assert.Equal(1, ingredient.FeaturedOrder);
+            },
+            ingredient =>
+            {
+                Assert.Equal(2, ingredient.DisplayOrder);
+                Assert.Equal(2, ingredient.FeaturedOrder);
+            });
+    }
+
+    [Fact]
+    public async Task CreateRecipeDetails_IgnoresForgedSubmittedTotals()
+    {
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
+        using var content = MultipartContentBuilder.CreateRecipeRequest(
+            submittedCaloriesTotal: -999m,
+            submittedProteinTotal: 999999m,
+            submittedCarbsTotal: 0.01m,
+            submittedEstimatedCostPerServing: 50000m);
+
+        var response = await client.PostAsync("/api/admin/recipe-details", content);
+        var recipe = await response.Content.ReadFromJsonAsync<RecipeSummaryDto>();
+
+        Assert.Equal(HttpStatusCode.OK, response.StatusCode);
+        Assert.NotNull(recipe);
+        Assert.Equal(584.40m, recipe!.CaloriesTotal);
+        Assert.Equal(73.06m, recipe.ProteinTotal);
+        Assert.Equal(46.08m, recipe.CarbsTotal);
+        Assert.Equal(194.80m, recipe.CaloriesPerServing);
+        Assert.Equal(24.35m, recipe.ProteinPerServing);
+        Assert.Equal(2.15m, recipe.EstimatedCostPerServing);
+
+        var persisted = await Factory.Database.QuerySingleOrDefaultAsync<RecipeTotalsRow>(
+            """
+            SELECT
+                calories_total AS CaloriesTotal,
+                protein_total AS ProteinTotal,
+                carbs_total AS CarbsTotal,
+                calories_per_serving AS CaloriesPerServing,
+                protein_per_serving AS ProteinPerServing,
+                estimated_cost_per_serving AS EstimatedCostPerServing
+            FROM recipes
+            WHERE id = @Id;
+            """,
+            new { recipe.Id });
+
+        Assert.NotNull(persisted);
+        Assert.Equal(recipe.CaloriesTotal, persisted!.CaloriesTotal);
+        Assert.Equal(recipe.ProteinTotal, persisted.ProteinTotal);
+        Assert.Equal(recipe.CarbsTotal, persisted.CarbsTotal);
+        Assert.Equal(recipe.CaloriesPerServing, persisted.CaloriesPerServing);
+        Assert.Equal(recipe.ProteinPerServing, persisted.ProteinPerServing);
+        Assert.Equal(recipe.EstimatedCostPerServing, persisted.EstimatedCostPerServing);
     }
 
     [Fact]
@@ -116,6 +263,176 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
         Assert.Contains("invalid badge", problem!.Detail, StringComparison.OrdinalIgnoreCase);
     }
 
+    [Theory]
+    [InlineData(" ", 35, 20, 55, "description")]
+    [InlineData("Valid description", -1, 20, 55, "prep time")]
+    [InlineData("Valid description", 35, -1, 55, "cook time")]
+    [InlineData("Valid description", 35, 20, 0, "total time")]
+    [InlineData("Valid description", 35, 20, 30, "total time")]
+    public async Task CreateRecipeDetails_ValidatesDescriptionAndTimes(
+        string description,
+        int prepTimeMinutes,
+        int cookTimeMinutes,
+        int totalTimeMinutes,
+        string expectedDetail)
+    {
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
+        using var content = MultipartContentBuilder.CreateRecipeRequest(
+            description: description,
+            prepTimeMinutes: prepTimeMinutes,
+            cookTimeMinutes: cookTimeMinutes,
+            totalTimeMinutes: totalTimeMinutes);
+
+        var response = await client.PostAsync("/api/admin/recipe-details", content);
+        var problem = await response.ReadProblemDetailsAsync();
+
+        Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
+        Assert.NotNull(problem);
+        Assert.Contains(expectedDetail, problem!.Detail, StringComparison.OrdinalIgnoreCase);
+    }
+
+    [Fact]
+    public async Task CreateRecipeDetails_RequiresUniqueFeaturedIngredientOrders()
+    {
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
+        using var content = MultipartContentBuilder.CreateRecipeRequest(
+            ingredients:
+            [
+                new RecipeIngredientFormItem(1, 100m, "g", 1),
+                new RecipeIngredientFormItem(2, 100m, "g", 1),
+            ]);
+
+        var response = await client.PostAsync("/api/admin/recipe-details", content);
+        var problem = await response.ReadProblemDetailsAsync();
+
+        Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
+        Assert.NotNull(problem);
+        Assert.Contains("selected more than once", problem!.Detail, StringComparison.OrdinalIgnoreCase);
+    }
+
+    [Fact]
+    public async Task CreateRecipeDetails_RequiresAtLeastOneFeaturedIngredient()
+    {
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
+        using var content = MultipartContentBuilder.CreateRecipeRequest(
+            ingredients:
+            [
+                new RecipeIngredientFormItem(1, 100m, "g"),
+                new RecipeIngredientFormItem(2, 100m, "g"),
+            ]);
+
+        var response = await client.PostAsync("/api/admin/recipe-details", content);
+        var problem = await response.ReadProblemDetailsAsync();
+
+        Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
+        Assert.NotNull(problem);
+        Assert.Contains("must be featured", problem!.Detail, StringComparison.OrdinalIgnoreCase);
+    }
+
+    [Fact]
+    public async Task CreateRecipeDetails_RequiresAtLeastOneInstruction()
+    {
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
+        using var content = MultipartContentBuilder.CreateRecipeRequest(
+            name: "Instructionless Recipe",
+            instructions: Array.Empty<RecipeInstructionFormItem>());
+
+        var response = await client.PostAsync("/api/admin/recipe-details", content);
+        var problem = await response.ReadProblemDetailsAsync();
+
+        Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
+        Assert.NotNull(problem);
+        Assert.Contains("complete instruction step", problem!.Detail, StringComparison.OrdinalIgnoreCase);
+        Assert.Equal(0, await Factory.Database.QuerySingleOrDefaultAsync<int>(
+            "SELECT COUNT(*) FROM recipes WHERE name = 'Instructionless Recipe';"));
+    }
+
+    [Fact]
+    public async Task CreateRecipeDetails_DiscardsFullyBlankInstructionAndPreservesRemainingOrder()
+    {
+        var expectedInstructions = new[]
+        {
+            new RecipeInstructionStepDto("Prepare", "Prepare ingredients."),
+            new RecipeInstructionStepDto("Serve", "Serve."),
+        };
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
+        using var content = MultipartContentBuilder.CreateRecipeRequest(
+            name: "Blank Step Recipe",
+            instructions: new[]
+            {
+                new RecipeInstructionFormItem("Prepare", "Prepare ingredients."),
+                new RecipeInstructionFormItem("   ", ""),
+                new RecipeInstructionFormItem("Serve", "Serve."),
+            });
+
+        var response = await client.PostAsync("/api/admin/recipe-details", content);
+        var created = await response.Content.ReadFromJsonAsync<RecipeSummaryDto>();
+
+        Assert.Equal(HttpStatusCode.OK, response.StatusCode);
+        Assert.NotNull(created);
+
+        var detail = await client.GetFromJsonAsync<RecipeDetailDto>($"/api/recipes/{created!.Id}");
+        Assert.NotNull(detail);
+        Assert.Equal(expectedInstructions, detail!.Instructions);
+    }
+
+    [Theory]
+    [InlineData("Prepare", "")]
+    [InlineData("", "Prepare ingredients.")]
+    public async Task CreateRecipeDetails_RejectsPartiallyCompletedInstruction(string title, string instruction)
+    {
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
+        using var content = MultipartContentBuilder.CreateRecipeRequest(
+            name: "Partial Step Recipe",
+            instructions: new[] { new RecipeInstructionFormItem(title, instruction) });
+
+        var response = await client.PostAsync("/api/admin/recipe-details", content);
+        var problem = await response.ReadProblemDetailsAsync();
+
+        Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
+        Assert.NotNull(problem);
+        Assert.Contains("both title and instruction", problem!.Detail, StringComparison.OrdinalIgnoreCase);
+    }
+
+    [Fact]
+    public async Task CreateRecipeDetails_TrimsAndPreservesInstructionOrder()
+    {
+        var expectedInstructions = new[]
+        {
+            new RecipeInstructionStepDto("Prepare ingredients", "Prepare ingredients."),
+            new RecipeInstructionStepDto("Cook gently", "Cook gently."),
+            new RecipeInstructionStepDto("Serve immediately", "Serve immediately."),
+        };
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
+        using var content = MultipartContentBuilder.CreateRecipeRequest(
+            instructions: new[]
+            {
+                new RecipeInstructionFormItem("  Prepare ingredients  ", " Prepare ingredients. "),
+                new RecipeInstructionFormItem("Cook gently", "Cook gently."),
+                new RecipeInstructionFormItem(" Serve immediately ", "  Serve immediately. "),
+            });
+
+        var createResponse = await client.PostAsync("/api/admin/recipe-details", content);
+        var created = await createResponse.Content.ReadFromJsonAsync<RecipeSummaryDto>();
+
+        Assert.Equal(HttpStatusCode.OK, createResponse.StatusCode);
+        Assert.NotNull(created);
+
+        var getResponse = await client.GetAsync($"/api/recipes/{created!.Id}");
+        var detail = await getResponse.Content.ReadFromJsonAsync<RecipeDetailDto>();
+
+        Assert.Equal(HttpStatusCode.OK, getResponse.StatusCode);
+        Assert.NotNull(detail);
+        Assert.Equal(expectedInstructions, detail!.Instructions);
+    }
+
     [Fact]
     public async Task CreateRecipeDetails_ValidatesDuplicateIngredientSelection()
     {
@@ -124,8 +441,8 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
         using var content = MultipartContentBuilder.CreateRecipeRequest(
             ingredients: new[]
             {
-                new RecipeIngredientFormItem(1, 100m, "g"),
-                new RecipeIngredientFormItem(1, 120m, "g"),
+                new RecipeIngredientFormItem(1, 100m, "g", 1),
+                new RecipeIngredientFormItem(1, 120m, "g", 2),
             });
 
         var response = await client.PostAsync("/api/admin/recipe-details", content);
@@ -144,16 +461,22 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
         using var content = new MultipartFormDataContent();
 
         content.Add(new StringContent("Broken Recipe"), "Name");
+        content.Add(new StringContent("A broken recipe."), "Description");
         content.Add(new StringContent("540"), "CaloriesTotal");
         content.Add(new StringContent("31"), "ProteinTotal");
         content.Add(new StringContent("20"), "CarbsTotal");
-        content.Add(new StringContent("Mix everything."), "Instructions[0]");
-        content.Add(new StringContent("Serve."), "Instructions[1]");
+        content.Add(new StringContent("Mix"), "Instructions[0].Title");
+        content.Add(new StringContent("Mix everything."), "Instructions[0].Instruction");
+        content.Add(new StringContent("Serve"), "Instructions[1].Title");
+        content.Add(new StringContent("Serve."), "Instructions[1].Instruction");
         content.Add(new StringContent("20"), "PrepTimeMinutes");
+        content.Add(new StringContent("10"), "CookTimeMinutes");
+        content.Add(new StringContent("30"), "TotalTimeMinutes");
         content.Add(new StringContent("2"), "Servings");
         content.Add(new StringContent("Easy"), "Difficulty");
         content.Add(new StringContent("2"), "DietIds[0]");
         content.Add(new StringContent("1"), "Ingredients[0].IngredientId");
+        content.Add(new StringContent("1"), "Ingredients[0].FeaturedOrder");
 
         var image = new ByteArrayContent(new byte[] { 1, 2, 3 });
         image.Headers.ContentType = new MediaTypeHeaderValue("image/png");
@@ -175,7 +498,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
         using var content = MultipartContentBuilder.CreateRecipeRequest(
             ingredients: new[]
             {
-                new RecipeIngredientFormItem(999, 100m, "g"),
+                new RecipeIngredientFormItem(999, 100m, "g", 1),
             });
 
         var response = await client.PostAsync("/api/admin/recipe-details", content);
@@ -187,6 +510,131 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     }
 
     [Fact]
+    public async Task CreateRecipeDetails_RejectsNonPositiveIngredientIdInsteadOfDiscardingIt()
+    {
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
+        using var content = MultipartContentBuilder.CreateRecipeRequest(
+            ingredients: new[]
+            {
+                new RecipeIngredientFormItem(0, 100m, "g", 1),
+                new RecipeIngredientFormItem(1, 100m, "g", 2),
+            });
+
+        var response = await client.PostAsync("/api/admin/recipe-details", content);
+        var problem = await response.ReadProblemDetailsAsync();
+
+        Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
+        Assert.NotNull(problem);
+        Assert.Contains("ingredient ids", problem!.Detail, StringComparison.OrdinalIgnoreCase);
+    }
+
+    [Fact]
+    public async Task CreateRecipeDetails_RejectsNonPositiveDietIdInsteadOfDiscardingIt()
+    {
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
+        using var content = MultipartContentBuilder.CreateRecipeRequest(
+            dietIds: new[] { 0, 1 });
+
+        var response = await client.PostAsync("/api/admin/recipe-details", content);
+        var problem = await response.ReadProblemDetailsAsync();
+
+        Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
+        Assert.NotNull(problem);
+        Assert.Contains("diet ids", problem!.Detail, StringComparison.OrdinalIgnoreCase);
+    }
+
+    [Fact]
+    public async Task CreateRecipeDetails_NormalizesEquivalentIngredientUnit()
+    {
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
+        using var content = MultipartContentBuilder.CreateRecipeRequest(
+            ingredients: new[] { new RecipeIngredientFormItem(1, 100m, " G ", 1) });
+
+        var response = await client.PostAsync("/api/admin/recipe-details", content);
+        var created = await response.Content.ReadFromJsonAsync<RecipeSummaryDto>();
+
+        Assert.Equal(HttpStatusCode.OK, response.StatusCode);
+        Assert.NotNull(created);
+
+        var storedUnit = await Factory.Database.QuerySingleOrDefaultAsync<string>(
+            """
+            SELECT unit
+            FROM recipe_ingredients
+            WHERE recipe_id = @RecipeId AND ingredient_id = 1;
+            """,
+            new { RecipeId = created!.Id });
+
+        Assert.Equal("g", storedUnit);
+    }
+
+    [Fact]
+    public async Task CreateRecipeDetails_RejectsIngredientWithMissingCoreCalculationData()
+    {
+        await Factory.Database.ExecuteAsync(
+            "DELETE FROM ingredient_nutrition WHERE ingredient_id = 1;");
+
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
+        using var content = MultipartContentBuilder.CreateRecipeRequest(
+            name: "Must Roll Back",
+            ingredients: new[] { new RecipeIngredientFormItem(1, 100m, "g", 1) });
+
+        var response = await client.PostAsync("/api/admin/recipe-details", content);
+        var problem = await response.ReadProblemDetailsAsync();
+
+        Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
+        Assert.NotNull(problem);
+        Assert.Contains("core calculation data", problem!.Detail, StringComparison.OrdinalIgnoreCase);
+        Assert.Equal(0, await Factory.Database.QuerySingleOrDefaultAsync<int>(
+            "SELECT COUNT(*) FROM recipes WHERE name = 'Must Roll Back';"));
+    }
+
+    [Fact]
+    public async Task CreateRecipeDetails_RejectsUnitMismatch()
+    {
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
+        using var content = MultipartContentBuilder.CreateRecipeRequest(
+            ingredients: new[] { new RecipeIngredientFormItem(1, 100m, "ml", 1) });
+
+        var response = await client.PostAsync("/api/admin/recipe-details", content);
+        var problem = await response.ReadProblemDetailsAsync();
+
+        Assert.Equal(HttpStatusCode.BadRequest, response.StatusCode);
+        Assert.NotNull(problem);
+        Assert.Contains("basis unit", problem!.Detail, StringComparison.OrdinalIgnoreCase);
+    }
+
+    [Fact]
+    public async Task CreateRecipeDetails_AcceptsZeroCoreValues()
+    {
+        await Factory.Database.ExecuteAsync(
+            """
+            UPDATE ingredient_nutrition
+            SET price = 0, calories_kcal = 0, protein_g = 0, carbs_g = 0
+            WHERE ingredient_id = 1;
+            """);
+
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
+        using var content = MultipartContentBuilder.CreateRecipeRequest(
+            ingredients: new[] { new RecipeIngredientFormItem(1, 100m, "g", 1) });
+
+        var response = await client.PostAsync("/api/admin/recipe-details", content);
+        var recipe = await response.Content.ReadFromJsonAsync<RecipeSummaryDto>();
+
+        Assert.Equal(HttpStatusCode.OK, response.StatusCode);
+        Assert.NotNull(recipe);
+        Assert.Equal(0m, recipe!.CaloriesTotal);
+        Assert.Equal(0m, recipe.ProteinTotal);
+        Assert.Equal(0m, recipe.CarbsTotal);
+        Assert.Equal(0m, recipe.EstimatedCostPerServing);
+    }
+
+    [Fact]
     public async Task UpdateRecipeDetails_ReturnsUpdatedRecipe()
     {
         var (authClient, _) = await CreateAuthenticatedClientAsync();
@@ -194,12 +642,15 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
         using var content = MultipartContentBuilder.CreateRecipeRequest(
             name: "Updated Chicken Rice Bowl",
             difficulty: "Hard",
-            badges: new[] { "budget-focused" },
+            description: "An updated chicken and rice bowl.",
+            cookTimeMinutes: 25,
+            totalTimeMinutes: 60,
+            badges: new[] { "Budget Friendly" },
             dietIds: new[] { 1 },
             ingredients: new[]
             {
-                new RecipeIngredientFormItem(2, 160m, "g"),
-                new RecipeIngredientFormItem(3, 150m, "g"),
+                new RecipeIngredientFormItem(2, 160m, "g", 1),
+                new RecipeIngredientFormItem(3, 150m, "g", 2),
             },
             includeImage: false);
 
@@ -209,9 +660,16 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
         Assert.Equal(HttpStatusCode.OK, updateResponse.StatusCode);
         Assert.NotNull(recipe);
         Assert.Equal("Updated Chicken Rice Bowl", recipe!.Name);
+        Assert.Equal("An updated chicken and rice bowl.", recipe.Description);
         Assert.Equal("Hard", recipe.Difficulty);
         Assert.Single(recipe.Diets!);
         Assert.Equal(2, recipe.Ingredients.Count);
+        Assert.Equal(247.80m, recipe.CaloriesTotal);
+        Assert.Equal(8.52m, recipe.ProteinTotal);
+        Assert.Equal(50.86m, recipe.CarbsTotal);
+        Assert.Equal(82.60m, recipe.CaloriesPerServing);
+        Assert.Equal(2.84m, recipe.ProteinPerServing);
+        Assert.Equal(0.80m, recipe.EstimatedCostPerServing);
 
         var getResponse = await client.GetAsync("/api/recipes/1");
         var detail = await getResponse.Content.ReadFromJsonAsync<RecipeDetailDto>();
@@ -219,8 +677,101 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
         Assert.Equal(HttpStatusCode.OK, getResponse.StatusCode);
         Assert.NotNull(detail);
         Assert.Equal("Updated Chicken Rice Bowl", detail!.Name);
+        Assert.Equal("An updated chicken and rice bowl.", detail.Description);
+        Assert.Equal(25, detail.CookTimeMinutes);
+        Assert.Equal(60, detail.TotalTimeMinutes);
         Assert.Equal("Hard", detail.Difficulty);
         Assert.Single(detail.Diets!);
+        Assert.Equal(recipe.CaloriesTotal, detail.CaloriesTotal);
+        Assert.Equal(recipe.ProteinTotal, detail.ProteinTotal);
+        Assert.Equal(recipe.CarbsTotal, detail.CarbsTotal);
+        Assert.Equal(recipe.CaloriesPerServing, detail.CaloriesPerServing);
+        Assert.Equal(recipe.ProteinPerServing, detail.ProteinPerServing);
+        Assert.Equal(recipe.EstimatedCostPerServing, detail.EstimatedCostPerServing);
+    }
+
+    [Fact]
+    public async Task UpdateRecipeDetails_ClearsStaleCardImageWhenMainImageIsReplaced()
+    {
+        await Factory.Database.ExecuteAsync(
+            "UPDATE recipes SET card_image_blob_name = 'dataset/recipes/REC-0001/card.avif' WHERE id = 1;");
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
+        using var content = MultipartContentBuilder.CreateRecipeRequest();
+
+        var response = await client.PutAsync("/api/admin/recipe-details/1", content);
+        var cardBlobName = await Factory.Database.QuerySingleOrDefaultAsync<string>(
+            "SELECT card_image_blob_name FROM recipes WHERE id = 1;");
+
+        Assert.Equal(HttpStatusCode.OK, response.StatusCode);
+        Assert.Null(cardBlobName);
+    }
+
+    [Fact]
+    public async Task UpdateRecipeDetails_PreservesReorderedInstructionSequence()
+    {
+        var expectedInstructions = new[]
+        {
+            new RecipeInstructionStepDto("Serve", "Serve the finished bowl."),
+            new RecipeInstructionStepDto("Cook", "Cook rice and vegetables."),
+            new RecipeInstructionStepDto("Season", "Season the chicken."),
+        };
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
+        using var content = MultipartContentBuilder.CreateRecipeRequest(
+            instructions: new[]
+            {
+                new RecipeInstructionFormItem(" Serve ", " Serve the finished bowl. "),
+                new RecipeInstructionFormItem("Cook", "Cook rice and vegetables."),
+                new RecipeInstructionFormItem(" Season ", " Season the chicken.  "),
+            },
+            includeImage: false);
+
+        var updateResponse = await client.PutAsync("/api/admin/recipe-details/1", content);
+
+        Assert.Equal(HttpStatusCode.OK, updateResponse.StatusCode);
+
+        var getResponse = await client.GetAsync("/api/recipes/1");
+        var detail = await getResponse.Content.ReadFromJsonAsync<RecipeDetailDto>();
+
+        Assert.Equal(HttpStatusCode.OK, getResponse.StatusCode);
+        Assert.NotNull(detail);
+        Assert.Equal(expectedInstructions, detail!.Instructions);
+    }
+
+    [Fact]
+    public async Task UpdateRecipeDetails_RejectsWhenEveryInstructionIsFullyBlankAndKeepsExistingSequence()
+    {
+        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        using var client = authClient;
+        using var content = MultipartContentBuilder.CreateRecipeRequest(
+            instructions: new[]
+            {
+                new RecipeInstructionFormItem(" ", "\t"),
+                new RecipeInstructionFormItem("", "   "),
+            },
+            includeImage: false);
+
+        var updateResponse = await client.PutAsync("/api/admin/recipe-details/1", content);
+        var problem = await updateResponse.ReadProblemDetailsAsync();
+
+        Assert.Equal(HttpStatusCode.BadRequest, updateResponse.StatusCode);
+        Assert.NotNull(problem);
+        Assert.Contains("complete instruction step", problem!.Detail, StringComparison.OrdinalIgnoreCase);
+
+        var getResponse = await client.GetAsync("/api/recipes/1");
+        var detail = await getResponse.Content.ReadFromJsonAsync<RecipeDetailDto>();
+
+        Assert.Equal(HttpStatusCode.OK, getResponse.StatusCode);
+        Assert.NotNull(detail);
+        Assert.Equal(
+            new[]
+            {
+                new RecipeInstructionStepDto("Season the chicken", "Season and sear the chicken."),
+                new RecipeInstructionStepDto("Cook the sides", "Cook the rice and steam the broccoli."),
+                new RecipeInstructionStepDto("Assemble the bowl", "Slice the chicken and serve everything together."),
+            },
+            detail!.Instructions);
     }
 
     [Fact]
@@ -234,4 +785,12 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
 
         Assert.Equal(HttpStatusCode.NotFound, response.StatusCode);
     }
+
+    private sealed record RecipeTotalsRow(
+        decimal CaloriesTotal,
+        decimal ProteinTotal,
+        decimal CarbsTotal,
+        decimal CaloriesPerServing,
+        decimal ProteinPerServing,
+        decimal EstimatedCostPerServing);
 }

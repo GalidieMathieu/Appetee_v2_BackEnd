@@ -1,0 +1,204 @@
+{
+  "seedId": "REC-0009",
+  "name": "Spinach Shakshuka",
+  "description": "Eggs gently cooked in a skillet of tomatoes, onion, spinach, and cumin.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/shakshuka",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Tunisia",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Breakfast",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 6,
+      "sourceUnit": "large",
+      "sourceDisplay": "6 large eggs",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans diced tomatoes",
+      "normalizedQuantity": 822.136,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 medium onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 6,
+      "sourceUnit": "oz",
+      "sourceDisplay": "6 oz spinach",
+      "normalizedQuantity": 170.097,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp olive oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp ground cumin",
+      "normalizedQuantity": 2.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Soften the diced onion in olive oil in a wide covered skillet.",
+    "Stir in cumin, tomatoes, and spinach and simmer until thickened.",
+    "Make six wells in the sauce and crack an egg into each.",
+    "Cover and cook gently until whites are set but yolks remain soft."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Keto",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1397.323,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 811.854,
+      "proteinG": 52.499,
+      "carbohydratesG": 50.459,
+      "fatG": 47.804,
+      "fiberG": 8.003,
+      "sugarsG": 2.263,
+      "sodiumMg": 1584.843,
+      "potassiumMg": 2941.091,
+      "calciumMg": 676.253,
+      "ironMg": 15.042,
+      "magnesiumMg": 265.328,
+      "vitaminCMg": 21.817
+    },
+    "perServing": {
+      "calories": 202.964,
+      "proteinG": 13.125,
+      "carbohydratesG": 12.615,
+      "fatG": 11.951,
+      "fiberG": 2.001,
+      "sugarsG": 0.566,
+      "sodiumMg": 396.211,
+      "potassiumMg": 735.273,
+      "calciumMg": 169.063,
+      "ironMg": 3.76,
+      "magnesiumMg": 66.332,
+      "vitaminCMg": 5.454
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.82,
+    "perServingUsd": 0.96,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Quick Meal",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-01-16T01:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "provenance": "Public source-page image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.bbcgoodfood.com/recipes/shakshuka",
+    "originalSourceUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2020/08/recipe-image-legacy-id-12141_11-fd804a3.jpg?resize=440%2C230",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0009",
+    "name": "Spinach Shakshuka",
+    "description": "Eggs gently cooked in a skillet of tomatoes, onion, spinach, and cumin.",
+    "mealType": "Breakfast",
+    "mealCategory": "Main Meal",
+    "image": {
+      "main": "recipes/0009_Spinach_Shakshuka/assets/main.avif",
+      "card": "recipes/0009_Spinach_Shakshuka/assets/card.avif"
+    },
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 202.964,
+      "proteinG": 13.125,
+      "carbohydratesG": 12.615,
+      "fatG": 11.951,
+      "fiberG": 2.001,
+      "sugarsG": 0.566,
+      "sodiumMg": 396.211,
+      "potassiumMg": 735.273,
+      "calciumMg": 169.063,
+      "ironMg": 3.76,
+      "magnesiumMg": 66.332,
+      "vitaminCMg": 5.454
+    },
+    "estimatedCostPerServingUsd": 0.96,
+    "diets": [
+      "Vegetarian",
+      "Keto",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Quick Meal",
+      "Budget Friendly"
+    ]
+  }
+}

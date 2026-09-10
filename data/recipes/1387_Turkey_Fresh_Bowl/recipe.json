@@ -1,0 +1,196 @@
+{
+  "seedId": "REC-1387",
+  "candidate": {
+    "sequence": 2181,
+    "seedId": "REC-CAND-2181",
+    "name": "Turkey Fresh Bowl"
+  },
+  "name": "Turkey Fresh Bowl",
+  "description": "Turkey Fresh Bowl is a practical small meal adaptation built around turkey, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.healthline.com/recipes/low-calorie-recipe-5",
+    "domain": "healthline.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Buffalo Turkey Salad Bowl source because it provides the closest validated turkey and bowl structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 30,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Small Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, turkey, and vegetables for turkey fresh bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned turkey and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the turkey fresh bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1050,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1453.332,
+      "proteinG": 107.01,
+      "carbohydratesG": 29.76,
+      "fatG": 103.8,
+      "fiberG": 9.9,
+      "sugarsG": 20.49,
+      "sodiumMg": 351.546,
+      "potassiumMg": 2556.273,
+      "calciumMg": 249.273,
+      "ironMg": 10.173,
+      "magnesiumMg": 183,
+      "vitaminCMg": 425.1
+    },
+    "perServing": {
+      "calories": 363.333,
+      "proteinG": 26.753,
+      "carbohydratesG": 7.44,
+      "fatG": 25.95,
+      "fiberG": 2.475,
+      "sugarsG": 5.122,
+      "sodiumMg": 87.886,
+      "potassiumMg": 639.068,
+      "calciumMg": 62.318,
+      "ironMg": 2.543,
+      "magnesiumMg": 45.75,
+      "vitaminCMg": 106.275
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.47,
+    "perServingUsd": 1.87,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-11-09T11:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://recipesbyalba.com/recipe/fresh-high-protein-mediterranean-turkey-bowls/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.kkBUrAaRF4vN7YaAQVX_ggHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://recipesbyalba.com/wp-content/uploads/2026/04/20260401T050328.webp",
+    "searchQuery": "Turkey Fresh Bowl plated recipe food",
+    "searchResultTitle": "Fresh High-Protein Mediterranean Turkey Bowls – Recipes By Alba",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:52:03.378Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1387",
+    "name": "Turkey Fresh Bowl",
+    "description": "Turkey Fresh Bowl is a practical small meal adaptation built around turkey, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Small Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 363.333,
+      "proteinG": 26.753,
+      "carbohydratesG": 7.44,
+      "fatG": 25.95,
+      "fiberG": 2.475,
+      "sugarsG": 5.122,
+      "sodiumMg": 87.886,
+      "potassiumMg": 639.068,
+      "calciumMg": 62.318,
+      "ironMg": 2.543,
+      "magnesiumMg": 45.75,
+      "vitaminCMg": 106.275
+    },
+    "estimatedCostPerServingUsd": 1.87,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

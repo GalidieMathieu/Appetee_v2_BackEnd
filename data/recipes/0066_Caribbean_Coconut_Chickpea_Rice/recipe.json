@@ -1,0 +1,220 @@
+{
+  "seedId": "REC-0066",
+  "name": "Caribbean Coconut Chickpea Rice",
+  "description": "Caribbean-inspired chickpeas, black beans, and rice simmered with coconut milk and spices.",
+  "source": {
+    "url": "https://thehappyfoodie.co.uk/recipes/caribbean-chickpea-curry-with-coconut-rice",
+    "domain": "thehappyfoodie.co.uk",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Jamaica",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 35,
+    "totalMinutes": 50
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans chickpeas",
+      "normalizedQuantity": 879.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can black beans",
+      "normalizedQuantity": 425.2,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups",
+      "sourceDisplay": "2 cups dry rice",
+      "normalizedQuantity": 370,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can coconut milk",
+      "normalizedQuantity": 399,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can diced tomatoes",
+      "normalizedQuantity": 411.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp curry powder",
+      "normalizedQuantity": 7,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Soften the onion with curry powder in a large pot.",
+    "Add rice, coconut milk, tomatoes, and enough water for the rice.",
+    "Cover and simmer until the rice is nearly tender.",
+    "Fold in chickpeas and black beans and cook until hot and creamy."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 3366.7,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: dry rice/quinoa 3.0, dry lentils/pasta 2.5, raw meat/fish 0.75, moisture-losing produce/tofu/eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3979.424,
+      "proteinG": 131.186,
+      "carbohydratesG": 620.846,
+      "fatG": 121.668,
+      "fiberG": 63.407,
+      "sugarsG": 35.457,
+      "sodiumMg": 3662.854,
+      "potassiumMg": 4534.988,
+      "calciumMg": 850.744,
+      "ironMg": 34.381,
+      "magnesiumMg": 720.062,
+      "vitaminCMg": 17.218
+    },
+    "perServing": {
+      "calories": 663.237,
+      "proteinG": 21.864,
+      "carbohydratesG": 103.474,
+      "fatG": 20.278,
+      "fiberG": 10.568,
+      "sugarsG": 5.91,
+      "sodiumMg": 610.476,
+      "potassiumMg": 755.831,
+      "calciumMg": 141.791,
+      "ironMg": 5.73,
+      "magnesiumMg": 120.01,
+      "vitaminCMg": 2.87
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.57,
+    "perServingUsd": 1.26,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-04-12T22:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "thehappyfoodie.co.uk",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://thehappyfoodie.co.uk/recipes/caribbean-chickpea-curry-with-coconut-rice",
+    "originalSourceUrl": "https://thehappyfoodie.co.uk/wp-content/uploads/2021/08/caribbean-chickpea-curry-179c5ba8-de31-4396-b446-94f3dab88831_s900x0_c1804x1054_l0x813.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0066",
+    "name": "Caribbean Coconut Chickpea Rice",
+    "description": "Caribbean-inspired chickpeas, black beans, and rice simmered with coconut milk and spices.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 663.237,
+      "proteinG": 21.864,
+      "carbohydratesG": 103.474,
+      "fatG": 20.278,
+      "fiberG": 10.568,
+      "sugarsG": 5.91,
+      "sodiumMg": 610.476,
+      "potassiumMg": 755.831,
+      "calciumMg": 141.791,
+      "ironMg": 5.73,
+      "magnesiumMg": 120.01,
+      "vitaminCMg": 2.87
+    },
+    "estimatedCostPerServingUsd": 1.26,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

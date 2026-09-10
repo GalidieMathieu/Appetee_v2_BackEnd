@@ -1,0 +1,240 @@
+{
+  "seedId": "REC-0997",
+  "candidate": {
+    "sequence": 1658,
+    "seedId": "REC-CAND-1658",
+    "name": "Spicy Pork Tenderloin Stew"
+  },
+  "name": "Spicy Pork Tenderloin Stew",
+  "description": "Spicy Pork Tenderloin Stew is a practical stovetop recipe pairing pork tenderloin with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.globaleducationcenter.org/uploads/5/4/4/6/54461425/manna_cookbook_reduced.pdf",
+    "domain": "globaleducationcenter.org",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Croatian Bean and Sausage Stew source while retaining its closest matching dish form, cooking sequence, and applicable pork or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Croatia",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 50,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "pork tenderloin",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0069",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0078",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, pork tenderloin, and vegetables for spicy pork tenderloin stew.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned pork tenderloin and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the spicy pork tenderloin stew, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1951,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1370.52,
+      "proteinG": 159.941,
+      "carbohydratesG": 143.23,
+      "fatG": 18.828,
+      "fiberG": 40.47,
+      "sugarsG": 23.191,
+      "sodiumMg": 1710.45,
+      "potassiumMg": 6139.97,
+      "calciumMg": 482.52,
+      "ironMg": 17.401,
+      "magnesiumMg": 416.552,
+      "vitaminCMg": 50.556
+    },
+    "perServing": {
+      "calories": 342.63,
+      "proteinG": 39.985,
+      "carbohydratesG": 35.807,
+      "fatG": 4.707,
+      "fiberG": 10.117,
+      "sugarsG": 5.798,
+      "sodiumMg": 427.613,
+      "potassiumMg": 1534.993,
+      "calciumMg": 120.63,
+      "ironMg": 4.35,
+      "magnesiumMg": 104.138,
+      "vitaminCMg": 12.639
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 9.11,
+    "perServingUsd": 2.28,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-03-18T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/roast-pork-tenderloin-with-spicy-chickpea-stew-crumb-a-food-blog--263601384420046556/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.Lbt6VYW8ZBpd3i_lOh2erQAAAA&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/d9/74/94/d974941ae99d7d25123d2e94d04e5071.jpg",
+    "searchQuery": "Spicy Pork Tenderloin Stew plated recipe food",
+    "searchResultTitle": "Roast Pork Tenderloin with Spicy Chickpea Stew - Crumb: A Food Blog ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:16:47.554Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0997",
+    "name": "Spicy Pork Tenderloin Stew",
+    "description": "Spicy Pork Tenderloin Stew is a practical stovetop recipe pairing pork tenderloin with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 342.63,
+      "proteinG": 39.985,
+      "carbohydratesG": 35.807,
+      "fatG": 4.707,
+      "fiberG": 10.117,
+      "sugarsG": 5.798,
+      "sodiumMg": 427.613,
+      "potassiumMg": 1534.993,
+      "calciumMg": 120.63,
+      "ironMg": 4.35,
+      "magnesiumMg": 104.138,
+      "vitaminCMg": 12.639
+    },
+    "estimatedCostPerServingUsd": 2.28,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

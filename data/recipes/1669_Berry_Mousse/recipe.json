@@ -1,0 +1,206 @@
+{
+  "seedId": "REC-1669",
+  "candidate": {
+    "sequence": 2468,
+    "seedId": "REC-CAND-2468",
+    "name": "Berry Mousse"
+  },
+  "name": "Berry Mousse",
+  "description": "Berry Mousse is a practical dessert adaptation built around berries, fruit, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.visitaruba.com/aruba-recipes/banana-den-forno/",
+    "domain": "visitaruba.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Aruban Baked Cinnamon Bananas source because it provides the closest validated fruit and mousse structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Aruba",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "totalMinutes": 20
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Dessert",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "berries",
+  "carbohydrateBase": "fruit",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0034",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0057",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for berry mousse.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the berries with the fruit and remaining ingredients in the intended dessert form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the berry mousse into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1449.946,
+      "proteinG": 63.766,
+      "carbohydratesG": 253.433,
+      "fatG": 17.164,
+      "fiberG": 30.66,
+      "sugarsG": 78.359,
+      "sodiumMg": 133.173,
+      "potassiumMg": 1806.028,
+      "calciumMg": 509.301,
+      "ironMg": 12.944,
+      "magnesiumMg": 401.564,
+      "vitaminCMg": 123.9
+    },
+    "perServing": {
+      "calories": 362.486,
+      "proteinG": 15.941,
+      "carbohydratesG": 63.358,
+      "fatG": 4.291,
+      "fiberG": 7.665,
+      "sugarsG": 19.59,
+      "sodiumMg": 33.293,
+      "potassiumMg": 451.507,
+      "calciumMg": 127.325,
+      "ironMg": 3.236,
+      "magnesiumMg": 100.391,
+      "vitaminCMg": 30.975
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.92,
+    "perServingUsd": 1.98,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2031-01-18T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "tse1.mm.bing.net",
+    "discoveryProvider": "DuckDuckGo Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://ezfreshrecipes.com/parfait-cups-recipes/",
+    "originalSourceUrl": "https://tse1.mm.bing.net/th/id/OIP.quSfmRjBwfrG0P6v6yCt_gHaE8?r=0&pid=Api",
+    "discoveredOriginalUrl": "https://ezfreshrecipes.com/wp-content/uploads/2025/01/Classic-Berry-Parfait-Cup.jpg",
+    "searchQuery": "berry yogurt parfait dessert cup food photograph",
+    "searchResultTitle": "How to Make Delicious Parfait Cups at Home",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T21:25:46.498Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1669",
+    "name": "Berry Mousse",
+    "description": "Berry Mousse is a practical dessert adaptation built around berries, fruit, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Dessert",
+    "image": null,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 362.486,
+      "proteinG": 15.941,
+      "carbohydratesG": 63.358,
+      "fatG": 4.291,
+      "fiberG": 7.665,
+      "sugarsG": 19.59,
+      "sodiumMg": 33.293,
+      "potassiumMg": 451.507,
+      "calciumMg": 127.325,
+      "ironMg": 3.236,
+      "magnesiumMg": 100.391,
+      "vitaminCMg": 30.975
+    },
+    "estimatedCostPerServingUsd": 1.98,
+    "diets": [
+      "Vegetarian",
+      "Vegan"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

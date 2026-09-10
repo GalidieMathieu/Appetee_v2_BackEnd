@@ -1,0 +1,270 @@
+{
+  "seedId": "REC-0721",
+  "candidate": {
+    "sequence": 1140,
+    "seedId": "REC-CAND-1140",
+    "name": "Lean Beef and Carrots Baked Potatoes"
+  },
+  "name": "Lean Beef and Carrots Baked Potatoes",
+  "description": "Lean Beef and Carrots Baked Potatoes is a practical oven recipe pairing lean beef with potatoes and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/must-make-moussaka",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Quick Greek Moussaka source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Greece",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "lean beef",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 500,
+      "sourceUnit": "g",
+      "sourceDisplay": "500 g ground beef",
+      "normalizedQuantity": 500,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0064",
+      "sourceQuantity": 1,
+      "sourceUnit": "large",
+      "sourceDisplay": "1 large eggplant",
+      "normalizedQuantity": 458,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0031",
+      "sourceQuantity": 150,
+      "sourceUnit": "g",
+      "sourceDisplay": "150 g Greek yogurt",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 1,
+      "sourceUnit": "large",
+      "sourceDisplay": "1 beaten egg",
+      "normalizedQuantity": 50,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0080",
+      "sourceQuantity": 3,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "3 tbsp grated Parmesan",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g canned tomatoes",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0054",
+      "sourceQuantity": 4,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "4 tbsp tomato paste",
+      "normalizedQuantity": 64,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 350,
+      "sourceUnit": "g",
+      "sourceDisplay": "350 g potatoes",
+      "normalizedQuantity": 350,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0094",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for lean beef and carrots baked potatoes.",
+    "Season the lean beef and vegetables evenly while the oven reaches temperature.",
+    "Arrange the lean beef, potatoes, and vegetables so heat can circulate around each component.",
+    "Bake until the lean beef is safely cooked and the vegetables or grain base are tender.",
+    "Rest the lean beef and carrots baked potatoes briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 2391.2,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2072.83,
+      "proteinG": 143.197,
+      "carbohydratesG": 183.036,
+      "fatG": 88.86,
+      "fiberG": 35.329,
+      "sugarsG": 45.571,
+      "sodiumMg": 1501.97,
+      "potassiumMg": 7295.37,
+      "calciumMg": 796.86,
+      "ironMg": 21.749,
+      "magnesiumMg": 395.05,
+      "vitaminCMg": 91.022
+    },
+    "perServing": {
+      "calories": 518.207,
+      "proteinG": 35.799,
+      "carbohydratesG": 45.759,
+      "fatG": 22.215,
+      "fiberG": 8.832,
+      "sugarsG": 11.393,
+      "sodiumMg": 375.493,
+      "potassiumMg": 1823.842,
+      "calciumMg": 199.215,
+      "ironMg": 5.437,
+      "magnesiumMg": 98.763,
+      "vitaminCMg": 22.756
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 14.37,
+    "perServingUsd": 3.59,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Quick Meal",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-01-17T17:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://getameliarecipes.com/ultimate-hearty-oven-baked-beef-with-carrots-and-potatoes/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.rd7tnGexQZWTxHjP7Cw2lwHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://getameliarecipes.com/wp-content/uploads/2026/01/oven-baked-beef-with-carrots-and-potatoes-rustic-table-setting.webp",
+    "searchQuery": "Lean Beef and Carrots Baked Potatoes plated recipe food",
+    "searchResultTitle": "Ultimate Hearty Oven-Baked Beef with Carrots and Potatoes - Get Amelia ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:02:32.036Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0721",
+    "name": "Lean Beef and Carrots Baked Potatoes",
+    "description": "Lean Beef and Carrots Baked Potatoes is a practical oven recipe pairing lean beef with potatoes and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 518.207,
+      "proteinG": 35.799,
+      "carbohydratesG": 45.759,
+      "fatG": 22.215,
+      "fiberG": 8.832,
+      "sugarsG": 11.393,
+      "sodiumMg": 375.493,
+      "potassiumMg": 1823.842,
+      "calciumMg": 199.215,
+      "ironMg": 5.437,
+      "magnesiumMg": 98.763,
+      "vitaminCMg": 22.756
+    },
+    "estimatedCostPerServingUsd": 3.59,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Quick Meal",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

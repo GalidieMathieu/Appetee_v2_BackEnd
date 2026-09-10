@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0035",
+  "name": "Low-Fat Cottage Cheese",
+  "canonicalName": "Low-Fat Cottage Cheese",
+  "description": "One-percent milkfat cottage cheese.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Low Fat Cottage Cheese, 1% Milkfat, 24 oz",
+    "productId": "10315024",
+    "productUrl": "https://www.walmart.com/ip/10315024",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 2.87,
+    "packageQuantity": 680.389,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 72,
+      "proteinG": 12.4,
+      "carbohydratesG": 2.72,
+      "fatG": 1.02,
+      "fiberG": 0,
+      "sugarsG": 2.72,
+      "sodiumMg": 406,
+      "potassiumMg": 86,
+      "calciumMg": 61,
+      "ironMg": 0.14,
+      "magnesiumMg": 5,
+      "vitaminCMg": 0
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.4218
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 173417,
+      "dataType": "SR Legacy",
+      "description": "Cheese, cottage, lowfat, 1% milkfat",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/173417/nutrients",
+      "searchQuery": "cheese cottage lowfat 1% milkfat",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://easyandcozyrecipes.com/low-fat-cottage-cheese/",
+    "originalSourceUrl": "https://easyandcozyrecipes.com/wp-content/uploads/2025/06/Bowl-of-low-fat-cottage-cheese-on-a-wooden-board.png",
+    "searchQuery": "Low-Fat Cottage Cheese ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0035",
+    "name": "Low-Fat Cottage Cheese",
+    "description": "One-percent milkfat cottage cheese.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 72,
+      "proteinG": 12.4,
+      "carbohydratesG": 2.72,
+      "fatG": 1.02,
+      "fiberG": 0,
+      "sugarsG": 2.72,
+      "sodiumMg": 406,
+      "potassiumMg": 86,
+      "calciumMg": 61,
+      "ironMg": 0.14,
+      "magnesiumMg": 5,
+      "vitaminCMg": 0
+    },
+    "price": {
+      "usdPerBasis": 0.4218,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0035_Low_Fat_Cottage_Cheese/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": false,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

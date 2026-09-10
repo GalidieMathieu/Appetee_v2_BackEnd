@@ -1,0 +1,246 @@
+{
+  "seedId": "REC-0174",
+  "candidate": {
+    "sequence": 72,
+    "seedId": "REC-CAND-0072",
+    "name": "Cod Pasta Bake"
+  },
+  "name": "Cod Pasta Bake",
+  "description": "Cod Pasta Bake is a practical oven recipe pairing cod with pasta and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.epicurious.com/recipes/food/views/fish-chermoula-12485",
+    "domain": "epicurious.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Moroccan Chermoula Fish Tray Bake source while retaining its closest matching dish form, cooking sequence, and applicable cod or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Morocco",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 40,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "cod",
+  "carbohydrateBase": "pasta",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0044",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0083",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0039",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for cod pasta bake.",
+    "Season the cod and vegetables evenly while the oven reaches temperature.",
+    "Arrange the cod, pasta, and vegetables so heat can circulate around each component.",
+    "Bake until the cod is safely cooked and the vegetables or grain base are tender.",
+    "Rest the cod pasta bake briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1427,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1768.202,
+      "proteinG": 131.894,
+      "carbohydratesG": 228.185,
+      "fatG": 35.411,
+      "fiberG": 20.555,
+      "sugarsG": 16.214,
+      "sodiumMg": 1879.296,
+      "potassiumMg": 3654.503,
+      "calciumMg": 262.343,
+      "ironMg": 12.938,
+      "magnesiumMg": 351.15,
+      "vitaminCMg": 122.376
+    },
+    "perServing": {
+      "calories": 442.05,
+      "proteinG": 32.974,
+      "carbohydratesG": 57.046,
+      "fatG": 8.853,
+      "fiberG": 5.139,
+      "sugarsG": 4.053,
+      "sodiumMg": 469.824,
+      "potassiumMg": 913.626,
+      "calciumMg": 65.586,
+      "ironMg": 3.235,
+      "magnesiumMg": 87.787,
+      "vitaminCMg": 30.594
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 15.92,
+    "perServingUsd": 3.98,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-09-26T10:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "images.getrecipekit.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://fultonfishmarket.com/blogs/recipes/cod-pasta-bake-recipe",
+    "originalSourceUrl": "https://images.getrecipekit.com/20220304182114-cod-pasta-bake-recipe.jpeg?width=650&quality=90&",
+    "discoveredOriginalUrl": "https://images.getrecipekit.com/20220304182114-cod-pasta-bake-recipe.jpeg?width=650&quality=90&",
+    "searchQuery": "Cod Pasta Bake plated recipe food",
+    "searchResultTitle": "Cod Pasta Bake Recipe | Quick Cod Recipe – Fulton Fish Market",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:10:55.880Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0174",
+    "name": "Cod Pasta Bake",
+    "description": "Cod Pasta Bake is a practical oven recipe pairing cod with pasta and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 442.05,
+      "proteinG": 32.974,
+      "carbohydratesG": 57.046,
+      "fatG": 8.853,
+      "fiberG": 5.139,
+      "sugarsG": 4.053,
+      "sodiumMg": 469.824,
+      "potassiumMg": 913.626,
+      "calciumMg": 65.586,
+      "ironMg": 3.235,
+      "magnesiumMg": 87.787,
+      "vitaminCMg": 30.594
+    },
+    "estimatedCostPerServingUsd": 3.98,
+    "diets": [
+      "Pescatarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

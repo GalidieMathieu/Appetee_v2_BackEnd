@@ -1,0 +1,216 @@
+{
+  "seedId": "REC-1535",
+  "candidate": {
+    "sequence": 2333,
+    "seedId": "REC-CAND-2333",
+    "name": "Herbed Green Beans"
+  },
+  "name": "Herbed Green Beans",
+  "description": "Herbed Green Beans is a practical side adaptation built around beans, legumes, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/56161/fasoliyyeh-bi-z-zayt-syrian-green-beans-with-olive-oil/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Syrian Green Beans with Olive Oil source because it provides the closest validated beans and legumes structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Syria",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 50,
+    "totalMinutes": 65
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Side",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "beans",
+  "carbohydrateBase": "legumes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0037",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0058",
+      "sourceQuantity": 5,
+      "sourceUnit": "g",
+      "sourceDisplay": "5 g",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, beans, and legumes for herbed green beans.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned beans and cook it until browned or heated through as appropriate.",
+    "Stir in the legumes, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the herbed green beans, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1020,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 951.282,
+      "proteinG": 37.784,
+      "carbohydratesG": 135.145,
+      "fatG": 33.509,
+      "sodiumMg": 909.696,
+      "potassiumMg": 2310.423,
+      "calciumMg": 428.623,
+      "ironMg": 11.658,
+      "magnesiumMg": 246.75,
+      "fiberG": 15.15,
+      "sugarsG": 7.144,
+      "vitaminCMg": 74.23
+    },
+    "perServing": {
+      "calories": 237.821,
+      "proteinG": 9.446,
+      "carbohydratesG": 33.786,
+      "fatG": 8.377,
+      "sodiumMg": 227.424,
+      "potassiumMg": 577.606,
+      "calciumMg": 107.156,
+      "ironMg": 2.914,
+      "magnesiumMg": 61.688,
+      "fiberG": 3.788,
+      "sugarsG": 1.786,
+      "vitaminCMg": 18.558
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.42,
+    "perServingUsd": 0.85,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Budget Friendly"
+  ],
+  "createdAt": "2030-06-25T15:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.food.com/recipe/herbed-green-beans-414785",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.nQl3v3kFCVlPrE4V03zQsgHaE7&pid=15.1",
+    "discoveredOriginalUrl": "https://img.sndimg.com/food/image/upload/f_auto,c_thumb,q_55,w_860,ar_3:2/v1/img/recipes/41/47/85/picPrz28k.jpg",
+    "searchQuery": "Herbed Green Beans plated recipe food",
+    "searchResultTitle": "Herbed Green Beans Recipe - Food.com",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:55:10.617Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1535",
+    "name": "Herbed Green Beans",
+    "description": "Herbed Green Beans is a practical side adaptation built around beans, legumes, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 65,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 237.821,
+      "proteinG": 9.446,
+      "carbohydratesG": 33.786,
+      "fatG": 8.377,
+      "sodiumMg": 227.424,
+      "potassiumMg": 577.606,
+      "calciumMg": 107.156,
+      "ironMg": 2.914,
+      "magnesiumMg": 61.688,
+      "fiberG": 3.788,
+      "sugarsG": 1.786,
+      "vitaminCMg": 18.558
+    },
+    "estimatedCostPerServingUsd": 0.85,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Budget Friendly"
+    ]
+  }
+}

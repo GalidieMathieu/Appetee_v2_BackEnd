@@ -1,0 +1,122 @@
+{
+  "seedId": "ING-0109",
+  "name": "Fresh Asparagus",
+  "canonicalName": "Fresh Asparagus",
+  "description": "Fresh green asparagus spears for bowls, soups, roasting, and skillet meals.",
+  "measurementType": "solid",
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": "The exact product is a single-ingredient food without gluten- or lactose-bearing ingredients."
+  },
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Fresh Green Whole Asparagus Bunch",
+    "productId": "44390952",
+    "productUrl": "https://www.walmart.com/ip/44390952",
+    "brand": "Fresh Produce",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 3.56,
+    "packageQuantity": 453.592,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-11T19:50:49.978Z",
+    "priceEvidence": "Current Walmart product-page price; one bunch normalized to a documented one-pound market estimate."
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 20,
+      "proteinG": 2.2,
+      "carbohydratesG": 3.88,
+      "fatG": 0.12,
+      "fiberG": 2.1,
+      "sugarsG": 1.88,
+      "sodiumMg": 2,
+      "potassiumMg": 202,
+      "calciumMg": 24,
+      "ironMg": 2.14,
+      "magnesiumMg": 14,
+      "vitaminCMg": 5.6
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.7848
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 168389,
+      "dataType": "SR Legacy",
+      "description": "Asparagus, raw",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/168389/nutrients",
+      "searchQuery": "asparagus raw",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": "One bunch normalized to 1 lb for deterministic pricing."
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": "One bunch normalized to 1 lb for deterministic pricing."
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "imageType": "external-real-product-photograph",
+    "aiGenerated": false,
+    "provider": "i5.walmartimages.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/44390952",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Freshly-Harvested-Cut-and-Refrigerated-Green-Asparagus-Bunch_5556f793-0600-4e42-812e-ae2cb11c0047.2635cfb5344dbbbee8ff1cb6d52877c8.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:01:23.923Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0109",
+    "name": "Fresh Asparagus",
+    "description": "Fresh green asparagus spears for bowls, soups, roasting, and skillet meals.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 20,
+      "proteinG": 2.2,
+      "carbohydratesG": 3.88,
+      "fatG": 0.12,
+      "fiberG": 2.1,
+      "sugarsG": 1.88,
+      "sodiumMg": 2,
+      "potassiumMg": 202,
+      "calciumMg": 24,
+      "ironMg": 2.14,
+      "magnesiumMg": 14,
+      "vitaminCMg": 5.6
+    },
+    "price": {
+      "usdPerBasis": 0.7848,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": null
+  }
+}

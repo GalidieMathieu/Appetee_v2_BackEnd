@@ -1,0 +1,244 @@
+{
+  "seedId": "REC-0518",
+  "candidate": {
+    "sequence": 737,
+    "seedId": "REC-CAND-0737",
+    "name": "Cod and Tomatoes Rice Bowl"
+  },
+  "name": "Cod and Tomatoes Rice Bowl",
+  "description": "Cod and Tomatoes Rice Bowl is a practical stovetop recipe pairing cod with rice and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.foodnetwork.com/fnk/recipes/fish-taco-bowls-8761468",
+    "domain": "foodnetwork.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Cod Taco Bowl source while retaining its closest matching dish form, cooking sequence, and applicable cod or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "cod",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0044",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, cod, and rice for cod and tomatoes rice bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned cod and cook it until browned or heated through as appropriate.",
+    "Stir in the rice, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the cod and tomatoes rice bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2132,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2237.64,
+      "proteinG": 154.021,
+      "carbohydratesG": 386.627,
+      "fatG": 13.668,
+      "fiberG": 19.637,
+      "sugarsG": 18.994,
+      "sodiumMg": 2813.759,
+      "potassiumMg": 4963.02,
+      "calciumMg": 394.301,
+      "ironMg": 12.886,
+      "magnesiumMg": 486.105,
+      "vitaminCMg": 120.24
+    },
+    "perServing": {
+      "calories": 559.41,
+      "proteinG": 38.505,
+      "carbohydratesG": 96.657,
+      "fatG": 3.417,
+      "fiberG": 4.909,
+      "sugarsG": 4.748,
+      "sodiumMg": 703.44,
+      "potassiumMg": 1240.755,
+      "calciumMg": 98.575,
+      "ironMg": 3.221,
+      "magnesiumMg": 121.526,
+      "vitaminCMg": 30.06
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 17.44,
+    "perServingUsd": 4.36,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie"
+  ],
+  "createdAt": "2026-03-10T18:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.lorachef.com/crispy-cod-rice-bowl-with-roasted-corn-tomato-salsa/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.6KGgRqypYeNuiQRbcjFCtQAAAA&pid=15.1",
+    "discoveredOriginalUrl": "https://www.lorachef.com/wp-content/uploads/2025/11/Crispy-Cod-Rice-Bowl-with-Roasted-Corn-Tomato-Salsa-300x300.webp",
+    "searchQuery": "Cod and Tomatoes Rice Bowl plated recipe food",
+    "searchResultTitle": "Crispy Cod Rice Bowl with Roasted Corn & Tomato Salsa - Lora Chef",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:52:02.510Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0518",
+    "name": "Cod and Tomatoes Rice Bowl",
+    "description": "Cod and Tomatoes Rice Bowl is a practical stovetop recipe pairing cod with rice and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 559.41,
+      "proteinG": 38.505,
+      "carbohydratesG": 96.657,
+      "fatG": 3.417,
+      "fiberG": 4.909,
+      "sugarsG": 4.748,
+      "sodiumMg": 703.44,
+      "potassiumMg": 1240.755,
+      "calciumMg": 98.575,
+      "ironMg": 3.221,
+      "magnesiumMg": 121.526,
+      "vitaminCMg": 30.06
+    },
+    "estimatedCostPerServingUsd": 4.36,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie"
+    ]
+  }
+}

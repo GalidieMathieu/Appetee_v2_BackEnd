@@ -1,0 +1,255 @@
+{
+  "seedId": "REC-0114",
+  "name": "Venezuelan Coconut Chicken",
+  "description": "Chicken simmered in a blended coconut, tomato, onion, ginger, turmeric, cumin, and bay sauce.",
+  "source": {
+    "url": "https://www.reluctantgourmet.com/venezuelan-coconut-chicken/#recipe",
+    "domain": "reluctantgourmet.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "Factual ingredient structure and technique retained; wording and Walmart-market quantities adapted for Appetee."
+  },
+  "countryOfOrigin": "Venezuela",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 25,
+    "totalMinutes": 40
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0001",
+      "sourceQuantity": 2,
+      "sourceUnit": "breasts",
+      "sourceDisplay": "2 chicken breasts",
+      "normalizedQuantity": 340.2,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 2,
+      "sourceUnit": "medium",
+      "sourceDisplay": "2 chopped onions",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "clove",
+      "sourceDisplay": "1 crushed garlic clove",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0065",
+      "sourceQuantity": 4,
+      "sourceUnit": "leaves",
+      "sourceDisplay": "4 bay leaves",
+      "normalizedQuantity": 0.8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0091",
+      "sourceQuantity": 1,
+      "sourceUnit": "pinch",
+      "sourceDisplay": "1 pinch turmeric",
+      "normalizedQuantity": 0.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 1,
+      "sourceUnit": "pinch",
+      "sourceDisplay": "1 pinch cumin",
+      "normalizedQuantity": 0.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0052",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp sugar",
+      "normalizedQuantity": 12.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 3,
+      "sourceUnit": "medium",
+      "sourceDisplay": "3 tomatoes",
+      "normalizedQuantity": 186,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp ginger",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 0.33,
+      "sourceUnit": "cup",
+      "sourceDisplay": "⅓ cup olive oil",
+      "normalizedQuantity": 80,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can coconut milk",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Cut the chicken into bite-size pieces and soften the onions in part of the oil.",
+    "Blend the onions with tomato, garlic, turmeric, cumin, sugar, ginger, coconut milk, and water.",
+    "Brown the chicken in the same pan until colored on every side.",
+    "Add the blended sauce and bay leaves and bring the pan to a gentle simmer.",
+    "Cook until the chicken reaches 165°F and the coconut sauce becomes creamy."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1205.35,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2013.408,
+      "proteinG": 89.541,
+      "carbohydratesG": 62.287,
+      "fatG": 165.42,
+      "sodiumMg": 293.692,
+      "potassiumMg": 3096.34,
+      "calciumMg": 173.474,
+      "ironMg": 17.287,
+      "magnesiumMg": 332.122,
+      "fiberG": 8.713,
+      "vitaminCMg": 56.806,
+      "sugarsG": 17.699
+    },
+    "perServing": {
+      "calories": 503.352,
+      "proteinG": 22.385,
+      "carbohydratesG": 15.572,
+      "fatG": 41.355,
+      "sodiumMg": 73.423,
+      "potassiumMg": 774.085,
+      "calciumMg": 43.368,
+      "ironMg": 4.322,
+      "magnesiumMg": 83.031,
+      "fiberG": 2.178,
+      "vitaminCMg": 14.201,
+      "sugarsG": 4.425
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.77,
+    "perServingUsd": 1.94,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-06-25T22:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "reluctantgourmet.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.reluctantgourmet.com/venezuelan-coconut-chicken/#recipe",
+    "originalSourceUrl": "https://reluctantgourmet.com/wp-content/uploads/2022/09/venezuelan-coconut-chicken-recipe.jpeg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0114",
+    "name": "Venezuelan Coconut Chicken",
+    "description": "Chicken simmered in a blended coconut, tomato, onion, ginger, turmeric, cumin, and bay sauce.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 40,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 503.352,
+      "proteinG": 22.385,
+      "carbohydratesG": 15.572,
+      "fatG": 41.355,
+      "sodiumMg": 73.423,
+      "potassiumMg": 774.085,
+      "calciumMg": 43.368,
+      "ironMg": 4.322,
+      "magnesiumMg": 83.031,
+      "fiberG": 2.178,
+      "vitaminCMg": 14.201,
+      "sugarsG": 4.425
+    },
+    "estimatedCostPerServingUsd": 1.94,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Budget Friendly"
+    ]
+  }
+}

@@ -1,0 +1,194 @@
+{
+  "seedId": "REC-1499",
+  "candidate": {
+    "sequence": 2297,
+    "seedId": "REC-CAND-2297",
+    "name": "Berry Cottage Cheese Cups"
+  },
+  "name": "Berry Cottage Cheese Cups",
+  "description": "Berry Cottage Cheese Cups is a practical snack adaptation built around cottage cheese, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.oldelpaso.co.uk/recipes/black-bean-and-corn-tortilla-cups",
+    "domain": "oldelpaso.co.uk",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Black Bean Salsa Tortilla Cups source because it provides the closest validated dairy and cups structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 0,
+    "totalMinutes": 20
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "cottage cheese",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0035",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0034",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for berry cottage cheese cups.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the cottage cheese with the vegetables and remaining ingredients in the intended snack form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the berry cottage cheese cups into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 900,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1413,
+      "proteinG": 70.35,
+      "carbohydratesG": 247.47,
+      "fatG": 19.038,
+      "fiberG": 30.66,
+      "sugarsG": 73.476,
+      "sodiumMg": 1240.8,
+      "potassiumMg": 1602,
+      "calciumMg": 359.4,
+      "ironMg": 13.122,
+      "magnesiumMg": 380.4,
+      "vitaminCMg": 123.9
+    },
+    "perServing": {
+      "calories": 353.25,
+      "proteinG": 17.587,
+      "carbohydratesG": 61.867,
+      "fatG": 4.76,
+      "fiberG": 7.665,
+      "sugarsG": 18.369,
+      "sodiumMg": 310.2,
+      "potassiumMg": 400.5,
+      "calciumMg": 89.85,
+      "ironMg": 3.28,
+      "magnesiumMg": 95.1,
+      "vitaminCMg": 30.975
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.46,
+    "perServingUsd": 1.11,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-05-01T03:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.deliciousrecipesblog.com/mixed-berry-cottage-cheese-baked-oatmeal-cups/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.Sn25OGE4IgAncuDLkDch-wHaJQ&pid=15.1",
+    "discoveredOriginalUrl": "https://www.deliciousrecipesblog.com/wp-content/uploads/2026/03/Mixed-Berry-Cottage-Cheese-Baked-Oatmeal-Cups-Recipe-1-768x960.webp",
+    "searchQuery": "Berry Cottage Cheese Cups plated recipe food",
+    "searchResultTitle": "Mixed Berry Cottage Cheese Baked Oatmeal Cups Recipe",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:54:46.768Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1499",
+    "name": "Berry Cottage Cheese Cups",
+    "description": "Berry Cottage Cheese Cups is a practical snack adaptation built around cottage cheese, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 20,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 353.25,
+      "proteinG": 17.587,
+      "carbohydratesG": 61.867,
+      "fatG": 4.76,
+      "fiberG": 7.665,
+      "sugarsG": 18.369,
+      "sodiumMg": 310.2,
+      "potassiumMg": 400.5,
+      "calciumMg": 89.85,
+      "ironMg": 3.28,
+      "magnesiumMg": 95.1,
+      "vitaminCMg": 30.975
+    },
+    "estimatedCostPerServingUsd": 1.11,
+    "diets": [
+      "Vegetarian"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "seedId": "REC-0821",
+  "candidate": {
+    "sequence": 1337,
+    "seedId": "REC-CAND-1337",
+    "name": "Italian Lean Beef Skillet"
+  },
+  "name": "Italian Lean Beef Skillet",
+  "description": "Italian Lean Beef Skillet is a practical stovetop recipe pairing lean beef with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.oliviascuisine.com/feijoada-recipe/",
+    "domain": "oliviascuisine.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Brazilian Black Bean Beef Skillet source while retaining its closest matching dish form, cooking sequence, and applicable beef or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Brazil",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lean beef",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 4,
+      "sourceUnit": "g",
+      "sourceDisplay": "4 g",
+      "normalizedQuantity": 4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, lean beef, and vegetables for italian lean beef skillet.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned lean beef and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the italian lean beef skillet, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1294,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2196.692,
+      "proteinG": 147.421,
+      "carbohydratesG": 121.647,
+      "fatG": 123.941,
+      "fiberG": 8.643,
+      "sugarsG": 0.89,
+      "sodiumMg": 1375.836,
+      "potassiumMg": 3806.773,
+      "calciumMg": 429.99,
+      "ironMg": 23.434,
+      "magnesiumMg": 313.745,
+      "vitaminCMg": 41.916
+    },
+    "perServing": {
+      "calories": 549.173,
+      "proteinG": 36.855,
+      "carbohydratesG": 30.412,
+      "fatG": 30.985,
+      "fiberG": 2.161,
+      "sugarsG": 0.223,
+      "sodiumMg": 343.959,
+      "potassiumMg": 951.693,
+      "calciumMg": 107.498,
+      "ironMg": 5.859,
+      "magnesiumMg": 78.436,
+      "vitaminCMg": 10.479
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 15.89,
+    "perServingUsd": 3.97,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-06-20T21:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://justleanin.com/recipes/italian-beef-skillet/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.0NQC-j9k8xLoLuA0fCZ6GgHaLG&pid=15.1",
+    "discoveredOriginalUrl": "https://justleanin.com/wp-content/uploads/2023/12/Italian-Beef-Skillet.png",
+    "searchQuery": "Italian Lean Beef Skillet plated recipe food",
+    "searchResultTitle": "Italian Beef Skillet – Just Lean In",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:07:37.467Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0821",
+    "name": "Italian Lean Beef Skillet",
+    "description": "Italian Lean Beef Skillet is a practical stovetop recipe pairing lean beef with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 549.173,
+      "proteinG": 36.855,
+      "carbohydratesG": 30.412,
+      "fatG": 30.985,
+      "fiberG": 2.161,
+      "sugarsG": 0.223,
+      "sodiumMg": 343.959,
+      "potassiumMg": 951.693,
+      "calciumMg": 107.498,
+      "ironMg": 5.859,
+      "magnesiumMg": 78.436,
+      "vitaminCMg": 10.479
+    },
+    "estimatedCostPerServingUsd": 3.97,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Budget Friendly"
+    ]
+  }
+}

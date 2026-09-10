@@ -1,0 +1,200 @@
+{
+  "seedId": "REC-1525",
+  "candidate": {
+    "sequence": 2323,
+    "seedId": "REC-CAND-2323",
+    "name": "Lemon Tomato Salad"
+  },
+  "name": "Lemon Tomato Salad",
+  "description": "Lemon Tomato Salad is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.allrecipes.com/recipe/153802/algerian-flafla-bell-pepper-salad/",
+    "domain": "allrecipes.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Algerian Flafla Bell Pepper Salad source because it provides the closest validated salad structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Algeria",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 0,
+    "totalMinutes": 15
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Side",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0060",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for lemon tomato salad.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the vegetables with the vegetables and remaining ingredients in the intended side form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the lemon tomato salad into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 900,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 460.332,
+      "proteinG": 8.91,
+      "carbohydratesG": 57.72,
+      "fatG": 29.7,
+      "fiberG": 18.3,
+      "sugarsG": 27.99,
+      "sodiumMg": 33.546,
+      "potassiumMg": 1758.273,
+      "calciumMg": 129.273,
+      "ironMg": 4.053,
+      "magnesiumMg": 93,
+      "vitaminCMg": 584.1
+    },
+    "perServing": {
+      "calories": 115.083,
+      "proteinG": 2.228,
+      "carbohydratesG": 14.43,
+      "fatG": 7.425,
+      "fiberG": 4.575,
+      "sugarsG": 6.997,
+      "sodiumMg": 8.386,
+      "potassiumMg": 439.568,
+      "calciumMg": 32.318,
+      "ironMg": 1.013,
+      "magnesiumMg": 23.25,
+      "vitaminCMg": 146.025
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.14,
+    "perServingUsd": 1.53,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-06-10T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://5aday.co.nz/recipes/roasted-lemon-fresh-tomato-salad/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.pBr5Rpr3VqoA0JWpo-OchwHaFv&pid=15.1",
+    "discoveredOriginalUrl": "https://5aday.co.nz/assets/site/recipes/_articleHero/tomato-onion-and-roasted-lemon-salad-1.jpg",
+    "searchQuery": "Lemon Tomato Salad plated recipe food",
+    "searchResultTitle": "5+ A Day | Roasted Lemon & Fresh Tomato Salad",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:55:02.216Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1525",
+    "name": "Lemon Tomato Salad",
+    "description": "Lemon Tomato Salad is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 15,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 115.083,
+      "proteinG": 2.228,
+      "carbohydratesG": 14.43,
+      "fatG": 7.425,
+      "fiberG": 4.575,
+      "sugarsG": 6.997,
+      "sodiumMg": 8.386,
+      "potassiumMg": 439.568,
+      "calciumMg": 32.318,
+      "ironMg": 1.013,
+      "magnesiumMg": 23.25,
+      "vitaminCMg": 146.025
+    },
+    "estimatedCostPerServingUsd": 1.53,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

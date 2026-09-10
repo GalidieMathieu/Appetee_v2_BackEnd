@@ -1,0 +1,107 @@
+{
+  "seedId": "ING-0001",
+  "name": "Boneless Skinless Chicken Breast",
+  "canonicalName": "Boneless Skinless Chicken Breast",
+  "description": "Raw boneless, skinless chicken breast.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Frozen Boneless Skinless Chicken Breasts, 5 lb",
+    "productId": "36179444",
+    "productUrl": "https://www.walmart.com/ip/36179444",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 14.72,
+    "packageQuantity": 2267.962,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 106,
+      "proteinG": 22.5,
+      "carbohydratesG": 0,
+      "fatG": 1.93,
+      "sodiumMg": 65.8,
+      "potassiumMg": 330,
+      "calciumMg": 3.94,
+      "ironMg": 0.354,
+      "magnesiumMg": 26.2
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.649
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 2646170,
+      "dataType": "Foundation",
+      "description": "Chicken, breast, boneless, skinless, raw",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2646170/nutrients",
+      "searchQuery": "chicken breast boneless skinless raw",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://api.nal.usda.gov/fdc/v1/foods/search?api_key=REDACTED&query=chicken+breast+boneless+skinless+raw&pageSize=25"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public Walmart product image copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.walmart.com/ip/36179444",
+    "originalSourceUrl": "https://i5.walmartimages.com/seo/Great-Value-All-Natural-Boneless-Skinless-Chicken-Breasts-5-lb-Frozen_53aea3c8-c563-4d4f-92fd-aff5099c4278.72b1a43ffe27f0cd1d21b00ac5582f23.jpeg",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0001",
+    "name": "Boneless Skinless Chicken Breast",
+    "description": "Raw boneless, skinless chicken breast.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 106,
+      "proteinG": 22.5,
+      "carbohydratesG": 0,
+      "fatG": 1.93,
+      "sodiumMg": 65.8,
+      "potassiumMg": 330,
+      "calciumMg": 3.94,
+      "ironMg": 0.354,
+      "magnesiumMg": 26.2
+    },
+    "price": {
+      "usdPerBasis": 0.649,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0001_Boneless_Skinless_Chicken_Breast/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

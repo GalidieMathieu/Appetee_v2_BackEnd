@@ -1,0 +1,217 @@
+{
+  "seedId": "REC-0092",
+  "name": "Air-Fryer Patatas Bravas",
+  "description": "Crisp air-fried potatoes topped with a smoky tomato and paprika sauce.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/air-fryer-patatas-bravas",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source quantities and air-fryer method are retained; the optional basil garnish is omitted because it is not essential to the dish."
+  },
+  "countryOfOrigin": "Spain",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 40,
+    "cookMinutes": 40,
+    "totalMinutes": 80
+  },
+  "servings": 6,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Side",
+  "cookingMethod": "Air Fryer",
+  "primaryProtein": "potatoes",
+  "carbohydrateBase": "potatoes",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 900,
+      "sourceUnit": "g",
+      "sourceDisplay": "900 g potatoes",
+      "normalizedQuantity": 900,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 3,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "3 tbsp olive oil",
+      "normalizedQuantity": 45,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 chopped onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "clove",
+      "sourceDisplay": "1 crushed garlic clove",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0053",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp paprika",
+      "normalizedQuantity": 6.9,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0054",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp tomato paste",
+      "normalizedQuantity": 16,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 225,
+      "sourceUnit": "g",
+      "sourceDisplay": "225 g canned tomatoes",
+      "normalizedQuantity": 225,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Soak the cut potatoes in just-boiled water for thirty minutes, then drain and air-dry them.",
+    "Coat the potatoes with one-third of the oil and air-fry them at 400°F until crisp and golden.",
+    "Soften the onion in the remaining oil, then briefly cook the garlic and paprika.",
+    "Stir in the tomato paste and canned tomatoes and simmer the sauce until slightly thickened.",
+    "Spoon the smoky tomato sauce over the crisp potatoes and serve them hot."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1242.9,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1210.526,
+      "proteinG": 24.377,
+      "carbohydratesG": 191.69,
+      "fatG": 43.86,
+      "fiberG": 17.719,
+      "sugarsG": 8.293,
+      "sodiumMg": 343.551,
+      "potassiumMg": 4810.88,
+      "calciumMg": 238.02,
+      "ironMg": 11.69,
+      "magnesiumMg": 262.802,
+      "vitaminCMg": 68.726
+    },
+    "perServing": {
+      "calories": 201.754,
+      "proteinG": 4.063,
+      "carbohydratesG": 31.948,
+      "fatG": 7.31,
+      "fiberG": 2.953,
+      "sugarsG": 1.382,
+      "sodiumMg": 57.258,
+      "potassiumMg": 801.813,
+      "calciumMg": 39.67,
+      "ironMg": 1.948,
+      "magnesiumMg": 43.8,
+      "vitaminCMg": 11.454
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3,
+    "perServingUsd": 0.5,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-05-23T00:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "images.immediate.co.uk",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.bbcgoodfood.com/recipes/air-fryer-patatas-bravas",
+    "originalSourceUrl": "https://images.immediate.co.uk/production/volatile/sites/30/2025/07/Air-fryer-patatas-bravas-cb66c0a.jpg?resize=900%2C471",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0092",
+    "name": "Air-Fryer Patatas Bravas",
+    "description": "Crisp air-fried potatoes topped with a smoky tomato and paprika sauce.",
+    "mealType": "Lunch",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 80,
+    "servings": 6,
+    "nutritionPerServing": {
+      "calories": 201.754,
+      "proteinG": 4.063,
+      "carbohydratesG": 31.948,
+      "fatG": 7.31,
+      "fiberG": 2.953,
+      "sugarsG": 1.382,
+      "sodiumMg": 57.258,
+      "potassiumMg": 801.813,
+      "calciumMg": 39.67,
+      "ironMg": 1.948,
+      "magnesiumMg": 43.8,
+      "vitaminCMg": 11.454
+    },
+    "estimatedCostPerServingUsd": 0.5,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Budget Friendly"
+    ]
+  }
+}

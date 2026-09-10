@@ -1,0 +1,194 @@
+{
+  "seedId": "REC-1200",
+  "candidate": {
+    "sequence": 1994,
+    "seedId": "REC-CAND-1994",
+    "name": "Thai Turkey Flatbread"
+  },
+  "name": "Thai Turkey Flatbread",
+  "description": "Thai Turkey Flatbread is a practical main meal adaptation built around turkey, flatbread, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.healthline.com/recipes/low-calorie-recipe-5",
+    "domain": "healthline.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Turkey Taco Spinach Salad source because it provides the closest validated turkey and flatbread structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Thailand",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 60,
+    "totalMinutes": 80
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "turkey",
+  "carbohydrateBase": "flatbread",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0006",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0067",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, turkey, and flatbread for thai turkey flatbread.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned turkey and cook it until browned or heated through as appropriate.",
+    "Stir in the flatbread, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the thai turkey flatbread, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1080,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2527.332,
+      "proteinG": 134.79,
+      "carbohydratesG": 254.73,
+      "fatG": 105.39,
+      "fiberG": 13.8,
+      "sugarsG": 0.81,
+      "sodiumMg": 333.546,
+      "potassiumMg": 2079.273,
+      "calciumMg": 288.273,
+      "ironMg": 22.833,
+      "magnesiumMg": 207,
+      "vitaminCMg": 24.6
+    },
+    "perServing": {
+      "calories": 631.833,
+      "proteinG": 33.697,
+      "carbohydratesG": 63.682,
+      "fatG": 26.348,
+      "fiberG": 3.45,
+      "sugarsG": 0.203,
+      "sodiumMg": 83.386,
+      "potassiumMg": 519.818,
+      "calciumMg": 72.068,
+      "ironMg": 5.708,
+      "magnesiumMg": 51.75,
+      "vitaminCMg": 6.15
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.1,
+    "perServingUsd": 1.02,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2029-01-25T04:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://eatineatout.ca/weeknight-thai-turkey-flatbread/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.tNS1PgZH1ClLip4TZ7l2gQHaLA&pid=15.1",
+    "discoveredOriginalUrl": "https://eatineatout.ca/wp-content/uploads/2016/11/Weeknight-Thai-Turkey-Flatbread_3.jpg",
+    "searchQuery": "Thai Turkey Flatbread plated recipe food",
+    "searchResultTitle": "Weeknight Thai Turkey Flatbread - Eat In Eat Out",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:12:47.372Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1200",
+    "name": "Thai Turkey Flatbread",
+    "description": "Thai Turkey Flatbread is a practical main meal adaptation built around turkey, flatbread, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 80,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 631.833,
+      "proteinG": 33.697,
+      "carbohydratesG": 63.682,
+      "fatG": 26.348,
+      "fiberG": 3.45,
+      "sugarsG": 0.203,
+      "sodiumMg": 83.386,
+      "potassiumMg": 519.818,
+      "calciumMg": 72.068,
+      "ironMg": 5.708,
+      "magnesiumMg": 51.75,
+      "vitaminCMg": 6.15
+    },
+    "estimatedCostPerServingUsd": 1.02,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

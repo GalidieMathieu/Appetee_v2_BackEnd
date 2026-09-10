@@ -1,0 +1,227 @@
+{
+  "seedId": "REC-0096",
+  "name": "Japanese Chicken Karaage",
+  "description": "Soy-and-ginger marinated chicken fried with a crisp starch coating and served with lemon.",
+  "source": {
+    "url": "https://norecipes.com/karaage-recipe",
+    "domain": "norecipes.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source chicken, aromatics, soy, sugar, starch coating, frying technique, and lemon are retained; cornstarch replaces potato starch and water replaces sake."
+  },
+  "countryOfOrigin": "Japan",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 70,
+    "cookMinutes": 20,
+    "totalMinutes": 90
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chicken",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0036",
+      "sourceQuantity": 450,
+      "sourceUnit": "g",
+      "sourceDisplay": "450 g boneless chicken thighs",
+      "normalizedQuantity": 450,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp grated ginger",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 1,
+      "sourceUnit": "clove",
+      "sourceDisplay": "1 garlic clove",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp soy sauce",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0052",
+      "sourceQuantity": 2,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "2 tsp sugar",
+      "normalizedQuantity": 8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0066",
+      "sourceQuantity": 0.33,
+      "sourceUnit": "cup",
+      "sourceDisplay": "⅓ cup starch",
+      "normalizedQuantity": 50,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 0.33,
+      "sourceUnit": "cup",
+      "sourceDisplay": "⅓ cup frying oil",
+      "normalizedQuantity": 40,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source frying oil conservatively modeled as 40 ml absorbed and represented by olive oil",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 0.33,
+      "sourceUnit": "medium",
+      "sourceDisplay": "lemon wedges",
+      "normalizedQuantity": 40,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    }
+  ],
+  "instructions": [
+    "Whisk the ginger, garlic, soy sauce, sugar, and a tablespoon of water into a marinade.",
+    "Coat the chicken in the marinade and refrigerate it for at least one hour.",
+    "Dredge each piece of marinated chicken thoroughly in cornstarch.",
+    "Fry the chicken in batches until browned, crisp, and cooked to 165°F.",
+    "Drain the karaage on a rack and serve it with lemon wedges."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 520,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1087.73,
+      "proteinG": 89.944,
+      "carbohydratesG": 63.419,
+      "fatG": 53.486,
+      "fiberG": 2.253,
+      "sugarsG": 9.428,
+      "sodiumMg": 2621.428,
+      "potassiumMg": 1343.904,
+      "calciumMg": 70.778,
+      "ironMg": 4.063,
+      "magnesiumMg": 132.652,
+      "vitaminCMg": 23.51
+    },
+    "perServing": {
+      "calories": 271.933,
+      "proteinG": 22.486,
+      "carbohydratesG": 15.855,
+      "fatG": 13.371,
+      "fiberG": 0.563,
+      "sugarsG": 2.357,
+      "sodiumMg": 655.357,
+      "potassiumMg": 335.976,
+      "calciumMg": 17.695,
+      "ironMg": 1.016,
+      "magnesiumMg": 33.163,
+      "vitaminCMg": 5.878
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.6,
+    "perServingUsd": 1.15,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Carb",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-05-29T04:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "theheirloompantry.co",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://theheirloompantry.co/karaage-chicken-japanese-fried-chicken/",
+    "originalSourceUrl": "https://theheirloompantry.co/wp-content/uploads/2023/09/karaage-chicken-japanese-fried-chicken-the-heirloom-pantry-5.jpg",
+    "discoveredOriginalUrl": "https://theheirloompantry.co/wp-content/uploads/2023/09/karaage-chicken-japanese-fried-chicken-the-heirloom-pantry-5.jpg",
+    "searchQuery": "Japanese Chicken Karaage plated recipe food",
+    "searchResultTitle": "Karaage Chicken (Japanese Fried Chicken) • The Heirloom Pantry",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:08:54.125Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0096",
+    "name": "Japanese Chicken Karaage",
+    "description": "Soy-and-ginger marinated chicken fried with a crisp starch coating and served with lemon.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 90,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 271.933,
+      "proteinG": 22.486,
+      "carbohydratesG": 15.855,
+      "fatG": 13.371,
+      "fiberG": 0.563,
+      "sugarsG": 2.357,
+      "sodiumMg": 655.357,
+      "potassiumMg": 335.976,
+      "calciumMg": 17.695,
+      "ironMg": 1.016,
+      "magnesiumMg": 33.163,
+      "vitaminCMg": 5.878
+    },
+    "estimatedCostPerServingUsd": 1.15,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Carb",
+      "Budget Friendly"
+    ]
+  }
+}

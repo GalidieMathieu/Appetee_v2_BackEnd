@@ -1,0 +1,212 @@
+{
+  "seedId": "REC-1285",
+  "candidate": {
+    "sequence": 2079,
+    "seedId": "REC-CAND-2079",
+    "name": "Greek Chickpea Rice Bowl"
+  },
+  "name": "Greek Chickpea Rice Bowl",
+  "description": "Greek Chickpea Rice Bowl is a practical main meal adaptation built around chickpeas, rice, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://thehappyfoodie.co.uk/recipes/caribbean-chickpea-curry-with-coconut-rice",
+    "domain": "thehappyfoodie.co.uk",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Moroccan Chickpea Rice Bowl source because it provides the closest validated beans and bowl/rice structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Greece",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 60,
+    "totalMinutes": 85
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "chickpeas",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0022",
+      "sourceQuantity": 400,
+      "sourceUnit": "g",
+      "sourceDisplay": "400 g",
+      "normalizedQuantity": 400,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, chickpeas, and rice for greek chickpea rice bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned chickpeas and cook it until browned or heated through as appropriate.",
+    "Stir in the rice, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the greek chickpea rice bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1750,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1859.932,
+      "proteinG": 50.886,
+      "carbohydratesG": 336.51,
+      "fatG": 41.902,
+      "fiberG": 40.058,
+      "sugarsG": 23.54,
+      "sodiumMg": 994.655,
+      "potassiumMg": 1661.793,
+      "calciumMg": 313.977,
+      "ironMg": 7.409,
+      "magnesiumMg": 218.6,
+      "vitaminCMg": 184
+    },
+    "perServing": {
+      "calories": 464.983,
+      "proteinG": 12.722,
+      "carbohydratesG": 84.127,
+      "fatG": 10.476,
+      "fiberG": 10.014,
+      "sugarsG": 5.885,
+      "sodiumMg": 248.664,
+      "potassiumMg": 415.448,
+      "calciumMg": 78.494,
+      "ironMg": 1.852,
+      "magnesiumMg": 54.65,
+      "vitaminCMg": 46
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 4.01,
+    "perServingUsd": 1,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly",
+    "Few Ingredients",
+    "Meal Prep"
+  ],
+  "createdAt": "2029-06-05T05:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://tatnersstreetkitchen.com/greek-chickpea-recipes/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.yMrHtOD08BGIqVlKC7bQiAHaGM&pid=15.1",
+    "discoveredOriginalUrl": "https://tatnersstreetkitchen.com/wp-content/uploads/2025/08/Greek-Chickpea-and-Lemon-Rice-Bowl.jpg",
+    "searchQuery": "Greek Chickpea Rice Bowl plated recipe food",
+    "searchResultTitle": "35 Delicious Greek Chickpea Recipes Authentic - Tatner's Street Kitchen",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:17:17.964Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1285",
+    "name": "Greek Chickpea Rice Bowl",
+    "description": "Greek Chickpea Rice Bowl is a practical main meal adaptation built around chickpeas, rice, and title-specific supporting ingredients.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 85,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 464.983,
+      "proteinG": 12.722,
+      "carbohydratesG": 84.127,
+      "fatG": 10.476,
+      "fiberG": 10.014,
+      "sugarsG": 5.885,
+      "sodiumMg": 248.664,
+      "potassiumMg": 415.448,
+      "calciumMg": 78.494,
+      "ironMg": 1.852,
+      "magnesiumMg": 54.65,
+      "vitaminCMg": 46
+    },
+    "estimatedCostPerServingUsd": 1,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly",
+      "Few Ingredients",
+      "Meal Prep"
+    ]
+  }
+}

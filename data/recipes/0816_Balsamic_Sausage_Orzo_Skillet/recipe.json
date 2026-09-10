@@ -1,0 +1,232 @@
+{
+  "seedId": "REC-0816",
+  "candidate": {
+    "sequence": 1326,
+    "seedId": "REC-CAND-1326",
+    "name": "Balsamic Sausage Orzo Skillet"
+  },
+  "name": "Balsamic Sausage Orzo Skillet",
+  "description": "Balsamic Sausage Orzo Skillet is a practical stovetop recipe pairing sausage with orzo and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://time.com/5066819/sweet-potato-hash-recipe/",
+    "domain": "time.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Pork Sweet Potato Skillet source while retaining its closest matching dish form, cooking sequence, and applicable pork or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 30,
+    "totalMinutes": 50
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "sausage",
+  "carbohydrateBase": "orzo",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0085",
+      "sourceQuantity": 600,
+      "sourceUnit": "g",
+      "sourceDisplay": "600 g",
+      "normalizedQuantity": 600,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0098",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can black beans",
+      "normalizedQuantity": 425.2,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can diced tomatoes",
+      "normalizedQuantity": 411.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0010",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp chili powder",
+      "normalizedQuantity": 8,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0093",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, sausage, and orzo for balsamic sausage orzo skillet.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned sausage and cook it until browned or heated through as appropriate.",
+    "Stir in the orzo, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the balsamic sausage orzo skillet, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1714.3,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 3359.008,
+      "proteinG": 149.068,
+      "carbohydratesG": 327.009,
+      "fatG": 162.974,
+      "fiberG": 13.629,
+      "sugarsG": 11.858,
+      "sodiumMg": 6424.106,
+      "potassiumMg": 4797.364,
+      "calciumMg": 556.397,
+      "ironMg": 28.195,
+      "magnesiumMg": 458.628,
+      "vitaminCMg": 17.036
+    },
+    "perServing": {
+      "calories": 839.752,
+      "proteinG": 37.267,
+      "carbohydratesG": 81.752,
+      "fatG": 40.743,
+      "fiberG": 3.407,
+      "sugarsG": 2.965,
+      "sodiumMg": 1606.026,
+      "potassiumMg": 1199.341,
+      "calciumMg": 139.099,
+      "ironMg": 7.049,
+      "magnesiumMg": 114.657,
+      "vitaminCMg": 4.259
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 7.06,
+    "perServingUsd": 1.76,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Budget Friendly"
+  ],
+  "createdAt": "2027-06-13T04:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://memorecipes.com/hearty-italian-sausage-orzo-skillet/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.3Hy53698dADSbr6Hv0sbxwHaJQ&pid=15.1",
+    "discoveredOriginalUrl": "https://memorecipes.com/wp-content/uploads/2025/08/Hearty-Italian-Sausage-and-Orzo-Skillet-for-Christmas-Thanksgiving-2-1.jpg",
+    "searchQuery": "Balsamic Sausage Orzo Skillet plated recipe food",
+    "searchResultTitle": "Hearty Italian Sausage Orzo Skillet: 1 Pan - memorecipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:07:24.186Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0816",
+    "name": "Balsamic Sausage Orzo Skillet",
+    "description": "Balsamic Sausage Orzo Skillet is a practical stovetop recipe pairing sausage with orzo and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 50,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 839.752,
+      "proteinG": 37.267,
+      "carbohydratesG": 81.752,
+      "fatG": 40.743,
+      "fiberG": 3.407,
+      "sugarsG": 2.965,
+      "sodiumMg": 1606.026,
+      "potassiumMg": 1199.341,
+      "calciumMg": 139.099,
+      "ironMg": 7.049,
+      "magnesiumMg": 114.657,
+      "vitaminCMg": 4.259
+    },
+    "estimatedCostPerServingUsd": 1.76,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Budget Friendly"
+    ]
+  }
+}

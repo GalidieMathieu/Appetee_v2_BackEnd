@@ -1,0 +1,228 @@
+{
+  "seedId": "REC-1148",
+  "candidate": {
+    "sequence": 1920,
+    "seedId": "REC-CAND-1920",
+    "name": "Egg and Spinach Stir-Fry"
+  },
+  "name": "Egg and Spinach Stir-Fry",
+  "description": "Egg and Spinach Stir-Fry is a practical stovetop recipe pairing eggs with vegetables and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.bbcgoodfood.com/recipes/shakshuka",
+    "domain": "bbcgoodfood.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Spinach Shakshuka source while retaining its closest matching dish form, cooking sequence, and applicable eggs or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Tunisia",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 20,
+    "totalMinutes": 30
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Dinner",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "eggs",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0028",
+      "sourceQuantity": 6,
+      "sourceUnit": "large",
+      "sourceDisplay": "6 large eggs",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 2,
+      "sourceUnit": "cans",
+      "sourceDisplay": "2 cans diced tomatoes",
+      "normalizedQuantity": 822.136,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 medium onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 6,
+      "sourceUnit": "oz",
+      "sourceDisplay": "6 oz spinach",
+      "normalizedQuantity": 170.097,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp olive oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp ground cumin",
+      "normalizedQuantity": 2.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, eggs, and vegetables for egg and spinach stir-fry.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned eggs and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the egg and spinach stir-fry, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1412.323,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 834.204,
+      "proteinG": 53.453,
+      "carbohydratesG": 55.424,
+      "fatG": 47.879,
+      "fiberG": 8.318,
+      "sugarsG": 2.413,
+      "sodiumMg": 1587.393,
+      "potassiumMg": 3001.241,
+      "calciumMg": 703.403,
+      "ironMg": 15.297,
+      "magnesiumMg": 269.078,
+      "vitaminCMg": 26.497
+    },
+    "perServing": {
+      "calories": 208.551,
+      "proteinG": 13.363,
+      "carbohydratesG": 13.856,
+      "fatG": 11.97,
+      "fiberG": 2.079,
+      "sugarsG": 0.603,
+      "sodiumMg": 396.848,
+      "potassiumMg": 750.31,
+      "calciumMg": 175.851,
+      "ironMg": 3.824,
+      "magnesiumMg": 67.269,
+      "vitaminCMg": 6.624
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.92,
+    "perServingUsd": 0.98,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Quick Meal",
+    "Budget Friendly"
+  ],
+  "createdAt": "2028-11-06T00:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://omnivorescookbook.com/spinach-and-egg-stir-fry/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.z2hqM_tksW1WVfMMFuDm0QHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://omnivorescookbook.com/wp-content/uploads/2025/12/251204_Spinach-And-Egg-Stir-Fry_550.jpg",
+    "searchQuery": "Egg and Spinach Stir-Fry plated recipe food",
+    "searchResultTitle": "Spinach and Egg Stir Fry (菠菜炒蛋) - Omnivore's Cookbook",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:24:17.962Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1148",
+    "name": "Egg and Spinach Stir-Fry",
+    "description": "Egg and Spinach Stir-Fry is a practical stovetop recipe pairing eggs with vegetables and title-specific vegetables and seasonings.",
+    "mealType": "Dinner",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 30,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 208.551,
+      "proteinG": 13.363,
+      "carbohydratesG": 13.856,
+      "fatG": 11.97,
+      "fiberG": 2.079,
+      "sugarsG": 0.603,
+      "sodiumMg": 396.848,
+      "potassiumMg": 750.31,
+      "calciumMg": 175.851,
+      "ironMg": 3.824,
+      "magnesiumMg": 67.269,
+      "vitaminCMg": 6.624
+    },
+    "estimatedCostPerServingUsd": 0.98,
+    "diets": [
+      "Vegetarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Quick Meal",
+      "Budget Friendly"
+    ]
+  }
+}

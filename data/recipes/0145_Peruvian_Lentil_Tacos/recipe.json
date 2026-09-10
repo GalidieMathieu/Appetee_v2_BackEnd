@@ -1,0 +1,218 @@
+{
+  "seedId": "REC-0145",
+  "candidate": {
+    "sequence": 36,
+    "seedId": "REC-CAND-0036",
+    "name": "Peruvian Lentil Tacos"
+  },
+  "name": "Peruvian Lentil Tacos",
+  "description": "Peruvian Lentil Tacos combines lentils with tortilla and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+  "source": {
+    "url": "https://www.pcrm.org/good-nutrition/plant-based-diets/recipes/peruvian-lentil-stew",
+    "domain": "pcrm.org",
+    "accessedAt": "2026-08-10T18:00:00-06:00",
+    "adaptation": "The source's defining lentils, tortilla, seasoning profile, and core cooking technique are retained; quantities and supporting vegetables are normalized to the canonical Appetee market ingredients."
+  },
+  "countryOfOrigin": "Peru",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 20,
+    "totalMinutes": 35
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "lentils",
+  "carbohydrateBase": "tortilla",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0015",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0027",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure and prepare every ingredient for peruvian lentil tacos before heating the cooking vessel.",
+    "Heat the cooking vessel and soften the aromatics before adding the lentils.",
+    "Cook the tortilla until tender while the seasoned lentils develops its intended color and texture.",
+    "Combine the cooked components with the remaining vegetables and sauce, then adjust the consistency and seasoning.",
+    "Portion the finished peruvian lentil tacos evenly and serve it warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": true
+  },
+  "estimatedFinishedWeightG": 1367,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1991.66,
+      "proteinG": 95.754,
+      "carbohydratesG": 336.884,
+      "fatG": 34.495,
+      "fiberG": 63.244,
+      "sugarsG": 13.936,
+      "sodiumMg": 2431.23,
+      "potassiumMg": 4054.7,
+      "calciumMg": 1027.06,
+      "ironMg": 27.712,
+      "magnesiumMg": 449.902,
+      "vitaminCMg": 74.76
+    },
+    "perServing": {
+      "calories": 497.915,
+      "proteinG": 23.939,
+      "carbohydratesG": 84.221,
+      "fatG": 8.624,
+      "fiberG": 15.811,
+      "sugarsG": 3.484,
+      "sodiumMg": 607.808,
+      "potassiumMg": 1013.675,
+      "calciumMg": 256.765,
+      "ironMg": 6.928,
+      "magnesiumMg": 112.475,
+      "vitaminCMg": 18.69
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.23,
+    "perServingUsd": 1.31,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Meal Prep",
+    "Freezer Friendly",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-08-12T17:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "betterhomerecipes.com",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://betterhomerecipes.com/spicy-lentil-tacos/",
+    "originalSourceUrl": "https://betterhomerecipes.com/wp-content/uploads/2025/06/Spicy-Lentil-Tacos.webp",
+    "discoveredOriginalUrl": "https://betterhomerecipes.com/wp-content/uploads/2025/06/Spicy-Lentil-Tacos.webp",
+    "searchQuery": "Peruvian Lentil Tacos plated recipe food",
+    "searchResultTitle": "Spicy Lentil Tacos - Better Home Recipes",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:10:01.745Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0145",
+    "name": "Peruvian Lentil Tacos",
+    "description": "Peruvian Lentil Tacos combines lentils with tortilla and complementary vegetables, aromatics, and seasonings in a practical home-cooking format.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 35,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 497.915,
+      "proteinG": 23.939,
+      "carbohydratesG": 84.221,
+      "fatG": 8.624,
+      "fiberG": 15.811,
+      "sugarsG": 3.484,
+      "sodiumMg": 607.808,
+      "potassiumMg": 1013.675,
+      "calciumMg": 256.765,
+      "ironMg": 6.928,
+      "magnesiumMg": 112.475,
+      "vitaminCMg": 18.69
+    },
+    "estimatedCostPerServingUsd": 1.31,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Meal Prep",
+      "Freezer Friendly",
+      "Budget Friendly"
+    ]
+  }
+}

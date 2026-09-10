@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0033",
+  "name": "Bananas",
+  "canonicalName": "Bananas",
+  "description": "Raw bananas, edible portion.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Fresh Bananas, sold by weight",
+    "productId": "44390948",
+    "productUrl": "https://www.walmart.com/ip/44390948",
+    "brand": "Fresh Produce",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 0.5,
+    "packageQuantity": 453.592,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 89,
+      "proteinG": 1.09,
+      "carbohydratesG": 22.8,
+      "fatG": 0.33,
+      "fiberG": 2.6,
+      "sugarsG": 12.2,
+      "sodiumMg": 1,
+      "potassiumMg": 358,
+      "calciumMg": 5,
+      "ironMg": 0.26,
+      "magnesiumMg": 27,
+      "vitaminCMg": 8.7
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.1102
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 173944,
+      "dataType": "SR Legacy",
+      "description": "Bananas, raw",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/173944/nutrients",
+      "searchQuery": "bananas raw",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://fdc.nal.usda.gov/fdc-datasets/FoodData_Central_sr_legacy_food_json_2018-04.zip"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": "Produce listing was 50 cents per pound; recipe mass is edible portion."
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.freepik.com/premium-ai-image/close-up-delicious-bananas-ready-be-served_252683709.htm",
+    "originalSourceUrl": "https://img.freepik.com/premium-photo/close-up-delicious-bananas-ready-be-served_926199-4087723.jpg?w=996",
+    "searchQuery": "Bananas ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0033",
+    "name": "Bananas",
+    "description": "Raw bananas, edible portion.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 89,
+      "proteinG": 1.09,
+      "carbohydratesG": 22.8,
+      "fatG": 0.33,
+      "fiberG": 2.6,
+      "sugarsG": 12.2,
+      "sodiumMg": 1,
+      "potassiumMg": 358,
+      "calciumMg": 5,
+      "ironMg": 0.26,
+      "magnesiumMg": 27,
+      "vitaminCMg": 8.7
+    },
+    "price": {
+      "usdPerBasis": 0.1102,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0033_Bananas/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}

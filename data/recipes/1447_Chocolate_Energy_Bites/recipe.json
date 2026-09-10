@@ -1,0 +1,196 @@
+{
+  "seedId": "REC-1447",
+  "candidate": {
+    "sequence": 2244,
+    "seedId": "REC-CAND-2244",
+    "name": "Chocolate Energy Bites"
+  },
+  "name": "Chocolate Energy Bites",
+  "description": "Chocolate Energy Bites is a practical snack adaptation built around oats, oats, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://www.food.com/recipe/banana-oatmeal-bites-514723",
+    "domain": "food.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Banana Oatmeal Bites source because it provides the closest validated bites structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 0,
+    "totalMinutes": 10
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Snack",
+  "cookingMethod": "No-cook",
+  "primaryProtein": "oats",
+  "carbohydrateBase": "oats",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0029",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0105",
+      "sourceQuantity": 120,
+      "sourceUnit": "g",
+      "sourceDisplay": "120 g",
+      "normalizedQuantity": 120,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0092",
+      "sourceQuantity": 60,
+      "sourceUnit": "g",
+      "sourceDisplay": "60 g",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0034",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Measure, drain, and prepare every ingredient for chocolate energy bites.",
+    "Mix the dressing or binding ingredients until evenly combined.",
+    "Combine the oats with the oats and remaining ingredients in the intended snack form.",
+    "Taste the mixture and adjust its texture before portioning.",
+    "Divide the chocolate energy bites into practical portions and serve or chill as appropriate."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 720,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1470.6,
+      "proteinG": 56.67,
+      "carbohydratesG": 308.79,
+      "fatG": 32.418,
+      "fiberG": 75.06,
+      "sugarsG": 67.416,
+      "sodiumMg": 48,
+      "potassiumMg": 3168,
+      "calciumMg": 330,
+      "ironMg": 29.382,
+      "magnesiumMg": 964.2,
+      "vitaminCMg": 123.9
+    },
+    "perServing": {
+      "calories": 367.65,
+      "proteinG": 14.168,
+      "carbohydratesG": 77.198,
+      "fatG": 8.104,
+      "fiberG": 18.765,
+      "sugarsG": 16.854,
+      "sodiumMg": 12,
+      "potassiumMg": 792,
+      "calciumMg": 82.5,
+      "ironMg": 7.346,
+      "magnesiumMg": 241.05,
+      "vitaminCMg": 30.975
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 5.78,
+    "perServingUsd": 1.45,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Quick Meal",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-02-09T23:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts4.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://juicydish.com/no-bake-chocolate-energy-bites/",
+    "originalSourceUrl": "https://ts4.mm.bing.net/th?id=OIP.xAQfrOVZkJRruXSe6Q7udwHaJQ&pid=15.1",
+    "discoveredOriginalUrl": "https://juicydish.com/wp-content/uploads/2025/12/No-Bake_Chocolate_Energy_Bites-1.webp",
+    "searchQuery": "Chocolate Energy Bites plated recipe food",
+    "searchResultTitle": "No-Bake Chocolate Energy Bites - Juicy Dish",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:53:25.824Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1447",
+    "name": "Chocolate Energy Bites",
+    "description": "Chocolate Energy Bites is a practical snack adaptation built around oats, oats, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Snack",
+    "image": null,
+    "totalTimeMinutes": 10,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 367.65,
+      "proteinG": 14.168,
+      "carbohydratesG": 77.198,
+      "fatG": 8.104,
+      "fiberG": 18.765,
+      "sugarsG": 16.854,
+      "sodiumMg": 12,
+      "potassiumMg": 792,
+      "calciumMg": 82.5,
+      "ironMg": 7.346,
+      "magnesiumMg": 241.05,
+      "vitaminCMg": 30.975
+    },
+    "estimatedCostPerServingUsd": 1.45,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Quick Meal",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

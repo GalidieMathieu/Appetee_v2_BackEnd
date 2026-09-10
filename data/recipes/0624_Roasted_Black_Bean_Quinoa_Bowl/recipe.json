@@ -1,0 +1,236 @@
+{
+  "seedId": "REC-0624",
+  "candidate": {
+    "sequence": 935,
+    "seedId": "REC-CAND-0935",
+    "name": "Roasted Black Bean Quinoa Bowl"
+  },
+  "name": "Roasted Black Bean Quinoa Bowl",
+  "description": "Roasted Black Bean Quinoa Bowl is a practical oven recipe pairing black beans with quinoa and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://cookieandkate.com/black-bean-burrito-bowl-recipe/",
+    "domain": "cookieandkate.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Black Bean Burrito Bowl source while retaining its closest matching dish form, cooking sequence, and applicable black beans or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "Mexico",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 25,
+    "cookMinutes": 20,
+    "totalMinutes": 45
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Oven",
+  "primaryProtein": "black beans",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0003",
+      "sourceQuantity": 439,
+      "sourceUnit": "g",
+      "sourceDisplay": "439 g",
+      "normalizedQuantity": 439,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 240,
+      "sourceUnit": "g",
+      "sourceDisplay": "240 g",
+      "normalizedQuantity": 240,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0004",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0005",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0063",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 15,
+      "sourceUnit": "g",
+      "sourceDisplay": "15 g",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Preheat the oven and prepare all ingredients for roasted black bean quinoa bowl.",
+    "Season the black beans and vegetables evenly while the oven reaches temperature.",
+    "Arrange the black beans, quinoa, and vegetables so heat can circulate around each component.",
+    "Bake until the black beans is safely cooked and the vegetables or grain base are tender.",
+    "Rest the roasted black bean quinoa bowl briefly, adjust the seasoning, and divide it into four portions."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1652,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2102.172,
+      "proteinG": 80.185,
+      "carbohydratesG": 350.945,
+      "fatG": 50.394,
+      "sodiumMg": 2958.996,
+      "potassiumMg": 4687.173,
+      "calciumMg": 487.07,
+      "ironMg": 22.801,
+      "magnesiumMg": 783.105,
+      "fiberG": 36.199,
+      "sugarsG": 9.604,
+      "vitaminCMg": 47.34
+    },
+    "perServing": {
+      "calories": 525.543,
+      "proteinG": 20.046,
+      "carbohydratesG": 87.736,
+      "fatG": 12.598,
+      "sodiumMg": 739.749,
+      "potassiumMg": 1171.793,
+      "calciumMg": 121.767,
+      "ironMg": 5.7,
+      "magnesiumMg": 195.776,
+      "fiberG": 9.05,
+      "sugarsG": 2.401,
+      "vitaminCMg": 11.835
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 6.79,
+    "perServingUsd": 1.7,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-08-21T04:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://no.pinterest.com/pin/quinoa-breakfast-bowl-with-roasted-sweet-potatoes-and-black-beans--1049901731872239900/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.GLzFoRsgAlvzI75zy8SvRQHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/736x/47/fd/d4/47fdd4a54c1562086e79cb3de37c6a55.jpg",
+    "searchQuery": "Roasted Black Bean Quinoa Bowl plated recipe food",
+    "searchResultTitle": "Quinoa Breakfast Bowl with Roasted Sweet Potatoes and Black Beans ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:57:27.427Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0624",
+    "name": "Roasted Black Bean Quinoa Bowl",
+    "description": "Roasted Black Bean Quinoa Bowl is a practical oven recipe pairing black beans with quinoa and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 45,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 525.543,
+      "proteinG": 20.046,
+      "carbohydratesG": 87.736,
+      "fatG": 12.598,
+      "sodiumMg": 739.749,
+      "potassiumMg": 1171.793,
+      "calciumMg": 121.767,
+      "ironMg": 5.7,
+      "magnesiumMg": 195.776,
+      "fiberG": 9.05,
+      "sugarsG": 2.401,
+      "vitaminCMg": 11.835
+    },
+    "estimatedCostPerServingUsd": 1.7,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

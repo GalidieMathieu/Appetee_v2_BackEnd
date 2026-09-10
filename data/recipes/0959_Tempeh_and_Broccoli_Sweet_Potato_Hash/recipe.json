@@ -1,0 +1,244 @@
+{
+  "seedId": "REC-0959",
+  "candidate": {
+    "sequence": 1584,
+    "seedId": "REC-CAND-1584",
+    "name": "Tempeh and Broccoli Sweet Potato Hash"
+  },
+  "name": "Tempeh and Broccoli Sweet Potato Hash",
+  "description": "Tempeh and Broccoli Sweet Potato Hash is a practical stovetop recipe pairing tempeh with sweet potato and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://www.atkins.com/recipes/coconut-curry-tempeh",
+    "domain": "atkins.com",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Tempeh Sweet Potato Coconut Curry source while retaining its closest matching dish form, cooking sequence, and applicable tempeh or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 10,
+    "cookMinutes": 60,
+    "totalMinutes": 70
+  },
+  "servings": 4,
+  "difficulty": "Medium",
+  "mealType": "Breakfast",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "tempeh",
+  "carbohydrateBase": "sweet potato",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0049",
+      "sourceQuantity": 1,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1 lb tempeh",
+      "normalizedQuantity": 453.6,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0007",
+      "sourceQuantity": 1.5,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1½ lb sweet potatoes",
+      "normalizedQuantity": 680.4,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0040",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can coconut milk",
+      "normalizedQuantity": 399,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0008",
+      "sourceQuantity": 1,
+      "sourceUnit": "can",
+      "sourceDisplay": "1 can diced tomatoes",
+      "normalizedQuantity": 411.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 1,
+      "sourceUnit": "medium",
+      "sourceDisplay": "1 onion",
+      "normalizedQuantity": 150,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0017",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp curry powder",
+      "normalizedQuantity": 7,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0046",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp cumin",
+      "normalizedQuantity": 2.1,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0013",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0045",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, tempeh, and sweet potato for tempeh and broccoli sweet potato hash.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned tempeh and cook it until browned or heated through as appropriate.",
+    "Stir in the sweet potato, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the tempeh and broccoli sweet potato hash, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Vegetarian",
+    "Vegan",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 2574.8,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 2671.081,
+      "proteinG": 131.814,
+      "carbohydratesG": 263.614,
+      "fatG": 141.216,
+      "sodiumMg": 702.237,
+      "potassiumMg": 9146.844,
+      "calciumMg": 1136.176,
+      "ironMg": 38.627,
+      "magnesiumMg": 883.236,
+      "vitaminCMg": 303.5,
+      "fiberG": 19.694,
+      "sugarsG": 6.15
+    },
+    "perServing": {
+      "calories": 667.77,
+      "proteinG": 32.953,
+      "carbohydratesG": 65.903,
+      "fatG": 35.304,
+      "sodiumMg": 175.559,
+      "potassiumMg": 2286.711,
+      "calciumMg": 284.044,
+      "ironMg": 9.657,
+      "magnesiumMg": 220.809,
+      "vitaminCMg": 75.875,
+      "fiberG": 4.923,
+      "sugarsG": 1.538
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 20.35,
+    "perServingUsd": 5.09,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie"
+  ],
+  "createdAt": "2028-01-19T15:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts3.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.pinterest.com/pin/lunch-dinner--456763587212596935/",
+    "originalSourceUrl": "https://ts3.mm.bing.net/th?id=OIP.j-_FZE2HcqAKxLHHqnlMpAHaLH&pid=15.1",
+    "discoveredOriginalUrl": "https://i.pinimg.com/originals/8e/c4/1d/8ec41d052d2210cf711a7df79ad6ae66.jpg",
+    "searchQuery": "Tempeh and Broccoli Sweet Potato Hash plated recipe food",
+    "searchResultTitle": "Tempeh, Broccoli & Sweet Potato Hash (vegan, gluten free) - Veggiekins ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T18:14:43.422Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0959",
+    "name": "Tempeh and Broccoli Sweet Potato Hash",
+    "description": "Tempeh and Broccoli Sweet Potato Hash is a practical stovetop recipe pairing tempeh with sweet potato and title-specific vegetables and seasonings.",
+    "mealType": "Breakfast",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 70,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 667.77,
+      "proteinG": 32.953,
+      "carbohydratesG": 65.903,
+      "fatG": 35.304,
+      "sodiumMg": 175.559,
+      "potassiumMg": 2286.711,
+      "calciumMg": 284.044,
+      "ironMg": 9.657,
+      "magnesiumMg": 220.809,
+      "vitaminCMg": 75.875,
+      "fiberG": 4.923,
+      "sugarsG": 1.538
+    },
+    "estimatedCostPerServingUsd": 5.09,
+    "diets": [
+      "Vegetarian",
+      "Vegan",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie"
+    ]
+  }
+}

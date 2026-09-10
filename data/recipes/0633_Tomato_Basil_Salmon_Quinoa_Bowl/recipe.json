@@ -1,0 +1,238 @@
+{
+  "seedId": "REC-0633",
+  "candidate": {
+    "sequence": 957,
+    "seedId": "REC-CAND-0957",
+    "name": "Tomato Basil Salmon Quinoa Bowl"
+  },
+  "name": "Tomato Basil Salmon Quinoa Bowl",
+  "description": "Tomato Basil Salmon Quinoa Bowl is a practical stovetop recipe pairing salmon with quinoa and title-specific vegetables and seasonings.",
+  "source": {
+    "url": "https://health.clevelandclinic.org/recipe-toasted-quinoa-and-salmon-salad",
+    "domain": "health.clevelandclinic.org",
+    "accessedAt": "2026-08-10T20:00:00-06:00",
+    "adaptation": "Adapted from the researched Salmon Quinoa Spinach Salad source while retaining its closest matching dish form, cooking sequence, and applicable salmon or base structure; the candidate's named protein, base, vegetables, and flavor profile are explicit substitutions for this development-dataset version."
+  },
+  "countryOfOrigin": "United States",
+  "discovery": true,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 15,
+    "cookMinutes": 40,
+    "totalMinutes": 55
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "salmon",
+  "carbohydrateBase": "quinoa",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0011",
+      "sourceQuantity": 1.25,
+      "sourceUnit": "lb",
+      "sourceDisplay": "1¼ lb salmon",
+      "normalizedQuantity": 567,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0012",
+      "sourceQuantity": 1,
+      "sourceUnit": "cup",
+      "sourceDisplay": "1 cup dry quinoa",
+      "normalizedQuantity": 170,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 3,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0016",
+      "sourceQuantity": 3,
+      "sourceUnit": "cups",
+      "sourceDisplay": "3 cups spinach",
+      "normalizedQuantity": 255,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 4,
+      "sourceUnit": "medium",
+      "sourceDisplay": "4 Roma tomatoes",
+      "normalizedQuantity": 248,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0024",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp vinegar",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 1,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "1 tbsp olive oil",
+      "normalizedQuantity": 15,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0099",
+      "sourceQuantity": 28,
+      "sourceUnit": "g",
+      "sourceDisplay": "28 g",
+      "normalizedQuantity": 28,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, salmon, and quinoa for tomato basil salmon quinoa bowl.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned salmon and cook it until browned or heated through as appropriate.",
+    "Stir in the quinoa, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the tomato basil salmon quinoa bowl, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Pescatarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 1760.95,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1711.749,
+      "proteinG": 155.016,
+      "carbohydratesG": 156.376,
+      "fatG": 51.196,
+      "fiberG": 28.419,
+      "sugarsG": 8.385,
+      "sodiumMg": 640.758,
+      "potassiumMg": 5153.235,
+      "calciumMg": 570.158,
+      "ironMg": 17.277,
+      "magnesiumMg": 752.955,
+      "vitaminCMg": 77.641
+    },
+    "perServing": {
+      "calories": 427.937,
+      "proteinG": 38.754,
+      "carbohydratesG": 39.094,
+      "fatG": 12.799,
+      "fiberG": 7.105,
+      "sugarsG": 2.096,
+      "sodiumMg": 160.19,
+      "potassiumMg": 1288.309,
+      "calciumMg": 142.54,
+      "ironMg": 4.319,
+      "magnesiumMg": 188.239,
+      "vitaminCMg": 19.41
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 14.47,
+    "perServingUsd": 3.62,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "High Protein",
+    "Low Calorie",
+    "High Fiber",
+    "Budget Friendly"
+  ],
+  "createdAt": "2026-09-04T01:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts2.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://hilltoprecipes.com/salmon-quinoa-bowl/",
+    "originalSourceUrl": "https://ts2.mm.bing.net/th?id=OIP.4d8WNinNp7B6hRl7zoBLkQHaJ3&pid=15.1",
+    "discoveredOriginalUrl": "https://hilltoprecipes.com/wp-content/uploads/2026/01/Finished-salmon-quinoa-bowl-with-roasted-cauliflower-flaked-salmon-quinoa-cucumber-tomato-creamy-sauce.jpg",
+    "searchQuery": "Tomato Basil Salmon Quinoa Bowl plated recipe food",
+    "searchResultTitle": "Salmon Quinoa Bowl with Shawarma-Spiced Roasted Cauliflower | Nico's ...",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T17:58:18.053Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0633",
+    "name": "Tomato Basil Salmon Quinoa Bowl",
+    "description": "Tomato Basil Salmon Quinoa Bowl is a practical stovetop recipe pairing salmon with quinoa and title-specific vegetables and seasonings.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 55,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 427.937,
+      "proteinG": 38.754,
+      "carbohydratesG": 39.094,
+      "fatG": 12.799,
+      "fiberG": 7.105,
+      "sugarsG": 2.096,
+      "sodiumMg": 160.19,
+      "potassiumMg": 1288.309,
+      "calciumMg": 142.54,
+      "ironMg": 4.319,
+      "magnesiumMg": 188.239,
+      "vitaminCMg": 19.41
+    },
+    "estimatedCostPerServingUsd": 3.62,
+    "diets": [
+      "Pescatarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "High Protein",
+      "Low Calorie",
+      "High Fiber",
+      "Budget Friendly"
+    ]
+  }
+}

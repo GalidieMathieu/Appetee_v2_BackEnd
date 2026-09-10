@@ -1,0 +1,198 @@
+{
+  "seedId": "REC-1516",
+  "candidate": {
+    "sequence": 2314,
+    "seedId": "REC-CAND-2314",
+    "name": "Mediterranean Vegetable Medley"
+  },
+  "name": "Mediterranean Vegetable Medley",
+  "description": "Mediterranean Vegetable Medley is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+  "source": {
+    "url": "https://kosherworldkitchen.com/morogo-curried-spinach/#recipe",
+    "domain": "kosherworldkitchen.com",
+    "accessedAt": "2026-08-11T19:50:49.978Z",
+    "adaptation": "Adapted from the researched Botswana Curried Spinach source because it provides the closest validated vegetables structure; the candidate's named ingredients, meal role, and cooking method are explicit development-dataset substitutions."
+  },
+  "countryOfOrigin": "Mediterranean",
+  "discovery": false,
+  "studentAthleteTarget": false,
+  "times": {
+    "prepMinutes": 20,
+    "cookMinutes": 60,
+    "totalMinutes": 80
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Side",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "vegetables",
+  "carbohydrateBase": "vegetables",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0014",
+      "sourceQuantity": 30,
+      "sourceUnit": "ml",
+      "sourceDisplay": "30 ml",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0009",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0059",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0023",
+      "sourceQuantity": 300,
+      "sourceUnit": "g",
+      "sourceDisplay": "300 g",
+      "normalizedQuantity": 300,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source-style metric quantity recorded directly",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Prepare the vegetables, aromatics, vegetables, and vegetables for mediterranean vegetable medley.",
+    "Heat the cooking vessel and soften the aromatics until fragrant.",
+    "Add the seasoned vegetables and cook it until browned or heated through as appropriate.",
+    "Stir in the vegetables, vegetables, and sauce and cook until the mixture is tender and cohesive.",
+    "Taste the mediterranean vegetable medley, adjust the seasoning, and portion it evenly while warm."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Gluten Free",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": false,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 930,
+  "finishedWeightMethod": "Estimated from normalized quantities and recorded cooking-yield factors; used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 496.332,
+      "proteinG": 8.43,
+      "carbohydratesG": 65.46,
+      "fatG": 28.95,
+      "fiberG": 17.7,
+      "sugarsG": 15.39,
+      "sodiumMg": 24.546,
+      "potassiumMg": 1671.273,
+      "calciumMg": 153.273,
+      "ironMg": 3.603,
+      "magnesiumMg": 84,
+      "vitaminCMg": 224.7
+    },
+    "perServing": {
+      "calories": 124.083,
+      "proteinG": 2.107,
+      "carbohydratesG": 16.365,
+      "fatG": 7.237,
+      "fiberG": 4.425,
+      "sugarsG": 3.848,
+      "sodiumMg": 6.136,
+      "potassiumMg": 417.818,
+      "calciumMg": 38.318,
+      "ironMg": 0.901,
+      "magnesiumMg": 21,
+      "vitaminCMg": 56.175
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 3.21,
+    "perServingUsd": 0.8,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Low Calorie",
+    "Low Carb",
+    "Budget Friendly",
+    "Few Ingredients"
+  ],
+  "createdAt": "2030-05-27T08:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-related-photograph",
+    "aiGenerated": false,
+    "provider": "ts1.mm.bing.net",
+    "discoveryProvider": "Bing Image Search",
+    "creator": null,
+    "credit": null,
+    "provenance": "Related real food photograph found through Bing Image Search and retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://flavorsecret.com/irresistible-mediterranean-roasted-vegetable-medley-recipe/",
+    "originalSourceUrl": "https://ts1.mm.bing.net/th?id=OIP.2uY5YXiSVLUWi2HHOIBYhQHaHa&pid=15.1",
+    "discoveredOriginalUrl": "https://flavorsecret.com/wp-content/uploads/2026/01/Image_x1-433.png",
+    "searchQuery": "Mediterranean Vegetable Medley plated recipe food",
+    "searchResultTitle": "Mediterranean Roasted Vegetable Medley",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T20:54:58.554Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-1516",
+    "name": "Mediterranean Vegetable Medley",
+    "description": "Mediterranean Vegetable Medley is a practical side adaptation built around vegetables, vegetables, and title-specific supporting ingredients.",
+    "mealType": "Lunch",
+    "mealCategory": "Side",
+    "image": null,
+    "totalTimeMinutes": 80,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 124.083,
+      "proteinG": 2.107,
+      "carbohydratesG": 16.365,
+      "fatG": 7.237,
+      "fiberG": 4.425,
+      "sugarsG": 3.848,
+      "sodiumMg": 6.136,
+      "potassiumMg": 417.818,
+      "calciumMg": 38.318,
+      "ironMg": 0.901,
+      "magnesiumMg": 21,
+      "vitaminCMg": 56.175
+    },
+    "estimatedCostPerServingUsd": 0.8,
+    "diets": [
+      "Flexitarian",
+      "Gluten Free",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Low Calorie",
+      "Low Carb",
+      "Budget Friendly",
+      "Few Ingredients"
+    ]
+  }
+}

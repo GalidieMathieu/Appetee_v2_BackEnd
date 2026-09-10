@@ -1,0 +1,235 @@
+{
+  "seedId": "REC-0093",
+  "name": "Korean Ground Beef Rice Bowls",
+  "description": "Fast Korean-style ground beef glazed with soy, ginger, and sesame over rice.",
+  "source": {
+    "url": "https://mykoreankitchen.com/korean-ground-beef-rice-bowls/",
+    "domain": "mykoreankitchen.com",
+    "accessedAt": "2026-08-10T12:00:00-06:00",
+    "adaptation": "The source beef, sauce balance, garnish, rice, and skillet method are retained; granulated sugar replaces brown sugar and water replaces the small rice-wine quantity."
+  },
+  "countryOfOrigin": "South Korea",
+  "discovery": false,
+  "studentAthleteTarget": true,
+  "times": {
+    "prepMinutes": 5,
+    "cookMinutes": 20,
+    "totalMinutes": 25
+  },
+  "servings": 4,
+  "difficulty": "Easy",
+  "mealType": "Lunch",
+  "mealCategory": "Main Meal",
+  "cookingMethod": "Stovetop",
+  "primaryProtein": "beef",
+  "carbohydrateBase": "rice",
+  "ingredients": [
+    {
+      "ingredientSeedId": "ING-0021",
+      "sourceQuantity": 500,
+      "sourceUnit": "g",
+      "sourceDisplay": "500 g ground beef",
+      "normalizedQuantity": 500,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.75,
+      "featuredOrder": 1
+    },
+    {
+      "ingredientSeedId": "ING-0020",
+      "sourceQuantity": 0.25,
+      "sourceUnit": "cup",
+      "sourceDisplay": "¼ cup soy sauce",
+      "normalizedQuantity": 60,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 2
+    },
+    {
+      "ingredientSeedId": "ING-0052",
+      "sourceQuantity": 2,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "2 tbsp sugar",
+      "normalizedQuantity": 25,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1,
+      "featuredOrder": 3
+    },
+    {
+      "ingredientSeedId": "ING-0041",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "½ tbsp minced garlic",
+      "normalizedQuantity": 7.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0070",
+      "sourceQuantity": 1,
+      "sourceUnit": "tsp",
+      "sourceDisplay": "1 tsp minced ginger",
+      "normalizedQuantity": 5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0071",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "½ tbsp toasted sesame oil",
+      "normalizedQuantity": 7.5,
+      "normalizedUnit": "ml",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0072",
+      "sourceQuantity": 0.5,
+      "sourceUnit": "tbsp",
+      "sourceDisplay": "½ tbsp sesame seeds",
+      "normalizedQuantity": 4.5,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 1
+    },
+    {
+      "ingredientSeedId": "ING-0062",
+      "sourceQuantity": 2,
+      "sourceUnit": "stalks",
+      "sourceDisplay": "2 sliced green onions",
+      "normalizedQuantity": 30,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source measure converted with product or USDA standard mass",
+      "cookingYieldFactor": 0.9
+    },
+    {
+      "ingredientSeedId": "ING-0002",
+      "sourceQuantity": 2,
+      "sourceUnit": "cups cooked",
+      "sourceDisplay": "2 cups cooked rice",
+      "normalizedQuantity": 125,
+      "normalizedUnit": "g",
+      "normalizationMethod": "Source cooked rice represented by approximately 125 g dry rice before cooking",
+      "cookingYieldFactor": 1
+    }
+  ],
+  "instructions": [
+    "Whisk the soy sauce, sugar, garlic, ginger, pepper, sesame oil, and a splash of water into a sauce.",
+    "Cook the ground beef in a hot skillet until mostly browned, breaking it into small crumbles.",
+    "Pour the sauce over the beef and simmer until the meat is cooked and glazed.",
+    "Fold in the sesame seeds and green onions, then remove the skillet from the heat.",
+    "Serve the glazed beef over freshly cooked rice."
+  ],
+  "sourceNutrition": null,
+  "diets": [
+    "Flexitarian",
+    "Lactose Free"
+  ],
+  "badgeJudgements": {
+    "mealPrep": true,
+    "freezerFriendly": false
+  },
+  "estimatedFinishedWeightG": 636,
+  "finishedWeightMethod": "Estimated from each entered mass/volume using recorded cooking-yield factors: raw meat 0.75, moisture-losing produce and eggs 0.9, and other ingredients 1.0. Used only for the Low Calorie badge.",
+  "calculatedNutrition": {
+    "total": {
+      "calories": 1771.554,
+      "proteinG": 109.5,
+      "carbohydratesG": 134.907,
+      "fatG": 86.47,
+      "fiberG": 2.303,
+      "sugarsG": 26.109,
+      "sodiumMg": 4160.707,
+      "potassiumMg": 2031.41,
+      "calciumMg": 142.468,
+      "ironMg": 12.534,
+      "magnesiumMg": 200.179,
+      "vitaminCMg": 8.23
+    },
+    "perServing": {
+      "calories": 442.889,
+      "proteinG": 27.375,
+      "carbohydratesG": 33.727,
+      "fatG": 21.617,
+      "fiberG": 0.576,
+      "sugarsG": 6.527,
+      "sodiumMg": 1040.177,
+      "potassiumMg": 507.853,
+      "calciumMg": 35.617,
+      "ironMg": 3.134,
+      "magnesiumMg": 50.045,
+      "vitaminCMg": 2.058
+    },
+    "calculationMethod": "Sum of canonical ingredient values multiplied by normalized quantity / 100; no intermediate rounding; displayed values rounded to 0.001."
+  },
+  "calculatedCost": {
+    "totalUsd": 10.12,
+    "perServingUsd": 2.53,
+    "calculationMethod": "Sum of canonical normalized ingredient prices multiplied by normalized quantity / 100."
+  },
+  "badges": [
+    "Quick Meal",
+    "Meal Prep",
+    "Budget Friendly"
+  ],
+  "createdAt": "2024-05-24T13:00:00.000Z",
+  "image": {
+    "mainPath": "assets/main.avif",
+    "cardPath": "assets/card.avif",
+    "imageType": "external-real-photograph",
+    "aiGenerated": false,
+    "provider": "mykoreankitchen.com",
+    "creator": null,
+    "credit": null,
+    "provenance": "Exact recipe source-page photograph retained for private, non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://mykoreankitchen.com/korean-ground-beef-rice-bowls/",
+    "originalSourceUrl": "https://mykoreankitchen.com/wp-content/uploads/2020/06/2.-Korean-Ground-Beef-And-Rice-Bowls.jpg",
+    "license": null,
+    "licenseUrl": null,
+    "usageAuthorization": "Repository-owner-authorized private/test use only.",
+    "attributionRequired": null,
+    "reuseVerified": false,
+    "productionApproved": false,
+    "acquiredAt": "2026-08-11T16:55:01.441Z",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "REC-0093",
+    "name": "Korean Ground Beef Rice Bowls",
+    "description": "Fast Korean-style ground beef glazed with soy, ginger, and sesame over rice.",
+    "mealType": "Lunch",
+    "mealCategory": "Main Meal",
+    "image": null,
+    "totalTimeMinutes": 25,
+    "servings": 4,
+    "nutritionPerServing": {
+      "calories": 442.889,
+      "proteinG": 27.375,
+      "carbohydratesG": 33.727,
+      "fatG": 21.617,
+      "fiberG": 0.576,
+      "sugarsG": 6.527,
+      "sodiumMg": 1040.177,
+      "potassiumMg": 507.853,
+      "calciumMg": 35.617,
+      "ironMg": 3.134,
+      "magnesiumMg": 50.045,
+      "vitaminCMg": 2.058
+    },
+    "estimatedCostPerServingUsd": 2.53,
+    "diets": [
+      "Flexitarian",
+      "Lactose Free"
+    ],
+    "badges": [
+      "Quick Meal",
+      "Meal Prep",
+      "Budget Friendly"
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "seedId": "ING-0004",
+  "name": "Frozen Corn",
+  "canonicalName": "Frozen Corn",
+  "description": "Frozen whole-kernel sweet corn.",
+  "measurementType": "solid",
+  "market": {
+    "retailer": "Walmart",
+    "storeName": "Walmart Supercenter #3789",
+    "storeNumber": "3789",
+    "address": "1959 Wall Ave, Ogden, UT 84401",
+    "productName": "Great Value Organic Frozen Whole Kernel Corn, 12 oz",
+    "productId": "187236313",
+    "productUrl": "https://www.walmart.com/ip/187236313",
+    "brand": "Great Value",
+    "seller": "Walmart.com",
+    "packagePriceUsd": 1.37,
+    "packageQuantity": 340.194,
+    "packageUnit": "g",
+    "availabilitySnapshot": "Listed online; local stock may vary",
+    "checkedAt": "2026-08-10T12:00:00-06:00",
+    "priceEvidence": "Current Walmart product-page or category listing price"
+  },
+  "originalNutritionLabel": null,
+  "normalizedNutrition": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "values": {
+      "calories": 81,
+      "proteinG": 2.55,
+      "carbohydratesG": 19.3,
+      "fatG": 0.67,
+      "fiberG": 2.4,
+      "sugarsG": 3.07,
+      "sodiumMg": 1,
+      "potassiumMg": 233,
+      "calciumMg": 3,
+      "ironMg": 0.47,
+      "magnesiumMg": 28,
+      "vitaminCMg": 3.5
+    }
+  },
+  "normalizedPrice": {
+    "basisQuantity": 100,
+    "basisUnit": "g",
+    "usdPerBasis": 0.4027
+  },
+  "nutritionSources": [
+    {
+      "authority": "USDA FoodData Central",
+      "fdcId": 168399,
+      "dataType": "SR Legacy",
+      "description": "Corn, sweet, yellow, frozen, kernels cut off cob, boiled, drained, without salt",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/168399/nutrients",
+      "searchQuery": "corn sweet yellow frozen kernels",
+      "accessedAt": "2026-08-10T12:00:00-06:00",
+      "note": null
+    }
+  ],
+  "fallbackSourceUrls": [
+    "https://api.nal.usda.gov/fdc/v1/foods/search?api_key=REDACTED&query=corn+sweet+yellow+frozen+kernels&pageSize=25"
+  ],
+  "conversion": {
+    "densityGPerMl": null,
+    "notes": null
+  },
+  "image": {
+    "path": "assets/image.avif",
+    "provenance": "Public web image found through image search and copied for non-production test data at the repository owner's direction.",
+    "sourcePageUrl": "https://www.istockphoto.com/photo/close-up-of-frozen-corn-gm176029145-10023609",
+    "originalSourceUrl": "https://media.istockphoto.com/id/176029145/photo/close-up-of-frozen-corn.jpg?s=1024x1024&w=is&k=20&c=MJcjAobWRFSgESZwX3IuHviIbwYbr6jDlqdtTntNlis=",
+    "searchQuery": "Frozen Corn ingredient food close up photo",
+    "license": "Not verified; test-only and not approved for production redistribution.",
+    "productionApproved": false,
+    "acquiredAt": "2026-08-10T12:00:00-06:00",
+    "needsGeneratedImage": false
+  },
+  "futureApiResponseExample": {
+    "id": "ING-0004",
+    "name": "Frozen Corn",
+    "description": "Frozen whole-kernel sweet corn.",
+    "measurement": {
+      "type": "solid",
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "nutrition": {
+      "calories": 81,
+      "proteinG": 2.55,
+      "carbohydratesG": 19.3,
+      "fatG": 0.67,
+      "fiberG": 2.4,
+      "sugarsG": 3.07,
+      "sodiumMg": 1,
+      "potassiumMg": 233,
+      "calciumMg": 3,
+      "ironMg": 0.47,
+      "magnesiumMg": 28,
+      "vitaminCMg": 3.5
+    },
+    "price": {
+      "usdPerBasis": 0.4027,
+      "basisQuantity": 100,
+      "basisUnit": "g"
+    },
+    "image": "ingredients/0004_Frozen_Corn/assets/image.avif"
+  },
+  "dietCompatibility": {
+    "glutenFree": true,
+    "lactoseFree": true,
+    "classificationBasis": "Canonical product identity and documented ingredient/allergen information; cross-contact is not inferred, and uncertified oats are classified conservatively.",
+    "notes": null
+  }
+}
