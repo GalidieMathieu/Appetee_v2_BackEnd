@@ -1,7 +1,7 @@
-// Purpose: Defines public recipe authoring, discovery, detail, and Quick Preview response contracts.
-// Change reason: Add the dedicated lightweight F-008 Phase 12 Recipe Preview contract.
+// Purpose: Defines public recipe authoring, discovery, detail, Quick Preview, and Cooking View response contracts.
+// Change reason: Add F-010 Cooking contracts and centralize fields shared by Preview and Cooking read models.
 // Created: Existing file; original timestamp was not recorded.
-// Last updated: 2026-08-28T11:50:10-06:00
+// Last updated: 2026-08-31T18:28:42-06:00
 
 namespace Appetee.Application.Dtos
 {
@@ -10,6 +10,14 @@ namespace Appetee.Application.Dtos
         decimal CaloriesTotal,
         decimal ProteinTotal,
         decimal CarbsTotal
+    );
+
+    /// <summary>Defines the stable recipe fields shared by user-facing Preview and Cooking read models.</summary>
+    public abstract record RecipeReadDto(
+        int Id,
+        string Name,
+        string Description,
+        int TotalTimeMinutes
     );
 
     //################ Details ###########
@@ -96,7 +104,40 @@ namespace Appetee.Application.Dtos
         IReadOnlyList<string> Badges,
         IReadOnlyList<RecipePreviewIngredientDto> Ingredients,
         bool IsSaved
+    ) : RecipeReadDto(Id, Name, Description, TotalTimeMinutes);
+
+    //################ Cooking ###########
+    /// <summary>Provides one scalable ingredient in authored Cooking Mode display order.</summary>
+    public sealed record RecipeCookingIngredientDto(
+        int Id,
+        string Name,
+        decimal Quantity,
+        string Unit,
+        int DisplayOrder
     );
+
+    /// <summary>Provides one complete Cooking Mode instruction with explicit one-based order.</summary>
+    public sealed record RecipeCookingStepDto(
+        int Order,
+        string Title,
+        string Instruction
+    );
+
+    /// <summary>Provides the complete current-user-compatible base recipe required by Cooking Mode.</summary>
+    public sealed record RecipeCookingViewDto(
+        int Id,
+        string Name,
+        string? ImageUrl,
+        string Description,
+        int TotalTimeMinutes,
+        int BaseServings,
+        decimal CaloriesTotal,
+        decimal ProteinTotal,
+        decimal CarbsTotal,
+        IReadOnlyList<string> Badges,
+        IReadOnlyList<RecipeCookingIngredientDto> Ingredients,
+        IReadOnlyList<RecipeCookingStepDto> Steps
+    ) : RecipeReadDto(Id, Name, Description, TotalTimeMinutes);
 
     //################ Recipe Details ###########
     public sealed record RecipeDetailDto(

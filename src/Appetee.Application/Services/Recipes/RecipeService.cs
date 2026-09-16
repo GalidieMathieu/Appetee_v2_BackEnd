@@ -1,7 +1,7 @@
-// Purpose: Orchestrates recipe discovery, favorites, detail reads, and authoritative recipe writes.
-// Change reason: Add validated F-009 Favorites list orchestration.
+// Purpose: Orchestrates recipe discovery, Cooking View, favorites, detail reads, and authoritative recipe writes.
+// Change reason: Add validated F-010 Cooking View orchestration.
 // Created: Existing file; original timestamp was not recorded.
-// Last updated: 2026-08-29T14:05:58-06:00
+// Last updated: 2026-08-31T18:01:27-06:00
 
 using Appetee.Application.Abstractions.Recipes;
 using Appetee.Application.Dtos;
@@ -213,6 +213,15 @@ namespace Appetee.Application.Services.Recipes
         {
             ValidateCurrentUserRecipeId(currentUserId, recipeId);
             return _queries.GetPreviewAsync(currentUserId, recipeId, ct);
+        }
+
+        public Task<RecipeCookingViewDto?> GetCookingViewAsync(
+            int currentUserId,
+            int recipeId,
+            CancellationToken ct)
+        {
+            ValidateCurrentUserRecipeId(currentUserId, recipeId);
+            return _queries.GetCookingViewAsync(currentUserId, recipeId, ct);
         }
 
         /// <summary>Validates the optional collection bound before loading current-user compatible Favorites.</summary>

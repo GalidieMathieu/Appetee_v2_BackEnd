@@ -1,7 +1,7 @@
-// Purpose: Implements bounded recipe discovery, Quick Preview, favorites, details, and writes with Dapper/MySQL.
-// Change reason: Add F-009 Favorites retrieval through the shared Recipe Card hydration path.
+// Purpose: Implements bounded recipe discovery, Quick Preview, Cooking View, favorites, details, and writes with Dapper/MySQL.
+// Change reason: Add the F-010 compatibility-scoped Cooking View read in one Dapper round-trip.
 // Created: Existing file; original timestamp was not recorded.
-// Last updated: 2026-08-29T14:05:58-06:00
+// Last updated: 2026-08-31T18:01:27-06:00
 
 using Appetee.Application.Abstractions.Recipes;
 using Appetee.Application.Dtos;
@@ -276,6 +276,74 @@ namespace Appetee.Infrastructure.Recipes
                 "returned");
 
             return preview;
+        }
+
+        /// <summary>Loads one compatibility-scoped Cooking View and maps immutable authored order and base values.</summary>
+        public async Task<RecipeCookingViewDto?> GetCookingViewAsync(
+            int currentUserId,
+            int recipeId,
+            CancellationToken ct)
+        {
+            using var conn = await _db.CreateOpenConnectionAsync(ct);
+            var cookingViewStartedAt = Stopwatch.GetTimestamp();
+            using var grid = await conn.QueryMultipleAsync(
+                new CommandDefinition(
+                    RecipeSql.GetCompatibleCookingView,
+                    new
+                    {
+                        CurrentUserId = currentUserId,
+                        RecipeId = recipeId,
+                    },
+                    cancellationToken: ct));
+
+            var recipe = await grid.ReadSingleOrDefaultAsync<RecipeCookingRowData>();
+            if (recipe is null)
+            {
+                _logger.LogDebug(
+                    "Recipe Cooking View query completed in {CookingViewDurationMs} ms with result {CookingViewResult}.",
+                    Stopwatch.GetElapsedTime(cookingViewStartedAt).TotalMilliseconds,
+                    "not-found-or-incompatible");
+                return null;
+            }
+
+            var badges = RecipeBadgeValues
+                .Order(await grid.ReadAsync<string>())
+                .ToArray();
+            var ingredients = (await grid.ReadAsync<RecipeCookingIngredientRowData>())
+                .Select(row => new RecipeCookingIngredientDto(
+                    row.Id,
+                    row.Name,
+                    row.Quantity,
+                    row.Unit,
+                    row.DisplayOrder))
+                .ToArray();
+            var steps = DeserializeInstructions(recipe.Instructions)
+                .Select((step, index) => new RecipeCookingStepDto(
+                    Order: index + 1,
+                    Title: step.Title,
+                    Instruction: step.Instruction))
+                .ToArray();
+
+            var cookingView = new RecipeCookingViewDto(
+                Id: recipe.Id,
+                Name: recipe.Name,
+                ImageUrl: ResolveBlobUrl(recipe.ImageBlobName),
+                Description: recipe.Description,
+                TotalTimeMinutes: recipe.TotalTimeMinutes,
+                BaseServings: recipe.BaseServings,
+                CaloriesTotal: recipe.CaloriesTotal,
+                ProteinTotal: recipe.ProteinTotal,
+                CarbsTotal: recipe.CarbsTotal,
+                Badges: badges,
+                Ingredients: ingredients,
+                Steps: steps);
+
+            _logger.LogDebug(
+                "Recipe Cooking View query completed in {CookingViewDurationMs} ms with result {CookingViewResult}.",
+                Stopwatch.GetElapsedTime(cookingViewStartedAt).TotalMilliseconds,
+                "returned");
+
+            return cookingView;
         }
 
         /// <summary>Removes only the current-user membership and records no ownership identifiers.</summary>

@@ -1,7 +1,7 @@
 // Purpose: Verifies F-009 Phase 1 Favorites validation, delegation, and fixed SQL query shapes.
-// Change reason: Add focused coverage for the authenticated compatible Favorites collection use case.
+// Change reason: Preserve Favorites coverage while supplying a neutral F-010 Cooking View query stub.
 // Created: 2026-08-29T14:05:58-06:00
-// Last updated: 2026-08-29T14:05:58-06:00
+// Last updated: 2026-08-31T18:01:27-06:00
 
 using Appetee.Application.Abstractions.Recipes;
 using Appetee.Application.Dtos;
@@ -118,6 +118,12 @@ public sealed class F009Phase1FavoritesTests
             int recipeId,
             CancellationToken ct) =>
             Task.FromResult<RecipePreviewDto?>(null);
+
+        public Task<RecipeCookingViewDto?> GetCookingViewAsync(
+            int currentUserId,
+            int recipeId,
+            CancellationToken ct) =>
+            Task.FromResult<RecipeCookingViewDto?>(null);
 
         public Task<bool> SaveFavoriteAsync(
             int currentUserId,
