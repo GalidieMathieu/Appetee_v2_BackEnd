@@ -1,3 +1,10 @@
+/*
+ * Purpose: Hosts the backend with isolated MySQL, Blob, email, and cryptographic test dependencies.
+ * Change reason: Expose and reset controllable Blob behavior for E-001 Phase 4 fault tests.
+ * Created: Existing file; original timestamp was not recorded.
+ * Last updated: 2026-09-11T00:32:56-06:00
+ */
+
 using Appetee.Application.Abstractions.Auth;
 using Appetee.Infrastructure.Data;
 using Azure.Storage.Blobs;
@@ -11,7 +18,7 @@ namespace Appetee.Api.Tests.Infrastructure;
 
 public sealed class AppeteeWebApplicationFactory : WebApplicationFactory<Program>
 {
-    private readonly TestBlobStorageService _blobStorage = new();
+    internal TestBlobStorageService BlobStorage { get; } = new();
 
     internal TestPasswordRecoveryEmailSender RecoveryEmailSender { get; } = new();
 
@@ -65,7 +72,7 @@ public sealed class AppeteeWebApplicationFactory : WebApplicationFactory<Program
                 .SetApplicationName("Appetee.Api.Tests");
 
             services.AddScoped<IDbConnectionFactory>(_ => new DbConnectionFactory(Database.ConnectionString));
-            services.AddSingleton<IBlobStorageService>(_blobStorage);
+            services.AddSingleton<IBlobStorageService>(BlobStorage);
             services.AddSingleton<IPasswordRecoveryEmailSender>(RecoveryEmailSender);
         });
     }

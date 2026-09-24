@@ -1,3 +1,10 @@
+/*
+ * Purpose: Exposes claim-scoped current-account HTTP operations and contained legacy tombstones.
+ * Change reason: Add E-001 Phase 4 account closure at DELETE /api/users/me.
+ * Created: Existing file; original timestamp was not recorded.
+ * Last updated: 2026-09-11T00:32:56-06:00
+ */
+
 using Appetee.Application.Dtos;
 using Appetee.Application.Models.Auth;
 using Appetee.Application.Requests;
@@ -62,6 +69,22 @@ public sealed class UsersController : ControllerBase
         }
 
         return Ok(profile);
+    }
+
+    [HttpDelete("me")]
+    public async Task<IActionResult> DeleteMe(CancellationToken ct)
+    {
+        var currentUserId = _authService.GetRequiredUserId(HttpContext);
+        var closed = await _users.CloseCurrentAccountAsync(currentUserId, ct);
+
+        await _authService.LogOutAsync(HttpContext, ct);
+
+        if (!closed)
+        {
+            throw new UnauthorizedException("Session is no longer valid.");
+        }
+
+        return NoContent();
     }
 
     // Phase 1 containment: keep explicit tombstones for the old consumer

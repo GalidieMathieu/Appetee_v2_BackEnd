@@ -1,3 +1,10 @@
+/*
+ * Purpose: Centralizes current-account and sign-up preference SQL.
+ * Change reason: Add E-001 Phase 4 current-account existence validation.
+ * Created: Existing file; original timestamp was not recorded.
+ * Last updated: 2026-09-11T00:32:56-06:00
+ */
+
 namespace Appetee.Infrastructure.Users;
 
 internal static class UserSql
@@ -17,6 +24,15 @@ internal static class UserSql
             username  = COALESCE(@username, username),
             image_url = COALESCE(@imageUrl, image_url)
         WHERE id = @currentUserId;
+    """;
+
+    internal const string CurrentAccountExists = """
+        SELECT EXISTS(
+            SELECT 1
+            FROM users
+            WHERE id = @CurrentUserId
+            LIMIT 1
+        );
     """;
 
     // Used by transactional sign-up preference persistence.

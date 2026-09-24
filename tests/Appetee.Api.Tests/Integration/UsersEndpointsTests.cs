@@ -1,3 +1,10 @@
+/*
+ * Purpose: Verifies claim-scoped user endpoints and non-leaking legacy route containment.
+ * Change reason: Add E-001 Phase 4 anonymous and OpenAPI coverage for account closure.
+ * Created: Existing file; original timestamp was not recorded.
+ * Last updated: 2026-09-11T00:32:56-06:00
+ */
+
 using Appetee.Api.Tests.Infrastructure;
 using Appetee.Application.Dtos;
 using Appetee.Application.Requests;
@@ -27,6 +34,7 @@ public sealed class UsersEndpointsTests : IntegrationTestBase
         { HttpMethod.Put.Method, "/api/users/1" },
         { HttpMethod.Put.Method, "/api/users/me" },
         { HttpMethod.Delete.Method, "/api/users/1" },
+        { HttpMethod.Delete.Method, "/api/users/me" },
     };
 
     [Theory]
@@ -340,7 +348,10 @@ public sealed class UsersEndpointsTests : IntegrationTestBase
             await response.Content.ReadAsStreamAsync());
         var paths = document.RootElement.GetProperty("paths");
 
-        Assert.True(paths.TryGetProperty("/api/users/me", out _));
+        Assert.True(paths.TryGetProperty("/api/users/me", out var currentUserPath));
+        Assert.True(currentUserPath.TryGetProperty("get", out _));
+        Assert.True(currentUserPath.TryGetProperty("put", out _));
+        Assert.True(currentUserPath.TryGetProperty("delete", out _));
         Assert.False(paths.TryGetProperty("/api/users", out _));
         Assert.False(paths.TryGetProperty("/api/users/{id}", out _));
         Assert.False(

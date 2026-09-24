@@ -1,3 +1,8 @@
+-- Purpose: Defines the canonical local/test MySQL schema for Appetee.
+-- Change reason: Add the E-001 Phase 4 durable account-closure cleanup outbox.
+-- Created: Existing file; original timestamp was not recorded.
+-- Last updated: 2026-09-11T00:32:56-06:00
+
 	-- ============================================================
 	-- Appetee (MySQL) 
 	--
@@ -42,6 +47,7 @@
 	DROP TABLE IF EXISTS favorite_recipes;
 
 	DROP TABLE IF EXISTS password_reset_tokens;
+	DROP TABLE IF EXISTS account_closure_cleanup;
 
 	-- Removed by design:
 	DROP TABLE IF EXISTS user_children;
@@ -118,6 +124,32 @@
 		updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
 
 		UNIQUE KEY uq_users_email (email)
+	) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+	-- Contains no account ID. The media URL is scrubbed as soon as cleanup succeeds.
+	CREATE TABLE IF NOT EXISTS account_closure_cleanup (
+		id BIGINT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+		former_user_id INT NULL,
+		profile_image_url VARCHAR(255) NULL,
+		status VARCHAR(16) NOT NULL DEFAULT 'pending',
+		attempt_count INT UNSIGNED NOT NULL DEFAULT 0,
+		next_attempt_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+		last_error_code VARCHAR(100) NULL,
+		created_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
+		updated_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+		completed_at TIMESTAMP NULL,
+
+		KEY idx_account_closure_cleanup_due (status, next_attempt_at, id),
+
+		CONSTRAINT chk_account_closure_cleanup_status
+			CHECK (status IN ('pending', 'completed')),
+		CONSTRAINT chk_account_closure_cleanup_attempt_count
+			CHECK (attempt_count <= 1000000),
+		CONSTRAINT chk_account_closure_cleanup_scrubbing
+			CHECK (
+				(status = 'pending' AND former_user_id IS NOT NULL)
+				OR (status = 'completed' AND former_user_id IS NULL AND profile_image_url IS NULL)
+			)
 	) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 	CREATE TABLE IF NOT EXISTS password_reset_tokens (

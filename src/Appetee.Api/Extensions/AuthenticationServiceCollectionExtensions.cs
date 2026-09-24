@@ -1,11 +1,12 @@
 /*
  * Purpose: Registers and validates authentication, session, and password-recovery services outside Program.cs.
  * Created: 2026-08-23T01:18:52-06:00
- * Last updated: 2026-08-23T03:08:53-06:00
+ * Last updated: 2026-09-11T00:32:56-06:00
  */
 
 using Appetee.Api.Configuration;
 using Appetee.Application.Abstractions.Auth;
+using Appetee.Application.Abstractions.Users;
 using Appetee.Application.Services.Auth;
 using Appetee.Infrastructure.Auth;
 using Azure;
@@ -14,6 +15,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.Extensions.Options;
 using System.Net.Mail;
+using System.Security.Claims;
 
 namespace Appetee.Api.Extensions;
 
@@ -161,17 +163,31 @@ public static class AuthenticationServiceCollectionExtensions
 
         cookieOptions.Events.OnValidatePrincipal = async context =>
         {
-            if (!AuthSessionPolicy.HasExceededAbsoluteLifetime(
+            if (AuthSessionPolicy.HasExceededAbsoluteLifetime(
                     context.Principal,
                     timeProvider.GetUtcNow(),
                     absoluteLifetime))
             {
+                context.HttpContext.Items[
+                    AuthSessionContext.ExpiredSessionItemKey] = true;
+                await RejectAndSignOutAsync(context);
                 return;
             }
 
-            context.RejectPrincipal();
-            await context.HttpContext.SignOutAsync(
-                CookieAuthenticationDefaults.AuthenticationScheme);
+            var idValue = context.Principal?.FindFirstValue(
+                ClaimTypes.NameIdentifier);
+            var accountExists = int.TryParse(idValue, out var currentUserId)
+                && currentUserId > 0
+                && await context.HttpContext.RequestServices
+                    .GetRequiredService<IUserQueries>()
+                    .CurrentAccountExistsAsync(
+                        currentUserId,
+                        context.HttpContext.RequestAborted);
+
+            if (!accountExists)
+            {
+                await RejectAndSignOutAsync(context);
+            }
         };
 
         cookieOptions.Events.OnRedirectToLogin = context =>
@@ -195,6 +211,15 @@ public static class AuthenticationServiceCollectionExtensions
                 StatusCodes.Status403Forbidden,
                 "Forbidden",
                 "You are not authorized to access this resource.");
+    }
+
+    // Rejecting every surviving cookie for a deleted account provides immediate cross-browser revocation.
+    private static async Task RejectAndSignOutAsync(
+        CookieValidatePrincipalContext context)
+    {
+        context.RejectPrincipal();
+        await context.HttpContext.SignOutAsync(
+            CookieAuthenticationDefaults.AuthenticationScheme);
     }
 
     private static Task WriteAuthenticationProblemAsync(

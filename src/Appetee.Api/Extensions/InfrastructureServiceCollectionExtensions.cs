@@ -1,9 +1,10 @@
 /*
  * Purpose: Registers database, Azure Blob Storage, and repository adapters outside Program.cs.
  * Created: 2026-08-23T01:18:52-06:00
- * Last updated: 2026-08-23T01:18:52-06:00
+ * Last updated: 2026-09-11T00:32:56-06:00
  */
 
+using Appetee.Api.HostedServices;
 using Appetee.Application.Abstractions.Diets;
 using Appetee.Application.Abstractions.Ingredients;
 using Appetee.Application.Abstractions.Recipes;
@@ -51,9 +52,12 @@ internal static class InfrastructureServiceCollectionExtensions
             _ => new DbConnectionFactory(connectionString));
         services.AddScoped<IUserQueries, UserQueries>();
         services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IAccountClosureRepository, AccountClosureRepository>();
+        services.AddScoped<IAccountClosureProcessor, AccountClosureProcessor>();
         services.AddScoped<IDietQueries, DietQueries>();
         services.AddScoped<IIngredientQueries, IngredientQueries>();
         services.AddScoped<IRecipeQueries, RecipeQueries>();
+        services.AddHostedService<AccountClosureCleanupWorker>();
 
         return services;
     }
