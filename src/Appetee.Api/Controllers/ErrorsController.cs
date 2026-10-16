@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.WebUtilities;
 using System.Diagnostics;
+using Appetee.Api.Diagnostics;
 
 namespace Appetee.Api.Controllers
 {
@@ -63,8 +64,8 @@ namespace Appetee.Api.Controllers
             var method =
                 HttpContext.Request.Method;
 
-            var traceId =
-                Activity.Current?.TraceId.ToString();
+            var traceId = HttpContext.Items[RequestDiagnosticsMiddleware.ContextKey] is RequestLogContext request
+                ? request.TraceId : Activity.Current?.TraceId.ToString();
 
             if (string.IsNullOrWhiteSpace(traceId))
             {
@@ -100,13 +101,8 @@ namespace Appetee.Api.Controllers
                     originalPath,
                     traceId);
 
-                var detail =
-                    statusCode
-                        >= StatusCodes
-                            .Status500InternalServerError
-                    && !_env.IsDevelopment()
-                        ? "An unexpected error occurred."
-                        : apiException.Message;
+                var detail = statusCode >= StatusCodes.Status500InternalServerError
+                    ? "An unexpected error occurred." : apiException.Message;
 
                 var problemDetails =
                     new ProblemDetails
@@ -150,11 +146,7 @@ namespace Appetee.Api.Controllers
                 originalPath,
                 traceId);
 
-            var internalErrorDetail =
-                _env.IsDevelopment()
-                    ? exception?.ToString()
-                      ?? "No exception details were available."
-                    : "An unexpected error occurred.";
+            const string internalErrorDetail = "An unexpected error occurred.";
 
             var generalProblemDetails =
                 new ProblemDetails
@@ -186,56 +178,47 @@ namespace Appetee.Api.Controllers
                 exception?.GetType().FullName
                 ?? "Unknown";
 
-            var exceptionMessage =
-                exception?.Message
-                ?? "No exception details were available.";
-
             if (statusCode
                 >= StatusCodes
                     .Status500InternalServerError)
             {
                 /*
-                 * Supplying the exception as the first argument records:
-                 * - Exception type
-                 * - Message
-                 * - Inner exception
-                 * - Stack trace
+                 * Keep causes available to the privacy provider, which emits only
+                 * types, classified codes and method frames, never raw messages.
                  */
                 _logger.LogError(
+                    Appetee.Application.Diagnostics.LogEvents.RequestException,
                     exception,
                     "Request failed. " +
                     "HTTP {HttpMethod} {RequestPath}; " +
                     "StatusCode {StatusCode}; " +
                     "ExceptionType {ExceptionType}; " +
-                    "ExceptionMessage {ExceptionMessage}; " +
                     "TraceId {TraceId}",
                     method,
                     path,
                     statusCode,
                     exceptionType,
-                    exceptionMessage,
                     traceId);
 
                 return;
             }
 
             /*
-             * Expected API/client errors are logged without passing the
-             * exception object. This prevents unnecessary stack traces from
-             * filling production logs for normal 4xx responses.
+             * Expected API/client errors stay warnings. The privacy provider
+             * classifies known failures without exposing submitted values.
              */
             _logger.LogWarning(
+                Appetee.Application.Diagnostics.LogEvents.RequestException,
+                exception,
                 "Request completed with API error. " +
                 "HTTP {HttpMethod} {RequestPath}; " +
                 "StatusCode {StatusCode}; " +
                 "ExceptionType {ExceptionType}; " +
-                "ExceptionMessage {ExceptionMessage}; " +
                 "TraceId {TraceId}",
                 method,
                 path,
                 statusCode,
                 exceptionType,
-                exceptionMessage,
                 traceId);
         }
     }

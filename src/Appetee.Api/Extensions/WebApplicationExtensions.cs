@@ -9,6 +9,7 @@ using Appetee.Api.Security;
 using Appetee.Application.Abstractions.Auth;
 using Microsoft.Extensions.Options;
 using System.Diagnostics;
+using Appetee.Api.Diagnostics;
 
 namespace Appetee.Api.Extensions;
 
@@ -17,7 +18,7 @@ internal static class WebApplicationExtensions
 {
     public static WebApplication UseAppeteePipeline(this WebApplication app)
     {
-        app.UseRequestLoggingContext();
+        app.UseMiddleware<RequestDiagnosticsMiddleware>();
         app.UseExceptionHandler("/error");
 
         if (!app.Environment.IsDevelopment())
@@ -40,6 +41,13 @@ internal static class WebApplicationExtensions
         }
 
         app.UseRouting();
+        app.Use((context, next) =>
+        {
+            if (context.Features.Get<Microsoft.AspNetCore.Diagnostics.IExceptionHandlerFeature>() is null
+                && context.Items[RequestDiagnosticsMiddleware.ContextKey] is RequestLogContext request)
+                request.CaptureEndpoint(context);
+            return next(context);
+        });
         app.UseCors(ApiServiceCollectionExtensions.FrontendCorsPolicy);
         app.UseAuthentication();
         app.UseExpiredSessionMarker();
@@ -47,31 +55,12 @@ internal static class WebApplicationExtensions
         app.UseMiddleware<BrowserCsrfMiddleware>();
         app.MapControllers();
 
+        var lifecycleLogger = app.Services.GetRequiredService<ILoggerFactory>().CreateLogger("Appetee.Startup");
+        lifecycleLogger.LogInformation(new EventId(1100), "Application starting.");
+        app.Lifetime.ApplicationStarted.Register(() => lifecycleLogger.LogInformation(new EventId(1101), "Application started."));
+        app.Lifetime.ApplicationStopping.Register(() => lifecycleLogger.LogInformation(new EventId(1102), "Application stopping."));
+
         return app;
-    }
-
-    private static void UseRequestLoggingContext(this IApplicationBuilder app)
-    {
-        app.Use(async (context, next) =>
-        {
-            var traceId = Activity.Current?.TraceId.ToString();
-            if (string.IsNullOrWhiteSpace(traceId))
-            {
-                traceId = context.TraceIdentifier;
-            }
-
-            using var scope = context.RequestServices
-                .GetRequiredService<ILoggerFactory>()
-                .CreateLogger("Appetee.Request")
-                .BeginScope(new Dictionary<string, object?>
-                {
-                    ["TraceId"] = traceId,
-                    ["RequestPath"] = context.Request.Path.Value ?? string.Empty,
-                    ["HttpMethod"] = context.Request.Method,
-                });
-
-            await next();
-        });
     }
 
     private static void UseSecurityHeaders(this IApplicationBuilder app)

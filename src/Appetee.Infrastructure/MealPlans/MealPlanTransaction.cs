@@ -131,6 +131,7 @@ internal sealed class MealPlanTransaction
                     await transaction.RollbackAsync(CancellationToken.None);
                     stopwatch.Stop();
                     _logger.LogInformation(
+                        Appetee.Application.Diagnostics.LogEvents.PlannerWriteUnchanged,
                         "Meal Plan write completed as a no-op. Operation {Operation}; " +
                         "Revision {Revision}; RetryCount {RetryCount}; ElapsedMs {ElapsedMs}; SqlCommands {SqlCommands}; ReportedRows {ReportedRows}",
                         operationName,
@@ -175,6 +176,7 @@ internal sealed class MealPlanTransaction
                 await transaction.CommitAsync(ct);
                 stopwatch.Stop();
                 _logger.LogInformation(
+                    Appetee.Application.Diagnostics.LogEvents.PlannerWriteCompleted,
                     "Meal Plan write completed. Operation {Operation}; Changed {Changed}; " +
                     "Revision {Revision}; RetryCount {RetryCount}; ElapsedMs {ElapsedMs}; SqlCommands {SqlCommands}; ReportedRows {ReportedRows}",
                     operationName,
@@ -196,15 +198,19 @@ internal sealed class MealPlanTransaction
                 if (!await TryRollbackAsync(transaction))
                     throw;
                 _logger.LogWarning(
+                    Appetee.Application.Diagnostics.LogEvents.PlannerDeadlockRetry,
+                    exception,
                     "Meal Plan write deadlocked and will retry once. Operation {Operation}; RetryCount 1",
                     operationName);
                 await Task.Delay(Random.Shared.Next(10, 31), ct);
             }
-            catch
+            catch (Exception exception)
             {
                 await TryRollbackAsync(transaction);
                 stopwatch.Stop();
                 _logger.LogWarning(
+                    Appetee.Application.Diagnostics.LogEvents.PlannerWriteFailed,
+                    exception,
                     "Meal Plan write failed. Operation {Operation}; RetryCount {RetryCount}; ElapsedMs {ElapsedMs}",
                     operationName,
                     attempt,

@@ -92,7 +92,7 @@ public sealed class NutritionPlansController(
         finally
         {
             // Only operation metadata, never profile values, submitted bodies, or tokens.
-            logger.LogInformation("Nutrition calculation preview outcome {Outcome}; elapsed {ElapsedMs} ms; rows read {RowsRead}; rows written {RowsWritten}; trace {TraceId}",
+            logger.LogInformation(Appetee.Application.Diagnostics.LogEvents.NutritionPreview, "Nutrition calculation preview outcome {Outcome}; elapsed {ElapsedMs} ms; rows read {RowsRead}; rows written {RowsWritten}; trace {TraceId}",
                 outcome, Stopwatch.GetElapsedTime(started).TotalMilliseconds, 0, 0, HttpContext.TraceIdentifier);
         }
     }

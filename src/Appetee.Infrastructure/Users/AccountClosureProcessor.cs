@@ -108,12 +108,15 @@ public sealed class AccountClosureProcessor : IAccountClosureProcessor
         catch (Exception persistenceException)
         {
             _logger.LogError(
+                Appetee.Application.Diagnostics.LogEvents.AccountCleanupRecordFailed,
                 persistenceException,
                 "Could not record failure for account cleanup job {CleanupId}.",
                 cleanupId);
         }
 
         _logger.LogWarning(
+            Appetee.Application.Diagnostics.LogEvents.AccountCleanupRetry,
+            exception,
             "Account cleanup job {CleanupId} will be retried after {ErrorCode}.",
             cleanupId,
             errorCode);

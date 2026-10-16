@@ -30,7 +30,7 @@ public sealed class MealPlannerBoundaryAttribute : ActionFilterAttribute
         }
         var executed=await next();
         if(executed.Exception is {} exception && !executed.ExceptionHandled && exception is not (ApiException or OperationCanceledException))
-            executed.Exception=new InternalServerException();
+            executed.Exception=new InternalServerException(inner: exception);
         var status=executed.Exception is ApiException api ? api.StatusCode :
             executed.Exception is not null && !executed.ExceptionHandled ? 500 :
             (executed.Result as ObjectResult)?.StatusCode ?? (executed.Result as StatusCodeResult)?.StatusCode ?? context.HttpContext.Response.StatusCode;
