@@ -116,6 +116,7 @@ namespace Appetee.Infrastructure.Data
                     .ConfigureAwait(false);
 
                 _logger.LogInformation(
+                    Appetee.Application.Diagnostics.LogEvents.BlobUploadCompleted,
                     "AVIF image upload completed. Operation {Operation}; Status {Status}; ErrorCode {ErrorCode}; ContainerName {ContainerName}; BlobName {BlobName}",
                     nameof(UploadImageAsAvifAsync),
                     response.GetRawResponse().Status,
@@ -148,6 +149,7 @@ namespace Appetee.Infrastructure.Data
                 var response = await blobClient.DeleteIfExistsAsync(cancellationToken: ct).ConfigureAwait(false);
 
                 _logger.LogInformation(
+                    Appetee.Application.Diagnostics.LogEvents.BlobDeleteCompleted,
                     "Blob delete completed. Operation {Operation}; Status {Status}; ErrorCode {ErrorCode}; ContainerName {ContainerName}; BlobName {BlobName}; Deleted {Deleted}",
                     nameof(DeleteAsync),
                     response.GetRawResponse().Status,
@@ -207,6 +209,7 @@ namespace Appetee.Infrastructure.Data
         private void LogAzureFailure(RequestFailedException ex, string operation, string blobName)
         {
             _logger.LogError(
+                Appetee.Application.Diagnostics.LogEvents.BlobFailed,
                 ex,
                 "Azure Blob operation failed. Operation {Operation}; Status {Status}; ErrorCode {ErrorCode}; ContainerName {ContainerName}; BlobName {BlobName}",
                 operation,

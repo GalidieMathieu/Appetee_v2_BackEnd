@@ -104,7 +104,8 @@ internal static class ApiServiceCollectionExtensions
 
         policy
             .WithOrigins(allowedOrigins)
-            .WithExposedHeaders("ETag")
+            .WithExposedHeaders("ETag", Appetee.Api.Diagnostics.RequestDiagnosticsMiddleware.TraceHeader,
+                Appetee.Api.Diagnostics.RequestDiagnosticsMiddleware.AppeteeTraceHeader)
             .AllowAnyHeader()
             .AllowAnyMethod()
             .AllowCredentials();

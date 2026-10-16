@@ -15,9 +15,10 @@ public sealed class CatalogueBoundaryAttribute : ActionFilterAttribute
         if(executed.Exception is {} exception && !executed.ExceptionHandled)
         {
             status=exception is ApiException api ? api.StatusCode : 500;
-            if(exception is not (ApiException or OperationCanceledException)) executed.Exception=new InternalServerException();
+            if(exception is not (ApiException or OperationCanceledException)) executed.Exception=new InternalServerException(inner: exception);
         }
         context.HttpContext.RequestServices.GetRequiredService<ILogger<CatalogueBoundaryAttribute>>().LogInformation(
+            Appetee.Application.Diagnostics.LogEvents.CatalogueOperation,
             "Catalogue request completed. Operation {Operation}; StatusCode {StatusCode}; TraceId {TraceId}",
             context.ActionDescriptor.RouteValues["action"],status,context.HttpContext.TraceIdentifier);
     }

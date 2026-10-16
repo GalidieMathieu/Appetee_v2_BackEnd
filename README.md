@@ -50,5 +50,6 @@
 ### Observability & diagnostics
 - Logging is integrated via `ILogger<>` throughout controllers and services.
 - Central error handling logs both known `ApiException` instances and unexpected exceptions with a trace id for correlation.
+- Privacy-safe request/failure logging, Azure filesystem collection, original-cause preservation, operator settings and verified test results are documented in [observability and logging](docs/observability-logging.md). Raw exception messages, request payloads and secrets are not forwarded to application log sinks.
 
 

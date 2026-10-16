@@ -37,8 +37,8 @@ public sealed class NutritionPlanBoundaryAttribute : ActionFilterAttribute
                 else
                 {
                     // Development error formatting also must not expose SQL/profile details.
-                    // Keep this protection scoped to these new endpoints, with no raw inner exception.
-                    executed.Exception = new InternalServerException();
+                    // Keep public details generic, but preserve the original cause for privacy-safe diagnostics.
+                    executed.Exception = new InternalServerException(inner: executed.Exception);
                 }
             }
             else
@@ -55,12 +55,12 @@ public sealed class NutritionPlanBoundaryAttribute : ActionFilterAttribute
         }
         catch (ApiException api) { status = api.StatusCode; outcome = api.Code ?? "failed"; throw; }
         catch (OperationCanceledException) { outcome = "cancelled"; throw; }
-        catch (Exception) { throw new InternalServerException(); }
+        catch (Exception exception) { throw new InternalServerException(inner: exception); }
         finally
         {
             // Logical result-row counts only; never names, IDs, bodies, measurements, headers, or SQL.
             context.HttpContext.RequestServices.GetRequiredService<ILogger<NutritionPlanBoundaryAttribute>>()
-                .LogInformation("Meal Plan API operation {Operation}; status {Status}; outcome {Outcome}; elapsed {ElapsedMs} ms; plan rows {PlanRows}; profile changed {ProfileChanged}; trace {TraceId}",
+                .LogInformation(Appetee.Application.Diagnostics.LogEvents.NutritionPlanOperation, "Meal Plan API operation {Operation}; status {Status}; outcome {Outcome}; elapsed {ElapsedMs} ms; plan rows {PlanRows}; profile changed {ProfileChanged}; trace {TraceId}",
                     operation, status, outcome, Stopwatch.GetElapsedTime(started).TotalMilliseconds,
                     planRows, profileChanged, context.HttpContext.TraceIdentifier);
         }

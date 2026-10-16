@@ -60,6 +60,6 @@ catch (OperationCanceledException)
 }
 catch (Exception exception)
 {
-    Console.Error.WriteLine(exception.Message);
+    MigrationFailureDiagnostics.Write(exception, Console.Error);
     return 1;
 }

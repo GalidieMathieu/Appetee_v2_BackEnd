@@ -86,12 +86,14 @@ public sealed class PasswordRecoveryService : IPasswordRecoveryService
             await RemoveUndeliveredTokenAsync(tokenHash, account.UserId);
             throw;
         }
-        catch
+        catch (Exception exception)
         {
             var tokenRemoved = await RemoveUndeliveredTokenAsync(
                 tokenHash,
                 account.UserId);
             _logger.LogWarning(
+                Appetee.Application.Diagnostics.LogEvents.RecoveryDeliveryFailed,
+                exception,
                 "Password recovery delivery failed for account {UserId}; " +
                 "token cleanup succeeded: {TokenRemoved}.",
                 account.UserId,
@@ -170,9 +172,11 @@ public sealed class PasswordRecoveryService : IPasswordRecoveryService
             await _repository.DeleteTokenAsync(tokenHash, CancellationToken.None);
             return true;
         }
-        catch
+        catch (Exception exception)
         {
             _logger.LogError(
+                Appetee.Application.Diagnostics.LogEvents.RecoveryCleanupFailed,
+                exception,
                 "Password recovery token cleanup failed for account {UserId}.",
                 userId);
             return false;

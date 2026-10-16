@@ -16,7 +16,7 @@ public sealed class MealPlannerQueries(IDbConnectionFactory db,ILogger<MealPlann
         using var transaction=connection.BeginTransaction(IsolationLevel.RepeatableRead);
         var rows=await MealPlannerReader.ReadAsync(connection,transaction,currentUserId,from,through,ct);
         transaction.Commit();
-        logger.LogInformation("Planner range completed. DayRows {DayRows}; MealRows {MealRows}; ItemRows {ItemRows}; ElapsedMs {ElapsedMs}",
+        logger.LogInformation(Appetee.Application.Diagnostics.LogEvents.PlannerReadCompleted, "Planner range completed. DayRows {DayRows}; MealRows {MealRows}; ItemRows {ItemRows}; ElapsedMs {ElapsedMs}",
             rows.Days.Count,rows.Meals.Count,rows.Items.Count,Stopwatch.GetElapsedTime(start).TotalMilliseconds);
         return rows;
     }

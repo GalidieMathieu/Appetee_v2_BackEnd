@@ -5,6 +5,7 @@
  */
 
 using Azure.Identity;
+using Appetee.Api.Diagnostics;
 
 namespace Appetee.Api.Extensions;
 
@@ -14,14 +15,18 @@ internal static class AppeteeHostExtensions
     public static WebApplicationBuilder AddAppeteeBackend(
         this WebApplicationBuilder builder)
     {
+        // Every sink receives only the allowlisted projection, including framework/SDK events.
+        builder.Logging.ClearProviders();
+        // The central handler records the exception once; request completion is a separate event.
+        builder.Logging.AddFilter("Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware", LogLevel.None);
+
         builder.AddDevelopmentKeyVault();
 
-        builder.Logging.AddSimpleConsole(options =>
-        {
-            options.IncludeScopes = true;
-            options.SingleLine = true;
-            options.TimestampFormat = "yyyy-MM-dd HH:mm:ss.fff zzz ";
-        });
+        var telemetry = builder.Services.AddAppeteeTelemetry(builder.Configuration, builder.Environment);
+        // UseAzureMonitor registers an outer log provider by default. Remove it: every log sink
+        // must sit behind the existing allowlist, not beside it. Trace/metric providers remain.
+        builder.Logging.ClearProviders();
+        builder.Logging.AddProvider(PrivacyLoggingProvider.Create(builder.Configuration, telemetry));
 
         builder.Services
             .AddAppeteeApi(builder.Configuration, builder.Environment)

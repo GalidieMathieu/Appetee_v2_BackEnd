@@ -46,6 +46,7 @@ public sealed class AccountClosureCleanupWorker : BackgroundService
             catch (Exception exception)
             {
                 _logger.LogError(
+                    Appetee.Application.Diagnostics.LogEvents.AccountCleanupPassFailed,
                     exception,
                     "Account-closure reconciliation pass failed; it will be retried.");
             }
