@@ -6,22 +6,32 @@ namespace Appetee.Application.utils
     {
         public int StatusCode { get; }
         public string? Code { get; }
+        public IReadOnlyDictionary<string, string[]>? Errors { get; }
 
         protected ApiException(
             int statusCode,
             string message,
             Exception? inner = null,
-            string? code = null)
+            string? code = null,
+            IReadOnlyDictionary<string, string[]>? errors = null)
             : base(message, inner)
         {
             StatusCode = statusCode;
             Code = code;
+            Errors = errors;
         }
     }
 
     public sealed class ValidationException : ApiException
     {
         public ValidationException(string message) : base(400, message) { }
+
+        public ValidationException(
+            string message,
+            string code,
+            IReadOnlyDictionary<string, string[]>? errors = null,
+            Exception? inner = null)
+            : base(400, message, inner, code, errors) { }
     }
     public sealed class UnauthorizedException : ApiException
     {
@@ -70,7 +80,12 @@ namespace Appetee.Application.utils
 
     public sealed class ConflictException : ApiException
     {
-        public ConflictException(string message, Exception? inner = null) : base(409, message, inner) { }
+        public ConflictException(
+            string message,
+            Exception? inner = null,
+            string? code = null,
+            IReadOnlyDictionary<string, string[]>? errors = null)
+            : base(409, message, inner, code, errors) { }
     }
 
     public sealed class InternalServerException : ApiException

@@ -49,19 +49,52 @@ namespace Appetee.Api.Controllers
             [FromQuery(Name = "limit")] int limit = 20)
         {
             var currentUserId = _authService.GetRequiredUserId(HttpContext);
-            var request = new RecipeDiscoveryRequest
-            {
-                Search = search,
-                IngredientIds = ingredientIds ?? [],
-                RequireAllIngredients = requireAllIngredients,
-                Badges = badges ?? [],
-                MaxTotalMinutes = maxTotalMinutes,
-                MaxDifficulty = maxDifficulty,
-                SavedOnly = savedOnly,
-                Cursor = cursor,
-                Limit = limit,
-            };
+            var request = CreateDiscoveryRequest(
+                search,
+                ingredientIds,
+                requireAllIngredients,
+                badges,
+                maxTotalMinutes,
+                maxDifficulty,
+                savedOnly,
+                cursor,
+                limit);
             var page = await _recipes.DiscoverAsync(currentUserId, request, ct);
+            return Ok(page);
+        }
+
+        /// <summary>Returns the bounded advanced recipe projection used only by the Meal Plan picker.</summary>
+        [HttpGet("meal-plan")]
+        [ProducesResponseType(typeof(RecipeMealPlanPageDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status401Unauthorized)]
+        public async Task<ActionResult<RecipeMealPlanPageDto>> DiscoverForMealPlan(
+            CancellationToken ct,
+            [FromQuery(Name = "search")] string? search = null,
+            [FromQuery(Name = "ingredientIds")] int[]? ingredientIds = null,
+            [FromQuery(Name = "requireAllIngredients")] bool requireAllIngredients = true,
+            [FromQuery(Name = "badges")] string[]? badges = null,
+            [FromQuery(Name = "maxTotalMinutes")] int? maxTotalMinutes = null,
+            [FromQuery(Name = "maxDifficulty")] RecipeDifficulty? maxDifficulty = null,
+            [FromQuery(Name = "savedOnly")] bool savedOnly = false,
+            [FromQuery(Name = "cursor")] string? cursor = null,
+            [FromQuery(Name = "limit")] int limit = 20)
+        {
+            if (Request.Query.ContainsKey("userId") || Request.Query.ContainsKey("ownerId"))
+                throw new ValidationException("userId and ownerId query parameters are not allowed.");
+
+            var currentUserId = _authService.GetRequiredUserId(HttpContext);
+            var request = CreateDiscoveryRequest(
+                search,
+                ingredientIds,
+                requireAllIngredients,
+                badges,
+                maxTotalMinutes,
+                maxDifficulty,
+                savedOnly,
+                cursor,
+                limit);
+            var page = await _recipes.DiscoverForMealPlanAsync(currentUserId, request, ct);
             return Ok(page);
         }
 
@@ -205,6 +238,29 @@ namespace Appetee.Api.Controllers
                 detail: $"Meal Prep {id} cannot be deleted on the backend yet because persistence is still a placeholder."
             );
         }
+
+        private static RecipeDiscoveryRequest CreateDiscoveryRequest(
+            string? search,
+            int[]? ingredientIds,
+            bool requireAllIngredients,
+            string[]? badges,
+            int? maxTotalMinutes,
+            RecipeDifficulty? maxDifficulty,
+            bool savedOnly,
+            string? cursor,
+            int limit) =>
+            new()
+            {
+                Search = search,
+                IngredientIds = ingredientIds ?? [],
+                RequireAllIngredients = requireAllIngredients,
+                Badges = badges ?? [],
+                MaxTotalMinutes = maxTotalMinutes,
+                MaxDifficulty = maxDifficulty,
+                SavedOnly = savedOnly,
+                Cursor = cursor,
+                Limit = limit,
+            };
 
     }
 

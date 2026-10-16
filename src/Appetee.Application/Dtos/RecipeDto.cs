@@ -36,7 +36,7 @@ namespace Appetee.Application.Dtos
     );
 
     //################ Summary ###########
-    public sealed record RecipeSummaryDto(
+    public sealed partial record RecipeSummaryDto(
         int Id,
         string Name,
         string Description,
@@ -66,7 +66,7 @@ namespace Appetee.Application.Dtos
     );
 
     /// <summary>Provides the lightweight, current-user-aware Recipe Card read contract.</summary>
-    public sealed record RecipeCardDto(
+    public record RecipeCardDto(
         int Id,
         string Name,
         string? CardImageUrl,
@@ -78,9 +78,59 @@ namespace Appetee.Application.Dtos
         bool IsSaved
     );
 
+    /// <summary>Adds only the nutrition fields required by the Meal Plan recipe picker.</summary>
+    public sealed record RecipeCardAdvance : RecipeCardDto
+    {
+        public RecipeCardAdvance(
+            int Id,
+            string Name,
+            string? CardImageUrl,
+            int TotalTimeMinutes,
+            decimal CaloriesPerServing,
+            decimal EstimatedCostPerServing,
+            IReadOnlyList<string> Badges,
+            IReadOnlyList<FeaturedIngredientDto> FeaturedIngredients,
+            bool IsSaved,
+            string Description,
+            decimal ProteinPerServing,
+            decimal CarbsPerServing,
+            decimal? FatPerServing)
+            : base(
+                Id,
+                Name,
+                CardImageUrl,
+                TotalTimeMinutes,
+                CaloriesPerServing,
+                EstimatedCostPerServing,
+                Badges,
+                FeaturedIngredients,
+                IsSaved)
+        {
+            this.Description = Description;
+            this.ProteinPerServing = ProteinPerServing;
+            this.CarbsPerServing = CarbsPerServing;
+            this.FatPerServing = FatPerServing;
+        }
+
+        public string Description { get; init; }
+
+        public decimal ProteinPerServing { get; init; }
+
+        public decimal CarbsPerServing { get; init; }
+
+        public decimal? FatPerServing { get; init; }
+    }
+
     /// <summary>Provides one bounded page of Recipe Discovery cards.</summary>
     public sealed record RecipeDiscoveryPageDto(
         IReadOnlyList<RecipeCardDto> Items,
+        string? NextCursor,
+        bool HasMore
+    );
+
+    /// <summary>Provides one bounded page of Meal Plan recipe picker cards.</summary>
+    public sealed record RecipeMealPlanPageDto(
+        IReadOnlyList<RecipeCardAdvance> Items,
         string? NextCursor,
         bool HasMore
     );
@@ -140,7 +190,7 @@ namespace Appetee.Application.Dtos
     ) : RecipeReadDto(Id, Name, Description, TotalTimeMinutes);
 
     //################ Recipe Details ###########
-    public sealed record RecipeDetailDto(
+    public sealed partial record RecipeDetailDto(
         int Id,
         string Name,
         string Description,

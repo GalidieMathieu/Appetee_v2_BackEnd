@@ -5,6 +5,7 @@
  */
 
 using Appetee.Api.Configuration;
+using Appetee.Api.Security;
 using Appetee.Application.Abstractions.Auth;
 using Microsoft.Extensions.Options;
 using System.Diagnostics;
@@ -43,6 +44,7 @@ internal static class WebApplicationExtensions
         app.UseAuthentication();
         app.UseExpiredSessionMarker();
         app.UseAuthorization();
+        app.UseMiddleware<BrowserCsrfMiddleware>();
         app.MapControllers();
 
         return app;
@@ -79,6 +81,16 @@ internal static class WebApplicationExtensions
             context.Response.Headers.TryAdd("X-Content-Type-Options", "nosniff");
             context.Response.Headers.TryAdd("X-Frame-Options", "DENY");
             context.Response.Headers.TryAdd("Referrer-Policy", "no-referrer");
+            // Apply before authentication/authorization, including their 401/403 responses.
+            if (context.Request.Path.StartsWithSegments("/api/auth")
+                || context.Request.Path.StartsWithSegments("/api/users")
+                || context.Request.Path.StartsWithSegments("/api/admin")
+                || context.Request.Path.StartsWithSegments("/api/nutrition-plans")
+                || context.Request.Path.StartsWithSegments("/api/meal-plan"))
+            {
+                context.Response.Headers.CacheControl = "no-store";
+                context.Response.Headers.Pragma = "no-cache";
+            }
             await next();
         });
     }

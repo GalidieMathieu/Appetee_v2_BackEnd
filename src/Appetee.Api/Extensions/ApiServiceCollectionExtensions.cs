@@ -5,6 +5,8 @@
  */
 
 using Microsoft.OpenApi.Models;
+using Appetee.Api.Security;
+using Appetee.Api.Helpers;
 using System.Reflection;
 
 namespace Appetee.Api.Extensions;
@@ -32,6 +34,18 @@ internal static class ApiServiceCollectionExtensions
         }
 
         services.AddControllers();
+        services.AddSingleton(new BrowserRequestOriginPolicy(allowedOrigins));
+        services.AddAntiforgery(options =>
+        {
+            options.HeaderName = BrowserCsrfMiddleware.HeaderName;
+            options.Cookie.Name = BrowserCsrfMiddleware.CookieName;
+            options.Cookie.Path = "/";
+            options.Cookie.HttpOnly = true;
+            options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+            options.Cookie.SameSite = SameSiteMode.None;
+            options.Cookie.IsEssential = true;
+            options.SuppressXFrameOptionsHeader = true; // Existing middleware supplies DENY.
+        });
         services.AddSingleton(TimeProvider.System);
         services.AddEndpointsApiExplorer();
         services.AddSwaggerGen(options => ConfigureOpenApi(options));
@@ -50,6 +64,13 @@ internal static class ApiServiceCollectionExtensions
 
     private static void ConfigureOpenApi(Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenOptions options)
     {
+        options.OperationFilter<CsrfOperationFilter>();
+        options.OperationFilter<CatalogueOperationFilter>();
+        options.OperationFilter<MealPlannerOperationFilter>();
+        options.SchemaFilter<MealPlannerSchemaFilter>();
+        options.SchemaFilter<NutritionProfileSchemaFilter>();
+        options.SchemaFilter<NutritionCalculationSchemaFilter>();
+        options.SchemaFilter<NutritionPlanSchemaFilter>();
         options.SwaggerDoc(
             "v1",
             new OpenApiInfo
@@ -74,8 +95,8 @@ internal static class ApiServiceCollectionExtensions
     {
         if (environment.IsDevelopment() && allowedOrigins.Length == 0)
         {
+            // Without an explicit frontend allowlist, permit same-origin access only.
             policy
-                .AllowAnyOrigin()
                 .AllowAnyHeader()
                 .AllowAnyMethod();
             return;
@@ -83,6 +104,7 @@ internal static class ApiServiceCollectionExtensions
 
         policy
             .WithOrigins(allowedOrigins)
+            .WithExposedHeaders("ETag")
             .AllowAnyHeader()
             .AllowAnyMethod()
             .AllowCredentials();

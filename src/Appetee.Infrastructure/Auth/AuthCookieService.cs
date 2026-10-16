@@ -1,5 +1,9 @@
 ﻿using Appetee.Application.Dtos;
 using Appetee.Application.Models.Auth;
+using Appetee.Application.Abstractions.Catalogue;
+using Appetee.Application.Models.Catalogue;
+using Appetee.Application.utils;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Http;
@@ -31,10 +35,14 @@ namespace Appetee.Infrastructure.Auth
             IEnumerable<Claim>? extraClaims = null)
         {
             var issuedUtc = _timeProvider.GetUtcNow();
+            var state = await http.RequestServices.GetRequiredService<ICatalogueAuthorizationQueries>()
+                .GetAccountSecurityAsync(userId,http.RequestAborted);
+            if (state is null || !state.IsActive) throw new UnauthorizedException();
             var claims = new List<Claim>
             {
                 new(ClaimTypes.NameIdentifier, userId.ToString()),
                 new(ClaimTypes.Name, username),
+                new(CataloguePermissions.SecurityVersionClaim,state.SecurityVersion.ToString(System.Globalization.CultureInfo.InvariantCulture)),
                 new(
                     AuthSessionPolicy.OriginalIssuedUtcClaim,
                     issuedUtc.ToUnixTimeSeconds().ToString(

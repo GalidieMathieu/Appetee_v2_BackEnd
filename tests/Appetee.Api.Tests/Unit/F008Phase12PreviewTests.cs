@@ -113,6 +113,11 @@ public sealed class F008Phase12PreviewTests
             CancellationToken ct) =>
             Task.FromResult(new RecipeDiscoverySlice([], false, null));
 
+        public Task<RecipeMealPlanSlice> DiscoverForMealPlanAsync(
+            RecipeDiscoveryQuery query,
+            CancellationToken ct) =>
+            Task.FromResult(new RecipeMealPlanSlice([], false, null));
+
         public Task<bool> SaveFavoriteAsync(
             int currentUserId,
             int recipeId,

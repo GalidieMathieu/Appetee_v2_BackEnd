@@ -42,6 +42,13 @@ public sealed record RecipeDiscoverySlice(
     RecipeDiscoveryContinuation? Continuation
 );
 
+/// <summary>Returns one bounded Meal Plan candidate slice and its private continuation state.</summary>
+public sealed record RecipeMealPlanSlice(
+    IReadOnlyList<RecipeCardAdvance> Items,
+    bool HasMore,
+    RecipeDiscoveryContinuation? Continuation
+);
+
 /// <summary>Represents the normalized criteria bound into an opaque discovery cursor.</summary>
 internal sealed record RecipeDiscoveryCriteria(
     int CurrentUserId,

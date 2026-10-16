@@ -1,3 +1,10 @@
+/*
+ * Purpose: Provides bounded Azure Blob operations for backend media workflows.
+ * Change reason: Add E-001 Phase 4 managed-URL validation before profile-media deletion.
+ * Created: Existing file; original timestamp was not recorded.
+ * Last updated: 2026-09-11T00:32:56-06:00
+ */
+
 using Appetee.Application.utils;
 using Azure;
 using Azure.Storage.Blobs;
@@ -154,6 +161,41 @@ namespace Appetee.Infrastructure.Data
                 LogAzureFailure(ex, nameof(DeleteAsync), blobName);
                 throw;
             }
+        }
+
+        // Only exact HTTPS URLs under this configured account/container can become delete targets.
+        public bool TryGetBlobName(Uri blobUri, out string blobName)
+        {
+            blobName = string.Empty;
+
+            if (!blobUri.IsAbsoluteUri
+                || !string.Equals(blobUri.Scheme, Uri.UriSchemeHttps, StringComparison.OrdinalIgnoreCase)
+                || !string.Equals(blobUri.Host, _containerClient.Uri.Host, StringComparison.OrdinalIgnoreCase)
+                || blobUri.Port != _containerClient.Uri.Port)
+            {
+                return false;
+            }
+
+            var path = Uri.UnescapeDataString(blobUri.AbsolutePath).TrimStart('/');
+            var containerPrefix = $"{_containerName}/";
+
+            if (!path.StartsWith(containerPrefix, StringComparison.Ordinal)
+                || path.Length == containerPrefix.Length)
+            {
+                return false;
+            }
+
+            var candidate = path[containerPrefix.Length..];
+            var segments = candidate.Split('/', StringSplitOptions.RemoveEmptyEntries);
+
+            if (segments.Length == 0
+                || segments.Any(segment => segment is "." or ".." || segment.Contains('\\')))
+            {
+                return false;
+            }
+
+            blobName = candidate;
+            return true;
         }
 
         public Uri GetUri(string blobName)

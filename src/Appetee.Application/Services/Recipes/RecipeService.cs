@@ -27,6 +27,34 @@ namespace Appetee.Application.Services.Recipes
             RecipeDiscoveryRequest request,
             CancellationToken ct)
         {
+            var discovery = PrepareDiscovery(currentUserId, request);
+            var slice = await _queries.DiscoverAsync(discovery.Query, ct);
+
+            return new RecipeDiscoveryPageDto(
+                slice.Items,
+                CreateNextCursor(discovery, slice.HasMore, slice.Continuation),
+                slice.HasMore);
+        }
+
+        /// <summary>Uses the same normalized discovery identity for the Meal Plan-only advanced projection.</summary>
+        public async Task<RecipeMealPlanPageDto> DiscoverForMealPlanAsync(
+            int currentUserId,
+            RecipeDiscoveryRequest request,
+            CancellationToken ct)
+        {
+            var discovery = PrepareDiscovery(currentUserId, request);
+            var slice = await _queries.DiscoverForMealPlanAsync(discovery.Query, ct);
+
+            return new RecipeMealPlanPageDto(
+                slice.Items,
+                CreateNextCursor(discovery, slice.HasMore, slice.Continuation),
+                slice.HasMore);
+        }
+
+        private static PreparedDiscovery PrepareDiscovery(
+            int currentUserId,
+            RecipeDiscoveryRequest request)
+        {
             if (currentUserId <= 0)
                 throw new ValidationException("current user id must be greater than zero.");
 
@@ -94,37 +122,50 @@ namespace Appetee.Application.Services.Recipes
                 IngredientIds = ingredientIds,
                 RequireAllIngredients = requireAllIngredients,
             };
-            var slice = await _queries.DiscoverAsync(query, ct);
+            return new PreparedDiscovery(
+                query,
+                isSearch,
+                criteriaFingerprint,
+                browseSeed);
+        }
 
-            string? nextCursor = null;
-            if (slice.HasMore)
+        private static string? CreateNextCursor(
+            PreparedDiscovery discovery,
+            bool hasMore,
+            RecipeDiscoveryContinuation? continuation)
+        {
+            if (!hasMore)
+                return null;
+
+            if (continuation is null)
             {
-                var continuation = slice.Continuation
-                    ?? throw new InternalServerException(
-                        "Recipe discovery continuation state is unavailable.");
-                nextCursor = isSearch
-                    ? RecipeDiscoveryCursorCodec.Encode(
-                        new SearchCursorV1(
-                            V: RecipeDiscoveryCursorCodec.CurrentVersion,
-                            Mode: RecipeDiscoveryCursorCodec.SearchMode,
-                            Rank: continuation.Rank,
-                            Id: continuation.RecipeId,
-                            Criteria: criteriaFingerprint))
-                    : RecipeDiscoveryCursorCodec.Encode(
-                        new BrowseCursorV1(
-                            V: RecipeDiscoveryCursorCodec.CurrentVersion,
-                            Mode: RecipeDiscoveryCursorCodec.BrowseMode,
-                            Seed: browseSeed!.Value,
-                            Rank: continuation.Rank,
-                            Id: continuation.RecipeId,
-                            Criteria: criteriaFingerprint));
+                throw new InternalServerException(
+                    "Recipe discovery continuation state is unavailable.");
             }
 
-            return new RecipeDiscoveryPageDto(
-                slice.Items,
-                nextCursor,
-                slice.HasMore);
+            return discovery.IsSearch
+                ? RecipeDiscoveryCursorCodec.Encode(
+                    new SearchCursorV1(
+                        V: RecipeDiscoveryCursorCodec.CurrentVersion,
+                        Mode: RecipeDiscoveryCursorCodec.SearchMode,
+                        Rank: continuation.Rank,
+                        Id: continuation.RecipeId,
+                        Criteria: discovery.CriteriaFingerprint))
+                : RecipeDiscoveryCursorCodec.Encode(
+                    new BrowseCursorV1(
+                        V: RecipeDiscoveryCursorCodec.CurrentVersion,
+                        Mode: RecipeDiscoveryCursorCodec.BrowseMode,
+                        Seed: discovery.BrowseSeed!.Value,
+                        Rank: continuation.Rank,
+                        Id: continuation.RecipeId,
+                        Criteria: discovery.CriteriaFingerprint));
         }
+
+        private sealed record PreparedDiscovery(
+            RecipeDiscoveryQuery Query,
+            bool IsSearch,
+            string CriteriaFingerprint,
+            int? BrowseSeed);
 
         /// <summary>Validates, deduplicates, and sorts selected ingredients for SQL and cursor stability.</summary>
         private static IReadOnlyList<int> NormalizeDiscoveryIngredientIds(

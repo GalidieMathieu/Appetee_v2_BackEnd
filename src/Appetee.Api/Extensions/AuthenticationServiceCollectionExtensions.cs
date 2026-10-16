@@ -1,19 +1,25 @@
 /*
  * Purpose: Registers and validates authentication, session, and password-recovery services outside Program.cs.
  * Created: 2026-08-23T01:18:52-06:00
- * Last updated: 2026-08-23T03:08:53-06:00
+ * Last updated: 2026-09-11T00:32:56-06:00
  */
 
 using Appetee.Api.Configuration;
 using Appetee.Application.Abstractions.Auth;
+using Appetee.Application.Abstractions.Users;
 using Appetee.Application.Services.Auth;
 using Appetee.Infrastructure.Auth;
 using Azure;
 using Azure.Communication.Email;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Appetee.Application.Abstractions.Catalogue;
+using Appetee.Application.Models.Catalogue;
+using Appetee.Api.Security;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Options;
 using System.Net.Mail;
+using System.Security.Claims;
 
 namespace Appetee.Api.Extensions;
 
@@ -125,7 +131,14 @@ public static class AuthenticationServiceCollectionExtensions
                         timeProvider);
                 });
 
-        services.AddAuthorization();
+        services.AddAuthorization(options =>
+        {
+            options.AddPolicy(CataloguePermissions.ReadAdmin, policy => policy.RequireAuthenticatedUser().AddRequirements(new CataloguePermissionRequirement(CataloguePermissions.ReadAdmin)));
+            options.AddPolicy(CataloguePermissions.Write, policy => policy.RequireAuthenticatedUser().AddRequirements(new CataloguePermissionRequirement(CataloguePermissions.Write)));
+        });
+        services.AddHttpContextAccessor();
+        services.AddScoped<IAuthorizationHandler,CataloguePermissionHandler>();
+        services.AddScoped<ICatalogueActorContext,CatalogueActorContext>();
 
         services.AddScoped<IAuthRepository, AuthRepository>();
         services.AddScoped<IAuthQueries, AuthQueries>();
@@ -161,17 +174,32 @@ public static class AuthenticationServiceCollectionExtensions
 
         cookieOptions.Events.OnValidatePrincipal = async context =>
         {
-            if (!AuthSessionPolicy.HasExceededAbsoluteLifetime(
+            if (AuthSessionPolicy.HasExceededAbsoluteLifetime(
                     context.Principal,
                     timeProvider.GetUtcNow(),
                     absoluteLifetime))
             {
+                context.HttpContext.Items[
+                    AuthSessionContext.ExpiredSessionItemKey] = true;
+                await RejectAndSignOutAsync(context);
                 return;
             }
 
-            context.RejectPrincipal();
-            await context.HttpContext.SignOutAsync(
-                CookieAuthenticationDefaults.AuthenticationScheme);
+            var idValue = context.Principal?.FindFirstValue(
+                ClaimTypes.NameIdentifier);
+            var security = int.TryParse(idValue,out var currentUserId) && currentUserId>0
+                ? await context.HttpContext.RequestServices.GetRequiredService<ICatalogueAuthorizationQueries>()
+                    .GetAccountSecurityAsync(currentUserId,context.HttpContext.RequestAborted)
+                : null;
+            var accountExists = security is { IsActive:true }
+                && long.TryParse(context.Principal?.FindFirstValue(CataloguePermissions.SecurityVersionClaim),
+                    System.Globalization.NumberStyles.None,System.Globalization.CultureInfo.InvariantCulture,out var ticketVersion)
+                && ticketVersion==security.SecurityVersion;
+
+            if (!accountExists)
+            {
+                await RejectAndSignOutAsync(context);
+            }
         };
 
         cookieOptions.Events.OnRedirectToLogin = context =>
@@ -195,6 +223,15 @@ public static class AuthenticationServiceCollectionExtensions
                 StatusCodes.Status403Forbidden,
                 "Forbidden",
                 "You are not authorized to access this resource.");
+    }
+
+    // Rejecting every surviving cookie for a deleted account provides immediate cross-browser revocation.
+    private static async Task RejectAndSignOutAsync(
+        CookieValidatePrincipalContext context)
+    {
+        context.RejectPrincipal();
+        await context.HttpContext.SignOutAsync(
+            CookieAuthenticationDefaults.AuthenticationScheme);
     }
 
     private static Task WriteAuthenticationProblemAsync(

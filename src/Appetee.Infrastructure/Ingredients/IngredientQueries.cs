@@ -9,6 +9,9 @@ using Appetee.Application.Requests;
 using Appetee.Application.utils;
 using Appetee.Application.RowData;
 using Appetee.Infrastructure.Data;
+using Appetee.Application.Abstractions.Catalogue;
+using Appetee.Infrastructure.Catalogue;
+using System.Data;
 using Dapper;
 using Microsoft.Extensions.Logging;
 
@@ -19,15 +22,18 @@ namespace Appetee.Infrastructure.Ingredients
         private readonly IBlobStorageService _blobStorageService;
         private readonly IDbConnectionFactory _db;
         private readonly ILogger<IngredientQueries> _logger;
+        private readonly ICatalogueActorContext? _actor;
 
         public IngredientQueries(
             IDbConnectionFactory db,
             IBlobStorageService blobStorageService,
-            ILogger<IngredientQueries> logger)
+            ILogger<IngredientQueries> logger,
+            ICatalogueActorContext? actor = null)
         {
             _db = db ?? throw new ValidationException(nameof(db));
             _blobStorageService = blobStorageService ?? throw new ValidationException(nameof(blobStorageService));
             _logger = logger ?? throw new ValidationException(nameof(logger));
+            _actor = actor;
         }
 
         public async Task<IReadOnlyList<IngredientDto>> GetAllAsync(CancellationToken ct)
@@ -113,9 +119,10 @@ namespace Appetee.Infrastructure.Ingredients
 
             using var conn = await _db.CreateOpenConnectionAsync(ct);
             // Use a transaction to ensure both inserts succeed or fail together
-            using var tran = conn.BeginTransaction();
+            using var tran = conn.BeginTransaction(IsolationLevel.ReadCommitted);
             try
             {
+                await CatalogueWriteSecurity.LockActorAsync(conn,tran,_actor,ct);
                 _logger.LogDebug("Beginning ingredient database transaction. BlobName {BlobName}", blobName);
 
                 ingredientId = await conn.ExecuteScalarAsync<int>(
@@ -160,6 +167,7 @@ namespace Appetee.Infrastructure.Ingredients
                     "Ingredient nutrition details inserted. IngredientId {IngredientId}",
                     ingredientId);
 
+                var metadata = await CatalogueWriteSecurity.RecordAsync(conn,tran,_actor!,"ingredient",ingredientId.Value,true,ct);
                 tran.Commit();
 
                 _logger.LogInformation(
@@ -185,7 +193,7 @@ namespace Appetee.Infrastructure.Ingredients
                     request.IronMg
                 );
 
-                return dto;
+                return dto with { CatalogueMetadata=metadata };
             }
             catch (Exception ex)
             {
@@ -238,17 +246,21 @@ namespace Appetee.Infrastructure.Ingredients
         public async Task<IngredientAdminDetailDto?> GetIngredientWithDetailsByIdAsync(int id, CancellationToken ct)
         {
             using var conn = await _db.CreateOpenConnectionAsync(ct);
+            using var transaction = conn.BeginTransaction(IsolationLevel.RepeatableRead);
 
             // Read rowdata (includes blob name) then resolve URL via blob service
             var row = await conn.QueryFirstOrDefaultAsync<IngredientRowdataAdmin>(
                 new CommandDefinition(
                     IngredientSql.GetWithDetailsById,
                     new { id },
+                    transaction: transaction,
                     cancellationToken: ct
                 )
             );
 
             if (row is null) return null;
+            var metadata = await CatalogueWriteSecurity.ReadMetadataAsync(conn,transaction,"ingredient",id,false,ct);
+            transaction.Commit();
 
             string? imageUrl = null;
             if (!string.IsNullOrWhiteSpace(row.ImageBlobName))
@@ -282,7 +294,7 @@ namespace Appetee.Infrastructure.Ingredients
                 row.IronMg
             );
 
-            return dto;
+            return dto with { CatalogueMetadata=metadata };
         }
     }
 }

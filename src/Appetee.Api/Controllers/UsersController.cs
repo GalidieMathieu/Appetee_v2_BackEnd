@@ -1,4 +1,15 @@
+/*
+ * Purpose: Exposes claim-scoped current-account HTTP operations and contained legacy tombstones.
+ * Change reason: Add E-001 Phase 4 account closure at DELETE /api/users/me.
+ * Created: Existing file; original timestamp was not recorded.
+ * Last updated: 2026-09-11T00:32:56-06:00
+ */
+
 using Appetee.Application.Dtos;
+using Appetee.Application.Dtos.MealPlans;
+using Appetee.Application.Requests.MealPlans;
+using Appetee.Api.Helpers;
+using System.ComponentModel.DataAnnotations;
 using Appetee.Application.Models.Auth;
 using Appetee.Application.Requests;
 using Appetee.Application.Services.Auth;
@@ -26,6 +37,28 @@ public sealed class UsersController : ControllerBase
     {
         _users = users;
         _authService = authService;
+    }
+
+    [HttpGet("me/nutrition-profile")]
+    [NutritionProfileBoundary]
+    public async Task<ActionResult<NutritionProfileDto>> GetNutritionProfile(CancellationToken ct)
+    {
+        var currentUserId = _authService.GetRequiredUserId(HttpContext);
+        return Ok(await _users.GetNutritionProfileAsync(currentUserId, ct));
+    }
+
+    [HttpPut("me/nutrition-profile")]
+    [Consumes("application/json")]
+    [NutritionProfileBoundary]
+    [ProducesResponseType(typeof(NutritionProfileDto), StatusCodes.Status200OK)]
+    public async Task<ActionResult<NutritionProfileDto>> UpdateNutritionProfile(
+        [FromBody] NutritionProfileRequest request,
+        [FromHeader(Name = MealPlanRevisionHeader.HeaderName), Required] string revisionHeader,
+        CancellationToken ct)
+    {
+        var currentUserId = _authService.GetRequiredUserId(HttpContext);
+        var revision = MealPlanRevisionHeader.Parse(Request.Headers);
+        return Ok(await _users.UpdateNutritionProfileAsync(currentUserId, request, revision, ct));
     }
 
     [HttpGet("me")]
@@ -62,6 +95,22 @@ public sealed class UsersController : ControllerBase
         }
 
         return Ok(profile);
+    }
+
+    [HttpDelete("me")]
+    public async Task<IActionResult> DeleteMe(CancellationToken ct)
+    {
+        var currentUserId = _authService.GetRequiredUserId(HttpContext);
+        var closed = await _users.CloseCurrentAccountAsync(currentUserId, ct);
+
+        await _authService.LogOutAsync(HttpContext, ct);
+
+        if (!closed)
+        {
+            throw new UnauthorizedException("Session is no longer valid.");
+        }
+
+        return NoContent();
     }
 
     // Phase 1 containment: keep explicit tombstones for the old consumer

@@ -367,3 +367,6 @@ data/**/assets/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Dedicated migration settings may contain credentials; deploy them separately.
+/src/Appetee.DatabaseMigrator/appsettings.migrations.json

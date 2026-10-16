@@ -1,16 +1,21 @@
 /*
  * Purpose: Registers database, Azure Blob Storage, and repository adapters outside Program.cs.
  * Created: 2026-08-23T01:18:52-06:00
- * Last updated: 2026-08-23T01:18:52-06:00
+ * Last updated: 2026-09-11T00:32:56-06:00
  */
 
+using Appetee.Api.HostedServices;
 using Appetee.Application.Abstractions.Diets;
 using Appetee.Application.Abstractions.Ingredients;
 using Appetee.Application.Abstractions.Recipes;
 using Appetee.Application.Abstractions.Users;
+using Appetee.Application.Abstractions.MealPlans;
 using Appetee.Infrastructure.Data;
+using Appetee.Application.Abstractions.Catalogue;
+using Appetee.Infrastructure.Catalogue;
 using Appetee.Infrastructure.Diets;
 using Appetee.Infrastructure.Ingredients;
+using Appetee.Infrastructure.MealPlans;
 using Appetee.Infrastructure.Recipes;
 using Appetee.Infrastructure.Users;
 using Azure.Identity;
@@ -50,10 +55,21 @@ internal static class InfrastructureServiceCollectionExtensions
         services.AddScoped<IDbConnectionFactory>(
             _ => new DbConnectionFactory(connectionString));
         services.AddScoped<IUserQueries, UserQueries>();
+        services.AddScoped<ICatalogueAuthorizationQueries,CatalogueAuthorizationQueries>();
         services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IAccountClosureRepository, AccountClosureRepository>();
+        services.AddScoped<IAccountClosureProcessor, AccountClosureProcessor>();
         services.AddScoped<IDietQueries, DietQueries>();
         services.AddScoped<IIngredientQueries, IngredientQueries>();
         services.AddScoped<IRecipeQueries, RecipeQueries>();
+        services.AddScoped<MealPlanTransaction>();
+        services.AddScoped<INutritionPlanQueries, NutritionPlanQueries>();
+        services.AddScoped<IMealPlannerQueries,MealPlannerQueries>();
+        services.AddScoped<IMealRepository,MealRepository>();
+        services.AddScoped<IMealItemRepository,MealItemRepository>();
+        services.AddScoped<IPlannerCopyRepository,PlannerCopyRepository>();
+        services.AddScoped<INutritionPlanRepository, NutritionPlanRepository>();
+        services.AddHostedService<AccountClosureCleanupWorker>();
 
         return services;
     }

@@ -1,5 +1,15 @@
+/*
+ * Purpose: Verifies validation and claim scoping in current-account application workflows.
+ * Change reason: Add E-001 Phase 4 account-closure orchestration coverage.
+ * Created: Existing file; original timestamp was not recorded.
+ * Last updated: 2026-09-11T00:32:56-06:00
+ */
+
 using Appetee.Application.Abstractions.Users;
 using Appetee.Application.Dtos;
+using Appetee.Application.Models.MealPlans;
+using Appetee.Application.Requests.MealPlans;
+using Appetee.Application.RowData.MealPlans;
 using Appetee.Application.Requests;
 using Appetee.Application.Services.Users;
 using Appetee.Application.utils;
@@ -18,7 +28,7 @@ public sealed class UserServiceTests
                 "https://cdn.test/user.png")
         };
         var repository = new CapturingUserRepository();
-        var service = new UserService(queries, repository);
+        var service = CreateService(queries, repository);
 
         var result = await service.UpdateCurrentProfileAsync(
             42,
@@ -38,7 +48,7 @@ public sealed class UserServiceTests
     {
         var queries = new StubUserQueries();
         var repository = new CapturingUserRepository();
-        var service = new UserService(queries, repository);
+        var service = CreateService(queries, repository);
 
         var exception = await Assert.ThrowsAsync<ValidationException>(() =>
             service.UpdateCurrentProfileAsync(
@@ -51,8 +61,45 @@ public sealed class UserServiceTests
         Assert.Null(queries.CurrentUserId);
     }
 
+    [Fact]
+    public async Task CloseCurrentAccountAsync_UsesCurrentUserAndProcessesCommittedCleanup()
+    {
+        var closureRepository = new StubAccountClosureRepository
+        {
+            CleanupId = 123,
+        };
+        var processor = new CapturingAccountClosureProcessor();
+        var service = CreateService(
+            new StubUserQueries(),
+            new CapturingUserRepository(),
+            closureRepository,
+            processor);
+
+        var closed = await service.CloseCurrentAccountAsync(
+            42,
+            CancellationToken.None);
+
+        Assert.True(closed);
+        Assert.Equal(42, closureRepository.CurrentUserId);
+        Assert.Equal(123, processor.CleanupId);
+    }
+
+    private static UserService CreateService(
+        IUserQueries queries,
+        IUserRepository repository,
+        IAccountClosureRepository? closureRepository = null,
+        IAccountClosureProcessor? processor = null) =>
+        new(
+            queries,
+            repository,
+            closureRepository ?? new StubAccountClosureRepository(),
+            processor ?? new CapturingAccountClosureProcessor(),
+            TimeProvider.System);
+
     private sealed class StubUserQueries : IUserQueries
     {
+        public Task<NutritionProfileRowData?> GetNutritionProfileAsync(int currentUserId, CancellationToken ct) =>
+            throw new NotSupportedException();
         public CurrentUserProfileDto? Profile { get; init; }
 
         public int? CurrentUserId { get; private set; }
@@ -64,10 +111,17 @@ public sealed class UserServiceTests
             CurrentUserId = currentUserId;
             return Task.FromResult(Profile);
         }
+
+        public Task<bool> CurrentAccountExistsAsync(
+            int currentUserId,
+            CancellationToken ct) => Task.FromResult(true);
     }
 
     private sealed class CapturingUserRepository : IUserRepository
     {
+        public Task<MealPlanWriteResult<NutritionProfileRowData>> UpdateNutritionProfileAsync(
+            int currentUserId, NutritionProfileRequest request, long expectedRevision, CancellationToken ct) =>
+            throw new NotSupportedException();
         public int? CurrentUserId { get; private set; }
 
         public UpdateCurrentUserProfileRequest? Request { get; private set; }
@@ -82,5 +136,54 @@ public sealed class UserServiceTests
             return Task.CompletedTask;
         }
 
+    }
+
+
+    private sealed class StubAccountClosureRepository : IAccountClosureRepository
+    {
+        public long? CleanupId { get; init; }
+
+        public int? CurrentUserId { get; private set; }
+
+        public Task<long?> CloseCurrentAccountAsync(
+            int currentUserId,
+            CancellationToken ct)
+        {
+            CurrentUserId = currentUserId;
+            return Task.FromResult(CleanupId);
+        }
+
+        public Task<Appetee.Application.Models.Users.AccountClosureCleanup?> GetPendingCleanupAsync(
+            long cleanupId,
+            CancellationToken ct) => throw new NotSupportedException();
+
+        public Task<IReadOnlyList<long>> ListDueCleanupIdsAsync(
+            int maximumCount,
+            CancellationToken ct) => throw new NotSupportedException();
+
+        public Task MarkCleanupCompletedAsync(
+            long cleanupId,
+            CancellationToken ct) => throw new NotSupportedException();
+
+        public Task MarkCleanupFailedAsync(
+            long cleanupId,
+            string errorCode,
+            DateTimeOffset nextAttemptUtc,
+            CancellationToken ct) => throw new NotSupportedException();
+    }
+
+    private sealed class CapturingAccountClosureProcessor : IAccountClosureProcessor
+    {
+        public long? CleanupId { get; private set; }
+
+        public Task<bool> TryProcessAsync(long cleanupId, CancellationToken ct)
+        {
+            CleanupId = cleanupId;
+            return Task.FromResult(true);
+        }
+
+        public Task ProcessDueAsync(
+            int maximumCount,
+            CancellationToken ct) => throw new NotSupportedException();
     }
 }
