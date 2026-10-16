@@ -17,6 +17,22 @@ public sealed record RecipeDiscoveryRowData(
     long SortRank
 );
 
+/// <summary>Materializes one compatibility-filtered Meal Plan picker candidate row.</summary>
+public sealed record RecipeMealPlanRowData(
+    int Id,
+    string Name,
+    string Description,
+    decimal ProteinPerServing,
+    decimal CarbsPerServing,
+    decimal? FatPerServing,
+    string? CardImageBlobName,
+    int TotalTimeMinutes,
+    decimal CaloriesPerServing,
+    decimal EstimatedCostPerServing,
+    long IsSaved,
+    long SortRank
+);
+
 public sealed record RecipeBadgeRowData(
     int RecipeId,
     string Badge

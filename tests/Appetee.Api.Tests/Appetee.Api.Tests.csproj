@@ -17,6 +17,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\Appetee.Api\Appetee.Api.csproj" />
     <ProjectReference Include="..\..\src\Appetee.Application\Appetee.Application.csproj" />
+    <ProjectReference Include="..\..\src\Appetee.DatabaseMigrator\Appetee.DatabaseMigrator.csproj" />
     <ProjectReference Include="..\..\src\Appetee.Infrastructure\Appetee.Infrastructure.csproj" />
   </ItemGroup>
 

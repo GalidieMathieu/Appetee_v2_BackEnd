@@ -11,14 +11,17 @@ public sealed record RecipeIngredientCalculationData(
     decimal? Price,
     decimal? CaloriesKcal,
     decimal? ProteinG,
+    decimal? FatG,
     decimal? CarbsG);
 
 public sealed record RecipeCalculatedTotals(
     decimal CaloriesTotal,
     decimal ProteinTotal,
     decimal CarbsTotal,
+    decimal? FatTotal,
     decimal CaloriesPerServing,
     decimal ProteinPerServing,
+    decimal? FatPerServing,
     decimal EstimatedCostPerServing);
 
 public static class RecipeCalculator
@@ -33,7 +36,9 @@ public static class RecipeCalculator
         decimal calories = 0;
         decimal protein = 0;
         decimal carbs = 0;
+        decimal fat = 0;
         decimal cost = 0;
+        var isFatKnown = true;
 
         foreach (var ingredient in ingredients)
         {
@@ -46,18 +51,29 @@ public static class RecipeCalculator
             calories += data.CaloriesKcal!.Value * factor;
             protein += data.ProteinG!.Value * factor;
             carbs += data.CarbsG!.Value * factor;
+            if (data.FatG.HasValue)
+                fat += data.FatG.Value * factor;
+            else
+                isFatKnown = false;
             cost += data.Price!.Value * factor;
         }
 
         var caloriesTotal = RoundAndValidate(calories, "calories total");
         var proteinTotal = RoundAndValidate(protein, "protein total");
+        decimal? fatTotal = isFatKnown
+            ? RoundAndValidate(fat, "fat total")
+            : null;
 
         return new RecipeCalculatedTotals(
             caloriesTotal,
             proteinTotal,
             RoundAndValidate(carbs, "carbs total"),
+            fatTotal,
             RoundAndValidate(caloriesTotal / servings, "calories per serving"),
             RoundAndValidate(proteinTotal / servings, "protein per serving"),
+            fatTotal.HasValue
+                ? RoundAndValidate(fatTotal.Value / servings, "fat per serving")
+                : null,
             RoundAndValidate(cost / servings, "estimated cost per serving"));
     }
 
@@ -70,6 +86,7 @@ public static class RecipeCalculator
             data.Price is null || data.Price < 0 ||
             data.CaloriesKcal is null || data.CaloriesKcal < 0 ||
             data.ProteinG is null || data.ProteinG < 0 ||
+            data.FatG < 0 ||
             data.CarbsG is null || data.CarbsG < 0)
         {
             throw new ValidationException(

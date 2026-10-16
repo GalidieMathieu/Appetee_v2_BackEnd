@@ -5,6 +5,7 @@
  */
 
 using Appetee.Infrastructure.Auth;
+using Appetee.Application.Abstractions.Catalogue;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
@@ -25,6 +26,7 @@ public sealed class AuthCookieServiceTests
         var authentication = new RecordingAuthenticationService();
         var services = new ServiceCollection()
             .AddSingleton<IAuthenticationService>(authentication)
+            .AddSingleton<ICatalogueAuthorizationQueries>(new SecurityQueries())
             .BuildServiceProvider();
         var context = new DefaultHttpContext
         {
@@ -56,6 +58,14 @@ public sealed class AuthCookieServiceTests
     private sealed class FixedTimeProvider(DateTimeOffset utcNow) : TimeProvider
     {
         public override DateTimeOffset GetUtcNow() => utcNow;
+    }
+
+    private sealed class SecurityQueries : ICatalogueAuthorizationQueries
+    {
+        public Task<AccountSecurityState?> GetAccountSecurityAsync(int id,CancellationToken ct) => Task.FromResult<AccountSecurityState?>(new(true,0));
+        public Task<bool> HasPermissionAsync(int id,long version,string permission,CancellationToken ct) => Task.FromResult(false);
+        public Task<IReadOnlyList<string>?> GetPermissionsAsync(int id,long version,CancellationToken ct) =>
+            Task.FromResult<IReadOnlyList<string>?>(Array.Empty<string>());
     }
 
     private sealed class RecordingAuthenticationService : IAuthenticationService

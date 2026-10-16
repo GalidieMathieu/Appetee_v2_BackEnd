@@ -13,7 +13,8 @@ internal static class RecipeDiscoverySqlBuilder
 {
     /// <summary>Selects the discovery SQL shape and binds only parameters used by that shape.</summary>
     internal static (string Sql, DynamicParameters Parameters) Build(
-        RecipeDiscoveryQuery query)
+        RecipeDiscoveryQuery query,
+        bool includeMealPlanProjection = false)
     {
         ArgumentNullException.ThrowIfNull(query);
 
@@ -79,7 +80,8 @@ internal static class RecipeDiscoverySqlBuilder
             query.MaxTotalMinutes.HasValue,
             query.AllowedDifficulties.Count > 0,
             query.IngredientIds.Count > 0,
-            query.RequireAllIngredients);
+            query.RequireAllIngredients,
+            includeMealPlanProjection);
 
         return (sql, parameters);
     }

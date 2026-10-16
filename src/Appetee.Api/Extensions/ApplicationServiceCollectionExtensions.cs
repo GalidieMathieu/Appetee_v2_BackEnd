@@ -8,6 +8,7 @@ using Appetee.Application.Services.Diets;
 using Appetee.Application.Services.Ingredients;
 using Appetee.Application.Services.Recipes;
 using Appetee.Application.Services.Users;
+using Appetee.Application.Services.MealPlans;
 
 namespace Appetee.Api.Extensions;
 
@@ -21,6 +22,12 @@ internal static class ApplicationServiceCollectionExtensions
         services.AddScoped<IDietService, DietService>();
         services.AddScoped<IIngredientService, IngredientService>();
         services.AddScoped<IRecipeService, RecipeService>();
+        services.AddScoped<INutritionCalculationService, NutritionCalculationService>();
+        services.AddScoped<INutritionPlanService, NutritionPlanService>();
+        services.AddScoped<IMealPlannerService,MealPlannerService>();
+        services.AddScoped<IMealService,MealService>();
+        services.AddScoped<IMealItemService,MealItemService>();
+        services.AddScoped<IPlannerCopyService,PlannerCopyService>();
         return services;
     }
 }

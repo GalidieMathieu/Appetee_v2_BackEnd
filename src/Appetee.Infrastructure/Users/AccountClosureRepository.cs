@@ -54,6 +54,10 @@ public sealed class AccountClosureRepository : IAccountClosureRepository
                     transaction,
                     cancellationToken: ct));
 
+            await connection.ExecuteAsync(new CommandDefinition(
+                AccountClosureSql.DeleteMealPlanRoots,new {CurrentUserId=currentUserId},transaction,
+                commandTimeout:15,cancellationToken:ct));
+
             var deleted = await connection.ExecuteAsync(
                 new CommandDefinition(
                     AccountClosureSql.DeleteCurrentAccount,

@@ -11,6 +11,7 @@ using Azure.Storage.Blobs;
 using Microsoft.AspNetCore.DataProtection;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc.Testing;
+using Microsoft.AspNetCore.Mvc.Testing.Handlers;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Logging;
 
@@ -23,13 +24,14 @@ public sealed class AppeteeWebApplicationFactory : WebApplicationFactory<Program
     internal TestPasswordRecoveryEmailSender RecoveryEmailSender { get; } = new();
 
     internal ApiTestDatabase Database { get; } = new();
+    internal MealPlanTestDiagnostics MealPlanDiagnostics {get;}=new();
+    internal MealPlanReplyFaultFilter MealPlanReplyFault {get;}=new();
 
-    public HttpClient CreateApiClient() =>
-        CreateClient(new WebApplicationFactoryClientOptions
-        {
-            AllowAutoRedirect = false,
-            BaseAddress = new Uri("https://localhost"),
-        });
+    public HttpClient CreateApiClient() => CreateCsrfClient(this);
+
+    internal static HttpClient CreateCsrfClient(WebApplicationFactory<Program> factory) =>
+        factory.CreateDefaultClient(new Uri("https://localhost"),
+            new CsrfTestHandler(), new CookieContainerHandler());
 
     protected override void ConfigureWebHost(IWebHostBuilder builder)
     {
@@ -55,10 +57,12 @@ public sealed class AppeteeWebApplicationFactory : WebApplicationFactory<Program
         {
             // EventLog is unavailable in the test host, so keep logging in-memory only.
             logging.ClearProviders();
+            logging.AddProvider(MealPlanDiagnostics);
         });
 
         builder.ConfigureServices(services =>
         {
+            services.AddControllers(options=>options.Filters.Add(MealPlanReplyFault));
             services.RemoveAll<IDbConnectionFactory>();
             services.RemoveAll<IBlobStorageService>();
             services.RemoveAll<BlobServiceClient>();

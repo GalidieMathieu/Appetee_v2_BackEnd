@@ -9,6 +9,22 @@ namespace Appetee.Infrastructure.Users;
 
 internal static class UserSql
 {
+    internal const string GetNutritionProfile = """
+        SELECT COALESCE(s.revision, 0) AS Revision,
+               u.calculation_sex AS CalculationSex, u.birth_year AS BirthYear,
+               u.height_cm AS HeightCm, u.weight_kg AS WeightKg
+        FROM users u
+        LEFT JOIN meal_plan_user_settings s ON s.user_id = u.id
+        WHERE u.id = @CurrentUserId;
+        """;
+
+    internal const string UpdateNutritionProfile = """
+        UPDATE users
+        SET calculation_sex = @CalculationSex, birth_year = @BirthYear,
+            height_cm = @HeightCm, weight_kg = @WeightKg
+        WHERE id = @CurrentUserId;
+        """;
+
     internal const string GetCurrentProfile = """
         SELECT
             username  AS Username,
