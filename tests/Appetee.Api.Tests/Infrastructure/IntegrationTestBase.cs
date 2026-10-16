@@ -19,6 +19,8 @@ public abstract class IntegrationTestBase : IClassFixture<AppeteeWebApplicationF
     {
         await Factory.Database.ResetAsync();
         Factory.RecoveryEmailSender.Reset();
+        Factory.MealPlanDiagnostics.Clear();
+        Factory.MealPlanReplyFault.Clear();
         Client = Factory.CreateApiClient();
     }
 
@@ -29,6 +31,23 @@ public abstract class IntegrationTestBase : IClassFixture<AppeteeWebApplicationF
     }
 
     protected HttpClient CreateClient() => Factory.CreateApiClient();
+
+    /// <summary>Explicit synthetic admin provisioning; ordinary authenticated clients never receive grants.</summary>
+    protected async Task<(HttpClient Client, AuthResult Result)> CreateCatalogueClientAsync(
+        bool includeSeedRecipePrecondition = false, params string[] permissions)
+    {
+        var suffix=Guid.NewGuid().ToString("N")[..8];
+        var email=$"catalogue_{suffix}@appetee.test";
+        var result=await CreateAuthenticatedClientAsync(email:email);
+        var provisioner=new Appetee.DatabaseMigrator.PermissionOperator(Factory.Database.ConnectionString);
+        foreach(var permission in permissions.Length==0 ? new[]{"Catalog.ReadAdmin","Catalog.Write"} : permissions)
+            await provisioner.ChangeAsync(result.Result.userId,permission,true,"synthetic-test-operator",null,default);
+        using var login=await result.Client.PostAsJsonAsync("/api/auth/login",new LoginRequest(email,"Password123!"));
+        login.EnsureSuccessStatusCode();
+        if (includeSeedRecipePrecondition)
+            result.Client.DefaultRequestHeaders.TryAddWithoutValidation("If-Match","\"catalog-recipe-1-v1\"");
+        return result;
+    }
 
     protected async Task<(HttpClient Client, AuthResult Result)> CreateAuthenticatedClientAsync(
         string? username = null,

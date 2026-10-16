@@ -374,12 +374,7 @@ public sealed class AuthEndpointsTests : IntegrationTestBase
                 services.AddScoped<IAuthQueries, PendingVerificationAuthQueries>();
             });
         });
-        using var pendingClient = pendingFactory.CreateClient(
-            new WebApplicationFactoryClientOptions
-            {
-                AllowAutoRedirect = false,
-                BaseAddress = new Uri("https://localhost")
-            });
+        using var pendingClient = AppeteeWebApplicationFactory.CreateCsrfClient(pendingFactory);
 
         var response = await pendingClient.PostAsJsonAsync(
             "/api/auth/login",
@@ -491,23 +486,13 @@ public sealed class AuthEndpointsTests : IntegrationTestBase
         bool rememberMe)
     {
         const string password = "Password123!";
-        using var setupClient = factory.CreateClient(
-            new WebApplicationFactoryClientOptions
-            {
-                AllowAutoRedirect = false,
-                BaseAddress = new Uri("https://localhost")
-            });
+        using var setupClient = AppeteeWebApplicationFactory.CreateCsrfClient(factory);
         using var signUpResponse = await setupClient.PostAsJsonAsync(
             "/api/auth/sign-up",
             new SignUpRequest(username, email, password));
         signUpResponse.EnsureSuccessStatusCode();
 
-        var loginClient = factory.CreateClient(
-            new WebApplicationFactoryClientOptions
-            {
-                AllowAutoRedirect = false,
-                BaseAddress = new Uri("https://localhost")
-            });
+        var loginClient = AppeteeWebApplicationFactory.CreateCsrfClient(factory);
         using var loginResponse = await loginClient.PostAsJsonAsync(
             "/api/auth/login",
             new LoginRequest(email, password, rememberMe));

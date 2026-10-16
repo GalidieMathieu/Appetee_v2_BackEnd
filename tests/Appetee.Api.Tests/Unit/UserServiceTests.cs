@@ -7,6 +7,9 @@
 
 using Appetee.Application.Abstractions.Users;
 using Appetee.Application.Dtos;
+using Appetee.Application.Models.MealPlans;
+using Appetee.Application.Requests.MealPlans;
+using Appetee.Application.RowData.MealPlans;
 using Appetee.Application.Requests;
 using Appetee.Application.Services.Users;
 using Appetee.Application.utils;
@@ -90,10 +93,13 @@ public sealed class UserServiceTests
             queries,
             repository,
             closureRepository ?? new StubAccountClosureRepository(),
-            processor ?? new CapturingAccountClosureProcessor());
+            processor ?? new CapturingAccountClosureProcessor(),
+            TimeProvider.System);
 
     private sealed class StubUserQueries : IUserQueries
     {
+        public Task<NutritionProfileRowData?> GetNutritionProfileAsync(int currentUserId, CancellationToken ct) =>
+            throw new NotSupportedException();
         public CurrentUserProfileDto? Profile { get; init; }
 
         public int? CurrentUserId { get; private set; }
@@ -113,6 +119,9 @@ public sealed class UserServiceTests
 
     private sealed class CapturingUserRepository : IUserRepository
     {
+        public Task<MealPlanWriteResult<NutritionProfileRowData>> UpdateNutritionProfileAsync(
+            int currentUserId, NutritionProfileRequest request, long expectedRevision, CancellationToken ct) =>
+            throw new NotSupportedException();
         public int? CurrentUserId { get; private set; }
 
         public UpdateCurrentUserProfileRequest? Request { get; private set; }

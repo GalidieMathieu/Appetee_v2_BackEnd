@@ -160,6 +160,11 @@ public sealed class F008Phase7FavoriteTests
             return Task.FromResult(Slice);
         }
 
+        public Task<RecipeMealPlanSlice> DiscoverForMealPlanAsync(
+            RecipeDiscoveryQuery query,
+            CancellationToken ct) =>
+            Task.FromResult(new RecipeMealPlanSlice([], false, null));
+
         public Task<RecipePreviewDto?> GetPreviewAsync(
             int currentUserId,
             int recipeId,

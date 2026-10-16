@@ -45,6 +45,13 @@ internal static class AccountClosureSql
         WHERE id = @CurrentUserId;
     """;
 
+    // F-011 roots restrict user deletion. Clear Current first, then cascade dated children, then plans.
+    internal const string DeleteMealPlanRoots = """
+        DELETE FROM meal_plan_user_settings WHERE user_id=@CurrentUserId;
+        DELETE FROM meal_plan_days WHERE user_id=@CurrentUserId;
+        DELETE FROM nutrition_plans WHERE user_id=@CurrentUserId;
+        """;
+
     internal const string GetPendingCleanup = """
         SELECT
             id                AS Id,

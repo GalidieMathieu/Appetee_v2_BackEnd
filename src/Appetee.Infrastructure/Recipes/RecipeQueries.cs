@@ -10,6 +10,8 @@ using Appetee.Application.Requests;
 using Appetee.Application.RowData;
 using Appetee.Application.utils;
 using Appetee.Infrastructure.Data;
+using Appetee.Application.Abstractions.Catalogue;
+using Appetee.Infrastructure.Catalogue;
 using Microsoft.Extensions.Logging;
 using System.Data;
 using System.Diagnostics;
@@ -25,15 +27,18 @@ namespace Appetee.Infrastructure.Recipes
         private readonly IBlobStorageService _blobStorageService;
         private readonly IDbConnectionFactory _db;
         private readonly ILogger<RecipeQueries> _logger;
+        private readonly ICatalogueActorContext? _actor;
 
         public RecipeQueries(
             IDbConnectionFactory db,
             IBlobStorageService blobStorageService,
-            ILogger<RecipeQueries> logger)
+            ILogger<RecipeQueries> logger,
+            ICatalogueActorContext? actor = null)
         {
             _db = db ?? throw new ValidationException(nameof(db));
             _blobStorageService = blobStorageService ?? throw new ValidationException(nameof(blobStorageService));
             _logger = logger ?? throw new ValidationException(nameof(logger));
+            _actor = actor;
         }
 
         /// <summary>Executes bounded candidate and hydration commands while recording aggregate privacy-safe timings.</summary>
@@ -91,6 +96,46 @@ namespace Appetee.Infrastructure.Recipes
             return new RecipeDiscoverySlice(cards, hasMore, continuation);
         }
 
+        /// <summary>Executes the same bounded discovery query with only the Meal Plan projection widened.</summary>
+        public async Task<RecipeMealPlanSlice> DiscoverForMealPlanAsync(
+            RecipeDiscoveryQuery query,
+            CancellationToken ct)
+        {
+            using var conn = await _db.CreateOpenConnectionAsync(ct);
+            var (candidateSql, candidateParameters) = RecipeDiscoverySqlBuilder.Build(
+                query,
+                includeMealPlanProjection: true);
+
+            var candidateStartedAt = Stopwatch.GetTimestamp();
+            var recipeRows = (await conn.QueryAsync<RecipeMealPlanRowData>(
+                new CommandDefinition(
+                    candidateSql,
+                    candidateParameters,
+                    cancellationToken: ct))).AsList();
+
+            _logger.LogDebug(
+                "Meal Plan recipe discovery {DiscoveryMode} candidate query completed in {CandidateDurationMs} ms with {CandidateCount} rows.",
+                query.IsSearch ? "search" : "browse",
+                Stopwatch.GetElapsedTime(candidateStartedAt).TotalMilliseconds,
+                recipeRows.Count);
+
+            var hasMore = recipeRows.Count > query.PageSize;
+            if (hasMore)
+                recipeRows.RemoveRange(query.PageSize, recipeRows.Count - query.PageSize);
+
+            if (recipeRows.Count == 0)
+                return new RecipeMealPlanSlice([], HasMore: false, Continuation: null);
+
+            var cards = await HydrateMealPlanCardsAsync(conn, recipeRows, ct);
+            var continuation = hasMore
+                ? new RecipeDiscoveryContinuation(
+                    recipeRows[^1].SortRank,
+                    recipeRows[^1].Id)
+                : null;
+
+            return new RecipeMealPlanSlice(cards, hasMore, continuation);
+        }
+
         /// <summary>Loads current-user Favorites using fixed SQL shapes and shared set-based card hydration.</summary>
         public async Task<IReadOnlyList<RecipeCardDto>> GetFavoritesAsync(
             int currentUserId,
@@ -131,7 +176,59 @@ namespace Appetee.Infrastructure.Recipes
             string queryKind,
             CancellationToken ct)
         {
-            var recipeIds = recipeRows.Select(row => row.Id).ToArray();
+            var relationships = await LoadCardRelationshipsAsync(
+                conn,
+                recipeRows.Select(row => row.Id).ToArray(),
+                queryKind,
+                ct);
+
+            return recipeRows.Select(row => new RecipeCardDto(
+                Id: row.Id,
+                Name: row.Name,
+                CardImageUrl: ResolveBlobUrl(row.CardImageBlobName),
+                TotalTimeMinutes: row.TotalTimeMinutes,
+                CaloriesPerServing: row.CaloriesPerServing,
+                EstimatedCostPerServing: row.EstimatedCostPerServing,
+                Badges: relationships.BadgesByRecipe.GetValueOrDefault(row.Id) ?? [],
+                FeaturedIngredients: relationships.IngredientsByRecipe.GetValueOrDefault(row.Id) ?? [],
+                IsSaved: row.IsSaved != 0
+            )).ToList();
+        }
+
+        private async Task<IReadOnlyList<RecipeCardAdvance>> HydrateMealPlanCardsAsync(
+            IDbConnection conn,
+            IReadOnlyList<RecipeMealPlanRowData> recipeRows,
+            CancellationToken ct)
+        {
+            var relationships = await LoadCardRelationshipsAsync(
+                conn,
+                recipeRows.Select(row => row.Id).ToArray(),
+                "meal-plan",
+                ct);
+
+            return recipeRows.Select(row => new RecipeCardAdvance(
+                Id: row.Id,
+                Name: row.Name,
+                CardImageUrl: ResolveBlobUrl(row.CardImageBlobName),
+                TotalTimeMinutes: row.TotalTimeMinutes,
+                CaloriesPerServing: row.CaloriesPerServing,
+                EstimatedCostPerServing: row.EstimatedCostPerServing,
+                Badges: relationships.BadgesByRecipe.GetValueOrDefault(row.Id) ?? [],
+                FeaturedIngredients: relationships.IngredientsByRecipe.GetValueOrDefault(row.Id) ?? [],
+                IsSaved: row.IsSaved != 0,
+                Description: row.Description,
+                ProteinPerServing: row.ProteinPerServing,
+                CarbsPerServing: row.CarbsPerServing,
+                FatPerServing: row.FatPerServing
+            )).ToList();
+        }
+
+        private async Task<CardRelationships> LoadCardRelationshipsAsync(
+            IDbConnection conn,
+            int[] recipeIds,
+            string queryKind,
+            CancellationToken ct)
+        {
             var hydrationStartedAt = Stopwatch.GetTimestamp();
             using var grid = await conn.QueryMultipleAsync(
                 new CommandDefinition(
@@ -167,18 +264,12 @@ namespace Appetee.Infrastructure.Recipes
                             row.FeaturedOrder))
                         .ToList());
 
-            return recipeRows.Select(row => new RecipeCardDto(
-                Id: row.Id,
-                Name: row.Name,
-                CardImageUrl: ResolveBlobUrl(row.CardImageBlobName),
-                TotalTimeMinutes: row.TotalTimeMinutes,
-                CaloriesPerServing: row.CaloriesPerServing,
-                EstimatedCostPerServing: row.EstimatedCostPerServing,
-                Badges: badgesByRecipe.GetValueOrDefault(row.Id) ?? [],
-                FeaturedIngredients: ingredientsByRecipe.GetValueOrDefault(row.Id) ?? [],
-                IsSaved: row.IsSaved != 0
-            )).ToList();
+            return new CardRelationships(badgesByRecipe, ingredientsByRecipe);
         }
+
+        private sealed record CardRelationships(
+            IReadOnlyDictionary<int, IReadOnlyList<string>> BadgesByRecipe,
+            IReadOnlyDictionary<int, IReadOnlyList<FeaturedIngredientDto>> IngredientsByRecipe);
 
         /// <summary>Applies compatibility before the idempotent save and records only its coarse outcome.</summary>
         public async Task<bool> SaveFavoriteAsync(
@@ -373,10 +464,11 @@ namespace Appetee.Infrastructure.Recipes
             var blobName = await UploadRecipeImageAsync(request, ct);
 
             using var conn = await _db.CreateOpenConnectionAsync(ct);
-            using var tran = conn.BeginTransaction();
+            using var tran = conn.BeginTransaction(IsolationLevel.ReadCommitted);
 
             try
             {
+                await CatalogueWriteSecurity.LockActorAsync(conn,tran,_actor,ct);
                 var recipeReferences = await LoadRecipeReferenceDataAsync(conn, tran, request, ct);
 
                 var recipeId = await conn.ExecuteScalarAsync<int>(
@@ -397,6 +489,7 @@ namespace Appetee.Infrastructure.Recipes
                             recipeReferences.Totals.CaloriesTotal,
                             recipeReferences.Totals.ProteinTotal,
                             recipeReferences.Totals.CarbsTotal,
+                            recipeReferences.Totals.FatTotal,
                             recipeReferences.Totals.CaloriesPerServing,
                             recipeReferences.Totals.ProteinPerServing
                         },
@@ -423,9 +516,10 @@ namespace Appetee.Infrastructure.Recipes
                     await conn.ExecuteAsync(new CommandDefinition(sql, parameters, transaction: tran, cancellationToken: ct));
                 }
 
+                var metadata = await CatalogueWriteSecurity.RecordAsync(conn,tran,_actor!,"recipe",recipeId,true,ct);
+                var result = BuildRecipeSummaryDto(recipeId, request, blobName, recipeReferences) with { CatalogueMetadata=metadata };
                 tran.Commit();
-
-                return BuildRecipeSummaryDto(recipeId, request, blobName, recipeReferences);
+                return result;
             }
             catch
             {
@@ -460,10 +554,14 @@ namespace Appetee.Infrastructure.Recipes
             var nextPreviewImageBlobName = newPreviewImageBlobName ?? currentPreviewImageBlobName;
 
             using var conn = await _db.CreateOpenConnectionAsync(ct);
-            using var tran = conn.BeginTransaction();
+            using var tran = conn.BeginTransaction(IsolationLevel.ReadCommitted);
 
             try
             {
+                await CatalogueWriteSecurity.LockActorAsync(conn,tran,_actor,ct);
+                var original = await CatalogueWriteSecurity.ReadMetadataAsync(conn,tran,"recipe",id,true,ct);
+                if (original is null) { tran.Rollback(); await DeleteBlobIfExistsAsync(newPreviewImageBlobName,CancellationToken.None); return null; }
+                CatalogueWriteSecurity.RequireVersion(original,_actor);
                 var recipeReferences = await LoadRecipeReferenceDataAsync(conn, tran, request, ct);
 
                 var affected = await conn.ExecuteAsync(
@@ -486,6 +584,7 @@ namespace Appetee.Infrastructure.Recipes
                             recipeReferences.Totals.CaloriesTotal,
                             recipeReferences.Totals.ProteinTotal,
                             recipeReferences.Totals.CarbsTotal,
+                            recipeReferences.Totals.FatTotal,
                             recipeReferences.Totals.CaloriesPerServing,
                             recipeReferences.Totals.ProteinPerServing
                         },
@@ -538,6 +637,8 @@ namespace Appetee.Infrastructure.Recipes
                     await conn.ExecuteAsync(new CommandDefinition(sql, parameters, transaction: tran, cancellationToken: ct));
                 }
 
+                var metadata = await CatalogueWriteSecurity.RecordAsync(conn,tran,_actor!,"recipe",id,false,ct);
+                var result = BuildRecipeSummaryDto(id, request, nextPreviewImageBlobName, recipeReferences) with { CatalogueMetadata=metadata };
                 tran.Commit();
 
                 if (!string.IsNullOrWhiteSpace(newPreviewImageBlobName)
@@ -547,7 +648,7 @@ namespace Appetee.Infrastructure.Recipes
                     await DeleteBlobIfExistsAsync(currentPreviewImageBlobName, ct);
                 }
 
-                return BuildRecipeSummaryDto(id, request, nextPreviewImageBlobName, recipeReferences);
+                return result;
             }
             catch
             {
@@ -560,11 +661,13 @@ namespace Appetee.Infrastructure.Recipes
         public async Task<RecipeDetailDto?> GetRecipeWithDetailsByIdAsync(int id, CancellationToken ct)
         {
             using var conn = await _db.CreateOpenConnectionAsync(ct);
+            using var transaction = conn.BeginTransaction(IsolationLevel.RepeatableRead);
 
             using var grid = await conn.QueryMultipleAsync(
                 new CommandDefinition(
                     RecipeSql.GetWithDetailsById,
                     new { id },
+                    transaction: transaction,
                     cancellationToken: ct
                 )
             );
@@ -578,6 +681,8 @@ namespace Appetee.Infrastructure.Recipes
             var diets = (await grid.ReadAsync<DietDto>()).AsList();
             var badges = RecipeBadgeValues.Order(await grid.ReadAsync<string>()).ToList();
             var ingredientRows = (await grid.ReadAsync<RecipeIngredientDetailRowData>()).AsList();
+            var metadata = await CatalogueWriteSecurity.ReadMetadataAsync(conn,transaction,"recipe",id,false,ct);
+            transaction.Commit();
 
             string? previewImageUrl = null;
             if (!string.IsNullOrWhiteSpace(recipe.PreviewImageBlobName))
@@ -655,7 +760,7 @@ namespace Appetee.Infrastructure.Recipes
                 CarbsTotal: recipe.CarbsTotal,
                 CaloriesPerServing: recipe.CaloriesPerServing,
                 ProteinPerServing: recipe.ProteinPerServing
-            );
+            ) with { CatalogueMetadata=metadata };
         }
 
         private async Task<(int[] DietIds, RecipeIngredientRequest[] IngredientRequests, string[] BadgeValues, List<DietDto> DietDtos, List<IngredientDto> IngredientDtos, RecipeCalculatedTotals Totals)> LoadRecipeReferenceDataAsync(

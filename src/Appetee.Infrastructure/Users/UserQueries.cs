@@ -10,6 +10,10 @@ using Appetee.Application.Dtos;
 using Appetee.Application.RowData;
 using Appetee.Infrastructure.Data;
 using Dapper;
+using Appetee.Application.RowData.MealPlans;
+using Appetee.Application.Models.MealPlans;
+using System.Data;
+using System.Data.Common;
 
 namespace Appetee.Infrastructure.Users;
 
@@ -18,6 +22,28 @@ public sealed class UserQueries : IUserQueries
     private readonly IDbConnectionFactory _db;
 
     public UserQueries(IDbConnectionFactory db) => _db = db;
+
+    public async Task<NutritionProfileRowData?> GetNutritionProfileAsync(int currentUserId, CancellationToken ct)
+    {
+        using var connection = await _db.CreateOpenConnectionAsync(ct);
+        if (connection is not DbConnection dbConnection)
+            throw new InvalidOperationException("Nutrition profile reads require the configured database connection.");
+        await using var transaction = await dbConnection.BeginTransactionAsync(IsolationLevel.RepeatableRead, ct);
+        try
+        {
+            var row = await connection.QuerySingleOrDefaultAsync<NutritionProfileRowData>(
+                new CommandDefinition(UserSql.GetNutritionProfile, new { CurrentUserId = currentUserId },
+                    transaction, commandTimeout: MealPlanRules.SqlCommandTimeoutSeconds, cancellationToken: ct));
+            await transaction.CommitAsync(ct);
+            return row;
+        }
+        catch
+        {
+            try { await transaction.RollbackAsync(CancellationToken.None); }
+            catch { /* Connection disposal cleans up without masking the original failure. */ }
+            throw;
+        }
+    }
 
     public async Task<CurrentUserProfileDto?> GetCurrentProfileAsync(
         int currentUserId,

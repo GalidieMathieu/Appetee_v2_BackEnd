@@ -15,6 +15,11 @@ namespace Appetee.Application.Services.Recipes
             RecipeDiscoveryRequest request,
             CancellationToken ct);
 
+        Task<RecipeMealPlanPageDto> DiscoverForMealPlanAsync(
+            int currentUserId,
+            RecipeDiscoveryRequest request,
+            CancellationToken ct);
+
         Task<RecipePreviewDto?> GetPreviewAsync(
             int currentUserId,
             int recipeId,

@@ -8,7 +8,7 @@ namespace Appetee.Application.Dtos
         string name
     );
 
-    public sealed record IngredientAdminDetailDto(
+    public sealed partial record IngredientAdminDetailDto(
      int Id,
      string Name,
      decimal Basis,

@@ -128,6 +128,12 @@ namespace Appetee.Api.Controllers
                         apiException.Code;
                 }
 
+                if (apiException.Errors is { Count: > 0 })
+                {
+                    problemDetails.Extensions["errors"] =
+                        apiException.Errors;
+                }
+
                 return StatusCode(
                     statusCode,
                     problemDetails);

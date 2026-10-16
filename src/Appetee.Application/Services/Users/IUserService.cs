@@ -6,12 +6,18 @@
  */
 
 using Appetee.Application.Dtos;
+using Appetee.Application.Dtos.MealPlans;
+using Appetee.Application.Requests.MealPlans;
 using Appetee.Application.Requests;
 
 namespace Appetee.Application.Services.Users;
 
 public interface IUserService
 {
+    Task<NutritionProfileDto> GetNutritionProfileAsync(int currentUserId, CancellationToken ct);
+    Task<NutritionProfileDto> UpdateNutritionProfileAsync(
+        int currentUserId, NutritionProfileRequest request, long expectedRevision, CancellationToken ct);
+
     Task<CurrentUserProfileDto?> GetCurrentProfileAsync(
         int currentUserId,
         CancellationToken ct);

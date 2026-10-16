@@ -6,11 +6,14 @@
  */
 
 using Appetee.Application.Dtos;
+using Appetee.Application.RowData.MealPlans;
 
 namespace Appetee.Application.Abstractions.Users;
 
 public interface IUserQueries
 {
+    Task<NutritionProfileRowData?> GetNutritionProfileAsync(int currentUserId, CancellationToken ct);
+
     Task<CurrentUserProfileDto?> GetCurrentProfileAsync(
         int currentUserId,
         CancellationToken ct);

@@ -38,8 +38,8 @@ public sealed class RecipeCalculatorTests
         };
         var data = new Dictionary<int, RecipeIngredientCalculationData>
         {
-            [1] = new(1, "Chicken", 100m, "g", 2.40m, 165m, 31m, 0m),
-            [2] = new(2, "Rice", 100m, "g", 0.65m, 123m, 2.70m, 25.60m),
+            [1] = new(1, "Chicken", 100m, "g", 2.40m, 165m, 31m, 3.60m, 0m),
+            [2] = new(2, "Rice", 100m, "g", 0.65m, 123m, 2.70m, 1m, 25.60m),
         };
 
         var result = RecipeCalculator.Calculate(ingredients, data, servings: 3);
@@ -69,6 +69,7 @@ public sealed class RecipeCalculatorTests
             invalidField == "price" ? -1m : 1m,
             invalidField == "calories" ? -1m : 1m,
             invalidField == "protein" ? null : 1m,
+            1m,
             invalidField == "carbs" ? -1m : 1m);
 
         var exception = Assert.Throws<ValidationException>(() =>
@@ -81,7 +82,7 @@ public sealed class RecipeCalculatorTests
     public void Calculate_RejectsUnitMismatch()
     {
         var ingredient = new RecipeIngredientRequest { IngredientId = 1, Quantity = 100m, Unit = "ml" };
-        var data = new RecipeIngredientCalculationData(1, "Ingredient", 100m, "g", 1m, 1m, 1m, 1m);
+        var data = new RecipeIngredientCalculationData(1, "Ingredient", 100m, "g", 1m, 1m, 1m, 1m, 1m);
 
         var exception = Assert.Throws<ValidationException>(() =>
             RecipeCalculator.Calculate(new[] { ingredient }, new Dictionary<int, RecipeIngredientCalculationData> { [1] = data }, 1));

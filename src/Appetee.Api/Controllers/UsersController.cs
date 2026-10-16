@@ -6,6 +6,10 @@
  */
 
 using Appetee.Application.Dtos;
+using Appetee.Application.Dtos.MealPlans;
+using Appetee.Application.Requests.MealPlans;
+using Appetee.Api.Helpers;
+using System.ComponentModel.DataAnnotations;
 using Appetee.Application.Models.Auth;
 using Appetee.Application.Requests;
 using Appetee.Application.Services.Auth;
@@ -33,6 +37,28 @@ public sealed class UsersController : ControllerBase
     {
         _users = users;
         _authService = authService;
+    }
+
+    [HttpGet("me/nutrition-profile")]
+    [NutritionProfileBoundary]
+    public async Task<ActionResult<NutritionProfileDto>> GetNutritionProfile(CancellationToken ct)
+    {
+        var currentUserId = _authService.GetRequiredUserId(HttpContext);
+        return Ok(await _users.GetNutritionProfileAsync(currentUserId, ct));
+    }
+
+    [HttpPut("me/nutrition-profile")]
+    [Consumes("application/json")]
+    [NutritionProfileBoundary]
+    [ProducesResponseType(typeof(NutritionProfileDto), StatusCodes.Status200OK)]
+    public async Task<ActionResult<NutritionProfileDto>> UpdateNutritionProfile(
+        [FromBody] NutritionProfileRequest request,
+        [FromHeader(Name = MealPlanRevisionHeader.HeaderName), Required] string revisionHeader,
+        CancellationToken ct)
+    {
+        var currentUserId = _authService.GetRequiredUserId(HttpContext);
+        var revision = MealPlanRevisionHeader.Parse(Request.Headers);
+        return Ok(await _users.UpdateNutritionProfileAsync(currentUserId, request, revision, ct));
     }
 
     [HttpGet("me")]

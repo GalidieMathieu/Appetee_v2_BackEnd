@@ -198,7 +198,8 @@ internal static class RecipeSql
         bool hasMaxTotalMinutesFilter = false,
         bool hasDifficultyFilter = false,
         bool hasIngredientFilter = false,
-        bool requireAllIngredients = true)
+        bool requireAllIngredients = true,
+        bool includeMealPlanProjection = false)
     {
         if (isSearch && searchTermCount is < 1 or > 4)
             throw new ArgumentOutOfRangeException(nameof(searchTermCount));
@@ -239,12 +240,29 @@ internal static class RecipeSql
         var orderBy = isSearch
             ? "ranked.SortRank DESC, ranked.Id DESC"
             : "ranked.SortRank ASC, ranked.Id ASC";
+        var mealPlanCandidateProjection = includeMealPlanProjection
+            ? """
+                    r.description                AS Description,
+                    r.protein_per_serving        AS ProteinPerServing,
+                    ROUND(r.carbs_total / r.servings, 2) AS CarbsPerServing,
+                    ROUND(r.fat_total / r.servings, 2) AS FatPerServing,
+            """
+            : string.Empty;
+        var mealPlanResultProjection = includeMealPlanProjection
+            ? """
+                ranked.Description,
+                ranked.ProteinPerServing,
+                ranked.CarbsPerServing,
+                ranked.FatPerServing,
+            """
+            : string.Empty;
 
         return $"""
             WITH ranked_recipes AS (
                 SELECT
                     r.id                         AS Id,
                     r.name                       AS Name,
+            {mealPlanCandidateProjection}
                     COALESCE(r.card_image_blob_name, r.image_blob_name) AS CardImageBlobName,
                     r.total_time_minutes         AS TotalTimeMinutes,
                     r.calories_per_serving       AS CaloriesPerServing,
@@ -269,6 +287,7 @@ internal static class RecipeSql
             SELECT
                 ranked.Id,
                 ranked.Name,
+            {mealPlanResultProjection}
                 ranked.CardImageBlobName,
                 ranked.TotalTimeMinutes,
                 ranked.CaloriesPerServing,
@@ -396,6 +415,7 @@ internal static class RecipeSql
             calories_total,
             protein_total,
             carbs_total,
+            fat_total,
             calories_per_serving,
             protein_per_serving
         )
@@ -414,6 +434,7 @@ internal static class RecipeSql
             @CaloriesTotal,
             @ProteinTotal,
             @CarbsTotal,
+            @FatTotal,
             @CaloriesPerServing,
             @ProteinPerServing
         );
@@ -438,6 +459,7 @@ internal static class RecipeSql
             n.price           AS Price,
             n.calories_kcal   AS CaloriesKcal,
             n.protein_g       AS ProteinG,
+            n.fat_g           AS FatG,
             n.carbs_g         AS CarbsG
         FROM ingredients i
         LEFT JOIN ingredient_nutrition n ON n.ingredient_id = i.id
@@ -461,6 +483,7 @@ internal static class RecipeSql
             calories_total = @CaloriesTotal,
             protein_total = @ProteinTotal,
             carbs_total = @CarbsTotal,
+            fat_total = @FatTotal,
             calories_per_serving = @CaloriesPerServing,
             protein_per_serving = @ProteinPerServing
         WHERE id = @Id;

@@ -13,6 +13,10 @@ using Azure;
 using Azure.Communication.Email;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
+using Appetee.Application.Abstractions.Catalogue;
+using Appetee.Application.Models.Catalogue;
+using Appetee.Api.Security;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Options;
 using System.Net.Mail;
 using System.Security.Claims;
@@ -127,7 +131,14 @@ public static class AuthenticationServiceCollectionExtensions
                         timeProvider);
                 });
 
-        services.AddAuthorization();
+        services.AddAuthorization(options =>
+        {
+            options.AddPolicy(CataloguePermissions.ReadAdmin, policy => policy.RequireAuthenticatedUser().AddRequirements(new CataloguePermissionRequirement(CataloguePermissions.ReadAdmin)));
+            options.AddPolicy(CataloguePermissions.Write, policy => policy.RequireAuthenticatedUser().AddRequirements(new CataloguePermissionRequirement(CataloguePermissions.Write)));
+        });
+        services.AddHttpContextAccessor();
+        services.AddScoped<IAuthorizationHandler,CataloguePermissionHandler>();
+        services.AddScoped<ICatalogueActorContext,CatalogueActorContext>();
 
         services.AddScoped<IAuthRepository, AuthRepository>();
         services.AddScoped<IAuthQueries, AuthQueries>();
@@ -176,13 +187,14 @@ public static class AuthenticationServiceCollectionExtensions
 
             var idValue = context.Principal?.FindFirstValue(
                 ClaimTypes.NameIdentifier);
-            var accountExists = int.TryParse(idValue, out var currentUserId)
-                && currentUserId > 0
-                && await context.HttpContext.RequestServices
-                    .GetRequiredService<IUserQueries>()
-                    .CurrentAccountExistsAsync(
-                        currentUserId,
-                        context.HttpContext.RequestAborted);
+            var security = int.TryParse(idValue,out var currentUserId) && currentUserId>0
+                ? await context.HttpContext.RequestServices.GetRequiredService<ICatalogueAuthorizationQueries>()
+                    .GetAccountSecurityAsync(currentUserId,context.HttpContext.RequestAborted)
+                : null;
+            var accountExists = security is { IsActive:true }
+                && long.TryParse(context.Principal?.FindFirstValue(CataloguePermissions.SecurityVersionClaim),
+                    System.Globalization.NumberStyles.None,System.Globalization.CultureInfo.InvariantCulture,out var ticketVersion)
+                && ticketVersion==security.SecurityVersion;
 
             if (!accountExists)
             {

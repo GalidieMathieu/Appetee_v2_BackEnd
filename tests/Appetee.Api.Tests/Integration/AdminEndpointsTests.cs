@@ -21,11 +21,11 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     [Fact]
     public async Task GetIngredientDetails_ReturnsSeededIngredient()
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
 
         var response = await client.GetAsync("/api/admin/ingredient-details/1");
-        var ingredient = await response.Content.ReadFromJsonAsync<IngredientAdminDetailDto>();
+        var ingredient = await response.Content.ReadCatalogueResourceAsync<IngredientAdminDetailDto>();
 
         Assert.Equal(HttpStatusCode.OK, response.StatusCode);
         Assert.NotNull(ingredient);
@@ -37,7 +37,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     [Fact]
     public async Task GetIngredientDetails_ReturnsNotFound_WhenIngredientDoesNotExist()
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
 
         var response = await client.GetAsync("/api/admin/ingredient-details/999");
@@ -48,12 +48,12 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     [Fact]
     public async Task CreateIngredientDetails_ReturnsCreatedIngredient()
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateIngredientRequest(name: "Test Lentils", price: 2.85m);
 
         var response = await client.PostAsync("/api/admin/ingredient-details", content);
-        var ingredient = await response.Content.ReadFromJsonAsync<IngredientAdminDetailDto>();
+        var ingredient = await response.Content.ReadCatalogueResourceAsync<IngredientAdminDetailDto>();
 
         Assert.Equal(HttpStatusCode.OK, response.StatusCode);
         Assert.NotNull(ingredient);
@@ -65,7 +65,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     [Fact]
     public async Task CreateIngredientDetails_ValidatesRequiredImage()
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateIngredientRequest(includeImage: false);
 
@@ -83,7 +83,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     [InlineData("carbs")]
     public async Task CreateIngredientDetails_RequiresEveryCoreCalculationValue(string missingField)
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateIngredientRequest(
             price: missingField == "price" ? null : 3.25m,
@@ -105,7 +105,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     [InlineData("carbs")]
     public async Task CreateIngredientDetails_RejectsNegativeCoreCalculationValue(string negativeField)
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateIngredientRequest(
             price: negativeField == "price" ? -1m : 3.25m,
@@ -126,7 +126,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     [Fact]
     public async Task CreateIngredientDetails_AcceptsZeroCoreCalculationValues()
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateIngredientRequest(
             name: "Zero Core Ingredient",
@@ -136,7 +136,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
             carbsG: 0m);
 
         var response = await client.PostAsync("/api/admin/ingredient-details", content);
-        var ingredient = await response.Content.ReadFromJsonAsync<IngredientAdminDetailDto>();
+        var ingredient = await response.Content.ReadCatalogueResourceAsync<IngredientAdminDetailDto>();
 
         Assert.Equal(HttpStatusCode.OK, response.StatusCode);
         Assert.NotNull(ingredient);
@@ -149,12 +149,12 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     [Fact]
     public async Task CreateRecipeDetails_ReturnsCreatedRecipe()
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateRecipeRequest(name: "Weeknight Chicken Tray Bake");
 
         var createResponse = await client.PostAsync("/api/admin/recipe-details", content);
-        var recipe = await createResponse.Content.ReadFromJsonAsync<RecipeSummaryDto>();
+        var recipe = await createResponse.Content.ReadCatalogueResourceAsync<RecipeSummaryDto>();
 
         Assert.Equal(HttpStatusCode.OK, createResponse.StatusCode);
         Assert.NotNull(recipe);
@@ -205,7 +205,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     [Fact]
     public async Task CreateRecipeDetails_IgnoresForgedSubmittedTotals()
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateRecipeRequest(
             submittedCaloriesTotal: -999m,
@@ -214,7 +214,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
             submittedEstimatedCostPerServing: 50000m);
 
         var response = await client.PostAsync("/api/admin/recipe-details", content);
-        var recipe = await response.Content.ReadFromJsonAsync<RecipeSummaryDto>();
+        var recipe = await response.Content.ReadCatalogueResourceAsync<RecipeSummaryDto>();
 
         Assert.Equal(HttpStatusCode.OK, response.StatusCode);
         Assert.NotNull(recipe);
@@ -251,7 +251,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     [Fact]
     public async Task CreateRecipeDetails_ValidatesTheBadgeValue()
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateRecipeRequest(badges: new[] { "not-a-valid-badge" });
 
@@ -276,7 +276,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
         int totalTimeMinutes,
         string expectedDetail)
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateRecipeRequest(
             description: description,
@@ -295,7 +295,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     [Fact]
     public async Task CreateRecipeDetails_RequiresUniqueFeaturedIngredientOrders()
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateRecipeRequest(
             ingredients:
@@ -315,7 +315,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     [Fact]
     public async Task CreateRecipeDetails_RequiresAtLeastOneFeaturedIngredient()
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateRecipeRequest(
             ingredients:
@@ -335,7 +335,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     [Fact]
     public async Task CreateRecipeDetails_RequiresAtLeastOneInstruction()
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateRecipeRequest(
             name: "Instructionless Recipe",
@@ -359,7 +359,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
             new RecipeInstructionStepDto("Prepare", "Prepare ingredients."),
             new RecipeInstructionStepDto("Serve", "Serve."),
         };
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateRecipeRequest(
             name: "Blank Step Recipe",
@@ -371,7 +371,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
             });
 
         var response = await client.PostAsync("/api/admin/recipe-details", content);
-        var created = await response.Content.ReadFromJsonAsync<RecipeSummaryDto>();
+        var created = await response.Content.ReadCatalogueResourceAsync<RecipeSummaryDto>();
 
         Assert.Equal(HttpStatusCode.OK, response.StatusCode);
         Assert.NotNull(created);
@@ -386,7 +386,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     [InlineData("", "Prepare ingredients.")]
     public async Task CreateRecipeDetails_RejectsPartiallyCompletedInstruction(string title, string instruction)
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateRecipeRequest(
             name: "Partial Step Recipe",
@@ -409,7 +409,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
             new RecipeInstructionStepDto("Cook gently", "Cook gently."),
             new RecipeInstructionStepDto("Serve immediately", "Serve immediately."),
         };
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateRecipeRequest(
             instructions: new[]
@@ -420,7 +420,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
             });
 
         var createResponse = await client.PostAsync("/api/admin/recipe-details", content);
-        var created = await createResponse.Content.ReadFromJsonAsync<RecipeSummaryDto>();
+        var created = await createResponse.Content.ReadCatalogueResourceAsync<RecipeSummaryDto>();
 
         Assert.Equal(HttpStatusCode.OK, createResponse.StatusCode);
         Assert.NotNull(created);
@@ -436,7 +436,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     [Fact]
     public async Task CreateRecipeDetails_ValidatesDuplicateIngredientSelection()
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateRecipeRequest(
             ingredients: new[]
@@ -456,7 +456,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     [Fact]
     public async Task CreateRecipeDetails_RequiresIngredientQuantityAndUnit()
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = new MultipartFormDataContent();
 
@@ -493,7 +493,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     [Fact]
     public async Task CreateRecipeDetails_ValidatesReferencedIngredients()
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateRecipeRequest(
             ingredients: new[]
@@ -512,7 +512,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     [Fact]
     public async Task CreateRecipeDetails_RejectsNonPositiveIngredientIdInsteadOfDiscardingIt()
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateRecipeRequest(
             ingredients: new[]
@@ -532,7 +532,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     [Fact]
     public async Task CreateRecipeDetails_RejectsNonPositiveDietIdInsteadOfDiscardingIt()
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateRecipeRequest(
             dietIds: new[] { 0, 1 });
@@ -548,13 +548,13 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     [Fact]
     public async Task CreateRecipeDetails_NormalizesEquivalentIngredientUnit()
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateRecipeRequest(
             ingredients: new[] { new RecipeIngredientFormItem(1, 100m, " G ", 1) });
 
         var response = await client.PostAsync("/api/admin/recipe-details", content);
-        var created = await response.Content.ReadFromJsonAsync<RecipeSummaryDto>();
+        var created = await response.Content.ReadCatalogueResourceAsync<RecipeSummaryDto>();
 
         Assert.Equal(HttpStatusCode.OK, response.StatusCode);
         Assert.NotNull(created);
@@ -576,7 +576,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
         await Factory.Database.ExecuteAsync(
             "DELETE FROM ingredient_nutrition WHERE ingredient_id = 1;");
 
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateRecipeRequest(
             name: "Must Roll Back",
@@ -595,7 +595,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     [Fact]
     public async Task CreateRecipeDetails_RejectsUnitMismatch()
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateRecipeRequest(
             ingredients: new[] { new RecipeIngredientFormItem(1, 100m, "ml", 1) });
@@ -618,13 +618,13 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
             WHERE ingredient_id = 1;
             """);
 
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateRecipeRequest(
             ingredients: new[] { new RecipeIngredientFormItem(1, 100m, "g", 1) });
 
         var response = await client.PostAsync("/api/admin/recipe-details", content);
-        var recipe = await response.Content.ReadFromJsonAsync<RecipeSummaryDto>();
+        var recipe = await response.Content.ReadCatalogueResourceAsync<RecipeSummaryDto>();
 
         Assert.Equal(HttpStatusCode.OK, response.StatusCode);
         Assert.NotNull(recipe);
@@ -637,7 +637,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     [Fact]
     public async Task UpdateRecipeDetails_ReturnsUpdatedRecipe()
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateRecipeRequest(
             name: "Updated Chicken Rice Bowl",
@@ -655,7 +655,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
             includeImage: false);
 
         var updateResponse = await client.PutAsync("/api/admin/recipe-details/1", content);
-        var recipe = await updateResponse.Content.ReadFromJsonAsync<RecipeSummaryDto>();
+        var recipe = await updateResponse.Content.ReadCatalogueResourceAsync<RecipeSummaryDto>();
 
         Assert.Equal(HttpStatusCode.OK, updateResponse.StatusCode);
         Assert.NotNull(recipe);
@@ -695,7 +695,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     {
         await Factory.Database.ExecuteAsync(
             "UPDATE recipes SET card_image_blob_name = 'dataset/recipes/REC-0001/card.avif' WHERE id = 1;");
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateRecipeRequest();
 
@@ -716,7 +716,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
             new RecipeInstructionStepDto("Cook", "Cook rice and vegetables."),
             new RecipeInstructionStepDto("Season", "Season the chicken."),
         };
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateRecipeRequest(
             instructions: new[]
@@ -742,7 +742,7 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     [Fact]
     public async Task UpdateRecipeDetails_RejectsWhenEveryInstructionIsFullyBlankAndKeepsExistingSequence()
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateRecipeRequest(
             instructions: new[]
@@ -777,10 +777,12 @@ public sealed class AdminEndpointsTests : IntegrationTestBase
     [Fact]
     public async Task UpdateRecipeDetails_ReturnsNotFound_WhenRecipeDoesNotExist()
     {
-        var (authClient, _) = await CreateAuthenticatedClientAsync();
+        var (authClient, _) = await CreateCatalogueClientAsync(includeSeedRecipePrecondition: true);
         using var client = authClient;
         using var content = MultipartContentBuilder.CreateRecipeRequest(includeImage: false);
 
+        client.DefaultRequestHeaders.Remove("If-Match");
+        client.DefaultRequestHeaders.TryAddWithoutValidation("If-Match","\"catalog-recipe-999-v1\"");
         var response = await client.PutAsync("/api/admin/recipe-details/999", content);
 
         Assert.Equal(HttpStatusCode.NotFound, response.StatusCode);
