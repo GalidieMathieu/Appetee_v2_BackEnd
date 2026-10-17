@@ -1,7 +1,8 @@
 -- Purpose: Defines the canonical local/test MySQL schema for Appetee.
--- Change reason: Add F-011 Phase B02 nutrition profile fields and six-table Meal Plan schema.
+-- DESTRUCTIVE LOCAL/TEST RESET ONLY. Never run on Azure or an existing application database.
+-- Change reason: Clarify reset safety; includes current F-011 and E-002 schema.
 -- Created: Existing file; original timestamp was not recorded.
--- Last updated: 2026-09-11T00:32:56-06:00
+-- Last updated: 2026-10-16
 
 	-- ============================================================
 	-- Appetee (MySQL) 
@@ -11,7 +12,7 @@
 	-- - recipes: no category tag column; diets use diet_recipes and badges use recipe_badges
 	-- - users: public profiles + search => unique username, display_name
 	-- - no child accounts => no is_child, no user_children
-	-- - sessions: ONE session per user (authentication PK=user_id)
+	-- - sessions: cookie authentication; no legacy authentication table
 	-- - email recovery: password_reset_tokens
 	-- - favorites: saved recipes + user-created collections (Spotify/Instagram style)
 	-- - ingredients: no unit on ingredients; unit is per recipe_ingredients row
@@ -24,7 +25,7 @@
 	USE appetee;
 	SET sql_safe_updates = 0;
 
-	-- Optional for full rebuild
+	-- Full rebuild: the DROP statements below always execute.
 	SET FOREIGN_KEY_CHECKS = 0;
 
 	-- ------------------------------------------------------------

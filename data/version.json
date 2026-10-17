@@ -9,7 +9,7 @@
   "walmartStoreNumber": 3789,
   "walmartStoreAddress": "1959 Wall Ave, Ogden, UT 84401",
   "priceSnapshotStartedAt": "2026-08-10T12:00:00-06:00",
-  "schemaVersion": "current-backend-development plus canonical dataset badge constraint",
+  "schemaVersion": "current-backend-local-test-schema",
   "validationStatus": "valid",
   "validationErrors": 0
 }

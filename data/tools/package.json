@@ -8,6 +8,7 @@
   "scripts": {
     "test": "node --test test/*.test.mjs",
     "build": "node generation/generate.mjs",
+    "check:generated": "node generation/generate.mjs --check",
     "db:reset:local": "node database/reset-local.mjs",
     "db:verify:local": "node database/verify-local.mjs",
     "images:sync:azure": "node deployment/sync-azure-images.mjs",

@@ -1,6 +1,6 @@
 -- GENERATED FILE. Source of truth: data/ingredients/*/ingredient.json
 -- Image Blob names are derived deterministically from canonical ingredient seed IDs.
-USE appetee;
+USE appeteedatabase;
 SET NAMES utf8mb4;
 
 -- ING-0001 Boneless Skinless Chicken Breast

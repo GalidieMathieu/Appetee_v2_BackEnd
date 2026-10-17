@@ -30,6 +30,9 @@ npm run validate
 # Validate, then regenerate indexes, reports, and SQL
 npm run build
 
+# Validate and prove generated artifacts are current without writing files or opening MySQL/Azure
+npm run check:generated
+
 # Destructively rebuild only the guarded local appetee database
 npm run db:reset:local
 

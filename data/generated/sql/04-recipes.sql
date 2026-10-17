@@ -1,6 +1,6 @@
 -- GENERATED FILE. Source of truth: data/recipes/*/recipe.json
 -- Main and card image Blob names are derived deterministically from canonical recipe seed IDs.
-USE appetee;
+USE appeteedatabase;
 SET NAMES utf8mb4;
 
 -- REC-0001 Chicken Quinoa Burrito Bowls

@@ -102,23 +102,30 @@ internal sealed class ApiTestDatabase
             _solutionRoot.Value,
             relativePath.Replace('/', Path.DirectorySeparatorChar));
         var script = await File.ReadAllTextAsync(migrationPath, ct);
-        var withoutDelimiterDirectives = Regex.Replace(
-            script,
-            @"^DELIMITER\s+.*$",
-            string.Empty,
-            RegexOptions.Multiline | RegexOptions.IgnoreCase);
 
         await using var connection = new MySqlConnection(ConnectionString);
         await connection.OpenAsync(ct);
 
-        foreach (var commandText in withoutDelimiterDirectives.Split(
-                     "$$",
-                     StringSplitOptions.RemoveEmptyEntries | StringSplitOptions.TrimEntries))
+        foreach (var commandText in Appetee.DatabaseMigrator.SqlScriptParser.Split(script))
         {
             await connection.ExecuteAsync(new CommandDefinition(
                 commandText,
                 cancellationToken: ct,
                 commandTimeout: 120));
+        }
+    }
+
+    // Uses the same explicit opt-in, loopback-only connection and fixed disposable database as ResetAsync.
+    // Never redirects an arbitrary target or weakens the dataset CLI's separate local-appetee reset guard.
+    internal async Task ImportGeneratedDatasetAsync(CancellationToken ct = default)
+    {
+        await using var connection = new MySqlConnection(ConnectionString);
+        await connection.OpenAsync(ct);
+        foreach (var file in new[] { "01-schema.sql", "02-reference.sql", "03-ingredients.sql", "04-recipes.sql" })
+        {
+            var script = await File.ReadAllTextAsync(Path.Combine(_solutionRoot.Value, "data", "generated", "sql", file), ct);
+            var redirected = UseDatabaseRegex.Replace(script, $"USE `{TestDatabaseName}`;");
+            await connection.ExecuteAsync(new CommandDefinition(redirected, cancellationToken: ct, commandTimeout: 180));
         }
     }
 

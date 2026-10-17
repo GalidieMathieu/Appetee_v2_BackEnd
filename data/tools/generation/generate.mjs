@@ -101,34 +101,56 @@ function distributionReport(validation) {
   };
 }
 
-export async function main() {
-  const validation = await runValidation({ writeReport: true });
+export async function writeGeneratedArtifacts(artifacts, { check = false } = {}) {
+  const stale = [];
+  for (const [file, content] of artifacts) {
+    if (check) {
+      let existing;
+      try { existing = await readFile(file, "utf8"); }
+      catch (error) { if (error.code !== "ENOENT") throw error; }
+      // Git may check out text as CRLF on Windows; line endings are not dataset drift.
+      if (existing?.replaceAll("\r\n", "\n") !== content.replaceAll("\r\n", "\n")) stale.push(path.relative(repoDir, file));
+    } else {
+      await mkdir(path.dirname(file), { recursive: true });
+      await writeFile(file, content);
+    }
+  }
+  if (stale.length) throw new Error(`Generated artifacts are missing or stale: ${stale.join(", ")}. Run npm run build.`);
+}
+
+export async function main({ check = false } = {}) {
+  const validation = await runValidation({ writeReport: !check });
   if (!validation.valid) throw new Error(`SQL generation refused: validation has ${validation.errors.length} critical errors`);
   const ingredientItems = await records(path.join(dataDir, "ingredients"), "ingredient.json");
   const recipeItems = await records(path.join(dataDir, "recipes"), "recipe.json");
   const ingredientMap = new Map(ingredientItems.map((item) => [item.data.seedId, item.data]));
   const sqlDir = path.join(dataDir, "generated", "sql");
   const reportsDir = path.join(dataDir, "generated", "reports");
-  await mkdir(sqlDir, { recursive: true });
-  await mkdir(reportsDir, { recursive: true });
+  const artifacts = new Map();
 
   const schemaSource = await readFile(path.join(repoDir, "scriptDatabase.sql"), "utf8");
   const badgeConstraint = "CHECK (badge IN ('High Protein', 'Low Calorie', 'Low Carb', 'High Fiber', 'Quick Meal', 'Meal Prep', 'Freezer Friendly', 'Budget Friendly', 'Few Ingredients'))";
   if (!schemaSource.includes(badgeConstraint)) throw new Error("Canonical backend schema is missing the F-008 badge constraint");
   const schema = schemaSource;
-  await writeFile(path.join(sqlDir, "01-schema.sql"), `-- GENERATED FILE. Dataset schema copy generated from repository scriptDatabase.sql.\n${schema}`);
-  await writeFile(path.join(sqlDir, "02-reference.sql"), referenceSql());
-  await writeFile(path.join(sqlDir, "03-ingredients.sql"), ingredientSql(ingredientItems));
-  await writeFile(path.join(sqlDir, "04-recipes.sql"), recipeSql(recipeItems, ingredientMap));
+  artifacts.set(path.join(sqlDir, "01-schema.sql"), `-- GENERATED FILE. Dataset schema copy generated from repository scriptDatabase.sql.\n${schema}`);
+  artifacts.set(path.join(sqlDir, "02-reference.sql"), referenceSql());
+  artifacts.set(path.join(sqlDir, "03-ingredients.sql"), ingredientSql(ingredientItems));
+  artifacts.set(path.join(sqlDir, "04-recipes.sql"), recipeSql(recipeItems, ingredientMap));
 
   const ingredientIndex = ingredientItems.map(({ directory, data: item }) => ({ seedId: item.seedId, name: item.name, normalizedName: item.name.trim().toLowerCase(), measurementType: item.measurementType, basisUnit: item.normalizedNutrition.basisUnit, normalizedPriceUsd: item.normalizedPrice.usdPerBasis, walmartProductId: item.market.productId, path: `ingredients/${directory}/ingredient.json` }));
   const recipeIndex = recipeItems.map(({ directory, data: item }) => ({ seedId: item.seedId, name: item.name, normalizedName: item.name.trim().toLowerCase(), candidateSequence: item.candidate?.sequence ?? null, candidateSeedId: item.candidate?.seedId ?? null, ingredientSeedIds: item.ingredients.map((usage) => usage.ingredientSeedId).sort(), countryOfOrigin: item.countryOfOrigin, sourceDomain: item.source.domain, discovery: item.discovery, studentAthleteTarget: item.studentAthleteTarget, totalMinutes: item.times.totalMinutes, mealType: item.mealType, mealCategory: item.mealCategory, cookingMethod: item.cookingMethod, primaryProtein: item.primaryProtein, carbohydrateBase: item.carbohydrateBase, diets: item.diets, badges: item.badges, costPerServingUsd: item.calculatedCost.perServingUsd, path: `recipes/${directory}/recipe.json` }));
-  await writeFile(path.join(dataDir, "ingredients", "index.json"), json(ingredientIndex));
-  await writeFile(path.join(dataDir, "recipes", "index.json"), json(recipeIndex));
-  await writeFile(path.join(reportsDir, "distribution.json"), json(distributionReport(validation)));
-  process.stdout.write(`Generated schema, SQL, indexes, and distributions for ${recipeItems.length} recipes.\n`);
+  artifacts.set(path.join(dataDir, "ingredients", "index.json"), json(ingredientIndex));
+  artifacts.set(path.join(dataDir, "recipes", "index.json"), json(recipeIndex));
+  artifacts.set(path.join(reportsDir, "distribution.json"), json(distributionReport(validation)));
+  artifacts.set(path.join(reportsDir, "validation.json"), json(validation));
+  await writeGeneratedArtifacts(artifacts, { check });
+  process.stdout.write(`${check ? "Verified" : "Generated"} schema, SQL, indexes, and reports for ${recipeItems.length} recipes.\n`);
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  main().catch((error) => { process.stderr.write(`${error.stack ?? error}\n`); process.exitCode = 1; });
+  const args = process.argv.slice(2);
+  if (args.length && (args.length !== 1 || args[0] !== "--check")) {
+    process.stderr.write("Usage: node generation/generate.mjs [--check]\n");
+    process.exitCode = 1;
+  } else main({ check: args[0] === "--check" }).catch((error) => { process.stderr.write(`${error.stack ?? error}\n`); process.exitCode = 1; });
 }
