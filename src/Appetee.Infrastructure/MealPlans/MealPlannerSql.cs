@@ -27,13 +27,13 @@ internal static class MealPlannerSql
             CASE WHEN r.id IS NOT NULL AND {RecipeCompatibilitySql.Predicate} THEN 1 ELSE 0 END Available,
             r.name RecipeName,r.servings Servings,r.calories_total CaloriesTotal,r.protein_total ProteinTotal,
             r.carbs_total CarbsTotal,r.fat_total FatTotal,
-            manual.meal_plan_meal_item_id ManualDetailId,manual.name ManualName,
-            manual.calories_kcal ManualCaloriesKcal,manual.protein_g ManualProteinG,
-            manual.carbs_g ManualCarbsG,manual.fat_g ManualFatG
+            manual_item.meal_plan_meal_item_id ManualDetailId,manual_item.name ManualName,
+            manual_item.calories_kcal ManualCaloriesKcal,manual_item.protein_g ManualProteinG,
+            manual_item.carbs_g ManualCarbsG,manual_item.fat_g ManualFatG
         FROM meal_plan_days d JOIN meal_plan_day_meals m ON m.meal_plan_day_id=d.id
         JOIN meal_plan_meal_items i ON i.meal_plan_day_meal_id=m.id
         LEFT JOIN recipes r ON r.id=i.recipe_id
-        LEFT JOIN meal_plan_manual_items manual ON manual.meal_plan_meal_item_id=i.id
+        LEFT JOIN meal_plan_manual_items AS manual_item ON manual_item.meal_plan_meal_item_id=i.id
         WHERE d.user_id=@CurrentUserId AND d.plan_date BETWEEN @From AND @Through
         ORDER BY d.plan_date,m.sort_order,m.id,i.sort_order,i.id;
         """;
