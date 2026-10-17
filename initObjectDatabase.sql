@@ -1,6 +1,7 @@
--- Seed data for local and automated testing.
--- Run this after scriptDatabase.sql to patch the current schema shape
--- and load deterministic reference data used by the endpoint tests.
+-- DESTRUCTIVE LOCAL/TEST FIXTURES ONLY. Never run on Azure or an existing application database.
+-- Run after scriptDatabase.sql in a disposable database for endpoint tests.
+-- These small synthetic fixtures deliberately differ from the canonical development dataset.
+-- For the full 121-ingredient/1,699-recipe dataset, use the guarded data/tools workflow instead.
 
 USE appetee;
 SET sql_safe_updates = 0;

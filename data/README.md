@@ -114,6 +114,7 @@ Run from `data/tools`:
 npm test
 npm run validate
 npm run build
+npm run check:generated
 npm run db:reset:local
 npm run db:verify:local
 npm run images:sync:azure -- --dry-run
@@ -122,6 +123,16 @@ npm run images:verify:azure
 ```
 
 `db:reset:local` already runs validation and generation. Use the individual commands when changing or auditing the dataset without rebuilding MySQL.
+
+`check:generated` performs full validation and compares all four SQL files,
+both indexes and both reports with their expected generated content. It writes
+nothing, opens no database connection and tolerates Git's CRLF/LF checkout
+normalization. A stale or missing artifact fails the command.
+
+For a partial application schema (including Azure `appeteedatabase`), use the
+[forward-repair runbook](../migrations/README.md), not `generated/sql` or
+`initObjectDatabase.sql`. The latter contains small, destructive synthetic
+endpoint-test fixtures, not this canonical development corpus.
 
 See [`tools/README.md`](./tools/README.md) for command details, [`tools/database/README.md`](./tools/database/README.md) for the database safety contract, and [`tools/deployment/README.md`](./tools/deployment/README.md) for the Azure runbook.
 

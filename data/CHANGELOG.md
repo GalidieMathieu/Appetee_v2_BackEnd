@@ -1,5 +1,16 @@
 # Dataset Package Changelog
 
+## 0.6.0 maintenance — MySQL 8.4 schema recovery and artifact freshness
+
+- Preserved all 121 ingredients, 1,699 recipes, AVIF assets, seed identities,
+  nutrition, costs, historical provenance and media approvals.
+- Regenerated the canonical baseline after clarifying its destructive local/test
+  boundary. Removed stale documentation claiming the schema supports only three badges.
+- Added read-only `check:generated` validation for SQL, indexes and reports.
+- Added separate forward migration 011 for three absent application tables;
+  historical migrations remain immutable and the canonical corpus is not a repair seed.
+- Local verification results and Azure steps are recorded in `migrations/README.md`.
+
 ## 0.6.0 acceptance — End-to-end bootstrap and Azure verification
 
 - Verified validation, generation, destructive local reset, read-only database verification, tooling tests, and backend tests against the finalized dataset.

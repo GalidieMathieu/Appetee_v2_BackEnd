@@ -1,16 +1,26 @@
 # Generated SQL
 
-Run `npm run build` from `data/tools` to regenerate these files. Do not edit them manually.
+Run `npm run build` from `data/tools` to regenerate the four numbered SQL files. Do not edit them manually.
+Run `npm run check:generated` to validate the canonical dataset and check SQL, indexes and reports without writing files or contacting MySQL/Azure.
 
-Execute them in filename order for a local development reset: schema, reference data, ingredients, then recipes. Database execution itself is intentionally outside this dataset tooling task.
+Execute them only through the guarded local development reset, in filename order:
+schema, reference data, ingredients, then recipes. `01-schema.sql` drops application
+tables; the scripts target `USE appetee;`. They are not production migrations and
+must not be run against Azure `appeteedatabase` or an existing application database.
 
 ## Schema compatibility
 
-`01-schema.sql` is a generated, dataset-owned structure-only copy of the current
-backend schema. The approved dataset contract defines nine recipe badge values,
-while the current application schema and API support only three legacy slugs.
-The copy expands the database check constraint to the nine contract values so
-the generated seed corpus can load without weakening validation.
+`01-schema.sql` is an unmodified copy of repository `scriptDatabase.sql` plus a
+generated-file header. The current backend schema and dataset both support the
+nine canonical recipe badge values. The generator refuses a source schema
+missing that constraint; it does not secretly expand or relax it.
 
-Application/API support for the six additional values is deliberately outside
-this dataset task and remains a documented integration follow-up.
+All current application tables, including manual meal items, permissions and
+account-closure cleanup, are present in that baseline. Partial existing databases
+need the forward repair in [the migration runbook](../../../migrations/README.md),
+not a replay of this destructive bootstrap.
+
+The corpus remains 121 ingredients and 1,699 recipes. SQL stores nutrition,
+costs, relationships and deterministic Blob names; Blob Storage holds only image
+bytes. Existing provenance, historical price snapshots and private/test-only
+media approvals are unchanged. Regeneration is not a price or licensing refresh.
